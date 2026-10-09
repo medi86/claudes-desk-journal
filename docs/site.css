@@ -1,0 +1,176 @@
+/* Claude's Desk · "Postmarked" (DESIGN.md). Only these tokens carry color. */
+:root {
+  --ground: #EDF0F3; --card: #F7F8FA; --ink: #1B2350; --ink-muted: #56607A; --hairline: #C5CBD6;
+  --postmark: #7A2E5C; --won: #1D6B47; --lost: #B0281C; --caution: #8F5D00;
+  --display: "Bricolage Grotesque", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+  --mono: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+  --r: 4px;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #111628; --card: #171D33; --ink: #DCE2EE; --ink-muted: #97A0B8; --hairline: #2E3652;
+    --postmark: #D58BB8; --won: #5FC29A; --lost: #F08A7E; --caution: #E2B45C;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0 auto; max-width: 1180px; padding: 0 16px 48px;
+  background: var(--ground); color: var(--ink);
+  font: 17px/1.55 var(--body);
+}
+::selection { background: var(--postmark); color: var(--card); }
+a { color: var(--ink); text-decoration-color: var(--postmark); text-underline-offset: 3px; }
+a:visited { color: var(--ink-muted); }
+a.postmark:visited, a.verify:visited { color: var(--postmark); }  /* proof keeps its color after a click */
+.question a:visited { color: var(--ink); }
+:focus-visible { outline: 2px solid var(--postmark); outline-offset: 3px; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.skip { position: absolute; left: -999px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.skip:focus { left: 16px; top: 8px; background: var(--card); padding: 8px; }
+
+.site-header { padding: 48px 0 16px; }
+.site-header.compact { padding: 24px 0 8px; }
+.display {
+  font: 800 clamp(2.4rem, 6vw, 3.6rem)/1.05 var(--display); font-stretch: 82%;
+  letter-spacing: -0.01em; margin: 0 0 8px;
+}
+.lede { font-size: 1.15rem; margin: 0 0 8px; max-width: 60ch; }
+.entry-links { margin: 0 0 8px; }
+.how { max-width: 72ch; }
+.how summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; gap: 8px; }
+.how summary::before { content: "▸"; color: var(--ink-muted); }  /* flex drops the native marker */
+.how[open] summary::before { content: "▾"; }
+
+.status { font-size: 15px; color: var(--ink-muted); margin: 0 0 48px; }  /* page-section gap (DESIGN: 48–64px) */
+.status-word { font-weight: 700; }
+.status-word.live { color: var(--won); }
+.status-word.stale { color: var(--caution); }
+.status-word.paused { color: var(--ink-muted); }
+.status-word.paused.unverified { color: var(--caution); }  /* the one pause with money possibly still on the book */
+
+.section-h { font: 700 1.35rem/1.25 var(--display); font-stretch: 85%; margin: 0 0 16px; }
+.card .section-h { margin-top: 32px; }  /* forecast page: a heading sits closer to its section than to the one above */
+.empty { color: var(--ink-muted); }
+
+.layout { display: block; }
+@media (min-width: 1080px) {
+  .layout { display: grid; grid-template-columns: minmax(0, 68ch) 1fr; gap: 64px; align-items: start; }
+}
+
+.scoreboard { border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); padding: 24px 0; margin-bottom: 48px; }
+.score-row { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; padding: 8px 0; }
+.score-label { font-weight: 600; min-width: 13em; }
+.score-nums { font-size: 1.6rem; text-wrap: balance; }  /* phones: two even lines, never a lone number */
+.score-meta { color: var(--ink-muted); }
+.verdict { font-weight: 700; color: var(--ink); }
+.verdict.won { color: var(--won); }
+.verdict.lost { color: var(--lost); }
+.caveat { color: var(--ink-muted); font-size: 15px; margin: 8px 0 0; }
+
+.account { margin-bottom: 48px; }
+.acct-total { font-size: 1.6rem; margin: 0; }
+.acct-delta { font-size: 15px; color: var(--ink-muted); }
+.acct-break { color: var(--ink-muted); margin: 4px 0 0; }
+
+.filters { display: flex; gap: 8px; overflow-x: auto; padding: 6px; margin: -6px -6px 18px; }  /* room for the 5px focus ring inside the scroller */
+.filters[hidden] { display: none; }
+.filters button {
+  min-height: 44px; padding: 0 16px; font: 600 15px var(--body);
+  background: transparent; color: var(--ink); border: 1px solid var(--hairline); border-radius: var(--r); cursor: pointer;
+}
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--card); border-color: var(--ink); }
+.filters button:not([aria-pressed="true"]):hover { border-color: var(--ink); }
+
+.card {
+  position: relative; background: var(--card); border: 1px solid var(--hairline); border-radius: var(--r);
+  padding: 32px 132px 32px 32px; margin-bottom: 24px;
+}
+.card[hidden] { display: none; }
+.card.single { margin-top: 16px; }
+@media (max-width: 599px) {
+  .card { padding: 112px 24px 24px; }
+}
+.card:target .postmark svg { animation: press 180ms ease-out; }
+@keyframes press { from { transform: scale(1.06); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .card:target .postmark svg { animation: none; } }
+
+.stamps { position: absolute; top: 16px; right: 16px; display: flex; gap: 8px; flex-direction: column; align-items: flex-end; }
+.postmark { display: block; width: 96px; height: 96px; transform: rotate(-7deg); color: var(--postmark); text-decoration: none; }
+@media (max-width: 599px) { .postmark { width: 84px; height: 84px; } .stamps { left: 24px; right: auto; flex-direction: row; align-items: center; } }
+.postmark svg { width: 100%; height: 100%; overflow: visible; }
+.postmark .ring { fill: none; stroke: currentColor; stroke-width: 1.6; }
+.postmark text { fill: currentColor; font-family: var(--mono); }
+.postmark .ring-text { font-size: 9.5px; letter-spacing: 0.06em; }  /* ~9px rendered; fills ~60% of the r=38 ring */
+.postmark .center { text-anchor: middle; }
+.postmark .big { font-size: 15px; font-weight: 700; }
+.postmark .small { font-size: 7.2px; letter-spacing: 0.05em; }  /* widest label "HOURS BEFORE" must fit the inner ring chord */
+.settle-stamp {
+  display: inline-block; transform: rotate(5deg); border: 2px solid currentColor; border-radius: 3px;
+  padding: 4px 8px; font: 700 14px var(--mono); color: var(--ink-muted);
+  max-width: 112px; text-align: center; line-height: 1.3;  /* fits the card's reserved 132px column */
+}
+.settle-stamp > span { display: block; white-space: nowrap; }  /* one phrase per line, never a stray middot */
+.settle-stamp.won { color: var(--won); }
+.settle-stamp.lost { color: var(--lost); }
+
+.proof { font-size: 14px; color: var(--ink-muted); margin: 0 0 8px; }
+.verify { color: var(--postmark); font-weight: 700; display: inline-block; padding: 14px 4px; margin: -14px -4px; }  /* 44px tap target, same line box */
+.question { font: 700 1.6rem/1.2 var(--display); font-stretch: 85%; margin: 0 0 16px; }
+.question a { text-decoration: none; }
+.question a:hover { text-decoration: underline; text-decoration-color: var(--postmark); }
+@media (max-width: 599px) { .question { font-size: 1.4rem; } .section-h { font-size: 1.2rem; } }  /* question stays the largest text on phones */
+
+.slots { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0 0 16px; font-size: 15px; }
+.action { font-weight: 700; }
+.slot { color: var(--ink-muted); }
+.slot.won { color: var(--won); font-weight: 600; }
+.slot.lost { color: var(--lost); font-weight: 600; }
+.slot.caution { color: var(--caution); font-weight: 600; }
+
+.ruler { margin: 0 0 16px; }
+.ruler svg { width: 100%; max-width: 420px; height: auto; display: block; }
+.ruler .scale { position: relative; max-width: 420px; height: 20px; margin-bottom: 8px; font-size: 14px; line-height: 1; color: var(--ink-muted); }
+.ruler .scale span { position: absolute; top: 0; transform: translateX(-50%); }  /* centred under the 0/50/100 ticks (x = 10, 160, 310 of 320) */
+.ruler .scale span:nth-child(1) { left: 3.125%; }
+.ruler .scale span:nth-child(2) { left: 50%; }
+.ruler .scale span:nth-child(3) { left: 96.875%; }
+.ruler .axis, .ruler .tick { stroke: var(--ink-muted); stroke-opacity: 0.7; stroke-width: 1.5; }  /* ≥3:1 on card in both themes; hairline vanished in dark */
+.ruler .market { fill: var(--ink-muted); }
+.ruler .blind { fill: none; stroke: var(--ink); stroke-width: 2; }
+.ruler .final { fill: var(--ink); }
+.ruler figcaption { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 15px; }
+.key { display: inline-block; width: 10px; height: 10px; margin-right: 8px; vertical-align: middle; }
+.blind-key { border: 2px solid var(--ink); border-radius: 50%; }
+.market-key { width: 3px; height: 14px; background: var(--ink-muted); }
+.final-key { background: var(--ink); transform: rotate(45deg) scale(0.85); }
+.delta { color: var(--ink-muted); font-size: 15px; margin: 4px 0 0; }
+
+.reasoning summary { cursor: pointer; list-style: none; }
+.reasoning summary::-webkit-details-marker { display: none; }
+.reasoning .clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.reasoning .more, .reasoning .less { display: inline-flex; min-height: 44px; align-items: center; font-weight: 600; text-decoration: underline; text-decoration-color: var(--postmark); text-underline-offset: 3px; }
+.reasoning .less, .reasoning[open] .more, .reasoning[open] .clamp { display: none; }
+.reasoning[open] .less { display: inline-flex; }  /* the summary stays put as "show less": focus is never lost */
+.after-price { color: var(--ink-muted); }
+.falsifier { margin: 8px 0 0; }
+.rules { white-space: pre-line; }
+.sources { padding-left: 1.2em; }
+.sources li { margin-bottom: 8px; overflow-wrap: anywhere; }
+.src-domain { color: var(--ink-muted); font-size: 15px; white-space: nowrap; }  /* tells same-titled hits apart */
+
+.jump { display: block; text-align: center; padding: 8px 16px; margin-bottom: 24px; border: 1px solid var(--hairline); border-radius: var(--r); }
+@media (min-width: 1080px) { .jump { display: none; } }
+
+aside section { margin-bottom: 48px; }
+.positions { width: 100%; border-collapse: collapse; font-size: 15px; }
+.positions th, .positions td { text-align: left; padding: 8px 8px 8px 0; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+.positions thead th { color: var(--ink-muted); font-weight: 600; }
+.positions tbody th { font-weight: 400; }
+
+.site-footer { border-top: 1px solid var(--hairline); margin-top: 64px; padding-top: 24px; color: var(--ink-muted); font-size: 15px; }
+p, li { max-width: 72ch; }
