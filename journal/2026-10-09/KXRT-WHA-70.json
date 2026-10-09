@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-WHA-70",
+  "event": "KXRT-WHA",
+  "series": "KXRT",
+  "title": "Whalefall Rotten Tomatoes score? Above 70",
+  "rules": "If Whalefall has a Tomatometer score of above 70 on Oct 19, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-19T14:00:00+00:00",
+  "expected_close_time": "2026-10-19T14:00:00+00:00",
+  "forecast_at": "2026-10-09T15:29:10.407068+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.6",
+    "reasoning": "Early social reactions to Whalefall are described as largely positive but noticeably mixed: Austin Abrams' performance and the tension get praise, while several critics call the father-son material overly sentimental. Brian Duffield's two earlier films were well reviewed, and the studio's early-screening strategy suggests confidence. Mixed reactions before the embargo usually point to a Tomatometer in the 60s to low 80s, so above 70 is modestly more likely than not.",
+    "falsifier": "When the review embargo lifts on October 14, the Tomatometer opens in the 60s or lower and stays at or below 70 through Monday, October 19, with critics widely calling the film sappy or the whale premise silly.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6600",
+    "best_yes_ask": "0.6700",
+    "p_market": "0.6650"
+  },
+  "final": {
+    "p_yes": "0.63",
+    "action": "pass",
+    "reasoning": "The market at 0.665 is a little above my 0.60, and I nudge up to 0.63 in case it reflects information I didn't find. The remaining gap of about 3.5 points is too small to bet on, since the outcome depends on reviews that haven't been published yet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/whalefall",
+      "title": "Whalefall"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/whalefall/videos",
+      "title": "Whalefall - Trailers & Videos"
+    },
+    {
+      "url": "https://x.com/RottenTomatoes/status/2098092005138092171",
+      "title": "Rotten Tomatoes \ud83c\udf45 on X: \"Austin Abrams and Josh Brolin star in this new trailer for #Whalefall - in theaters on October 16.\" / X"
+    },
+    {
+      "url": "https://www.tiktok.com/@rottentomatoes/video/7649453511419153677",
+      "title": "Austin Abrams and Josh Brolin star in the first trailer for #Whalefall. In theaters on October 16. #austinabrams #movie #movietok #trailer"
+    },
+    {
+      "url": "https://pariflow.com/es/event/whalefall-rotten-tomatoes-score-20261019",
+      "title": "\"Whalefall\" Rotten Tomatoes Score?"
+    },
+    {
+      "url": "https://app.storyincmedia.com/projects/UHCKEmPd0MvpsWdOBqzJ",
+      "title": "Whalefall"
+    },
+    {
+      "url": "https://www.threads.com/@rottentomatoes/post/DdHTgxXgu2s/video-austin-abrams-and-josh-brolin-star-in-this-new-trailer-for-whalefall-in/",
+      "title": "Rotten Tomatoes (@rottentomatoes) on Threads"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/whalefall/",
+      "title": "Whalefall Reviews - Metacritic"
+    },
+    {
+      "url": "https://screendollars.com/movie/whalefall/",
+      "title": "Whalefall (2026) - Trailer, Cast & Plot Summary"
+    },
+    {
+      "url": "https://predxy.com/q/whalefall-rotten-tomatoes-score-whalefall-rotten-tomatoes-score-above-55",
+      "title": "Whalefall \u00b7 Rotten Tomatoes score: Whalefall Rotten Tomatoes score? \u2014 Above 55"
+    },
+    {
+      "url": "https://letterboxd.com/film/whalefall/",
+      "title": "\u200eWhalefall (2026) directed by Brian Duffield \u2022 Reviews, film + cast \u2022 Letterboxd"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/whalefall-first-reactions-austin-abrams-brian-duffield-1236716804/",
+      "title": "Austin Abrams\u2019 \u2018Whalefall\u2019: First Reactions"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/whalefall-brian-duffield-movie-1236619646/",
+      "title": "Whalefall: Brian Duffield Previews The Anticipated Movie"
+    },
+    {
+      "url": "https://letterboxd.com/brianduffield/film/whalefall/1/",
+      "title": "'Whalefall' review by Brian Duffield"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/8/19/whalefall-trailer-brian-duffields-whale-survival-thriller-a-little-ridiculous",
+      "title": "\u2018Whalefall\u2019 Trailer: Brian Duffield\u2019s Whale Survival Thriller Looks Ridiculous \u2014 World of Reel"
+    },
+    {
+      "url": "https://gizmodo.com/whalefall-movie-scientific-accuracy-brian-duffield-2000771135",
+      "title": "'Whalefall' Is, Unfortunately, as Scientifically Accurate as Possible"
+    },
+    {
+      "url": "https://comicbookmovie.com/horror/whalefall-social-media-reactions-range-from-tense-and-disgusting-to-tiresome-a230272",
+      "title": "Whalefall Social Media Reactions Range From \"Tense [And] Disgusting\" To \"Tiresome\""
+    },
+    {
+      "url": "https://theplaylist.net/whalefall-trailer-austin-abrams-brian-duffield-josh-brolin-20260910/",
+      "title": "\u2018Whalefall\u2019 Trailer: Austin Abrams Has One Hour To Escape A Sperm Whale In Brian Duffield\u2019s Survival Thriller"
+    },
+    {
+      "url": "https://www.movieinsider.com/m24353/whalefall",
+      "title": "Everything You Need to Know About Whalefall Movie (2026): Oct. 4, 2026 - set the parent rating to PG-13 for peril, violent content, bloody images, some strong language, and thematic content - Movie Insider"
+    },
+    {
+      "url": "https://www.whalefall.wiki/",
+      "title": "Whalefall Movie - Cast, Story & Release Date"
+    },
+    {
+      "url": "https://whenisthe.com/movies/whalefall.html",
+      "title": "Whalefall Release Date: October 16, 2026 \u2014 Countdown"
+    },
+    {
+      "url": "https://www.whalefall.wiki/release/Whalefall-2026",
+      "title": "Whalefall 2026: Release Date, Cast & Story Guide - Whalefall Wiki"
+    },
+    {
+      "url": "https://www.flixtrackr.com/articles/whalefall-release-date",
+      "title": "Whalefall Release Date"
+    },
+    {
+      "url": "https://watch.plex.tv/movie/whalefall",
+      "title": "Whalefall (2026) Release Date is October 14, 2026 - See the Cast, Videos, and More - Plex"
+    },
+    {
+      "url": "https://tvdocket.com/movies/whalefall/",
+      "title": "Whalefall Release Date: In Theaters October 16, 2026"
+    },
+    {
+      "url": "https://days.to/when-does/whalefall/come-out/2026",
+      "title": "When Does Whalefall Come Out? 16 October 2026 Release Date"
+    },
+    {
+      "url": "https://www.whalefall.wiki/release/Whalefall-movie-release-date",
+      "title": "Whalefall movie release date: October 15, 2026 Guide - Whalefall Wiki"
+    },
+    {
+      "url": "https://moviereleaseradar.com/movie/whalefall/",
+      "title": "Whalefall (2026) - Release Dates, Info & Trailers"
+    },
+    {
+      "url": "https://www.comicbasics.com/whalefall-first-reactions-are-in-austin-abrams-whale-gut-survival-thriller-is-being-called-a-claustrophobic-classic/",
+      "title": "'Whalefall' First Reactions Are In: Austin Abrams' Whale-Gut Survival Thriller Is Being Called a Claustrophobic Classic"
+    },
+    {
+      "url": "https://movies.mxdwn.com/news/first-reactions-for-austin-abrams-whalefall-have-hit-social-media/",
+      "title": "First Reactions For Austin Abrams' 'Whalefall' Have Hit Social Media - mxdwn Movies"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/whalefall-first-reactions-saying-same-123000236.html",
+      "title": "Whalefall\u2019s First Reactions Are Saying the Same Thing About Austin Abrams Movie"
+    },
+    {
+      "url": "https://movieweb.com/whalefall-first-reactions/",
+      "title": "Josh Brolin's New 98-Minute Thriller Hailed as a Jaw-Dropping Ride in Early Reactions"
+    },
+    {
+      "url": "https://www.comingsoon.net/movies/news/2202434-whalefall-first-reactions-austin-abrams-movie",
+      "title": "Whalefall\u2019s First Reactions Are Saying the Same Thing About Austin Abrams Movie"
+    },
+    {
+      "url": "https://fearhq.com/movies/whalefall-first-reactions-resident-evil-star-austin-abrams-shines-in-nerve-shredding-thriller-a10137",
+      "title": "Whalefall First Reactions: Resident Evil Star Austin Abrams Shines In \"Nerve-Shredding\" Thriller"
+    },
+    {
+      "url": "https://varietyindia.com/whalefall-first-reactions-austin-abrams-survival-thriller-draws-praise-for-its-tension-gore-and-emotional-core/",
+      "title": "'Whalefall' First Reactions: Austin Abrams\u2019 Survival Thriller Draws Praise For Its Tension, Gore And Emotional Core - Variety India"
+    },
+    {
+      "url": "https://www.filmofilia.com/whalefall-early-reactions-roundup-229204/",
+      "title": "Whalefall Reactions Praise Abrams but Split on Emotion"
+    },
+    {
+      "url": "https://www.koimoi.com/hollywood-news/whalefall-early-reviews-out-intense-rollercoaster-claustrophobic-classicaustin-abrams-survival-thriller-impresses-critics/",
+      "title": "Whalefall Early Reviews Out: \u201cIntense Rollercoaster\u201d & \u201cClaustrophobic Classic\u201d\u2014Austin Abrams Survival Thriller Impresses Critics"
+    },
+    {
+      "url": "https://www.goodreads.com/en/book/show/62919162-whalefall",
+      "title": "Whalefall by Daniel Kraus"
+    },
+    {
+      "url": "https://booksbonesbuffy.com/2023/08/24/whalefall-by-daniel-kraus-review/",
+      "title": "WHALEFALL by Daniel Kraus"
+    },
+    {
+      "url": "https://www.pastemagazine.com/books/daniel-kraus/whalefall-review",
+      "title": "Whalefall Review: Daniel Kraus's Best Horror Novel Yet"
+    },
+    {
+      "url": "https://megsbookrack.com/review-whalefall-by-daniel-kraus/",
+      "title": "Review: Whalefall by Daniel Kraus"
+    },
+    {
+      "url": "https://meepleandthemoose.com/2024/09/30/whalefall-book-review/",
+      "title": "Whalefall - Book Review - Meeple and the Moose"
+    },
+    {
+      "url": "https://screenrant.com/austin-abrams-whalefall-first-reactions/",
+      "title": "Austin Abrams' Survival Thriller Whalefall\u2019s First Reactions Are Officially In"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/06/whalefall-first-reactions-are-mixed-but-critics-are-praising-austin-abrams-performance-read-all-the-tweet-reviews/",
+      "title": "'Whalefall' First Reactions Are Mixed, But Critics Are Praising Austin Abrams Performance: Read All the Tweet Reviews"
+    },
+    {
+      "url": "https://www.motionpictures.org/2026/10/whalefall-first-reactions-austin-abrams-banner-year-continues-inside-60-ton-sperm-whale/",
+      "title": "\"Whalefall\" First Reactions: Austin Abrams' Banner Year Continues Inside a 60-Ton Sperm Whale - The Credits"
+    },
+    {
+      "url": "https://www.mandatory.com/news/1865101-whalefall-first-reactions-austin-abrams-movie",
+      "title": "Whalefall\u2019s First Reactions Are Saying the Same Thing About Austin Abrams Movie - Mandatory"
+    },
+    {
+      "url": "https://us.headtopics.com/news/austin-abrams-whalefall-first-reactions-88498447",
+      "title": "Austin Abrams\u2019 \u2018Whalefall\u2019: First Reactions"
+    },
+    {
+      "url": "https://www.newsbeep.com/us/872649/",
+      "title": "Whalefall First Reactons - United States News Beep"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "ticker": "KXNETFLIXRANKMOVIE-26OCT12-DOI",
+  "event": "KXNETFLIXRANKMOVIE-26OCT12",
+  "series": "KXNETFLIXRANKMOVIE",
+  "title": "Will Doing Life be Top US Netflix Movie on Oct 12, 2026?",
+  "rules": "If Doing Life is #1 on the Netflix Top 10 US Movie on the chart published on Oct 13, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The Netflix charts are updated on Tuesday. Therefore, the market will close at 11:59 PM ET the day before. The chart published on Oct 13, 2026 will be for the week ending the previous Sunday.\n\nThis market and these products have not been endorsed by Netflix. Any references to Netflix, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Netflix and Kalshi.",
+  "close_time": "2026-10-13T03:59:00+00:00",
+  "expected_close_time": "2026-10-13T03:59:00+00:00",
+  "forecast_at": "2026-10-09T15:29:10.407068+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.02",
+    "reasoning": "Doing Life debuted Oct 2 at only #3 globally with 9.3M views, far behind Unabomber's 24.9M, and coverage called it a disappointment. Unabomber appears to have led the US chart last week. Ben Affleck's big-budget thriller Animals premieres Oct 9, inside the Oct 5\u201311 chart week, and is the clear favorite for US #1. Doing Life would have to beat both films in its second weekend, which is very unlikely.",
+    "falsifier": "The Oct 13 Netflix US Top 10 movie chart lists Doing Life at #1, ahead of Animals and Unabomber.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4000",
+    "best_yes_ask": "0.4200",
+    "p_market": "0.4100"
+  },
+  "final": {
+    "p_yes": "0.18",
+    "action": "buy_no",
+    "reasoning": "The 41% price suggests traders see US-specific strength I can't verify, possibly from daily charts, so I raised my estimate from 2% to 18%. Ben Affleck's Animals premieres October 9 inside the chart week and remains the likely US #1. The market still looks too high on YES."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.4100",
+    "count": 1,
+    "cost": "0.5900",
+    "clamped_from": "0.18"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Doing_Life",
+      "title": "Doing Life"
+    },
+    {
+      "url": "https://tylerperry.com/tyler-perrys-next-netflix-film-doing-life-premieres-on-october-2nd/",
+      "title": "Tyler Perry\u2019s Next Netflix Film \u201cDoing Life\u201d Premieres on October 2nd \u2014 Watch The Trailer Now"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/news/doing-life-tyler-perry-netflix-movie-release-date/",
+      "title": "First Look at Tyler Perry\u2019s Next Netflix Movie 'Doing Life'; Coming in October 2026"
+    },
+    {
+      "url": "https://en.softonic.com/articles/tyler-perrys-doing-life-gets-netflix-release-date-october-2-2026",
+      "title": "Tyler Perry\u2019s Doing Life gets Netflix release date: October 2, 2026 - Softonic"
+    },
+    {
+      "url": "https://fictionhorizon.com/netflixs-doing-life-release-date-time-plot-cast-and-trailer/",
+      "title": "Netflix's 'Doing Life' Release Date, Time, Plot, Cast, and Trailer"
+    },
+    {
+      "url": "https://www.flickonclick.com/doing-life-netflix-movie-release-date/",
+      "title": "Doing Life Netflix Movie Release Date: Here's What To Know"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/tyler-perry-doing-life-netflix-205914260.html",
+      "title": "Tyler Perry\u2019s Doing Life Netflix Movie Trailer Unleashes a Gritty Story of Survival"
+    },
+    {
+      "url": "https://pixeltwelve.com/movies/doing-life-2026",
+      "title": "Doing Life (2026) \u2014 Naomi Baker, Jay Reeves and Netflix"
+    },
+    {
+      "url": "https://www.moviefone.com/news/netflix-top-10-movies-for-the-week-of-october-5-2026/",
+      "title": "Netflix Top 10 Movies for the Week of October 5, 2026"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-doing-life-disappoints-for-tyler-perry-the-gentlemen-season-2-has-very-long-legs/",
+      "title": "Netflix Top 10s: 'Doing Life' Disappoints for Tyler Perry, 'The Gentlemen' Season 2 Has Very Long Legs"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10",
+      "title": "Top 10 Movies on Netflix Right Now - Netflix Tudum"
+    },
+    {
+      "url": "https://technosports.co.in/netflix-top-10-why-tyler-perrys-doing-life-missed/",
+      "title": "Netflix Top 10 This Week: Doing Life Flops"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/top-10-september-28-2026",
+      "title": "Top 10 Movies and Shows on Netflix: Week of September 28, 2026 - Netflix Tudum"
+    },
+    {
+      "url": "https://www.macobserver.com/entertainment/doing-life-is-one-of-netflixs-biggest-movies-right-now-why-tyler-perrys-prison-drama-is-climbing-the-global-top-10/",
+      "title": "Doing Life Is One of Netflix\u2019s Biggest Movies Right Now: Why Tyler Perry\u2019s Prison Drama Is Climbing the Global Top 10"
+    },
+    {
+      "url": "https://www.tomsguide.com/entertainment/netflix/5-best-new-to-netflix-movies-and-shows-to-stream-this-week-sept-28-oct-4",
+      "title": "5 best new to Netflix movies and shows to stream this week (Sept. 28-Oct. 4)"
+    },
+    {
+      "url": "https://thewrap.com/creative-content/movies/unabomber-east-of-eden-netflix-top-10",
+      "title": "'Unabomber' Scores 24.9 Million Views on Netflix as 'East of Eden' Unseats 'Monster'"
+    },
+    {
+      "url": "https://www.aol.com/articles/tyler-perrys-drama-doing-life-040506000.html",
+      "title": "Tyler Perry's New Drama Doing Life Reaches No. 1 on Netflix - AOL"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10/united-states",
+      "title": "Top 10 Most Popular Movies on Netflix Right Now in United States - Netflix Tudum"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/netflix-october-2026-new-releases-movies-tv-1236718064/",
+      "title": "Netflix\u2019s New Releases Coming in October 2026"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-october-2026/",
+      "title": "Full List of What's Coming to Netflix in October 2026"
+    },
+    {
+      "url": "https://collider.com/netflix-action-movie-animals-ben-affleck-release-date-october-2026/",
+      "title": "Ben Affleck\u2019s New Netflix Thriller Officially Arrives October 9"
+    },
+    {
+      "url": "https://www.buzzfeed.com/alanna_marshall/best-new-netflix-movies-october-2026",
+      "title": "48 Best New Movies On Netflix To Watch: October 2026"
+    },
+    {
+      "url": "https://screenrant.com/netflix-october-2026-movies-watch-dont-miss/",
+      "title": "10 Movies Coming To Netflix In October 2026 You Don't Want To Miss (#2 Is An All-Time Great Crime Thriller)"
+    },
+    {
+      "url": "https://www.howtogeek.com/new-netflix-movies-to-watch-in-october-2026/",
+      "title": "5 new Netflix movies to watch in October"
+    },
+    {
+      "url": "https://www.indiewire.com/lists/best-new-movies-streaming-netflix-october-2026/",
+      "title": "The 7 Best New Movies Streaming on Netflix in October 2026"
+    },
+    {
+      "url": "https://www.thewrap.com/creative-content/movies/unabomber-east-of-eden-netflix-top-10/",
+      "title": "'Unabomber' Scores 24.9 Million Views on Netflix as 'East of Eden' Unseats 'Monster'"
+    },
+    {
+      "url": "https://www.cbr.com/netflix-unabomber-top-movies-chart-october-2026/",
+      "title": "Netflix's 107-Minute Crime Thriller Gets 24.9M Views Despite Abysmal Rating"
+    },
+    {
+      "url": "https://www.aol.com/articles/russell-crowe-netflix-movie-dominates-211400000.html",
+      "title": "Russell Crowe\u2019s Netflix Movie Dominates Streaming Charts With 24.9 Million Views - AOL"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-3-2026/",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 3, 2026"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/browse/movies_at_home/affiliates:netflix~sort:popular",
+      "title": "Best Movies on Netflix (2026)"
+    },
+    {
+      "url": "https://lapostadiario.com/del-unabomber-a-top-gun-maverick-el-top-10-de-peliculas-que-arrasa-en-netflix-estados-unidos/",
+      "title": "Del \u2018Unabomber\u2019 a \u2018Top Gun: Maverick\u2019: el Top 10 de pel\u00edculas que arrasa en Netflix Estados Unidos - La Posta Diario"
+    },
+    {
+      "url": "https://www.comingsoon.net/movies/news/2202862-russell-crowe-unabomber-netflix-24-9-million-views",
+      "title": "Russell Crowe's Netflix Movie Dominates Streaming Charts With 24.9 Million Views"
+    },
+    {
+      "url": "https://seat42f.com/netflix-top-10-movies-shows-october-2-2026/",
+      "title": "Netflix Top 10 This Week: Monster and UNABOMBER Lead"
+    }
+  ]
+}

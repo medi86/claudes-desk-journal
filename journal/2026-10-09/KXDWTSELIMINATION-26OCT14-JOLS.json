@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "ticker": "KXDWTSELIMINATION-26OCT14-JOLS",
+  "event": "KXDWTSELIMINATION-26OCT14",
+  "series": "KXDWTSELIMINATION",
+  "title": "Will Jackson Olson and their partner be eliminated from Dancing with the Stars Season 35 before Oct 14, 2026?",
+  "rules": "If Jackson Olson and their partner are officially eliminated from Dancing with the Stars Season 35 before Oct 14, 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nThe declaration must be made through official program broadcast, website, verified social media, or press releases.\nIf the season is canceled without declaring eliminations, the market resolves to No.\n\nPayout criteria\nElimination includes being voted off, evicted, knocked out, removed from further contention, voluntary withdrawal, disqualification, or producer removal.\nMultiple simultaneous eliminations count.\nInitial elimination counts even if the contestant later returns.\n\nDoesn't count for payout\nEliminations immediately reversed in the same episode don't count.\nTemporary suspensions, medical holds, or being runner-up in the finale don't count as elimination. \n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-14T03:59:00+00:00",
+  "expected_close_time": "2026-10-14T03:59:00+00:00",
+  "forecast_at": "2026-10-09T15:29:10.407068+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.08",
+    "reasoning": "Only one episode (Oct 13, Super Bowl Night) airs before the market closes, with 11 couples left and normally one elimination, so the base rate is about 9%. Olson's judges' scores are lower-middle (15, 18, 18), but he has survived four weeks and likely has a strong viewer vote from the Savannah Bananas fan base. No double elimination has been announced, so the estimate sits slightly below the uniform base rate.",
+    "falsifier": "Jackson Olson and Emma Slater are announced as eliminated on the October 13 Super Bowl Night episode, including through a surprise double elimination, or Olson withdraws before then.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2500",
+    "best_yes_ask": "0.2600",
+    "p_market": "0.2550"
+  },
+  "final": {
+    "p_yes": "0.12",
+    "action": "buy_no",
+    "reasoning": "The 25.5% market price suggests information I couldn't verify, such as a weak Week 4 result or a possible double elimination, so I raised my estimate from 8% to 12%. With only one episode left among 11 couples and Olson surviving four weeks, 25% still looks too high, so I'd buy NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.2600",
+    "count": 1,
+    "cost": "0.7400",
+    "clamped_from": "0.12"
+  },
+  "sources": [
+    {
+      "url": "https://deadline.com/2026/05/dwts-season-cast-35-savannah-bananas-jackson-olson-1236899625/",
+      "title": "Dancing With The Stars Season 35 Adds Savannah Bananas' Jackson Olson"
+    },
+    {
+      "url": "https://gohatters.com/news/2026/9/3/baseball-former-hatter-jackson-olson-set-to-compete-on-dancing-with-the-stars.aspx",
+      "title": "Former Hatter Jackson Olson Set to Compete on \u2018Dancing with the Stars\u2019 - Stetson University Athletics"
+    },
+    {
+      "url": "https://dancingwiththestars.fandom.com/wiki/Jackson_Olson",
+      "title": "Jackson Olson"
+    },
+    {
+      "url": "https://www.goodmorningamerica.com/culture/story/savannah-bananas-jackson-olson-joins-dancing-stars-season-132888241",
+      "title": "Savannah Bananas' Jackson Olson speaks out on joining 'DWTS' season 35 - Good Morning America"
+    },
+    {
+      "url": "https://abc11.com/19089713/",
+      "title": "Savannah Bananas' Jackson Olson joins 'Dancing With the Stars' season 35 - ABC11 Raleigh-Durham"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/06/who-went-home-on-dancing-with-the-stars-2026-week-4-mariah-carey-night-spoilers-revealed/",
+      "title": "Who Went Home on 'Dancing with the Stars' 2026 Week 4? 'Mariah Carey Night' Spoilers Revealed!"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-season-35-week-4-recap-who-was-eliminated",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35 Week 4 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.eonline.com/news/1436791/dancing-with-the-stars-eliminates-ciara-miller-brandon-armstrong-week-four",
+      "title": "Dancing With the Stars Eliminates Ciara Miller, Brandon Armstrong Week Four"
+    },
+    {
+      "url": "https://filmibeat.com/hollywood/news/2026/dancing-with-the-stars-season-35-elimination-resutls-dwts-2026-mariah-carey-night-scores-leaderboard-533647.html",
+      "title": "Dancing With The Stars 35 Week 4 Elimination: Who Got Evicted On Mariah Carey Night? DWTS 2026 Leaderboard Topper Is..."
+    },
+    {
+      "url": "https://abcnews.com/GMA/Culture/dancing-with-the-stars-season-35-who-is-eliminated/story?id=136377567",
+      "title": "'Dancing with the Stars' season 35: See who is eliminated - ABC News"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-mariah-carey-week-4-recap-scores-elimination-1236723985/",
+      "title": "DWTS Season 35 Mariah Carey Night Week 4 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-yacht-rock-week-3-recap-scores-elimination-1236714613/",
+      "title": "DWTS Season 35 Yacht Rock Night Week 3 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-viral-hits-week-2-recap-scores-elimination-1236707773/",
+      "title": "DWTS Season 35 Viral Hits Night Week 2 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-2-rcna599078",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Week 2: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-4-rcna600589",
+      "title": "Who Was Eliminated on \u2018DWTS\u2019 Week 4? See the Score Breakdown"
+    },
+    {
+      "url": "https://x.com/HollywoodLife/status/2105336853000065266",
+      "title": "HollywoodLife on X: \"Jackson Olson and Emma Slater received a total score of 18 out of 30 from the judges during Week 3 of \u2018Dancing with the Stars.\u2019 (\ud83d\udcf8: Courtesy of Disney)\" / X"
+    },
+    {
+      "url": "https://www.aol.com/articles/em-dancing-stars-em-emma-031200000.html",
+      "title": "<em>Dancing With the Stars</em>' Emma Slater Reacts to Judges' \"Stingy\" Scores - AOL"
+    },
+    {
+      "url": "https://www.aol.com/articles/viral-jackson-olson-emma-slater-194137000.html",
+      "title": "That Viral Jackson Olson and Emma Slater \u2018DWTS\u2019 Moment Wasn\u2019t Quite What It Looked Like - AOL"
+    },
+    {
+      "url": "https://www.tvinsider.com/gallery/dancing-with-the-stars-2026-prediction-season-35-power-rankings/",
+      "title": "'Dancing With the Stars' 2026 Predictions: Our Season 35 Power Rankings, Updated Weekly"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-3-rcna600549",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Week 3: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-season-35-week-3-recap-who-was-eliminated",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35 Week 3 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://deadline.com/2026/09/dancing-with-the-stars-season-35-week-3-yacht-rock-recap-1237111025/",
+      "title": "'Dancing With The Stars' Season 35, Week 3 Recap: Who Goes Home?"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "title": "Dancing with the Stars (American TV series) season 35"
+    },
+    {
+      "url": "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+      "title": "Dancing with the Stars Tickets, 2026-2027 Concert Tour Dates"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-theme-nights-2026-091110412.html",
+      "title": "Dancing with the Stars\u2019 theme nights 2026: Full Season 35 schedule"
+    },
+    {
+      "url": "https://abc.com/news/98f4bab4-757f-4f1a-a2e9-d392ff248d56/category/1138628",
+      "title": "'Dancing with the Stars' 2026 Cast Revealed!"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_34",
+      "title": "Dancing with the Stars (American TV series) season 34"
+    },
+    {
+      "url": "https://www.bochcenter.org/events/detail/dwts2026",
+      "title": "Dancing With The Stars: Live! - 2026 Tour"
+    },
+    {
+      "url": "https://www.timeout.com/usa/news/dancing-with-the-stars-2026-live-tour-dates-tickets-and-performers-100925",
+      "title": "Dancing with the Stars Live Tour 2026: Here Are the Dates, Tickets and Performers"
+    },
+    {
+      "url": "https://dwtstour.com/press/",
+      "title": "Press"
+    },
+    {
+      "url": "https://meaww.com/when-is-dancing-with-the-stars-season-35-super-bowl-night-october-13-hannah-brown-eliminated-voted-off-britt-stewart-amber-glenn",
+      "title": "'Dancing With the Stars' reveals historic new theme night for Season 35"
+    },
+    {
+      "url": "https://countryrebel.com/dancing-with-the-stars-list-of-themes-season-35/",
+      "title": "\"Dancing With The Stars\" Unveils Entire List Of Themed Dances For Season 35"
+    }
+  ]
+}
