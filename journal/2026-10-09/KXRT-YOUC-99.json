@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-YOUC-99",
+  "event": "KXRT-YOUC",
+  "series": "KXRT",
+  "title": "You Can See Everything Rotten Tomatoes score? Above 99",
+  "rules": "If You Can See Everything has a Tomatometer score of above 99 on Oct 19, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-19T14:00:00+00:00",
+  "expected_close_time": "2026-10-19T14:00:00+00:00",
+  "forecast_at": "2026-10-09T19:49:32.642442+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.3",
+    "reasoning": "The film currently sits at 100% on Rotten Tomatoes from about 22 reviews, with a 98 Metacritic score and no mixed or negative reviews. But resolution requires it to stay perfect through release week, when the review count will likely grow to around 100 or more. A long, ethically divisive Elizabeth Holmes documentary is likely to draw at least one negative review, and most festival darlings that open at 100% end up at 95-99%.",
+    "falsifier": "The film still shows 100% with 100+ reviews on Oct 19, 2026 (or, conversely, any single rotten review appearing before then confirms the NO lean).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2300",
+    "best_yes_ask": "0.2400",
+    "p_market": "0.2350"
+  },
+  "final": {
+    "p_yes": "0.26",
+    "action": "pass",
+    "reasoning": "The market at 23.5% is close to my estimate; traders likely see a more current review count than my 22-review snapshot, so I moved toward them. What's left is a gap of under three points, too small to act on given how uncertain the forecast is."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/you_can_see_everything",
+      "title": "You Can See Everything"
+    },
+    {
+      "url": "https://editorial.rottentomatoes.com/article/you-can-see-everything-first-reviews/",
+      "title": "You Can See Everything First Reviews: Riveting, Ambitious, Entertaining, and Absolutely Brilliant"
+    },
+    {
+      "url": "https://www.youcanseeeverything.wiki/reviews/You-Can-See-Everything-rotten-tomatoes",
+      "title": "You Can See Everything rotten tomatoes: 2026 Film Guide - You Can See Everything Wiki"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+      "title": "You Can See Everything"
+    },
+    {
+      "url": "https://x.com/FilmUpdates/status/2098544864724242869",
+      "title": "Film Updates on X: \"Nathan Fielder and Lance Oppenheim\u2019s \u2018YOU CAN SEE EVERYTHING\u2019 debuts with a perfect score of 100% on Rotten Tomatoes. Thirty-four days before she\u2019s sent to prison, Elizabeth Holmes invites a skeptical film crew to document her every move. In theaters this October.\" / X"
+    },
+    {
+      "url": "https://www.resetera.com/threads/you-can-see-everything-review-thread.1650322/",
+      "title": "You Can See Everything review thread Entertainment"
+    },
+    {
+      "url": "https://www.comicbasics.com/nathan-fielders-elizabeth-holmes-documentary-debuts-to-an-insane-rotten-tomatoes-score/",
+      "title": "Nathan Fielder\u2019s Elizabeth Holmes Documentary Debuts to an Insane Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://www.resetera.com/threads/you-can-see-everything-official-trailer-a24-oct-16-a-documentary-by-nathan-fielder-and-lance-oppenheim-featuring-elizabeth-holmes.1640974/page-3",
+      "title": "You Can See Everything"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/you-can-see-everything/",
+      "title": "You Can See Everything Reviews - Metacritic"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/you-can-see-everything/critic-reviews/",
+      "title": "You Can See Everything critic reviews - Metacritic"
+    },
+    {
+      "url": "https://nextbestpicture.com/you-can-see-everything/",
+      "title": "\"YOU CAN SEE EVERYTHING\" - Review"
+    },
+    {
+      "url": "https://www.fxoxo.com/333104/",
+      "title": "A24's 'You Can See Everything' Review Thread - F*XOXO"
+    },
+    {
+      "url": "https://deadline.com/2026/09/you-can-see-everything-release-date-1237107510/",
+      "title": "'You Can See Everything': Here's When A24 Is Releasing Documentary"
+    },
+    {
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-reviews/you-can-see-everything-nathan-fielder-elizabeth-holmes-doc-1235633117/",
+      "title": "You Are Not Ready for 'You Can See Everything'"
+    },
+    {
+      "url": "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/",
+      "title": "'You Can See Everything' Review: Nathan Fielder's Elizabeth Holmes Doc"
+    },
+    {
+      "url": "https://www.indiewire.com/criticism/movies/you-can-see-everything-review-nathan-fielder-1235215268/",
+      "title": "'You Can See Everything' Review: Nathan Fielder, Elizabeth Holmes Doc"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/9/25/nathan-fielders-elizabeth-holmes-doc-you-can-see-everything-is-rated-r-for-graphic-nudity-and-its-not-who-you-think",
+      "title": "Nathan Fielder's Elizabeth Holmes Doc \u2018You Can See Everything' Is Rated R for \u201cGraphic Nudity,\u201d and It's Not Who You Think \u2014 World of Reel"
+    },
+    {
+      "url": "https://variety.com/2026/film/columns/you-can-see-everything-oscars-best-picture-documentary-nathan-fielder-1236903457/",
+      "title": "Nathan Fielder's 'You Can See Everything' Eyes Oscars' Best Picture"
+    },
+    {
+      "url": "https://fortune.com/2026/10/02/you-can-see-everything-elizabeth-holmes-theranos-documentary-review/",
+      "title": "'You Can See Everything' will leave you strangely uncertain about Theranos's Elizabeth Holmes"
+    },
+    {
+      "url": "https://www.denofgeek.com/movies/you-can-see-everything-review-nathan-fiedler-elizabeth-holmes/",
+      "title": "You Can See Everything Review: Nathan Fielder Vanishes in Elizabeth Holmes\u2019 Looking Glass"
+    },
+    {
+      "url": "https://www.avclub.com/you-can-see-everything-review-nathan-fielder-elizabeth-holmes-documentary-lance-oppenheim",
+      "title": "Nathan Fielder's Elizabeth Holmes doc You Can See Everything will break your brain"
+    },
+    {
+      "url": "https://movieweb.com/you-can-see-everything-reviews/",
+      "title": "A24's Most Anticipated 2026 Movie Officially Confirms Surprise Rating After Earning Perfect Reviews"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/2027-oscars-best-picture-rotten-tomatoes-metacritic-scores/",
+      "title": "2027 Oscars Best Picture: Rotten Tomatoes, Metacritic scores ranked"
+    },
+    {
+      "url": "https://www.facebook.com/rottentomatoes/videos/you-can-see-everything-official-trailer/1063839656290145/",
+      "title": "237K views \u00b7 2.3K reactions"
+    },
+    {
+      "url": "https://consequence.net/2026/10/you-can-see-everything-review-nathan-fielder/",
+      "title": "Nathan Fielder\u2019s You Can See Everything Is a Reality-Splitting Masterpiece: Review"
+    },
+    {
+      "url": "https://www.screendaily.com/reviews/you-can-see-everything-review-disgraced-theranos-ceo-elizabeth-holmes-proves-a-slippery-subject-for-fascinating-documentary/5221147.article",
+      "title": "\u2018You Can See Everything\u2019 review: Disgraced Theranos CEO Elizabeth Holmes proves a slippery subject for fascinating documentary"
+    }
+  ]
+}
