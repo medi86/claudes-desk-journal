@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT09-TRUMA",
+  "event": "KXTRUMPMENTION-26OCT09",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during Midterm Rally in Syracuse, New York originally scheduled for October 9, 2026? Trump Account",
+  "rules": "If \n Donald Trump says Trump Account as part of Midterm Rally in Syracuse, New York originally scheduled for October 9, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Midterm Rally in Syracuse, New York originally scheduled for October 9, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Midterm Rally in Syracuse, New York originally scheduled for October 9, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-10-23T14:00:00+00:00",
+  "expected_close_time": "2026-10-23T14:00:00+00:00",
+  "forecast_at": "2026-10-09T15:11:28.327736+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.34",
+    "reasoning": "The Syracuse rally is confirmed for Oct 9, 2026 at the Oncenter, with remarks at 7 PM and an endorsement of Bruce Blakeman. Trump Accounts are a self-branded program that launched in 2026, and Trump sometimes includes them when he lists accomplishments. But his rally speeches lean heavily on immigration, tariffs, opponents and local politics, so the phrase is far from guaranteed. I couldn't verify how often he has used it at recent rallies, so this estimate rests on judgment about his speaking habits.",
+    "falsifier": "Trump saying 'Trump Accounts' while listing economic or family-related accomplishments during his Syracuse remarks, or evidence that he has been using it routinely at recent fall 2026 rallies.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3800",
+    "best_yes_ask": "0.3900",
+    "p_market": "0.3850"
+  },
+  "final": {
+    "p_yes": "0.36",
+    "action": "pass",
+    "reasoning": "The market's 38.5% midpoint is only slightly above my 34% estimate. It may reflect knowledge of recent rally usage that I couldn't check, so I move toward it a little. With a 2\u20133 point gap and weak evidence, there's no edge worth taking."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-syracuse-ny-president-donald-j-trump",
+      "title": "Midterm Rally in Syracuse, New York featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://cnycentral.com/news/local/president-trump-to-hold-midterm-rally-in-syracuse-on-oct-9-gop-says",
+      "title": "President Trump to hold midterm rally at Oncenter in Syracuse"
+    },
+    {
+      "url": "https://www.evesun.com/news/stories/2026-10-08/45748/President-Trump-welcomes-residents-to-Friday-rally-in-Syracuse:-How-to-register-and-prepare",
+      "title": "The Evening Sun"
+    },
+    {
+      "url": "https://www.whec.com/top-news/president-trump-set-to-visit-syracuse-on-friday-for-midterm-rally/",
+      "title": "President Trump set to visit Syracuse's convention center on Friday for midterm rally"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-hold-syracuse-rally-friday-105519828.html",
+      "title": "GOP: Trump to hold Syracuse rally Friday ahead of New York midterm elections"
+    },
+    {
+      "url": "https://cnycentral.com/newsletter-daily/president-trump-to-hold-midterm-rally-in-syracuse-on-oct-9-gop-says",
+      "title": "President Trump to hold midterm rally in Syracuse on Oct. 9, GOP says"
+    },
+    {
+      "url": "https://www.romesentinel.com/news/president-donald-trump-syracuse-ny-campaign-visit/article_cde77839-d092-462f-9cac-70057c4fc25a.html",
+      "title": "Trump to visit Syracuse for midterm rally"
+    },
+    {
+      "url": "https://wgna.com/president-trump-announces-syracuse-visit/",
+      "title": "Trump Confirms Syracuse Rally, But One Big Detail is Still Missing"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-promotes-investment-accounts-for-kids-at-georgia-high-school",
+      "title": "WATCH: Trump promotes investment accounts for kids at Georgia high school"
+    },
+    {
+      "url": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-holds-a-political-rally-in-rocky-mount-north-carolina-121925",
+      "title": "TRANSCRIPT: President Trump Holds a Political Rally in Rocky Mount, North Carolina, 12.19.25"
+    },
+    {
+      "url": "https://www.newsmax.com/newsfront/donald-trump-georgia-rally-investment-accounts/2026/07/22/id/1263753/",
+      "title": "Trump Rallies Around 'Trump Accounts' During Ga. Speech"
+    },
+    {
+      "url": "https://www.ajc.com/politics/2026/07/donald-trumps-policy-pitch-turns-into-a-georgia-campaign-rally/",
+      "title": "Trump in Atlanta: Policy pitch turns into a Georgia campaign rally"
+    },
+    {
+      "url": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-holds-a-political-rally-in-mount-pocono-pennsylvania_-12925",
+      "title": "TRANSCRIPT: President Trump Holds a Political Rally in Mount Pocono, Pennsylvania - 12.9.25"
+    },
+    {
+      "url": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-hosts-a-trump-account-launch-event-in-the-oval-office-7626",
+      "title": "TRANSCRIPT: President Trump Hosts a Trump Account Launch Event in the Oval Office, 7.6.26"
+    },
+    {
+      "url": "https://www.c-span.org/event/white-house-event/president-trump-remarks-on-launch-of-trump-accounts/444746",
+      "title": "President Trump Remarks on Launch of Trump Accounts"
+    },
+    {
+      "url": "https://www.c-span.org/program/white-house-event/president-trump-makes-announcement/686220",
+      "title": "President Trump Makes Announcement"
+    },
+    {
+      "url": "https://europesays.com/3297152",
+      "title": "The Latest: White House highlights Trump Accounts for kids amid frustrations over rising prices - EUROPE SAYS"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-vandalia-ohio-october-3-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Vandalia, Ohio - October 3, 2026"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/2026-republican-midterm-convention-night-1",
+      "title": "2026 Republican Midterm Convention Night 1"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-political-rally-mobile-alabama-october-2-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Addresses a Midterm Political Rally in Mobile, Alabama - October 2, 2026"
+    },
+    {
+      "url": "https://singjupost.com/transcript-president-trump-remarks-at-the-republican-midterm-convention-sept-9-2026/",
+      "title": "Transcript: President Trump Remarks at the Republican Midterm Convention"
+    },
+    {
+      "url": "https://singjupost.com/transcript-trumps-michigan-rally-speech-ahead-of-midterm-elections/",
+      "title": "Transcript: Trump\u2019s Michigan Rally Speech Ahead of Midterm Elections"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iAU8trvb_JI",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Vandalia, Ohio - October 3, 2026 - YouTube"
+    },
+    {
+      "url": "https://www.rev.com/category/donald-trump",
+      "title": "Donald Trump Transcripts"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4jjXCBItO7s",
+      "title": "TRUMP delivers POWERFUL MESSAGE at Nebraska Rally"
+    },
+    {
+      "url": "https://www.fox10tv.com/2026/10/02/watch-live-4pm-president-donald-trump-midterm-rally-mobile/",
+      "title": "President Donald Trump speaks at midterm rally in Mobile"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-rnc-midterm-convention-dallas-september-9-2026",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Addresses the RNC Midterm Convention in Dallas - September 9, 2026"
+    },
+    {
+      "url": "https://cnycentral.com/news/local/president-trump-in-syracuse-on-friday-how-law-enforcement-is-preparing",
+      "title": "President Trump in Syracuse on Friday; how law enforcement is preparing"
+    },
+    {
+      "url": "https://flackbroadcasting.com/news/president-trump-speaks-in-syracuse-tomorrow",
+      "title": "Flack Broadcasting - President Trump Speaks in Syracuse Tomorrow"
+    },
+    {
+      "url": "https://www.localsyr.com/news/local-news/prepping-for-the-president-how-to-prepare-to-go-see-donald-trump-at-the-oncenter-in-syracuse/",
+      "title": "Prepping for the president: How to prepare to go see Donald Trump at the Oncenter in Syracuse"
+    },
+    {
+      "url": "https://cnycentral.com/news/local/what-will-president-trump-say-in-syracuse-ai-already-knows-and-can-tell-us",
+      "title": "What will President Trump say in Syracuse? A.I. already knows and can tell us"
+    },
+    {
+      "url": "https://www.ms.now/news/trump-blakeman-hochul-new-york-governor-syracuse-midterms-elections-vote",
+      "title": "Trump heads to upstate New York to boost GOP turnout \u2014 but could energize Democrats, too"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-appear-syracuse-convention-center-215621674.html",
+      "title": "Trump to appear at Syracuse Convention Center"
+    },
+    {
+      "url": "https://dailyorange.com/2026/10/president-trump-to-visit-syracuse-back-blakemans-gubernatorial-campaign/",
+      "title": "President Trump to visit Syracuse, back Blakeman\u2019s campaign"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-speaks-at-rally-for-senate-candidate-ken-paxton-in-san-antonio",
+      "title": "WATCH: Trump speaks at rally for Senate candidate Ken Paxton in San Antonio"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6134518-trump-investment-accounts-socialism/",
+      "title": "Trump predicts 'Trump Accounts' will limit spread of socialism, communism"
+    },
+    {
+      "url": "https://www.militarynews.com/news/national/the-latest-white-house-highlights-trump-accounts-for-kids-amid-frustrations-over-rising-prices/article_58dc9434-b938-5dd0-a9da-e96e8c66b23a.html",
+      "title": "The Latest: White House highlights Trump Accounts for kids amid frustrations over rising prices"
+    },
+    {
+      "url": "https://cnbc.com/2026/10/08/trump-accounts-70-million-enrolled.html",
+      "title": "Trump Accounts hit 70 million enrolled. What parents need to know"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-announces-eligible-u-s-children-automatically-enrolled-in-trump-accounts",
+      "title": "WATCH: Trump announces eligible U.S. children automatically enrolled in Trump accounts"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/nation/your-child-may-be-automatically-enrolled-in-a-trump-account-heres-what-to-know",
+      "title": "Your child may be automatically enrolled in a Trump Account. Here's what to know"
+    },
+    {
+      "url": "https://abcnews.com/Politics/trump-announces-historic-enrollment-70-million-children-trump/story?id=137068917",
+      "title": "Trump announces 'historic' enrollment of 70 million children into Trump Accounts - ABC News"
+    },
+    {
+      "url": "https://thehill.com/business/6137340-trump-accounts-auto-enrollment-children/",
+      "title": "What to know about Trump Accounts as millions of American children gain automatic access"
+    },
+    {
+      "url": "https://www.foxbusiness.com/politics/trump-celebrates-automatic-enrollment-70-million-trump-accounts-children",
+      "title": "Trump celebrates automatic enrollment of 70M children's investment accounts"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/trump-says-polls-dont-account-one-thing-pledges-defeat-communists-once-all",
+      "title": "Trump claims polls don't account for him campaigning at Ohio rally"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7YdKnXuFvn4",
+      "title": "Daily Update: Violence At Trump Rally, Weirdness In The Oval, Stunningly Stupid Scandals, And More - YouTube"
+    },
+    {
+      "url": "https://fox17.com/news/nation-world/trump-to-tout-automatic-enrollment-in-70-million-kids-trump-accounts-under-18-investment-american-dream-financial-security-treasury-department-bessent-parent-guardian",
+      "title": "'This money is your child's future': Trump touts 70 million Trump Accounts"
+    },
+    {
+      "url": "https://www.atlantanewsfirst.com/2026/07/23/trump-promotes-trump-accounts-georgia-rally-weighs-statewide-races/",
+      "title": "Trump promotes \u2018Trump Accounts\u2019 at Georgia rally, weighs in on statewide races"
+    },
+    {
+      "url": "https://meidasnews.com/news/trump-caught-sharing-rally-hype-posts-from-foreign-based-accounts",
+      "title": "Trump Caught Sharing Rally Hype Posts From Foreign-Based Accounts - MeidasTouch"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-texas-senate-2026-midterm-election-congress-live-updates-rcna601953",
+      "title": "Trump speaks at rally for Senate candidate Ken Paxton in San Antonio"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-campaigning-ohio-says-midterms-will-bring-big-surprise-rcna601150",
+      "title": "Trump, campaigning in Ohio, says the midterms will bring a \u2018big surprise\u2019"
+    },
+    {
+      "url": "https://www.centralnebraskatoday.com/2026/10/06/president-donald-trump-speaks-at-midterm-rally-at-pinnacle-bank-expo-center-to-boost-campaigns-for-republican-candidates-including-u-s-sen-pete-ricketts-and-nebraska-gov-jim-pillen/",
+      "title": "President Donald Trump speaks at Midterm Rally at Pinnacle Bank Expo Center to boost campaigns for Republican candidates including U.S. Sen. Pete Ricketts and Nebraska Gov. Jim Pillen"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/trump-touts-golden-age-ohio-rally-urges-voters-deliver-gop-midterm-wins",
+      "title": "Trump touts \u2018golden age\u2019 at Ohio rally, urges voters to deliver GOP midterm wins"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-grand-island-nebraska-october-5-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Grand Island, Nebraska - October 5, 2026"
+    },
+    {
+      "url": "https://newrepublic.com/article/216377/trump-midterm-rallies-panic-republicans",
+      "title": "This Is What Trump Panic Looks Like"
+    }
+  ]
+}

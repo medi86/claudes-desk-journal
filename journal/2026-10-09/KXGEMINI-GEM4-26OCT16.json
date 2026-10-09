@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "ticker": "KXGEMINI-GEM4-26OCT16",
+  "event": "KXGEMINI-GEM4",
+  "series": "KXGEMINI",
+  "title": "Will Google release Gemini 4 before Oct 16, 2026?",
+  "rules": "If Google releases Gemini 4 before Oct 16, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Release must be to the public, outside of a closed beta, though limiting it to a high-cost subscription tier is acceptable.",
+  "close_time": "2026-10-16T03:59:00+00:00",
+  "expected_close_time": "2026-10-16T03:59:00+00:00",
+  "forecast_at": "2026-10-09T15:11:28.327736+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.4",
+    "reasoning": "Google announced Gemini 4 Argon on Sept 30, 2026, but only for a closed group of cyber defenders (Fairwind Program), which the rules exclude. Google says Ultra subscribers and paid API customers come 'soon', and has posted pricing and added Argon to its Cloud backend. Still, the release is gated by safety work and the US government's pre-release review, and there are only about 8 days left before October 16.",
+    "falsifier": "Google making Gemini 4 Argon available to Google AI Ultra subscribers or paid Gemini API/Vertex customers before Oct 16, 2026 (would make this forecast too low); or no expansion beyond Fairwind by Oct 16 (confirms lean NO).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.5000",
+    "best_yes_ask": "0.5100",
+    "p_market": "0.5050"
+  },
+  "final": {
+    "p_yes": "0.45",
+    "action": "buy_no",
+    "reasoning": "The midpoint of 0.505 pulled me up from 0.40 to 0.45, since the market may reflect leaks or Cloud backend signals I couldn't verify. Google has no confirmed public date and is gating the release on safety and government review, with about 8 days left, so I still lean slightly NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.5100",
+    "count": 1,
+    "cost": "0.4900",
+    "clamped_from": "0.45"
+  },
+  "sources": [
+    {
+      "url": "https://felloai.com/all-we-know-about-google-gemini-4/",
+      "title": "Gemini 4: Release Date, Argon Launch & Rumors"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet"
+    },
+    {
+      "url": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/",
+      "title": "Google says Gemini 4 release is coming 'as soon as possible'"
+    },
+    {
+      "url": "https://evolink.ai/blog/gemini-4-release-date",
+      "title": "Gemini 4 Argon Release Date: Who Can Use It?"
+    },
+    {
+      "url": "https://aiidelist.com/blog/gemini-4-argon-release-date",
+      "title": "Gemini 4 Argon Release Date: API, Ultra & Public Access"
+    },
+    {
+      "url": "https://thenextweb.com/news/gemini-4-release-kavukcuoglu-post-training",
+      "title": "Gemini 4 is in post-training and could ship before the end of 2026"
+    },
+    {
+      "url": "https://tech-insider.org/gemini-4-google-launch-deepmind-post-training-2026/",
+      "title": "Gemini 4 Argon Launches, Google Still Trails by 17 Points [2026]"
+    },
+    {
+      "url": "https://cellcog.ai/blog/gemini-4-release-date/",
+      "title": "Gemini 4 Argon: Release, Price and Access"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+      "title": "Google rolls out Gemini 4 Argon, its most advanced AI model"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html",
+      "title": "Google Gemini 4 arrives as Wall Street shifts to personal agents"
+    },
+    {
+      "url": "https://deepmind.google/models/gemini/",
+      "title": "Gemini \u2014 Google DeepMind"
+    },
+    {
+      "url": "https://www.producthunt.com/products/gemini-4-argon",
+      "title": "Gemini 4 Argon: Google's frontier model for careful reasoning & complex work"
+    },
+    {
+      "url": "https://www.vals.ai/models/google_gemini-4-argon",
+      "title": "Gemini 4 Argon Benchmarks, Cost and Capabilities"
+    },
+    {
+      "url": "https://neuraltrust.ai/blog/gemini-4-argon",
+      "title": "Gemini 4 Argon: Benchmarks, Pricing & Security (2026)"
+    },
+    {
+      "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+      "title": "Google announces Gemini 4 Argon as its new frontier model"
+    },
+    {
+      "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
+      "title": "Google's first Gemini 4 model is 'Argon' - Engadget"
+    },
+    {
+      "url": "https://smartscope.blog/en/blog/gemini-4-argon-access-introductory-pricing-2026/",
+      "title": "Gemini 4 Argon: Release Date, API Pricing, Google AI Ultra Availability, and Introductory Pricing Deadline - SmartScope"
+    },
+    {
+      "url": "https://nokiapoweruser.com/gemini-4-argon-release-date-grey-testing-features/",
+      "title": "Gemini 4 Argon Release Date Leaks, Grey Testing & Features - NPowerUser"
+    },
+    {
+      "url": "https://gemma4-ai.com/blog/gemini-4-argon-release",
+      "title": "Gemini 4 Argon Release and Access: What Google Confirmed"
+    },
+    {
+      "url": "https://felloai.com/gemini-4-argon/",
+      "title": "Gemini 4 Argon: Benchmarks, Price and Who Gets It"
+    },
+    {
+      "url": "https://www.callmissed.com/blog/gemini-api-availability-developer-draft-sep-30",
+      "title": "Gemini 4 API Availability: Argon Access and Model IDs"
+    },
+    {
+      "url": "https://lorphic.com/gemini-4-argon-pricing/",
+      "title": "Gemini 4 Argon Pricing, API Access and Availability (2026)"
+    },
+    {
+      "url": "https://www.geethantech.com/posts/google-gemini-4-argon-limited-access",
+      "title": "Gemini 4 Argon: Limited Access, Output Limit and API Pricing - GeethanTech"
+    },
+    {
+      "url": "https://apidog.com/blog/gemini-4-argon-api/",
+      "title": "Apidog"
+    },
+    {
+      "url": "https://nokiapoweruser.com/gemini-4-argon-google-cloud-release-imminent/",
+      "title": "Gemini 4 Argon Added to Google Cloud Vertex AI: Release Near - NPowerUser"
+    },
+    {
+      "url": "https://apimaster.ai/blog/gemini-4-argon-api",
+      "title": "Gemini 4 Argon API: Pricing, Benchmarks, Access and What Developers Can Use Today"
+    },
+    {
+      "url": "https://charonhub.deeplearning.ai/gemini-4-argons-benchmarks-and-availability/",
+      "title": "Data Points: Gemini 4 Argon\u2019s benchmarks and availability"
+    },
+    {
+      "url": "https://magai.co/gemini-4/",
+      "title": "Gemini 4 Argon: What It Is and Who Can Use It \u00b7 Magai"
+    },
+    {
+      "url": "https://www.rewarx.com/blogs/gemini-4-argon-release-date-api-pricing-and-full-token-limits-breakdown",
+      "title": "Gemini 4 Argon Release Date, API Pricing, and Full Token Limits Breakdown"
+    },
+    {
+      "url": "https://deepmind.google/fairwind-program/",
+      "title": "Fairwind Program \u2014 Google DeepMind"
+    },
+    {
+      "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
+      "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders - SecurityWeek"
+    },
+    {
+      "url": "https://x.com/Google/status/2105388148729553195",
+      "title": "Google on X: \"Gemini 4 Argon is rolling out to an initial cohort of cyber defenders through our Fairwind Program so they can leverage its full frontier-level cybersecurity defense capabilities. We'll continue to gather feedback from early testers as we iterate on guardrails before making Argon ava\u2026 / X"
+    },
+    {
+      "url": "https://tech-insider.org/google-gemini-4-argon-fairwind-cybersecurity-2026/",
+      "title": "Google Launches Gemini 4 Argon, Blocks Public Access [2026]"
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2105388084154056939",
+      "title": "Google DeepMind on X: \"Introducing Gemini 4 Argon"
+    },
+    {
+      "url": "https://betanews.com/article/gemini-4-argon-cyber-defenders-fairwind/",
+      "title": "Gemini 4 Argon rolls out to Fairwind cyber defenders first"
+    },
+    {
+      "url": "https://socfortress.medium.com/google-introduces-gemini-4-argon-8dd5575081e7",
+      "title": "Google Introduces Gemini 4 Argon. Cyber Defense and the Fairwind\u2026"
+    },
+    {
+      "url": "https://tbreak.com/gemini-4-argon-fairwind-release/",
+      "title": "Gemini 4 Argon release starts with cyber defenders"
+    },
+    {
+      "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+      "title": "Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think"
+    },
+    {
+      "url": "https://www.googally.com/blog/gemini-4-argon",
+      "title": "Gemini 4 Argon: What It Is and Who Can Use It"
+    },
+    {
+      "url": "https://x.com/i/trending/2107533424579776845",
+      "title": "Google Rolls Out Gemini 4 Argon for Advanced AI Tasks / X"
+    },
+    {
+      "url": "https://alphacorp.ai/blog/gemini-4-argon-launch-benchmarks-pricing-and-everything-you-need-to-know",
+      "title": "Gemini 4 Argon Launch: Benchmarks, Pricing, and Access"
+    }
+  ]
+}

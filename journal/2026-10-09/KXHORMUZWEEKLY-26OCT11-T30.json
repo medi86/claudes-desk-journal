@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "ticker": "KXHORMUZWEEKLY-26OCT11-T30",
+  "event": "KXHORMUZWEEKLY-26OCT11",
+  "series": "KXHORMUZWEEKLY",
+  "title": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 5, 2026 to Oct 11, 2026? Above 30",
+  "rules": "If the number of transit calls through the Strait of Hormuz as reported by the IMF PortWatch is above 30 from Oct 5, 2026 to Oct 11, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The total is calculated by summing daily counts from Oct 5, 2026 to Oct 11, 2026. The market will resolve no earlier than Tuesday at 9 AM following the end of the period, once complete data is available.",
+  "close_time": "2026-10-13T13:00:00+00:00",
+  "expected_close_time": "2026-10-13T13:00:00+00:00",
+  "forecast_at": "2026-10-09T15:11:28.327736+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.35",
+    "reasoning": "PortWatch has recently been recording about 2\u20134 Hormuz transits a day, which works out to roughly 21\u201328 a week, under the 30 threshold. Other AIS trackers show a modest pickup on Oct 5\u20137. Scaling their counts by the recent PortWatch ratio gives an estimate of about 25\u201330 for the week. Escalating Iranian attacks and threats to close more routes make a higher count less likely.",
+    "falsifier": "PortWatch publishes daily counts for Oct 5-11 averaging 4.5 or more a day (e.g., 6+ on Oct 5 and Oct 7), pushing the weekly total to 31 or more.",
+    "price_seen": true,
+    "price_sources": [
+      "https://straits.live/",
+      "https://farexio.com/en/events/strait-of-hormuz-traffic-normal-oct-2026-2"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1200",
+    "best_yes_ask": "0.1300",
+    "p_market": "0.1250"
+  },
+  "final": {
+    "p_yes": "0.22",
+    "action": "buy_yes",
+    "reasoning": "PortWatch has published nothing for October 5\u201311 yet, so traders lack official counts too. Other trackers show traffic up on October 5\u20137, and scaling those counts by the recent PortWatch ratio puts the week near 25\u201330, so landing above 30 is quite possible. I moved down from 35% toward the market given how thin that ratio is, but 22% is still above the 12.5% midpoint."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.1200",
+    "count": 1,
+    "cost": "0.1200",
+    "clamped_from": "0.22"
+  },
+  "sources": [
+    {
+      "url": "https://hormuz.now/",
+      "title": "Is the Strait of Hormuz Open? Live Status: Restricted"
+    },
+    {
+      "url": "https://straits.live/",
+      "title": "Strait of Hormuz Closed, Day 222"
+    },
+    {
+      "url": "https://www.globalmilitary.net/news/hormuz-transits-three-a-day-september-2026-gmn-data/",
+      "title": "Hormuz Transits Average Three a Day in Early September, 96% Below the 2025 Norm"
+    },
+    {
+      "url": "https://hormuz.now/traffic",
+      "title": "How Many Ships Crossed the Strait of Hormuz Today? Live Transit Count"
+    },
+    {
+      "url": "https://straits.live/today",
+      "title": "How many ships passed through the Strait of Hormuz today?"
+    },
+    {
+      "url": "https://straitofhormuz.report/today",
+      "title": "Ships Through Strait of Hormuz Today: ~3/day"
+    },
+    {
+      "url": "https://aegeanintel.com/data/series/strait-of-hormuz/",
+      "title": "SER-MAR-STRAIT-OF-HORMUZ - Aegean Intelligence Group"
+    },
+    {
+      "url": "https://hormuz.live.page/",
+      "title": "Is the Strait of Hormuz open? \u2014 Live status"
+    },
+    {
+      "url": "https://hormuz-tracker.pages.dev/",
+      "title": "Hormuz Tracker \u2014 Strait of Hormuz Intelligence Dashboard"
+    },
+    {
+      "url": "https://www.statista.com/chart/35984/ship-traffic-in-the-strait-of-hormuz/",
+      "title": "Chart: June and July Saw Moderate Ship Traffic in Strait of Hormuz"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-09",
+      "title": "Strait of Hormuz Status: October 9, 2026"
+    },
+    {
+      "url": "https://farexio.com/en/events/strait-of-hormuz-traffic-normal-oct-2026-2",
+      "title": "Will Hormuz Shipping Traffic Normalize by Oct 2026? \u2014 farexio"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-08",
+      "title": "Strait of Hormuz Status: October 8, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-07",
+      "title": "Strait of Hormuz Status: October 7, 2026"
+    },
+    {
+      "url": "https://insights.windward.ai/",
+      "title": "Strait of Hormuz"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-01",
+      "title": "Strait of Hormuz Status: October 1, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-05",
+      "title": "Strait of Hormuz Status: October 5, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-04",
+      "title": "Strait of Hormuz Status: October 4, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-03",
+      "title": "Strait of Hormuz Status: October 3, 2026"
+    },
+    {
+      "url": "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-october-7-2026",
+      "title": "Iran Shipping Update"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "title": "2026 Strait of Hormuz crisis"
+    },
+    {
+      "url": "https://hormuz.now/news",
+      "title": "Strait of Hormuz News Today: Latest Status Update (9 Oct 2026)"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-06",
+      "title": "Strait of Hormuz Status: October 6, 2026"
+    },
+    {
+      "url": "https://tankermap.com/analytics/straits/hormuz",
+      "title": "Strait of Hormuz - Tanker Traffic - Daily Transits & Tonnage"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/8/the-hormuz-bonus-sailor-salaries-soar-for-transits-amid-iran-war",
+      "title": "The Hormuz bonus: Sailor salaries soar for transits amid Iran war"
+    },
+    {
+      "url": "https://www.newsnow.com/us/World/Middle+East/Iran/Strait+of+Hormuz",
+      "title": "Strait of Hormuz News"
+    },
+    {
+      "url": "https://www.newsnow.co.uk/h/World+News/Middle+East/Iran/Strait+of+Hormuz",
+      "title": "Strait of Hormuz News"
+    },
+    {
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+      "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump"
+    },
+    {
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Hits-Two-Month-Low-as-Attacks-Surge.html",
+      "title": "Hormuz Tanker Traffic Hits Two-Month Low as Attacks Surge"
+    },
+    {
+      "url": "https://www.jpost.com/israel-news/article-911058",
+      "title": "Iran says Strait of Hormuz may reopen within a week as Tehran weighs US response"
+    },
+    {
+      "url": "https://www.marketcrash.net/strait-of-hormuz-oil-transits",
+      "title": "Is the Strait of Hormuz Open? Live Tanker Traffic Today (2026)"
+    },
+    {
+      "url": "https://straits.live/vessels",
+      "title": "Strait of Hormuz Live Vessel Map & AIS Manifest"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/indicators/ship-traffic-through-the-suez-canal",
+      "title": "Ship traffic through the Suez Canal"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-26",
+      "title": "Strait of Hormuz Status: September 26, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-30",
+      "title": "Strait of Hormuz Status: September 30, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-27",
+      "title": "Strait of Hormuz Status: September 27, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-06",
+      "title": "Strait of Hormuz Status: September 6, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-29",
+      "title": "Strait of Hormuz Status: September 29, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-09",
+      "title": "Strait of Hormuz Status: September 9, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-21",
+      "title": "Strait of Hormuz Status: September 21, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-20",
+      "title": "Strait of Hormuz Status: September 20, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-25",
+      "title": "Strait of Hormuz Status: September 25, 2026"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-09-11",
+      "title": "Strait of Hormuz Status: September 11, 2026"
+    }
+  ]
+}

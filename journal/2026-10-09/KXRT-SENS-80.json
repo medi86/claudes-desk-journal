@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-SENS-80",
+  "event": "KXRT-SENS",
+  "series": "KXRT",
+  "title": "Sense and Sensibility Rotten Tomatoes score? Above 80",
+  "rules": "If Sense and Sensibility has a Tomatometer score of above 80 on Oct 19, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-19T14:00:00+00:00",
+  "expected_close_time": "2026-10-19T14:00:00+00:00",
+  "forecast_at": "2026-10-09T15:11:28.327736+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.33",
+    "reasoning": "With 39 reviews, mostly from UK critics, the film sits at 79% on Rotten Tomatoes, and it has stayed between 75% and 82% since its debut. A 7.0/10 average and a Metacritic score of 72 point to a final score right around 80. To resolve YES, the page needs to show at least 81%, so the incoming US reviews would have to be noticeably more positive than the UK ones. That could happen, but it is less likely than not.",
+    "falsifier": "The US release on Oct 16 brings a wave of mostly positive American reviews that lifts the displayed Tomatometer to 81% or higher by the morning of Oct 19.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3300",
+    "best_yes_ask": "0.3500",
+    "p_market": "0.3400"
+  },
+  "final": {
+    "p_yes": "0.33",
+    "action": "pass",
+    "reasoning": "The market's 0.34 midpoint is almost exactly my independent estimate of 0.33, so the price doesn't give me a reason to change my view. The gap is too small to justify a bet either way."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/sense_and_sensibility_2026",
+      "title": "Sense and Sensibility (2026)"
+    },
+    {
+      "url": "https://editorial.rottentomatoes.com/article/daisy-edgar-jones-says-sense-and-sensibility-will-offer-something-new/",
+      "title": "Daisy Edgar-Jones Says Sense and Sensibility Will Offer \u2018Something New\u2019"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/sense_and_sensibility_2026/videos/IARuy06JZmd2",
+      "title": "Sense and Sensibility: Daisy Edgar-Jones' Excitement for Sense and Sensibility"
+    },
+    {
+      "url": "https://www.yardbarker.com/entertainment/articles/daisy_edgar_jones_sense_and_sensibility_starts_strong_with_80_rotten_tomatoes_score/s1_17785_44332003",
+      "title": "Daisy Edgar-Jones\u2019 \u2018Sense and Sensibility\u2019 Starts Strong With 80% Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://movieweb.com/sense-and-sensibility-2026-rotten-tomatoes-score/",
+      "title": "Remake of Jane Austen's Classic 215-Year-Old Novel Debuts to Solid Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://readysteadycut.com/2026/10/03/sense-and-sensibility-2026-review/",
+      "title": "Sense and Sensibility (2026) Review - A Superb Jane Austen Adaptation"
+    },
+    {
+      "url": "https://readdork.com/film/sense-and-sensibility-2026-review-review-ae9c27b9",
+      "title": "Sense and Sensibility review: Daisy Edgar-Jones leads a sombre Austen \u2014 etc."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sense_and_Sensibility_(2026_film)",
+      "title": "Sense and Sensibility (2026 film)"
+    },
+    {
+      "url": "https://www.empireonline.com/movies/reviews/sense-and-sensibility-2026/",
+      "title": "Sense And Sensibility (2026) review: A handsome but derivative take on Jane Austen"
+    },
+    {
+      "url": "https://www.goldderby.com/film/2026/sense-and-sensibility-rotten-tomatoes-metacritic-review-roundup/",
+      "title": "Critics say new 'Sense and Sensibility' doesn't match Ang Lee's classic"
+    },
+    {
+      "url": "https://screenrant.com/sense-and-sensibility-rotten-tomatoes-score-debut/",
+      "title": "New Remake Of Kate Winslet\u2019s 31-Year-Old Adaptation Debuts To Solid Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://collider.com/sense-and-sensibility-2026-rotten-tomatoes-score-is-it-good/",
+      "title": "'Outlander' Star\u2019s New Jane Austen Movie Officially Scores Major Win"
+    },
+    {
+      "url": "https://www.cbr.com/sense-and-sensibility-rotten-tomatoes-score/",
+      "title": "Universal\u2019s 132-Minute Jane Austen Classic Adaptation Called \u201cEnchanting and Beautiful\u201d"
+    },
+    {
+      "url": "https://www.threads.com/@rottentomatoes/post/Ddjf_fxCV3_/video-the-first-reviews-are-in-for-sense-and-sensibility-currently-its-fresh-at-on/",
+      "title": "Rotten Tomatoes (@rottentomatoes) on Threads"
+    },
+    {
+      "url": "https://janeausten.co.uk/blogs/jane-in-the-news/what-are-people-saying-about-sense-and-sensibility-2026",
+      "title": "What are people saying about Sense and Sensibility (2026)? - Jane Austen articles and blog"
+    },
+    {
+      "url": "https://www.purewow.com/entertainment/sense-and-sensibility-2026-review",
+      "title": "'Sense and Sensibility' 2026 Review - PureWow"
+    },
+    {
+      "url": "https://www.thewrap.com/creative-content/movies/sense-and-sensibility-2026-review-daisy-edgar-jones/",
+      "title": "Sense and Sensibility Review: Daisy Edgar-Jones Version Is a Delight"
+    },
+    {
+      "url": "https://www.flickeringmyth.com/movie-review-sense-and-sensibility-2026/",
+      "title": "Movie Review"
+    },
+    {
+      "url": "https://www.rendyreviews.com/movie-reviews/sense-and-sensibility-review",
+      "title": "\u2018Sense and Sensibility\u2019 Review: A Beautiful Austen Reimagining for a New Generation"
+    },
+    {
+      "url": "https://www.filmfocusonline.com/post/sense-and-sensibility-2026-review",
+      "title": "'Sense and Sensibility' (2026) Review: A Charming and Beautifully Crafted Adaptation - Film Focus Online"
+    },
+    {
+      "url": "https://variety.com/2026/film/reviews/sense-and-sensibility-review-1236871039/",
+      "title": "'Sense and Sensibility' Review: Moody, Naturalistic Spin on a Classic"
+    },
+    {
+      "url": "https://geekvibesnation.com/sense-and-sensibility-2026-review/",
+      "title": "'Sense And Sensibility' (2026) Review - More Than Sensible, This Film Is Splendid"
+    }
+  ]
+}

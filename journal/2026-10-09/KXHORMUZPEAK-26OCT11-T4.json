@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "ticker": "KXHORMUZPEAK-26OCT11-T4",
+  "event": "KXHORMUZPEAK-26OCT11",
+  "series": "KXHORMUZPEAK",
+  "title": "Will the highest single-day number of transit calls through the Strait of Hormuz be more than 4 from Oct 5, 2026 to Oct 11, 2026? Above 4",
+  "rules": "If the highest single-day number of transit calls through the Strait of Hormuz as reported by the IMF PortWatch is above 4 from Oct 5, 2026 to Oct 11, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The Expiration Value is determined by identifying the highest single-day count from Oct 5, 2026 to Oct 11, 2026. The market will resolve no earlier than Tuesday at 9 AM following the end of the period, once complete data is available.",
+  "close_time": "2026-10-13T13:00:00+00:00",
+  "expected_close_time": "2026-10-13T13:00:00+00:00",
+  "forecast_at": "2026-10-09T15:11:28.327736+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.71",
+    "reasoning": "Daily IMF PortWatch transit counts for Hormuz have been 0-8 recently, and the weekly maximum exceeded 4 in 4 of the last 5 weeks, though the most recent week topped out at exactly 4. An independent tracker (hormuz.now) counted 17 crossings on Oct 5, its highest in a month, and on comparable busy days PortWatch has typically recorded 4-8. A surge in tanker attacks is pushing traffic down and keeps meaningful NO risk.",
+    "falsifier": "PortWatch publishes daily counts for Oct 5-11 that all come in at 4 or below, e.g. if attacks deter traffic or PortWatch's AIS-based count stays well below other trackers on Oct 5.",
+    "price_seen": true,
+    "price_sources": [
+      "https://straits.live/"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8500",
+    "best_yes_ask": "0.8900",
+    "p_market": "0.8700"
+  },
+  "final": {
+    "p_yes": "0.82",
+    "action": "pass",
+    "reasoning": "On a closer look, hormuz.now's count of 17 for Oct 5 maps to more than 4 on PortWatch even at the low end of recent ratios, so I raised my estimate toward the market. The remaining gap of about 3 points against the 0.85 bid is too small to bet NO, given the uncertainty in translating proxy counts into PortWatch numbers."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://hormuz.now/",
+      "title": "Is the Strait of Hormuz Open? Live Status: Restricted"
+    },
+    {
+      "url": "https://straits.live/",
+      "title": "Strait of Hormuz Closed, Day 222"
+    },
+    {
+      "url": "https://www.globalmilitary.net/news/hormuz-transits-three-a-day-september-2026-gmn-data/",
+      "title": "Hormuz Transits Average Three a Day in Early September, 96% Below the 2025 Norm"
+    },
+    {
+      "url": "https://hormuz.now/traffic",
+      "title": "How Many Ships Crossed the Strait of Hormuz Today? Live Transit Count"
+    },
+    {
+      "url": "https://straits.live/today",
+      "title": "How many ships passed through the Strait of Hormuz today?"
+    },
+    {
+      "url": "https://straitofhormuz.report/today",
+      "title": "Ships Through Strait of Hormuz Today: ~3/day"
+    },
+    {
+      "url": "https://aegeanintel.com/data/series/strait-of-hormuz/",
+      "title": "SER-MAR-STRAIT-OF-HORMUZ - Aegean Intelligence Group"
+    },
+    {
+      "url": "https://hormuz.live.page/",
+      "title": "Is the Strait of Hormuz open? \u2014 Live status"
+    },
+    {
+      "url": "https://hormuz-tracker.pages.dev/",
+      "title": "Hormuz Tracker \u2014 Strait of Hormuz Intelligence Dashboard"
+    },
+    {
+      "url": "https://www.statista.com/chart/35984/ship-traffic-in-the-strait-of-hormuz/",
+      "title": "Chart: June and July Saw Moderate Ship Traffic in Strait of Hormuz"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/08/business/oil-diesel-prices-tanker-attacks-hormuz-intl",
+      "title": "Oil prices jump amid record tanker attacks in Hormuz"
+    },
+    {
+      "url": "https://insights.windward.ai/",
+      "title": "Strait of Hormuz"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
+      "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable",
+      "title": "Hormuz ship attacks surge: Are increased oil exports sustainable?"
+    },
+    {
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Hits-Two-Month-Low-as-Attacks-Surge.html",
+      "title": "Hormuz Tanker Traffic Hits Two-Month Low as Attacks Surge"
+    },
+    {
+      "url": "https://aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+      "title": "Oman evacuates injured crew from attacked tanker in Strait of Hormuz"
+    },
+    {
+      "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-after-first-hormuz-attack-in-october",
+      "title": "Tanker catches fire after first Hormuz attack in October"
+    },
+    {
+      "url": "https://cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz",
+      "title": "Trump promises not to resume strikes before midterm elections"
+    },
+    {
+      "url": "https://www.emirates247.com/world/strait-of-hormuz-transits-hit-2-month-low-after-tanker-attacks-shipping-data-shows/6483",
+      "title": "Strait of Hormuz Transits Hit 2-Month Low After Tanker Attacks, Shipping Data Shows - Emirates 24|7"
+    },
+    {
+      "url": "https://www.thenationalnews.com/business/2026/10/08/hormuz-traffic-hits-lowest-level-in-two-months-as-tanker-attacks-surge/",
+      "title": "Hormuz traffic hits lowest level in two months as tanker attacks surge"
+    },
+    {
+      "url": "https://www.investing.com/news/commodities-news/hormuz-transits-at-lowest-in-over-two-months-after-attacks-data-shows-4937851",
+      "title": "Hormuz transits at lowest in over two months after attacks, data shows By Reuters"
+    },
+    {
+      "url": "https://www.arabnews.com/middle-east/hormuz-transits-at-lowest-in-over-two-months-after-attacks-data-shows-3005180",
+      "title": "Arab News"
+    },
+    {
+      "url": "https://tass.com/world/2199195",
+      "title": "Ship transit through Strait of Hormuz falls to two-month low \u2014 Reuters - World - TASS"
+    },
+    {
+      "url": "https://www.yahoo.com/news/world/articles/hormuz-transits-lowest-over-two-033853575.html",
+      "title": "Hormuz transits at lowest in over two months after attacks, data shows"
+    },
+    {
+      "url": "https://news.az/news/ship-traffic-through-hormuz-hits-two-month-low",
+      "title": "Ship traffic through Hormuz hits two-month low"
+    },
+    {
+      "url": "https://www.tradewindsnews.com/tankers/strait-of-hormuz-crossings-at-lowest-level-in-two-months-after-spate-of-attacks/2-1-2055482?zephr_sso_ott=m1aGWf",
+      "title": "Strait of Hormuz crossings at lowest level in two months after spate of attacks"
+    },
+    {
+      "url": "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-october-8-2026",
+      "title": "Iran Shipping Update"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-08",
+      "title": "Strait of Hormuz Status: October 8, 2026"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/27/how-a-95-percent-drop-in-hormuz-traffic-changed-global-shipping",
+      "title": "How a 95 percent drop in Hormuz traffic changed global shipping"
+    },
+    {
+      "url": "https://straits.live/briefs/2026-10-09",
+      "title": "Strait of Hormuz Status: October 9, 2026"
+    },
+    {
+      "url": "https://tankermap.com/analytics/straits/hormuz",
+      "title": "Strait of Hormuz - Tanker Traffic - Daily Transits & Tonnage"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "title": "2026 Strait of Hormuz crisis"
+    }
+  ]
+}
