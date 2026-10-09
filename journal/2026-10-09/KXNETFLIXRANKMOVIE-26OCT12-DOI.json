@@ -174,5 +174,21 @@
       "url": "https://seat42f.com/netflix-top-10-movies-shows-october-2-2026/",
       "title": "Netflix Top 10 This Week: Monster and UNABOMBER Lead"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "51e773df800a882f1de17552a7f5ed568d2d172d",
+    "pushed_at": "2026-10-09T15:36:32Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXNETFLIXRANKMOVIE-26OCT12-DOI-51e773df800a",
+    "thesis_commit": "51e773df800a882f1de17552a7f5ed568d2d172d",
+    "status": "resting",
+    "order_id": "01a1214f-17d0-7da5-95ce-6fdf1e4f15bd",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
