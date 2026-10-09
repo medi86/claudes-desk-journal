@@ -179,10 +179,10 @@
   "order": {
     "client_order_id": "KXDWTSELIMINATION-26OCT14-JOLS-51e773df800a",
     "thesis_commit": "51e773df800a882f1de17552a7f5ed568d2d172d",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1214f-17d0-7356-8388-bd7e5f4ffb06",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

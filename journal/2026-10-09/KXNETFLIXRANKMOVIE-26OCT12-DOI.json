@@ -183,10 +183,10 @@
   "order": {
     "client_order_id": "KXNETFLIXRANKMOVIE-26OCT12-DOI-51e773df800a",
     "thesis_commit": "51e773df800a882f1de17552a7f5ed568d2d172d",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1214f-17d0-7da5-95ce-6fdf1e4f15bd",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"
