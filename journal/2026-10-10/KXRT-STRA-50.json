@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-STRA-50",
+  "event": "KXRT-STRA",
+  "series": "KXRT",
+  "title": "Street Fighter Rotten Tomatoes score? Above 50",
+  "rules": "If Street Fighter has a Tomatometer score of above 50 on Oct 19, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-19T14:00:00+00:00",
+  "expected_close_time": "2026-10-19T14:00:00+00:00",
+  "forecast_at": "2026-10-10T00:44:52.906232+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.48",
+    "reasoning": "Recent video-game adaptations cluster around 40-60% on Rotten Tomatoes. Earlier Street Fighter films scored very poorly, but this one has a comedy-minded director, trailers that were well received for leaning into the game's campy energy, and enthusiastic cast comments. With no critic reviews found before forecasting, it's roughly a coin flip, leaning slightly below the 50% line.",
+    "falsifier": "Reviews published before or on release weekend that put the Tomatometer clearly above 60% (or clearly below 40%) by Oct 19, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6400",
+    "best_yes_ask": "0.6500",
+    "p_market": "0.6450"
+  },
+  "final": {
+    "p_yes": "0.57",
+    "action": "pass",
+    "reasoning": "The market at 64.5% sits well above my 48% estimate, and traders may have early critic reactions I couldn't access, so I moved up to about 57%. The remaining gap is small relative to that information disadvantage, so I won't bet against the price."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/street_fighter_2026",
+      "title": "Street Fighter (2026)"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/street-fighter-2026/",
+      "title": "Street Fighter Reviews - Metacritic"
+    },
+    {
+      "url": "https://screenrant.com/street-fighter-2026-movie-reboot-early-review-glowing-noah-centineo/",
+      "title": "Street Fighter's 2026 Reboot Gets Glowing Early Review From Ken Actor With Tease Of \u201c100s Of Easter Eggs\u201d"
+    },
+    {
+      "url": "https://letterboxd.com/film/street-fighter-2026/",
+      "title": "Street Fighter (2026) directed by Kitao Sakurai \u2022 Film + cast"
+    },
+    {
+      "url": "https://www.slashfilm.com/2280346/street-fighter-2026-movie-box-office-preview/",
+      "title": "Can Street Fighter Succeed Where Mortal Kombat Failed At The Box Office? - SlashFilm"
+    },
+    {
+      "url": "https://screenrant.com/street-fighter-movie-most-fun-2026-blockbuster-movie-remaining/",
+      "title": "Street Fighter Looks Like The Most Fun Blockbuster Movie 2026 Still Has To Offer"
+    },
+    {
+      "url": "https://www.nintendolife.com/news/2026/04/the-street-fighter-movie-somehow-looks-both-terrible-and-amazing",
+      "title": "The Street Fighter Movie Somehow Looks Both Terrible And Amazing"
+    },
+    {
+      "url": "https://movieweb.com/street-fighter-2-movie-sequel-director-kitao-sakurai/",
+      "title": "Street Fighter 2 Status Officially Confirmed By Director Before New Movie Drops"
+    },
+    {
+      "url": "https://manofmany.com/entertainment/movies-tv/street-fighter-movie-trailer-2026",
+      "title": "Street Fighter 2026 Trailer: Release Date, Cast and First Look"
+    },
+    {
+      "url": "https://www.themovieblog.com/2026/09/paramount-pictures-announces-street-fighter-movie-release/",
+      "title": "Paramount Pictures Announces Street Fighter Movie Release Date"
+    },
+    {
+      "url": "https://www.streetfightermovie.com/",
+      "title": "Street Fighter"
+    },
+    {
+      "url": "https://www.movieinsider.com/m21582/street-fighter",
+      "title": "Everything You Need to Know About Street Fighter Movie (2026): Sep. 21, 2026 - added Bringing the Iconic Game Moves to Life to trailers and videos - Movie Insider"
+    },
+    {
+      "url": "https://successknocks.com/street-fighter-movie-2026/",
+      "title": "Street Fighter Movie 2026: Everything You Need to Know Before It Hits Theaters - Success Knocks"
+    },
+    {
+      "url": "https://inews.zoombangla.com/street-fighter-movie-october-2026-release-playable-trailer/",
+      "title": "Street Fighter movie sets an October 2026 date after a playable trailer experiment"
+    },
+    {
+      "url": "https://tvdocket.com/movies/street-fighter/",
+      "title": "Street Fighter Release Date: In Theaters October 16, 2026"
+    },
+    {
+      "url": "https://drawpie.com/blog/street-fighter-movie-2026-cast-guide/",
+      "title": "Street Fighter Movie 2026: Full Cast, Character Guide, Trailer & Release Date"
+    },
+    {
+      "url": "https://beebom.com/street-fighter-movie/",
+      "title": "Street Fighter Movie 2026: Release Date, Cast, Trailer, and More"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/1058516-street_fighter",
+      "title": "Street Fighter"
+    },
+    {
+      "url": "https://editorial.rottentomatoes.com/gallery/video-game-movies-by-tomatometer/streetfighter-2/",
+      "title": "streetfighter"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/street_fighter_assassins_fist",
+      "title": "Street Fighter: Assassin's Fist"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/street_fighter_the_legend_of_chun_li",
+      "title": "Street Fighter: The Legend of Chun-Li"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/street-fighter-alpha-generations",
+      "title": "Street Fighter Alpha"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/10006588-street_fight",
+      "title": "Street Fight"
+    },
+    {
+      "url": "https://www.tiktok.com/@rottentomatoes/video/7629346747294305549",
+      "title": "Noah Centineo, Andrew Koji - Street Fighter Movie First Look"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/street_fighter_alpha_the_movie_1999",
+      "title": "Street Fighter Alpha: The Movie (1999)"
+    },
+    {
+      "url": "https://twitter.com/RottenTomatoes/status/1806397112747217043",
+      "title": "Rotten Tomatoes \ud83c\udf45 on X: \"Sony's live-action #StreetFighter movie will release in theaters on March 20, 2026. https://t.co/TteeuDiuGc\" / X"
+    },
+    {
+      "url": "https://www.imdb.com/news/ni65616603/",
+      "title": "Street Fighter Fans Are Having The Same Reaction To The First Trailer"
+    },
+    {
+      "url": "https://www.slashfilm.com/2050311/street-fighter-fans-same-reaction-first-trailer/",
+      "title": "Street Fighter Fans Are Having The Same Reaction To The First Trailer - SlashFilm"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/street-fighter-movie-unexpected-twist-174950520.html",
+      "title": "Street Fighter Movie Has an Unexpected Twist on Ryu & Ken\u2019s Backstory That Fans Are Loving"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/street-fighter-fans-having-same-165636340.html",
+      "title": "Street Fighter Fans Are Having The Same Reaction To The First Trailer"
+    },
+    {
+      "url": "https://www.superherohype.com/movies/698580-street-fighter-bts-ryu-ken-flashbacks-surprising-twist",
+      "title": "Street Fighter Movie Has an Unexpected Twist on Ryu & Ken\u2019s Backstory That Fans Are Loving - Comic Book Movies and Superhero Movie News - SuperHeroHype"
+    },
+    {
+      "url": "https://kotaku.com/street-fighter-movie-trailer-game-awares-eric-andre-2000653027",
+      "title": "The Street Fighter Movie Is Going To Be Weirder Than You Think"
+    },
+    {
+      "url": "https://steamcommunity.com/app/1364780/discussions/0/3838801285237194190/",
+      "title": "Do we know when the review embargo ends? :: Street Fighter\u2122 6 General Discussions"
+    },
+    {
+      "url": "https://archive.supercombo.gg/t/street-fighter-v-review-embargo/177832?page=4",
+      "title": "Street Fighter V Review Embargo - Street Fighter V - Shoryuken Forums Archive"
+    },
+    {
+      "url": "https://twistedvoxel.com/street-fighter-6-review-embargo-details/",
+      "title": "Street Fighter 6 Review Embargo Details Revealed"
+    },
+    {
+      "url": "https://www.thewrap.com/top-games-street-fighter-6-steam-sellers/",
+      "title": "'Street Fighter 6' Enters Top 10 PC Game Sellers Ahead of Launch"
+    },
+    {
+      "url": "https://www.resetera.com/threads/street-fighter-6-review-prediction-thread-for-metacritic.723870/page-2",
+      "title": "Street Fighter 6"
+    },
+    {
+      "url": "https://www.forbes.com/sites/paultassi/2023/05/30/street-fighter-6-reviews-are-in-and-they-are-incredible/",
+      "title": "\u2018Street Fighter 6\u2019 Reviews Are In, And They Are Incredible"
+    },
+    {
+      "url": "https://gameranx.com/updates/id/467297/article/street-fighter-6-called-best-in-the-series-by-reviewers/",
+      "title": "Street Fighter 6 Called Best In The Series By Reviewers - Gameranx"
+    },
+    {
+      "url": "https://shapes.inc/fandom/street-fighter/controversies",
+      "title": "Street Fighter Controversies & Major Debates"
+    },
+    {
+      "url": "https://droidfeats.com/new-fortnite-street-fighter-movie-skins-face-fan-backlash/",
+      "title": "New Fortnite Street Fighter Movie Skins Face Fan Backlash"
+    },
+    {
+      "url": "https://www.ibtimes.co.uk/street-fighter-live-action-movie-teaser-debuts-game-awards-fans-go-wild-first-footage-reveal-1762670",
+      "title": "'Street Fighter' Live Action Movie Teaser Debuts at Game Awards \u2014 Fans Go Wild for First Footage Reveal"
+    },
+    {
+      "url": "https://www.boredpanda.com/callina-liang-chun-li-street-fighte-physique-unusual-detail/",
+      "title": "Hollywood Actress\u2019 Physique Breaks Internet As Fans Zoom In On Unusual Detail: \u201cDon\u2019t Have Time To Photoshop\u201d"
+    },
+    {
+      "url": "https://www.el-balad.com/6793082",
+      "title": "Mortal Kombat Producer Responds to Street Fighter Cast\u2019s Sharp Criticism - El-Balad.com"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/street_fighter_2026/videos/0m7q98QD0XHv",
+      "title": "Street Fighter: Street Fighter: First Look - Blanka vs. Ryu"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/street_fighter_2026/cast-and-crew",
+      "title": "Street Fighter"
+    },
+    {
+      "url": "https://www.coinbase.com/en-mx/predictions/event/KXRT-STRA",
+      "title": "Street Fighter \u00b7 Rotten Tomatoes score"
+    },
+    {
+      "url": "https://comicbook.com/movies/news/street-fighter-movie-rating-confirms-how-different-it-is-from-mortal-kombat-continues-a-32-year-trend/",
+      "title": "Street Fighter Movie Rating Confirms How Different It Is From Mortal Kombat & Continues a 32-Year Trend - ComicBook.com"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/browse/movies_coming_soon/genres:action~sort:critic_highest",
+      "title": "Upcoming Action Movies Coming Soon (2026)"
+    },
+    {
+      "url": "https://x.com/RottenTomatoes/status/1963687088672448888",
+      "title": "Rotten Tomatoes \ud83c\udf45 on X: \"The #StreetFighter live-action movie will officially release in theaters on October 16, 2026. The full cast has been revealed: Noah Centineo as Ken Masters Andrew Koji as Ryu Callina Liang as Chun-Li Cody Rhodes as Guile Orville Peck as Vega Curtis \u201c50 Cent\u201d Jackson as B\u2026 / X"
+    },
+    {
+      "url": "https://rollingstonephilippines.com/culture/film/andrew-koji-ryu-street-fighter-interview/",
+      "title": "Andrew Koji is Ready to Make His Mark in 'Street Fighter'"
+    },
+    {
+      "url": "https://www.philstar.com/entertainment/2026/10/08/2561770/noah-centineo-reveals-co-star-andrew-koji-diehard-street-fighter-fan",
+      "title": "Noah Centineo reveals co-star Andrew Koji as diehard 'Street Fighter' fan"
+    },
+    {
+      "url": "https://uinterview.com/news/as-legendary-fighting-game-street-fighter-hits-theaters-star-noah-centineo-director-kitao-sakurai-explain-the-backstories/",
+      "title": "As Legendary Fighting Game 'Street Fighter' Hits Theaters, Star Noah Centineo & Director Kitao Sakurai Explain The Backstories - uInterview"
+    },
+    {
+      "url": "https://discussingfilm.net/2026/10/09/street-fighter-movie-2d-animation/",
+      "title": "'Street Fighter' Reveals 2D Animated Flashbacks (EXCLUSIVE)"
+    },
+    {
+      "url": "https://bleedingcool.com/movies/street-fighter-a-brotherhood-forged-behind-the-scenes-featurette/",
+      "title": "Street Fighter: \"A Brotherhood Forged\" Behind-the-Scenes Featurette"
+    }
+  ]
+}

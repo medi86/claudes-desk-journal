@@ -1,0 +1,252 @@
+{
+  "schema": 1,
+  "ticker": "KXBABELMANDEBWEEKLY-26OCT11-T175",
+  "event": "KXBABELMANDEBWEEKLY-26OCT11",
+  "series": "KXBABELMANDEBWEEKLY",
+  "title": "Will there be more than 175 transit calls through the Bab el-Mandeb Strait from Oct 5, 2026 to Oct 11, 2026? Above 175",
+  "rules": "If the number of transit calls through the Bab el-Mandeb Strait as reported by the IMF PortWatch is above 175 from Oct 5, 2026 to Oct 11, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The total is calculated by summing daily counts from Oct 5, 2026 to Oct 11, 2026. The market will resolve no earlier than Tuesday at 9 AM following the end of the period, once complete data is available.",
+  "close_time": "2026-10-13T13:00:00+00:00",
+  "expected_close_time": "2026-10-13T13:00:00+00:00",
+  "forecast_at": "2026-10-10T00:44:52.906232+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.72",
+    "reasoning": "Lloyd's List counted roughly 270 transits a week through Bab el-Mandeb in late July, and traffic was reportedly recovering further in September, so a normal week should clear 175 comfortably. The main risk is the Houthi escalation: they now control Yemen's whole Red Sea coast, have renewed missile attacks, and took new action around Oct 8. That could cut traffic sharply during this week. Gaps in PortWatch's AIS ship-tracking data are a smaller extra risk.",
+    "falsifier": "IMF PortWatch daily Bab el-Mandeb transit counts for Oct 5-11, 2026 summing to 175 or fewer, e.g. because of a Houthi closure declaration or a major attack that sends ships back around the Cape.",
+    "price_seen": true,
+    "price_sources": [
+      "https://polym.trade/event/how-many-ships-transit-bab-el-mandeb-strait-week-of-august-17-1786700461690",
+      "https://willhappen.ai/p/imf-portwatch-records-a-7-day-moving-average-of-10-or-fewer-tran-1iqb"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8600",
+    "best_yes_ask": "0.8700",
+    "p_market": "0.8650"
+  },
+  "final": {
+    "p_yes": "0.82",
+    "action": "pass",
+    "reasoning": "The market's 0.865 likely reflects partial PortWatch data for Oct 5-11 that I couldn't see, so I moved up from 0.72 to 0.82. The remaining gap is small, and my main doubt is the unconfirmed Houthi escalation, so the edge is too thin to bet NO."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://willhappen.ai/p/imf-portwatch-records-a-7-day-moving-average-of-10-or-fewer-tran-1iqb",
+      "title": "IMF PortWatch records a 7-day moving average of 10 or fewer transit calls in the Bab el-Mandeb Strait by September 30, 2026. \u2014 8% say yes"
+    },
+    {
+      "url": "https://redanalysis.org/2026/10/08/houthis-bab-el-mandeb-maritime-transport/",
+      "title": "The Houthis, Bab el-Mandeb, and Maritime Transport \u2022 The Red Team Analysis Society"
+    },
+    {
+      "url": "https://straitupmaritime.com/bab-el-mandeb/live/",
+      "title": "Bab el-Mandeb Live: Real-Time Vessel Tracking Map"
+    },
+    {
+      "url": "https://portwatch.imf.org/pages/eventc1000000",
+      "title": "eventc1000000"
+    },
+    {
+      "url": "https://tankermap.com/analytics/straits/bab-el-mandeb",
+      "title": "Bab el-Mandeb - Tanker Traffic - Daily Transits & Tonnage"
+    },
+    {
+      "url": "https://atlasinstitute.org/trade-under-pressure-the-houthi-threat-to-the-bab-el-mandeb-strait/",
+      "title": "Trade Under Pressure: The Houthi Threat to the Bab el-Mandeb Strait"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-6-august-2026",
+      "title": "Red Sea Brief: 6 August 2026"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-13-august-2026",
+      "title": "Red Sea Brief: 13 August 2026"
+    },
+    {
+      "url": "https://www.shiptraffic.net/marine-traffic/straits/Bab_el_Mandeb_Strait",
+      "title": "BAB EL MANDEB STRAIT SHIPS MARINE TRAFFIC LIVE MAP"
+    },
+    {
+      "url": "https://cryptonews.com/news/polymarket-bab-al-mandeb-strait-betting-odds/",
+      "title": "Polymarket Bab el-Mandeb Closure Market Explained"
+    },
+    {
+      "url": "https://polym.trade/event/how-many-ships-transit-bab-el-mandeb-strait-week-of-august-17-1786700461690",
+      "title": "How many ships transit Bab el-Mandeb Strait week of August 17? \u2014 Polymarket odds"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-30-july-2026",
+      "title": "Red Sea Brief: 30 July, 2026"
+    },
+    {
+      "url": "https://tankermap.com/news/bab-el-mandeb-transits-drop-after-fresh-red-sea-threats",
+      "title": "Saudi-linked Red Sea transits reappear, but Bab el-Mandeb tanker flows remain sparse \u2014 TankerMap"
+    },
+    {
+      "url": "https://www.ukmto.org/-/media/ukmto/products/update-082-jmic-advisory-note-09-august.pdf?rev=3f264c5bd28247a0a6ce7f4fad49cfce",
+      "title": "1 1. Confirmed Maritime Security Incidents List since last report Date Vessel"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/world/avgpt-of-ships-transiting-bab-el-mandeb-strait-end-of-august-1785517679415",
+      "title": "Bab el-Mandeb Strait Ship Transit Average: End of August"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/thought-leadership/blogs/number-of-crude-tankers-transiting-bab-el-mandeb-rebounds-to-normal-level",
+      "title": "Crude Tankers Transiting Bab El Mandeb Return to Normal Levels"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-1-october-2026",
+      "title": "Red Sea Brief - 1 October 2026"
+    },
+    {
+      "url": "https://africacenter.org/spotlight/2026-houthi-red-sea-threats/",
+      "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/1/yemens-houthis-deny-plan-to-charge-ships-transiting-red-sea",
+      "title": "Yemen\u2019s Houthis deny plan to charge ships transiting Red Sea"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast",
+      "title": "Can the Houthis close the Red Sea after seizing the Yemen coast?"
+    },
+    {
+      "url": "https://www.cfr.org/articles/another-hormuz-the-red-seas-threat-to-the-global-economy",
+      "title": "Another Hormuz? What to Know About the Houthi Threat to the Red Sea"
+    },
+    {
+      "url": "https://theconversation.com/a-new-houthi-front-and-expanded-iranian-attacks-risk-sinking-gulf-nations-choke-point-workaround-and-widening-shipping-risks-288218",
+      "title": "A new Houthi front and expanded Iranian attacks risk sinking Gulf nations\u2019 choke-point workaround and widening shipping risks"
+    },
+    {
+      "url": "https://globaloilshock.com/en/red-sea-crisis-fuel-prices/",
+      "title": "Is Bab el-Mandeb Closed? Red Sea Fuel Status, 3 Oct 2026"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-18-september-2026",
+      "title": "Red Sea Brief: 18 September 2026"
+    },
+    {
+      "url": "https://sherafy.com/bab-el-mandeb-closure-houthis-mokha/",
+      "title": "What Happens if Bab el-Mandeb Closes? Houthi Threat Explained"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-3-september-2026",
+      "title": "Red Sea Brief: 3 September 2026"
+    },
+    {
+      "url": "https://www.seatrade-maritime.com/security/houthi-threat-brings-bab-el-mandeb-crossings-down-another-50-",
+      "title": "Houthi threat brings Bab El-Mandeb crossings down another 50%"
+    },
+    {
+      "url": "https://www.cnn.com/2026/09/11/business/bab-al-mandeb-strait-houthi-global-economy",
+      "title": "The Bab al-Mandeb Strait, a lifeline for the global economy, is in jeopardy"
+    },
+    {
+      "url": "https://xindemarinenews.com/news/2081654527855202306",
+      "title": "Around 1,400 Ship Transits This Month as Traffic Through Hormuz Falls by 90% and Bab el-Mandeb Slows Sharply"
+    },
+    {
+      "url": "https://carraglobe.com/red-sea-carrier-return-2026/",
+      "title": "Red Sea Shipping 2026: Carriers Return as the Risk Rises - Carra Globe"
+    },
+    {
+      "url": "https://www.zencargo.com/resources/red-sea-reopening-2026/",
+      "title": "Red Sea Shipping 2026: How will the Suez Canal reopening affect your supply chain"
+    },
+    {
+      "url": "https://www.searates.com/blog/post/suez-canal-and-red-sea-shipping-in-2026-risks-routes-and-operational-impact",
+      "title": "Suez Canal and Red Sea Shipping in 2026: Risks, Routes, and Operational Impact"
+    },
+    {
+      "url": "https://seaprince.ae/blog/rising-pressure-on-red-sea-transit-5/red-sea-shipping-in-2026-what-the-suez-canal-recovery-really-means-for-your-cargo-30",
+      "title": "Red Sea Shipping 2026: Suez Canal Recovery Explained"
+    },
+    {
+      "url": "https://www.bertling.com/news-pool/blog/suez-canal/",
+      "title": "Suez Canal Set for a Comeback in 2026"
+    },
+    {
+      "url": "https://mykn.kuehne-nagel.com/news/article/maersk-sees-full-suez-canal-return-by-2026-as",
+      "title": "Maersk sees full Suez Canal return by 2026 as Red Sea conditions improve"
+    },
+    {
+      "url": "https://cxtms.com/blog/suez-canal-return-carriers-red-sea-freight-rates-impact-2026",
+      "title": "Suez Canal Return Begins: How Carriers' Gradual Red Sea Comeback Will Reshape Freight Rates in 2026"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-26/container-ships-returning-to-red-sea",
+      "title": "Container Ships Are Looking to Return to Red Sea"
+    },
+    {
+      "url": "https://www.aircargonews.net/supply-chains/2026/03/box-lines-unlikely-to-return-to-suez-canal-in-2026-following-middle-east-strikes/",
+      "title": "Box lines unlikely to return to Suez Canal in 2026 following Middle East strikes - Air Cargo News"
+    },
+    {
+      "url": "https://www.xeneta.com/blog/red-sea-return-what-it-means-for-2026-container-shipping-contract-rates",
+      "title": "Red Sea Return: What It Means for 2026 Container Shipping Contract Rates"
+    },
+    {
+      "url": "https://www.lloydslist.com/LL1158141/The-Week-in-Charts-Red-Sea-shipping-stabilises-after-Julys-Houthi-blockade-shock--War-disruption-and-rerouting-fail-to-derail-container-demand",
+      "title": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock"
+    },
+    {
+      "url": "https://www.lloydslist.com/hot-topics/red-sea-risk",
+      "title": "Red Sea Risk :: Lloyd's List"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/navigating-maritime-change-insights-into-the-red-sea-crisis",
+      "title": "Insights into the Red Sea Crisis"
+    },
+    {
+      "url": "https://www.lloydslist.com/LL1158637/Red-Sea-container-transits-hit-post-crisis-high-as-carriers-accelerate-return",
+      "title": "Red Sea container transits hit post-crisis high as carriers accelerate return :: Lloyd's List"
+    },
+    {
+      "url": "https://www.lloydslist.com/hot-topics/strait-of-hormuz",
+      "title": "Strait of Hormuz :: Lloyd's List"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-21-july-2026",
+      "title": "Strait of Hormuz Brief: 21 July, 2026"
+    },
+    {
+      "url": "https://www.lloydslist.com/hot-topics/strait-of-hormuz-crisis",
+      "title": "Strait of Hormuz crisis :: Lloyd's List"
+    },
+    {
+      "url": "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war",
+      "title": "Houthi Attacks on Saudi Airports Kill 3 Amid Escalating War in Yemen"
+    },
+    {
+      "url": "https://www.seatrade-maritime.com/security/product-tanker-attacked-in-red-sea-as-hostilities-escalate",
+      "title": "Product tanker attacked in Red Sea as hostilities escalate"
+    },
+    {
+      "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/yemen-91.php",
+      "title": "Yemen, October 2026 Monthly Forecast : Security Council Report"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship",
+      "title": "Yemen\u2019s Houthis report attack on Saudi ship"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/5/yemen-war-escalates-whats-the-latest-on-the-battlefield",
+      "title": "Yemen war: What\u2019s the latest, as government forces claim advances?"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Houthi_attacks_on_commercial_vessels",
+      "title": "Houthi attacks on commercial vessels"
+    }
+  ]
+}

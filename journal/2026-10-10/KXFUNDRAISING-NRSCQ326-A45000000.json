@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-NRSCQ326-A45000000",
+  "event": "KXFUNDRAISING-NRSCQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will the National Republican Senatorial Committee report more than $45M in cash on hand at the end of Q3? Above $45M",
+  "rules": "If the National Republican Senatorial Committee's cash on hand is above $45 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-21T13:59:00+00:00",
+  "expected_close_time": "2026-10-21T13:59:00+00:00",
+  "forecast_at": "2026-10-10T00:44:52.906232+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "The NRSC had a record $48.8M on hand at the end of May 2026. The FEC's committee overview page shows ending cash of about $18.7M for the period through 08/31/2026, so the committee has been spending down heavily ahead of the midterms. Getting back above $45M by September 30 would mean adding about $26M+ net in one heavy-spending month, far beyond its recent monthly fundraising of about $8\u201310M. The main remaining risk is that I couldn't confirm the $18.7M figure from a second source.",
+    "falsifier": "The NRSC's October 20 FEC monthly report shows cash on hand above $45M as of September 30, 2026. That could happen through a very large transfer from joint fundraising committees, or because the $18.7M end-of-August figure was wrong.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1300",
+    "best_yes_ask": "0.1800",
+    "p_market": "0.1550"
+  },
+  "final": {
+    "p_yes": "0.06",
+    "action": "buy_no",
+    "reasoning": "The market at about 15% also sees YES as unlikely; the gap likely reflects doubt about the end-of-August figure. If cash really was about $18.7M then, rebuilding to over $45M in one September of heavy spending is very unlikely, so I nudge up to 6% but still bet NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1400",
+    "count": 1,
+    "cost": "0.8600",
+    "clamped_from": "0.06"
+  },
+  "sources": [
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-reports-highest-ever-cash-on-hand-2026-06-20/",
+      "title": "NRSC Reports Highest-Ever Cash on Hand"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-raises-more-than-10m-in-may-has-record-cash-on-hand-2021-06-08/",
+      "title": "NRSC Raises More Than $10M in May, Has Record Cash on Hand"
+    },
+    {
+      "url": "https://campaignsandelections.com/uncategorized/political-parties-boast-renewed-influence-in-campaign-world/",
+      "title": "Political Parties Boast Renewed Influence in Campaign World - Campaigns & Elections"
+    },
+    {
+      "url": "https://punchbowl.news/article/washington/nrsc-best-january-in-off-year/",
+      "title": "NRSC posts best-ever January off-year fundraising"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/3481742/nrsc-fundraising-gop-senate-incumbents-2026-midterms/",
+      "title": "NRSC clears $26M debt, funnels $1.1M to GOP Senate incumbents ahead of 2026"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/3561623-gop-senate-campaign-arm-announces-record-173-million-raised-so-far-this-cycle/",
+      "title": "GOP Senate campaign arm announces record $173 million raised so far this cycle"
+    },
+    {
+      "url": "https://www.nrsc.org/uncategorized/nrsc-invested-21m-on-tv-ads-raised-record-173-4m-this-cycle-2022-07-15/",
+      "title": "NRSC Invested $21M on TV Ads, Raised RECORD $173.4M This Cycle"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-tops-150-million-raised-in-2022-cycle-2022-05-10/",
+      "title": "NRSC Tops $150 Million Raised in 2022 Cycle"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-raises-record-breaking-10-5m-in-june-2021-07-13/",
+      "title": "NRSC Raises Record-Breaking $10.5M in June"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-announces-7-46m-raised-in-july-2021-2021-08-10/",
+      "title": "NRSC Announces $7.46M Raised in July 2021"
+    },
+    {
+      "url": "https://gop.com/press-release/wtas-the-rncs-record-breaking-july/",
+      "title": "WTAS: The RNC\u2019s Record-Breaking July"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/48765-nrsc-outraised-dscc-in-july/",
+      "title": "NRSC outraised DSCC in July"
+    },
+    {
+      "url": "https://www.cnn.com/2022/09/06/politics/rick-scott-mitch-mcconnell-republican-senate-fundraising",
+      "title": "Republicans anxious about cash-strapped NRSC amid Scott\u2019s feud with McConnell"
+    },
+    {
+      "url": "https://gop.com/press-release/icymi-rnc-breaks-fundraising-records-with-130-million-cash-on-hand/",
+      "title": "ICYMI: RNC Breaks Fundraising Records with $130 Million Cash on Hand"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4694907/house-republican-campaign-arm-posts-best-year-to-date-fundraising/",
+      "title": "NRCC posts best July year-to-date fundraising haul"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4692615/rnc-touts-record-cash-on-hand/",
+      "title": "RNC raised $19 million in July and has $130 million for midterm elections"
+    },
+    {
+      "url": "https://rollcall.com/2013/09/19/dscc-tops-debt-free-nrsc-in-august-fundraising-updated/",
+      "title": "DSCC Tops Debt-Free NRSC in August Fundraising (Updated)"
+    },
+    {
+      "url": "https://subscriber.politicopro.com/article/2020/09/dscc-outraised-nrsc-in-august-ended-month-with-major-cash-advantage-3984030",
+      "title": "POLITICO Pro"
+    },
+    {
+      "url": "https://www.quiverquant.com/committees/C00027466",
+      "title": "NRSC - Fundraising"
+    },
+    {
+      "url": "https://www.breitbart.com/politics/2021/09/14/national-republican-senatorial-committee-nrsc-rakes-in-record-fundraising-haul-in-august/",
+      "title": "NRSC Rakes In Record Fundraising Haul in August"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/dcc-crushes-nrcc/",
+      "title": "DCCC crushes NRCC in August fundraising"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-chair-rick-scott-announces-record-8m-raised-in-august-2021-09-14/",
+      "title": "NRSC Chair Rick Scott Announces Record $8M Raised in August"
+    },
+    {
+      "url": "https://rollcall.com/2009/09/17/nrsc-raises-3-million-in-august/",
+      "title": "NRSC Raises $3 Million in August"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00027466/",
+      "title": "NRSC - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://punchbowl.news/article/senate/dscc-nrsc-june-fundraising/",
+      "title": "DSCC bests NRSC in June fundraising - Punchbowl News"
+    },
+    {
+      "url": "https://www.nrcc.org/2026/07/20/%F0%9F%9A%A8%F0%9F%92%B0-nrcc-smashes-fundraising-records-widens-massive-cash-advantage-over-dccc/",
+      "title": "\ud83d\udea8\ud83d\udcb0 NRCC Smashes Fundraising Records, Widens Massive Cash Advantage Over DCCC - NRCC"
+    },
+    {
+      "url": "https://campaignlegal.org/cases-actions/defending-limits-coordinated-spending-political-parties",
+      "title": "Defending Limits on Coordinated Spending by Political Parties (NRSC, et al. v. FEC)"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/nrsc-aide-sounds-fundraising-alarm/",
+      "title": "Top NRSC aide sounds alarm on fundraising"
+    },
+    {
+      "url": "https://www.notus.org/republicans/senate-gop-campaign-fundraising-record-june",
+      "title": "Senate GOP\u2019s Campaign Arm Announces Record Fundraising for Month of June"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2025/07/22/republican-national-committee-raised-twice-as-much-as-democratic-national-committee-in-june/",
+      "title": "Republican National Committee raised twice as much as Democratic National Committee in June - Ballotpedia News"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00837518/",
+      "title": "NRSC VICTORY - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://kylesaunders.substack.com/p/scp-19-whos-paying-to-save-ken-paxton",
+      "title": "SCP 19: Who\u2019s Paying to Save Ken Paxton? - by Kyle Saunders"
+    },
+    {
+      "url": "https://twitchy.com/brettt/2026/10/08/abdul-el-sayed-says-trump-is-attacking-all-of-us-by-referring-to-him-as-mohammed-n2433101",
+      "title": "Abdul El-Sayed Says Trump Is Attacking 'All of Us' by Referring to Him As Mohammed"
+    },
+    {
+      "url": "https://www.nrsc.org/category/press-releases/page/301/",
+      "title": "Press Releases Archives - Page 301 of 950 - NRSC"
+    },
+    {
+      "url": "https://news.meaww.com/gop-raises-alarm-over-obamas-senate-takeover-as-democrats-eye-four-seat-flip",
+      "title": "GOP raises alarm over Obama\u2019s \u2018Senate takeover\u2019 as Democrats eye four-seat flip"
+    },
+    {
+      "url": "https://www.nrsc.org/category/press-releases/page/997/",
+      "title": "Press Releases"
+    },
+    {
+      "url": "https://stocktitan.net/news/NXXT/next-nrg-amends-series-c-preferred-stock-expects-approximately-9-0-ef1ize7kily9.html",
+      "title": "About $9 million could count as equity as NextNRG seeks to meet Nasdaq's rules."
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00027466/",
+      "title": "FEC Electronic Filings by NRSC"
+    },
+    {
+      "url": "https://www.fec.gov/updates/?release-category=press-release",
+      "title": "Latest updates - FEC.gov"
+    },
+    {
+      "url": "https://advancingamericanfreedom.com/aaff-releases-nrsc-v-fec-report/",
+      "title": "AAFF Releases NRSC v. FEC Report - Advancing American Freedom"
+    },
+    {
+      "url": "https://www.fec.gov/legal-resources/court-cases/national-republican-senatorial-committee-et-al-v-federal-election-commission-et-al-22-639/",
+      "title": "National Republican Senatorial Committee et al v. Federal Election Commission et al (22-639 / 24-3051 / 24-621) - FEC.gov"
+    },
+    {
+      "url": "https://www.fec.gov/updates/week-of-august-17-21-2026/",
+      "title": "Week of August 17"
+    },
+    {
+      "url": "https://www.fec.gov/updates/court-grants-dismissal-in-smp-v-fec-26-336/",
+      "title": "FEC Record"
+    },
+    {
+      "url": "https://www.ifs.org/cases/national-republican-senatorial-committee-v-fec/",
+      "title": "NRSC, et al. v. FEC, et al. - Institute For Free Speech"
+    },
+    {
+      "url": "https://www.scotusblog.com/cases/case-files/national-republican-senatorial-committee-v-federal-election-commission/",
+      "title": "National Republican Senatorial Committee v. Federal Election Commission (Campaign Finance) (24-621)"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00027466/?cycle=2012",
+      "title": "NATIONAL REPUBLICAN SENATORIAL COMMITTEE - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00027466/1535655/",
+      "title": "FEC Disclosure Form 3X for NRSC"
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00027466/1734249/",
+      "title": "Form 1 for NRSC - Federal Election Commission - FEC"
+    },
+    {
+      "url": "https://fec.gov/data/committee/C00027466/?cycle=2022",
+      "title": "Home - FEC.gov"
+    },
+    {
+      "url": "https://ballotpedia.org/National_Republican_Senatorial_Committee",
+      "title": "National Republican Senatorial Committee - Ballotpedia"
+    },
+    {
+      "url": "https://projects.propublica.org/itemizer/committee/C00027466/2020",
+      "title": "Nrsc 2020 cycle"
+    },
+    {
+      "url": "https://www.fec.gov/legal-resources/court-cases/common-cause-v-fec-89-0524-fec-v-national-republican-senatorial-committee-90-2055/",
+      "title": "Common Cause v. FEC (89-0524); FEC v. National Republican Senatorial Committee (90-2055) - FEC.gov"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00724344/?tab=filings",
+      "title": "NRSC TARGETED STATE VICTORY - committee overview - FEC.gov"
+    }
+  ]
+}

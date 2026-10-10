@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMSTREAMS-HOWT26OCT15-1.0M",
+  "event": "KXALBUMSTREAMS-HOWT26OCT15",
+  "series": "KXALBUMSTREAMS",
+  "title": "Will How To Quit Smoking by Dominic Fike have above 1000000 streams during the October 09, 2026 - October 15, 2026 tracking week? Above 1M",
+  "rules": "If How To Quit Smoking by Dominic Fike has above 1M streams during the October 09, 2026 - October 15, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 09, 2026 - October 15, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-18T14:00:00+00:00",
+  "expected_close_time": "2026-10-18T14:00:00+00:00",
+  "forecast_at": "2026-10-10T00:44:52.906232+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.02",
+    "reasoning": "Dominic Fike's album 'How To Quit Smoking' was pushed from October 9 to October 30, 2026, and Apple Music lists it as a pre-release for October 30. No song called 'How To Quit Smoking' has come out as a single; the singles so far are Wallflower, SLOW AS YOU CAN FREESTYLE, GO HEAVY and Small Town. A song that isn't released during October 9-15 can't get more than 1M US streams that week. Even a surprise release would struggle to get there.",
+    "falsifier": "A surprise release of a 'How To Quit Smoking' title track or single on or right after October 9, 2026, followed by more than 1M US streams in Luminate's data for that week.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0800",
+    "best_yes_ask": "0.1400",
+    "p_market": "0.1100"
+  },
+  "final": {
+    "p_yes": "0.03",
+    "action": "buy_no",
+    "reasoning": "The market's 11% midpoint is well above my estimate. The album was postponed to October 30 and no song called 'How To Quit Smoking' has been released, so more than 1M US streams in the October 9-15 week would need a surprise release plus heavy streaming. I'm nudging up to 3% to allow for an unannounced single."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.0900",
+    "count": 1,
+    "cost": "0.9100",
+    "clamped_from": "0.03"
+  },
+  "sources": [
+    {
+      "url": "https://dominicfike.fandom.com/wiki/How_To_Quit_Smoking",
+      "title": "How To Quit Smoking (album)"
+    },
+    {
+      "url": "https://music.apple.com/us/album/how-to-quit-smoking/6805707169",
+      "title": "How To Quit Smoking by Dominic Fike on Apple Music"
+    },
+    {
+      "url": "https://www.coupdemainmagazine.com/dominic-fike/20397",
+      "title": "Dominic Fike announces third album 'How To Quit Smoking' + shares new song 'Wallflower'."
+    },
+    {
+      "url": "https://www.dominicfike.com/shop/how-to-quit-smoking-vinyl",
+      "title": "How To Quit Smoking vinyl"
+    },
+    {
+      "url": "https://soundcloud.com/dominicfikearchive/dominic-fike-how-to-quit",
+      "title": "Stream Dominic Fike ~ Wallflower (How To Quit Smoking) [8.15.26] by Dominic Fike Archive"
+    },
+    {
+      "url": "https://whenisthe.com/albums/dominic-fike-how-to-quit-smoking.html",
+      "title": "How To Quit Smoking by Dominic Fike: Release Date October 9, 2026"
+    },
+    {
+      "url": "https://soundazed.com/dominic-fike-wallflower-how-to-quit-smoking/",
+      "title": "Dominic Fike Announces How to Quit Smoking"
+    },
+    {
+      "url": "https://stereogum.com/2509729/dominic-fike-announces-new-album-how-to-quit-smoking-hear-wallpaper/music",
+      "title": "Dominic Fike Announces New Album 'How To Quit Smoking': Hear \u201cWallflower\u201d"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dominic_Fike",
+      "title": "Dominic Fike"
+    },
+    {
+      "url": "https://www.lyricsbull.com/up-down-lyrics-dominic-fike/",
+      "title": "Up Down Lyrics - Dominic Fike"
+    },
+    {
+      "url": "https://www.lyricsbull.com/get-there-first-lyrics-dominic-fike/",
+      "title": "Get There First Lyrics - Dominic Fike"
+    },
+    {
+      "url": "https://www.lyricsbull.com/spotlight-lyrics-dominic-fike/",
+      "title": "Spotlight Lyrics - Dominic Fike"
+    },
+    {
+      "url": "https://www.hitsdailydouble.com/news/releases/dominic-fike-new-album-2026-08-28",
+      "title": "Hit It or \"Quit\" It: Dominic Fike Readies New Album"
+    },
+    {
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Dominic-Fike-Sets-HOW-TO-QUIT-SMOKING-Album-for-October-9-Shares-Wallflower-20260828",
+      "title": "Dominic Fike Sets HOW TO QUIT SMOKING Album for October 9, Shares \"Wallflower\""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dominic_Fike_discography",
+      "title": "Dominic Fike discography"
+    },
+    {
+      "url": "https://x.com/fikeupdates/status/2105798947667362021",
+      "title": "Dominic Fike Updates on X: \"how to quit smoking postponed to october 30th! \ud83d\udead\" / X"
+    },
+    {
+      "url": "https://theneedledrop.com/news/dominic-fike-announces-new-album-how-to-quit-smoking-shares-wallflower/",
+      "title": "Dominic Fike announces new album 'How To Quit Smoking,' Shares \u201cWallflower\u201d"
+    },
+    {
+      "url": "https://x.com/fikeupdates/status/2088719884704428307",
+      "title": "Dominic Fike Updates on X: \"DOMINIC FIKE - HOW TO QUIT SMOKING\" / X"
+    },
+    {
+      "url": "https://happymag.tv/dominic-fike-wallflower-how-to-quit-smoking/",
+      "title": "Dominic Fike is releasing new music on the road -"
+    }
+  ]
+}
