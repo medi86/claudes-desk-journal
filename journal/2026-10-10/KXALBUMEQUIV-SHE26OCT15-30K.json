@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-SHE26OCT15-30K",
+  "event": "KXALBUMEQUIV-SHE26OCT15",
+  "series": "KXALBUMEQUIV",
+  "title": "Will She\u2019s The Best by Troye Sivan have above 30000 Album Equivalent Units during the October 09, 2026 - October 15, 2026 tracking week? Above 30K",
+  "rules": "If She\u2019s The Best by Troye Sivan has above 30K Album Equivalent Units during the October 09, 2026 - October 15, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 09, 2026 - October 15, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-18T14:00:00+00:00",
+  "expected_close_time": "2026-10-18T14:00:00+00:00",
+  "forecast_at": "2026-10-10T19:29:05.163080+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.58",
+    "reasoning": "She's the Best came out Oct 9, 2026, so the Oct 9\u201315 window is its whole debut week. Sivan's last two albums reportedly debuted in the Billboard 200 top 5 (Bloom with about 38K units, from memory), and his profile has grown since. A total of roughly 18\u201325K from record sales plus 10\u201315K from streaming puts it near or slightly above 30K. His modest US streaming and a fast rollout that wasn't built around first-week sales keep this close to a coin flip.",
+    "falsifier": "Billboard or Hits Daily Double first-week reporting showing the album debuting with fewer than 30,000 US units (e.g., ~22-28K and a debut outside the top 10).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4600",
+    "best_yes_ask": "0.5000",
+    "p_market": "0.4800"
+  },
+  "final": {
+    "p_yes": "0.53",
+    "action": "pass",
+    "reasoning": "The market at 0.48 likely reflects information I couldn't check, such as first-week projections, so I moved my estimate from 0.58 to 0.53. That leaves only a few points above the 0.50 ask, which is too thin an edge for estimates resting partly on unverified memory of prior debuts."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/She's_the_Best",
+      "title": "She's the Best"
+    },
+    {
+      "url": "https://music.apple.com/us/album/shes-the-best/6799851049",
+      "title": "She's the Best - Album by Troye Sivan"
+    },
+    {
+      "url": "https://www.allmusic.com/album/shes-the-best-mw0004864341",
+      "title": "Troye Sivan: She's the Best Tracks & Reviews"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5887547/troye-sivan-shes-the-best-interview",
+      "title": "On 'She's the Best,' Troye Sivan takes the party to unexpected places"
+    },
+    {
+      "url": "https://open.spotify.com/album/5lxMKFdNAshWkJZsqr1FYD",
+      "title": "She\u2019s the Best - Album by Troye Sivan"
+    },
+    {
+      "url": "https://www.nme.com/reviews/album/troye-sivan-shes-the-best-review-3972714",
+      "title": "Troye Sivan"
+    },
+    {
+      "url": "https://www.thefader.com/2026/10/08/troye-sivan-shes-the-best-album-interview",
+      "title": "Troye Sivan on She\u2019s The Best, being a male pop star, and longing for love"
+    },
+    {
+      "url": "https://preludepress.com/news/2026/10/08/troye-sivan-shes-the-best/",
+      "title": "Troye Sivan Releases New Album, \"She's The Best\""
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/troye-sivan-wants-new-album-cultural-impact-1236325336/",
+      "title": "Troye Sivan Wants His New Album to Make a Cultural Impact"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Troye_Sivan_discography",
+      "title": "Troye Sivan discography"
+    },
+    {
+      "url": "https://www.thefader.com/2026/08/13/troye-sivan-album-announcement-shes-the-best",
+      "title": "Troye Sivan announces new album She\u2019s the Best"
+    },
+    {
+      "url": "https://www.billboard.com/pro/troye-sivan-top-10-billboard-200/",
+      "title": "Troye Sivan Set for Top 10 Debut on Billboard 200"
+    },
+    {
+      "url": "https://www.billboard.com/lists/troye-sivan-shes-the-best-album-best-songs-ranked/",
+      "title": "Troye Sivan's 'She's the Best' Album: All 12 Tracks Ranked"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/troye-sivan-she-best-album-060845088.html",
+      "title": "Troye Sivan\u2019s \u2018She\u2019s the Best\u2019 Album: All 12 Tracks Ranked"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Troye_Sivan",
+      "title": "Troye Sivan"
+    },
+    {
+      "url": "https://www.iheart.com/artist/troye-sivan-883862/",
+      "title": "Troye Sivan"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4917473.html",
+      "title": "Troye Sivan\u2019s \u2018She\u2019s the Best\u2019 Album: All 12 Tracks Ranked ...Middle East"
+    },
+    {
+      "url": "https://www.billboard.com/music/music-news/troye-sivan-nicole-kidman-interview-1236358263/",
+      "title": "Troye Sivan Talks ADELA & Nicole Kidman Starring in 'She's the Best'"
+    },
+    {
+      "url": "https://www.billboard.com/pro/troye-sivan-number-1-debut-top-dance-electronic-albums-chart/",
+      "title": "Troye Sivan\u2019s \u2018Something To Give Each Other\u2019 Debuts at No. 1 on Top Dance/Electronic Albums Chart"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/troye-sivan-wild-chart-success-upcoming-music-plans-interview-6700601/",
+      "title": "Troye Sivan Talks \u2018Wild\u2019 Chart Success, Upcoming Music Plans: \u2018It\u2019s a Little Insane, To Be Honest\u2019"
+    },
+    {
+      "url": "https://www.billboard.com/charts/billboard-200/",
+      "title": "Billboard 200\u2122"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/05/18/biggest-first-week-billboard-200-debuts-of-2026/",
+      "title": "Biggest First-Week Billboard 200 Debuts of 2026"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/05/biggest-first-week-billboard-200-debuts-of-2026",
+      "title": "Biggest First-Week Billboard 200 Debuts of 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_200",
+      "title": "Billboard 200"
+    },
+    {
+      "url": "https://mwe-rp.fandom.com/wiki/List_of_Billboard_200_chart_achievements_and_milestones",
+      "title": "List of Billboard 200 chart achievements and milestones"
+    },
+    {
+      "url": "https://billboard.com/music/music-news/cardi-b-eminem-troye-sivan-best-new-music-this-week-poll-1236358090",
+      "title": "From Cardi B to an Eminem Collab & Troye Sivan, Which New Music Release Is Your Favorite This Week? Vote!"
+    },
+    {
+      "url": "https://elpee.jp/",
+      "title": "ELPEE"
+    },
+    {
+      "url": "https://inmusicblog.com/news/albums-with-the-biggest-debut-week-on-the-billboard-200-in-2025/",
+      "title": "Albums with the Biggest Debut Week on the Billboard 200 in 2025"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_Global_200",
+      "title": "Billboard Global 200"
+    },
+    {
+      "url": "https://xodivad.com/2026/10/09/troye-sivan-releases-fourth-studio-album-shes-the-best/",
+      "title": "TROYE SIVAN RELEASES FOURTH STUDIO ALBUM \u2018SHE\u2019S THE BEST\u2019"
+    },
+    {
+      "url": "https://music.apple.com/ca/album/shes-the-best/6799851049",
+      "title": "She\u2019s the Best by Troye Sivan on Apple Music"
+    },
+    {
+      "url": "https://billboardphilippines.com/music/news/troye-sivan-shes-the-best-fourth-album/",
+      "title": "Troye Sivan's 'She's the Best': Fourth Album, Full Tracklist"
+    },
+    {
+      "url": "https://orphiq.com/resources/how-billboard-charts-work",
+      "title": "How Billboard Charts Work: Methodology Explained"
+    },
+    {
+      "url": "https://chartdata.org/faq/",
+      "title": "Frequently Asked Questions (FAQ)"
+    },
+    {
+      "url": "https://www.reorbit.xyz/charts-guides/bb200",
+      "title": "Team ReOrbit - Billboard 200"
+    },
+    {
+      "url": "https://www.billboard.com/lists/biggest-album-debuts-of-the-2020s-decade-bts-taylor-swift-adele-more/",
+      "title": "The Biggest Album Debuts of the Decade: BTS, Taylor Swift, Adele & More"
+    },
+    {
+      "url": "https://www.billboard.com/pro/adele-25-debuts-no-1-billboard-200-albums-chart/",
+      "title": "Adele's '25' Debuts at No. 1 on Billboard 200 Albums Chart, '21' Returns to Top 10"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/taylor-swift-billie-eilish-300000-album-units-single-week-1235693468/",
+      "title": "Two Albums Surpass 300,000 Weekly Units for First Time in Eight Years, Thanks to Taylor Swift & Billie Eilish"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_2025",
+      "title": "List of Billboard 200 number-one albums of 2025"
+    },
+    {
+      "url": "https://www.billboard.com/wp-content/uploads/2022/12/december-27-2022-billboard-bulletin.pdf",
+      "title": "SZA's 'SOS' Spends Second Week Atop Billboard 200 Albums ..."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Album-equivalent_unit",
+      "title": "Album-equivalent unit"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Something_to_Give_Each_Other",
+      "title": "Something to Give Each Other"
+    },
+    {
+      "url": "https://themusicnetwork.com/troye-sivan-something-to-give-each-other-uk-us-charts/",
+      "title": "Troye Sivan's 'Something To Give Each Other' Nabs Chart ..."
+    },
+    {
+      "url": "https://www.discogs.com/release/28613845-Troye-Sivan-Something-To-Give-Each-Other",
+      "title": "Troye Sivan"
+    },
+    {
+      "url": "https://troyesivan.fandom.com/wiki/Something_to_Give_Each_Other",
+      "title": "Something to Give Each Other"
+    },
+    {
+      "url": "https://troyesivan.fandom.com/wiki/Discography",
+      "title": "Discography"
+    },
+    {
+      "url": "https://music.apple.com/us/album/something-to-give-each-other/1694860250",
+      "title": "Something To Give Each Other by Troye Sivan on Apple Music"
+    },
+    {
+      "url": "https://www.popfiltr.com/articles/troye-sivan-announces-something-to-give-each-other-tour",
+      "title": "Troye Sivan Announces 'Something to Give Each Other' UK and EU 2024 Tour"
+    }
+  ]
+}
