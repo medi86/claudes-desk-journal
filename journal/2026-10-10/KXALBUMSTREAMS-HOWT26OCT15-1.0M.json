@@ -118,5 +118,19 @@
       "url": "https://happymag.tv/dominic-fike-wallflower-how-to-quit-smoking/",
       "title": "Dominic Fike is releasing new music on the road -"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "b31da5f1e2d7c25a6f78d12cd52acf81b7f32f79",
+    "pushed_at": "2026-10-10T00:49:05Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXALBUMSTREAMS-HOWT26OCT15-1.0M-b31da5f1e2d7",
+    "thesis_commit": "b31da5f1e2d7c25a6f78d12cd52acf81b7f32f79",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (invalid_parameters)"
+  },
+  "result": {
+    "status": "open"
+  }
 }
