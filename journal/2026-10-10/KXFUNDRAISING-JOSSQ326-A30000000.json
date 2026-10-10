@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-JOSSQ326-A30000000",
+  "event": "KXFUNDRAISING-JOSSQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will Jon Ossoff for Senate report more than $30M in total receipts during Q3? Above $30M",
+  "rules": "If Jon Ossoff for Senate's total receipts is above $30 million from July 1 through September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-16T13:59:00+00:00",
+  "expected_close_time": "2026-10-16T13:59:00+00:00",
+  "forecast_at": "2026-10-10T11:23:59.315478+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.62",
+    "reasoning": "Ossoff's campaign reported about $20M raised in Q2 2026, up from $14M in Q1 and about $12M per quarter in 2025. Top Democratic Senate candidates have typically raised 1.5 to 2.5 times their Q2 total in Q3 of an election year, so $30M (1.5x) is near the low end of that range. Things that could keep him below it: money shifting to other competitive races, his poll lead, and uncertainty over what the FEC counts as total receipts. I could not verify any announced Q3 figure.",
+    "falsifier": "The FEC Q3 report or a campaign announcement showing Ossoff's total receipts for July 1 to September 30, 2026 at or below $30M (e.g., a reported haul of around $25M).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7000",
+    "best_yes_ask": "0.7800",
+    "p_market": "0.7400"
+  },
+  "final": {
+    "p_yes": "0.68",
+    "action": "pass",
+    "reasoning": "The market at 0.74 sits above my 0.62 extrapolation, possibly because traders know of an early-October Q3 announcement I couldn't see, so I moved partway toward it. The remaining gap is small next to the wide spread and my information disadvantage, so I pass."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://electjon.com/ossoff-raises-14-million-in-q1-of-2026-to-prepare-for-millions-in-spending-from-gop-super-pacs/",
+      "title": "Ossoff Raises $14 Million in Q1 of 2026 To Prepare for Millions In Spending From GOP Super PACs - Jon Ossoff for U.S. Senate"
+    },
+    {
+      "url": "https://electjon.com/as-onslaught-of-republican-spending-in-general-election-kicks-into-gear-ossoff-raises-20-million-in-q2/",
+      "title": "As Onslaught of Republican Spending In General Election Kicks Into Gear, Ossoff Raises $20 Million in Q2 - Jon Ossoff for U.S. Senate"
+    },
+    {
+      "url": "https://centerforpolitics.org/crystalball/georgia-senate-the-peach-state-ripens-for-democrats/",
+      "title": "Georgia Senate: The Peach State Ripens for Democrats - Sabato's Crystal Ball"
+    },
+    {
+      "url": "https://electionsga.com/news/ossoff-raises-14m-leads-polls-in-2026-senate-race",
+      "title": "Ossoff Raises $14M, Leads Polls in 2026 Senate Race \u2014 ElectionsGA"
+    },
+    {
+      "url": "https://www.ms.now/news/georgia-senate-republican-runoff-jon-ossoff",
+      "title": "Republicans headed to runoff to decide who will challenge Sen. Jon Ossoff"
+    },
+    {
+      "url": "https://www.ajc.com/politics/2026/04/jon-ossoff-posts-record-14m-haul-in-high-stakes-georgia-senate-race/",
+      "title": "Jon Ossoff posts record $14M haul in high-stakes Georgia Senate race"
+    },
+    {
+      "url": "https://www.ajc.com/politics/2026/07/jon-ossoff-enters-fall-campaign-with-42m-on-hand/",
+      "title": "Jon Ossoff swamps Mike Collins in fundraising, reports $42M on hand"
+    },
+    {
+      "url": "https://atlantadailyworld.com/2026/04/15/ossoff-raises-14-million-in-q1-of-2026-to-prepare-for-millions-in-spending-from-gop-super-pacs/",
+      "title": "Ossoff Raises $14 Million in Q1 of 2026 To Prepare for Millions In Spending From GOP Super PACs"
+    },
+    {
+      "url": "https://www.newsweek.com/top-senate-fundraiser-ossoff-passes-80m-as-campaign-seeks-more-donations-12274170",
+      "title": "Jon Ossoff Passes $80M in Fundraising While Seeking More Donations - Newsweek"
+    },
+    {
+      "url": "https://eciks.org/13996-90950-ossoff-20m-fundraising-georgia-senate",
+      "title": "Georgia Sen. Jon Ossoff raised $20 million in Q2 and has $42 million on hand as he seeks reelection against Trump-backed challenger Mike Collins."
+    },
+    {
+      "url": "https://electjon.com/ajc-jon-ossoff-swamps-mike-collins-in-fundraising-reports-42m-on-hand/",
+      "title": "AJC: Jon Ossoff Swamps Mike Collins in Fundraising, Reports $42M on Hand - Jon Ossoff for U.S. Senate"
+    },
+    {
+      "url": "https://www.quiverquant.com/news/Fundraising+Update:+Senator+Jon+Ossoff+just+disclosed+$14.6M+of+new+fundraising",
+      "title": "Fundraising Update: Senator Jon Ossoff just disclosed $14.6M of new fundraising"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4649348/jon-ossoff-20-million-fundraising-georgia-senate-race/",
+      "title": "Jon Ossoff boasts $20 million fundraising haul"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5969672-ossoff-georgia-senate-fundraising-haul/",
+      "title": "Jon Ossoff posts $20M fundraising haul with $42M in bank"
+    },
+    {
+      "url": "https://georgiarecorder.com/2026/07/15/ossoff-rakes-in-another-20m-building-on-fundraising-advantage-in-race-for-georgia-senate-seat/",
+      "title": "Ossoff rakes in another $20M, building on fundraising advantage in race for Georgia Senate seat \u2022 Georgia Recorder"
+    },
+    {
+      "url": "https://www.wabe.org/georgia-democratic-sen-jon-ossoff-raises-12-million-for-2026-reelection/",
+      "title": "Georgia Democratic Sen. Jon Ossoff raises $12 million for 2026 reelection"
+    },
+    {
+      "url": "https://www.cbsnews.com/atlanta/news/sen-ossoff-rep-collins-release-latest-fundraising-numbers-for-georgia-senate-race/",
+      "title": "Sen. Ossoff, Rep. Collins release latest fundraising numbers for Georgia Senate race - CBS Atlanta"
+    },
+    {
+      "url": "https://southeastpolitics.com/jon-ossoff-raises-12-million-for-2026-reelection/",
+      "title": "Jon Ossoff raises $12 million for 2026 reelection - Southeast Politics"
+    },
+    {
+      "url": "https://cobbcountycourier.com/2026/07/ossoff-rakes-in-another-20m-building-on-fundraising-advantage-in-race-for-georgia-senate-seat/",
+      "title": "Ossoff rakes in another $20M, building on fundraising advantage in race for Georgia Senate seat - Cobb Courier"
+    },
+    {
+      "url": "https://www.clickondetroit.com/news/politics/2025/10/08/georgia-democratic-sen-jon-ossoff-raises-12-million-for-2026-reelection/",
+      "title": "Georgia Democratic Sen. Jon Ossoff raises $12 million for 2026 reelection"
+    },
+    {
+      "url": "https://freebeacon.com/democrats/meet-the-39-out-of-state-billionaires-bankrolling-jon-ossoffs-campaign-after-senator-denounced-billionaire-money-and-coin-operated-system/",
+      "title": "Meet the 39 Out-of-State Billionaires Bankrolling Jon Ossoff's Campaign After Senator Denounced 'Billionaire Money' and 'Coin-Operated' System"
+    },
+    {
+      "url": "https://www.cbsnews.com/atlanta/news/georgia-sen-jon-ossoff-reports-12-million-raised-third-quarter-of-2025/",
+      "title": "Georgia Sen. Jon Ossoff reports $12 million raised in third quarter of 2025 - CBS Atlanta"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/463880-ossoff-raises-800k-in-first-three-weeks-of-senate-bid-campaign-says/",
+      "title": "Ossoff raises $800k in first three weeks of Senate bid, campaign says"
+    },
+    {
+      "url": "https://www.11alive.com/article/news/politics/jon-ossoff-senate-campaign-q3-fundraising-figures-12-million/85-5273bfac-fbb4-4b69-9b2f-213266754e9a",
+      "title": "Ossoff campaign releases most recent quarterly fundraising figures, following on GOP announcements"
+    },
+    {
+      "url": "https://electjon.com/facing-heavy-spending-from-gop-super-pacs-sen-ossoff-raises-12-million-in-q3/",
+      "title": "Facing Heavy Spending From GOP Super PACs, Sen. Ossoff Raises $12 Million in Q3 - Jon Ossoff for U.S. Senate"
+    },
+    {
+      "url": "https://dailycaller.com/2025/10/16/jon-ossoff-georgia-senate-q3-fundraising/",
+      "title": "Jon Ossoff Surges Ahead Of All His GOP Competitors In Q3 Fundraising"
+    },
+    {
+      "url": "https://albanyherald.com/news/ossoff-sets-quarterly-fundraising-record-for-state-senate-candidate/",
+      "title": "Ossoff sets quarterly fundraising record for state Senate candidate"
+    },
+    {
+      "url": "https://www.ajc.com/politics/2026/01/ossoff-opens-2026-with-25m-war-chest-in-high-stakes-reelection-bid/",
+      "title": "Ossoff opens 2026 with $25M war chest in high-stakes reelection bid"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/ossoff-raises",
+      "title": "Ossoff raises $1 million in Senate race after Perdue mispronounces Kamala Harris's name"
+    },
+    {
+      "url": "https://www.thedailybeast.com/democrats-new-obama-jon-ossoff-gets-huge-boost-from-the-og-in-georgia",
+      "title": "Democrats\u2019 \u2018New Obama\u2019 Jon Ossoff Gets Huge Boost From the OG in Georgia"
+    },
+    {
+      "url": "https://georgiarecorder.com/briefs/ossoff-raises-another-12-million-as-he-fights-for-reelection-in-closely-watched-2026-senate-race/",
+      "title": "Ossoff raises another $12 million as he fights for reelection in closely watched 2026 Senate race \u2022 Georgia Recorder"
+    },
+    {
+      "url": "https://www.tdtnews.com/news/nation_world/article_728230cd-db4f-5462-9c4c-e150edf44347.html",
+      "title": "Georgia Democratic Sen. Jon Ossoff raises $12 million for 2026 reelection"
+    },
+    {
+      "url": "https://newsweek.com/jon-ossoff-enters-midterms-stronger-than-2020-12539978",
+      "title": "Jon Ossoff Enters Midterms Stronger Than His 2020 Breakthrough - Newsweek"
+    },
+    {
+      "url": "https://www.ajc.com/politics/2026/09/a-36m-bet-from-georgias-jon-ossoff-that-goes-beyond-his-own-reelection/",
+      "title": "A $3.6M bet from Georgia\u2019s Jon Ossoff that goes beyond his own reelection"
+    },
+    {
+      "url": "https://electjon.com/",
+      "title": "Jon Ossoff"
+    },
+    {
+      "url": "https://ossoff.substack.com/p/my-most-important-fundraising-deadline",
+      "title": "My most important fundraising deadline so far"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/misleading-voters-ossoff-warns-donors-hes-falling-behind-despite-leading-senate-fundraising",
+      "title": "Jon Ossoff claims he needs more cash while topping Senate fundraising"
+    },
+    {
+      "url": "https://www.newsweek.com/jon-ossoff-chances-winning-fundraising-outpaces-republicans-2100816",
+      "title": "Jon Ossoff\u2019s Chances of Winning as His Fundraising Outpaces Republicans - Newsweek"
+    },
+    {
+      "url": "https://justthenews.com/nation/states/center-square/boosted-out-state-money-ossoff-leads-collins-fundraising",
+      "title": "Boosted by out-of-state money, Ossoff leads Collins in fundraising"
+    },
+    {
+      "url": "https://www.wabe.org/ossoff-rakes-in-another-20m-building-on-fundraising-advantage-in-race-for-georgia-senate-seat/",
+      "title": "Ossoff rakes in another $20M, building on fundraising advantage in race for Georgia Senate seat"
+    },
+    {
+      "url": "https://www.ajc.com/politics/politics-blog/ossoff-sets-new-georgia-record-with-latest-fundraising-haul/OCX4DAI67RC4FKSKR7VLIANRIY/",
+      "title": "Ossoff sets Georgia record with latest fundraising haul"
+    },
+    {
+      "url": "https://www.cbsnews.com/atlanta/news/ossoff-collins-trade-blows-over-republican-lawmakers-former-aide-ahead-of-midterm-election/",
+      "title": "Ossoff, Collins trade words over Republican lawmaker's former aide ahead of midterm election - CBS Atlanta"
+    }
+  ]
+}
