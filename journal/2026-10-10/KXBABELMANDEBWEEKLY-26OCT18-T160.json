@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "ticker": "KXBABELMANDEBWEEKLY-26OCT18-T160",
+  "event": "KXBABELMANDEBWEEKLY-26OCT18",
+  "series": "KXBABELMANDEBWEEKLY",
+  "title": "Will there be more than 160 transit calls through the Bab el-Mandeb Strait from Oct 12, 2026 to Oct 18, 2026? Above 160",
+  "rules": "If the number of transit calls through the Bab el-Mandeb Strait as reported by the IMF PortWatch is above 160 from Oct 12, 2026 to Oct 18, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The total is calculated by summing daily counts from Oct 12, 2026 to Oct 18, 2026. The market will resolve no earlier than Tuesday at 9 AM following the end of the period, once complete data is available.",
+  "close_time": "2026-10-20T13:00:00+00:00",
+  "expected_close_time": "2026-10-20T13:00:00+00:00",
+  "forecast_at": "2026-10-10T23:30:28.297207+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.45",
+    "reasoning": "PortWatch traffic through Bab el-Mandeb was roughly 25-35 ships a day in mid-2026, and in earlier Houthi attack periods it rarely fell much below about 23 a day, the rate needed to clear 160 in a week. But the Houthis took physical control of the strait in mid-September and started a new round of attacks on 5 October, so traffic may now be falling. The threshold also looks set close to current levels, which makes this close to a coin flip.",
+    "falsifier": "PortWatch daily counts for Oct 12-18 averaging well above 25 a day (YES), or a sharp fall to below about 18 a day after major new attacks or ships being hit (NO).",
+    "price_seen": true,
+    "price_sources": [
+      "https://willhappen.ai/p/imf-portwatch-records-a-7-day-moving-average-of-10-or-fewer-tran-1iqb",
+      "https://cryptonews.com/news/polymarket-bab-al-mandeb-strait-betting-odds/"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8800",
+    "best_yes_ask": "0.9200",
+    "p_market": "0.9000"
+  },
+  "final": {
+    "p_yes": "0.82",
+    "action": "pass",
+    "reasoning": "The 0.90 market price likely reflects recent PortWatch counts well above 160 a week, which undercuts my earlier guess that the threshold was set near current traffic. With traffic last seen at about 25-35 a day and earlier attack periods staying near or above 23 a day, I move up to 0.82. The remaining risk from the 5 October attacks is real but not clearly mispriced, so I pass."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://willhappen.ai/p/imf-portwatch-records-a-7-day-moving-average-of-10-or-fewer-tran-1iqb",
+      "title": "IMF PortWatch records a 7-day moving average of 10 or fewer transit calls in the Bab el-Mandeb Strait by September 30, 2026. \u2014 8% say yes"
+    },
+    {
+      "url": "https://redanalysis.org/2026/10/08/houthis-bab-el-mandeb-maritime-transport/",
+      "title": "The Houthis, Bab el-Mandeb, and Maritime Transport \u2022 The Red Team Analysis Society"
+    },
+    {
+      "url": "https://portwatch.imf.org/pages/eventc1000000",
+      "title": "eventc1000000 - IMF PortWatch - International Monetary Fund"
+    },
+    {
+      "url": "https://tankermap.com/analytics/straits/bab-el-mandeb",
+      "title": "Bab el-Mandeb - Tanker Traffic - Daily Transits & Tonnage"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-13-august-2026",
+      "title": "Red Sea Brief: 13 August 2026"
+    },
+    {
+      "url": "https://cryptonews.com/news/polymarket-bab-al-mandeb-strait-betting-odds/",
+      "title": "Polymarket Bab el-Mandeb Closure Market Explained"
+    },
+    {
+      "url": "https://xindemarinenews.com/news/2081654527855202306",
+      "title": "Around 1,400 Ship Transits This Month as Traffic Through Hormuz Falls by 90% and Bab el-Mandeb Slows Sharply"
+    },
+    {
+      "url": "https://newsroom.com.so/maritime/red-sea",
+      "title": "Red Sea Shipping Updates Today \u2014 Bab el-Mandeb & Suez Status"
+    },
+    {
+      "url": "https://rystadenergy.com/insights/the-unbroken-glass-bab-al-mandab-and-the-risk-of-asymmetric-escalation",
+      "title": "The Unbroken Glass: Bab al-Mandab and the risk of asymmetric escalation"
+    },
+    {
+      "url": "https://mykn.kuehne-nagel.com/news/article/red-sea-container-transits-hit-post-crisis",
+      "title": "Red Sea container transits hit post-crisis high as carriers accelerate return"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-6-august-2026",
+      "title": "Red Sea Brief: 6 August 2026"
+    },
+    {
+      "url": "https://www.jpost.com/middle-east/article-903964",
+      "title": "Commodity ship traffic rises in Bab el-Mandeb, remains low in Hormuz"
+    },
+    {
+      "url": "https://www.lloydslist.com/LL1158141/The-Week-in-Charts-Red-Sea-shipping-stabilises-after-Julys-Houthi-blockade-shock--War-disruption-and-rerouting-fail-to-derail-container-demand",
+      "title": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock"
+    },
+    {
+      "url": "https://www.statista.com/statistics/1622216/mea-bab-el-mandeb-strait-transit-calls/",
+      "title": "+ Transit ship calls at Bab el-Mandeb Strait 2023-2026"
+    },
+    {
+      "url": "https://www.thenationalnews.com/business/energy/2026/08/01/how-many-ships-are-transiting-through-hormuz-and-bab-al-mandeb/",
+      "title": "How many ships are transiting through Hormuz and Bab Al Mandeb?"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-30-july-2026",
+      "title": "Red Sea Brief: 30 July, 2026"
+    },
+    {
+      "url": "https://isdo.ch/analysis-of-maritime-geopolitics-on-early-2026-the-red-sea-factor/",
+      "title": "Analysis of maritime geopolitics on early 2026: The Red Sea Factor - International Sustainable Development Observatory"
+    },
+    {
+      "url": "https://africacenter.org/spotlight/2026-houthi-red-sea-threats/",
+      "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa"
+    },
+    {
+      "url": "https://news.usni.org/2026/07/24/hormuz-transits-remain-low-houthis-resume-attacks-in-red-sea",
+      "title": "Hormuz Transits Remain Low, Houthis Resume Attacks in Red Sea - USNI News"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/9/11/houthi-advance-in-yemen-is-about-more-than-just-the-red-sea",
+      "title": "Houthi advance in Yemen is about more than just the Red Sea"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-3-september-2026",
+      "title": "Red Sea Brief: 3 September 2026"
+    },
+    {
+      "url": "https://en.macromicro.me/charts/94484/imf-bab-el-mandeb-strait-number-of-ships-and-transit-volume",
+      "title": "IMF - Bab el-Mandeb Strait - Daily Transit Calls & Transit Trade Volume"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/world/avgpt-of-ships-transiting-bab-el-mandeb-strait-end-of-august-1785517679415",
+      "title": "Bab el-Mandeb Strait Ship Transit Average: End of August"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-18-september-2026",
+      "title": "Red Sea Brief: 18 September 2026"
+    },
+    {
+      "url": "https://tankermap.com/news/bab-el-mandeb-transits-drop-after-fresh-red-sea-threats",
+      "title": "Saudi-linked Red Sea transits reappear, but Bab el-Mandeb tanker flows remain sparse \u2014 TankerMap"
+    },
+    {
+      "url": "https://globaloilshock.com/en/red-sea-crisis-fuel-prices/",
+      "title": "Is Bab el-Mandeb Closed? Red Sea Fuel Status, 3 Oct 2026"
+    },
+    {
+      "url": "https://www.zencargo.com/resources/red-sea-reopening-2026/",
+      "title": "Red Sea Shipping 2026: How will the Suez Canal reopening affect your supply chain"
+    },
+    {
+      "url": "https://carraglobe.com/red-sea-carrier-return-2026/",
+      "title": "Red Sea Shipping 2026: Carriers Return as the Risk Rises - Carra Globe"
+    },
+    {
+      "url": "https://www.morethanshipping.com/the-return-to-the-red-sea-has-started-but-is-the-crisis-really-over/",
+      "title": "The Return to the Red Sea Has Started, But Is the Crisis Really Over? - More Than Shipping"
+    },
+    {
+      "url": "https://www.searates.com/blog/post/suez-canal-and-red-sea-shipping-in-2026-risks-routes-and-operational-impact",
+      "title": "Suez Canal and Red Sea Shipping in 2026: Risks, Routes, and Operational Impact"
+    },
+    {
+      "url": "https://www.arabnews.com/middle-east/suez-canal-recovery-is-critical-to-global-trade-and-economic-growth-egyptian-minister-3004740",
+      "title": "Arab News"
+    },
+    {
+      "url": "https://mykn.kuehne-nagel.com/news/article/maersk-sees-full-suez-canal-return-by-2026-as",
+      "title": "Maersk sees full Suez Canal return by 2026 as Red Sea conditions improve"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-26/container-ships-returning-to-red-sea",
+      "title": "Container Ships Are Looking to Return to Red Sea"
+    },
+    {
+      "url": "https://think.ing.com/articles/returning-to-the-red-sea-a-key-event-to-watch-in-container-shipping-for-2026/",
+      "title": "A Red Sea return would be a game changer for container shipping in 2026"
+    },
+    {
+      "url": "https://www.supplychainbrain.com/articles/43023-red-sea-shipping-return-looms-large-over-2026",
+      "title": "Red Sea Shipping Return 'Looms Large' Over 2026"
+    },
+    {
+      "url": "https://www.bertling.com/news-pool/blog/suez-canal/",
+      "title": "Suez Canal Set for a Comeback in 2026"
+    },
+    {
+      "url": "https://bigoceandata.com/red-sea-shipping-houthi-analysis/",
+      "title": "Bab el-Mandeb Shipping: Houthi Threats & Vessel Behaviour - BigOceanData"
+    },
+    {
+      "url": "https://wwd.com/sourcing-journal/logistics/houthi-red-sea-bab-el-mandeb-strait-of-hormuz-container-shipping-suez-canal-1239222628/",
+      "title": "Houthis Expand Foothold Near Bab el-Mandeb Shipping Chokepoint"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/22/houthis-red-sea-bab-el-mandeb-saudi-oil-iran.html",
+      "title": "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says"
+    },
+    {
+      "url": "https://acleddata.com/report/houthi-gains-around-bab-al-mandab-raise-risks-red-sea-shipping-and-global-oil-markets",
+      "title": "Houthi gains around Bab al-Mandab raise risks to Red Sea shipping and global oil markets"
+    },
+    {
+      "url": "https://abaadstudies.org/en/strategies/topic/60235",
+      "title": "From Military Escalation to Maximizing Gains: How the Houthis Use Bab al-Mandeb as a Bargaining Lever"
+    },
+    {
+      "url": "https://hornreview.org/2026/09/11/the-houthis-at-bab-el-mandeb-and-the-stakes-ahead/",
+      "title": "The Houthis at Bab el-Mandeb and the Stakes Ahead"
+    },
+    {
+      "url": "https://moderndiplomacy.eu/2026/09/19/how-the-houthis-control-of-bab-el-mandeb-could-reshape-red-sea-shipping/",
+      "title": "How the Houthis\u2019 Control of Bab el-Mandeb Could Reshape Red Sea Shipping - Modern Diplomacy"
+    }
+  ]
+}
