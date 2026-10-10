@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-DSCCQ326-A35000000",
+  "event": "KXFUNDRAISING-DSCCQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will the Democratic Senatorial Campaign Committee report more than $35M in cash on hand at the end of Q3? Above $35M",
+  "rules": "If the Democratic Senatorial Campaign Committee's cash on hand is above $35 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-21T13:59:00+00:00",
+  "expected_close_time": "2026-10-21T13:59:00+00:00",
+  "forecast_at": "2026-10-10T15:26:32.200103+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.35",
+    "reasoning": "FEC data shows the DSCC's cash on hand falling from about $41.0M (June 30) to about $40M (July 31) to $37.6M (Aug 31), leaving only about $2.6M of room above $35M. In a competitive midterm, September usually brings a sharp rise in party-committee spending on fall ads and help for candidates, which tends to outpace strong end-of-quarter fundraising. Big September fundraising or large transfers in could still keep the balance above $35M.",
+    "falsifier": "The DSCC's September monthly report (due around Oct. 20) shows ending cash on hand above $35M, for example because record September fundraising or large joint-fundraising transfers outpaced fall ad spending.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1500",
+    "best_yes_ask": "0.2400",
+    "p_market": "0.1950"
+  },
+  "final": {
+    "p_yes": "0.27",
+    "action": "buy_yes",
+    "reasoning": "The market's 0.195 midpoint pulls me down from 0.35, since heavy September spending could easily erase the $2.6M cushion. But the wide spread and $37.6M at end of August still leave about a 1-in-4 chance, slightly above the 0.24 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.2300",
+    "count": 1,
+    "cost": "0.2300",
+    "clamped_from": "0.27"
+  },
+  "sources": [
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-12-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 12-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-18-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 18-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://www.dscc.org/article/icymi-democrats-post-early-fundraising-edge-in-marquee-2026-senate-races-politico/",
+      "title": "ICYMI: Democrats Post Early Fundraising Edge in Marquee 2026 Senate Races [POLITICO] - DSCC"
+    },
+    {
+      "url": "https://x.com/PatrickSvitek/status/2079385923511345488",
+      "title": "Patrick Svitek on X: \"Cash on hand as of June 30, per latest FEC filings: DNC: $16.3M ($18.5M in debt) RNC: $128.5M DSCC: $41M NRSC: $55.9M DCCC: $79M NRCC: $92.7M\" / X"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-beats-dscc-on-fundraising-again-2026-02-02/",
+      "title": "NRSC Beats DSCC On Fundraising"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-best-quarter-of-the-2026-cycle-with-45-3-million-raised/",
+      "title": "DCCC Announces Best Quarter Of The 2026 Cycle With $45.3 Million Raised - DCCC"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4535271/which-party-is-ahead-midterm-elections-fundraising-game/",
+      "title": "Which party is ahead in the midterm elections fundraising game?"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00042366/",
+      "title": "DSCC - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/DIS/disney/cash-on-hand",
+      "title": "Disney Cash on Hand 2012-2026"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/dscc-nrsc-q3/",
+      "title": "DSCC outraise NRSC in Q3"
+    },
+    {
+      "url": "https://mississippitoday.org/2026/08/12/colom-senate-fundraising-dscc/",
+      "title": "Colom, Mississippi left out of DSCC funding"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00000935/",
+      "title": "DCCC - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2025/09/23/dccc-raised-almost-twice-as-much-as-nrcc-in-august/",
+      "title": "DCCC raised almost twice as much as NRCC in August - Ballotpedia News"
+    },
+    {
+      "url": "https://x.com/PatrickSvitek/status/2101858292855087541",
+      "title": "Patrick Svitek on X: \"Cash on hand as of Aug. 31, per latest FEC filings: DNC: $16.9M ($17.6M debt) RNC: $125.6M DSCC: $37.6M NRSC: $18.7M DCCC: $75.9M NRCC: $89.1M\" / X"
+    },
+    {
+      "url": "https://www.dscc.org/article/dscc-shatters-august-fundraising-record-with-biggest-month-in-committee-history/",
+      "title": "DSCC Shatters August Fundraising Record With Biggest Month in Committee History - DSCC"
+    },
+    {
+      "url": "https://legis1.com/news/dccc-fundraising-2026-reports-210m-raised-through",
+      "title": "DCCC and NRCC Report July Fundraising Figures"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/dccc-outraises-nrcc/",
+      "title": "DCCC outraises NRCC \u2026 again"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6079964-trump-opposition-dnc-funding/",
+      "title": "Democratic donors determined to oust Trump say they\u2019re opening checkbooks"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/48765-nrsc-outraised-dscc-in-july/",
+      "title": "NRSC outraised DSCC in July"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-12-3-million-raised-in-july/",
+      "title": "DCCC Announces $12.3 Million Raised in July - DCCC"
+    },
+    {
+      "url": "https://www.dscc.org/news/dscc-shatters-august-fundraising-record-with-biggest-month-in-committee-history/",
+      "title": "DSCC Shatters August Fundraising Record With Biggest Month in Committee History - DSCC: Democratic Senatorial Campaign Committee"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/nrsc-reports-highest-ever-cash-on-hand-2026-06-20/",
+      "title": "NRSC Reports Highest-Ever Cash on Hand"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2025/06/24/republican-party-committees-maintain-lead-in-cumulative-fundraising-in-2026-election-cycle/",
+      "title": "Republican party committees maintain lead in cumulative fundraising in 2026 election cycle - Ballotpedia News"
+    },
+    {
+      "url": "http://www.rollcall.com/politics/dscc-raised-more-than-nrsc-in-june",
+      "title": "DSCC Raised More Than NRSC in June"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/564146-democratic-senate-campaign-arm-trails-republicans-in-june-fundraising/",
+      "title": "Democratic Senate campaign arm trails Republicans in June fundraising"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/senate/3481742/nrsc-fundraising-gop-senate-incumbents-2026-midterms/",
+      "title": "NRSC clears $26M debt, funnels $1.1M to GOP Senate incumbents ahead of 2026"
+    },
+    {
+      "url": "https://www.nrcc.org/2026/07/20/%F0%9F%9A%A8%F0%9F%92%B0-nrcc-smashes-fundraising-records-widens-massive-cash-advantage-over-dccc/",
+      "title": "\ud83d\udea8\ud83d\udcb0 NRCC Smashes Fundraising Records, Widens Massive Cash Advantage Over DCCC - NRCC"
+    },
+    {
+      "url": "https://campaignsandelections.com/industry-news/fundraising-takeaways-in-2025/",
+      "title": "Three Takeaways on the Fundraising Landscape in 2025 - Campaigns & Elections"
+    },
+    {
+      "url": "https://rollcall.com/2013/09/19/dscc-tops-debt-free-nrsc-in-august-fundraising-updated/",
+      "title": "DSCC Tops Debt-Free NRSC in August Fundraising (Updated)"
+    },
+    {
+      "url": "https://rollcall.com/2009/05/19/dscc-nrsc-pay-down-debt-in-april/",
+      "title": "DSCC, NRSC Pay Down Debt in April - Roll Call"
+    },
+    {
+      "url": "https://dscc.org/press-release/dscc-raises-3-8-million-october-beating-nrsc-whopping-1-5-million-ending-october-9-6-million-hand",
+      "title": "DSCC RAISES $3.8 MILLION IN OCTOBER, BEATING THE NRSC BY A WHOPPING $1.5 MILLION, AND ENDING OCTOBER WITH $9.6 MILLION ON HAND - DSCC: Democratic Senatorial Campaign Committee"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/nrsc-outraises-dscc-in-april-boasts-far-lower-debt-burden/2015/05/20/6c12b442-ff3b-11e4-805c-c3f407e5a9e9_story.html",
+      "title": "NRSC outraises DSCC in April, boasts far lower debt burden - The Washington Post"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/483805-democratic-senate-campaign-arm-raised-more-than-85-million-in-january/",
+      "title": "Democratic Senate campaign arm raised more than $8.5 million in January"
+    },
+    {
+      "url": "https://www.threads.com/@thedatanerd13/post/DZ1EFB6DBvW/cash-on-hand-as-of-may-per-the-latest-fec-filings-dnc-m-m-in-debt-rnc-m-dscc-m/",
+      "title": "Cash on hand as of May 31, per the latest FEC filings: \ud83d\udd35DNC: $15M ($18M in debt) \ud83d\udd34RNC: $125M \ud83d\udd35DSCC: $39M \ud83d\udd34NRSC: $49M \ud83d\udd35DCCC: $73M \ud83d\udd34NRCC: $82M"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001018730/000102140899001132/0001021408-99-001132.txt/seq-2",
+      "title": "SMARTALK TELESERVICES INC - Form 8-K - FY1999"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000714603/000071460314000006/Financial_Report.xlsx",
+      "title": "DST SYSTEMS INC - Form 10-K - FY2013 (Annual Financial Statement Tables - full year 2013)"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000049754/000110465908020457/a08-8910_1ex99d4.htm",
+      "title": "IHOP CORP - Form 8-K - FY2008"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001966041/000121390024015671/filename1.htm",
+      "title": "DSC Holdings Ltd. - Form DRS/A - FY2024"
+    },
+    {
+      "url": "https://ballotpedia.org/Democratic_Senatorial_Campaign_Committee",
+      "title": "Democratic Senatorial Campaign Committee - Ballotpedia"
+    },
+    {
+      "url": "https://www.dscc.org/article/small-dollar-donors-help-dscc-smash-records-with-strongest-fundraising-month-biggest-q3-in-committee-history/",
+      "title": "Grassroots Donors Help DSCC Smash Fundraising Record, Best Month & Q3 in Committee History - DSCC"
+    },
+    {
+      "url": "https://ballotpedia.org/Party_committee_fundraising,_2025-2026",
+      "title": "Party committee fundraising, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://www.givegreen.com/committees/democratic-senatorial-campaign-committee-general-fund",
+      "title": "GiveGreen"
+    },
+    {
+      "url": "https://www.dscc.org/article/democrats-senate-momentum-builds-as-dscc-outraises-nrsc-for-third-consecutive-month/",
+      "title": "Democrats\u2019 Senate Momentum Builds as DSCC Outraises NRSC for Third Consecutive Month - DSCC"
+    },
+    {
+      "url": "https://www.dscc.org/article/dscc-announces-40-million-investment-in-win-the-senate-program/",
+      "title": "DSCC Announces $40 Million Investment in Win The Senate Program - DSCC"
+    }
+  ]
+}

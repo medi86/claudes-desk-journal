@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-MUD26OCT15-10K",
+  "event": "KXALBUMEQUIV-MUD26OCT15",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Mud by Remi Wolf have above 10000 Album Equivalent Units during the October 9, 2026 - October 15, 2026 tracking week? Above 10K",
+  "rules": "If Mud by Remi Wolf has above 10K Album Equivalent Units during the October 9, 2026 - October 15, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 9, 2026 - October 15, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-18T14:00:00+00:00",
+  "expected_close_time": "2026-10-18T14:00:00+00:00",
+  "forecast_at": "2026-10-10T15:26:32.200103+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.54",
+    "reasoning": "Mud came out October 9, 2026, so this is its first full week out. Remi Wolf's previous album, Big Ideas, debuted at only No. 95 on the Billboard 200 in July 2024, which from memory usually meant about 10K units, right at this threshold. Signed and colored vinyl bundles, a John Mayer feature, a tour announced on release day and two years of fan growth push slightly toward clearing 10K. But the album's stripped-back sound and modest streaming numbers make it close to a coin flip.",
+    "falsifier": "Luminate or Billboard reporting Mud's first-week total at or below 10,000 units (e.g., a debut outside roughly the top 100 of the Billboard 200).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7900",
+    "best_yes_ask": "0.8700",
+    "p_market": "0.8300"
+  },
+  "final": {
+    "p_yes": "0.7",
+    "action": "pass",
+    "reasoning": "The 0.83 midpoint probably reflects post-release sales information, while my estimate rests only on a No. 95 debut whose unit count I'm unsure of, so I moved up from 0.54 to 0.70. The remaining gap is too small, and my information too weak, to bet NO confidently."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://shop.remiwolf.com/products/mud-standard-cd",
+      "title": "Mud Standard CD"
+    },
+    {
+      "url": "https://remi-wolf.fandom.com/wiki/Mud",
+      "title": "Mud"
+    },
+    {
+      "url": "https://music.apple.com/us/album/mud/6800467151",
+      "title": "Mud by Remi Wolf on Apple Music"
+    },
+    {
+      "url": "https://greeblehaus.com/remi-wolf-mud-new-album/",
+      "title": "Remi Wolf Announces New Album Mud - Release Date & Tracklist"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/remi-wolf-mud-album-bottle-1236319270/",
+      "title": "Remi Wolf Announces 'Mud' Album & New Single 'Bottle'"
+    },
+    {
+      "url": "https://shop.umusic.com.au/pages/artist/remi-wolf",
+      "title": "Remi Wolf - uMusic Shop Australia"
+    },
+    {
+      "url": "https://www.pmstudio.com/music/20260821-28856",
+      "title": "Remi Wolf Announces New Album \u201cMud\u201d, Shares New Song \u201cBottle\u201d - pm studio world wide music news"
+    },
+    {
+      "url": "https://www.umusic.ca/products/mud-standard-lp",
+      "title": "Mud Standard LP - uMusic Shop Canada"
+    },
+    {
+      "url": "https://www.newreleasesnow.com/album/remi-wolf-mud",
+      "title": "New Releases Now"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Big_Ideas_(album)",
+      "title": "Big Ideas (album)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Remi_Wolf",
+      "title": "Remi Wolf"
+    },
+    {
+      "url": "https://www.ticketmaster.com/remi-wolf-tickets/artist/2689199",
+      "title": "Remi Wolf Tickets, 2026-2027 Concert Tour Dates"
+    },
+    {
+      "url": "https://www.miaminewtimes.com/music/remi-wolf-brings-her-big-ideas-tour-to-the-fillmore-miami-beach-22958501/",
+      "title": "Remi Wolf Brings Her Big Ideas Tour to the Fillmore Miami Beach"
+    },
+    {
+      "url": "https://blog.ticketmaster.com/remi-wolf-top-songs/",
+      "title": "Top Remi Wolf Songs: Hits, Popular Tracks & Fan Favorites List"
+    },
+    {
+      "url": "https://www.universalmusic.ca/press-releases/remi-wolf-releases-highly-anticipated-sophomore-album-big-ideas/",
+      "title": "REMI WOLF RELEASES HIGHLY ANTICIPATED SOPHOMORE ALBUM BIG IDEAS"
+    },
+    {
+      "url": "https://blood-records.co.uk/products/remi",
+      "title": "Remi Wolf - Big Ideas (Frog-Rock Edition)"
+    },
+    {
+      "url": "https://www.pabsttheatergroup.com/events/detail/remi-wolf-2025",
+      "title": "Remi Wolf"
+    },
+    {
+      "url": "https://redlightmanagement.com/artists/remi-wolf/",
+      "title": "Remi Wolf \u2022 Red Light Management"
+    },
+    {
+      "url": "https://music.apple.com/us/album/big-ideas/1736025456",
+      "title": "Big Ideas by Remi Wolf on Apple Music"
+    },
+    {
+      "url": "https://floodmagazine.com/167621/remi-wolf-big-ideas/",
+      "title": "Remi Wolf, \u201cBig Ideas\u201d - FLOOD Magazine"
+    },
+    {
+      "url": "https://www.amazon.com/Big-Ideas-Remi-Wolf/dp/B0CYDZ1QXR",
+      "title": "Remi Wolf - Big Ideas - Amazon.com Music"
+    },
+    {
+      "url": "https://www.nme.com/features/music-interviews/remi-wolf-interview-big-ideas-album-3772212",
+      "title": "In the eye of the storm: Remi Wolf writes her life with \u2018Big Ideas\u2019"
+    },
+    {
+      "url": "https://www.allmusic.com/album/big-ideas-mw0004249110",
+      "title": "Big Ideas - Remi Wolf"
+    },
+    {
+      "url": "https://consequence.net/2026/10/remi-wolf-2027-tour-mud-new-album-stream/",
+      "title": "Remi Wolf Maps Out 2027 Tour, Releases New Album Mud: Stream"
+    },
+    {
+      "url": "https://www.complex.com/music/a/brendan-frederick/remi-wolf-mud-album-tracklist-features-guide",
+      "title": "Remi Wolf's New Album 'Mud': Tracklist, Features, Inspiration, and Everything You Need to Know"
+    },
+    {
+      "url": "https://licoricepizzarecords.com/products/pre-order-remi-wolf-mud-cd",
+      "title": "Mud [CD], Remi Wolf, CD"
+    },
+    {
+      "url": "https://shop.remiwolf.com/products/mud-standard-lp",
+      "title": "Mud Standard LP"
+    },
+    {
+      "url": "https://www.grimygoods.com/2026/10/08/remi-wolf-mud-album-release-party-los-angeles-rsvp/",
+      "title": "Remi Wolf 'Mud' Album Release Party in LA: How to RSVP"
+    },
+    {
+      "url": "https://theneedledrop.com/news/remi-wolf-announces-new-tour/",
+      "title": "Remi Wolf announces new tour"
+    },
+    {
+      "url": "https://shop.remiwolf.com/products/mud-signed-lp",
+      "title": "Mud Signed LP"
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/10/09/remi-wolf-releases-new-album-mud-out-now/",
+      "title": "REMI WOLF RELEASES NEW ALBUM MUD OUT NOW - Universal Music Canada"
+    },
+    {
+      "url": "https://www.wonderlandmagazine.com/2024/07/12/remi-wolf-big-ideas/",
+      "title": "Remi Wolf Discusses Big Ideas"
+    },
+    {
+      "url": "https://www.discogs.com/master/3540907-Remi-Wolf-Big-Ideas",
+      "title": "Remi Wolf"
+    },
+    {
+      "url": "https://www.grammy.com/news/remi-wolf-interview-new-album-big-ideas-touring-songwriting/",
+      "title": "On New Album \u2018Big Ideas,\u2019 Remi Wolf Delivers Musical Poetry In Motion"
+    },
+    {
+      "url": "https://hypebeast.com/2024/7/remi-wolf-big-ideas-album-stream",
+      "title": "Remi Wolf Is Ready To Share Her 'Big Ideas' With the World"
+    },
+    {
+      "url": "https://www.officialcharts.com/albums/remi-wolf-big-ideas/",
+      "title": "BIG IDEAS"
+    },
+    {
+      "url": "https://creativedisc.com/2024/07/billboard-200-albums-chart-27-july-2024/",
+      "title": "BILLBOARD 200 Albums Chart"
+    },
+    {
+      "url": "https://www.amazon.com/Big-Ideas-Explicit-Remi-Wolf/dp/B0CY3S8J57",
+      "title": "Play Big Ideas by Remi Wolf on Amazon Music"
+    },
+    {
+      "url": "https://www.newreleasesnow.com/album/remi-wolf-big-ideas",
+      "title": "Remi Wolf, Big Ideas New Music, Songs, & Albums, 2024"
+    },
+    {
+      "url": "https://www.billboard.com/charts/billboard-200/",
+      "title": "Billboard 200\u2122"
+    },
+    {
+      "url": "https://billboard.com/music/music-news/cardi-b-eminem-troye-sivan-best-new-music-this-week-poll-1236358090",
+      "title": "From Cardi B to an Eminem Collab & Troye Sivan, Which New Music Release Is Your Favorite This Week? Vote!"
+    },
+    {
+      "url": "https://kworb.net/spotify/artist/0NB5HROxc8dDBXpkIi1v3d_songs.html",
+      "title": "Remi Wolf - Spotify Top Songs"
+    },
+    {
+      "url": "https://www.besteveralbums.com/thechart.php?b=72121",
+      "title": "Remi Wolf : Best Ever Albums"
+    },
+    {
+      "url": "https://www.billboard.com/music/music-news/troye-sivan-slayyyter-remi-wolf-new-music-friday-guide-1236353582/",
+      "title": "Troye Sivan, Remi Wolf, Slayyyter & Pitbull: New Music Friday Guide"
+    },
+    {
+      "url": "https://www.timesunion.com/entertainment/article/music-review-remi-wolf-emerges-dirty-but-22469515.php",
+      "title": "Music Review: Remi Wolf emerges, dirty but renewed, on 'Mud'"
+    },
+    {
+      "url": "https://www.wral.com/news/ap/f618e-music-review-remi-wolf-emerges-dirty-but-renewed-on-mud/",
+      "title": "Music Review: Remi Wolf emerges, dirty but renewed, on 'Mud' :: WRAL.com"
+    },
+    {
+      "url": "https://rateyourmusic.com/artist/remi-wolf",
+      "title": "Remi Wolf Albums: songs, discography, biography, and listening guide - Rate Your Music"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-features/troye-sivan-dawn-richard-remi-wolf-songs-you-need-to-know-1235639943/",
+      "title": "Troye Sivan, Dawn Richard, Remi Wolf, and All the Songs You Need to Know This Week"
+    }
+  ]
+}
