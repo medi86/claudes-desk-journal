@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-CLFQ326-A145000000",
+  "event": "KXFUNDRAISING-CLFQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will the Congressional Leadership Fund report more than $145M in cash on hand at the end of Q3? Above $145M",
+  "rules": "If the Congressional Leadership Fund's cash on hand is above $145 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-16T13:59:00+00:00",
+  "expected_close_time": "2026-10-16T13:59:00+00:00",
+  "forecast_at": "2026-10-10T07:19:34.016283+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.69",
+    "reasoning": "CLF had $141.8M on hand on June 30, 2026, so it only needs about $3.2M of net growth in Q3 to clear $145M. In the same quarter of 2024 it raised $81.4M and ended with $153M, and its 2026 fundraising is ahead of that pace. The main risk is heavy September ad spending from its roughly $175M of fall reservations in a tough environment for Republicans, which could outrun what it raises.",
+    "falsifier": "CLF's Q3 FEC report (due Oct 15) or its own press release shows cash on hand of $145M or less as of Sept 30, 2026, because spending outpaced fundraising.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3700",
+    "best_yes_ask": "0.4400",
+    "p_market": "0.4050"
+  },
+  "final": {
+    "p_yes": "0.52",
+    "action": "buy_yes",
+    "reasoning": "The market's low price made me cut my estimate from 0.69, since traders may know more about September spending or the lack of a Q3 announcement so far. CLF still needs only about $3.2M of net growth after a record Q2, so 0.52 stays above the 0.44 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.4300",
+    "count": 1,
+    "cost": "0.4300",
+    "clamped_from": "0.52"
+  },
+  "sources": [
+    {
+      "url": "https://www.factcheck.org/2026/08/congressional-leadership-fund-6/",
+      "title": "Congressional Leadership Fund - FactCheck.org"
+    },
+    {
+      "url": "https://congressionalleadershipfund.org/clf-aan-raise-unprecedented-192-6-million-cycle-to-date/",
+      "title": "CLF & AAN raise unprecedented $192.6 million cycle-to-date - Congressional Leadership Fund"
+    },
+    {
+      "url": "https://congressionalleadershipfund.org/clf-raises-record-breaking-53-million-for-q2-historic-141-8m-in-coh/",
+      "title": "CLF raises record-breaking $53 million for Q2, historic $141.8M in COH - Congressional Leadership Fund"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00504530/",
+      "title": "CLF - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/gop-cash-2026/",
+      "title": "GOP groups build large cash edge for 2026"
+    },
+    {
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5795841/democrats-senate-fundraising-republican-maga-cash-on-hand-campaign-finance",
+      "title": "4 charts show where money is going in the midterms -- and who has the most cash"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/clf-aan/",
+      "title": "CLF, AAN raise $56M-plus in Q1"
+    },
+    {
+      "url": "https://congressionalleadershipfund.org/clf-aan-raise-142-million-cycle-to-date/",
+      "title": "CLF & AAN Raise $142 Million Cycle to Date - Congressional Leadership Fund"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/gop-group-60m/",
+      "title": "House GOP outside groups raised record $60M in first half of 2025"
+    },
+    {
+      "url": "https://www.texastribune.org/2026/09/30/texas-congress-house-elections-2026-midterms/",
+      "title": "2026 Texas congressional races: Who is running and what to know"
+    },
+    {
+      "url": "https://www.factcheck.org/2026/08/senate-leadership-fund-5/",
+      "title": "Senate Leadership Fund - FactCheck.org"
+    },
+    {
+      "url": "https://ms.now/rachel-maddow-show/maddowblog/max-miller-ohio-republicans-midterm-elections-2026",
+      "title": "Campaign Round-Up: Max Miller picks up GOP backing, despite scandal"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00353888/",
+      "title": "CONGRESSIONAL LEADERSHIP FUND - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://www.wispolitics.com/2026/congressional-leadership-fund-knocks-cooke-in-new-ad/",
+      "title": "Congressional Leadership Fund knocks Cooke in new ad - WisPolitics"
+    },
+    {
+      "url": "https://congressionalleadershipfund.org/clf-reserves-153-million-in-first-wave-of-ad-reservations/",
+      "title": "CLF Reserves $153 Million in First Wave of Ad Reservations - Congressional Leadership Fund"
+    },
+    {
+      "url": "https://dailysignal.com/2026/10/08/top-republican-predicts-raising-450-million-midterm",
+      "title": "Republican Campaigner Aims for $450 Million in Midterm Fundraising"
+    },
+    {
+      "url": "https://legis1.com/news/club-for-growth-action-spending-spent-414-million",
+      "title": "Club for Growth Action spent $4.14 million through July"
+    },
+    {
+      "url": "https://time.com/5336902/congressional-leadership-fund-fundraising/",
+      "title": "This Republican Super PAC Raised $51 Million to Try and Save the Party's House Majority"
+    },
+    {
+      "url": "https://www.wispolitics.com/2024/congressional-leadership-fund-posts-largest-quarter-ever-and-adds-11-million-to-key-races/",
+      "title": "Congressional Leadership Fund: Posts largest quarter ever and adds $11 million to key races - WisPolitics"
+    },
+    {
+      "url": "https://superpacs.com/super-pac-profiles/",
+      "title": "Super PAC Profiles - SuperPACs.com"
+    },
+    {
+      "url": "https://congressionalleadershipfund.org/clf-posts-largest-quarter-ever-and-adds-11-million-to-key-races/",
+      "title": "CLF Posts Largest Quarter Ever and Adds $11 Million to Key Races - Congressional Leadership Fund"
+    },
+    {
+      "url": "https://congressionalleadershipfund.org/clf-adds-22-million-in-fl-va-to-fall-ad-reservations/",
+      "title": "CLF Adds $22 Million in FL, VA to Fall Ad Reservations - Congressional Leadership Fund"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/house-gop-153m/",
+      "title": "The House GOP\u2019s $153M fall ad blitz"
+    },
+    {
+      "url": "https://rollcall.com/2026/04/28/when-it-comes-to-ad-reservations-parties-typically-dont-play-games/",
+      "title": "When it comes to ad reservations, parties typically don\u2019t play games"
+    },
+    {
+      "url": "https://thedesk.net/2026/09/kpi-political-ad-spend-forecast-2026-midterm/",
+      "title": "KPI: Political ad spending expected to hit $12 billion as midterm races heat up"
+    },
+    {
+      "url": "https://www.coloradopolitics.com/2026/04/23/colorado-congressional-elections-see-over-9m-in-ad-reserves-from-house-democrats-super-pac/",
+      "title": "Colorado congressional elections see over $9M in ad reserves from House Democrats\u2019 super PAC"
+    },
+    {
+      "url": "https://punchbowl.news/article/the-daily-punch/clf-ad-reserve/",
+      "title": "CLF and HMP's 2026 ad reservations"
+    },
+    {
+      "url": "https://www.wispolitics.com/2026/congressional-leadership-fund-ad-charges-cooke-is-a-total-phony/",
+      "title": "Congressional Leadership Fund ad charges Cooke is a 'total phony' - WisPolitics"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5845033-house-pacs-midterm-ad-reservations/",
+      "title": "House GOP, Democratic super PACs reserve $425M for ads ahead of midterms"
+    },
+    {
+      "url": "https://www.legistorm.com/organization/summary/96171/Congressional_Leadership_Fund.html",
+      "title": "Congressional Leadership Fund - Summary from LegiStorm"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Congressional_Leadership_Fund",
+      "title": "Congressional Leadership Fund"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/top-outside-group-backing-house-republicans-showcases-fundraising-prowess",
+      "title": "First on Fox: Top outside group backing House Republicans sets fundraising record"
+    }
+  ]
+}
