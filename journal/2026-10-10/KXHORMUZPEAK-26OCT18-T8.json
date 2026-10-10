@@ -214,5 +214,21 @@
       "url": "https://straits.live/briefs/2026-10-07",
       "title": "Strait of Hormuz Status: October 7, 2026"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "85e540599630503175a04eef0568c56298e308bb",
+    "pushed_at": "2026-10-10T07:23:54Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXHORMUZPEAK-26OCT18-T8-85e540599630",
+    "thesis_commit": "85e540599630503175a04eef0568c56298e308bb",
+    "status": "resting",
+    "order_id": "01a124b2-6af8-7b59-a8b7-59976efd06fb",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

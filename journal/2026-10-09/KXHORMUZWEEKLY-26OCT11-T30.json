@@ -226,9 +226,9 @@
   "order": {
     "client_order_id": "KXHORMUZWEEKLY-26OCT11-T30-f8cc928f54b2",
     "thesis_commit": "f8cc928f54b2cc4f793eb07c0d60f41392536d93",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1213c-6e78-76e6-b3f4-740e7c2f12c5",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
