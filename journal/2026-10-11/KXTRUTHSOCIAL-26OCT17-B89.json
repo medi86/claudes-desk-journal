@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUTHSOCIAL-26OCT17-B89",
+  "event": "KXTRUTHSOCIAL-26OCT17",
+  "series": "KXTRUTHSOCIAL",
+  "title": "Will Donald Trump make between 80 and 99 Truth Social posts the week of Oct 11, 2026? 80-99",
+  "rules": "If the number of Truth Social posts by Donald Trump from Oct 11, 2026 to Oct 17, 2026 is between 80 and 99, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe observation period begins at 12:00 AM ET on Oct 11, 2026 and ends at 11:59 PM ET on Oct 17, 2026.\nThe primary resolution source for this market is Roll Call.\nIn the event that Roll Call data is unavailable or inaccurate, alternative sources may be used at Kalshi's discretion.\n\nPayout criteria\n\nTruths, ReTruths, and Quote Truths are included in the total count.\nReplies are included if captured by Roll Call.\n\"Between\" is inclusive of the lower and upper bound.\n\nDoesn\u2019t count for payout: Posts deleted as of the Expiration Time.",
+  "close_time": "2026-10-18T13:59:00+00:00",
+  "expected_close_time": "2026-10-18T13:59:00+00:00",
+  "forecast_at": "2026-10-11T22:18:37.221897+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.07",
+    "reasoning": "Trump has averaged roughly 19-25 Truth Social posts per day in 2026, about 130-170 per week, and post numbers in the trumpstruth.org archive point to about 20/day in early October. Landing in 80-99 would take a sustained drop of about a third for the whole week. That's a lower-tail outcome, especially with midterm campaigning picking up.",
+    "falsifier": "Trump sharply cuts his posting during Oct 11-17 (for example from a health issue, long foreign travel, or a deliberate pullback) and averages about 11-14 posts per day, as tracked by Roll Call.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.lines.com/prediction-markets/politics/donald-trump-of-truth-social-posts-september-1-september-8-2026",
+      "https://www.probly.com/en/event/donald-trump-of-truth-social-posts-september-29-october-6-2026",
+      "https://www.coinbase.com/en-br/predictions/event/KXTRUTHSOCIAL-26SEP26"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1100",
+    "best_yes_ask": "0.1500",
+    "p_market": "0.1300"
+  },
+  "final": {
+    "p_yes": "0.09",
+    "action": "buy_no",
+    "reasoning": "The 13% midpoint is above my estimate. I nudged up to 9% in case the market knows of a slowdown I missed, but recent post counts (about 20 a day) still make 80-99 an unlikely low week, so NO looks favorable."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1200",
+    "count": 1,
+    "cost": "0.8800",
+    "clamped_from": "0.09"
+  },
+  "sources": [
+    {
+      "url": "https://factually.co/fact-checks/politics/donald-trump-truth-social-posts-summary-by-date-6badfd",
+      "title": "List of Donald Trump\u2019s Truth Social Posts by Date: Sum..."
+    },
+    {
+      "url": "https://www.mediaite.com/politics/trump-has-averaged-a-whopping-19-truth-social-posts-a-day-in-2026-report/",
+      "title": "Trump Has Averaged a Whopping 19 Truth Social Posts a Day in 2026: Report"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/donald-trump-truth-social-posts-summary-by-date-52a3b4",
+      "title": "List of Donald Trump\u2019s Truth Social Posts By Date: A S..."
+    },
+    {
+      "url": "https://www.coinbase.com/en-br/predictions/event/KXTRUTHSOCIAL-26SEP26",
+      "title": "Trump Truth Social posts this week? (9/20-9/26)"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/trump-averaged-whopping-19-truth-154246157.html",
+      "title": "Trump Has Averaged a Whopping 19 Truth Social Posts a Day in 2026: Report"
+    },
+    {
+      "url": "https://rollcall.com/2026/01/20/trump-by-the-numbers-first-year/",
+      "title": "What the numbers say: Trump\u2019s 2025 versus his 2017"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/donald-trump-posts-record-white-house-explains_n_6a1fdcdfe4b032392fa751f2",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom",
+      "title": "Trump's Truth Social lays bare narrow obsessions of an extremely online president"
+    },
+    {
+      "url": "https://www.trumpstruth.org/",
+      "title": "Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42244",
+      "title": "Donald J. Trump video post from October 10, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.kadoa.com/potus/truth",
+      "title": "What Did Trump Post Today? Truth Social Posts Ranked by Impact"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42189",
+      "title": "Donald J. Trump video post from October 7, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42222",
+      "title": "Donald J. Trump image post from October 10, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42252",
+      "title": "Donald J. Trump video post from October 11, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42083",
+      "title": "Donald J. Trump video post from October 2, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42118",
+      "title": "Donald J. Trump video post from October 3, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42200",
+      "title": "Donald J. Trump video post from October 8, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/politics/donald-trump-of-truth-social-posts-september-1-september-8-2026",
+      "title": "Trump Truth Social Posts Sept 1-8, 2026: 180-199 Wins"
+    },
+    {
+      "url": "https://snopes.com/fact-check/trump-armageddon-post-fake",
+      "title": "Did Trump share post predicting Armageddon 'tonight'?"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-24-2026",
+      "title": "Truth Social Posts of September 24, 2026"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-27-2026",
+      "title": "Truth Social Posts of September 27, 2026"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/41932",
+      "title": "Donald J. Trump video post from September 26, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-september-26-2026",
+      "title": "Truth Social Posts of September 26, 2026"
+    },
+    {
+      "url": "https://www.forbes.com/sites/conormurray/2026/10/04/trump-launches-bizarre-sunday-posting-spree-from-crumbling-kennedy-center-to-greenland-memes/",
+      "title": "Trump Fires Off 23 Truth Social Posts In 1 Hour During Wild Sunday Spree"
+    },
+    {
+      "url": "https://www.forth.news/stories/CffDPfsNgmgthUAxxZkM8",
+      "title": "President Trump Posts on Truth Social, No New Policy Announced"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/app-attributes/truth-social",
+      "title": "Truth Social"
+    },
+    {
+      "url": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+      "title": "Kalshi is investigating bets on Trump's press secretary pick placed before announcement: WSJ"
+    },
+    {
+      "url": "https://www.probly.com/en/event/donald-trump-of-truth-social-posts-september-29-october-6-2026",
+      "title": "Donald Trump # Truth Social posts September 29 - October 6,\u2026"
+    },
+    {
+      "url": "https://thehill.com/policy/technology/6140504-kalshi-investigates-press-secretary-bets",
+      "title": "Kalshi investigating suspicious bets tied to White house press secretary pick: Report"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-posts-truth-social-over-025825378.html",
+      "title": "Trump Posts on Truth Social Over 100 Times on Sunday"
+    },
+    {
+      "url": "https://ms.now/news/trump-nobel-peace-prize-navi-pillay",
+      "title": "\u2018Wow!\u2019: Trump snaps after losing out on Nobel Peace Prize again"
+    },
+    {
+      "url": "https://newsweek.com/trump-mistakes-brazil-for-india-truth-social-12523391",
+      "title": "Trump Truth Social Post Mistakes Brazil for India - Newsweek"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42250",
+      "title": "Donald J. Trump: \"RT: https://truthsocial.com/users/realDonaldTrump/statuses/117419806852030114\" - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42187",
+      "title": "Donald J. Trump video post from October 7, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections",
+      "title": "Trump says US will not strike Iran before midterm elections"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42074",
+      "title": "Donald J. Trump video post from October 1, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42223",
+      "title": "Donald J. Trump image post from October 10, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://adipredictstreet.com/politics/donald-trump-truth-social-posts-september-29-october-6-2026",
+      "title": "Donald Trump # Truth Social Posts September 29"
+    },
+    {
+      "url": "https://www.courthousenews.com/doj-defends-trump-charging-100k-for-early-access-to-truth-social-posts/",
+      "title": "DOJ defends Trump charging $100K for early access to Truth Social posts"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/donald-trump-keeps-quiet-usas-103654870.html",
+      "title": "Donald Trump keeps quiet on USA's win at World Cup despite Truth Social posts - Yahoo Sports"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/politics/donald-trump-of-truth-social-posts-may-19-may-26",
+      "title": "How Many Times Will Trump Post on Truth Social, May 19- ..."
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-april-23-2026",
+      "title": "Truth Social Posts of April 23, 2026"
+    },
+    {
+      "url": "https://www.msn.com/en-us/news/politics/trump-has-averaged-a-whopping-19-truth-social-posts-a-day-in-2026-report/ar-AA23KVQs",
+      "title": "Trump has averaged a whopping 19 Truth Social posts a day in 2026: Report"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-DCCCQ326-A60000000",
+  "event": "KXFUNDRAISING-DCCCQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will the Democratic Congressional Campaign Committee report more than $60M in cash on hand at the end of Q3? Above $60M",
+  "rules": "If the Democratic Congressional Campaign Committee's cash on hand is above $60 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-21T13:59:00+00:00",
+  "expected_close_time": "2026-10-21T13:59:00+00:00",
+  "forecast_at": "2026-10-11T22:18:37.221897+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.64",
+    "reasoning": "The DCCC had $76M cash on hand at the end of August 2026, after falling about $4M in August while raising $12M. To land at or below $60M it would need to lose more than $16M net in September. That would take spending above about $30M, which is possible as fall ad spending ramps up but would be a big jump from August. End-of-quarter fundraising should partly offset the spending, so finishing above $60M is somewhat more likely than not.",
+    "falsifier": "The DCCC's September monthly FEC report (due around Oct 20, 2026) showing cash on hand at or below $60M, most likely because of heavy September independent-expenditure ad spending.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1300",
+    "best_yes_ask": "0.1900",
+    "p_market": "0.1600"
+  },
+  "final": {
+    "p_yes": "0.3",
+    "action": "buy_yes",
+    "reasoning": "The 16% price suggests traders expect very heavy September spending, so I've moved down a lot from 64%. Going from $76M to at or below $60M still takes more than $16M of net burn in one month, which I think the market is overpricing."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.1800",
+    "count": 1,
+    "cost": "0.1800",
+    "clamped_from": "0.30"
+  },
+  "sources": [
+    {
+      "url": "https://dccc.org/dccc-announces-13-7-million-raised-in-february/",
+      "title": "DCCC Announces $13.7 Million Raised in February - DCCC"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-best-quarter-of-the-2026-cycle-with-45-3-million-raised/",
+      "title": "DCCC Announces Best Quarter Of The 2026 Cycle With $45.3 Million Raised - DCCC"
+    },
+    {
+      "url": "https://dccc.org/dccc-demolishes-july-fundraising-record-18-3m-haul/",
+      "title": "DCCC Demolishes July Fundraising Record With $18.3M Haul - DCCC"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/dccc-outraises-nrcc/",
+      "title": "DCCC outraises NRCC \u2026 again"
+    },
+    {
+      "url": "https://dccc.org/dccc-smashes-august-fundraising-record-raises-22-6m-in-august/",
+      "title": "DCCC Smashes August Fundraising Record"
+    },
+    {
+      "url": "https://ballotpedia.org/Fundraising_in_Congressional_elections,_2018",
+      "title": "Fundraising in Congressional elections, 2018 - Ballotpedia"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-7-6-million-raised-in-october/",
+      "title": "DCCC Announces $7.6 million Raised in October - DCCC"
+    },
+    {
+      "url": "https://dccc.org/candidate-56k-cash-hand-makes-young-guns-program/",
+      "title": "Candidate with 56K \u2018Cash on Hand\u2019 Makes Young Guns Program - DCCC"
+    },
+    {
+      "url": "https://publicintegrity.org/politics/the-anatomy-of-a-misleading-fundraising-email/",
+      "title": "The anatomy of a misleading fundraising email"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-12-million-raised-in-august/",
+      "title": "DCCC Announces $12 Million Raised in August - DCCC"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/4890725-house-democrats-campaign-arm-22m-august-haul/",
+      "title": "House Democrats\u2019 campaign arm raises $22M in August"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/515533-house-democrats-campaign-arm-raises-over-226-million-in-august/",
+      "title": "House Democrats\u2019 campaign arm raises over $22.6 million in August"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2025/09/23/dccc-raised-almost-twice-as-much-as-nrcc-in-august/",
+      "title": "DCCC raised almost twice as much as NRCC in August - Ballotpedia News"
+    },
+    {
+      "url": "https://ballotpedia.org/Party_committee_fundraising,_2025-2026",
+      "title": "Party committee fundraising, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://dccc.org/dccc-raises-22-3-million-in-august/",
+      "title": "DCCC Raises $22.3 Million in August - DCCC"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/4891634-nrcc-dccc-august-fundraising/",
+      "title": "House GOP campaign arm lags behind Democrats in August"
+    },
+    {
+      "url": "https://dccc.org/dccc-posts-best-ever-off-year-august-fundraising-two-thirds-of-10-million-haul-fueled-by-grassroots-donors/",
+      "title": "DCCC Posts Best Ever Off-Year August Fundraising, Two-Thirds of $10 Million Haul Fueled By Grassroots Donors - DCCC"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-37-4-million-raised-in-q2/",
+      "title": "DCCC Announces $37.4 Million Raised in Q2 - DCCC"
+    },
+    {
+      "url": "https://legis1.com/news/dccc-fundraising-2026-reports-210m-raised-through",
+      "title": "DCCC and NRCC Report July Fundraising Figures"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-12-3-million-raised-in-july/",
+      "title": "DCCC Announces $12.3 Million Raised in July - DCCC"
+    },
+    {
+      "url": "https://punchbowl.news/article/house/fec-filing-day-3/",
+      "title": "Takeaways from FEC filing day"
+    },
+    {
+      "url": "https://dccc.org/dccc-raised-29-3-million-in-second-quarter-once-again-beating-the-nrcc/",
+      "title": "DCCC Raised $29.3 Million in Second Quarter, Once Again Beating the NRCC - DCCC"
+    },
+    {
+      "url": "https://dccc.org/dccc-raises-17-6-million-in-july-setting-committee-record-for-on-year-fundraising/",
+      "title": "DCCC Raises $17.6 Million in July, Setting Committee Record for On-Year Fundraising - DCCC"
+    },
+    {
+      "url": "https://www.nrcc.org/2025/10/20/nrcc-steamrolls-dccc-in-september-fundraising/",
+      "title": "NRCC Steamrolls DCCC in September Fundraising - NRCC"
+    },
+    {
+      "url": "https://nrcc.org/2026/09/18/%F0%9F%9A%A8%F0%9F%92%B0-nrcc-posts-largest-ever-cash-advantage-over-dccc/",
+      "title": "\ud83d\udea8\ud83d\udcb0 NRCC Posts Largest-Ever Cash Advantage Over DCCC - NRCC"
+    },
+    {
+      "url": "https://nrcc.org/2026/09/03/nrcc-on-offense-dccc-is-mia/",
+      "title": "NRCC on offense. DCCC is MIA - NRCC"
+    },
+    {
+      "url": "https://www.axios.com/2026/09/02/house-republicans-nrcc-dccc-campaign-finance-midterms",
+      "title": "NRCC goes all in on coordinated spending"
+    },
+    {
+      "url": "https://punchbowl.news/article/campaigns/dscc-nrsc-q3/",
+      "title": "DSCC outraise NRSC in Q3"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2025/10/24/republican-party-committees-maintain-fundraising-lead-over-democratic-party-committees-in-september/",
+      "title": "Republican party committees maintain fundraising lead over Democratic party committees in September - Ballotpedia News"
+    },
+    {
+      "url": "https://dccc.org/dccc-again-breaks-fundraising-records-posting-best-ever-off-year-september-and-third-quarter/",
+      "title": "DCCC Again Breaks Fundraising Records, Posting Best Ever Off-Year September and Third Quarter - DCCC"
+    },
+    {
+      "url": "https://dccc.org/dccc-announces-26-2-million-raised-in-third-quarter/",
+      "title": "DCCC Announces $26.2 Million Raised in Third Quarter - DCCC"
+    },
+    {
+      "url": "https://ballotpedia.org/Democratic_Congressional_Campaign_Committee",
+      "title": "Democratic Congressional Campaign Committee - Ballotpedia"
+    },
+    {
+      "url": "https://uspollingdata.com/news/2026-campaign-finance-tracker/",
+      "title": "2026 Campaign Finance Tracker: Senate Races Top $20M, DCCC vs NRCC Q1 Totals"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00000935/",
+      "title": "DCCC - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/547914-house-democrats-campaign-arm-raises-341m-in-first-quarter/",
+      "title": "House Democrats campaign arm raises $34.1M in first quarter"
+    }
+  ]
+}

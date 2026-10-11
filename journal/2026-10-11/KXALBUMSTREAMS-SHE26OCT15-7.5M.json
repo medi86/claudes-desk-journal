@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMSTREAMS-SHE26OCT15-7.5M",
+  "event": "KXALBUMSTREAMS-SHE26OCT15",
+  "series": "KXALBUMSTREAMS",
+  "title": "Will She\u2019s The Best by Troye Sivan have above 7500000 streams during the October 09, 2026 - October 15, 2026 tracking week? Above 7.5M",
+  "rules": "If She\u2019s The Best by Troye Sivan has above 7.5M streams during the October 09, 2026 - October 15, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 09, 2026 - October 15, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-18T14:00:00+00:00",
+  "expected_close_time": "2026-10-18T14:00:00+00:00",
+  "forecast_at": "2026-10-11T22:18:37.221897+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.02",
+    "reasoning": "Kworb's data shows 'She's the Best' at only about 83k Spotify streams a day worldwide, about 8.7M total since its August 14 release. That suggests US streams across all platforms of well under 1M a week before the album came out. Even a strong album-release bump in the October 9\u201315 week would likely leave it around 1\u20132M, far short of 7.5M.",
+    "falsifier": "Luminate reporting the song above 7.5M US streams for Oct 9\u201315, for example because of a viral TikTok moment, a major sync, or a sudden spike on the Hot 100 driven by the album launch.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7500",
+    "best_yes_ask": "0.9400",
+    "p_market": "0.8450"
+  },
+  "final": {
+    "p_yes": "0.3",
+    "action": "buy_no",
+    "reasoning": "The high price suggests the market may be counting album streams, or traders know something I don't, so I moved up from 2%. Kworb's numbers for the song itself still point to roughly 1\u20132M US streams this week, so I still lean NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.7600",
+    "count": 1,
+    "cost": "0.2400",
+    "clamped_from": "0.30"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/She's_the_Best",
+      "title": "She's the Best"
+    },
+    {
+      "url": "https://open.spotify.com/track/4q5EIdR3ONbaq6GvO9FV61",
+      "title": "She\u2019s the Best - song and lyrics by Troye Sivan"
+    },
+    {
+      "url": "https://www.thefader.com/2026/08/14/troye-sivan-shes-the-best-review",
+      "title": "Troye Sivan\u2019s \u201cShe\u2019s the Best\u201d gets at a different kind of love"
+    },
+    {
+      "url": "https://music.apple.com/us/album/shes-the-best/6799851049",
+      "title": "She\u2019s the Best by Troye Sivan on Apple Music"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5887547/troye-sivan-shes-the-best-interview",
+      "title": "On 'She's the Best,' Troye Sivan takes the party to unexpected places"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/troye-sivan-shes-the-best-charli-xcx-nicole-kidman-1235608285/",
+      "title": "Troye Sivan Drops New Song 'She\u2019s The Best'"
+    },
+    {
+      "url": "https://www.allmusic.com/album/shes-the-best-mw0004864341",
+      "title": "Troye Sivan: She's the Best Tracks & Reviews"
+    },
+    {
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Troye-Sivan-Returns-With-New-Single-Party-20260917",
+      "title": "Troye Sivan Returns With New Single 'Party'"
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/09/18/troye-sivan-returns-with-new-single-party/",
+      "title": "TROYE SIVAN RETURNS WITH NEW SINGLE \u201cPARTY\u201d - Universal Music Canada"
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/10/09/troye-sivan-releases-releases-fourth-studio-album-shes-the-best-out-now/",
+      "title": "TROYE SIVAN RELEASES RELEASES FOURTH STUDIO ALBUM SHE\u2019S THE BEST OUT NOW - Universal Music Canada"
+    },
+    {
+      "url": "https://open.spotify.com/album/674Qcc5Gc2YpyGE7oDMpiQ",
+      "title": "Party - Single by Troye Sivan"
+    },
+    {
+      "url": "https://preludepress.com/news/2026/10/08/troye-sivan-shes-the-best/",
+      "title": "Troye Sivan Releases New Album, \"She's The Best\""
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/08/14/troye-sivan-returns-with-new-single-video-for-shes-the-best/",
+      "title": "TROYE SIVAN RETURNS WITH NEW SINGLE & VIDEO FOR \u201cSHE\u2019S THE BEST\u201d - Universal Music Canada"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Party_(Troye_Sivan_song)",
+      "title": "Party (Troye Sivan song)"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/troye-sivan-nicole-kidman-shes-the-best-music-video-1236834397/",
+      "title": "Troye Sivan Taps Nicole Kidman for 'She's the Best' Music Video"
+    },
+    {
+      "url": "https://www.justjared.com/2026/08/14/shes-the-best-troye-sivan-drops-new-single-nicole-kidman-stars-in-music-video-watch-now/",
+      "title": "'She's the Best': Troye Sivan Drops New Single, Nicole Kidman Stars in Music Video - Watch Now!"
+    },
+    {
+      "url": "https://soundcloud.com/troye-sivan/shes-the-best",
+      "title": "Stream She\u2019s the Best by Troye Sivan"
+    },
+    {
+      "url": "https://troyesivan.lnk.to/shesthebest",
+      "title": "Troye Sivan - She\u2019s the Best"
+    },
+    {
+      "url": "https://kworb.net/spotify/artist/3WGpXCj9YhhfX11TToZcXP_songs.html",
+      "title": "Troye Sivan - Spotify Top Songs"
+    },
+    {
+      "url": "https://www.youtube.com/@troyesivan/streams",
+      "title": "Troye Sivan - YouTube"
+    },
+    {
+      "url": "https://music.apple.com/ca/album/shes-the-best/6799851049",
+      "title": "She's the Best - Album by Troye Sivan"
+    },
+    {
+      "url": "https://www.thefader.com/2026/10/08/troye-sivan-shes-the-best-album-interview",
+      "title": "Troye Sivan on She\u2019s The Best, being a male pop star, and longing for love"
+    },
+    {
+      "url": "https://musicianvoice.com/index.php/2026/08/13/troye-sivan-announces-new-album-shes-the-best/",
+      "title": "Troye Sivan Announces New Album She\u2019s the Best"
+    },
+    {
+      "url": "https://numero.com/en/culture-en/music/playlist-october-2026/",
+      "title": "Playlist: October 2026 with Troye Sivan and Ang\u00e8le"
+    },
+    {
+      "url": "https://www.culturedmag.com/article/2026/09/01/music-troye-sivan-new-album-songs-tour/",
+      "title": "You\u2019re Welcome to Keep Listening to \u2018Rush.\u2019 But Troye Sivan Has Moved On."
+    },
+    {
+      "url": "https://www.thefader.com/2026/08/13/troye-sivan-album-announcement-shes-the-best",
+      "title": "Troye Sivan announces new album She\u2019s the Best"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Troye_Sivan_discography",
+      "title": "Troye Sivan discography"
+    },
+    {
+      "url": "https://www.billboard.com/lists/troye-sivan-shes-the-best-album-best-songs-ranked/",
+      "title": "Troye Sivan's 'She's the Best' Tracks Ranked"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/troye-sivan-she-best-album-060845088.html",
+      "title": "Troye Sivan\u2019s \u2018She\u2019s the Best\u2019 Album: All 12 Tracks Ranked"
+    },
+    {
+      "url": "https://hot969.com/2026/10/10/troye-sivan-releases-shes-the-best-as-billboard-ranks-all-12-tracks/",
+      "title": "Troye Sivan Releases She\u2019s the Best as Billboard Ranks All 12 Tracks"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4917473.html",
+      "title": "Troye Sivan\u2019s \u2018She\u2019s the Best\u2019 Album: All 12 Tracks Ranked ...Middle East"
+    },
+    {
+      "url": "https://www.935wrqn.com/2026/10/10/troye-sivan-releases-shes-the-best-as-billboard-ranks-all-12-tracks/",
+      "title": "Troye Sivan Releases She\u2019s the Best as Billboard Ranks All 12 Tracks"
+    },
+    {
+      "url": "https://www.billboard.com/media/podcasts/troye-sivan-new-album-shes-the-best-madonna-party-interview-1236350224/",
+      "title": "Troye Sivan On New Album 'She's the Best' & Madonna Approving 'Party'"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/troye-sivan-wants-new-album-cultural-impact-1236325336/",
+      "title": "Troye Sivan Wants His New Album to Make a Cultural Impact"
+    },
+    {
+      "url": "https://au.variety.com/2026/music/reviews/troye-sivan-shes-the-best-album-review-41149",
+      "title": "Troye Sivan Is at His Best on 'She's the Best': Album Review"
+    },
+    {
+      "url": "https://www.nme.com/reviews/album/troye-sivan-shes-the-best-review-3972714",
+      "title": "Troye Sivan"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/troye-sivan-new-album-shes-the-best-madonna-party-interview-1236350224/",
+      "title": "Troye Sivan On New Album 'She's the Best' & Madonna Approving 'Party'"
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/troye-sivan-shes-the-best/",
+      "title": "SHE'S THE BEST"
+    }
+  ]
+}
