@@ -194,5 +194,19 @@
       "url": "https://welligtonbrave.github.io/",
       "title": "Elei\u00e7\u00f5es 2026 \u2014 Resultados, Mapas, Not\u00edcias e An\u00e1lises"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "pushed_at": "2026-10-11T15:30:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXBRAZILTURNOUT-26OCT25-125000000-a905de6baf3a",
+    "thesis_commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (invalid_order)"
+  },
+  "result": {
+    "status": "open"
+  }
 }

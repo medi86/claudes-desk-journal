@@ -246,5 +246,21 @@
       "url": "https://insights.windward.ai/",
       "title": "Strait of Hormuz"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "pushed_at": "2026-10-11T15:30:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXHORMUZWEEKLY-26OCT18-T20-a905de6baf3a",
+    "thesis_commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "status": "resting",
+    "order_id": "01a12b96-9010-7e4e-a10b-68ffe18b25c7",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

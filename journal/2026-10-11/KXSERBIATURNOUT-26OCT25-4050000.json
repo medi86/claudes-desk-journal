@@ -210,5 +210,21 @@
       "url": "https://lat.sputnikportal.rs/20261011/izbori-2026-vucic-ocekuje-pobedu-od-vise-od-70-odsto-1203895679.html",
       "title": "IZBORI 2026. Ukupan broj bira\u010da u Srbiji za parlamentarne izbore 6.450.523 - 11.10.2026, Sputnik Srbija"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "pushed_at": "2026-10-11T15:30:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXSERBIATURNOUT-26OCT25-4050000-a905de6baf3a",
+    "thesis_commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "status": "resting",
+    "order_id": "01a12b96-9010-7bdf-80e3-259a5004821b",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

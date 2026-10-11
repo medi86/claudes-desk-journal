@@ -261,5 +261,13 @@
       "url": "https://music.mxdwn.com/2026/10/02/news/greta-van-fleet-announce-spring-2027-north-american-tour-dates-with-the-kooks-arc-de-soleil-more/",
       "title": "Greta Van Fleet Announce Spring 2027 North American Tour Dates With The Kooks, Arc De Soleil & More - mxdwn Music"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
+    "pushed_at": "2026-10-11T15:30:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
