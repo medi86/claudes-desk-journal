@@ -1,0 +1,249 @@
+{
+  "schema": 1,
+  "ticker": "KXSPCXLAUNCH-CRS35-26OCT16",
+  "event": "KXSPCXLAUNCH-CRS35",
+  "series": "KXSPCXLAUNCH",
+  "title": "When will SpaceX launch Dragon CRS-35? Before Oct 16, 2026",
+  "rules": "If SpaceX launches Dragon CRS-35 After issuance and before Oct 16, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-10-16T03:59:00+00:00",
+  "expected_close_time": "2026-10-16T03:59:00+00:00",
+  "forecast_at": "2026-10-11T03:32:00.589844+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.66",
+    "reasoning": "SpaceX's official mission page targets CRS-35 for Oct 13 at 6:33 a.m. ET, with a backup on Oct 14. The market deadline is 11:59 p.m. ET on Oct 15, so there are about 2-3 launch opportunities. Cargo Dragon launches often slip a few days for weather or technical reasons (CRS-34 needed three attempts over four days), so a slip past the narrow window is a real risk.",
+    "falsifier": "An announced delay of CRS-35 to October 16 or later (e.g., for an ISS schedule conflict, a vehicle issue or bad weather), or scrubs on Oct 13, 14 and 15.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8500",
+    "best_yes_ask": "0.8900",
+    "p_market": "0.8700"
+  },
+  "final": {
+    "p_yes": "0.8",
+    "action": "pass",
+    "reasoning": "The market's 0.87 likely reflects fresher information (weather forecasts, launch-day status) that I couldn't see, so I moved up from 0.66 to 0.80. The remaining gap is too small to justify a NO bet against a probably better-informed price."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.spacex.com/launches/crs35",
+      "title": "SpaceX - CRS-35 Mission"
+    },
+    {
+      "url": "https://handwiki.org/wiki/Engineering:SpaceX_CRS-35",
+      "title": "Engineering:SpaceX CRS-35 - HandWiki"
+    },
+    {
+      "url": "https://starlust.org/spacexs-35th-space-station-resupply-mission-launch-date-timing-live-coverage-and-cargo-details/",
+      "title": "SpaceX's 35th space station resupply mission: Launch date, timing, live coverage, and cargo details - Starlust"
+    },
+    {
+      "url": "https://spiketoday.com/spacex-crs-35-launch-time-and-how-to-watch/",
+      "title": "SpaceX CRS-35 Launch: Time, Cargo and How to Watch"
+    },
+    {
+      "url": "https://eciks.org/28908-spacex-crs-35-launch",
+      "title": "SpaceX launch: CRS-35 resupply set for Oct. 13 from Florida, NASA says"
+    },
+    {
+      "url": "https://nextspaceflight.com/launches/details/6917/",
+      "title": "CRS SpX-35"
+    },
+    {
+      "url": "https://spacepolicyonline.com/events/launch-of-spx-crs-35-cargo-mission-to-iss-oct-13-2026-ccsfs-633-am-et-nasa-coverage-begins-615-am-et/",
+      "title": "LAUNCH OF SPX CRS-35 CARGO MISSION TO ISS, Oct 13, 2026, CCSFS, 6:33 am ET (NASA coverage begins 6:15 am ET)"
+    },
+    {
+      "url": "https://www.spacerealm.live/launch/falcon-9-block-5-dragon-crs-2-spx-35",
+      "title": "SpaceX Dragon CRS-2 SpX-35 \u2014 Launch Date"
+    },
+    {
+      "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-35th-commercial-resupply-services-launch/",
+      "title": "NASA\u2019s SpaceX 35th Commercial Resupply Services Launch"
+    },
+    {
+      "url": "https://teslanorth.com/2026/10/07/spacex-crs-35-cargo-dragon-october-13/",
+      "title": "SpaceX\u2019s Next Cargo Dragon Launches Oct. 13 With the ISS\u2019s Final Roll-Out Solar Arrays"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SpaceX_Dragon_2",
+      "title": "SpaceX Dragon 2"
+    },
+    {
+      "url": "https://space.skyrocket.de/doc_sdat/dragon-v2c.htm",
+      "title": "Dragon CRS-21,... CRS-35 (SpX 21,... 35)"
+    },
+    {
+      "url": "https://www.nasa.gov/event/nasas-spacex-crs-35/",
+      "title": "NASA\u2019s SpaceX CRS-35 - NASA"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/space-events/",
+      "title": "Space Mission Events: Landings, Dockings & More"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SpaceX_CRS-34",
+      "title": "SpaceX CRS-34"
+    },
+    {
+      "url": "https://orbitalradar.com/satellite/69103",
+      "title": "Dragon CRS-34 (Dragon C209.6) \u2014 Satellite History"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/05/12/live-coverage-nasa-spacex-to-launch-34th-cargo-dragon-mission-to-the-space-station/",
+      "title": "For a second time, poor weather scrubs Cargo Dragon mission launch to the space station"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-dragon-cargo-launch-iss-crs-34",
+      "title": "SpaceX launches 6,500 pounds of cargo to the International Space Station after delay (video)"
+    },
+    {
+      "url": "https://www.nasa.gov/mission/nasa-spacex-crs-34/",
+      "title": "NASA's SpaceX CRS-34 - NASA"
+    },
+    {
+      "url": "https://www.msn.com/en-us/news/other/nasa-and-spacex-set-may-12-launch-for-crs-34-iss-resupply/gm-GM84781A2F",
+      "title": "NASA and SpaceX set May 12 launch for CRS-34 ISS resupply"
+    },
+    {
+      "url": "https://www.friendsofnasa.org/2026/05/nasas-falcon-9-crs-34-cargo-dragon-pre.html",
+      "title": "Friends of NASA: NASA's CRS-34 Falcon-9 Cargo Dragon Pre-launch"
+    },
+    {
+      "url": "https://www.friendsofnasa.org/2026/05/nasas-crs-34-falcon-9-cargo-dragon.html",
+      "title": "Friends of NASA: NASA's CRS-34 Falcon 9 Cargo Dragon Mission Launch"
+    },
+    {
+      "url": "https://www.dvidshub.net/image/9695817/crs-34-launches-cape-canaveral-space-force-station",
+      "title": "DVIDS - Images - CRS-34 Launches from Cape Canaveral Space Force Station [Image 4 of 19]"
+    },
+    {
+      "url": "https://www.nasaspaceflight.com/2026/05/crs-34-launch/",
+      "title": "SpaceX CRS-34 launches to ISS on third attempt - NASASpaceFlight.com"
+    },
+    {
+      "url": "https://teslanorth.com/2026/10/08/spacex-crew-12-splashdown",
+      "title": "SpaceX\u2019s Crew-12 Is Home After 100 Million Miles, and One Astronaut Just Joined NASA\u2019s Top 10"
+    },
+    {
+      "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-35th-commercial-resupply-services-launch",
+      "title": "NASA\u2019s SpaceX 35th Commercial Resupply Services Launch"
+    },
+    {
+      "url": "https://next2space.com/",
+      "title": "Upcoming rocket launches, livestreams, events & recent videos"
+    },
+    {
+      "url": "https://x.com/i/broadcasts/1aJbdEzoAvYKX",
+      "title": "CRS-35 Mission - Live Broadcast by SpaceX / X"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+      "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival - NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
+      "title": "NASA Invites Media to SpaceX\u2019s 35th Resupply Launch to Space Station - NASA"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4915149.html",
+      "title": "NASA\u2019s SpaceX 35th Commercial Resupply Mission Overview ...Middle East"
+    },
+    {
+      "url": "https://www.newsbeep.com/us/874591/",
+      "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival - United States News Beep"
+    },
+    {
+      "url": "https://www.miragenews.com/nasas-spacex-35th-commercial-resupply-mission-1756498/",
+      "title": "NASA's SpaceX 35th Commercial Resupply Mission Overview"
+    },
+    {
+      "url": "https://www.rotorclip.com/product/crs-35/",
+      "title": "CRS-35"
+    },
+    {
+      "url": "https://www.nankangtyre.co.uk/products/motorsport/cr-s/",
+      "title": "Motorsport // CR-S"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/launch/falcon-9-block-5-dragon-crs-2-spx-35/",
+      "title": "SpaceX Dragon CRS-2 SpX-35 Falcon 9 Block 5 Rocket Launch"
+    },
+    {
+      "url": "https://forum.nasaspaceflight.com/index.php?topic=36507.0",
+      "title": "The SpaceX Scrubs thread - NASA Spaceflight Forum"
+    },
+    {
+      "url": "https://ep-us.mersen.com/products/product/crs35",
+      "title": "CRS35 Fuses"
+    },
+    {
+      "url": "https://www.ebay.com/itm/392308390096",
+      "title": "CEFCO CRS-35 / CRS35 (USED)"
+    },
+    {
+      "url": "https://www.mersen.com/en/products/crs-class-h/crs35",
+      "title": "CRS35 Fuses"
+    },
+    {
+      "url": "https://www.ebay.com/itm/147320497227",
+      "title": "Scrub Cleaning Brush with Long Handle 35'' - Extendable Floor Scrubber with 1 St"
+    },
+    {
+      "url": "https://grassrootsmotorsports.com/articles/why-is-nankang-is-going-all-in-on-the-sportnex-crs/",
+      "title": "200tw tire test"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/45th_Weather_Squadron",
+      "title": "45th Weather Squadron"
+    },
+    {
+      "url": "https://45thweathersquadron.nebula.spaceforce.mil/pages/planningAndAviationForecastProducts.html",
+      "title": "Planning and Aviation Forecast Products"
+    },
+    {
+      "url": "https://kscweather.ksc.nasa.gov/",
+      "title": "KSCW: Home - NASA"
+    },
+    {
+      "url": "https://45thweathersquadron.nebula.spaceforce.mil/pages/launchForecastSupport.html",
+      "title": "Launch Forecast Support"
+    },
+    {
+      "url": "https://blogs.nasa.gov/kennedy/tag/45th-weather-squadron/",
+      "title": "45th Weather Squadron"
+    },
+    {
+      "url": "https://www.globalsecurity.org/space/agency/45ws.htm",
+      "title": "45th Weather Squadron [45th WS]"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/45th_Weather_Squadron",
+      "title": "45th Weather Squadron"
+    },
+    {
+      "url": "https://x.com/SpaceflightNow/status/1954505826267287920",
+      "title": "Spaceflight Now on X: \"The 45th Weather Squadron, based at Cape Canaveral, gave the mission a 55 percent chance of acceptable weather for launch. Read our launch preview: https://t.co/8rZTnruKQe\" / X"
+    },
+    {
+      "url": "https://talkoftitusville.com/2026/09/30/spacex-crew-13-set-to-launch-wednesday-meet-the-crew-and-mission-details/",
+      "title": "SpaceX Crew-13 Set to Launch Wednesday: Meet the Crew and Mission Details"
+    },
+    {
+      "url": "https://cpaess.ucar.edu/sites/default/files/meetings/2017/documents/Winters-Kathy-45th-weather-squadron.pdf",
+      "title": "45th Weather Squadron Space Weather Support to Launch"
+    }
+  ]
+}

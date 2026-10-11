@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPVH-26OCT16-T36.9",
+  "event": "KXTRUMPVH-26OCT16",
+  "series": "KXTRUMPVH",
+  "title": "Will Donald Trump's VoteHub approval polling average be above 36.9% at 10:00 AM ET on Oct 16, 2026?",
+  "rules": "If Donald Trump's VoteHub approval polling average is above 36.9% at 10:00 AM ET on Oct 16, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-10-16T13:59:00+00:00",
+  "expected_close_time": "2026-10-16T13:59:00+00:00",
+  "forecast_at": "2026-10-11T03:32:00.589844+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.64",
+    "reasoning": "VoteHub had Trump at 38.0% approval on Sept 23. Since then, low polls (Reuters/Ipsos 32, Pew 30, NBC 36, WSJ 37) have probably pulled it down to roughly 37.0\u201337.8%, consistent with Silver Bulletin at about 37\u201338% in early October. Over six days a smoothed average rarely moves more than about half a point, so staying above 36.9% is somewhat more likely than not, but the downward trend and uncertainty about the current value keep this close.",
+    "falsifier": "VoteHub's average already sits at or below 36.9% as of Oct 10, or another round of very low polls (e.g. low-30s from Ipsos/Pew-type pollsters) pushes it to 36.9% or lower by 10 AM ET on Oct 16.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3300",
+    "best_yes_ask": "0.3400",
+    "p_market": "0.3350"
+  },
+  "final": {
+    "p_yes": "0.38",
+    "action": "pass",
+    "reasoning": "The 0.335 midpoint likely reflects VoteHub's live value, which I couldn't see and which may already be at or below 36.9% after the very low Pew and Ipsos polls. I moved most of the way toward the market, and the small remaining gap is too thin to bet on given that information disadvantage."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.newsweek.com/donald-trump-approval-rating-all-time-low-nate-silver-12482345",
+      "title": "Trump's Approval Rating Hits All-Time Low in Nate Silver Tracker - Newsweek"
+    },
+    {
+      "url": "https://www.newsweek.com/donald-trump-approval-rating-changes-11626112",
+      "title": "Donald Trump's Approval Rating Changes Direction - Newsweek"
+    },
+    {
+      "url": "https://twitter.com/VoteHub/status/1902517562925314220",
+      "title": "VoteHub on X: \"Trump's approval rating continues to slide in our polling average, now at -0.9. 14-day change: \ud83d\udd3b-1.2 Change since Jan 21: \ud83d\udd3b-12.4\" / X"
+    },
+    {
+      "url": "https://www.threads.com/@votehubus/post/DXPk04RGLu-/trumps-approval-rating-has-hit-a-record-low-in-our-polling-average-falling-into",
+      "title": "Trump\u2019s approval rating has hit a record low in our polling average, falling into the 30s for the first time. 39.9% approve and 56.6% disapprove (net -16.7, down 5 points in 6 weeks)."
+    },
+    {
+      "url": "https://trumptimer.us/approval-rating/",
+      "title": "Trump Approval Rating Tracker - Latest Polls"
+    },
+    {
+      "url": "https://votehub.com/2026/01/17/how-our-polling-averages-work",
+      "title": "How Our Polling Averages Work - VoteHub"
+    },
+    {
+      "url": "https://www.newsweek.com/trump-approval-lowest-president-midterms-wsj-poll-12493499",
+      "title": "Trump Approval Lowest for Any President Pre-Midterms Since 1990: WSJ Poll - Newsweek"
+    },
+    {
+      "url": "https://votehub.com/category/methodologies/",
+      "title": "Category: Methodologies - VoteHub"
+    },
+    {
+      "url": "https://twitter.com/VoteHub/status/1899265400908771789",
+      "title": "VoteHub on X: \"Presidential approval continues to tighten. Our latest polling average shows Donald Trump with a net approval rating of +0.6.\" / X"
+    },
+    {
+      "url": "https://www.forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll/",
+      "title": "Trump\u2019s Approval Rating Stagnates At Record Low 32% In Latest Poll"
+    },
+    {
+      "url": "https://cbs12.com/news/local/florida-polls-show-republicans-lead-democrats-in-governor-senate-races-still-close",
+      "title": "Florida polls show Republicans lead Democrats in governor & Senate races, still close"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/09/trump-deeply-underwater-on-approval",
+      "title": "Trump Deeply Underwater On Approval"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-approval-rating-polls-152740486.html",
+      "title": "Donald Trump approval rating: What polls show ahead of 2026 midterm elections"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-approval-ratings-where-132426878.html",
+      "title": "Donald Trump approval ratings: Where they stand ahead of midterms"
+    },
+    {
+      "url": "https://votehub.com/",
+      "title": "VoteHub - Election Results, Analysis, & Presidential Approval"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/trump-approval/",
+      "title": "Trump Approval Rating 2026 \u2014 Monthly Tracker & Historical Comparison"
+    },
+    {
+      "url": "https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms/",
+      "title": "Democratic Voters More Engaged in Midterms as Americans Are in a Sour Mood"
+    },
+    {
+      "url": "https://fiftyplusone.news/polls/approval/president",
+      "title": "FiftyPlusOne - Donald Trump Approval Polls and Average for 2026"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6114659-trump-approval-record-low/",
+      "title": "Trump approval slips to historic low in Wall Street Journal survey"
+    },
+    {
+      "url": "https://forbes.com/sites/saradorn/2026/10/09/hottest-2026-midterm-races-democrat-jackson-leads-in-maine-senate-race-republican-hinson-ahead-in-iowa-updated-daily",
+      "title": "Hottest 2026 Midterm Races\u2014Democrat Jackson Leads In Maine Senate Race, Republican Hinson Ahead In Iowa (Updated Daily)"
+    },
+    {
+      "url": "https://inkl.com/news/donald-trump-approval-rating-crashes-to-new-low-even-as-president-is-holding-32-day-blitz-of-rallies-ahead-of-usa-midterm-elections-2026-what-is-going-wrong-for-republican-party",
+      "title": "Donald Trump approval rating crashes to new low even as President is holding 32-day blitz of rallies ahead of USA midterm elections 2026. What is going wrong for Republican Party?"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/trump-approval-rating-still-low-183230819.html",
+      "title": "Trump\u2019s Approval Rating Stagnates At Record Low 32% In Latest Poll"
+    },
+    {
+      "url": "https://votehub.com/polls/api/",
+      "title": "Access Political Polls via API - VoteHub"
+    },
+    {
+      "url": "https://x.com/VoteHubUS/status/1966965252190544306",
+      "title": "VoteHub on X: \"Presidential Approval Update While Trump\u2019s net approval is unchanged over 2 months, his rating rose 2+ pts in the last month and 0.5 since last week. It remains 7.6 pts underwater. Change from Jul 13: -7.6 \u2192 -7.6 (\ud83d\udff0) From Aug 10*: -9.8 \u2192 -7.6 (\u27952.2) *Second-term low https://t.co/Aat6WHwD4q\" / X"
+    },
+    {
+      "url": "https://x.com/VoteHub/status/1924928527234682939",
+      "title": "VoteHub on X: \"President Trump\u2019s approval rating rose notably this week, marking his first sustained upswing since taking office. Current net approval: -4.4 7-day change: \u2b06 +2.9\" / X"
+    },
+    {
+      "url": "https://x.com/VoteHub/status/1899265400908771789",
+      "title": "VoteHub on X: \"Presidential approval continues to tighten. Our latest polling average shows Donald Trump with a net approval rating of +0.6.\" / X"
+    },
+    {
+      "url": "https://x.com/VoteHubUS/status/1934705294296465528",
+      "title": "VoteHub - X"
+    },
+    {
+      "url": "https://x.com/VoteHub/status/1901273666639540562",
+      "title": "VoteHub on X: \"Trump's approval rating now stands at -0.6 in our polling average. 14-day change: \ud83d\udd3b-1.6 Change since Jan 21: \ud83d\udd3b-12.1\" / X"
+    },
+    {
+      "url": "https://votehub.com/category/projects/",
+      "title": "Category: Projects - VoteHub"
+    },
+    {
+      "url": "https://x.com/ZacharyDonnini/status/2102827227494731975",
+      "title": "Zachary Donnini on X: \"Trump now has the lowest net approval of any president at this point or earlier in their presidency since polling began in 1945. It's now more than 10 points worse than both his own first term and Biden's at the same point.\" / X"
+    },
+    {
+      "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+      "title": "Trump Approval Rating: Latest Polls"
+    },
+    {
+      "url": "https://www.newsweek.com/donald-trump-approval-rating-changes-direction-first-time-months-11312658",
+      "title": "Trump Approval Rating Changes Direction for First Time in Months - Newsweek"
+    },
+    {
+      "url": "https://www.newsweek.com/donald-trump-approval-rating-changes-non-white-voters-12549047",
+      "title": "Trump\u2019s Approval Rating Changes Direction With Non-White Voters - Newsweek"
+    },
+    {
+      "url": "https://newsweek.com/trump-says-he-could-say-stupidest-things-as-polls-show-gop-concern-12551975",
+      "title": "Trump jokes supporters would clap for \"stupidest things\" amid poll warnings"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-approval-lowest-president-pre-234457655.html",
+      "title": "Trump approval lowest for any president pre-midterms since 1990: WSJ poll"
+    }
+  ]
+}

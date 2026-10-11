@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "ticker": "KXHHSYOUTHCARE-26OCT20",
+  "event": "KXHHSYOUTHCARE-26OCT20",
+  "series": "KXHHSYOUTHCARE",
+  "title": "Will HHS's transgender Medicaid rule take effect Oct. 13? Yes",
+  "rules": "If the taking effect of CMS-2451-F in at least one U.S. jurisdiction on October 13, 2026 is confirmed by any of the Source Agencies after Issuance and before Oct 20, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This must be confirmed, verified, or established as factual by at least one Source Agency.\n\nNews confirmation is defined as a published article, broadcast segment, or official news report by a Source Agency, that A) explicitly states the taking effect of CMS-2451-F in at least one U.S. jurisdiction on October 13, 2026 occurred, is true, or has been verified, B) based on journalistic investigation, sources, or evidence, and C) presented as factual reporting rather than speculation, rumor, or unverified allegation.\n\nFor this market, taking effect means CMS-2451-F operates in at least one U.S. jurisdiction on Oct. 13. Announcement, publication, or scheduling alone does not qualify. Nationwide relief preventing operation anywhere in the United States that day means No; limited relief does not if the rule operates elsewhere. The existing hormone-therapy taper and continued mental-health funding do not negate legal effect.",
+  "close_time": "2026-10-20T03:59:00+00:00",
+  "expected_close_time": "2026-10-20T03:59:00+00:00",
+  "forecast_at": "2026-10-11T03:32:00.589844+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.7",
+    "reasoning": "CMS finalized CMS-2451-F on Aug 11, 2026, published it Aug 13, and set an Oct. 13 effective date. California's Medicaid agency has already issued implementation guidance. The rule takes effect automatically unless a court issues a nationwide stay or vacatur before then. That is a real possibility given the legal challenges likely to come and the 2025 pattern of courts pausing HHS rules under the APA, but a ruling limited to the plaintiff states would still mean YES.",
+    "falsifier": "A federal court issues a universal APA Section 705 stay, vacatur, or nationwide injunction of CMS-2451-F before October 13, 2026, so the rule cannot operate in any jurisdiction that day.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8000",
+    "best_yes_ask": "0.8700",
+    "p_market": "0.8350"
+  },
+  "final": {
+    "p_yes": "0.78",
+    "action": "pass",
+    "reasoning": "My earlier 0.70 came from limited information; I couldn't find out whether a lawsuit or nationwide stay was pending, and the market may know litigation risk is low. The gap to 0.835 is too small for a confident NO bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.aamc.org/advocacy-policy/washington-highlights/cms-final-rule-ends-medicaid-and-chip-funding-youth-gender-affirming-care",
+      "title": "CMS Final Rule Ends Medicaid and CHIP Funding for Youth Gender-Affirming Care"
+    },
+    {
+      "url": "https://www.dhcs.ca.gov/file/apl-26-018-gac-pdf/",
+      "title": "Michelle Baass"
+    },
+    {
+      "url": "https://thefirstfile.com/gender-affirming-care/",
+      "title": "Gender-Affirming Care: Laws and Insurance Coverage"
+    },
+    {
+      "url": "https://www.mcguirewoods.com/client-resources/alerts/2026/8/questions-and-answers-about-cms-final-medicaid-and-chip-funding-restrictions-for-gender-affirming-care-for-minors/",
+      "title": "Questions and Answers About CMS\u2019 Final Medicaid and CHIP Funding Restrictions for Gender-Affirming Care for Minors - McGuireWoods"
+    },
+    {
+      "url": "https://www.ajmc.com/view/cms-final-rule-ends-federal-medicaid-chip-funding-for-youth-gender-affirming-care",
+      "title": "CMS Final Rule Ends Federal Medicaid, CHIP Funding for Youth Gender-Affirming Care"
+    },
+    {
+      "url": "https://www.hklaw.com/en/insights/publications/2026/08/cms-final-rule-prohibits-federal-medicaid-chip-funding",
+      "title": "CMS Final Rule Prohibits Federal Medicaid, CHIP Funding for Child \"Sex-Rejecting\" Procedures"
+    },
+    {
+      "url": "https://www.healthaffairs.org/content/forefront/final-rule-prohibits-federal-medicaid-and-chip-funds-health-care-transgender-youth",
+      "title": "Final Rule Prohibits Federal Medicaid And CHIP Funds For Health Care For Transgender Youth"
+    },
+    {
+      "url": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/news/34227.01",
+      "title": "New Federal Reimbursement Limitations on Gender Affirming Care for Youth, Effective October 13, 2026"
+    },
+    {
+      "url": "https://www.hfma.org/payment-reimbursement-and-managed-care/medicaid-coverage-gender-affirming-care/",
+      "title": "CMS ends Medicaid coverage of gender-affirming care for minors"
+    },
+    {
+      "url": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/clarification-funding-gender-affirming-care-2026-09-18",
+      "title": "Clarification of Funding for Gender-Affirming Care"
+    },
+    {
+      "url": "https://www.hancocklaw.com/publications/healthcare-law-alert-update-gender-affirming-care/",
+      "title": "Healthcare Law Alert: UPDATE: Gender-Affirming Care"
+    },
+    {
+      "url": "https://www.ebglaw.com/insights/publications/cms-seeks-to-ban-hospitals-from-providing-gender-affirming-care-to-minors",
+      "title": "CMS Seeks to Ban Hospitals from Providing Gender-Affirming Care to Minors"
+    },
+    {
+      "url": "https://davisvanguard.org/2026/09/states-sue-trump-medicaid-rule/",
+      "title": "California Coalition Fights Trump Admin's Cuts to Gender-Affirming Medicaid - Davis Vanguard"
+    },
+    {
+      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-protect-gender-affirming-care-transgender-youth",
+      "title": "Attorney General James Sues to Protect Gender-Affirming Care for Transgender Youth"
+    },
+    {
+      "url": "https://news.bloomberglaw.com/health-law-and-business/trump-gender-care-funding-rule-hit-with-lawsuit-from-states",
+      "title": "Trump Gender Care Funding Rule Hit With Lawsuit From States (1)"
+    },
+    {
+      "url": "https://www.findlaw.com/lgbtq-law/state-laws-on-gender-affirming-care.html",
+      "title": "State Laws on Gender-Affirming Care - FindLaw"
+    },
+    {
+      "url": "https://www.mass.gov/doc/medicaid-gac-complaint/download",
+      "title": "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MASSACHUSETTS"
+    },
+    {
+      "url": "https://www.aclusc.org/press-releases/trans-people-families-file-lawsuit-against-south-carolinas-gender-affirming-care-ban/",
+      "title": "Trans People & Families File Lawsuit Against South Carolina\u2019s Gender-Affirming Care Ban - ACLU of South Carolina"
+    },
+    {
+      "url": "https://coag.gov/app/uploads/2026/09/01.-Complaint.pdf",
+      "title": "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MASSACHUSETTS"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for",
+      "title": "Federal Register :: Medicaid Program; Prohibition on Federal Medicaid and Children's Health Insurance Program Funding for Sex-Rejecting Procedures Furnished to Children"
+    },
+    {
+      "url": "https://www.healthlawadvisor.com/cms-attempts-to-use-medicare-and-medicaid-conditions-of-participation-to-ban-hospitals-from-providing-gender-affirming-care-to-minors",
+      "title": "CMS Attempts to Use Medicare and Medicaid Conditions of Participation to Ban Hospitals from Providing Gender-Affirming Care to Minors"
+    },
+    {
+      "url": "https://www.crowell.com/en/insights/client-alerts/cms-proposed-rules-prohibit-provision-and-coverage-of-sex-rejecting-procedures-for-minors-enrolled-in-medicare-and-medicaid",
+      "title": "CMS Proposed Rules Prohibit Provision and Coverage of \"Sex-Rejecting Procedures\" for Minors Enrolled in Medicare and Medicaid"
+    },
+    {
+      "url": "https://www.regulations.gov/document/CMS-2025-1822-0001",
+      "title": "Prohibiting Sex Rejecting Procedures for Children"
+    },
+    {
+      "url": "https://www.crowell.com/en/insights/client-alerts/cmss-final-rule-bans-federal-medicaid-funding-for-youth-gender-affirming-care",
+      "title": "HIPAA Breach Notification Deadline Starts at Discovery, Not Investigation Completion"
+    },
+    {
+      "url": "https://harbingersdaily.com/18-states-launch-lawsuit-against-the-hhs-for-protecting-children-from-sex-rejecting-procedures/",
+      "title": "18 States Launch Lawsuit Against The HHS For Protecting Children From Sex-Rejecting Procedures - Harbinger's Daily"
+    },
+    {
+      "url": "https://www.hfma.org/fast-finance/cms-gender-affirming-care-rule-hospitals/",
+      "title": "sex-rejecting procedures"
+    },
+    {
+      "url": "https://wislawjournal.com/2026/03/24/federal-judge-blocks-trump-transgender-care-limits/",
+      "title": "Federal judge blocks Trump transgender care limits"
+    },
+    {
+      "url": "https://truthout.org/articles/federal-judge-blocks-trumps-effort-to-force-hospitals-to-halt-trans-youth-care/",
+      "title": "Federal Judge Blocks Trump\u2019s Effort to Force Hospitals to Halt Trans Youth Care"
+    },
+    {
+      "url": "https://michiganadvance.com/briefs/judge-blocks-hhs-declaration-restricting-gender-affirming-care-for-transgender-minors/",
+      "title": "Judge blocks HHS declaration restricting gender-affirming care for transgender minors \u2022 Michigan Advance"
+    },
+    {
+      "url": "https://minnlawyer.com/2026/03/24/federal-judge-blocks-trump-transgender-youth-care/",
+      "title": "Judge sides with 21 states in transgender care suit"
+    },
+    {
+      "url": "https://www.seattleschild.com/gender-affirming-care-ruling-washington/",
+      "title": "Federal judge blocks limits on youth care"
+    },
+    {
+      "url": "https://truthout.org/articles/trumps-medicaid-rule-threatens-trans-youth-care-states-can-still-fight-back/",
+      "title": "Trump\u2019s Medicaid Rule Threatens Trans Youth Care. States Can Still Fight Back"
+    },
+    {
+      "url": "https://www.motherjones.com/politics/2026/04/federal-judge-rfk-jr-unsafe-leader-in-order-protecting-trans-youth-health-care/",
+      "title": "Federal judge calls RFK Jr. an \u201cunsafe\u201d leader in order protecting trans youth health care"
+    },
+    {
+      "url": "https://www.usnews.com/news/health-news/articles/2026-03-20/judge-rules-us-government-overreached-with-transgender-health-care-declaration",
+      "title": "Judge Rules US Government Overreached With Transgender Health Care Declaration"
+    },
+    {
+      "url": "https://www.aclu.org/press-releases/federal-judge-blocks-trump-order-targeting-medical-care-for-transgender-youth",
+      "title": "Federal Judge Blocks Trump Order Targeting Medical Care for Transgender Youth"
+    },
+    {
+      "url": "https://queertransproject.org/medicaid-guide/",
+      "title": "Gender Affirming Care for Trans Youth and Medicaid Changes By State - The Queer Trans Project %"
+    },
+    {
+      "url": "https://www.azmed.org/finalized-federal-rule-reshapes-medicaid-coverage-for-gender-affirming-care-for-minors",
+      "title": "Finalized Federal Rule Reshapes Medicaid Coverage for Gender-Affirming Care for Minors"
+    },
+    {
+      "url": "https://www.cms.gov/newsroom/press-releases/cms-ends-federal-medicaid-chip-funding-sex-rejecting-procedures-children-youth",
+      "title": "CMS Ends Federal Medicaid and CHIP Funding for Sex-Rejecting Procedures for Children and Youth"
+    },
+    {
+      "url": "https://www.medicaldaily.com/cms-final-rule-medicaid-chip-gender-care-minors-477289",
+      "title": "A New Federal Rule Cuts Medicaid Money for Gender Care in Minors, but States Can Still Pay with Their Own Funds"
+    },
+    {
+      "url": "https://dailycitizen.focusonthefamily.com/hhs-ceases-medicaid-chip-funding-sex-rejecting-procedures-kids/",
+      "title": "HHS Ceases Medicaid, CHIP Funding for Sex-Rejecting Procedures for Kids - Daily Citizen"
+    },
+    {
+      "url": "https://www.courthousenews.com/blue-states-sue-trump-over-medicaid-ban-on-trans-youth-treatments/",
+      "title": "Blue states sue Trump over Medicaid ban on trans youth treatments"
+    },
+    {
+      "url": "https://dailycitizen.focusonthefamily.com/21-states-sue-hhs-to-continue-harming-transgender-identified-minors/",
+      "title": "21 States Sue HHS to Continue Harming \u2018Transgender\u2019-Identified Minors - Daily Citizen"
+    },
+    {
+      "url": "https://www.hhs.gov/press-room/hhs-ends-medicaid-chip-funding-sex-rejecting-procedures-children.html",
+      "title": "HHS Ends Federal Medicaid and CHIP Funding for Sex-Rejecting Procedures for Children and Youth"
+    },
+    {
+      "url": "https://www.fqhctalent.com/intel/states-sue-cms-2451-medicaid-chip-youth-gender-care-rule-september-2026",
+      "title": "Twenty-one attorneys general sue CMS over its youth gender-care funding rule"
+    }
+  ]
+}
