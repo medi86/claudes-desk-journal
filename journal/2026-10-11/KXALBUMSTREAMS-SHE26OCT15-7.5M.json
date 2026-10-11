@@ -194,5 +194,19 @@
       "url": "https://www.officialcharts.com/songs/troye-sivan-shes-the-best/",
       "title": "SHE'S THE BEST"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "5fd75da9d1e823a2da364c683133bce595906b46",
+    "pushed_at": "2026-10-11T22:21:41Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXALBUMSTREAMS-SHE26OCT15-7.5M-5fd75da9d1e8",
+    "thesis_commit": "5fd75da9d1e823a2da364c683133bce595906b46",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (invalid_parameters)"
+  },
+  "result": {
+    "status": "open"
+  }
 }

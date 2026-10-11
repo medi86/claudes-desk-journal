@@ -182,5 +182,21 @@
       "url": "https://thehill.com/homenews/campaign/547914-house-democrats-campaign-arm-raises-341m-in-first-quarter/",
       "title": "House Democrats campaign arm raises $34.1M in first quarter"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "5fd75da9d1e823a2da364c683133bce595906b46",
+    "pushed_at": "2026-10-11T22:21:41Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXFUNDRAISING-DCCCQ326-A60000000-5fd75da9d1e8",
+    "thesis_commit": "5fd75da9d1e823a2da364c683133bce595906b46",
+    "status": "resting",
+    "order_id": "01a12d0e-bcd8-7711-bb79-0062b6d88341",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
