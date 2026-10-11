@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "ticker": "KXSERBIATURNOUT-26OCT25-4050000",
+  "event": "KXSERBIATURNOUT-26OCT25",
+  "series": "KXSERBIATURNOUT",
+  "title": "Will at least 4,050,000 ballots be cast in Serbia\u2019s October 25, 2026 parliamentary election?",
+  "rules": "If at least 4,050,000 valid and invalid ballots are cast in the October 25, 2026 Serbian parliamentary election, then the market resolves to Yes.",
+  "rules_secondary": "The count is the total of valid and invalid ballots in Serbia\u2019s parliamentary election, equal to RIK\u2019s voters-who-voted or ballots-in-the-box total. Electoral-roll signatures, registered voters, and ballots in other contests do not count.\n\nSubject to the contract\u2019s Fully-Conducted Elections and Accelerated Resolution Upon Designated Media Source Declarations provisions, the vote count refers to the officially certified results from the relevant election authority. Provisional, absentee, early, mail-in, or electronic ballots are included only if reflected in the official certification.\n\nThe contract resolves based on officially certified results regardless of ongoing appeals. Outside those two contract provisions, preliminary counts, exit polls, projections, or uncertified results do not qualify. If the election is postponed but held within one year of the originally scheduled date, the contract remains valid; if postponed beyond one year or canceled before voting is fully conducted, all contracts resolve to No.",
+  "close_time": "2026-10-25T03:59:00+00:00",
+  "expected_close_time": "2026-10-25T03:59:00+00:00",
+  "forecast_at": "2026-10-11T15:25:10.750133+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.57",
+    "reasoning": "RIK lists 6,450,523 registered voters, so 4.05M ballots means about 62.8% turnout. That is above Serbia's 2023 turnout of 58.8% and every parliamentary election since 2000, but experts call 60%+ almost certain in this polarized, near-even race. Polls point to about 62%, and the 2026 local elections saw turnout of 67\u201378%. My central turnout estimate of about 63\u201365% puts the threshold slightly below the median.",
+    "falsifier": "RIK certifies a total of fewer than 4,050,000 ballots, meaning turnout of about 62.7% or less, for example if diaspora voting restrictions and phantom voters on the roll hold turnout near the low 60s.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7200",
+    "best_yes_ask": "0.7900",
+    "p_market": "0.7550"
+  },
+  "final": {
+    "p_yes": "0.64",
+    "action": "buy_no",
+    "reasoning": "The market's 75.5% midpoint pulls me up from 57% to 64%, since traders may expect record mobilisation. But 4.05M ballots requires about 62.8% turnout, which no parliamentary election since 2000 has reached, with polls near 62% and a padded roll. NO at about 0.28 looks underpriced."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.7300",
+    "count": 1,
+    "cost": "0.2700",
+    "clamped_from": "0.64"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+      "title": "2026 Serbian parliamentary election"
+    },
+    {
+      "url": "https://electiomap.com/serbia/parliamentary/2026",
+      "title": "Serbia Parliamentary election 2026 \u2014 Live Results & Map"
+    },
+    {
+      "url": "https://www.azernews.az/region/263592.html",
+      "title": "Vu\u010di\u0107 announces early parliamentary elections in Serbia for October 25"
+    },
+    {
+      "url": "https://www.electionguide.org/elections/id/5252/",
+      "title": "IFES Election Guide"
+    },
+    {
+      "url": "https://www.eurasiareview.com/26092026-serbia-early-parliamentary-elections-a-test-of-political-legitimacy-and-future-direction-analysis/",
+      "title": "Serbia: Early Parliamentary Elections, A Test Of Political Legitimacy And Future Direction - Analysis - Eurasia Review"
+    },
+    {
+      "url": "https://firstbalkanmedia.com/2026/09/09/serbia-early-parliamentary-elections/",
+      "title": "Serbia Sets October 25 for Early Parliamentary Elections"
+    },
+    {
+      "url": "https://www.ifimes.org/en/researches/serbia-2026-early-parliamentary-elections-a-test-of-political-legitimacy-and-serbias-future-direction/6012",
+      "title": "Serbia 2026: Early parliamentary elections"
+    },
+    {
+      "url": "https://valdaiclub.com/a/highlights/serbia-s-2026-elections-gamble-and-the-road",
+      "title": "Serbia\u2019s 2026 Elections: Vu\u010di\u0107\u2019s Gamble and the Road Ahead"
+    },
+    {
+      "url": "https://balkaninsight.com/2026/09/09/serbias-vucic-calls-early-parliamentary-elections-for-october-25/bi/",
+      "title": "Serbia's Vucic Calls Early Parliamentary Elections for October 25"
+    },
+    {
+      "url": "https://mezha.net/eng/news/cd97ef26_serbia_calls_early_parliamentary/",
+      "title": "Serbia Calls Early Parliamentary Elections for October 25 Amid Political Crisis"
+    },
+    {
+      "url": "https://www.modernghana.com/news/1530698/serbia-2026-early-parliamentary-elections-a.html",
+      "title": "Serbia 2026: Early parliamentary elections"
+    },
+    {
+      "url": "https://data.ipu.org/parliament/RS/RS-LC01/election/RS-LC01-E20231217/",
+      "title": "Serbia National Assembly December 2023 Election"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2023_Serbian_parliamentary_election",
+      "title": "2023 Serbian parliamentary election"
+    },
+    {
+      "url": "https://www.srbija.gov.rs/vest/en/217560/election-commission-announces-final-results-of-parliamentary-elections.php",
+      "title": "Election Commission announces final results of parliamentary elections"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elections_in_Serbia",
+      "title": "Elections in Serbia"
+    },
+    {
+      "url": "https://geopolitique.eu/en/articles/parliamentary-election-in-serbia-17-december-2023/",
+      "title": "Parliamentary election in Serbia, 17 December 2023 - Groupe d'\u00e9tudes g\u00e9opolitiques"
+    },
+    {
+      "url": "https://www.ifes.org/tools-resources/election-snapshots/elections-serbia-2023-early-parliamentary-provincial-and-partial",
+      "title": "Elections in Serbia: 2023 Early Parliamentary, Provincial, and Partial Local Elections"
+    },
+    {
+      "url": "https://www.electionguide.org/countries/id/242/",
+      "title": "IFES Election Guide"
+    },
+    {
+      "url": "https://www.electionguide.org/elections/id/4254/",
+      "title": "IFES Election Guide"
+    },
+    {
+      "url": "https://www.osw.waw.pl/en/publikacje/analyses/2023-12-19/elections-serbia-victory-vucic-and-a-consolidation-system",
+      "title": "Elections in Serbia: victory for Vu\u010di\u0107 and a consolidation of the system"
+    },
+    {
+      "url": "https://insajder.net/prenosimo/prag-od-60-odsto-gotovo-izvestan-kome-neodgovara-velika-izlaznost-na-predstojecim-izborima",
+      "title": "\u201cPrag od 60 odsto gotovo izvestan\u201d: Kome (ne)odgovara velika izlaznost na predstoje\u0107im izborima"
+    },
+    {
+      "url": "https://mondo.rs/Info/Politika/a2284943/novo-istrazivanje-o-rejtinzima-stranaka-pred-izbore-2026.html",
+      "title": "Novo istra\u017eivanje o rejtinzima stranaka pred izbore 2026"
+    },
+    {
+      "url": "https://naslovi.net/2026-09-28/nova/sva-istrazivanja-i-analize-pokazuju-isto-samo-rekordna-izlaznost-ce-iznedriti-pravog-pobednika-na-izborima-25-oktobra/42416276",
+      "title": "Sva istra\u017eivanja i analize pokazuju isto: Samo rekordna izlaznost \u0107e iznedriti pravog pobednika na izborima 25. oktobra - Naslovi.net"
+    },
+    {
+      "url": "https://www.danas.rs/vesti/politika/izbori26/izlaznost-odziv-biraca-izbori-prognoze/",
+      "title": "Izlaznost kao presudni faktor: Od odziva opozicionih bira\u010da zavisi sudbina parlamentarne ve\u0107ine - Izbori26 - Dnevni list Danas"
+    },
+    {
+      "url": "https://srbijaizbori.com/2026/10/01/sta-govore-poslednja-istrazivanja-javnog-mnjenja-jedino-izvesno-da-ce-izlaznost-biti-visoka/",
+      "title": "\u0160ta govore poslednja istra\u017eivanja javnog mnjenja? \u201cJedino izvesno da \u0107e izlaznost biti visoka\u201d"
+    },
+    {
+      "url": "https://urbancityradio.org/istrazivanje-pred-izbore-2026-velike-razlike-u-procenama-ko-je-trenutno-u-prednosti/",
+      "title": "Istra\u017eivanje pred IZBORE 2026: Velike razlike u procenama"
+    },
+    {
+      "url": "https://www.021.rs/info/srbija/454405/faktor-plus-ima-novo-istrazivanje-sns-bi-osvojila-472-odsto-glasova-a-studentska-lista-315-odsto",
+      "title": "Faktor plus ima novo istra\u017eivanje: SNS bi osvojila 47,2 odsto glasova, a studentska lista 31,5 odsto"
+    },
+    {
+      "url": "https://n1info.rs/vesti/najnovije-vesti-uzivo-lokalni-izbori-2026-rezultati/",
+      "title": "Rezultati lokalnih izbora u 10 op\u0161tina u Srbiji - Vesti iz Srbije, regiona i sveta - N1 info"
+    },
+    {
+      "url": "https://savremenapolitika.com/svi-rezultati-na-jednom-mestu-lokalni-izbori-29-marta-2026/",
+      "title": "Svi rezultati na jednom mestu: Lokalni izbori 29. marta 2026. - Savremena politika"
+    },
+    {
+      "url": "https://sr.wikipedia.org/sr-el/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D0%BD%D0%B8_%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%D0%B8_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8_2026.",
+      "title": "Lokalni izbori u Srbiji 2026. \u2014 \u0412\u0438\u043a\u0438\u043f\u0435\u0434\u0438\u0458\u0430"
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D0%BD%D0%B8_%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%D0%B8_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8_2026.",
+      "title": "\u041b\u043e\u043a\u0430\u043b\u043d\u0438 \u0438\u0437\u0431\u043e\u0440\u0438 \u0443 \u0421\u0440\u0431\u0438\u0458\u0438 2026. \u2014 \u0412\u0438\u043a\u0438\u043f\u0435\u0434\u0438\u0458\u0430"
+    },
+    {
+      "url": "https://www.danas.rs/vesti/politika/prvi-rezultati-lokalni-izbori-2026-u-deset-mesta-u-srbiji/",
+      "title": "Preliminarni rezultati lokalnih izbora u deset mesta u Srbiji - Politika - Dnevni list Danas"
+    },
+    {
+      "url": "https://masina.rs/predizborna-kampanja-32-46",
+      "title": "Predizborna kampanja 32/46 - Ma\u0161ina"
+    },
+    {
+      "url": "https://www.republika.rs/vesti/politika/776976/rik-broj-biraca-u-srbiji-izbori-2026",
+      "title": "IZBORI SVE BLI\u017dI! RIK objavio koliko bira\u010da ima Srbija!"
+    },
+    {
+      "url": "https://politika.telegraf.rs/izbori-2026/4412505-rik-objavila-ukupan-broja-biraca-u-srbiji-za-parlamentarne-izbore",
+      "title": "RIK objavila ukupan broja bira\u010da u Srbiji za parlamentarne izbore - Telegraf Politika"
+    },
+    {
+      "url": "https://www.sd.rs/vesti/info/rik-objavio-ko-ima-pravo-da-glasa-na-izborima-u-birackom-spisku-vise-od-64-miliona-ljudi-evo-koliko-listica-ce-biti-odstampano-2026-10-10",
+      "title": "RIK objavio ko ima pravo da glasa na izborima: U bira\u010dkom spisku vi\u0161e od 6,4 miliona ljudi, evo koliko listi\u0107a \u0107e biti od\u0161tampano"
+    },
+    {
+      "url": "https://borba.me/izbori-2026-ukupan-broj-biraca-u-srbiji-za-parlamentarne-izbore-iznosi-6-450-523/",
+      "title": "IZBORI 2026: Ukupan broj bira\u010da u Srbiji za parlamentarne izbore iznosi 6.450.523 - Borba.me"
+    },
+    {
+      "url": "https://n1info.rs/vesti/republicka-izborna-komisija-broj-biraca-srbija-2026/",
+      "title": "RIK utvrdio da Srbija ima skoro 6,5 miliona bira\u010da - Vesti iz Srbije, regiona i sveta - N1 info"
+    },
+    {
+      "url": "https://informer.rs/politika/vesti/1159331/rik-broj-biraca",
+      "title": "RIK saop\u0161tika koliki je ukupan broj bira\u010da za vanredne parlamentarne izbore 2026 - Informer.rs"
+    },
+    {
+      "url": "https://happytv.rs/vesti/rik-ukupan-broja-biraca-u-srbiji-2026/930638/",
+      "title": "RIK objavio ukupan broja bira\u010da u Srbiji za 2026. - BSC Happy Portal"
+    },
+    {
+      "url": "https://naslovi.net/2026-10-10/sputnik/izbori-2026-ukupan-broj-biraca-u-srbiji-za-parlamentarne-izbore-6-450-523/42469993",
+      "title": "IZBORI 2026. Ukupan broj bira\u010da u Srbiji za parlamentarne izbore 6.450.523 - Naslovi.net"
+    },
+    {
+      "url": "https://lat.sputnikportal.rs/20261011/izbori-2026-vucic-ocekuje-pobedu-od-vise-od-70-odsto-1203895679.html",
+      "title": "IZBORI 2026. Ukupan broj bira\u010da u Srbiji za parlamentarne izbore 6.450.523 - 11.10.2026, Sputnik Srbija"
+    }
+  ]
+}

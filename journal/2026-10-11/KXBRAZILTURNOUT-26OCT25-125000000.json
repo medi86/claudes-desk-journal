@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "ticker": "KXBRAZILTURNOUT-26OCT25-125000000",
+  "event": "KXBRAZILTURNOUT-26OCT25",
+  "series": "KXBRAZILTURNOUT",
+  "title": "Will at least 125,000,000 votes, including blank and null votes, be cast in the runoff of Brazil's 2026 presidential election?",
+  "rules": "If at least 125,000,000 votes, including blank and null votes, are cast in the second round of the 2026 Brazilian presidential election, then the market resolves to Yes.",
+  "rules_secondary": "The count is the total of voters who voted (comparecimento) in the presidential contest of the second round (runoff) of Brazil\u2019s 2026 general election, as reported by the Tribunal Superior Eleitoral (TSE), including those who cast blank or null votes. Registered voters, abstentions, justified absences and ballots in other contests do not count.\n\nSubject to the contract\u2019s Fully-Conducted Elections and Accelerated Resolution Upon Designated Media Source Declarations provisions, the vote count refers to the officially certified results from the relevant election authority. Provisional, absentee, early, mail-in, or electronic ballots are included only if reflected in the official certification.\n\nThe contract resolves based on officially certified results regardless of ongoing appeals. Outside those two contract provisions, preliminary counts, exit polls, projections, or uncertified results do not qualify.",
+  "close_time": "2026-10-25T03:59:00+00:00",
+  "expected_close_time": "2026-10-25T03:59:00+00:00",
+  "forecast_at": "2026-10-11T15:25:10.750133+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.4",
+    "reasoning": "First-round 2026 turnout was about 125.28M, only about 280k above the 125M threshold, so the runoff needs abstention to rise no more than about 0.18 points from 21.08%. In 5 of the last 6 presidential runoffs, abstention rose by 1 to 3 points. The exception, 2022 (abstention fell 0.36 points), was a close, polarized Lula-vs-Bolsonaro race much like this one. Record first-round disaffection and two widely rejected candidates make a small turnout drop slightly more likely than a gain.",
+    "falsifier": "TSE-certified runoff turnout of 125.0M or more (abstention at or below about 21.26%), e.g., a 2022-style mobilization surge in a knife-edge Lula vs Fl\u00e1vio race.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4300",
+    "best_yes_ask": "0.4500",
+    "p_market": "0.4400"
+  },
+  "final": {
+    "p_yes": "0.41",
+    "action": "buy_no",
+    "reasoning": "The 0.44 midpoint sits slightly above my estimate. The historical tendency for runoff abstention to rise, plus record first-round disaffection, makes clearing a threshold only about 280,000 votes below first-round turnout somewhat less likely than the market implies. The edge is small, but it favors NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.4400",
+    "count": 1,
+    "cost": "0.5600",
+    "clamped_from": "0.41"
+  },
+  "sources": [
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/mais-de-158-milhoes-de-eleitores-estao-aptos-votar-nas-eleicoes-2026",
+      "title": "Mais de 158 milh\u00f5es de eleitores est\u00e3o aptos a votar nas Elei\u00e7\u00f5es 2026 \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://revistaoeste.com/politica/brasil-tem-1587-milhoes-de-eleitores-aptos-a-votar-em-2026/",
+      "title": "Brasil tem 158,7 milh\u00f5es de eleitores aptos a votar em 2026"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/10/03/pro/brasil-tem-1587-milhoes-de-eleitores-aptos-para-votar-em-2026-mulheres-sao-maioria",
+      "title": "Brasil tem 158,7 milh\u00f5es de eleitores aptos para votar em 2026; mulheres s\u00e3o maioria"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-05/brasil-tem-158-milhoes-de-eleitores-aptos-votar-em-2026-divulga-ts",
+      "title": "Brasil tem 158 milh\u00f5es de eleitores aptos a votar em 2026, divulga TSE"
+    },
+    {
+      "url": "https://ric.com.br/politica/eleicoes/total-de-leitores-aptos-votar-brasil-eleicoes-2026-tse/",
+      "title": "Brasil tem 158,7 milh\u00f5es de eleitores aptos a votar nas elei\u00e7\u00f5es 2026 - Ric.com.br"
+    },
+    {
+      "url": "https://lawletter.com.br/noticia/tse-eleitores-aptos-eleicoes-outubro",
+      "title": "Elei\u00e7\u00f5es 2026: Brasil ter\u00e1 158,7 milh\u00f5es de eleitores aptos"
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/eleicoes/brasil-tem-mais-de-158-milhoes-de-eleitoras-e-eleitores-aptos-a-votar/",
+      "title": "Brasil tem mais de 158 milh\u00f5es de eleitoras e eleitores aptos a votar"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-08/eleicoes-terao-um-total-de-1587-milhoes-de-pessoas-aptas-votar",
+      "title": "Elei\u00e7\u00f5es ter\u00e3o um total de 158,7 milh\u00f5es de pessoas aptas a votar"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-em-numeros-158-7-milhoes-de-eleitores-estao-aptos-a-votar",
+      "title": "Elei\u00e7\u00f5es 2026 em n\u00fameros: 158,7 milh\u00f5es de eleitores est\u00e3o aptos a votar \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://www.brasilemfolhas.com.br/2026/10/tse-confirma-158-7-milhoes-de-eleitores-aptos-para-eleicoes-de-2026/",
+      "title": "TSE confirma 158,7 milh\u00f5es de eleitores aptos para elei\u00e7\u00f5es de 2026"
+    },
+    {
+      "url": "https://ecervi.substack.com/p/somos-158-milhoes-de-eleitores-em",
+      "title": "Somos 158 milh\u00f5es de eleitores em 2026"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022",
+      "title": "Elei\u00e7\u00e3o presidencial no Brasil em 2022"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno",
+      "title": "100% das se\u00e7\u00f5es totalizadas: confira como ficou o quadro eleitoral ap\u00f3s o 2\u00ba turno \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022",
+      "title": "Resultados da elei\u00e7\u00e3o presidencial no Brasil em 2022"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Novembro/presidente-do-tse-apresenta-numeros-do-2o-turno-das-eleicoes-2022",
+      "title": "Presidente do TSE apresenta n\u00fameros do 2\u00ba turno das Elei\u00e7\u00f5es 2022 \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/politica/no-2o-turno-bolsonaro-teve-400-mil-votos-a-mais-em-2022-do-que-em-2018/",
+      "title": "No 2\u00ba turno, Bolsonaro teve 400 mil votos a mais em 2022 do que em 2018"
+    },
+    {
+      "url": "https://www.metropoles.com/brasil/historico-de-abstencao-de-votos-desafia-aposta-do-pt-para-vencer-2o-turno",
+      "title": "Hist\u00f3rico de absten\u00e7\u00e3o de votos desafia aposta do PT para vencer 2\u00ba turno"
+    },
+    {
+      "url": "https://www.spacemoney.com.br/politica/abstencao-eleitoral-2026",
+      "title": "Absten\u00e7\u00e3o alcan\u00e7a 21,08% no primeiro turno de 2026 - SpaceMoney"
+    },
+    {
+      "url": "https://pactopelademocracia.substack.com/p/eleicoes-2026-sao-marcadas-por-abstencao",
+      "title": "Elei\u00e7\u00f5es 2026 s\u00e3o marcadas por absten\u00e7\u00e3o recorde"
+    },
+    {
+      "url": "https://www.infopebas.com/destaque/abstencao-eleicoes-2026-desafio-pt/",
+      "title": "Absten\u00e7\u00e3o recorde no primeiro turno imp\u00f5e desafio \u00e0 estrat\u00e9gia do PT para o segundo turno"
+    },
+    {
+      "url": "https://www.infomoney.com.br/politica/2107-abstencao-bate-recorde-no-1o-turno-e-supera-33-milhoes-de-eleitores/",
+      "title": "21,07%: absten\u00e7\u00e3o bate recorde no 1\u00ba turno e supera 33 milh\u00f5es de eleitores"
+    },
+    {
+      "url": "https://bpmoney.com.br/noticias/abstencao-primeiro-turno-2026-maior-desde-1998/",
+      "title": "Absten\u00e7\u00e3o no 1\u00ba turno de 2026 bate recorde em 28 anos com 33 milh\u00f5es de ausentes - BPMoney"
+    },
+    {
+      "url": "https://forbes.com.br/geral/2026/10/eleicao-presidencial-segundo-turno-lula-flavio-2026/",
+      "title": "Fl\u00e1vio Bolsonaro e Lula disputam o 2\u00ba turno"
+    },
+    {
+      "url": "https://www.nexojornal.com.br/expresso/2026/10/05/flavio-bolsonaro-x-lula-segundo-turno-eleicoes-2026",
+      "title": "O que esperar das campanhas de Fl\u00e1vio e Lula no 2\u00ba turno - Nexo Jornal"
+    },
+    {
+      "url": "https://www.migalhas.com.br/quentes/465831/flavio-bolsonaro-e-lula-disputarao-segundo-turno-das-eleicoes-2026",
+      "title": "Fl\u00e1vio Bolsonaro e Lula disputar\u00e3o segundo turno das Elei\u00e7\u00f5es 2026 - Migalhas"
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+      "title": "Fl\u00e1vio Bolsonaro e Lula disputam o segundo turno das elei\u00e7\u00f5es para presidente \u2014 Senado Not\u00edcias"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-abstencao-cresce-216-e-soma-33-milhoes-de-brasileiros",
+      "title": "Elei\u00e7\u00f5es: absten\u00e7\u00e3o cresce 21,6% e soma 33 milh\u00f5es de brasileiros"
+    },
+    {
+      "url": "https://www.terra.com.br/noticias/eleicoes/abstencao-passa-de-33-milhoes-em-2026-e-atinge-maior-nivel-em-28-anos,e3799dbbebb6ebed266b0314afea26e6w5tuflne.html",
+      "title": "Absten\u00e7\u00e3o passa de 33 milh\u00f5es em 2026 e atinge maior n\u00edvel em 28 anos"
+    },
+    {
+      "url": "https://www.portaltri.com.br/noticias/50368/abstencao-no-primeiro-turno-chega-a-21-08-e-soma-33-4-milhoes-de-eleitores",
+      "title": "Absten\u00e7\u00e3o no primeiro turno chega a 21,08% e soma 33,4 milh\u00f5es de elei..."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-EPA0QAfJbQ",
+      "title": "ELEI\u00c7\u00d5ES 2026: N\u00famero de absten\u00e7\u00e3o bate recorde e chega a 21%"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-conclui-1o-turno-das-eleicoes-2026-e-projeta-mesma-tranquilidade-para-segunda-fase-do-pleito",
+      "title": "Presidente do TSE conclui 1\u00ba turno das Elei\u00e7\u00f5es 2026 e projeta mesma tranquilidade para segunda fase do pleito \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/resultados-do-1o-turno-das-eleicoes-2026-estao-disponiveis-em-pagina-do-tse",
+      "title": "Resultados do 1\u00ba turno das Elei\u00e7\u00f5es 2026 est\u00e3o dispon\u00edveis em p\u00e1gina do TSE \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://www.cartacapital.com.br/politica/tse-encerra-apuracao-do-1o-turno/",
+      "title": "TSE encerra apura\u00e7\u00e3o do 1\u00ba turno"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/saiba-como-foi-a-totalizacao-dos-votos-no-1o-turno-das-eleicoes-2026",
+      "title": "Saiba como foi a totaliza\u00e7\u00e3o dos votos no 1\u00ba turno das Elei\u00e7\u00f5es 2026 \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://www12.senado.leg.br/tv/programas/noticias-1/2026/10/eleicoes-2026-presidente-do-tse-apresenta-balanco-parcial-da-votacao",
+      "title": "Elei\u00e7\u00f5es 2026: presidente do TSE apresenta balan\u00e7o parcial da vota\u00e7\u00e3o - TV Senado"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/eleicoes/2026/apuracao",
+      "title": "Elei\u00e7\u00f5es 2026 - Resultado da apura\u00e7\u00e3o no 1\u00ba turno nos estados e Presidente"
+    },
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026",
+      "title": "2026 \u2014 Tribunal Superior Eleitoral"
+    },
+    {
+      "url": "https://welligtonbrave.github.io/",
+      "title": "Elei\u00e7\u00f5es 2026 \u2014 Resultados, Mapas, Not\u00edcias e An\u00e1lises"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "ticker": "KXGENERICBALLOTVOTEHUB-26OCT16-T8.7",
+  "event": "KXGENERICBALLOTVOTEHUB-26OCT16",
+  "series": "KXGENERICBALLOTVOTEHUB",
+  "title": "Above 8.7%",
+  "rules": "If the VoteHub 2026 generic ballot margin (D \u2212 R, time-weighted) is above 8.7% at 10:00 AM ET on Oct 16, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-10-16T13:59:00+00:00",
+  "expected_close_time": "2026-10-16T13:59:00+00:00",
+  "forecast_at": "2026-10-11T15:25:10.750133+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.4",
+    "reasoning": "As of Oct 5-11, other averages put Democrats between about D+7.4 and D+9.6. Silver's raw average (D+8.9) is the closest analog to VoteHub's time-weighted method and sits just above 8.7, while RCP (D+7.9) and FiftyPlusOne (D+8) are below it. VoteHub's own current figure wasn't found, and the 8.7 threshold is probably near its present value. With only about 5 days left, the outcome depends on a few new polls, so this is roughly a coin flip leaning slightly toward NO.",
+    "falsifier": "VoteHub's generic ballot average reading D+8.8 or higher at 10 AM ET on Oct 16, for example because more D+10/11 polls like YouGov or Emerson come out this week.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4000",
+    "best_yes_ask": "0.4400",
+    "p_market": "0.4200"
+  },
+  "final": {
+    "p_yes": "0.41",
+    "action": "pass",
+    "reasoning": "The market's 0.42 midpoint is almost the same as my 0.40, and I'm unsure of VoteHub's current value. I nudge slightly toward the market and don't bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
+      "title": "Who leads the 2026 generic congressional ballot? - VoteHub"
+    },
+    {
+      "url": "https://x.com/VoteHubUS/status/1974934425181044768",
+      "title": "VoteHub on X: \"Democrats maintain a nearly 4 point lead in the generic ballot average for the 2026 congressional elections. Current average: \ud83d\udd35 D +3.8 Change from last 4 months: \ud83d\udd35 D +1.6 https://t.co/cWQGvkhB7J\" / X"
+    },
+    {
+      "url": "https://votehub.com/2026/01/17/how-our-polling-averages-work",
+      "title": "How Our Polling Averages Work - VoteHub"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/",
+      "title": "All 2026 US Polls: Generic Ballot D+7.4, Trump 36.9% \u2014 Updated Daily"
+    },
+    {
+      "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
+      "title": "FiftyPlusOne - Generic Ballot Polls and Average for 2026"
+    },
+    {
+      "url": "https://votehub.com/2025/09/22/how-our-polling-averages-work/",
+      "title": "Historical Polling Average Methodology - VoteHub"
+    },
+    {
+      "url": "https://votes.decisiondeskhq.com/polls/generic-ballot/national/lv-rv-adults",
+      "title": "Decisiondeskhq"
+    },
+    {
+      "url": "https://uspollingdata.com/news/generic-ballot-what-it-means/",
+      "title": "What the Generic Ballot Tells Us About 2026 \u2014 And Its Limits"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/generic-ballot/",
+      "title": "Generic Ballot October 2026: D+7.4 \u2014 House Forecast, Pollster Breakdown & Monthly Trend"
+    },
+    {
+      "url": "https://votehub.com/2026/01/22/our-2026-polling-averages-explained/",
+      "title": "Our 2026 Polling Averages Explained - VoteHub"
+    },
+    {
+      "url": "https://x.com/VoteHub/status/2057237115004493919",
+      "title": "VoteHub on X: \"Democrats have opened up a sizable lead over Republicans in our generic congressional ballot average. Apr 20: \ud83d\udd35 D +4.7 May 20: \ud83d\udd35 D +7.2 (+2.5) For comparison, FiveThirtyEight's generic ballot average on this day in 2018 was D +4.6. https://t.co/CZt3O1rYf5\" / X"
+    },
+    {
+      "url": "https://decisiondeskhq.substack.com/p/democrats-generic-ballot-august-2026-midterms-house-senate",
+      "title": "\ud83d\udcc8 Democrats recover their generic ballot edge"
+    },
+    {
+      "url": "https://unitedstatespolling.com/p/democrats-lead-by-nearly-10-points",
+      "title": "Democrats Lead by Nearly 10 Points as the Midterms Approach"
+    },
+    {
+      "url": "https://politicalwire.com/2026/09/21/democrats-maintain-solid-lead-on-generic-ballot/",
+      "title": "Democrats Maintain Solid Lead on Generic Ballot"
+    },
+    {
+      "url": "https://www.cronista.com/en/today/democrats-lead-the-generic-ballot-a-month-before-the-midterms-heres-why-it-may-not-be-enough-to-win-the-senate/",
+      "title": "Generic ballot 2026: Why Democrats' lead may not win the Senate"
+    },
+    {
+      "url": "https://newsweek.com/democrats-fear-their-blue-wave-may-have-crested-too-early-12549407",
+      "title": "Democrats Fear Their \u2018Blue Wave\u2019 May Have Crested Too Early - Newsweek"
+    },
+    {
+      "url": "https://yahoo.com/news/politics/articles/democrats-fear-blue-wave-may-090000209.html",
+      "title": "Democrats fear their \"blue wave\" may have crested too early"
+    },
+    {
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "title": "Generic Congressional Ballot: Latest Polls"
+    },
+    {
+      "url": "https://www.pollsmax.com/approval/generic-ballot/",
+      "title": "2026 Generic Ballot"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/10/democrats-solidly-ahead-on-generic-ballot",
+      "title": "Democrats Solidly Ahead on Generic Ballot"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "title": "2026 Generic Congressional Vote"
+    },
+    {
+      "url": "https://uspollingdata.com/",
+      "title": "US Polling Data 2026 \u2014 Midterms, Generic Ballot D+7.4 & Trump Approval 36.9%"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/2026-midterm-tracker/",
+      "title": "2026 Midterm Tracker: Generic Ballot D+7.4, Trump Approval 37%"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6106950-democrats-lead-gop-congress-generic-ballot-poll/",
+      "title": "Democrats hold 11-point lead over GOP on congressional ballot: Poll"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5984107-democratic-poll-leads-gop/",
+      "title": "Democrats hold 11-point lead over GOP on generic ballot: Poll"
+    },
+    {
+      "url": "https://emersoncollegepolling.com/july-2026-national-poll-democrats-with-11-point-generic-ballot-advantage/",
+      "title": "July 2026 National Poll: Democrats with 11-Point Generic Ballot Advantage - Emerson Polling"
+    },
+    {
+      "url": "https://maristpoll.marist.edu/polls/a-look-to-the-2026-midterms-november-2025/",
+      "title": "Home of the Marist Poll"
+    },
+    {
+      "url": "https://votes.decisiondeskhq.com/polls/generic-ballot/national",
+      "title": "Generic Congressional Ballot Polling Average"
+    },
+    {
+      "url": "https://www.mediaite.com/media/news/shock-poll-democrats-open-up-stunning-11-point-lead-on-republicans-on-generic-congressional-ballot/",
+      "title": "SHOCK POLL: Democrats Open Up Stunning 11-Point Lead on Republicans on Generic Congressional Ballot"
+    },
+    {
+      "url": "https://www.dataforprogress.org/blog/2026/5/21/democrats-lead-the-generic-ballot-by-8-points-as-midterms-approach",
+      "title": "Democrats Lead the Generic Ballot by 8 Points as Midterms Approach"
+    },
+    {
+      "url": "https://votehub.com/",
+      "title": "VoteHub - Election Results, Analysis, & Presidential Approval"
+    },
+    {
+      "url": "https://votehub.com/2025/09/22/historical-polling-average-methodology/",
+      "title": "Historical Polling Average Methodology - VoteHub"
+    },
+    {
+      "url": "https://votehub.com/2025/07/31/midcycle-redistricting-impact-midterms/",
+      "title": "How Will Mid-Cycle Redistricting Impact the Midterms? - VoteHub"
+    },
+    {
+      "url": "https://github.com/awall451/kalseer/pull/37",
+      "title": "feat: votehub.py \u2014 VoteHub poll CLI for the approval + generic-ballot families (item #20) by awall451 \u00b7 Pull Request #37 \u00b7 awall451/kalseer"
+    },
+    {
+      "url": "https://votehub.com/polls/api/",
+      "title": "Access Political Polls via API - VoteHub"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/topics/generic-ballot-votehub",
+      "title": "Generic ballot VoteHub \u2014 Odds Tracker & History"
+    },
+    {
+      "url": "https://uspollingdata.com/news/generic-ballot-democrats-lead-widens-september-2026/",
+      "title": "Generic Ballot September 2026: Democrats Widen Lead to Nearly D+8 Ahead of Midterms"
+    },
+    {
+      "url": "https://www.poliwave.com/us/fed/polls/house",
+      "title": "2026 U.S. House Generic Ballot"
+    },
+    {
+      "url": "https://naturalnews.com/2026-10-10-trump-voters-show-lower-enthusiasm-for-midterm-elections.html",
+      "title": "Reuters/Ipsos Poll: Trump Voters Show Lower Enthusiasm for Midterm Elections"
+    },
+    {
+      "url": "https://decisiondeskhq.substack.com/p/generic-ballot-us-house-control-majority-democrats-republicans",
+      "title": "What Democrats' generic ballot lead tells us about the 2026 House race"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-09-11/",
+      "title": "Generic ballot poll, Sep 11, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://axios.com/2026/10/10/poll-democratic-wave-questions-oversampling-gop",
+      "title": "The big unknown behind Democrats' polling leads"
+    },
+    {
+      "url": "https://www.coinbase.com/predictions/event/KXVHGCB-26OCT07",
+      "title": "Generic congressional ballot on Oct 7, 2026?"
+    },
+    {
+      "url": "https://votehub.com/2026-early-vote-methodology/",
+      "title": "Decoding the Early Vote: What We Can, And Can\u2019t, Learn From the Early Voting Window - VoteHub"
+    },
+    {
+      "url": "https://votehub.com/category/elections/",
+      "title": "Category: Elections - VoteHub"
+    },
+    {
+      "url": "https://polls.decisiondeskhq.com/averages/generic-ballot/national/lv-rv-adults",
+      "title": "Generic Congressional Ballot Polling Average"
+    },
+    {
+      "url": "https://www.coinbase.com/predictions/event/KXGENERICBALLOTVOTEHUB-26OCT09",
+      "title": "Generic Ballot: Democrats Up/Down (10/2-10/9)?"
+    }
+  ]
+}

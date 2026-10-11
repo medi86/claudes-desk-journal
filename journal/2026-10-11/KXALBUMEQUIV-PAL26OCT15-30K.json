@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-PAL26OCT15-30K",
+  "event": "KXALBUMEQUIV-PAL26OCT15",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Palace For The People by Greta Van Fleet have above 30000 Album Equivalent Units during the October 09, 2026 - October 15, 2026 tracking week? Above 30K",
+  "rules": "If Palace For The People by Greta Van Fleet has above 30K Album Equivalent Units during the October 09, 2026 - October 15, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 09, 2026 - October 15, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-18T14:00:00+00:00",
+  "expected_close_time": "2026-10-18T14:00:00+00:00",
+  "forecast_at": "2026-10-11T15:25:10.750133+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.62",
+    "reasoning": "Greta Van Fleet's last album, Starcatcher, debuted with 45K units (41K actual sales). If I remember right, the one before had about 41K, which suggests a steady physical-buying fanbase. The new album has many signed and exclusive vinyl versions, but three years have passed since the last album and reviews are lukewarm, so a typical 20\u201335% drop would leave it around 30\u201336K. My median is somewhat above the 30K line.",
+    "falsifier": "First-week reports (HITS, Billboard or Luminate) putting Palace for the People below 30K units, e.g. a debut outside the top 15 with ~25K units because sales fell more than expected or vinyl shipped late.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6600",
+    "best_yes_ask": "0.7400",
+    "p_market": "0.7000"
+  },
+  "final": {
+    "p_yes": "0.65",
+    "action": "pass",
+    "reasoning": "The market sits a little above my estimate and may reflect early first-week projections I couldn't verify, so I nudged up to 0.65. That leaves no meaningful edge against either side of the spread."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://open.spotify.com/album/1qog58rW47hLVPpG63TLyS",
+      "title": "Palace for the People - Album by Greta Van Fleet"
+    },
+    {
+      "url": "https://www.loudersound.com/music/albums/greta-van-fleet-palace-for-the-people",
+      "title": "\"It's difficult not to want more ambition from a band who clearly have it in them to deliver something spectacular.\" Greta Van Fleet deliver more of the same on Palace For The People"
+    },
+    {
+      "url": "https://music.apple.com/us/album/palace-for-the-people/6793709908",
+      "title": "Palace for the People by Greta Van Fleet on Apple Music"
+    },
+    {
+      "url": "https://shop.gretavanfleet.com/products/palace-for-the-people-cd",
+      "title": "Palace for the People - CD - Greta Van Fleet Official Store"
+    },
+    {
+      "url": "https://rockcellarmagazine.com/greta-van-fleet-palace-for-the-people-new-album-listen/",
+      "title": "Greta Van Fleet Releases New Album 'Palace for the People'"
+    },
+    {
+      "url": "https://shop.gretavanfleet.com/products/palace-for-the-people-palace-variant-limited-edition",
+      "title": "Palace for the People - Palace Variant (Limited Edition) - Greta Van Fleet Official Store"
+    },
+    {
+      "url": "https://www.billboard.com/music/rock/greta-van-fleet-palace-for-the-people-stream-it-now-1236357750/",
+      "title": "Greta Van Fleet Checks In With \u2018Palace For The People\u2019: Stream It Now"
+    },
+    {
+      "url": "https://www.udiscovermusic.com/news/greta-van-fleet-palace-for-the-people/",
+      "title": "New Greta Van Fleet Album, 'Palace For The People' Out ..."
+    },
+    {
+      "url": "https://www.allmusic.com/album/palace-for-the-people-mw0004856877",
+      "title": "Greta Van Fleet: Palace for t... Tracks & Reviews"
+    },
+    {
+      "url": "https://shop.gretavanfleet.com/products/palace-for-the-people-oracle-variant-signed-first-pressing",
+      "title": "Palace for the People - Oracle Variant (Signed First Pressing) - Greta Van Fleet Official Store"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/greta-van-fleet-checks-palace-043118838.html",
+      "title": "Greta Van Fleet Checks In With \u2018Palace For The People\u2019: Stream It Now"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Greta_Van_Fleet_discography",
+      "title": "Greta Van Fleet discography"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4917408.html",
+      "title": "Greta Van Fleet Checks In With \u2018Palace For The People\u2019: Stream It Now ...Middle East"
+    },
+    {
+      "url": "https://www.billboard.com/artist/greta-van-fleet/",
+      "title": "Greta Van Fleet"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Greta_Van_Fleet",
+      "title": "Greta Van Fleet"
+    },
+    {
+      "url": "https://www.kerrang.com/greta-van-fleet-interview-palace-for-the-people-josh-kiszka-jake-kiszka-sam-kiszka-danny-wagner-cover-story",
+      "title": "Greta Van Fleet: \u201cWe have to burn bright, fade freely, and\u2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Starcatcher_(album)",
+      "title": "Starcatcher (album)"
+    },
+    {
+      "url": "https://www.1057thepoint.com/music-news/greta-van-fleets-starcatcher-earns-top-10-debut-on-billboard-200/",
+      "title": "Greta Van Fleet\u2019s \ufeff\u2019Starcatcher\ufeff\u2019 earns top-10 debut on \u2018\ufeffBillboard\ufeff\u2019 200"
+    },
+    {
+      "url": "https://www.kissrocks.com/news/greta-van-fleets/5KQKQP4SCHMLC7JML24UKZ43BE/",
+      "title": "Greta Van Fleet's \ufeff'Starcatcher\ufeff' earns top-10 debut on '\ufeffBillboard\ufeff' 200"
+    },
+    {
+      "url": "https://grokipedia.com/page/Starcatcher_(album)",
+      "title": "_Starcatcher_ (album) \u2014 Grokipedia"
+    },
+    {
+      "url": "https://blabbermouth.net/news/greta-van-fleets-new-album-starcatcher-debuts-at-no-1-across-multiple-billboard-charts",
+      "title": "GRETA VAN FLEET's New Album 'Starcatcher' Debuts At No. 1 Across Multiple BILLBOARD Charts - BLABBERMOUTH.NET"
+    },
+    {
+      "url": "https://grokipedia.com/page/Greta_Van_Fleet_discography",
+      "title": "Greta Van Fleet discography \u2014 Grokipedia"
+    },
+    {
+      "url": "https://themusicuniverse.com/greta-van-fleet-scores-no-1-chart-debut-with-starcatcher/",
+      "title": "Greta Van Fleet scores No 1 chart debut with 'Starcatcher' - The Music Universe"
+    },
+    {
+      "url": "https://allmusicmagazine.com/greta-van-fleets-new-album-starcatcher-reaches-1-on-multiple-billboard-charts-charting-internationally/",
+      "title": "Greta Van Fleet's new album 'Starcatcher' reaches #1 on multiple Billboard charts + charting internationally - All Music Magazine"
+    },
+    {
+      "url": "https://www.amazon.com/Starcatcher-Greta-Van-Fleet/dp/B0C138ZCPC",
+      "title": "Starcatcher : Greta Van Fleet: Digital Music"
+    },
+    {
+      "url": "https://www.target.com/p/greta-van-fleet-to-palace-for-the-people-target-exclusive-vinyl/-/A-1012950609",
+      "title": "Greta Van Fleet - to Palace for the People (Target Exclusive, Vinyl) : Target"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/greta-van-fleet-palace-for-the-people-indie-exclusive-oracle-variant-2lp-vinyl-signed-insert",
+      "title": "Greta Van Fleet - Palace For The People (Indie Exclusive, Oracle Varia"
+    },
+    {
+      "url": "https://gretavanfleet.com/",
+      "title": "Palace for the People - Greta Van Fleet"
+    },
+    {
+      "url": "https://comebackvinyl.com/products/greta-van-fleet-palace-for-the-people-signed-indie-exclusive",
+      "title": "PRE-ORDER: Greta Van Fleet - \"Palace For The People\" Signed Indie Excl"
+    },
+    {
+      "url": "https://www.southrecordshop.com/products/greta-van-fleet-palace-for-the-people",
+      "title": "Greta Van Fleet - Palace for the People"
+    },
+    {
+      "url": "https://shopuk.gretavanfleet.com/products/palace-for-the-people-oracle-variant-first-pressing-limited-edition",
+      "title": "Palace for the People - Oracle Variant (First Pressing / Limited Editi - Greta Van Fleet"
+    },
+    {
+      "url": "https://shopuk.gretavanfleet.com/products/palace-for-the-people-palace-variant-limited-edition",
+      "title": "Palace for the People - Palace Variant (Limited Edition) - Greta Van Fleet"
+    },
+    {
+      "url": "https://www.blackvinylrecordsspain.com/en/products/greta-van-fleet-palace-for-the-people-target-exclusive-titanium-ore-2lp",
+      "title": "Greta Van Fleet - Palace for the People Target Exclusive Titanium Ore 2LP"
+    },
+    {
+      "url": "https://www.stickyblacktarmac.com/products/greta-van-fleet-palace-for-the-people",
+      "title": "Greta Van Fleet"
+    },
+    {
+      "url": "https://www.recordplant.co.uk/products/greta-van-fleet-palace-for-the-people",
+      "title": "Greta Van Fleet: Greta Van Fleet - Palace For The People"
+    },
+    {
+      "url": "https://bourbonandvinyl.net/2026/08/07/new-songs-greta-van-fleet-release-2-songs-from-upcoming-lp-palace-of-the-people/",
+      "title": "New Songs: Greta Van Fleet Release 2 Songs From Upcoming LP Palace Of The People"
+    },
+    {
+      "url": "https://newreleases.discogs.com/us/release/770598-greta-van-fleet-palace-for-the-people",
+      "title": "Greta Van Fleet"
+    },
+    {
+      "url": "https://www.iheart.com/artist/greta-van-fleet-883581/",
+      "title": "Greta Van Fleet"
+    },
+    {
+      "url": "https://www.nashville.com/greta-van-fleet-releases-new-album-palace-for-the-people/",
+      "title": "Greta Van Fleet Releases New Album Palace for the People"
+    },
+    {
+      "url": "https://thatlovepodcast.com/post/michael-jackson-thriller-1982-review",
+      "title": "Michael Jackson Thriller (1982) Review: A Pop Landmark"
+    },
+    {
+      "url": "https://nbcpalmsprings.com/local-and-community/2026/10/10/hurricane-rachel-brings-coastal-flooding-and-destruction-to-southern-california",
+      "title": "Hurricane Rachel Brings Coastal Flooding and Destruction to Southern California"
+    },
+    {
+      "url": "https://www.billboard.com/pro/greta-van-fleet-debuts-no-1-top-rock-albums/",
+      "title": "Greta Van Fleet Debuts At No 1 On Top Rock Albums"
+    },
+    {
+      "url": "https://www.billboard.com/pro/greta-van-fleet-no-3-emerging-artists-chart/",
+      "title": "Greta Van Fleet Flies to No. 3 on Emerging Artists Chart"
+    },
+    {
+      "url": "https://www.billboard.com/music/rock/greta-van-fleet-release-date-debut-album-anthem-of-the-peaceful-army-8473995/",
+      "title": "Greta Van Fleet Set Release Date for Debut Album, 'Anthem of the Peaceful Army'"
+    },
+    {
+      "url": "https://www.billboard.com/charts/billboard-200/",
+      "title": "Billboard 200\u2122"
+    },
+    {
+      "url": "https://mixdownmag.com.au/news/music/greta-van-fleet-debut-at-number-three-on-billboard-200-albums-chart/",
+      "title": "Greta Van Fleet debut at number three on Billboard 200 albums chart - Mixdown Magazine"
+    },
+    {
+      "url": "https://consequence.net/2026/10/greta-van-fleet-2027-north-american-tour/",
+      "title": "Greta Van Fleet Announce Massive 2027 North American Tour"
+    },
+    {
+      "url": "https://theconcertchronicles.com/2026/10/10/greta-van-fleet-announces-2027-tour/",
+      "title": "Greta Van Fleet Announces 2027 Into the Beginning World Tour"
+    },
+    {
+      "url": "https://news.livenationentertainment.com/news/greta-van-fleet-announce-into-the-beginning-2027-north-american-and-european-tour",
+      "title": "Greta Van Fleet Announce \u2018Into the Beginning\u2019 2027 North American and European Tour"
+    },
+    {
+      "url": "https://www.xsnoize.com/greta-van-fleet-into-the-beginning-2027-tour/",
+      "title": "Greta Van Fleet Announce 59-Date 2027 Tour"
+    },
+    {
+      "url": "https://blabbermouth.net/news/greta-van-fleet-announces-into-the-beginning-2027-north-american-and-european-tour",
+      "title": "GRETA VAN FLEET Announces 'Into The Beginning' 2027 North American And European Tour - BLABBERMOUTH.NET"
+    },
+    {
+      "url": "https://musicindustryweekly.com/greta-van-fleet-set-2027-north-american-and-european-arena-tour/",
+      "title": "Greta Van Fleet Set 2027 North American and European Arena Tour - Music Industry Weekly"
+    },
+    {
+      "url": "https://concertvacay.com/news/tour-announcements/greta-van-fleet-into-the-beginning-tour-2027/",
+      "title": "Greta Van Fleet Announces the 59-Date 'Into the Beginning' Tour for 2027 - ConcertVacay"
+    },
+    {
+      "url": "https://rockdocumented.com/2026/10/02/greta-van-fleet-set-fixed-prices-for-2027-tour/",
+      "title": "Greta Van Fleet Set Fixed Prices For 2027 Tour"
+    },
+    {
+      "url": "https://www.nme.com/news/music/greta-van-fleet-announce-2027-uk-european-north-american-tour-tickets-3972051",
+      "title": "Greta Van Fleet announce 2027 'Into The Beginning' UK, European and North American tour"
+    },
+    {
+      "url": "https://music.mxdwn.com/2026/10/02/news/greta-van-fleet-announce-spring-2027-north-american-tour-dates-with-the-kooks-arc-de-soleil-more/",
+      "title": "Greta Van Fleet Announce Spring 2027 North American Tour Dates With The Kooks, Arc De Soleil & More - mxdwn Music"
+    }
+  ]
+}
