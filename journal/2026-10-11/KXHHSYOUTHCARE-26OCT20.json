@@ -213,5 +213,13 @@
       "url": "https://www.fqhctalent.com/intel/states-sue-cms-2451-medicaid-chip-youth-gender-care-rule-september-2026",
       "title": "Twenty-one attorneys general sue CMS over its youth gender-care funding rule"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "65d7e533c29e90d4832d946cd6c01259109408b0",
+    "pushed_at": "2026-10-11T03:36:36Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
