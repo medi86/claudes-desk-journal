@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPENDORSEMENTS-26OCT16-A3",
+  "event": "KXTRUMPENDORSEMENTS-26OCT16",
+  "series": "KXTRUMPENDORSEMENTS",
+  "title": "Will Trump endorse at least 3 people on Truth Social this week?",
+  "rules": "If Donald Trump endorses at least 3 people for their election on Truth Social from Oct 10, 2026 through Oct 16, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Any formal endorsement will qualify, including reaffirmations of prior endorsements. If Trump endorses multiple people in an election, all will be counted towards the total. The endorsement must be a clear, affirmative statement of support. Ambiguous statements of support will not qualify. Conditional endorsements will qualify. A person cannot be counted more than once in a given week. \n\nExamples:\nDonald Trump states \"I endorse [candidate] for [office]\"\nDonald Trump states \"I support [candidate]\" referencing a political race\nDonald Trump states \"Vote for [candidate]\" publicly\nDonald Trump states \"[candidate] has my full support\" for [race]\n\nExamples that would NOT count:\nTrump posts a graphic that says \"[Candidate] wins\" that merely states as fact they were endorsed by President Trump",
+  "close_time": "2026-10-17T14:00:00+00:00",
+  "expected_close_time": "2026-10-17T14:00:00+00:00",
+  "forecast_at": "2026-10-12T02:21:46.976820+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.97",
+    "reasoning": "The week of Oct 10-16, 2026 is about three weeks before the midterms, when Trump usually posts many 'Complete and Total Endorsement' messages on Truth Social. He was doing so as recently as Oct 7 (Tom Tiffany for Wisconsin governor), and in September he endorsed about a dozen governor candidates. Repeat endorsements count and each person in a multi-candidate post counts, so 3 people in 7 days is a low bar.",
+    "falsifier": "Trump makes fewer than 3 clear endorsements on Truth Social between Oct 10 and Oct 16, 2026, for example because he stops posting due to illness or a crisis, or posts only graphics that don't count.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8500",
+    "best_yes_ask": "0.9400",
+    "p_market": "0.8950"
+  },
+  "final": {
+    "p_yes": "0.96",
+    "action": "buy_yes",
+    "reasoning": "The market sits around 0.895, but three weeks before the midterms Trump's Truth Social endorsements make 3 qualifying people in a week near-certain. I trimmed my estimate slightly for resolution risk, yet 0.96 is still above the 0.94 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.9300",
+    "count": 1,
+    "cost": "0.9300",
+    "clamped_from": "0.96"
+  },
+  "sources": [
+    {
+      "url": "https://www.joemygod.com/2026/10/trump-pairs-endorsement-of-wisconsin-gov-candidate-with-announcement-of-18m-in-fema-relief-for-state/",
+      "title": "Trump Pairs Endorsement Of Wisconsin Gov Candidate With Announcement Of $18M In FEMA Relief For State - Joe.My.God."
+    },
+    {
+      "url": "https://supertrumptracker.com/",
+      "title": "SuperTrumpTracker \u2014 Complete Archive of Trump's Posts on X & Truth Social"
+    },
+    {
+      "url": "https://news.meaww.com/trump-offers-susan-dell-complete-and-total-endorsement-after-surprise-oval-office-moment",
+      "title": "Trump offers Susan Dell \u2018complete and total endorsement\u2019 after surprise Oval Office moment"
+    },
+    {
+      "url": "https://www.newsbreak.com/deltias-gaming-378674616/4932551906523-susan-dell-wife-of-dell-technologies-ceo-urges-trump-accounts-for-families-receives-complete-and-total-endorsement-from-the-president-for-running-for-office",
+      "title": "Susan Dell, Wife of Dell Technologies CEO, Urges Trump Accounts for Families, Receives \u201cComplete and Total Endorsement\u201d From the President for Running for Office - NewsBreak"
+    },
+    {
+      "url": "https://donaldjtrumppolls.com/trump-backs-wyomings-chuck-gray-for-us-house-of-representatives/",
+      "title": "Trump backs Wyoming's Chuck Gray for US House of Representatives - Live President Donald Trump Popularity Polls"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/41833",
+      "title": "Donald J. Trump: \"Michael Baumgartner has my Complete and Total Endorsement for Re-Election as... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/41834",
+      "title": "Donald J. Trump: \"Joe Mitchell has my Complete and Total Endorsement to be the next U.S. Repre... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/41835",
+      "title": "Donald J. Trump: \"Mike Bouchard has my Complete and Total Endorsement to be the next U.S. Repr... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://thehill.com/homenews/house/5059838-trump-endorses-johnson-speaker/",
+      "title": "Donald Trump gives complete and total endorsement of Mike Johnson as Speaker"
+    }
+  ]
+}

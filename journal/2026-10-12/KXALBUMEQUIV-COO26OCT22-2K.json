@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-COO26OCT22-2K",
+  "event": "KXALBUMEQUIV-COO26OCT22",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Cookie Happened by Eels have above 2000 Album Equivalent Units during the October 16, 2026 - October 22, 2026 tracking week? Above 2K",
+  "rules": "If Cookie Happened by Eels has above 2K Album Equivalent Units during the October 16, 2026 - October 22, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 16, 2026 - October 22, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-25T14:00:00+00:00",
+  "expected_close_time": "2026-10-25T14:00:00+00:00",
+  "forecast_at": "2026-10-12T02:21:46.976820+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.55",
+    "reasoning": "Cookie Happened comes out October 16, 2026, so this is its first and biggest US week. Eels' fans are older and buy mostly CDs and vinyl, and from memory recent albums opened at roughly 2-4K US units, right around the threshold. With no touring since 2023 and modest streaming, it is close to a coin flip, leaning slightly toward clearing 2K.",
+    "falsifier": "Luminate's first-week figure for Cookie Happened comes in at or below 2,000 units, for example if it misses Billboard's Top Album Sales chart entirely or US vinyl stock arrives late.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3000",
+    "best_yes_ask": "0.3500",
+    "p_market": "0.3250"
+  },
+  "final": {
+    "p_yes": "0.42",
+    "action": "buy_yes",
+    "reasoning": "The 32.5% midpoint suggests traders may know Eels' recent first weeks came in under 2K, so I cut my estimate from 0.55 to 0.42. That still sits above the midpoint because first-week physical sales from a loyal fanbase plausibly clear the line, so I lean YES."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.3400",
+    "count": 1,
+    "cost": "0.3400",
+    "clamped_from": "0.42"
+  },
+  "sources": [
+    {
+      "url": "https://www.totalntertainment.com/music/eels-announce-16th-studio-album-cookie-happened/",
+      "title": "EELS Announce 16th Studio Album 'COOKIE HAPPENED' - TotalNtertainment"
+    },
+    {
+      "url": "https://chalkys.com/blogs/news/eels-cookie-happened-new-album-october-2026",
+      "title": "EELS Announce New Album COOKIE HAPPENED Ahead of October Release"
+    },
+    {
+      "url": "https://northerntransmissions.com/eels-announce-new-album-cookie-happened/",
+      "title": "EELS announce new album COOKIE HAPPENED - Northern Transmissions"
+    },
+    {
+      "url": "https://www.amazon.com/Cookie-Happened-Eels/dp/B0H4WWSDMZ",
+      "title": "Eels - Cookie Happened - Amazon.com Music"
+    },
+    {
+      "url": "https://www.clashmusic.com/news/eels-announce-new-album-cookie-happened/",
+      "title": "EELS Announce New Album 'COOKIE HAPPENED'"
+    },
+    {
+      "url": "https://entertainment-focus.com/2026/06/16/eels-set-october-release-for-new-album-cookie-happened/",
+      "title": "EELS set October release for new album 'Cookie Happened' - Entertainment Focus"
+    },
+    {
+      "url": "https://13thfloor.co.nz/eels-cookie-happened-pias-13th-floor-album-review/",
+      "title": "EELS -Cookie Happened (PIAS) (13th Floor Album Review)"
+    },
+    {
+      "url": "https://www.xsnoize.com/eels-cookie-happened-cap-in-hand/",
+      "title": "EELS Announce New Album \u2018Cookie Happened\u2019 And Share \u2018Cap In Hand\u2019"
+    },
+    {
+      "url": "https://www.spinmagazine.com/2026/06/eels-new-album/",
+      "title": "EELS Dip Back Into The 'Cookie' Jar - SPIN"
+    },
+    {
+      "url": "https://www.music-news.com/news/Underground/189507/EELS-announce-sixteenth-studio-album-Cookie-Happened",
+      "title": "EELS announce sixteenth studio album Cookie Happened - Music News"
+    },
+    {
+      "url": "https://www.officialcharts.com/artist/2608/eels/",
+      "title": "EELS songs and albums"
+    },
+    {
+      "url": "https://www.officialcharts.com/albums/eels-eels-time/",
+      "title": "EELS TIME"
+    },
+    {
+      "url": "https://www.billboard.com/music/features/eels-frontman-e-interview-new-album-heart-surgery-1235703600/",
+      "title": "EELS Frontman E Discusses His Open-Heart Surgery and the Band\u2019s New Record"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eels_Time!",
+      "title": "Eels Time!"
+    },
+    {
+      "url": "https://www.deezer.com/en/artist/668",
+      "title": "Eels: albums, songs, concerts"
+    },
+    {
+      "url": "https://www.millcitysound.com/eels-eels-time.html",
+      "title": "EELS / Eels Time! - Mill City Sound"
+    },
+    {
+      "url": "https://www.allmusic.com/album/eels-time!-mw0004232991",
+      "title": "Eels: EELS Time! Tracks & Reviews"
+    },
+    {
+      "url": "https://logansoundsoff.com/2024/05/16/eels-rock-music-eels-time-and-much-more/",
+      "title": "EELS Interview"
+    },
+    {
+      "url": "https://rateyourmusic.com/release/album/eels/eels-time.p/",
+      "title": "Eels Time! by Eels (Album; E Works): Reviews, Ratings, Credits, Song list - Rate Your Music"
+    },
+    {
+      "url": "https://spectrumculture.com/2024/06/10/eels-eels-time-review/",
+      "title": "Eels: Eels Time! - Spectrum Culture"
+    },
+    {
+      "url": "https://limited-vinyl.com/eels-extreme-witchcraft/",
+      "title": "Eels: Extreme Witchcraft"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Extreme_Witchcraft",
+      "title": "Extreme Witchcraft"
+    },
+    {
+      "url": "https://www.discogs.com/release/21928567-Eels-Extreme-Witchcraft",
+      "title": "Eels"
+    },
+    {
+      "url": "https://www.billboard.com/music/features/eels-interview-extreme-witchcraft-1235023746/",
+      "title": "Interview: Eels Frontman E Discusses New Album 'Extreme Witchcraft'"
+    },
+    {
+      "url": "https://www.discogs.com/release/21926749-Eels-Extreme-Witchcraft",
+      "title": "Eels"
+    },
+    {
+      "url": "https://grokipedia.com/page/Extreme_Witchcraft",
+      "title": "Extreme Witchcraft \u2014 Grokipedia"
+    },
+    {
+      "url": "https://www.allmusic.com/album/extreme-witchcraft-mw0003600636",
+      "title": "Extreme Witchcraft - Eels"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eels_(band)",
+      "title": "Eels (band)"
+    },
+    {
+      "url": "https://www.discogs.com/master/2484040-Eels-Extreme-Witchcraft",
+      "title": "Eels"
+    },
+    {
+      "url": "https://www.xsnoize.com/album-review-eels-extreme-witchcraft/",
+      "title": "ALBUM REVIEW: Eels"
+    },
+    {
+      "url": "https://bestsellingalbums.org/artist/3694",
+      "title": "EELS album sales - BestSellingAlbums.org"
+    },
+    {
+      "url": "https://www.besteveralbums.com/thechart.php?a=255272",
+      "title": "Eels (studio album) by Being Dead : Best Ever Albums"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eels_discography",
+      "title": "Eels discography"
+    },
+    {
+      "url": "https://www.eelstheband.com/main.php",
+      "title": "EELS :: Official Band Website"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/artist/434-eels/",
+      "title": "Eels Albums, Songs - Discography - Album of The Year"
+    },
+    {
+      "url": "https://maximumvolumemusic.com/review-eels-eels-time-2024/",
+      "title": "REVIEW: EELS - EELS TIME (2024) - Maximum Volume Music"
+    },
+    {
+      "url": "https://acharts.co/artist/eels",
+      "title": "Eels - Music Charts"
+    },
+    {
+      "url": "https://grokipedia.com/page/Eels_discography",
+      "title": "Eels discography \u2014 Grokipedia"
+    },
+    {
+      "url": "https://www.officialcharts.com/albums/eels-end-times/",
+      "title": "END TIMES"
+    },
+    {
+      "url": "https://www.kworb.net/itunes/artist/eels.html",
+      "title": "Eels Chart Positions on Spotify, Apple Music and Other Streaming Services"
+    },
+    {
+      "url": "https://www.besteveralbums.com/thechart.php?b=1265",
+      "title": "Eels"
+    },
+    {
+      "url": "https://www.billboard.com/artist/eels/",
+      "title": "Eels"
+    },
+    {
+      "url": "https://music.apple.com/us/album/extreme-witchcraft/1584990399",
+      "title": "Extreme Witchcraft - Album by Eels"
+    },
+    {
+      "url": "https://www.piccadillyrecords.com/141223/Eels-Extreme-Witchcraft-E-Works-%5BPIAS%5D",
+      "title": "Eels - Extreme Witchcraft / E-Works/ [PIAS] from Piccadilly Records"
+    },
+    {
+      "url": "https://www.nme.com/reviews/eels-extreme-witchcraft-album-review-3146961",
+      "title": "Eels"
+    },
+    {
+      "url": "https://www.amazon.com/Eels-Extreme-Witchcraft-CD/dp/B09GTNBFD3",
+      "title": "Eels - Eels : Extreme Witchcraft (CD) - Amazon.com Music"
+    },
+    {
+      "url": "https://www.metacritic.com/music/eels-time!/eels",
+      "title": "EELS Time! by Eels Reviews and Tracks - Metacritic"
+    },
+    {
+      "url": "https://eelstheband.com/time/",
+      "title": "Eels: Official Band Website :: EELS TIME!"
+    },
+    {
+      "url": "https://music.youtube.com/playlist?list=OLAK5uy_lPb5ueO8XPRDV6ggwQDrPX_qdfbLI709g",
+      "title": "EELS TIME! - Album by EELS"
+    },
+    {
+      "url": "https://www.discogs.com/master/3508713-Eels-Eels-Time",
+      "title": "Eels"
+    },
+    {
+      "url": "https://eels.pias.com/release/443783-eels-eels-time?lang=en_US",
+      "title": "Eels - EELS TIME!. Eels."
+    },
+    {
+      "url": "https://stereogum.com/2253825/eels-time/music",
+      "title": "Eels - \"Time\""
+    }
+  ]
+}

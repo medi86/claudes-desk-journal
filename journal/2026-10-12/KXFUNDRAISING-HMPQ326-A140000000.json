@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-HMPQ326-A140000000",
+  "event": "KXFUNDRAISING-HMPQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will House Majority PAC report more than $140M in cash on hand at the end of Q3? Above $140M",
+  "rules": "If House Majority PAC's cash on hand is above $140 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-21T13:59:00+00:00",
+  "expected_close_time": "2026-10-21T13:59:00+00:00",
+  "forecast_at": "2026-10-12T02:21:46.976820+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.52",
+    "reasoning": "House Majority PAC had $135.2M cash on hand on Aug 31, 2026 per FEC data, so it needs roughly a $5M net gain in September to clear $140M. It reportedly announced a record $230M Q3 haul, implying large September receipts, but September is also when fall TV spending ramps up sharply. Inflows and outflows are both plausibly $40-80M, so the outcome is near a coin flip with a slight lean toward yes given the record fundraising.",
+    "falsifier": "HMP's October monthly FEC report (covering September) showing ending cash on hand at or below $140M because of heavy September ad spending.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3700",
+    "best_yes_ask": "0.4300",
+    "p_market": "0.4000"
+  },
+  "final": {
+    "p_yes": "0.44",
+    "action": "pass",
+    "reasoning": "My 0.52 estimate rested on limited data: Aug 31 cash of $135.2M and only the headline of the record Q3 announcement. The market at 0.40 may reflect details of that announcement I couldn't see, so I moved toward it. The remaining edge over the 0.43 ask is too small to bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.thehousemajoritypac.com/news/house-majority-pac-posts-over-11-4-million-cash-on-hand",
+      "title": "House Majority PAC Posts Over $11.4 Million Cash-On-Hand"
+    },
+    {
+      "url": "https://cointelegraph.com/news/crypto-pac-fairshake-house-endorsements-us-midterms",
+      "title": "Fairshake PAC to Initially Spend $6M on House Races as US Midterms Loom"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00495028/",
+      "title": "HMP - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://campaignlegal.org/update/super-pacs-are-continuing-hide-secret-money-wealthy-special-interests-heres-how",
+      "title": "Super PACs Are Continuing to Hide Secret Money From Wealthy Special Interests. Here\u2019s How."
+    },
+    {
+      "url": "https://rollcall.com/2026/10/05/05crypto",
+      "title": "Crypto industry PAC gives to 32 House incumbents, on both sides"
+    },
+    {
+      "url": "https://www.factcheck.org/2026/08/house-majority-pac-8/",
+      "title": "House Majority PAC - FactCheck.org"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/4750184/house-democratic-super-pac-230-million-fundraising-haul/",
+      "title": "House Democrats' super PAC raises $230 million in third quarter"
+    },
+    {
+      "url": "https://www.thehousemajoritypac.com/news/hmp-announces-50-million-win-them-back-fund",
+      "title": "HMP Announces $50 Million #8216;Win Them Back Fund'"
+    },
+    {
+      "url": "https://punchbowl.news/article/washington/hmp-raises-big-money/",
+      "title": "House Dems\u2019 super PAC smashes record with $230M quarter"
+    },
+    {
+      "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/",
+      "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark money groups this election cycle - Issue One"
+    },
+    {
+      "url": "https://www.thehousemajoritypac.com/news/hmp-memo-with-100-days-until-election-day-a-clear-path-to-a-democratic-majority",
+      "title": "HMP MEMO: With 100 Days Until Election Day, A Clear Path To A Democratic Majority"
+    },
+    {
+      "url": "https://www.notus.org/2026-election/house-majority-pac-11-million-virginia-florida",
+      "title": "House Majority PAC Adds $11 Million for States Mired in Redistricting Drama - NOTUS \u2014 News of the United States"
+    },
+    {
+      "url": "https://issueone.org/articles/top-super-pacs-raise-nearly-200-million-and-counting-ahead-of-the-2026-midterms/",
+      "title": "Top super PACs raise nearly $200 million and counting from secret donors ahead of the 2026 midterms - Issue One"
+    },
+    {
+      "url": "https://superpacs.com/2026-super-pac-tracker/",
+      "title": "2026 Midterm Super PAC Tracker - SuperPACs.com"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-18-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 18-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-six-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of Six-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://uspollingdata.com/news/campaign-finance-2026/",
+      "title": "Campaign Finance 2026: FEC Q1 Filings, Super PACs & Small-Dollar Donors"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00321596/",
+      "title": "HOUSE MAJORITY FUND - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00426023/",
+      "title": "MAJORITY PAC - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00627075/",
+      "title": "FEC Electronic Filings by LEGISLATIVE MAJORITY PAC"
+    },
+    {
+      "url": "https://www.thepoliticalgroup.com/pacs/committee/C00669259",
+      "title": "FF PAC (C00669259): PAC 2026 Spending, Filings and Profile"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-12-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 12-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://www.election.org/committee/pro-choice-majority-2026-c00894063",
+      "title": "PRO-CHOICE MAJORITY 2026 \u2014 Hybrid PAC, Receipts & Spending 2026"
+    },
+    {
+      "url": "https://thehousemajoritypac.com/news/press-releases/house-majority-pac-announces-record-breaking-fundraising-quarter",
+      "title": "House Majority PAC Announces Record-breaking Fundraising Quarter"
+    },
+    {
+      "url": "https://www.factcheck.org/2022/03/house-majority-pac-6/",
+      "title": "House Majority PAC - FactCheck.org"
+    },
+    {
+      "url": "https://ballotpedia.org/House_Majority_PAC",
+      "title": "House Majority PAC - Ballotpedia"
+    },
+    {
+      "url": "https://punchbowl.news/article/house/house-democrats-super-pac-fundraising-record/",
+      "title": "House Dem super PAC sets new fundraising record - Punchbowl News"
+    },
+    {
+      "url": "https://time.com/5336902/congressional-leadership-fund-fundraising/",
+      "title": "This Republican Super PAC Raised $51 Million to Try and Save the Party's House Majority"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/564793-house-democratic-super-pac-doubles-fundraising/",
+      "title": "House Democratic super PAC doubles fundraising"
+    },
+    {
+      "url": "https://shero.substack.com/p/lets-keep-the-democratic-fundraising",
+      "title": "Let's Keep the Democratic Fundraising Haul Going - SHERO"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/01/house-democrats-rake-in-230-million/",
+      "title": "House Democrats Rake in $230 Million"
+    },
+    {
+      "url": "https://punchbowl.news/article/the-daily-punch/hmp-brings-in-lots-of-cash/",
+      "title": "HMP rakes in big bucks"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000792985/000119312504120697/dex991.htm",
+      "title": "HEALTH MANAGEMENT ASSOCIATES INC - Form 8-K - FY2004"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001383803/000115752314000635/a50804215_ex99-1.htm",
+      "title": "JMP Group Inc. - Form 8-K - FY2014"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001196501/000093041307008414/c51050_ex99-2.htm",
+      "title": "HMS HOLDINGS CORP - Form 8-K - FY2007"
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/10406-71",
+      "title": "HMP Global 2026 Company Profile: Valuation, Funding & Investors"
+    },
+    {
+      "url": "https://octus.com/resources/articles/hmp-global-exploring-sale-via-solomon-partners/",
+      "title": "HMP Global Exploring Sale with Solomon Partners"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1830197/000114036121016077/brhc10024079_ex99-1.htm",
+      "title": "Home Point Capital Inc. - Form 8-K - FY2021"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001383803/000115752313002355/a50624935ex99_1.htm",
+      "title": "JMP Group Inc. - Form 8-K - FY2013"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-24-month-campaign-activity-of-the-2021-2022-election-cycle/",
+      "title": "Statistical Summary of 24-Month Campaign Activity of the 2021-2022 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00741355/",
+      "title": "MAJORITY PAC - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/22/republicans-democrats-election-fundraising-2026.html",
+      "title": "Democrats lead the polls. Republicans lead in cash heading into the midterms"
+    }
+  ]
+}

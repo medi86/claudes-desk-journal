@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "ticker": "KXSETLIST-VS26OCT19-ANI",
+  "event": "KXSETLIST-VS26OCT19",
+  "series": "KXSETLIST",
+  "title": "Will KATSEYE perform Animal at the 2026 Victoria's Secret Fashion Show?",
+  "rules": "If KATSEYE performs 'Animal' at the 2026 Victoria's Secret Fashion Show, then the market resolves to Yes.",
+  "rules_secondary": "A performance requires the performer to be physically present on stage and either sing, rap, or vocalize recognizable lyrics or melody from the song live, or play an instrument performing the recognizable melody, riff, or musical structure of the song live. Pre-recorded audio or video playback without simultaneous live contribution does not qualify. Medleys, mashups, and partial performances count as Yes. Guest appearances count if the specified performer actively participates in performing the song. If the event is postponed to a date before the deadline, the market remains open for the rescheduled event. If the event is cancelled entirely, rescheduled after the deadline, or the performer withdraws, the market resolves to No. Soundchecks and rehearsals do not count.",
+  "close_time": "2026-10-19T14:00:00+00:00",
+  "expected_close_time": "2026-10-19T14:00:00+00:00",
+  "forecast_at": "2026-10-12T02:21:46.976820+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.48",
+    "reasoning": "KATSEYE is confirmed to perform at the Oct. 18, 2026 Victoria's Secret Fashion Show, which falls before the market closes, and the show is being pitched around their No. 1 EP WILD. Each artist usually gets only 2-3 songs, and I couldn't check whether 'Animal' is a lead single from WILD or a minor track competing with hits like 'Gabriela' and 'Gnarly'. So I'm putting it at roughly a coin flip.",
+    "falsifier": "A published setlist or broadcast showing KATSEYE's set with no 'Animal' (No), or 'Animal' turning out to be WILD's lead single and being performed live in the set (Yes).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4200",
+    "best_yes_ask": "0.5600",
+    "p_market": "0.4900"
+  },
+  "final": {
+    "p_yes": "0.48",
+    "action": "pass",
+    "reasoning": "The market midpoint (0.49) almost matches my 0.48 estimate, and the wide spread means there is no edge worth acting on. My main uncertainty is still whether 'Animal' is a lead WILD track."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20261001/katseye-to-perform-at-2026-victorias-secret-fashion-show",
+      "title": "KATSEYE to perform at 2026 Victoria's Secret Fashion Show - The Korea Times"
+    },
+    {
+      "url": "https://www.billboard.com/music/music-news/victorias-secret-fashion-show-performers-katseye-tate-mcrae-1236349610/",
+      "title": "KATSEYE, Megan Thee Stallion, Tate McRae & Megan Moroney to Perform at 2026 Victoria\u2019s Secret Fashion Show"
+    },
+    {
+      "url": "https://www.soompi.com/article/1874526wpp/katseye-to-perform-at-2026-victorias-secret-fashion-show",
+      "title": "KATSEYE To Perform At 2026 Victoria\u2019s Secret Fashion Show"
+    },
+    {
+      "url": "https://www.allkpop.com/article/2026/10/katseye-are-announced-as-featured-performers-at-the-2026-victorias-secret-fashion-show",
+      "title": "KATSEYE are announced as featured performers at the 2026 Victoria\u2019s Secret Fashion Show"
+    },
+    {
+      "url": "https://wild1063.iheart.com/content/2026-09-29-katseye-megan-thee-stallion-more-to-perform-at-2026-victorias-secret-fashion-show/",
+      "title": "The 2026 Victoria\u2019s Secret Fashion Show Announces All-Women Lineup"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Katseye",
+      "title": "Katseye"
+    },
+    {
+      "url": "https://www.gmanetwork.com/news/lifestyle/hobbiesandactivities/1004423/katseye-to-perform-at-victoria-s-secret-fashion-show-2026/story/",
+      "title": "Katseye to perform at Victoria's Secret Fashion Show 2026"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/victoria-secret-reveals-2026-fashion-014306570.html",
+      "title": "Victoria\u2019s Secret reveals its 2026 Fashion Show performers: Megan Thee Stallion, KATSEYE, and more"
+    },
+    {
+      "url": "https://en.koreadaily.com/katseye-victorias-secret-fashion-show/",
+      "title": "KATSEYE \u2014 Rising Global Stars Join 2026 Victoria's Secret Fashion Show"
+    },
+    {
+      "url": "https://en.koreaportal.com/articles/54850/20261001/katseye-victorias-secret-fashion-show-2026-date-lineup.htm",
+      "title": "KATSEYE Victoria's Secret Fashion Show 2026: Date, Lineup : K-WAVE : koreaportal"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Animal_(Katseye_song)",
+      "title": "Animal (Katseye song)"
+    },
+    {
+      "url": "https://katseye.fandom.com/wiki/Animal",
+      "title": "Animal"
+    },
+    {
+      "url": "https://open.spotify.com/album/3ybCwWDhYDt2GYSCYFiF83",
+      "title": "Animal - Single by KATSEYE"
+    },
+    {
+      "url": "https://colorcodedheaven.com/2026/07/24/katseye-%EC%BA%A3%EC%B8%A0%EC%95%84%EC%9D%B4-animal/",
+      "title": "KATSEYE (\ucea3\uce20\uc544\uc774)"
+    },
+    {
+      "url": "https://www.zubairkhalid.com/blog/viral-content/animal-katseye-meaning",
+      "title": "Animal KATSEYE Meaning: The Song, the Representative Animals Trend, and the Real Science"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/katseye-new-single-animal-video-guest-demi-moore-1235598166/",
+      "title": "Katseye Drops New Single 'Animal' With Demi Moore-Starring Video"
+    },
+    {
+      "url": "https://www.thepinknews.com/2026/07/24/katseye-animal-music-video-new-song-demi-moore-ed-sheeran/",
+      "title": "Katseye's new song 'Animal' is what fans have been begging for"
+    },
+    {
+      "url": "https://music.apple.com/us/album/animal-single/6793209963",
+      "title": "Animal - Single by KATSEYE on Apple Music"
+    },
+    {
+      "url": "https://www.complex.com/music/a/dimassanfiorenzo/katseye-wild-ep-everything-you-need-know",
+      "title": "KATSEYE's 'Wild' EP: Tracklist, Singles, Everything You Need to Know"
+    },
+    {
+      "url": "https://www.complex.com/music/a/alex-ocho/katseye-wild-ep-full-tracklist-august-2026",
+      "title": "KATSEYE Reveals Full Tracklist for 'WILD' EP"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wild_(Katseye_EP)",
+      "title": "Wild (Katseye EP)"
+    },
+    {
+      "url": "https://kpop.fandom.com/wiki/Wild_(KATSEYE)",
+      "title": "Wild (KATSEYE)"
+    },
+    {
+      "url": "https://www.music-tracker.com/release/wild-ep",
+      "title": "Wild by Katseye (2026) - Tracklist & Release Date"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/katseye-reveals-wild-ep-tracklist-195325433.html",
+      "title": "KATSEYE Reveals \u2018WILD\u2019 EP Tracklist Alongside Special Message From Lara Raj About Bonus Song"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/07/katseye-unleash-wild-tracklist-ahead-of-ep-release/",
+      "title": "KATSEYE Unleash 'WILD' Tracklist Ahead of EP Release - That Grape Juice"
+    },
+    {
+      "url": "https://x.com/PopBase/status/2082891483682836897/photo/2",
+      "title": "Pop Base on X: \"KATSEYE unveils the tracklist to their upcoming EP \u2018WILD\u2019: #1. Pinky Up #2. Animal #3. Hootie Frutti #4. Bel Air #5. That Way #6. Unloveu (Target exclusive)\" / X"
+    },
+    {
+      "url": "https://www.hola.com/us/entertainment/20261001926379/victorias-secret-fashion-show-2026-performers-katseye-megan-moroney/",
+      "title": "Victoria\u2019s Secret reveals its 2026 Fashion Show performers: Megan Thee Stallion, KATSEYE, and more"
+    },
+    {
+      "url": "https://www.fashiontimes.co.uk/katseye-2026-victorias-secret-fashion-show-los-angeles-1764863",
+      "title": "KATSEYE's Next Big Break: Girl Group Set for Victoria's Secret Fashion Show in Los Angeles"
+    },
+    {
+      "url": "https://1075theriver.iheart.com/content/2026-09-29-katseye-megan-thee-stallion-more-to-perform-at-2026-victorias-secret-fashion-show/",
+      "title": "The 2026 Victoria\u2019s Secret Fashion Show Announces All-Women Lineup"
+    },
+    {
+      "url": "https://www.starnewskorea.com/en/music/2026/09/30/2026093014545780140",
+      "title": "[Official] KATSEYE to Attend the U.S. LA \"2026 Victoria's Secret Fashion Show\""
+    },
+    {
+      "url": "https://www.koreajoongangdaily.com/entertainment/katseye-to-perform-at-victorias-secret-fashion-show-in-october/12897952",
+      "title": "Katseye to perform at Victoria\u2019s Secret Fashion Show in Los Angeles"
+    },
+    {
+      "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260722/katseye-teases-dark-cinematic-return-with-new-single-animal",
+      "title": "KATSEYE teases dark, cinematic return with new single 'Animal' - The Korea Times"
+    },
+    {
+      "url": "https://www.euphoriazine.com/blog/2026/07/music/tracks-katseye-animal/",
+      "title": "KATSEYE \"Animal\" Single Review - EUPHORIA."
+    },
+    {
+      "url": "https://rateyourmusic.com/release/single/katseye/animal/",
+      "title": "Animal by KATSEYE (Single, Dance-Pop): Reviews, Ratings, Credits, Song list - Rate Your Music"
+    },
+    {
+      "url": "https://www.upi.com/Entertainment_News/Music/2026/07/24/katseye-animal-single-music-video/2081784906746",
+      "title": "Watch: Katseye releases 'Animal' music video ahead of new EP - UPI.com"
+    },
+    {
+      "url": "https://www.soompi.com/article/1856538wpp/watch-katseye-unveils-new-teasers-for-pre-release-single-animal",
+      "title": "Watch: KATSEYE Flaunts Their Wild Charms In \"Animal\" MV Featuring Demi Moore Cameo"
+    },
+    {
+      "url": "https://soundcloud.com/katseye-music/animal",
+      "title": "Stream Animal by KATSEYE"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=m7k9UMcHbr0",
+      "title": "KATSEYE (\ucea3\uce20\uc544\uc774) \"Animal\" Official MV - YouTube"
+    },
+    {
+      "url": "https://music.youtube.com/search?q=animal+katseye",
+      "title": "YouTube Music"
+    },
+    {
+      "url": "https://kpop.fandom.com/wiki/Animal",
+      "title": "Animal"
+    },
+    {
+      "url": "https://inmusicblog.com/news/katseye-wild-tracklist-songs/",
+      "title": "KATSEYE Unveils Complete \u2018WILD\u2019 Tracklist and Bonus Song"
+    },
+    {
+      "url": "https://shop.katseye.world/products/wild-wild-world-ver-official-store-exclusive-cd",
+      "title": "WILD - Wild world ver. - Official Store Exclusive CD - KATSEYE Official Store"
+    }
+  ]
+}
