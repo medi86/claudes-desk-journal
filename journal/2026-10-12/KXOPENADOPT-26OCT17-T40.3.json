@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "ticker": "KXOPENADOPT-26OCT17-T40.3",
+  "event": "KXOPENADOPT-26OCT17",
+  "series": "KXOPENADOPT",
+  "title": "Will Ramp AI Index OpenAI model adoption rate for September 2026 be above 40.3%?",
+  "rules": "If the Ramp AI Index OpenAI model adoption rate for September 2026 is above 40.3%, then the market resolves to Yes.",
+  "rules_secondary": "For purposes of this market, determination will resolve on the first value publicly reported in the Ramp AI Index OpenAI model adoption rate for September 2026. Corrections or revisions made after the market has been settled will not affect the outcome.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Ramp. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-17T03:59:00+00:00",
+  "expected_close_time": "2026-10-17T03:59:00+00:00",
+  "forecast_at": "2026-10-12T06:26:27.183600+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.2",
+    "reasoning": "OpenAI's Ramp adoption rate was 39.76% in August 2026. Since Ramp's mid-2026 method change, the monthly moves have been -0.1, +0.23 and +0.09 points, so clearing 40.3% needs about a +0.55-point jump, roughly double the best recent month. Price cuts and record provider switching in September give some upside. But overall adoption growth is slowing, and late summer has historically been flat, so a jump that size is unlikely.",
+    "falsifier": "Ramp's October 2026 AI Index release (or its weekly dashboard) reporting OpenAI's September adoption at 40.4% or higher, for example because price cuts and new GPT models brought a burst of new business sign-ups.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0900",
+    "best_yes_ask": "0.1100",
+    "p_market": "0.1000"
+  },
+  "final": {
+    "p_yes": "0.13",
+    "action": "pass",
+    "reasoning": "The 10% midpoint likely reflects September dashboard data or an early October release that I couldn't verify, so I lowered my estimate from 20% to 13%. The remaining gap over the 11-cent ask isn't worth betting on."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://en.macromicro.me/charts/132463/united-states-ramp-ai-index-enterprise-ai-adoption-rate-by-model",
+      "title": "US - Ramp AI Index - Enterprise AI Adoption Rate (by Model)"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-sept-2026",
+      "title": "September 2026 Ramp AI Index: Cracks in the AI thesis, part 2"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/anthropic-vs-openai-business-adoption-2026-ramp-data-2",
+      "title": "Anthropic vs OpenAI Business Adoption in 2026: What the RAMP Data Shows"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-february-2026",
+      "title": "Ramp AI Index February 2026 update"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-may-2026",
+      "title": "Anthropic beats OpenAI on business adoption"
+    },
+    {
+      "url": "https://cryptobriefing.com/ramp-ai-index-token-spend-volumes-update/",
+      "title": "Ramp AI Index now tracks token spend and model-level usage across 70,000 businesses"
+    },
+    {
+      "url": "https://ramp.com/vendors/openai",
+      "title": "OpenAI Ramp Rate: A Data-Backed Look"
+    },
+    {
+      "url": "https://www.explainx.ai/blog/anthropic-overtakes-openai-business-adoption-ramp-ai-index-2026",
+      "title": "Anthropic Beats OpenAI Business Adoption Ramp 2026"
+    },
+    {
+      "url": "https://ramp.com/leading-indicators/the-ai-race-has-a-new-frontrunner-but-no-clear-winner",
+      "title": "Claude's crossover moment: Anthropic surpasses OpenAI in adoption"
+    },
+    {
+      "url": "https://aiweekly.co/alerts/anthropic-overtakes-openai-in-business-ai-spending",
+      "title": "Anthropic Overtakes OpenAI in Business AI Spending"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-july-2026",
+      "title": "Ramp's latest data on China vs. the American AI Labs"
+    },
+    {
+      "url": "https://x.com/arakharazian/status/2054563750548492549",
+      "title": "Ara Kharazian on X: \"ANTHROPIC beats OpenAI in business adoption for the first time. per @tryramp data Today's update of Ramp AI Index shows 34.4% of businesses using Anthropic versus 32.3% using OpenAI. Adoption of Anthropic quadrupled over the last year, while OpenAI rose only 0.3%.\" / X"
+    },
+    {
+      "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "title": "Anthropic finally beat OpenAI in business AI adoption \u2014 but 3 big threats could erase its lead"
+    },
+    {
+      "url": "https://www.chaincatcher.com/en/article/2274260",
+      "title": "The Ramp AI report shows that the adoption ra..."
+    },
+    {
+      "url": "https://the-decoder.com/anthropic-overtakes-openai-in-b2b-adoption-for-the-first-time-according-to-ramp-spending-data/",
+      "title": "Anthropic overtakes OpenAI in B2B adoption for the first time according to Ramp spending data"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-august-2026",
+      "title": "August 2026 Ramp AI Index: Cracks in the AI thesis"
+    },
+    {
+      "url": "https://econlab.substack.com/p/ai-index-august-2026",
+      "title": "Ramp AI Index August 2026: Cracks in the AI thesis"
+    },
+    {
+      "url": "https://ustechautomations.com/resources/blog/ramp-ai-index-explained-what-it-changes",
+      "title": "Ramp AI Index [What It Changes]"
+    },
+    {
+      "url": "https://pluang.com/en/news-feed/indeks-ai-ramp-lacak-pengeluaran-token-dan-penggunaan-model-di-70000-bisnis",
+      "title": "Ramp AI Index shows Anthropic leads OpenAI in b..."
+    },
+    {
+      "url": "https://qz.com/openai-anthropic-business-ai-spending-ramp-data-082126",
+      "title": "OpenAI gaining on Anthropic in business AI spending, Ramp data shows"
+    },
+    {
+      "url": "https://medium.com/@gaetanlion/visualizing-ai-adoption-rate-78ec4455bcb9",
+      "title": "Visualizing AI Adoption Rate"
+    },
+    {
+      "url": "https://www.chaincatcher.com/en/article/2288727",
+      "title": "Ramp: Anthropic accounts for 43.8% of the pai..."
+    },
+    {
+      "url": "https://fourweekmba.com/ai-ramp-ai-index-september-2026-anthropic-openai-spend/",
+      "title": "Anthropic Leads OpenAI in Ramp's September 2026 AI Spend Index \u2014 and What the Token Price Collapse Says About Business AI - FourWeekMBA"
+    },
+    {
+      "url": "https://ramp.com/data/are-we-in-ai-bubble",
+      "title": "Are we in an AI bubble?"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index",
+      "title": "Ramp AI Index"
+    },
+    {
+      "url": "https://fourweekmba.com/ai-ramp-raises-about-1-85b-at-a-roughly-60b-valuation",
+      "title": "Ramp Raises About $1.85B at a Roughly $60B Valuation - FourWeekMBA"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/news/2026/10/fred-adds-data-from-ramp-com",
+      "title": "FRED Adds Data from Ramp.com"
+    },
+    {
+      "url": "https://aiweekly.co/alerts/ramp-hits-60b-valuation-in-185b-round-led-by-dragoneer-thrive",
+      "title": "Ramp Hits $60B Valuation in $1.85B Round Led by Dragoneer, Thrive"
+    },
+    {
+      "url": "https://ramp.com/data",
+      "title": "Ramp Economics Lab"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+      "title": "AI spend per employee slumped at top firms in August \u2014 summer doldrums or a warning sign?"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/05/19/ramp-cnbc-disruptor-50-ranking.html",
+      "title": "5. Ramp"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/RAMPAIALL",
+      "title": "Artificial Intelligence Adoption by Ramp Businesses: Overall (RAMPAIALL)"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-june-2026",
+      "title": "How much does it cost to be AI-pilled?"
+    },
+    {
+      "url": "https://ramp.com/data/april-2026-ai-index",
+      "title": "Ramp AI Index April 2026 update"
+    },
+    {
+      "url": "https://ramp.com/data/ai-index-march-2026",
+      "title": "Ramp AI Index March 2026 update"
+    },
+    {
+      "url": "https://ramp.com/data/businesses-are-changing-ai-model-providers-more-often",
+      "title": "Businesses are changing AI model providers more often"
+    },
+    {
+      "url": "https://www.forbes.com/sites/ronschmelzer/2026/08/24/enterprise-ai-vendor-loyalty-is-fading-fast/",
+      "title": "Enterprise AI Vendor Loyalty Is Fading Fast"
+    },
+    {
+      "url": "https://www.theusefuldaily.com/article/ramp-ai-index-anthropic-overtakes-openai-small-business-march-2026",
+      "title": "Small Businesses Are Switching AI Vend... - The Useful Daily"
+    },
+    {
+      "url": "https://ramp.com/leading-indicators/ai-labor-market-impact-freelancers",
+      "title": "Ramp data shows companies are replacing freelancers with AI"
+    },
+    {
+      "url": "https://ramp.com/blog/what-drives-ai-token-cost-increases",
+      "title": "What Drives Unexpected AI Token Cost Increases For Businesses"
+    },
+    {
+      "url": "https://aiweekly.co/issues/ai-got-too-expensive-so-companies-are-moving-to-cheaper",
+      "title": "AI got too expensive, so companies are moving to cheaper models"
+    },
+    {
+      "url": "https://fourweekmba.com/ai-ramp-ai-index-enterprise-frontier-pacing-demand-side/",
+      "title": "Ramp's September Data Shows Enterprises Were Already Routing Away From Frontier Models - FourWeekMBA"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "ticker": "KXDEBUTSONG-26OCT31-HOU-1",
+  "event": "KXDEBUTSONG-26OCT31-HOU",
+  "series": "KXDEBUTSONG",
+  "title": "Will Housewife by Tate McRae debut #1 on the Billboard Hot 100?",
+  "rules": "If Housewife by Tate McRae is #1 on the Billboard Hot 100 chart for the Week of Oct 31, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.",
+  "close_time": "2026-10-26T03:59:00+00:00",
+  "expected_close_time": "2026-10-26T03:59:00+00:00",
+  "forecast_at": "2026-10-12T06:26:27.183600+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.13",
+    "reasoning": "Tate McRae has never had a Hot 100 #1; her best singles ('Greedy', 'Tit for Tat') peaked at #3. 'Housewife' releases Thursday Oct 15, so the Oct 31 chart is likely its first full tracking week. It must beat Ella Langley's 'Choosin' Texas', which has repeatedly reclaimed #1, plus any new big-star releases. A lead single for a hyped new era, extra versions for sale and Victoria's Secret show exposure give it a real but minority chance.",
+    "falsifier": "Billboard's chart dated Oct 31, 2026 shows 'Housewife' at #1 (e.g., after a big first-week streaming total plus strong sales of extra versions while 'Choosin' Texas' fades and no major release competes).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0900",
+    "best_yes_ask": "0.2100",
+    "p_market": "0.1500"
+  },
+  "final": {
+    "p_yes": "0.13",
+    "action": "pass",
+    "reasoning": "My 13% is close to the 15% midpoint, and the 9\u201321 cent spread means buying NO at about 91 cents would exceed my roughly 87% NO probability. The market price doesn't change my view that she probably falls short against 'Choosin' Texas' given her #3 career peak."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.billboard.com/music/pop/tate-mcrae-new-song-housewife-release-date-1236356124/",
+      "title": "Tate McRae's New Song 'Housewife' & Its Release Date Announced"
+    },
+    {
+      "url": "https://www.nylon.com/entertainment/tate-mcrae-housewife-new-music",
+      "title": "Tate McRae Is A 23-Year-Old Housewife - NYLON"
+    },
+    {
+      "url": "https://www.music-news.com/news/UK/191651/Tate-McRae-is-releasing-a-new-song-called-Housewife",
+      "title": "Tate McRae is releasing a new song called Housewife - Music News"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/tate-mcrae-shifts-gears-sports-180327111.html",
+      "title": "Tate McRae Shifts Gears From \u2018Sports Car\u2019 to \u2018Housewife\u2019: Here\u2019s When Her New Song Arrives"
+    },
+    {
+      "url": "https://outloudculture.com/2026/10/07/tate-mcrae-announces-new-single-housewife-as-she-enters-a-new-pop-era/",
+      "title": "Tate McRae Announces New Single \u2018Housewife\u2019 as She Enters a New Pop Era - OutLoud! Culture"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/tate-mcrae-taylor-swift-tit-for-tat-new-song-housewife-1236356972/",
+      "title": "Tate McRae on Taylor Swift's Love for 'Tit for Tat,' New Song 'Housewife'"
+    },
+    {
+      "url": "https://tatemcrae.fandom.com/wiki/Housewife",
+      "title": "Housewife"
+    },
+    {
+      "url": "https://www.arcamax.com/entertainment/entertainmenttoday/s-4314224",
+      "title": "Tate McRae is releasing a new song called Housewife"
+    },
+    {
+      "url": "https://uk.news.yahoo.com/tate-mcrae-releasing-song-called-090000670.html",
+      "title": "Tate McRae is releasing a new song called Housewife - Yahoo News UK"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2026",
+      "title": "List of Billboard Hot 100 number ones of 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-10-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for October 10, 2026"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-hot-100-every-no-1-song-of-2026/",
+      "title": "Billboard Hot 100: Every No. 1 song of 2026"
+    },
+    {
+      "url": "https://www.billboard.com/",
+      "title": "Billboard"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-debut/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Debuts at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_top-ten_singles_in_2026",
+      "title": "List of Billboard Hot 100 top-ten singles in 2026"
+    },
+    {
+      "url": "https://www.billboard.com/charts/",
+      "title": "Chart Landing Pages"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-3-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for Oct. 3, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/charts/year-end/",
+      "title": "Billboard's 2026 Year-End Charts"
+    },
+    {
+      "url": "https://www.billboard.com/charts/hot-100/",
+      "title": "Billboard Hot 100\u2122"
+    },
+    {
+      "url": "https://www.popvortex.com/music/charts/top-100-songs.php",
+      "title": "iTunes Top 100 Songs Chart 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_Hot_100",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/0EN2gQhhn0rCYUR5BY1UJy",
+      "title": "Billboard Top 100 This Week 2026"
+    },
+    {
+      "url": "https://www.nbc.com/nbc-insider/tate-mcrae-new-song-housewife-lollapalooza-easter-egg",
+      "title": "The Name of Tate McRae's New Song \"Housewife\" Was Hidden in Plain Sight for Months"
+    },
+    {
+      "url": "https://www.x1071.com/tate-mcrae-teases-new-era-and-single-housewife-with-striking-artwork/",
+      "title": "Tate McRae Teases New Era and Single \u201cHousewife\u201d with Striking Artwork"
+    },
+    {
+      "url": "https://holler.country/news/breaking/is-tate-mcraes-new-single-housewife-a-country-song/",
+      "title": "\u201cA Woman Who Can\u2019t Be Contained\u201d: Is Tate McRae\u2019s New Single \u2018Housewife\u2019 a Country Song?"
+    },
+    {
+      "url": "https://www.billboard.com/music/rb-hip-hop/tate-mcrae-taylor-swift-tit-for-tat-new-song-housewife-1236356972/",
+      "title": "Tate McRae on Taylor Swift's Love for 'Tit for Tat,' New Song 'Housewife'"
+    },
+    {
+      "url": "https://ca.billboard.com/music/pop/tate-mcrae-new-song-housewife-release-date?bil=554&debugld=stickybtest&mc_eid=UNIQID&utm_=&q=Fay+Olson-Vickery",
+      "title": "Tate McRae Shifts Gears From \u2018Sports Car\u2019 to \u2018Housewife\u2019: Here\u2019s When Her New Song Arrives"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_2026_albums",
+      "title": "List of 2026 albums"
+    },
+    {
+      "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
+      "title": "2026 Hard Rock + Metal Album Release Calendar"
+    },
+    {
+      "url": "https://townsendmusic.store/blog/most-anticipated-albums-autumn-2026",
+      "title": "New Album Releases Autumn 2026"
+    },
+    {
+      "url": "https://www.calendarx.com/schedule/music-album-release-schedule",
+      "title": "Music Album Release Schedule Schedule"
+    },
+    {
+      "url": "https://therazorsedge.rocks/2026-10-release-round-up-october-16th/",
+      "title": "Release Round Up"
+    },
+    {
+      "url": "https://www.allmusic.com/newreleases",
+      "title": "Featured New Album Releases"
+    },
+    {
+      "url": "https://www.officialcharts.com/chart-news/new-album-releases-2026/",
+      "title": "New album releases 2026: Dates for Fontatines D.C., Kings of Leon and more"
+    },
+    {
+      "url": "https://www.thelineofbestfit.com/album-release-schedule",
+      "title": "Album release schedule 2026 from The Line of Best Fit"
+    },
+    {
+      "url": "https://consequence.net/upcoming-releases/",
+      "title": "Upcoming Album Releases"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Streaming_Songs_number_ones_of_2026",
+      "title": "List of Billboard Streaming Songs number ones of 2026"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/one-artist-first-hot-100-number-one-2026-ask-billboard-1236285627/",
+      "title": "Only One Artist Has a First Hot 100 No. 1 in 2026: How Rare Is It?"
+    },
+    {
+      "url": "https://billboard-hot-100.fandom.com/wiki/2026",
+      "title": "2026"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/billboard-hot-100-chart/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://x.com/talkofthecharts?lang=en",
+      "title": "Talk of the Charts (@talkofthecharts) on X"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_chart_achievements_and_milestones",
+      "title": "List of Billboard Hot 100 chart achievements and milestones"
+    },
+    {
+      "url": "https://www.billboard.com/photos/billboard-hot-100-number-1-song-debuts-426225/",
+      "title": "Here Are All the Hits That Have Debuted at No. 1 on the Hot 100"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Canadian_Hot_100_number-one_singles_of_2026",
+      "title": "List of Canadian Hot 100 number-one singles of 2026"
+    }
+  ]
+}

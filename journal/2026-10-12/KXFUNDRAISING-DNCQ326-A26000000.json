@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-DNCQ326-A26000000",
+  "event": "KXFUNDRAISING-DNCQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will DNC Services Corp / Democratic National Committee report more than $26M in cash on hand at the end of Q3? Above $26M",
+  "rules": "If DNC Services Corp / Democratic National Committee's cash on hand is above $26 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-21T13:59:00+00:00",
+  "expected_close_time": "2026-10-21T13:59:00+00:00",
+  "forecast_at": "2026-10-12T06:26:27.183600+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "FEC filings show the DNC had $16.9M cash on hand at Aug. 31, 2026, against $17.6M in debt, and its cash has stayed between about $14M and $17M all year. Strong summer fundraising (over $14M in July-August) barely moved the balance because spending kept pace. Topping $26M would take a net gain of more than $9M in September, the heaviest spending month before a midterm, which almost never happens without a one-off windfall or new borrowing.",
+    "falsifier": "The DNC's September monthly FEC report (filed around Oct. 20) shows cash on hand above $26M, for example because of a very large transfer from joint fundraising committees, a major donor surge, or new loan money still in the account on Sept. 30.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1800",
+    "best_yes_ask": "0.2400",
+    "p_market": "0.2100"
+  },
+  "final": {
+    "p_yes": "0.07",
+    "action": "buy_no",
+    "reasoning": "The 21% midpoint likely reflects a thin market or speculation rather than any reported September windfall. Cash stood at $16.9M on Aug. 31 and has ranged $14-17M all year, so topping $26M at Sept. 30 would take an unprecedented one-month gain. I raised my estimate slightly to 7% for news I couldn't check, but that is still far below the market."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1900",
+    "count": 1,
+    "cost": "0.8100",
+    "clamped_from": "0.07"
+  },
+  "sources": [
+    {
+      "url": "https://electionlawblog.org/2026/democrats-remain-far-behind-gop-in-cash-on-hand-as-midterms-near/",
+      "title": "\"Democrats remain far behind GOP in cash on hand as midterms near\" - Election Law Blog"
+    },
+    {
+      "url": "https://www.deseret.com/politics/2026/07/28/democratic-national-committee-broke-midterm-elections/",
+      "title": "What does a broke Democratic Party mean for the midterms?"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/debt-ridden-democrats-tap-surprising-asset-collateral-15m-loan",
+      "title": "DNC takes out record $15 million loan using headquarters as collateral"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/in_focus/4542610/dnc-cash-crunch-rnc-fundraising-gap-2026-midterms/",
+      "title": "Why the DNC lags behind RNC ahead of 2026"
+    },
+    {
+      "url": "https://www.ms.now/news/republicans-money-2026-midterms",
+      "title": "Republicans head into midterms with half-billion-dollar edge over Democrats"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00010603/",
+      "title": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://www.notus.org/2026-election/republican-fundraising-advantage-democrats-midterms",
+      "title": "The Republican Fundraising Advantage \u2018Keeping Democrats Up at Night\u2019"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/08/21/democrats-remain-far-behind-gop-cash-hand-midterms-near/",
+      "title": "Democrats remain far behind GOP in cash on hand as midterms near - The Washington Post"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4536836/rnc-holds-117-million-coffers-dnc-fundraising-still-in-debt/",
+      "title": "RNC holds $117 million in its coffers while DNC still in the red"
+    },
+    {
+      "url": "https://cnbc.com/2026/10/08/2026-midterm-election-megadonors.html",
+      "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5718958-gop-funding-leads-dnc-midterms/",
+      "title": "RNC holds nearly $100M cash-on-hand advantage over Democrats: Filings"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-18-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 18-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://x.com/PatrickSvitek/status/2101858292855087541",
+      "title": "Patrick Svitek on X: \"Cash on hand as of Aug. 31, per latest FEC filings: DNC: $16.9M ($17.6M debt) RNC: $125.6M DSCC: $37.6M NRSC: $18.7M DCCC: $75.9M NRCC: $89.1M\" / X"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-12-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 12-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/4371429-democrats-say-new-cash-on-hand-record-set/",
+      "title": "Democrats say new cash-on-hand record set"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-six-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of Six-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00010603/1926358/",
+      "title": "FEC Disclosure Form 3X for DNC Services Corp / Democratic National Committee"
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00827022/1654700/",
+      "title": "FEC Disclosure Form 3X for 2024 Democratic National Convention Committee"
+    },
+    {
+      "url": "https://www.ms.now/news/dnc-chair-ken-martin-fundraising-cash-on-hand-rnc-substack",
+      "title": "DNC chair defends strategy amid $100 million-plus cash gulf with Republicans"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/cash-strapped-dnc-shelled-more-231955794.html",
+      "title": "Cash-strapped DNC shelled out more than $800K to non-voting territories like Virgin Islands while in debt"
+    },
+    {
+      "url": "https://x.com/teddyschleifer/status/2057423826753929698",
+      "title": "Teddy Schleifer on X: \"Democratic National Committee cash on hand, minus debt: Negative $3 million\" / X"
+    },
+    {
+      "url": "https://www.shastaunfiltered.com/post/dnc-in-the-red-cash-crisis-debt-and-donor-flight-leave-democrats-scrambling-ahead-of-midterms",
+      "title": "DNC in the Red: Cash Crisis, Debt, and Donor Flight Leave Democrats Scrambling Ahead of Midterms"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/inside-the-furor-plaguing-democratic-national-committee-leader-ken-martin",
+      "title": "Inside the furor plaguing Democratic National Committee leader Ken Martin"
+    },
+    {
+      "url": "https://politicalwire.com/2026/09/18/the-dnc-gets-a-fundraising-boost-after-months-of-struggle/",
+      "title": "DNC Gets Fundraising Boost After Months of Struggle"
+    },
+    {
+      "url": "https://theonion.com/new-dnc-fundraising-email-urges-voters-to-find-something-better-to-do-with-their-money/",
+      "title": "New DNC Fundraising Email Urges Voters To Find Something Better To Do With Their Money - The Onion"
+    },
+    {
+      "url": "https://www.bostonglobe.com/2026/10/06/newsletters/boston-finalist-dnc-2028-convention-the-scrum/",
+      "title": "DNC chair to swing through Boston amid convention push"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/aug/11/dnc-open-summer-meeting-amid-fundraising-woes-socialist-surge-calls/",
+      "title": "DNC to open summer meeting amid fundraising woes, socialist surge and calls for chair\u2019s ouster"
+    },
+    {
+      "url": "https://usafacts.org/answers/how-much-money-are-candidates-raising-for-the-midterm/country/united-states",
+      "title": "How much money are candidates raising for the 2026 midterm?"
+    },
+    {
+      "url": "https://www.cnn.com/2026/03/23/politics/republican-national-committee-dnc-finances-gap",
+      "title": "The RNC has nearly a 7-to-1 money advantage over the DNC, which has more debt than cash on hand"
+    },
+    {
+      "url": "https://www.foxnews.com/media/cash-strapped-dnc-shelled-out-more-than-800k-non-voting-territories-like-virgin-islands-while-debt",
+      "title": "Cash-strapped DNC shelled out more than $800K to non-voting territories like Virgin Islands while in debt"
+    },
+    {
+      "url": "https://selfreliancecentral.com/2026/08/02/dnc-cash-crisis-underwater-mortgaging-hq-and-getting-lapped-by-the-rnc/",
+      "title": "DNC Cash Crisis: Underwater, Mortgaging HQ, and Getting Lapped by the RNC"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/rnc-fueled-trump-vance-tops-rival-dnc-october-fundraising-race",
+      "title": "War chest: RNC, fueled by Trump, Vance, tops rival DNC in fundraising race"
+    },
+    {
+      "url": "https://kesq.com/news/national-politics/cnn-us-politics/2026/03/23/the-rnc-has-nearly-a-7-to-1-money-advantage-over-the-dnc-which-has-more-debt-than-cash-on-hand/",
+      "title": "The RNC has nearly a 7-to-1 money advantage over the DNC, which has more debt than cash on hand - KESQ"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2025/10/24/republican-party-committees-maintain-fundraising-lead-over-democratic-party-committees-in-september/",
+      "title": "Republican party committees maintain fundraising lead over Democratic party committees in September - Ballotpedia News"
+    },
+    {
+      "url": "https://ballotpedia.org/Party_committee_fundraising,_2025-2026",
+      "title": "Party committee fundraising, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://thehill.com/blogs/blog-briefing-room/news/356548-rnc-outraises-dnc-in-september-fundraising/",
+      "title": "RNC outpaces DNC in September fundraising"
+    },
+    {
+      "url": "https://news.ballotpedia.org/2024/10/21/democratic-party-fundraising-committees-maintain-cumulative-fundraising-edge-in-september/",
+      "title": "Democratic Party fundraising committees maintain cumulative fundraising edge in September - Ballotpedia News"
+    },
+    {
+      "url": "https://www.cnn.com/2010/POLITICS/10/04/dnc.funds/index.html",
+      "title": "DNC raises $16 million in September - CNN.com"
+    },
+    {
+      "url": "https://ballotpedia.org/Party_committee_fundraising,_2023-2024",
+      "title": "Party committee fundraising, 2023-2024 - Ballotpedia"
+    },
+    {
+      "url": "https://thehill.com/blogs/ballot-box/fundraising/221351-rnc-beats-dnc-in-september-fundraising/",
+      "title": "RNC beats DNC in September fundraising"
+    },
+    {
+      "url": "https://usafacts.org/answers/how-much-money-are-candidates-raising-for-the-midterm/country/united-states/",
+      "title": "How much money are candidates raising for the 2026 midterm?"
+    },
+    {
+      "url": "https://www.fec.gov/updates/statistical-summary-of-15-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "title": "Statistical Summary of 15-Month Campaign Activity of the 2025-2026 Election Cycle - FEC.gov"
+    },
+    {
+      "url": "https://thebulwark.com/p/democrats-fundraising-midterms-donors",
+      "title": "Dems\u2019 One Big Midterm Weakness Isn\u2019t Looking So Bad Anymore"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "ticker": "KXLULAFLAVIODEBATE-26",
+  "event": "KXLULAFLAVIODEBATE-26",
+  "series": "KXLULAFLAVIODEBATE",
+  "title": "Will Lula and Fl\u00e1vio Bolsonaro debate before the Brazil presidential runoff? Before Oct 25, 2026",
+  "rules": "If Lula and Fl\u00e1vio Bolsonaro have a debate before Oct 25, 2026, then the market resolves to Yes.",
+  "rules_secondary": "A debate counts only if both candidates are present at the same time, in person or via live connection; the event is announced as a debate or similar confrontational discussion format; the candidates respond to each other's positions through direct dialogue or moderated questions; and the event is intended for public viewing. Joint press conferences, sequential interviews or town halls where the candidates appear separately, panel discussions with more than two primary participants, and events where either candidate fails to appear or appears only by pre-recorded video do not count.",
+  "close_time": "2026-10-25T03:59:00+00:00",
+  "expected_close_time": "2026-10-25T03:59:00+00:00",
+  "forecast_at": "2026-10-12T06:26:27.183600+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.8",
+    "reasoning": "The runoff is Lula vs. Fl\u00e1vio Bolsonaro, and both have publicly said they'll debate. Band (Oct 18) and Globo (Oct 23) debates are scheduled, and SBT has one planned. Brazilian runoff debates between the two finalists usually happen, as they did in 2022. The risks are that both skipped every first-round debate, the frontrunner Fl\u00e1vio might pull out, and Record already cancelled the Oct 11 debate over 'schedule incompatibility.'",
+    "falsifier": "Lula or Fl\u00e1vio pulls out of both the Band Oct 18 and Globo Oct 23 debates (and any SBT date), so the runoff ends with no head-to-head debate.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8000",
+    "best_yes_ask": "0.8300",
+    "p_market": "0.8150"
+  },
+  "final": {
+    "p_yes": "0.8",
+    "action": "pass",
+    "reasoning": "The market's 0.815 midpoint nearly matches my independent 0.80 estimate, so the price doesn't change my view. The gap is too small to justify a bet given the Record cancellation and both candidates' history of skipping debates."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.jornaldocomercio.com/politica/2026/10/1266503-eleicoes-2026-veja-as-datas-dos-debates-entre-lula-e-flavio-bolsonaro-no-segundo-turno.html",
+      "title": "Elei\u00e7\u00f5es 2026: veja as datas dos debates entre Lula e Fl\u00e1vio Bolsonaro no segundo turno"
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/record-cancela-debate-entre-flavio-e-lula/",
+      "title": "Record cancela debate entre Fl\u00e1vio e Lula"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/y8pjwSe2n9Y",
+      "title": "Band realiza debate entre Fl\u00e1vio Bolsonaro (PL) e Lula (PT) - YouTube"
+    },
+    {
+      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-confirma-ida-a-debates-contra-lula-no-2o-turno/",
+      "title": "Fl\u00e1vio Bolsonaro confirma ida a debates contra Lula no 2\u00ba turno"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/2/election-debate-cancelled-in-brazil-bomb-scare-outside-supreme-court",
+      "title": "Election debate cancelled in Brazil, bomb scare outside Supreme Court"
+    },
+    {
+      "url": "https://www.metropoles.com/brasil/record-cancela-debate-presidencial-entre-flavio-bolsonaro-e-lula",
+      "title": "Record cancela debate presidencial entre Fl\u00e1vio Bolsonaro e Lula"
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-lula-debates-primeiro-turno/",
+      "title": "Fl\u00e1vio Bolsonaro e Lula v\u00e3o aos debates no primeiro turno?"
+    },
+    {
+      "url": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-442-e-flavio-bolsonaro-427-no-2o-turno/",
+      "title": "Pesquisa para presidente 2\u00ba turno: Lula tem 44,2% e Fl\u00e1vio Bolsonaro, 42,7%, diz Vox Brasil"
+    },
+    {
+      "url": "https://revistaforum.com.br/politica/datatrends-pesquisa-lula-flavio-2o-turno/",
+      "title": "DataTrends divulga 1\u00aa pesquisa sobre disputa Lula x Fl\u00e1vio Bolsonaro no 2\u00ba turno - Revista F\u00f3rum"
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-diz-que-vai-participar-de-debates-no-2o-turno-apos-evitar-no-1o/",
+      "title": "Lula diz que vai participar de debates no 2\u00ba turno ap\u00f3s evitar no 1\u00ba"
+    },
+    {
+      "url": "https://www.congressoemfoco.com.br/noticia/120918/lula-diz-que-nao-ira-a-debates-ouvir-bobagem-nem-dar-colher-de-cha",
+      "title": "Lula diz que n\u00e3o ir\u00e1 a debates \"ouvir bobagem\" nem \"dar colher de ch\u00e1\""
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/debates-presidente-segundo-turno/",
+      "title": "As datas de debates na TV com candidatos a presidente no 2\u00ba turno"
+    },
+    {
+      "url": "https://jornaldocomercio.com/politica/2026/10/1266503-eleicoes-2026-veja-as-datas-dos-debates-entre-lula-e-flavio-bolsonaro-no-segundo-turno.html",
+      "title": "Elei\u00e7\u00f5es 2026: veja as datas dos debates entre Lula e Fl\u00e1vio Bolsonaro no segundo turno"
+    },
+    {
+      "url": "https://www.meioemensagem.com.br/midia/band-e-estadao-se-unem-para-debates-eleitorais-de-2026",
+      "title": "Band e Estad\u00e3o se unem para debates eleitorais de 2026"
+    },
+    {
+      "url": "https://www.band.com.br/politica/eleicoes/2026/quando-sera-o-proximo-debate-da-band-saiba-data-202608061629",
+      "title": "Quando ser\u00e1 o pr\u00f3ximo debate da Band? Saiba data"
+    },
+    {
+      "url": "https://www.infomoney.com.br/politica/quando-serao-os-debates-presidenciais-de-2026-veja-o-calendario-completo/",
+      "title": "Quando ser\u00e3o os debates presidenciais de 2026? Veja o calend\u00e1rio completo"
+    },
+    {
+      "url": "https://www.congressoemfoco.com.br/noticia/121577/band-realiza-primeiro-debate-presidencial-veja-quem-participa",
+      "title": "Band faz primeiro debate presidencial com Renan, Caiado e Cury"
+    },
+    {
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-sinaliza-que-vai-participar-de-debate-no-2-turno",
+      "title": "Fl\u00e1vio diz que vai participar de debates no 2\u00ba turno"
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/",
+      "title": "\u201cRecord\u201d cancela debate entre Lula e Fl\u00e1vio marcado para domingo"
+    },
+    {
+      "url": "https://felipehcampos.com.br/noticia/15858/sbt-segue-cobertura-das-eleicoes-no-2o-turno-e-ja-prepara-debate-entre-lula-e-flavio-bolsonaro",
+      "title": "SBT segue cobertura das Elei\u00e7\u00f5es no 2\u00ba turno e j\u00e1 prepara debate entre Lula e Fl\u00e1vio Bolsonaro"
+    },
+    {
+      "url": "https://acritica.net/politica/lula-flavio-3-debates-2-sabatinas-segundo-turno/",
+      "title": "Lula e Fl\u00e1vio t\u00eam 3 debates e 2 sabatinas marcados antes do 2\u00ba turno - A Cr\u00edtica de Campo Grande"
+    },
+    {
+      "url": "https://www.juruainformativo.com.br/2026/10/lula-e-flavio-bolsonaro-tem-tres-debates-previstos-antes-do-segundo-turno-veja-datas/",
+      "title": "Lula e Fl\u00e1vio Bolsonaro t\u00eam tr\u00eas debates previstos antes do segundo turno; veja datas"
+    },
+    {
+      "url": "https://www.terra.com.br/noticias/eleicoes/band-muda-data-do-debate-do-2-turno-com-flavio-e-lula-saiba-quando-sera,93626600437eabc7bc34af66d12259e6uiulffc7.html",
+      "title": "Band muda data do debate do 2\u00ba turno com Fl\u00e1vio e Lula; saiba quando ser\u00e1"
+    },
+    {
+      "url": "https://www.cartacapital.com.br/cartaexpressa/record-anuncia-cancelamento-de-debate-entre-lula-e-flavio-bolsonaro/",
+      "title": "Record anuncia cancelamento de debate entre Lula e Fl\u00e1vio Bolsonaro"
+    },
+    {
+      "url": "https://cartacapital.com.br/cartaexpressa/record-anuncia-cancelamento-de-debate-entre-lula-e-flavio-bolsonaro",
+      "title": "Record anuncia cancelamento de debate entre Lula e Fl\u00e1vio Bolsonaro"
+    }
+  ]
+}
