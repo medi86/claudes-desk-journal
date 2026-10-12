@@ -242,5 +242,21 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
       "title": "Emergency Tax Relief on Diesel Fuel"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "f6fa77fd6fbef130338f2be5f81980fb16e96c13",
+    "pushed_at": "2026-10-12T10:33:43Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPACT-26OCT11-T5-f6fa77fd6fbe",
+    "thesis_commit": "f6fa77fd6fbef130338f2be5f81980fb16e96c13",
+    "status": "resting",
+    "order_id": "01a12fac-eb40-7294-b945-839112d026b3",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

@@ -197,5 +197,13 @@
       "url": "https://www.billboard.com/pro/fontaines-dc-debut-no-3-emerging-artists-chart/",
       "title": "Fontaines D.C. Debut at No. 3 on Emerging Artists Chart, Powered by New Album \u2018A Hero\u2019s Death\u2019"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "f6fa77fd6fbef130338f2be5f81980fb16e96c13",
+    "pushed_at": "2026-10-12T10:33:43Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
