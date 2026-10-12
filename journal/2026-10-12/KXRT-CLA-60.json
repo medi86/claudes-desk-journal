@@ -278,5 +278,21 @@
       "url": "https://gizmodo.com/a-new-clayface-teaser-leans-heavy-on-the-horror-2000823192",
       "title": "A New 'Clayface' Teaser Leans Heavy on the Horror"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "382232d42d075007a56e2526b945a9f4e96aaf96",
+    "pushed_at": "2026-10-12T14:36:04Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXRT-CLA-60-382232d42d07",
+    "thesis_commit": "382232d42d075007a56e2526b945a9f4e96aaf96",
+    "status": "resting",
+    "order_id": "01a1308a-cff0-77f5-9644-9534f3631d75",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
