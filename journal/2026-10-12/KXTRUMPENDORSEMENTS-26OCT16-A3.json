@@ -78,5 +78,21 @@
       "url": "https://thehill.com/homenews/house/5059838-trump-endorses-johnson-speaker/",
       "title": "Donald Trump gives complete and total endorsement of Mike Johnson as Speaker"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "98cb8477b17b7af8c0eb32537b28af7ebbe1c9cf",
+    "pushed_at": "2026-10-12T02:26:21Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPENDORSEMENTS-26OCT16-A3-98cb8477b17b",
+    "thesis_commit": "98cb8477b17b7af8c0eb32537b28af7ebbe1c9cf",
+    "status": "resting",
+    "order_id": "01a12dee-b8b0-79c0-a78b-c37b4cdf8e68",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

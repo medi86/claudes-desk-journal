@@ -227,10 +227,10 @@
   "order": {
     "client_order_id": "KXTRUTHSOCIAL-26OCT17-B89-5fd75da9d1e8",
     "thesis_commit": "5fd75da9d1e823a2da364c683133bce595906b46",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a12d0e-bcd8-74fe-a1bf-414d33f03f57",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

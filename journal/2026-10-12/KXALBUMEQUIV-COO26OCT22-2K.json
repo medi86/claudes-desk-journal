@@ -250,5 +250,21 @@
       "url": "https://stereogum.com/2253825/eels-time/music",
       "title": "Eels - \"Time\""
     }
-  ]
+  ],
+  "posted": {
+    "commit": "98cb8477b17b7af8c0eb32537b28af7ebbe1c9cf",
+    "pushed_at": "2026-10-12T02:26:21Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXALBUMEQUIV-COO26OCT22-2K-98cb8477b17b",
+    "thesis_commit": "98cb8477b17b7af8c0eb32537b28af7ebbe1c9cf",
+    "status": "resting",
+    "order_id": "01a12dee-b8b0-71ba-8220-7ce68e569754",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
