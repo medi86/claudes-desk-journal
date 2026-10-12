@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPFLAVIO-26OCT26",
+  "event": "KXTRUMPFLAVIO-26OCT26",
+  "series": "KXTRUMPFLAVIO",
+  "title": "Will Donald Trump endorse Fl\u00e1vio Bolsonaro in the 2026 Brazilian presidential election before Oct 26, 2026? Yes",
+  "rules": "If Donald Trump publicly endorses Fl\u00e1vio Bolsonaro in the 2026 Brazilian presidential election before Oct 26, 2026, then the market resolves to Yes.",
+  "rules_secondary": "An \"endorsement\" requires:\nA clear, affirmative statement of support for candidate's election\nThe statement must be public (not private communications)\nThe endorsement must specifically reference the 2026 Brazilian presidential election or be clearly in context of the 2026 Brazilian presidential election\nThe endorsement must come directly from Donald Trump or through official channels\n\nThe following scenarios would resolve to YES:\nDonald Trump states \"I endorse candidate for [office]\"\nDonald Trump states \"I support candidate\" with clear reference to the 2026 Brazilian presidential election\nDonald Trump states \"I'm voting for candidate\" publicly\nDonald Trump states \"candidate has my full support\" for the 2026 Brazilian presidential election\nDonald Trump appears at campaign events specifically to endorse\nDonald Trump releases official endorsement through their organization\nDonald Trump allows their name/image to be used in candidate's campaign materials\n\nStatements of obvious sarcasm (or which are immediately followed by clarifications that Donald Trump is joking) are NOT encompassed by the Payout Criterion.\n\nThe Contract shall resolve immediately upon confirmation of the first qualifying endorsement in the specified race. If multiple candidates are listed for a listed race and exactly one is endorsed, that candidate's strike resolves \"Yes\" at $1.00 and all other named-candidate strikes resolve \"No.\" If multiple are endorsed, each endorsed candidate's strike resolves \"Yes\" at a value of ($1.00 / N) rounded down to the nearest $0.01. \n\nIf no endorsement occurs before expiration, the \"No one\" strike resolves \"Yes\" at $1.00 and all named-candidate strikes resolve \"No.\"\n\nIf a candidate withdraws from, suspends their campaign for, ceases to be a candidate in, or loses the primary or general election for the specified race before a qualifying endorsement is confirmed, their strike may resolve to No in the sole discretion of the Exchange.",
+  "close_time": "2026-10-26T14:00:00+00:00",
+  "expected_close_time": "2026-10-26T14:00:00+00:00",
+  "forecast_at": "2026-10-12T14:33:49.125085+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.27",
+    "reasoning": "As of Oct 5-6, 2026, Trump praised Fl\u00e1vio Bolsonaro's first-round lead as a 'very, very big victory' but again avoided a formal endorsement. The Washington Post reports that both the White House and Fl\u00e1vio's own team decided to keep Trump out of the campaign, probably because US interference is unpopular in Brazil. Still, Trump has endorsed foreign right-wing candidates before (Argentina, Honduras), and an off-the-cuff 'I support him' during the three-week runoff before Oct 25 would count.",
+    "falsifier": "Trump publicly says he endorses or supports Fl\u00e1vio Bolsonaro for president (e.g., a Truth Social post giving him his 'Complete and Total Endorsement') before the Oct 25 runoff.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2600",
+    "best_yes_ask": "0.2700",
+    "p_market": "0.2650"
+  },
+  "final": {
+    "p_yes": "0.27",
+    "action": "pass",
+    "reasoning": "The market midpoint of 0.265 nearly matches my estimate of 0.27, which rests on a single article and leaves real uncertainty about Trump's impulsiveness during the runoff. The price doesn't change my view, and the gap is too small to justify a trade."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.gazetadopovo.com.br/mundo/por-que-trump-esta-evitando-declarar-apoio-direto-a-flavio-bolsonaro/",
+      "title": "Por que Trump est\u00e1 evitando declarar apoio direto a Fl\u00e1vio Bolsonaro"
+    },
+    {
+      "url": "https://em.com.br/politica/2026/10/7515433-trump-faz-aceno-a-flavio-bolsonaro-que-sai-na-frente-contra-lula.html",
+      "title": "Trump faz aceno a Fl\u00e1vio Bolsonaro, que sai na frente contra Lula"
+    },
+    {
+      "url": "https://www.washingtonpost.com/world/2026/10/05/trump-kept-silent-brazils-election-it-might-have-helped-his-ally/",
+      "title": "Trump kept silent in Brazil\u2019s election. It might have helped his ally. - The Washington Post"
+    },
+    {
+      "url": "https://euobserver.com/240995/trump-cheers-bolsonaro-jrs-advance-on-lula-in-brazil-but-eu-fears-for-mercosur-alliance/",
+      "title": "Trump cheers Bolsonaro Jr\u2019s advance on Lula in Brazil, but EU fears for Mercosur alliance"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/02/brazil-election-lula-flavio-bolsonaro-trump-amazon",
+      "title": "Brazil election 2026: Lula vs. Fl\u00e1vio Bolsonaro as Trump watches"
+    },
+    {
+      "url": "https://www.newsweek.com/brazils-bolsonaro-comeback-is-a-blueprint-for-trump-12524810",
+      "title": "Brazil's Bolsonaro comeback is a blueprint for Trump - Newsweek"
+    },
+    {
+      "url": "https://vermelho.org.br/2026/10/06/de-olho-nas-riquezas-do-brasil-trump-celebra-flavio-bolsonaro-no-2o-turno/",
+      "title": "De olho nas riquezas do Brasil, Trump celebra Fl\u00e1vio Bolsonaro no 2\u00ba turno - Vermelho"
+    },
+    {
+      "url": "https://es-us.noticias.yahoo.com/trump-celebra-bolsonaro-posici%C3%B3n-fuerza-031915700.html",
+      "title": "Trump celebra a Bolsonaro, en posici\u00f3n de fuerza ante Lula en Brasil"
+    },
+    {
+      "url": "https://www.em.com.br/politica/2026/10/7515433-trump-faz-aceno-a-flavio-bolsonaro-que-sai-na-frente-contra-lula.html",
+      "title": "Trump faz aceno a Fl\u00e1vio Bolsonaro, que sai na frente contra Lula"
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/mundo/trump-adota-cautela-e-evita-apoio-explicito-a-flavio-bolsonaro-no-segundo-turno/",
+      "title": "Por que Trump evita apoio direto a Fl\u00e1vio Bolsonaro nas elei\u00e7\u00f5es 2026"
+    },
+    {
+      "url": "https://folhaexpressa.com/politica/trump-mantem-distancia-da-campanha-e-evita-apoiar-flavio-no-segundo-turno/",
+      "title": "Trump mant\u00e9m dist\u00e2ncia da campanha e evita apoiar Fl\u00e1vio no segundo turno"
+    },
+    {
+      "url": "https://www.infomoney.com.br/politica/trump-chama-resultado-de-flavio-de-impressionante-e-preve-2o-turno-apertado/",
+      "title": "Trump chama resultado de Fl\u00e1vio de \u201cimpressionante\u201d e prev\u00ea 2\u00ba turno apertado"
+    },
+    {
+      "url": "https://bpmoney.com.br/brasil/trump-resultado-flavio-impressionante-segundo-turno-apertado/",
+      "title": "Trump prev\u00ea 2\u00ba turno apertado e elogia Fl\u00e1vio Bolsonaro"
+    },
+    {
+      "url": "https://www.brasilemfolhas.com.br/2026/10/trump-nao-declara-apoio-a-flavio-mas-diz-que-eua-estao-de-olho-na-eleicao/",
+      "title": "Trump n\u00e3o declara apoio a Fl\u00e1vio, mas diz que EUA \u2018est\u00e3o de olho\u2019 na elei\u00e7\u00e3o"
+    },
+    {
+      "url": "https://jovempan.com.br/mundo/trump-nao-declara-apoio-a-flavio-e-diz-que-acompanhara-de-perto-eleicoes-no-brasil/",
+      "title": "Trump n\u00e3o declara apoio a Fl\u00e1vio e diz que acompanhar\u00e1 \u2018de perto\u2019 elei\u00e7\u00f5es no Brasil"
+    },
+    {
+      "url": "http://www.blogdomano.com/2026/10/trump-nao-declara-apoio-flavio-mas-diz.html",
+      "title": "Trump n\u00e3o declara apoio a Fl\u00e1vio, mas diz que \u201cobserva a elei\u00e7\u00e3o de perto\u201d"
+    },
+    {
+      "url": "https://www.metropoles.com/mundo/trump-evita-citar-apoio-a-flavio-mas-diz-acompanhar-eleicao-de-perto",
+      "title": "Trump evita citar apoio a Fl\u00e1vio, mas diz acompanhar elei\u00e7\u00e3o \"de perto\""
+    },
+    {
+      "url": "https://www.trtworld.com/article/e7cc2b46b526",
+      "title": "Trump hails Flavio Bolsonaro's first-round Brazil election result as 'great victory' - TRT World"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/05/americas/brazil-election-runoff-takeaways-intl-hnk",
+      "title": "Brazil election runoff takeaways: Bolsonaro surges, Lula falters and Trump eyes prize"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=crI99FufQaE",
+      "title": "Trump Backs Bolsonaro To Edge Out Lula In Brazil Presidential Elections - YouTube"
+    },
+    {
+      "url": "https://www.riotimesonline.com/trump-flavio-bolsonaro-big-victory-2026",
+      "title": "Trump Calls Fl\u00e1vio Bolsonaro First-Round Lead a Big Victory"
+    },
+    {
+      "url": "https://www.cronista.com/en/today/brazil-heads-to-a-runoff-with-a-trump-ally-in-front-what-a-flavio-bolsonaro-win-would-mean-for-the-us/",
+      "title": "Brazil heads to a runoff with a Trump ally in front: What a Fl\u00e1vio Bolsonaro win would mean for the US"
+    },
+    {
+      "url": "https://newrepublic.com/post/216193/trump-poised-big-win-in-brazil-bolsonaro",
+      "title": "Trump Is Poised for a Big Win\u2014in Brazil"
+    },
+    {
+      "url": "https://www.opendemocracy.net/brazil-election-lula-flavio-bolsonaro-trump-tariffs-shape-race-future-democracy/",
+      "title": "Brazil election 2026: Why Lula, Fl\u00e1vio Bolsonaro, and Trump shape the race"
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/homem-rasga-bandeira-dos-eua-em-ato-pro-lula-na-paulista/",
+      "title": "Homem rasga bandeira dos EUA em ato pr\u00f3-Lula na Paulista"
+    },
+    {
+      "url": "https://metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-neste-domingo-11-10",
+      "title": "Elei\u00e7\u00f5es 2026: confira as agendas de Fl\u00e1vio e Lula neste domingo (11/10)"
+    },
+    {
+      "url": "https://www.cartacapital.com.br/carta-capital/trump-posta-foto-ao-lado-de-flavio-e-elogia-um-jovem-inteligente-que-ama-muito-o-seu-pais/",
+      "title": "Trump posta foto ao lado de Fl\u00e1vio e elogia: 'um jovem inteligente que ama muito o seu pa\u00eds'"
+    },
+    {
+      "url": "https://trumpstruth.org/statuses/39041",
+      "title": "Donald J. Trump: \"It was very nice having Fl\u00e1vio Bolsonaro in the Oval Office of the White Hou... - Trump's Truth"
+    },
+    {
+      "url": "https://viva.com.br/noticias/trump-elogia-flavio-bolsonaro-e-destaca-encontro-na-casa-branca.html",
+      "title": "Trump elogia Fl\u00e1vio Bolsonaro e destaca encontro na Casa Branca"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CpIS5PpdAIU",
+      "title": "Donald Trump elogia Fl\u00e1vio Bolsonaro e se manifesta ap\u00f3s novo tarifa\u00e7o de 25% contra o Brasil - YouTube"
+    },
+    {
+      "url": "https://tmc.com.br/politica/tmc-prova-falso-flavio-bolsonaro-acabar-pix-donald-trump/",
+      "title": "TMC PROVA: \u00c9 falso que Fl\u00e1vio Bolsonaro acabar\u00e1 com o Pix a mando de Trump"
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/internacional/trump-manteve-silencio-sobre-brasil-para-ajudar-flavio-diz-washington-post/",
+      "title": "Trump manteve sil\u00eancio sobre Brasil para ajudar Fl\u00e1vio, diz Washington Post"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-CLA-60",
+  "event": "KXRT-CLA",
+  "series": "KXRT",
+  "title": "Clayface Rotten Tomatoes score? Above 60",
+  "rules": "If Clayface has a Tomatometer score of above 60 on Oct 26, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-26T14:00:00+00:00",
+  "expected_close_time": "2026-10-26T14:00:00+00:00",
+  "forecast_at": "2026-10-12T14:33:49.125085+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.62",
+    "reasoning": "Clayface opens Oct 23, 2026 and has no critic reviews yet. Its director (James Watkins) and writer (Mike Flanagan) have good critical records, and test-screening and first reactions have been positive. Against that, the studio is holding reviews until late, which often signals a weaker film, and gory body horror divides critics. Overall I think a score above 60 is somewhat more likely than not.",
+    "falsifier": "When the review embargo lifts, the first wave of critic reviews puts the Tomatometer in the 40s or 50s and it stays at 60 or below through Monday, Oct 26 at 10 AM ET.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8300",
+    "best_yes_ask": "0.8400",
+    "p_market": "0.8350"
+  },
+  "final": {
+    "p_yes": "0.7",
+    "action": "buy_no",
+    "reasoning": "The 83.5% price suggests traders see strong early buzz, so I moved up from 62% to 70%. That still leaves a gap: there are no critic reviews yet, the review embargo is late, and early reactions usually overstate the eventual score."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.8400",
+    "count": 1,
+    "cost": "0.1600",
+    "clamped_from": "0.70"
+  },
+  "sources": [
+    {
+      "url": "https://www.clayfacemovie.com/",
+      "title": "Clayface"
+    },
+    {
+      "url": "https://www.imdb.com/title/tt34890576/",
+      "title": "Clayface (2026)"
+    },
+    {
+      "url": "https://www.movieinsider.com/m23586/clayface",
+      "title": "Everything You Need to Know About Clayface Movie (2026): Sep. 24, 2026 - added Final Trailer to trailers and videos - Movie Insider"
+    },
+    {
+      "url": "https://dcuniverse.fandom.com/wiki/Clayface_(film)",
+      "title": "Clayface"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
+      "title": "Clayface (film)"
+    },
+    {
+      "url": "https://www.tvinsider.com/1277125/clayface-plot-cast-premiere-date-trailer-details/",
+      "title": "'Clayface': Cast, Plot, Premiere Date, Trailer, and More Details"
+    },
+    {
+      "url": "https://watch.plex.tv/movie/clayface-2026",
+      "title": "Clayface (2026) Release Date is October 23, 2026 - See the Cast, Videos, and More - Plex"
+    },
+    {
+      "url": "https://moviereleaseradar.com/movie/clayface/",
+      "title": "Clayface (2026) - Release Dates, Info & Trailers"
+    },
+    {
+      "url": "https://www.dexerto.com/tv-movies/clayface-dc-everything-we-know-3007479/",
+      "title": "Clayface release date & why Mike Flanagan isn\u2019t directing DCU movie - Dexerto"
+    },
+    {
+      "url": "https://www.clickthecity.com/movies/title/86d902/clayface",
+      "title": "Clayface (2026) Movie Details, Cast, Trailer and Reviews"
+    },
+    {
+      "url": "https://geektyrant.com/news/clayface-test-screening-reactions-are-in-run-time-revealed-and-aaron-paul-reportedly-joins-dcu-horror-film",
+      "title": "CLAYFACE Test Screening Reactions Are In, Run-Time Revealed, and Aaron Paul Reportedly Joins DCU Horror Film \u2014 GeekTyrant"
+    },
+    {
+      "url": "https://www.comicbasics.com/clayface-test-screening-reactions-are-here-dcs-dark-new-movie-gets-major-buzz/",
+      "title": "'Clayface' Test Screening Reactions Are Here \u2014 DC\u2019s Dark New Movie Gets Major Buzz"
+    },
+    {
+      "url": "https://cosmicbook.news/clayface-aaron-paul-cast-test-screening-reactions",
+      "title": "Aaron Paul Joins DC's Clayface As First Test Screening Reactions Surface - Cosmic Book News"
+    },
+    {
+      "url": "https://comicbookmovie.com/batman/clayface/clayface-has-already-had-another-test-screening---heres-what-it-could-mean-for-the-dcu-movie-a228585",
+      "title": "Clayface Has Already Had Another Test Screening - Here's What It Could Mean For The DCU Movie"
+    },
+    {
+      "url": "https://maxblizz.com/dcs-clayface-test-screening-report-reveals-runtime-new-synopsis-and-positive-reactions-spoilers/",
+      "title": "DC's Clayface Test Screening Report Reveals Runtime, New Synopsis, and Positive Reactions (Spoilers)"
+    },
+    {
+      "url": "https://comicbook.com/movies/news/clayface-test-screenings-reveal-good-news-for-dc-fans-biggest-concern-about-the-film/",
+      "title": "Clayface Test Screenings Reveal Good News for DC Fan's Biggest Concern About The Film - ComicBook.com"
+    },
+    {
+      "url": "https://www.comicbasics.com/clayface-test-screening-buzz-just-got-even-stronger-and-fans-are-already-calling-it-a-banger/",
+      "title": "'Clayface' Test Screening Buzz Just Got Even Stronger, and Fans Are Already Calling It a Banger"
+    },
+    {
+      "url": "https://www.comicbasics.com/clayface-first-reactions-land-dcs-body-horror-nightmare-may-be-its-boldest-move-yet/",
+      "title": "\u2018Clayface\u2019 First Reactions Land: DC\u2019s Body Horror Nightmare May Be Its Boldest Move Yet"
+    },
+    {
+      "url": "https://www.threads.com/@smallscreenco/post/DaRzf4kkRrn/report-clayface-has-reportedly-held-another-test-screening-and-the-reactions/",
+      "title": "REPORT: Clayface has reportedly held another test screening\u2026 and the reactions sound really positive. \ud83c\udfad Nothing has been officially confirmed\u2026 \u2026but \u201cit just felt like a FILM film\u201d is a pretty encouraging first impression."
+    },
+    {
+      "url": "https://www.motionpictures.org/2026/09/james-watkins-mold-breaking-body-horror-film-clayface-unveils-final-trailer/",
+      "title": "James Watkins' Mold-Breaking Body Horror Film \"Clayface\" Unveils Final Trailer - The Credits"
+    },
+    {
+      "url": "https://www.indiewire.com/news/trailers/clayface-trailer-1235206594/",
+      "title": "'Clayface' Trailer: DC Comics Horror Movie Hits Theaters"
+    },
+    {
+      "url": "https://deadline.com/2026/07/clayface-trailer-tom-rhys-harries-1237000368/",
+      "title": "'Clayface' Trailer: DC Studios Batman Villain Movie Gets Its Close-Up"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/4/22/clayface-release-trailer",
+      "title": "\u2018Clayface\u2019 Trailer: James Watkins\u2019 R-Rated $40M DCU Body-Horror \u2014 World of Reel"
+    },
+    {
+      "url": "https://consequence.net/2026/04/clayface-trailer-dc-studios-mike-flanagan/",
+      "title": "Clayface Trailer: Mike Flanagan's Horrific DC Studios Movie"
+    },
+    {
+      "url": "https://www.motionpictures.org/2026/07/clayface-trailer-breaks-the-dc-universe-mold-by-introducing-horror/",
+      "title": "\"Clayface\" Trailer Breaks the DC Universe Mold by Introducing Horror - The Credits"
+    },
+    {
+      "url": "https://www.empireonline.com/movies/news/clayface-trailer-dc-studios-body-horror/",
+      "title": "DC Studios goes body-horror in the Clayface trailer"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/clayface-avoids-fatal-mistake-tanked-180629991.html",
+      "title": "Clayface Avoids Fatal Mistake That Tanked Sony\u2019s Spider-Man Universe"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/clayface-trailer-review-dcu-horror-002041557.html",
+      "title": "Clayface Trailer Review: DCU Horror Movie Captures Perfect Tone"
+    },
+    {
+      "url": "https://aiptcomics.com/2026/07/08/clayface-celebrity-dirt-1-review/",
+      "title": "Clayface: Celebrity Dirt #1 review"
+    },
+    {
+      "url": "https://app.thestorygraph.com/book_reviews/89fb9e13-097a-446d-8e73-b0c5a48a9779?sort=lowest_rated&page=2",
+      "title": "Reviews - Batman: One Bad Day - Clayface #1 (Cover B Jim Lee, Scott Williams & Alex Sinclair Variant)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fo5xTYvzHac",
+      "title": "DC\u2019s Clayface Early Reactions Call It Goriest Comic Book Film Ever - YouTube"
+    },
+    {
+      "url": "https://nerdist.com/article/the-clayface-movie-perfect-for-unsettling-times-social-media-image-body-horror-popularity/",
+      "title": "The CLAYFACE Movie Is Perfect for These Unsettling Times - Nerdist"
+    },
+    {
+      "url": "https://comicbookmovie.com/batman/clayface/clayface-possible-early-reactions-compare-dcu-horror-movie-to-obsession-but-theres-a-catch-a230366",
+      "title": "Clayface: Possible Early Reactions Compare DCU Horror Movie To Obsession \u2014 But There's A Catch"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/initial-reactions-clayface-reportedly-140400704.html",
+      "title": "Initial reactions to Clayface are reportedly here, and this is what they say"
+    },
+    {
+      "url": "https://fictionhorizon.com/clayface-early-reactions-are-in-and-dcs-body-horror-gamble-is-drawing-bold-comparisons/",
+      "title": "\u2018Clayface\u2019 Early Reactions Are In, and DC\u2019s Body Horror Gamble Is Drawing Bold Comparisons"
+    },
+    {
+      "url": "https://geektyrant.com/news/clayface-test-screening-reactions-reveal-an-absolutely-gnarly-body-horror-scene",
+      "title": "CLAYFACE Test Screening Reactions Reveal an Absolutely Gnarly Body Horror Scene \u2014 GeekTyrant"
+    },
+    {
+      "url": "https://www.cinemablend.com/movies/early-clayface-screening-reactions-major-detail-concerns-me-breaking-bad-aaron-paul-casting",
+      "title": "Early Clayface Reactions Hint At Major Detail That Concerns Me And Breaking Bad Casting That Surprises Me"
+    },
+    {
+      "url": "https://comicbook.com/movies/news/early-clayface-reactions-compare-the-dcu-villain-movie-to-2025s-most-memorable-horror/",
+      "title": "Early Clayface Reactions Compare the DCU Villain Movie to 2025\u2019s Most Memorable Horror - ComicBook.com"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/early-clayface-reactions-hint-major-161945472.html",
+      "title": "Early Clayface Reactions Hint At Major Detail That Concerns Me And Breaking Bad Casting That Surprises Me"
+    },
+    {
+      "url": "https://www.superherohype.com/news/660496-clayface-trailer-cinemacon-footage-reaction",
+      "title": "Clayface Trailer Gets the Same Reactions From DC Viewers - Comic Book Movies and Superhero Movie News - SuperHeroHype"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/dcu-clayface-early-reviews-plagued-140759245.html",
+      "title": "DCU\u2019s \u2018Clayface\u2019 Early Reviews Plagued By Fake Spoilers And Misinformation"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/clayface",
+      "title": "Clayface"
+    },
+    {
+      "url": "https://www.tiktok.com/@rottentomatoes/video/7665390338109984014",
+      "title": "Watch the all-new trailer for DC's #ClayfaceMovie - in theaters on October 23. #horror #horrortok #horrormovie #dc"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/clayface/videos/djsNEzpOfZmn",
+      "title": "Clayface - Trailers & Videos"
+    },
+    {
+      "url": "https://www.tiktok.com/@rottentomatoes/video/7631662587930774797",
+      "title": "Watch the first trailer for #Clayface. The new DC horror film is in theaters October 23. #dc #dccomics #movie #horror"
+    },
+    {
+      "url": "https://x.com/RottenTomatoes/status/2080378446920720604",
+      "title": "Rotten Tomatoes \ud83c\udf45 on X: \"#Clayface star Tom Rhys Harries and director James Watkins break down the eyelid cutting in the airplane bathroom scene at Comic Con. #SDCC\" / X"
+    },
+    {
+      "url": "https://editorial.rottentomatoes.com/article/most-anticipated-movies-of-october-2026/",
+      "title": "The 5 Most Anticipated Movies of October"
+    },
+    {
+      "url": "https://x.com/RottenTomatoes/status/1935045167666336074",
+      "title": "Rotten Tomatoes \ud83c\udf45 (@RottenTomatoes) on X"
+    },
+    {
+      "url": "https://www.tiktok.com/@rottentomatoes/video/7665390794794159374",
+      "title": "Watch the all-new trailer for DC's #ClayfaceMovie - in theaters on October 23. #dc #horror #horrortok #trailer"
+    },
+    {
+      "url": "https://x.com/RottenTomatoes/status/2046991344871108797",
+      "title": "Rotten Tomatoes \ud83c\udf45 on X: \"The first poster for DC's #Clayface, in theaters October 23.\" / X"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/tv/the-batman/s04/e03",
+      "title": "The Batman: Season 4, Episode 3"
+    },
+    {
+      "url": "https://www.forbes.com/sites/paultassi/2026/10/12/dcus-clayface-early-reviews-plagued-by-fake-spoilers-and-misinformation/",
+      "title": "DCU\u2019s \u2018Clayface\u2019 Early Reviews Plagued By Fake Spoilers And Misinformation"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/dcs-clayface-tracking-big-opening-011404062.html",
+      "title": "DC's Clayface is tracking to have a big opening weekend at the box office"
+    },
+    {
+      "url": "https://nerdist.com/article/dc-studios-clayface-officially-rated-r-strong-violence-gore-nudity-language/",
+      "title": "DC's CLAYFACE Officially Rated R - Nerdist"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/james-gunn-clayface-movie-1236724447/",
+      "title": "James Gunn Fires Back at Fan Who Snarked About 'Clayface' Movie"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/dc-clayface-officially-rated-r-204631860.html",
+      "title": "DC\u2019s CLAYFACE Officially Rated R"
+    },
+    {
+      "url": "https://screenwiseapp.com/media/clayface-movie",
+      "title": "Clayface"
+    },
+    {
+      "url": "https://www.dreadcentral.com/box-office/588967/clayface-officially-rated-r-for-strong-bloody-violence-gore-and-nudity/",
+      "title": "'Clayface' Officially Rated R for Bloody Violence and Gore"
+    },
+    {
+      "url": "https://gizmodo.com/a-new-clayface-teaser-leans-heavy-on-the-horror-2000823192",
+      "title": "A New 'Clayface' Teaser Leans Heavy on the Horror"
+    }
+  ]
+}
