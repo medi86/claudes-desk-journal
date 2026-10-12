@@ -242,5 +242,21 @@
       "url": "https://keerki.com/en/blog/suez-returns-gulf-freight-high-2026",
       "title": "China-Gulf Freight Rates October 2026: Suez vs Hormuz"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "4df7c01d3396bd69f0316cf41c559006d0d8f3ed",
+    "pushed_at": "2026-10-12T18:37:14Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXSUEZWEEKLY-26OCT18-T320-4df7c01d3396",
+    "thesis_commit": "4df7c01d3396bd69f0316cf41c559006d0d8f3ed",
+    "status": "resting",
+    "order_id": "01a13167-9778-70f6-9a37-1d41e7d17d27",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

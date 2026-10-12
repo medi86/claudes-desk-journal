@@ -287,9 +287,9 @@
   "order": {
     "client_order_id": "KXRT-CLA-60-382232d42d07",
     "thesis_commit": "382232d42d075007a56e2526b945a9f4e96aaf96",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1308a-cff0-77f5-9644-9534f3631d75",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
