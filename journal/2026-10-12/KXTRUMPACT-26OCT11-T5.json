@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPACT-26OCT11-T5",
+  "event": "KXTRUMPACT-26OCT11",
+  "series": "KXTRUMPACT",
+  "title": "Will there be at least 5 presidential actions in the week of Oct 11, 2026?",
+  "rules": "If Donald Trump has taken at least 5 presidential actions from Oct 11, 2026 through Oct 17, 2026 (as checked on the \u201cPresidential Actions\u201d page at whitehouse.gov at 10:00 AM ET on Oct 18, 2026), then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe market solely resolves to the publication dates visibly displayed on the \"Presidential Actions\" tab at whitehouse.gov at 10:00 AM ET on Oct 18, 2026.\nThe week runs from Oct 11, 2026 through Oct 17, 2026.\n\nPayout criteria\n\nThe actions may include proclamations, executive orders, nominations & appointments, and memoranda.\nAny item listed on the page counts, regardless of its legal effect.\n\nExamples (for Jan 10, 2026):\n\nExecutive Order with a Jan 7 signing date is released with a Jan 10 publication date \u2192 resolves Yes\nProclamation e-mailed to White House Press Pool but not uploaded by 10:00 AM next day \u2192 resolves No\nProclamation is released Jan 10 with a backdated Jan 9 publication date \u2192 resolves No\nBill signed into law and shows up on \"Briefings & Statements\" instead of \"Presidential Actions\" \u2192 resolves No",
+  "close_time": "2026-10-18T14:00:00+00:00",
+  "expected_close_time": "2026-10-18T14:00:00+00:00",
+  "forecast_at": "2026-10-12T10:30:39.704489+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.76",
+    "reasoning": "Trump's second term has averaged roughly 7 or more listed presidential actions a week, and October brings several recurring observance proclamations, including White Cane Safety Day and National School Lunch Week. Executive orders have slowed in 2026, the Columbus Day proclamation was already posted before the window, and the pre-midterm period could reduce nominations, so falling short of 5 is a real possibility.",
+    "falsifier": "The whitehouse.gov Presidential Actions page shows 4 or fewer items dated Oct 11-17, 2026 when checked on Oct 18, for example because routine proclamations are skipped and no executive orders or nominations are posted that week.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.5000",
+    "best_yes_ask": "0.5600",
+    "p_market": "0.5300"
+  },
+  "final": {
+    "p_yes": "0.66",
+    "action": "buy_yes",
+    "reasoning": "The 0.53 midpoint likely reflects slower 2026 weekly counts, so I lowered my estimate from 0.76 to 0.66. Recurring October observance proclamations such as White Cane Safety Day and National School Lunch Week, plus some executive orders or nominations, should still make 5 or more items more likely than not."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.5500",
+    "count": 1,
+    "cost": "0.5500",
+    "clamped_from": "0.66"
+  },
+  "sources": [
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/columbus-day-2026/",
+      "title": "Columbus Day, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/columbus-day-2025/",
+      "title": "Columbus Day, 2025"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/proclamations/page/9/",
+      "title": "Proclamations Archives"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/12/amendments-to-adjusting-imports-of-timber-lumber-and-their-derivative-products-into-the-united-states/",
+      "title": "Amendments to Adjusting Imports of Timber, Lumber, and their Derivative Products into the United States"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-further-enhances-program-integrity-and-interagency-coordination-in-the-h-1b-visa-program/",
+      "title": "Fact Sheet: President Donald J. Trump Further Enhances Program Integrity and Interagency Coordination in the H-1B Visa Program"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/department-of-war-security-for-the-protection-of-federal-personnel-and-property-in-illinois/",
+      "title": "Department of War Security for the Protection of Federal Personnel and Property in Illinois"
+    },
+    {
+      "url": "https://www.nafsa.org/executive-and-regulatory-actions-trump2admin",
+      "title": "Executive and Regulatory Actions Under the Second Trump Administration"
+    },
+    {
+      "url": "https://ballotpedia.org/Donald_Trump's_executive_orders_and_actions,_2025-2026",
+      "title": "Donald Trump's executive orders and actions, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/made-in-america-week-2025/",
+      "title": "Made in America Week, 2025"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
+      "title": "National Energy Dominance Month, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/restriction-on-entry-of-certain-nonimmigrant-workers/",
+      "title": "Restriction on Entry of Certain Nonimmigrant Workers"
+    },
+    {
+      "url": "https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2026",
+      "title": "2026 Donald J. Trump Executive Orders"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-takes-decisive-action-to-lower-diesel-costs-for-american-truckers-farmers/",
+      "title": "President Trump Takes Decisive Action to Lower Diesel Costs for American Truckers, Farmers"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+      "title": "Fact Sheet: President Donald J. Trump Inaugurates The Era of Super Intelligence"
+    },
+    {
+      "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/trump-executive-order-mandates-shift-to-super-intelligence-102o403",
+      "title": "Trump Executive Order Mandates Shift to \"Super Intelligence\""
+    },
+    {
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "title": "Trump\u2019s Second-Term Executive Orders (2025\u20132026)"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-eliminates-disease-carrying-pests-and-restores-enjoyment-of-the-great-outdoors/",
+      "title": "Fact Sheet: President Donald J. Trump Eliminates Disease-Carrying Pests and Restores Enjoyment of The Great Outdoors"
+    },
+    {
+      "url": "https://www.whitehouse.gov/videos/president-trump-signs-an-executive-order-jul-13-2026/",
+      "title": "President Trump Signs an Executive Order, Jul. 13, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/10/what-they-are-saying-president-trump-delivers-immediate-diesel-relief-saving-americans-up-to-100-per-fill/",
+      "title": "WHAT THEY ARE SAYING: President Trump Delivers Immediate Diesel Relief, Saving Americans Up to $100 Per Fill"
+    },
+    {
+      "url": "https://www.timeanddate.com/holidays/us/white-cane-safety-day",
+      "title": "White Cane Safety Day 2026 in the United States"
+    },
+    {
+      "url": "https://www.disability.state.mn.us/2025/10/07/white-cane-day-celebrating-independence-and-safety/",
+      "title": "White Cane Awareness Day: Celebrating Independence and Safety"
+    },
+    {
+      "url": "https://governor.nc.gov/governor-stein-proclaims-white-cane-safety-day",
+      "title": "Governor Stein Proclaims White Cane Safety Day"
+    },
+    {
+      "url": "https://content.civicplus.com/api/assets/e1586697-c12e-4270-af52-8a4325813e93?cache=1800",
+      "title": "WHITE CANE SAFETY DAY October 15, 2025"
+    },
+    {
+      "url": "https://nccbinfo.org/2025-white-cane-day/",
+      "title": "2025 White Cane Day - NCCB"
+    },
+    {
+      "url": "https://bendoregon.gov/wp-content/uploads/2025/12/White-Cane-Safety-Day-Proclamation-2025-2.pdf",
+      "title": "Proclamation White Cane Safety Day"
+    },
+    {
+      "url": "https://www.einpresswire.com/article/947762434/white-cane-safety-day-event-set-for-oct-14-at-arkansas-state-capitol",
+      "title": "White Cane Safety Day event set for Oct. 14 at Arkansas State Capitol"
+    },
+    {
+      "url": "https://www.mass.gov/info-details/october-is-white-cane-awareness-month",
+      "title": "October is White Cane Awareness Month"
+    },
+    {
+      "url": "https://anydayguide.com/calendar/940",
+      "title": "White Cane Safety Day / October 15, 2025"
+    },
+    {
+      "url": "https://whitecaneday.org/",
+      "title": "White Cane Day"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
+      "title": "Proclamations"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
+      "title": "Executive Orders"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/",
+      "title": "National Manufacturing Day, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/",
+      "title": "Fact Sheet: President Donald J. Trump Promotes Diesel Affordability"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
+      "title": "Presidential Memoranda"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
+      "title": "Nominations & Appointments"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/labor-day-2026/",
+      "title": "Labor Day, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/page/2/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/page/5/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/page/13/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-fire-prevention-week/",
+      "title": "Presidential Message on Fire Prevention Week"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/page/21/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://whitehouse.gov/releases/2026/10/president-trump-is-putting-american-industry-jobs-and-paychecks-back-on-the-map",
+      "title": "President Trump Is Putting American Industry, Jobs, and Paychecks Back on the Map"
+    },
+    {
+      "url": "https://www.whitehouse.gov/news/",
+      "title": "News"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/",
+      "title": "Fact Sheets"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/06/us-diesel-fuel-prices-iran-ukraine-energy-crisis-.html",
+      "title": "Trump allows cheaper, dyed diesel on highways to blunt historic fuel cost spike ahead of midterms"
+    },
+    {
+      "url": "https://www.1011now.com/2026/10/06/president-trump-signs-executive-order-grand-island-rally-address-rising-diesel-prices/",
+      "title": "President Trump signs executive order at Grand Island rally to address rising diesel prices"
+    },
+    {
+      "url": "https://potus.fyi/executive-orders/2026",
+      "title": "Trump Executive Orders 2026: Count & Full List"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/05/business/trump-diesel-prices-executive-order",
+      "title": "Trump signs executive order aimed at lowering diesel prices"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
+      "title": "Emergency Tax Relief on Diesel Fuel"
+    }
+  ]
+}

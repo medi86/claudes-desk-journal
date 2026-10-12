@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "ticker": "KXFUNDRAISING-MAGAQ326-A325000000",
+  "event": "KXFUNDRAISING-MAGAQ326",
+  "series": "KXFUNDRAISING",
+  "title": "Will MAGA Inc. report more than $325M in cash on hand at the end of Q3? Above $325M",
+  "rules": "If MAGA Inc.'s cash on hand is above $325 million as of September 30, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market resolves based on the official filing data released by the Federal Election Commission (FEC). Only the first official or non-preliminary release of the relevant statistic will be used to resolve the market, and subsequent revisions, corrections, or updates will not affect resolution.",
+  "close_time": "2026-10-21T13:59:00+00:00",
+  "expected_close_time": "2026-10-21T13:59:00+00:00",
+  "forecast_at": "2026-10-12T10:30:39.704489+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.82",
+    "reasoning": "MAGA Inc. had $415.8M at the end of August after raising $23.7M and spending only $11.4M that month. To end September at $325M or less, it would need to spend or transfer roughly $110M gross in one month, about ten times its August pace. The September spending made public so far, including $15M on the Texas Senate race, is small, though Trump's pledge of $400\u2013500M for the midterms leaves room for large late-September transfers.",
+    "falsifier": "The October monthly FEC report (covering September) shows transfers to allied super PACs or prepaid ad buys of about $100M or more, pushing cash on hand to $325M or below.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7700",
+    "best_yes_ask": "0.8500",
+    "p_market": "0.8100"
+  },
+  "final": {
+    "p_yes": "0.82",
+    "action": "pass",
+    "reasoning": "The market midpoint of 0.81 nearly matches my 0.82 estimate, so the price does not change my view. With a 0.77/0.85 spread, buying YES at 0.85 or NO at the 0.77 bid would both be negative expected value."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.foxnews.com/politics/trump-aligned-super-pac-enters-2026-midterms-nearly-300m-war-chest",
+      "title": "MAGA Inc. super PAC has $294 million cash on hand for 2026 midterms"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/can-1-billion-power-the-gop-to-victory-in-the-midterms-some-campaigns-fear-its-too-late",
+      "title": "Can $1 billion power the GOP to victory in the midterms? Some campaigns fear it's too late"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Make_America_Great_Again_Inc.",
+      "title": "Make America Great Again Inc."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/04/trump-maga-inc-500-million-republicans-midterm-elections.html",
+      "title": "Trump says MAGA Inc. will spend up to $500 million on 2026 midterms"
+    },
+    {
+      "url": "https://seekingalpha.com/news/4650402-trump-says-maga-inc-will-cover-costs-for-controversial-tv-ads",
+      "title": "Trump says MAGA Inc. will cover costs for controversial TV ads"
+    },
+    {
+      "url": "https://electionlawblog.org/2026/maga-inc-reaches-400m-with-no-spending-to-boost-candidates/",
+      "title": "\"MAGA Inc reaches $400M with no spending to boost candidates\" - Election Law Blog"
+    },
+    {
+      "url": "https://www.cnn.com/2026/09/05/politics/maga-inc-ken-paxton-trump",
+      "title": "Trump\u2019s PAC wades into midterms with $10 million ad buy to boost Ken Paxton"
+    },
+    {
+      "url": "https://www.forbes.com/sites/maryroeloffs/2026/01/02/trumps-maga-inc-super-pac-has-300-million-cash-war-chest-for-midterms/",
+      "title": "Trump\u2019s MAGA Inc. Super PAC Has $300 Million Cash War Chest For Midterms"
+    },
+    {
+      "url": "https://washingtonsun.com/money/maga-megadonors-donald-trump-super-pac?redirected=notus_org",
+      "title": "A New Generation of MAGA Megadonors Is Emerging \u2014 And They\u2019re Swamping Democrats - The Washington Sun"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
+      "title": "Trump says MAGA Inc. PAC to pay for TV ads that praised him"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/21/trump-maga-midterm-spending-war-chest.html",
+      "title": "Trump super PAC MAGA Inc. has $415.8 million in new FEC filing"
+    },
+    {
+      "url": "https://political.org/2026/09/04/trump-pledges-400-500-million-from-super-pac-for-midterm-elections/",
+      "title": "Trump Pledges $400\u2013$500 Million From MAGA Inc. Super PAC for 2026 Midterm Elections"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6100079-trumps-maga-inc-funnels-another-5-million-into-texas-senate-race/",
+      "title": "Trump\u2019s MAGA Inc. funnels another $5 million into Texas Senate race"
+    },
+    {
+      "url": "https://docquery.fec.gov/cgi-bin/forms/C00892471/se",
+      "title": "FEC Electronic Filings by MAGA INC."
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-maga-inc-funnels-another-235316867.html",
+      "title": "Trump\u2019s MAGA Inc. funnels another $5 million into Texas Senate race"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-aligned-super-pac-ads-spend-10-million-texas-senate-race-paxton-rcna596261",
+      "title": "Trump-aligned super PAC to spend $10 million in Texas Senate race"
+    },
+    {
+      "url": "https://www.union-bulletin.com/news/national/maga-inc-s-war-chest-climbs-to-404-million-after-zero-spending/article_8badaf68-3c98-5395-a97d-ae35b5ffd3ab.html",
+      "title": "MAGA Inc.\u2019s war chest climbs to $404 million after zero spending"
+    },
+    {
+      "url": "https://www.detroitnews.com/story/news/politics/2026/07/22/maga-inc-war-chest-holds-400-million-before-midterm-elections/91007789007/",
+      "title": "Trump-aligned MAGA Inc builds stockpile of more than $400 million"
+    },
+    {
+      "url": "https://www.briefs.co/news/maga-inc-grew-its-cash-hoard-as-critics-urged-spending-ahead/",
+      "title": "MAGA Inc. Raises Cash, Holds $416M Ahead of Midterms"
+    },
+    {
+      "url": "https://www.usnews.com/news/politics/articles/2026-01-02/trump-aligned-maga-inc-super-pac-enters-2026-with-300-million-stockpile",
+      "title": "Trump-Aligned MAGA Inc Super PAC Enters 2026 With $300 Million Stockpile"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MAGA_Inc.",
+      "title": "MAGA Inc."
+    },
+    {
+      "url": "https://www.trtworld.com/article/f2836ff16697",
+      "title": "Trump-aligned MAGA Inc enters 2026 with nearly $300M ahead of US midterm elections - TRT World"
+    },
+    {
+      "url": "https://qz.com/trump-maga-inc-taxpayer-funded-ads-reversal-100526",
+      "title": "Trump says MAGA Inc. will repay taxpayer-funded TV ads"
+    },
+    {
+      "url": "https://www.americanprogressaction.org/article/how-president-trump-and-his-administration-are-benefiting-maga-inc-super-pac-donors/",
+      "title": "How President Trump and His Administration Are Benefiting MAGA Inc. Super PAC Donors - Center for American Progress Action"
+    },
+    {
+      "url": "https://ua.news/en/politika/maga-inc-rozkrila-lishe-15-mln-vitrat-na-vibori-u-ssha-cnbc",
+      "title": "MAGA Inc. disclosed $15 million in US election spending \u2014 CNBC"
+    },
+    {
+      "url": "https://popular.info/p/update-maga-incs-audacious-new-ads",
+      "title": "UPDATE: MAGA Inc.\u2019s audacious new ads - by Judd Legum"
+    },
+    {
+      "url": "https://fortune.com/2026/09/05/maga-inc-10-million-texas-senate-race-trump-james-talarico-ken-paxton/",
+      "title": "MAGA Inc. to spend $10 million in Texas Senate race to hold a once-safe Republican seat after Trump vows to spend 'whatever amount of money necessary'"
+    },
+    {
+      "url": "https://www.factcheck.org/2026/10/maga-inc-3/",
+      "title": "MAGA Inc. - FactCheck.org"
+    },
+    {
+      "url": "https://campaignlegal.org/sites/default/files/2026-09/MAGAIncSoftMoneyComplaint.pdf",
+      "title": "1 BEFORE THE FEDERAL ELECTION COMMISSION CAMPAIGN LEGAL CENTER"
+    },
+    {
+      "url": "https://www.fec.gov/data/committee/C00892471/",
+      "title": "MAGA INC. - committee overview - FEC.gov"
+    },
+    {
+      "url": "https://www.ms.now/news/trump-maga-inc-midterms-republicans",
+      "title": "Trump sits on $850 million as Republicans wait"
+    },
+    {
+      "url": "https://ms.now/news/darline-graham-annie-andrews-south-carolina-senate-debate",
+      "title": "Darline Graham returns to the debate stage as GOP nerves hit overdrive"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6126950-trump-funnels-millions-from-massive-war-chest-into-key-house-senate-races-heres-where/",
+      "title": "Trump funnels millions from massive war chest into key House, Senate races: Here\u2019s where"
+    },
+    {
+      "url": "https://www.newsnationnow.com/politics/trumps-maga-5-million-texas-senate-race/",
+      "title": "Trump\u2019s MAGA Inc. funnels another $5 million into Texas Senate race"
+    },
+    {
+      "url": "https://ua.news/en/politika/maga-inc-pochala-vitrachati-rezerv-u-403-mln-na-vibori-u-ssha-cnbc",
+      "title": "MAGA Inc. spends $403m reserve on US elections \u2014 CNBC"
+    },
+    {
+      "url": "https://ibtimes.co.uk/trump-family-congressional-investigations-democrats-2026-1824892",
+      "title": "Trump Reportedly Raids $400M War Chest Over Alleged Inquiry Plot to Target Melania and Barron"
+    },
+    {
+      "url": "https://www.axios.com/2026/09/05/trump-magainc-paxton-talarico-texas-senate",
+      "title": "Trump's MAGA Inc. super PAC spending $10m to help elect Paxton against Talarico"
+    }
+  ]
+}

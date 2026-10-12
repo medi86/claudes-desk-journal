@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-DOP26OCT22-10K",
+  "event": "KXALBUMEQUIV-DOP26OCT22",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Dopamine Chamber by Fontaines D.C. have above 10000 Album Equivalent Units during the October 16, 2026 - October 22, 2026 tracking week? Above 10K",
+  "rules": "If Dopamine Chamber by Fontaines D.C. has above 10K Album Equivalent Units during the October 16, 2026 - October 22, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 16, 2026 - October 22, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-25T14:00:00+00:00",
+  "expected_close_time": "2026-10-25T14:00:00+00:00",
+  "forecast_at": "2026-10-12T10:30:39.704489+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.7",
+    "reasoning": "Dopamine Chamber's release on Oct 16, 2026 makes the Oct 16-22 window its first week. The previous album, Romance, debuted at No. 97 on the Billboard 200 in 2024, which I estimate was roughly 8-10K US units, so it was near this threshold. The band has grown since then (UK first-week sales doubled, Grammy nominations, a Rosal\u00eda feature, vinyl first-pressing pre-orders), so a debut above 10K seems more likely than not. It is far from certain because the US audience is still modest.",
+    "falsifier": "Luminate reports Dopamine Chamber at 10,000 or fewer US album-equivalent units for the Oct 16-22, 2026 week, for example a debut in the lower half of the Billboard 200 or below it.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7700",
+    "best_yes_ask": "0.8500",
+    "p_market": "0.8100"
+  },
+  "final": {
+    "p_yes": "0.75",
+    "action": "pass",
+    "reasoning": "The market at 0.81 is above my 0.70; it may reflect first-week projections I couldn't find, so I move to 0.75. Selling at the 0.77 bid gives only a 2-point edge, too thin given the wide spread and uncertainty about Romance's US baseline."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dopamine_Chamber",
+      "title": "Dopamine Chamber"
+    },
+    {
+      "url": "https://fontainesdc.bandcamp.com/album/dopamine-chamber",
+      "title": "Dopamine Chamber, by Fontaines D.C."
+    },
+    {
+      "url": "https://music.apple.com/us/album/dopamine-chamber/6792085051",
+      "title": "Dopamine Chamber - Album by Fontaines D.C."
+    },
+    {
+      "url": "https://www.nme.com/reviews/album/fontaines-d-c-dopamine-chamber-album-review-3972863",
+      "title": "Fontaines D.C."
+    },
+    {
+      "url": "https://www.stilllisteningmagazine.com/news/fontaines-dc-detail-fifth-album-dopamine-chamber",
+      "title": "Fontaines D.C. Detail Fifth Album \u2018Dopamine Chamber\u2019 \u2014 Still Listening"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5936183/fontaines-dc-dopamine-chamber-interview",
+      "title": "Inside Fontaines D.C.'s decadent, dystopian 'Dopamine Chamber' : NPR"
+    },
+    {
+      "url": "https://shopusa.xlrecordings.com/products/xl1673-dopamine-chamber",
+      "title": "Fontaines D.C. Dopamine Chamber"
+    },
+    {
+      "url": "https://booboorecords.com/products/fontaines-dc-dopamine-chamber-lp",
+      "title": "Fontaines D.C. - Dopamine Chamber (LP)"
+    },
+    {
+      "url": "https://shop-us.fontainesdc.com/products/dopamine-chamber-deluxe-vinyl",
+      "title": "DOPAMINE CHAMBER"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Romance_(Fontaines_D.C._album)",
+      "title": "Romance (Fontaines D.C. album)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fontaines_D.C.",
+      "title": "Fontaines D.C."
+    },
+    {
+      "url": "https://www.billboard.com/artist/fontaines-d-c/",
+      "title": "FONTAINES D.C."
+    },
+    {
+      "url": "https://www.billboard.com/lists/fontaines-dc-london-concert-5-best-moments/",
+      "title": "Fontaines D.C.\u2019s Dazzling Romance Tour Hits London: Here Are 5 Best Moments From the Show"
+    },
+    {
+      "url": "https://www.iheart.com/artist/fontaines-dc-31979475/",
+      "title": "Fontaines D.C."
+    },
+    {
+      "url": "https://www.billboard.com/music/rock/fontaines-dc-new-album-dopamine-chamber-release-date-1236315620/",
+      "title": "Fontaines D.C. Share Pounding Comeback Single & Announce New Album: Here\u2019s When It Arrives"
+    },
+    {
+      "url": "https://www.billboard.com/music/music-news/porter-robinson-covers-fontaines-dc-favourite-like-a-version-1235902509/",
+      "title": "Porter Robinson Covers Fontaines D.C.\u2019s \u2018Favourite\u2019 for Like a Version"
+    },
+    {
+      "url": "https://www.wikiwand.com/en/articles/Romance_(Fontaines_D.C._album)",
+      "title": "Romance (Fontaines D.C. album) - Wikiwand"
+    },
+    {
+      "url": "https://www.billboard.com/music/rock/barry-keoghan-fontaines-dc-bug-music-video-1235820518/",
+      "title": "Barry Keoghan Stars in Fontaines D.C.\u2019s New Andrea Arnold-Directed Music Video: Watch"
+    },
+    {
+      "url": "https://www.musicweek.com/labels/read/music-retail-set-for-strong-sales-and-streaming-week-with-sabrina-carpenter-and-fontaines-dc-albums/090360",
+      "title": "Music retail set for strong sales and streaming week with Sabrina Carpenter and Fontaines DC albums"
+    },
+    {
+      "url": "https://hundredrecords.com/blog/fontaines-dc-romance-23aug/",
+      "title": "Pre-sale of the week: Fontaines D.C"
+    },
+    {
+      "url": "https://www.officialcharts.com/albums/fontaines-dc-romance/",
+      "title": "ROMANCE"
+    },
+    {
+      "url": "https://fontainesdc.bandcamp.com/album/romance",
+      "title": "Romance"
+    },
+    {
+      "url": "https://consequence.net/cover-stories/fontaines-dc-romance-grian-chatten-interview/",
+      "title": "Band of the Year Fontaines D.C. Learned to Revel in the Romance"
+    },
+    {
+      "url": "https://shop-us.fontainesdc.com/products/romance-standard-cd",
+      "title": "Romance (Standard) CD"
+    },
+    {
+      "url": "https://shop-us.fontainesdc.com/products/romance-black-lp",
+      "title": "Romance (Black) Vinyl LP"
+    },
+    {
+      "url": "https://www.officialcharts.com/artist/54853/fontaines-dc/",
+      "title": "FONTAINES DC songs and albums"
+    },
+    {
+      "url": "https://www.showboxpresents.com/events/detail/727663",
+      "title": "Fontaines D.C."
+    },
+    {
+      "url": "https://quietparenthesis.substack.com/p/we-heard-dopamine-chamber-a-week",
+      "title": "we heard Dopamine Chamber a week early. here\u2019s our take on every track."
+    },
+    {
+      "url": "https://www.irishtimes.com/culture/music/2026/10/10/fontaines-dc-on-their-new-album-theres-a-lot-of-anxiety-everyone-is-looking-for-something-to-escape-into/",
+      "title": "Fontaines DC: \u2018We just hang out with ourselves and don\u2019t really interact as much with other people\u2019"
+    },
+    {
+      "url": "https://faroutmagazine.co.uk/fontaines-dc-announce-intimate-london-show-calm/",
+      "title": "Fontaines DC confirm 3,300-capacity charity gig in London"
+    },
+    {
+      "url": "https://rockcellarmagazine.com/fontaines-dc-dopamine-chamber-new-album-preview-listen-2026/",
+      "title": "Fontaines D.C. Debut \"Marianne,\" New Album 'Dopamine Chamber' Oct. 16"
+    },
+    {
+      "url": "https://stereogum.com/2508463/kurt-vile-joins-fontaines-d-c-at-la-route-du-rock/news",
+      "title": "Fontaines D.C. Confirm New Album 'Dopamine Chamber,' Bring Out Kurt Vile For Their Song He Inspired"
+    },
+    {
+      "url": "https://www.hotpress.com/music/fontaines-d-c-reveal-fifth-album-dopamine-chamber-and-release-marianne-23157476",
+      "title": "Fontaines D.C. reveal fifth album <i> Dopamine Chamber </i> and release 'Marianne'"
+    },
+    {
+      "url": "https://open.spotify.com/prerelease/1hvMM3jdLPtV4H4ZOxkxip",
+      "title": "Dopamine Chamber - Upcoming Album by Fontaines D.C."
+    },
+    {
+      "url": "http://musicchartsarchive.com/artists/fontaines-dc",
+      "title": "Fontaines D.C. Album and Singles Chart History"
+    },
+    {
+      "url": "https://www.hotpress.com/music/fontaines-d-c-s-romance-among-uks-top-5-best-selling-vinyl-albums-of-2024-23064266",
+      "title": "Fontaines D.C.'s <i>Romance</i> among UK's Top 5 best-selling vinyl albums of 2024"
+    },
+    {
+      "url": "https://www.besteveralbums.com/thechart.php?b=62410",
+      "title": "Fontaines D.C."
+    },
+    {
+      "url": "https://chartmasters.org/artist/fontaines-d-c/",
+      "title": "Fontaines D.C. - Album Sales, Streaming & Chart Stats"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/artist/48478-fontaines-dc/",
+      "title": "Fontaines D.C. Albums, Songs - Discography - Album of The Year"
+    },
+    {
+      "url": "https://www.billboard.com/pro/fontaines-dc-debut-no-3-emerging-artists-chart/",
+      "title": "Fontaines D.C. Debut at No. 3 on Emerging Artists Chart, Powered by New Album \u2018A Hero\u2019s Death\u2019"
+    }
+  ]
+}
