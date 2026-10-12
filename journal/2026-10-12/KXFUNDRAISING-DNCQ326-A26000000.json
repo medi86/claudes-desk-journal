@@ -214,5 +214,21 @@
       "url": "https://thebulwark.com/p/democrats-fundraising-midterms-donors",
       "title": "Dems\u2019 One Big Midterm Weakness Isn\u2019t Looking So Bad Anymore"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "c89589028205e2d04437a7ee55be90528e1b5018",
+    "pushed_at": "2026-10-12T06:30:34Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXFUNDRAISING-DNCQ326-A26000000-c89589028205",
+    "thesis_commit": "c89589028205e2d04437a7ee55be90528e1b5018",
+    "status": "resting",
+    "order_id": "01a12ece-4ef8-77a3-9bfb-493357ce0f27",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

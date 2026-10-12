@@ -87,10 +87,10 @@
   "order": {
     "client_order_id": "KXTRUMPENDORSEMENTS-26OCT16-A3-98cb8477b17b",
     "thesis_commit": "98cb8477b17b7af8c0eb32537b28af7ebbe1c9cf",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a12dee-b8b0-79c0-a78b-c37b4cdf8e68",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

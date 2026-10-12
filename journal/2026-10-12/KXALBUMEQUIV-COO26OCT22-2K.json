@@ -261,8 +261,8 @@
     "thesis_commit": "98cb8477b17b7af8c0eb32537b28af7ebbe1c9cf",
     "status": "resting",
     "order_id": "01a12dee-b8b0-71ba-8220-7ce68e569754",
-    "filled": "0",
-    "count": "1"
+    "filled": "0.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"
