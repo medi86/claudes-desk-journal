@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-WILDW-95",
+  "event": "KXRT-WILDW",
+  "series": "KXRT",
+  "title": "Wildwood Rotten Tomatoes score? Above 95",
+  "rules": "If Wildwood has a Tomatometer score of above 95 on Oct 26, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-26T14:00:00+00:00",
+  "expected_close_time": "2026-10-26T14:00:00+00:00",
+  "forecast_at": "2026-10-13T06:44:26.011643+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.41",
+    "reasoning": "Wildwood premiered at the London Film Festival to a 100% Tomatometer on 17 reviews, with several critics calling it a masterpiece. But a few of those 'fresh' reviews are only lukewarm (for example, IndieWire's B-), the film is long, and early perfect scores usually slip as the count grows to 150-200 reviews. Laika's best final score so far is Kubo's 97% (from memory, not checked here). Staying at 96% or higher needs fewer than about 4-5% negative reviews, which is possible but less likely than not.",
+    "falsifier": "If the score is still 98-100% with 80+ reviews by release day (October 23), this forecast is too low. If it falls to 94% or below before release, a NO is nearly certain.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": true,
+  "leak_matches": [
+    "odds, even though the film currently sits at 100%"
+  ],
+  "market": {
+    "best_yes_bid": "0.7100",
+    "best_yes_ask": "0.7200",
+    "p_market": "0.7150"
+  },
+  "final": {
+    "p_yes": "0.52",
+    "action": "buy_no",
+    "reasoning": "The market at 71.5% likely knows newer review counts than my 17, so I moved up from 41%. But early 100% scores for festival-launched animated films usually slip below 96% by 150+ reviews, and there are already a few lukewarm fresh reviews, so NO still looks underpriced."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.7200",
+    "count": 1,
+    "cost": "0.2800",
+    "clamped_from": "0.52"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/wildwood",
+      "title": "Wildwood"
+    },
+    {
+      "url": "https://www.forbes.com/sites/timlammers/2026/10/11/wildwood-nabs-perfect-rotten-tomatoes-critics-score-in-early-reviews/",
+      "title": "\u2018Wildwood\u2019 Nabs Perfect Rotten Tomatoes Critics\u2019 Score In Early Reviews"
+    },
+    {
+      "url": "https://screenrant.com/wildwood-rotten-tomatoes-score-debut/",
+      "title": "New Star-Studded Fantasy Adaptation Sets All-Time Rotten Tomatoes Score Record"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wildwood_(film)",
+      "title": "Wildwood (film)"
+    },
+    {
+      "url": "https://fictionhorizon.com/laikas-wildwood-lands-a-perfect-rotten-tomatoes-score-as-critics-hail-a-stop-motion-masterpiece/",
+      "title": "Laika\u2019s \u2018Wildwood\u2019 Lands a Perfect Rotten Tomatoes Score as Critics Hail a Stop-Motion Masterpiece"
+    },
+    {
+      "url": "https://www.comingsoon.net/movies/news/2205779-wildwood-reviews-rotten-tomatoes-score-revealed",
+      "title": "Wildwood RT Score Has Critics Raving About Mahershala Ali\u2019s New Animated Movie"
+    },
+    {
+      "url": "https://www.cbr.com/wildwood-rotten-tomatoes-score/",
+      "title": "Coraline Studio's New Fantasy Film Earns Its First-Ever 100% Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://fandomwire.com/laikas-first-major-fantasy-epic-in-years-debuts-with-perfect-100-score/",
+      "title": "LAIKA\u2019s First Major Fantasy Epic in Years Debuts With Perfect 100% Score"
+    },
+    {
+      "url": "https://britbrief.co.uk/entertainment/animation/wildwood-debuts-with-100-rotten-tomatoes-score.html",
+      "title": "Wildwood debuts with 100% Rotten Tomatoes score, hailed as Laika's 'masterpiece' - Brit Brief"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wildwood-stuns-critics-laika-oscar-181500848.html",
+      "title": "\u2018Wildwood\u2019 stuns critics: Laika\u2019s Oscar front-runner is \u2018one of the most astonishing animated movies ever made\u2019"
+    },
+    {
+      "url": "https://www.thewrap.com/creative-content/reviews/wildwood-review-laika/",
+      "title": "Wildwood Review: Astonishing, Handmade Animated Film Is the Anti-AI"
+    },
+    {
+      "url": "https://discussingfilm.net/2026/10/11/wildwood-review-laika-stop-motion/",
+      "title": "'Wildwood' Review - Laika's Stop-Motion Fantasy Epic"
+    },
+    {
+      "url": "https://www.inverse.com/entertainment/wildwood-review-laika-animated-fantasy",
+      "title": "'Wildwood' Is A Soaring Achievement Of Animation"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wildwood-review-laika-fantasy-epic-150532942.html",
+      "title": "\u2018Wildwood\u2019 Review: Laika\u2019s Fantasy Epic Is One of the Most Astonishing Animated Movies Ever Made"
+    },
+    {
+      "url": "https://thefilmstage.com/bfi-london-review-wildwood-presents-magic-and-terror-on-a-breathtaking-scale/",
+      "title": "BFI London Review: Wildwood Presents Magic and Terror on a Breathtaking Scale"
+    },
+    {
+      "url": "https://www.goldderby.com/film/2026/wildwood-reviews-laika-oscar-front-runner/",
+      "title": "Wildwood reviews: Laika stop-motion epic is Oscar front-runner"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/wildwood/",
+      "title": "Wildwood Reviews - Metacritic"
+    },
+    {
+      "url": "https://www.indiewire.com/criticism/movies/wildwood-movie-review-laika-1235221279/",
+      "title": "Wildwood Review: Laika's Stop-Motion Epic Lacks Their Usual Magic"
+    },
+    {
+      "url": "https://variety.com/2026/film/reviews/wildwood-review-1236908019/",
+      "title": "\u2018Wildwood\u2019 Review: Laika\u2019s Most Ambitious Feature to Date Is a Richly Textured, Transportive Fairytale Epic"
+    },
+    {
+      "url": "https://collider.com/wildwood-review-laika/",
+      "title": "Forget 'Coraline,' 'Wildwood' Is Laika's Masterpiece"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wildwood-review-laika-most-ambitious-131500627.html",
+      "title": "\u2018Wildwood\u2019 Review: Laika\u2019s Most Ambitious Feature to Date Is a Richly Textured, Transportive Fairytale Epic"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wildwood-review-laika-epic-stop-131500650.html",
+      "title": "\u2018Wildwood\u2019 Review: Laika\u2019s Epic Stop-Motion Wonder Lacks the Magic of the Studio\u2019s Best Movies"
+    },
+    {
+      "url": "https://digg.com/entertainment/1g1wj854",
+      "title": "Early reviews for Laika's 'Wildwood' are overwhelmingly positive \u00b7 Digg"
+    },
+    {
+      "url": "https://poppednews.com/2026/10/11/wildwood-review/",
+      "title": "'Wildwood' Review: LAIKA's Most Ambitious Film Is Its Best Yet"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wildwood-nabs-perfect-rotten-tomatoes-232034091.html",
+      "title": "\u2018Wildwood\u2019 Nabs Perfect Rotten Tomatoes Critics\u2019 Score In Early Reviews"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/wildwood_nj",
+      "title": "Wildwood, NJ"
+    },
+    {
+      "url": "https://www.comicbasics.com/wildwood-opens-with-a-perfect-rotten-tomatoes-score-is-laikas-dark-fantasy-its-best-yet/",
+      "title": "'Wildwood' Opens With a Perfect Rotten Tomatoes Score: Is Laika's Dark Fantasy Its Best Yet?"
+    },
+    {
+      "url": "https://movieweb.com/wildwood-rotten-tomatoes-score/",
+      "title": "New Fantasy Adventure Film Hailed as One of the Decade's Best With a Record-Breaking RT Score"
+    },
+    {
+      "url": "https://ground.news/article/wildwood-nabs-perfect-rotten-tomatoes-critics-score-in-early-reviews",
+      "title": "'Wildwood' Premieres at the London Film Festival. Here's What to Know"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/wildwood/videos",
+      "title": "Wildwood: Wildwood: Exclusive Vertical Teaser - Epic Scale"
+    },
+    {
+      "url": "https://thepeoplesmovies.com/wildwood-review-2026-bfi-london-film-festival/",
+      "title": "Wildwood Review (2026 BFI London Film Festival)"
+    },
+    {
+      "url": "https://www.flickeringmyth.com/2026-bfi-london-film-festival-review-wildwood/",
+      "title": "2026 BFI London Film Festival Review"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/10/11/wildwood-earns-rave-reviews-oscar-frontrunner-for-animated-feature",
+      "title": "\u2018Wildwood\u2019 Earns Raves: \u201cThe Most Beautiful Stop-Motion Film Ever Made"
+    },
+    {
+      "url": "https://letterboxd.com/film/wildwood-2026/",
+      "title": "\u200eWildwood (2026) directed by Travis Knight \u2022 Reviews, film + cast \u2022 Letterboxd"
+    },
+    {
+      "url": "https://loudandclearreviews.com/wildwood-film-review/",
+      "title": "Wildwood Movie Review: Brilliant Fantasy Tale - Loud And Clear Reviews"
+    },
+    {
+      "url": "https://getyourcomicon.co.uk/blog/2026/10/11/wildwood-2026-review/",
+      "title": "WILDWOOD (2026) Review - Get Your Comic On"
+    },
+    {
+      "url": "https://filmhounds.co.uk/2026/10/11/wildwood-london-film-festival-2026/",
+      "title": "Wildwood (London Film Festival 2026) \u2014 Laika\u2019s Magnum Opus"
+    },
+    {
+      "url": "https://yournews.com/2026/10/12/7223064/wildwood-review-laikas-stop-motion-fantasy-emerges-as-one-of-the/",
+      "title": "Wildwood Review: Laika\u2019s Stop-Motion Fantasy Emerges as One of the Most Astonishing Animated Films Ever Made"
+    }
+  ]
+}
