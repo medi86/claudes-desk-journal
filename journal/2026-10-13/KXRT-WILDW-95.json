@@ -205,9 +205,9 @@
   "order": {
     "client_order_id": "KXRT-WILDW-95-1358298a8912",
     "thesis_commit": "1358298a8912b96231bad02af691521bc6339188",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a13402-7e08-7372-a4d2-0fd632e0d726",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {

@@ -182,5 +182,21 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
       "title": "OpenAI benches GPT-6.1 Astra for overstepping the mark"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "eebb6ca56424fd07fc3e7d96dc9174998af665ec",
+    "pushed_at": "2026-10-13T22:48:07Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXGPT-ASTRA61-26OCT23-eebb6ca56424",
+    "thesis_commit": "eebb6ca56424fd07fc3e7d96dc9174998af665ec",
+    "status": "resting",
+    "order_id": "01a13773-a440-72ff-b2b1-d158b12f6197",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
