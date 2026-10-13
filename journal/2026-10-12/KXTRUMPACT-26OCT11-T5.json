@@ -251,9 +251,9 @@
   "order": {
     "client_order_id": "KXTRUMPACT-26OCT11-T5-f6fa77fd6fbe",
     "thesis_commit": "f6fa77fd6fbef130338f2be5f81980fb16e96c13",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a12fac-eb40-7294-b945-839112d026b3",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
