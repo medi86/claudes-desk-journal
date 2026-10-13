@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "ticker": "KXEARNINGSMENTIONBLK-26OCT13-DIGI",
+  "event": "KXEARNINGSMENTIONBLK-26OCT13",
+  "series": "KXEARNINGSMENTIONBLK",
+  "title": "What will BlackRock, Inc. say during their next earnings call? Digital Asset",
+  "rules": "If Digital Asset is said by any BlackRock, Inc. representative (including the operator of the call) during the next BlackRock, Inc. earnings call (including the Q+A), then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the BlackRock, Inc. earnings call.\nIf a consensus by Kalshi employees cannot be reached using video, transcripts of the BlackRock, Inc. earnings call will be used according to the news publications listed in the contract. \n\nPayout criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word.\n\nDoesn't count for payout\nGrammatical/tense inflections.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the underlying company. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-27T14:00:00+00:00",
+  "expected_close_time": "2026-10-27T14:00:00+00:00",
+  "forecast_at": "2026-10-13T18:45:56.832874+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.96",
+    "reasoning": "BlackRock's Q3 2026 call is scheduled for October 14, before the market closes. Executives said 'digital assets' repeatedly on the Q2 2026 and Q1 2026 calls, and they have set a public $500M digital-asset revenue goal they are likely to report on. Analysts also ask about tokenization regularly, so the phrase will very likely come up in the prepared remarks or the Q&A.",
+    "falsifier": "The Q3 2026 call happens but no BlackRock representative says 'digital asset(s)', using only terms like crypto, tokenization or bitcoin, or the call is postponed past Oct 27.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8900",
+    "best_yes_ask": "0.9000",
+    "p_market": "0.8950"
+  },
+  "final": {
+    "p_yes": "0.94",
+    "action": "buy_yes",
+    "reasoning": "The phrase 'digital assets' came up on both the Q1 and Q2 2026 calls, and BlackRock has a public $500M digital-asset revenue target it is likely to update on October 14. The market at about 0.90 underprices this, though I trimmed my estimate slightly for wording risk."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.8900",
+    "count": 1,
+    "cost": "0.8900",
+    "clamped_from": "0.94"
+  },
+  "sources": [
+    {
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-blackrock-beats-q2-2026-forecasts-as-shares-rise-premarket-93CH-4793400",
+      "title": "Earnings call transcript: BlackRock beats Q2 2026 forecasts as shares rise premarket By Investing.com"
+    },
+    {
+      "url": "https://equibles.com/stocks/blk/calls/2026-q2",
+      "title": "BlackRock, Inc. (BLK) Q2 2026 Earnings Call Transcript - Equibles"
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/22/blackrock-blk-q2-2026-earnings-call-transcript/",
+      "title": "BlackRock (BLK) Q2 2026 Earnings Call Transcript"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/BLK/earnings/BLK-Q2-2026-earnings_call-649230.html",
+      "title": "BlackRock, Inc. (BLK) Q2 FY2026 earnings call transcript"
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/14/blackrock-blk-q1-2026-earnings-call-transcript/",
+      "title": "BlackRock (BLK) Q1 2026 Earnings Call Transcript"
+    },
+    {
+      "url": "https://equibles.com/stocks/blk/calls/2026-q1",
+      "title": "BlackRock, Inc. (BLK) Q1 2026 Earnings Call Transcript - Equibles"
+    },
+    {
+      "url": "https://www.roic.ai/quote/BLK.SW/transcripts",
+      "title": "BlackRock, Inc. (BLK.SW) Earnings Call Transcripts"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-inc-q2-2026-earnings-204306789.html",
+      "title": "BlackRock, Inc. Q2 2026 Earnings Call Summary"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526208766/blk-20260331.htm",
+      "title": "BlackRock, Inc. - Form 10-Q - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526304013/blk-ex99_2.htm",
+      "title": "BlackRock, Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526153768/blk-ex99_2.htm",
+      "title": "BlackRock, Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000176/ny-20260327.htm",
+      "title": "BlackRock, Inc. - Form PRE 14A - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm",
+      "title": "BlackRock, Inc. - Form DEF 14A - FY2026"
+    },
+    {
+      "url": "https://www.nasdaq.com/press-release/blackrock-report-third-quarter-2026-earnings-october-14th-2026-09-30",
+      "title": "BlackRock to Report Third Quarter 2026 Earnings on October 14th"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526337177/blk-20260630.htm",
+      "title": "BlackRock, Inc. - Form 10-Q - FY2026"
+    },
+    {
+      "url": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2026/BlackRock-to-Report-Third-Quarter-2026-Earnings-on-October-14th/default.aspx",
+      "title": "BlackRock, Inc. - BlackRock to Report Third Quarter 2026 Earnings on October 14th"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-report-third-quarter-2026-150000427.html",
+      "title": "BlackRock to Report Third Quarter 2026 Earnings on October 14th"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-slated-report-q3-earnings-141000567.html",
+      "title": "BlackRock Slated to Report Q3 Earnings: What's in the Cards?"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-expect-blackrock-next-earnings-124138659.html",
+      "title": "Here's What to Expect From BlackRock\u2019s Next Earnings Report"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/BLK/earnings/transcripts",
+      "title": "BlackRock, Inc. (BLK) Earnings Call Transcripts"
+    },
+    {
+      "url": "https://www.bamsec.com/companies/2012383/blackrock-inc/transcripts",
+      "title": "BlackRock Inc."
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/BLK/earnings-calls/",
+      "title": "BlackRock, Inc. (BLK) Stock Earnings Call Transcripts - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BLK/earnings/",
+      "title": "BlackRock (BLK) Earnings Date and Reports 2026 $BLK"
+    },
+    {
+      "url": "https://ir.blackrock.com/news-and-events/events-and-presentations/event-details/2026/Q3-2026-BlackRock-Inc-Earnings-Conference-Call/default.aspx",
+      "title": "BlackRock, Inc. - Q3 2026 BlackRock, Inc. Earnings Conference Call"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526153768/blk-20260414.htm",
+      "title": "BlackRock, Inc. - Form 8-K - FY2026"
+    }
+  ]
+}
