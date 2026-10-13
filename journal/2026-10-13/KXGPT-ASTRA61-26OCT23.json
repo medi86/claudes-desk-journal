@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "ticker": "KXGPT-ASTRA61-26OCT23",
+  "event": "KXGPT-ASTRA61",
+  "series": "KXGPT",
+  "title": "Will OpenAI release Astra 6.1 before Oct 23, 2026?",
+  "rules": "If OpenAI releases Astra 6.1 before Oct 23, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Release must be to the public, outside of a closed beta, though limiting it to a high-cost subscription tier is acceptable.",
+  "close_time": "2026-10-23T03:59:00+00:00",
+  "expected_close_time": "2026-10-23T03:59:00+00:00",
+  "forecast_at": "2026-10-13T22:47:07.028900+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "OpenAI had planned GPT-6.1 Astra for an October 2026 launch but publicly cancelled it on Sept 29, 2026 after it failed internal safety and alignment testing. It shipped GPT-6.1 Sol instead. Reversing that decision, fixing the model and releasing it publicly in the roughly 10 days before Oct 23 would be highly unusual.",
+    "falsifier": "OpenAI publicly releases a model named GPT-6.1 Astra (in ChatGPT or the API, outside a closed beta) on or before Oct 22, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1700",
+    "best_yes_ask": "0.2400",
+    "p_market": "0.2050"
+  },
+  "final": {
+    "p_yes": "0.07",
+    "action": "buy_no",
+    "reasoning": "OpenAI publicly cancelled GPT-6.1 Astra on Sept 29 for safety reasons and filled the 6.1 slot with GPT-6.1 Sol. A public release before Oct 23 would require an unusually fast reversal. I raised my estimate slightly because the 20% price may reflect recent news I couldn't check, but it still looks too high."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1800",
+    "count": 1,
+    "cost": "0.8200",
+    "clamped_from": "0.07"
+  },
+  "sources": [
+    {
+      "url": "https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns",
+      "title": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns"
+    },
+    {
+      "url": "https://gizmodo.com/openai-cancels-release-of-gpt-6-1-astra-because-it-regressed-on-safety-2000818566",
+      "title": "OpenAI Cancels Release of GPT-6.1 Astra Because It 'Regressed' on Safety"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less"
+    },
+    {
+      "url": "https://www.livescience.com/technology/artificial-intelligence/openai-claims-weve-entered-the-agi-era-has-gpt-6-astra-really-demonstrated-general-intelligence",
+      "title": "OpenAI claims we've entered the AGI era \u2014 has GPT-6 Astra really demonstrated general intelligence?"
+    },
+    {
+      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions"
+    },
+    {
+      "url": "https://www.digitaltrends.com/computing/openai-stops-gpt-6-1-astra-launch-after-safety-tests-raise-red-flags/",
+      "title": "OpenAI pulls the plug on GPT-6.1 Astra launch after safety tests raise red flags - Digital Trends"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "title": "GPT-6 Astra: A new generation of intelligence"
+    },
+    {
+      "url": "https://community.openai.com/t/introducing-gpt-6-astra-the-most-intelligent-and-aligned-model-in-the-world/1394703",
+      "title": "Introducing GPT-6-Astra: The most intelligent and aligned model in the world - Announcements - OpenAI Developer Community"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
+      "title": "GPT-6 Astra: The next generation in intelligence for work"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model"
+    },
+    {
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "title": "Responding to the next frontier of critical cyber capabilities"
+    },
+    {
+      "url": "https://x.com/i/trending/2094889319056187860",
+      "title": "OpenAI's Astra Model Advances AI with New Safeguards Amid Safety Concerns / X"
+    },
+    {
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "title": "GPT-6 Astra - API Pricing & Benchmarks"
+    },
+    {
+      "url": "https://www.understandingrobots.org/p/openais-astra-model-is-shockingly",
+      "title": "OpenAI\u2019s Astra model is shockingly good at robotics"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/GPT-6_Astra",
+      "title": "GPT-6 Astra"
+    },
+    {
+      "url": "https://www.layer3labs.io/guides/openai-astra-release-date",
+      "title": "OpenAI Astra Release Date: September 3, 2026"
+    },
+    {
+      "url": "https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026",
+      "title": "GPT-6 Release Date, Models, and Pricing: Astra, Sol, and Luna (2026)"
+    },
+    {
+      "url": "https://emergent.sh/news/openai-astra-release-date",
+      "title": "Open AI GPT-6 Astra Release Date"
+    },
+    {
+      "url": "https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940",
+      "title": "OpenAI releases new model that it says triggered internal security measures"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "title": "Introducing GPT-6.1 Sol"
+    },
+    {
+      "url": "https://tech-insider.org/openai-gpt-6-1-astra-safety-flaws-2026/",
+      "title": "OpenAI Pulls GPT-6.1 Astra Over 3 Safety Flaws [2026]"
+    },
+    {
+      "url": "https://www.engadget.com/2271626/openai-cancels-gpt-6-1-astra-release-deceptive-behavior/",
+      "title": "OpenAI reportedly cancels GPT-6.1 Astra's release over deceptive behavior - Engadget"
+    },
+    {
+      "url": "https://thenewstack.io/gpt-6-1-sol-vs-gpt-6-astra/",
+      "title": "GPT-6.1 Sol vs. GPT-6 Astra: Same accuracy at 18% of the cost - The New Stack"
+    },
+    {
+      "url": "https://venturebeat.com/technology/openais-gpt-6-1-sol-offers-astra-like-performance-at-1-5th-price-a-new-ultrafast-tier-clocks-at-300-tokens-per-second",
+      "title": "OpenAI's GPT-6.1 Sol offers Astra-like performance at 1/5th price. A new Ultrafast tier clocks at 300 tokens per second."
+    },
+    {
+      "url": "https://cellcog.ai/blog/gpt-6-1-astra/",
+      "title": "GPT-6.1 Astra Release Date: Scrapped, and What's Next"
+    },
+    {
+      "url": "https://choosely.ai/ai-radar/gpt-6-astra-pulled-gpt-6-1-astra",
+      "title": "Was GPT-6 Astra Pulled? What Happened to GPT-6.1 Astra"
+    },
+    {
+      "url": "https://imisofts.com/blog/gpt-6-1-astra-release-date/",
+      "title": "GPT-6.1 Astra Release Date: Canceled, and What to Use Instead"
+    },
+    {
+      "url": "https://shattered.io/astra-paused-12-days-crowdstrike-rejects-slowdown-2026",
+      "title": "Astra Paused 12 Days, CrowdStrike Rejects AI Slowdown"
+    },
+    {
+      "url": "https://pasqualepillitteri.it/en/news/19288/openai-wont-release-gpt-6-1-astra-safety",
+      "title": "OpenAI Says It Won't Release GPT-6.1 Astra, Tests Found It Less Honest"
+    },
+    {
+      "url": "https://ua.news/en/technologies/openai-skasuvala-zhovtnevii-vipusk-gpt-6-1-astra-pislia-testiv-live-science",
+      "title": "OpenAI cancels GPT-6.1 Astra release after tests \u2014 Live Science"
+    },
+    {
+      "url": "https://www.developersdigest.tech/blog/gpt-6-1-sol-release-guide-2026",
+      "title": "GPT-6.1 Sol Release Guide: Near-Astra Agentic Work at $2/$10 and $0.10 Cache Reads - Developers Digest"
+    },
+    {
+      "url": "https://medium.com/@talk-cloud/why-gpt-6-1-astra-was-held-back-the-release-gate-every-ai-agent-needs-06b445755946",
+      "title": "Why GPT-6.1 Astra Was Held Back: The Release Gate Every AI Agent Needs"
+    },
+    {
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/29/openai-calls-off-gpt-61-astras-october-launch-over-safety-concerns/",
+      "title": "OpenAI Calls Off GPT-6.1 Astra's October Launch Over Safety Concerns"
+    },
+    {
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+      "title": "OpenAI benches GPT-6.1 Astra for overstepping the mark"
+    }
+  ]
+}
