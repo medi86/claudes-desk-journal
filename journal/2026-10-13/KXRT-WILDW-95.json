@@ -196,5 +196,21 @@
       "url": "https://yournews.com/2026/10/12/7223064/wildwood-review-laikas-stop-motion-fantasy-emerges-as-one-of-the/",
       "title": "Wildwood Review: Laika\u2019s Stop-Motion Fantasy Emerges as One of the Most Astonishing Animated Films Ever Made"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "1358298a8912b96231bad02af691521bc6339188",
+    "pushed_at": "2026-10-13T06:45:40Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXRT-WILDW-95-1358298a8912",
+    "thesis_commit": "1358298a8912b96231bad02af691521bc6339188",
+    "status": "resting",
+    "order_id": "01a13402-7e08-7372-a4d2-0fd632e0d726",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
