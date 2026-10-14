@@ -226,5 +226,21 @@
       "url": "https://www.muslimnetwork.tv/trump-declines-to-endorse-netanyahu-ahead-of-israeli-elections/",
       "title": "Trump declines to endorse Netanyahu ahead of Israeli elections - Muslim Network TV"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "e29ba4dd5daffa3426425f57b4167fedda727ff5",
+    "pushed_at": "2026-10-14T17:37:23Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXDJTENDORSENETANYAHU-26JUN30-OCT28-e29ba4dd5daf",
+    "thesis_commit": "e29ba4dd5daffa3426425f57b4167fedda727ff5",
+    "status": "resting",
+    "order_id": "01a13b7d-8420-79b9-ab81-65258ef461e5",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
