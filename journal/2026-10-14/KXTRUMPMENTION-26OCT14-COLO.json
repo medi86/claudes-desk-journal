@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT14-COLO",
+  "event": "KXTRUMPMENTION-26OCT14",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during Midterm Rally in Bullhead City, Arizona originally scheduled for October 14, 2026? Colorado River",
+  "rules": "If \n Donald Trump says Colorado River as part of Midterm Rally in Bullhead City, Arizona originally scheduled for October 14, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Midterm Rally in Bullhead City, Arizona originally scheduled for October 14, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Midterm Rally in Bullhead City, Arizona originally scheduled for October 14, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-10-28T14:00:00+00:00",
+  "expected_close_time": "2026-10-28T14:00:00+00:00",
+  "forecast_at": "2026-10-14T17:34:14.669582+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.4",
+    "reasoning": "The rally sits right on the Colorado River, and the administration's large cuts to Arizona's river water are a big issue in the state this year, so Trump might name the river while riffing on the location or on water. But the cuts hurt his own side, so he may steer clear. He could also say only 'the river' or 'water', and his standard midterm speech doesn't need the topic. A single mention of the exact phrase is enough, so this is close to a coin flip, leaning slightly toward NO.",
+    "falsifier": "A transcript or video of the October 14 Bullhead City speech in which Trump says 'Colorado River' (for example, about water cuts, boaters or the view), or a cancellation that resolves the market as 'Event does not qualify'.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3400",
+    "best_yes_ask": "0.3500",
+    "p_market": "0.3450"
+  },
+  "final": {
+    "p_yes": "0.37",
+    "action": "pass",
+    "reasoning": "The market at 0.345 is close to my independent estimate of about 0.40, so I'm shading down slightly. The remaining edge over the ask is only about 2 cents, too small to justify a trade given how uncertain I am."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-bullhead-city-arizona-president-donald-j-trump",
+      "title": "Midterm Rally in Bullhead City, Arizona featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.reviewjournal.com/news/politics-and-government/trump-to-rally-in-nearby-bullhead-city-3899113/",
+      "title": "Donald Trump to rally in Bullhead City, Arizona on Oct. 14, 2026"
+    },
+    {
+      "url": "https://www.fox5vegas.com/2026/10/12/president-trump-headline-midterm-rally-bullhead-city/",
+      "title": "President Trump to headline midterm rally in Bullhead City"
+    },
+    {
+      "url": "https://ktar.com/arizona-politics-news/election/donald-trump-bullhead-city",
+      "title": "Donald Trump plans Bullhead City rally for Oct. 14 - KTAR.com"
+    },
+    {
+      "url": "https://www.12news.com/article/news/politics/elections/what-we-know-president-trump-political-rally-bullhead-city-arizona-wednesday/75-d0e289ca-69d9-4eda-b0e6-aaafeca5958d",
+      "title": "What we know about President Trump's political rally in Bullhead City on Wednesday"
+    },
+    {
+      "url": "https://www.wfsb.com/video/2026/10/13/trump-host-campaign-rally-bullhead-city/",
+      "title": "Trump to host campaign rally at Bullhead City"
+    },
+    {
+      "url": "https://hoodline.com/2026/10/trump-rally-set-for-bullhead-city-airport-during-arizona-early-voting/",
+      "title": "Trump Bullhead City Rally Planned for October 14"
+    },
+    {
+      "url": "https://www.fox5vegas.com/video/2026/10/13/trump-host-campaign-rally-bullhead-city/",
+      "title": "Trump to host campaign rally at Bullhead City"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/know-president-trumps-political-rally-190527516.html",
+      "title": "What we know about President Trump's political rally in Bullhead City on Wednesday"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/watch-president-trumps-speech-bullhead-195635854.html",
+      "title": "How to watch President Trump's speech in Bullhead City"
+    },
+    {
+      "url": "https://nevadagop.org/event/midterm-rally-in-bullhead-city-for-president-trump/",
+      "title": "Events for October 2026"
+    },
+    {
+      "url": "https://www.azfamily.com/2026/10/14/trump-campaigns-bullhead-city-wednesday-part-midterm-rally-blitz/",
+      "title": "Trump campaigns in Bullhead City Wednesday as part of midterm rally blitz"
+    },
+    {
+      "url": "https://coloradosun.com/2026/05/22/trump-administration-historic-colorado-river-rights-deal-shoshone/",
+      "title": "Trump administration releases $40 million for historic Colorado River water rights purchase"
+    },
+    {
+      "url": "https://www.eenews.net/articles/the-wests-moment-of-reckoning-is-here-on-the-colorado-river/",
+      "title": "The West\u2019s moment of reckoning is here on the Colorado River - E&E News by POLITICO"
+    },
+    {
+      "url": "https://thenevadaglobe.com/articles/trump-returns-west-president-to-overnight-in-las-vegas-before-bullhead-city-rally-across-from-laughlin/",
+      "title": "TRUMP RETURNS WEST: President to Overnight in Las Vegas Before Bullhead City Rally Across From Laughlin - Nevada Globe"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5940831/colorado-river-crisis-lower-basin-braces-for-massive-federal-water-cuts",
+      "title": "Colorado River crisis: Lower basin braces for massive federal water cuts : NPR"
+    },
+    {
+      "url": "https://www.eenews.net/articles/interior-advances-colorado-river-plan-with-draconian-cuts-for-arizona/",
+      "title": "Interior advances Colorado River plan with \u2018draconian\u2019 cuts for Arizona - E&E News by POLITICO"
+    },
+    {
+      "url": "https://azmirror.com/2026/07/31/the-trump-administrations-draconian-water-cuts-could-gut-arizona-colorado-river-supply/",
+      "title": "The Trump administration's \u2018draconian\u2019 water cuts could gut Arizona\u2019s Colorado River supply"
+    },
+    {
+      "url": "https://www.spokesman.com/stories/2026/jul/31/trump-administration-releases-long-awaited-10-year/",
+      "title": "Trump administration releases long-awaited 10-year plan for dwindling Colorado River"
+    },
+    {
+      "url": "https://www.npr.org/2026/07/26/nx-s1-5904997/trump-administration-to-announce-rules-for-how-states-will-share-the-colorado-river",
+      "title": "Trump administration to announce rules for how states will share the Colorado River : NPR"
+    },
+    {
+      "url": "https://www.eenews.net/articles/trump-official-says-lawmakers-open-to-waiving-environmental-rules-along-colorado-river/",
+      "title": "Trump official says lawmakers open to waiving environmental rules along Colorado River - E&E News by POLITICO"
+    },
+    {
+      "url": "https://www.unionleader.com/news/environment/trump-administration-releases-long-awaited-10-year-plan-for-dwindling-colorado-river/article_f834d287-e062-4a27-83cc-07d70889e951.html",
+      "title": "Trump administration releases long-awaited 10-year plan for dwindling Colorado River"
+    },
+    {
+      "url": "https://www.cpr.org/2026/05/22/shoshone-water-rights-deal-colorado-river-trump/",
+      "title": "Trump administration releases $40 million for Shoshone water rights deal"
+    },
+    {
+      "url": "https://coloradosun.com/2026/05/14/colorado-river-basin-partial-federal-funding-trump-administration/",
+      "title": "Feds release $47 million for Colorado water projects after long delay"
+    },
+    {
+      "url": "https://news3lv.com/news/local/trump-midterm-campaign-rally-bullhead-city-arizona-colorado-river-laughlin-politics-nevada-election-voting",
+      "title": "Trump to host midterm campaign rally in Bullhead City"
+    },
+    {
+      "url": "https://www.azfamily.com/2026/10/10/president-trump-visit-arizona-ahead-midterms/",
+      "title": "President Trump to visit Arizona ahead of the midterms"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-arizona-president-heads-bullhead-140109243.html",
+      "title": "Trump in Arizona: President heads to Bullhead City for rally"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-trump-hold-rally-bullhead-135145074.html",
+      "title": "President Trump to hold rally in Bullhead City today as midterm election approaches"
+    },
+    {
+      "url": "https://www.12news.com/article/news/politics/elections/president-trump-rally-bullhead-city-arizona-today-midterm-election-andy-biggs/75-b025303b-9b37-4f82-89c7-a643fafab533",
+      "title": "President Trump to hold rally in Bullhead City today as midterm election approaches"
+    },
+    {
+      "url": "https://www.kltv.com/video/2026/10/13/trump-host-campaign-rally-bullhead-city/",
+      "title": "Trump to host campaign rally at Bullhead City"
+    },
+    {
+      "url": "https://www.12news.com/article/news/politics/elections/how-to-watch-president-donald-trump-speech-bullhead-city-arizona/75-401fc06c-0a7d-4c0c-b62e-869ea33466a5",
+      "title": "How to watch President Trump's speech in Bullhead City"
+    },
+    {
+      "url": "https://news3lv.com/news/local/president-donald-trump-rally-bullhead-city-arizona-laughlin-las-vegas-nevada-politics-midterm-elections-gop-republican-party-voting",
+      "title": "Trump arrives in Las Vegas ahead of Bullhead City rally for Arizona GOP"
+    },
+    {
+      "url": "https://www.fox10phoenix.com/election/president-trump-headlines-bullhead-city-rally-campaign-arizona-republicans",
+      "title": "President Trump headlines Bullhead City rally to campaign for Arizona Republicans"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/donald-trump-rally-speech-transcript-bullhead-city-az-october-28",
+      "title": "Donald Trump Rally Transcript Bullhead City, AZ"
+    },
+    {
+      "url": "https://www.12news.com/video/news/politics/elections/president-trump-is-bringing-the-push-to-bullhead-city-hoping-to-turn-a-republican-stronghold-into-a-big-boost-for-gop-candidates/75-dac42f8b-d762-448b-bfa6-6ba1e07377bc",
+      "title": "President Trump is bringing the push to Bullhead City, hoping to turn a Republican stronghold into a big boost for GOP candidates"
+    }
+  ]
+}

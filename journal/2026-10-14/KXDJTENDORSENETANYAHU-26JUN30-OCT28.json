@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "ticker": "KXDJTENDORSENETANYAHU-26JUN30-OCT28",
+  "event": "KXDJTENDORSENETANYAHU-26JUN30",
+  "series": "KXDJTENDORSENETANYAHU",
+  "title": "Will Donald Trump endorse Benjamin Netanyahu in the 2026 Israeli legislative election before Oct 28, 2026?",
+  "rules": "If Donald Trump publicly endorses Benjamin Netanyahu in the 2026 Israeli legislative election before Oct 28, 2026, then the market resolves to Yes.",
+  "rules_secondary": "An endorsement requires a clear, affirmative statement of support for the nominee's election. The statement must be public (not private communications) and specifically reference the race or be clearly in context of the race. The endorsement must come directly from the person or through their official channels. Positive comments without explicit support, policy endorsements without nominee endorsement, or conditional endorsements do not qualify. Social media endorsements count only from verified accounts, and likes or retweets alone do not constitute endorsement. Quote tweets with additional supportive commentary do count. Sarcastic statements or those immediately clarified as jokes do not qualify.",
+  "close_time": "2026-10-28T14:00:00+00:00",
+  "expected_close_time": "2026-10-28T14:00:00+00:00",
+  "forecast_at": "2026-10-14T17:34:14.669582+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.25",
+    "reasoning": "As of about two weeks before Israel's October 27 election, Trump has repeatedly declined to endorse Netanyahu. He has dodged direct questions, praised him in the past tense and said it's 'most appropriate' to stay out, while still saying he 'may be doing something.' His record of foreign endorsements and personal closeness to Netanyahu leave a real chance of a late Truth Social endorsement. But months of hedging, Netanyahu's weak polls and Republican skepticism make NO more likely under the strict explicit-endorsement rule.",
+    "falsifier": "Before October 28, Trump posts on Truth Social or says publicly that Israelis should vote for or re-elect Netanyahu, or that he gives Netanyahu his 'Complete and Total Endorsement.'",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3200",
+    "best_yes_ask": "0.3500",
+    "p_market": "0.3350"
+  },
+  "final": {
+    "p_yes": "0.28",
+    "action": "buy_no",
+    "reasoning": "The market at 33.5% is somewhat above my estimate. I nudged up slightly for Trump's 'may be doing something' hint, but his repeated dodges, past-tense praise and Netanyahu's poor polling still make an explicit endorsement less likely than the price implies."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.3300",
+    "count": 1,
+    "cost": "0.6700",
+    "clamped_from": "0.28"
+  },
+  "sources": [
+    {
+      "url": "https://www.breitbart.com/politics/2026/10/13/trump-may-endorse-somebody-netanyahu-faces-pivotal-israeli-election/",
+      "title": "Trump Says He \u2018May Endorse Somebody\u2019 as Netanyahu Faces Pivotal Israeli Election"
+    },
+    {
+      "url": "https://ground.news/article/despite-long-history-with-netanyahu-trump-hedges-as-israel-vote-nears",
+      "title": "In Blow to Netanyahu, Trump Again Stops Short of Endorsing Candidate in Israeli Election"
+    },
+    {
+      "url": "https://ua.news/en/world/prezident-tramp-ne-pidtrimav-netaniagu-pered-viborami-v-izrayili-al-jazeera",
+      "title": "Trump did not endorse Netanyahu before Israel elections \u2014 Al Jazeera"
+    },
+    {
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-911600",
+      "title": "Donald Trump refuses to endorse Israeli election candidate, in blow to Benjamin Netanyahu"
+    },
+    {
+      "url": "https://www.israel.com/news/trump-says-he-may-be-doing-something-on-israels-october-27-election",
+      "title": "Trump says he 'may be doing something' on Israel's October 27 election"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/despite-long-history-netanyahu-trump-054010449.html",
+      "title": "Despite long history with Netanyahu, Trump hedges as Israel vote nears"
+    },
+    {
+      "url": "https://ground.news/article/trump-declines-to-endorse-netanyahu-ahead-of-israeli-elections_1f5ea2",
+      "title": "Trump declines to endorse Netanyahu ahead of Israeli elections"
+    },
+    {
+      "url": "https://www.middleeastmonitor.com/20261001-trump-declines-to-endorse-netanyahu-ahead-of-israeli-elections/",
+      "title": "Trump declines to endorse Netanyahu ahead of Israeli elections"
+    },
+    {
+      "url": "https://news.meaww.com/trump-says-he-may-endorse-somebody-as-benjamin-netanyahu-faces-key-israeli-election",
+      "title": "Trump says he \u2018may endorse somebody\u2019 as Benjamin Netanyahu faces key Israeli election"
+    },
+    {
+      "url": "https://www.aol.com/articles/trump-refuses-support-netanyahu-israel-130600000.html",
+      "title": "Trump refuses to support Netanyahu in Israel election in awkward interview - AOL"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/13/despite-long-history-with-netanyahu-trump-hedges-as-israel-vote-nears",
+      "title": "Despite long history with Netanyahu, Trump hedges as Israel vote nears"
+    },
+    {
+      "url": "https://www.hngn.com/articles/273502/20261013/trump-still-wont-endorse-netanyahu-two-weeks-before-israel-vote.htm",
+      "title": "Trump Still Won't Endorse Netanyahu Two Weeks Before Israel Vote"
+    },
+    {
+      "url": "https://www.axios.com/2026/08/14/trump-netanyahu-israel-election-endorsement",
+      "title": "Trump stops short of endorsing Bibi as his campaign falters"
+    },
+    {
+      "url": "https://www.anews.com.tr/world/2026/10/01/trump-declines-to-endorse-netanyahu-ahead-of-israeli-elections",
+      "title": "Trump declines to endorse Netanyahu ahead of Israeli elections"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/1/despite-praise-and-white-house-visits-trump-avoids-endorsing-netanyahu",
+      "title": "Despite praise and White House visits, Trump avoids endorsing Netanyahu"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "title": "2026 Israeli legislative election"
+    },
+    {
+      "url": "https://thestateofisrael.com/election-2026",
+      "title": "Israel Elections 2026: Date, Polls, Parties, Candidates"
+    },
+    {
+      "url": "https://www.britannica.com/event/2026-Israeli-Elections",
+      "title": "2026 Israeli Elections"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/26th_Knesset",
+      "title": "26th Knesset"
+    },
+    {
+      "url": "https://www.nbn.org.il/life-in-israel/employment/the-israeli-elections/",
+      "title": "The Israeli Elections - Nefesh B'Nefesh"
+    },
+    {
+      "url": "https://jewishcenterforjustice.org/israelelections/",
+      "title": "Understanding Israel\u2019s 2026 Election"
+    },
+    {
+      "url": "https://sundayguardianlive.com/world/israel-election-2026-date-when-will-israelis-vote-for-the-26th-knesset-check-election-day-polling-timings-and-other-key-dates-295646/",
+      "title": "Israel Election 2026 Date: When Will Israelis Vote For The 26th Knesset? Check Election Day, Polling Timings And Other Key Dates"
+    },
+    {
+      "url": "https://thestateofisrael.com/campaign",
+      "title": "Israel Election 2026: Date, Polls, Parties, Candidates"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/17/knesset-dissolves-how-will-israel-vote-in-octobers-general-election",
+      "title": "Knesset dissolves: How will Israel vote in October\u2019s general election?"
+    },
+    {
+      "url": "https://www.kas.de/en/web/israel/israel-votes-on-new-knesset",
+      "title": "Israel votes on new Knesset - Foundation Office Israel - Konrad-Adenauer-Stiftung"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-posts-3-newsmax-stories-144656113.html",
+      "title": "Trump Posts 3 Newsmax Stories to Truth Social, Touts Netanyahu Poll Numbers"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-shares-channel-13-election-183157186.html",
+      "title": "Trump shares Channel 13 election poll showing Netanyahu's bloc leading with 54 seats"
+    },
+    {
+      "url": "https://www.wsls.com/news/world/2026/10/01/trump-sidesteps-questions-on-endorsing-netanyahu-before-oct-27-israeli-elections/",
+      "title": "Trump sidesteps questions on endorsing Netanyahu before Oct. 27 Israeli elections"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/1/donald-trump-sidesteps-questions-endorsing-netanyahu-oct-27-israeli/",
+      "title": "Trump sidesteps questions on endorsing Netanyahu before Oct. 27 Israeli elections"
+    },
+    {
+      "url": "https://time.com/7297951/trump-netanyahu-friend-relationship-israel-prime-minister-corruption-trial-politics/",
+      "title": "Trump Tries to \u2018Save\u2019 Netanyahu From Israeli Challenges"
+    },
+    {
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-13/ty-article/.premium/trump-says-he-may-endorse-a-candidate-in-israels-upcoming-election/000001a1-362f-d610-a5bb-373f42510000",
+      "title": "Trump Says He 'May' Endorse a Candidate in Israel's Upcoming Election - Israel Elections 2026"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+      "title": "Trump warns Houthis of Iran's role in resurgence before ballistic missile strikes Saudi oil giant"
+    },
+    {
+      "url": "https://www.timesofisrael.com/liveblog_entry/trump-i-havent-even-thought-about-endorsing-in-israeli-election-but-i-may-do-so/",
+      "title": "Trump: I 'haven't even thought' about endorsing in Israeli election, but may do so"
+    },
+    {
+      "url": "https://forward.com/opinion/855725/trump-netanyahu-endorsement-loving-israel-not-same-as-loving-bibi/",
+      "title": "Trump may endorse Netanyahu. But loving Israel is not the same as loving Bibi."
+    },
+    {
+      "url": "https://jewishpostandnews.ca/uncategorized/trump-may-endorse-netanyahu-but-loving-israel-is-not-the-same-as-loving-bibi/",
+      "title": "Trump may endorse Netanyahu. But loving Israel is not the same as loving Bibi. - Jewish Post and News"
+    },
+    {
+      "url": "https://www.timesofisrael.com/netanyahu-reportedly-pressed-trump-to-renew-iran-fighting-before-israeli-and-us-elections/",
+      "title": "Netanyahu reportedly pressed Trump to renew Iran fighting before Israeli and US elections"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/01/trump-time-interview-iran-democrats-ai-netanyahu",
+      "title": "5 takeaways from Trump's combative Time interview"
+    },
+    {
+      "url": "https://www.israelhayom.com/2026/10/01/trump-stops-short-of-backing-netanyahu-eisenkot-i-dont-hear-bad-things-about-him/",
+      "title": "Trump stops short of backing Netanyahu: 'Eisenkot? I don't hear bad things about him'"
+    },
+    {
+      "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview/",
+      "title": "What Trump Has Built"
+    },
+    {
+      "url": "https://www.wichitaliberty.org/politics/trump-time-interview-summary/",
+      "title": "Trump TIME Interview Summary: Iran, Fed, AI and Courts"
+    },
+    {
+      "url": "https://www.aol.com/articles/read-full-transcript-donald-trump-110004000.html",
+      "title": "Read the Full Transcript of Donald Trump\u2019s 2026 Interview With TIME - AOL"
+    },
+    {
+      "url": "https://www.rollingstone.com/politics/politics-news/trump-explodes-reporter-time-interview-1235635165/",
+      "title": "Trump Explodes on Reporter During 'Time' Interview"
+    },
+    {
+      "url": "https://www.jpost.com/israel-news/article-910334",
+      "title": "Donald Trump claims not to believe reports Benjamin Netanyahu received warnings about Oct. 7"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6123793-trump-criticizes-time-interview/",
+      "title": "Donald Trump slams Time staff during interview for not asking 'one f---ing positive question'"
+    },
+    {
+      "url": "https://en.yenisafak.com/world/trump-declines-to-back-netanyahu-ahead-of-israeli-vote-3723986",
+      "title": "Trump declines to back Netanyahu ahead of Israeli vote"
+    },
+    {
+      "url": "https://www.muslimnetwork.tv/trump-declines-to-endorse-netanyahu-ahead-of-israeli-elections/",
+      "title": "Trump declines to endorse Netanyahu ahead of Israeli elections - Muslim Network TV"
+    }
+  ]
+}
