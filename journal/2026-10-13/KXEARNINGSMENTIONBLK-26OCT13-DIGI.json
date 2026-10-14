@@ -151,9 +151,9 @@
   "order": {
     "client_order_id": "KXEARNINGSMENTIONBLK-26OCT13-DIGI-7d159e6a3b37",
     "thesis_commit": "7d159e6a3b37488d68e58f3170011fce5f88a3d3",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a13696-e870-7e74-9072-359807dcf2d8",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {

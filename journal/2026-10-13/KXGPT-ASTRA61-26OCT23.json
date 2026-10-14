@@ -191,9 +191,9 @@
   "order": {
     "client_order_id": "KXGPT-ASTRA61-26OCT23-eebb6ca56424",
     "thesis_commit": "eebb6ca56424fd07fc3e7d96dc9174998af665ec",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a13773-a440-72ff-b2b1-d158b12f6197",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
