@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "ticker": "KXDWTSELIMINATION-26OCT21-TCAM",
+  "event": "KXDWTSELIMINATION-26OCT21",
+  "series": "KXDWTSELIMINATION",
+  "title": "Will Tyler Cameron and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+  "rules": "If Tyler Cameron and their partner are officially eliminated from Dancing with the Stars Season 35 before Oct 21, 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nThe declaration must be made through official program broadcast, website, verified social media, or press releases.\nIf the season is canceled without declaring eliminations, the market resolves to No.\n\nPayout criteria\nElimination includes being voted off, evicted, knocked out, removed from further contention, voluntary withdrawal, disqualification, or producer removal.\nMultiple simultaneous eliminations count.\nInitial elimination counts even if the contestant later returns.\n\nDoesn't count for payout\nEliminations immediately reversed in the same episode don't count.\nTemporary suspensions, medical holds, or being runner-up in the finale don't count as elimination. \n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-21T03:59:00+00:00",
+  "expected_close_time": "2026-10-21T03:59:00+00:00",
+  "forecast_at": "2026-10-14T21:37:29.524868+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.36",
+    "reasoning": "Only one episode (Week 6, Oct 20, probably a single elimination among 10 couples) remains before the market closes. Tyler was in the bottom two in Week 5 even though two couples scored lower, so his fan vote is weak and he is one of the likeliest to go. His emotional Dedication Night tribute to his late mother, improving scores, and Guillermo's fans voting elsewhere could keep him safe, so I put him below even odds.",
+    "falsifier": "Tyler and Sharna are announced safe at the end of the October 20 Dedication Night episode (or no elimination occurs that night), which would resolve NO.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.covers.com/entertainment/dwts-season-35-episode-6-elimination-odds"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [
+    "10% base rate but below even odds"
+  ],
+  "market": {
+    "best_yes_bid": "0.2200",
+    "best_yes_ask": "0.2600",
+    "p_market": "0.2400"
+  },
+  "final": {
+    "p_yes": "0.3",
+    "action": "buy_yes",
+    "reasoning": "The liquid market at 0.24 makes me shade my estimate down, but Tyler's Week 5 bottom-two finish despite outscoring two couples points to weak fan votes. That supports about 30% for the single remaining episode, modestly above the 0.26 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.2500",
+    "count": 1,
+    "cost": "0.2500",
+    "clamped_from": "0.30"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "title": "Dancing with the Stars (American TV series) season 35"
+    },
+    {
+      "url": "https://michaelfairmantv.com/tyler-cameron-joins-the-cast-of-season-35-of-dancing-with-the-stars/2026/08/20/",
+      "title": "Tyler Cameron Joins the Cast of Season 35 of 'Dancing with the Stars' - Michael Fairman TV"
+    },
+    {
+      "url": "https://www.hgtv.com/shows/new-on-hgtv/tyler-cameron-dancing-with-the-stars",
+      "title": "HGTV Host Tyler Cameron Is 'Dancing With the Stars'"
+    },
+    {
+      "url": "https://www.ncaa.com/news/ncaa/article/2026-09-15/meet-former-ncaa-student-athletes-dancing-stars-season-35",
+      "title": "Meet the former NCAA student-athletes on 'Dancing with the Stars' Season 35"
+    },
+    {
+      "url": "https://abc7.com/post/dancing-stars-season-35-cast-full-celebrity-lineup-pro-partners/19777056/",
+      "title": "'Dancing with the Stars' Season 35 cast: Full celebrity lineup and pro partners - ABC7 Los Angeles"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-super-bowl-week-5-recap-scores-elimination-1236729153/",
+      "title": "DWTS Season 35 Super Bowl Night Week 5 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-5-rcna601966",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Super Bowl Week: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-first-ever-super-124243692.html",
+      "title": "'Dancing with the Stars' first-ever Super Bowl Night sends lowest-scoring couple home"
+    },
+    {
+      "url": "https://www.deseret.com/entertainment/2026/10/14/dancing-with-the-stars-super-bowl-night-recap/",
+      "title": "Fan-favorite Guillermo Rodriguez eliminated from \u2018Dancing with the Stars\u2019"
+    },
+    {
+      "url": "https://www.eonline.com/news/1437043/dancing-with-the-stars-eliminates-guillermo-rodriguez-in-super-bowl-week",
+      "title": "Dancing With the Stars Eliminates Major Fan Favorite During Super Bowl Week"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-elimination-guillermo-rodriguez-190639403.html",
+      "title": "'Dancing with the Stars' elimination: Guillermo Rodriguez sent home during Week 5"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/fan-favorite-guillermo-rodriguez-eliminated-191319195.html",
+      "title": "Fan-favorite Guillermo Rodriguez eliminated from \u2018Dancing with the Stars\u2019"
+    },
+    {
+      "url": "https://www.dancemogul.com/dwts-week-5-results-2026-super-bowl-night/",
+      "title": "DWTS Week 5 Results 2026: Guillermo Rodriguez Eliminated on Super Bowl Night"
+    },
+    {
+      "url": "https://parade.com/news/who-went-home-dancing-with-the-stars-2026-tonight-week-5-elimination",
+      "title": "Who Went Home on \u2018Dancing With the Stars\u2019 Last Night? Season 35 Week 5 Results and Eliminations (Spoilers) - Parade"
+    },
+    {
+      "url": "https://www.tvinsider.com/1297039/dancing-with-the-stars-super-bowl-night-2026-scores-eliminated-recap/",
+      "title": "'Dancing With the Stars' Super Bowl Night 2026 Recap: Guillermo Rodriguez Eliminated"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/week-5-recap-results-super-bowl-night/",
+      "title": "Who Gets Eliminated Tonight on \u2018Dancing with the Stars\u2019 2026 Week 5 'Super Bowl Night' Spoilers - LIVE"
+    },
+    {
+      "url": "https://www.dancemogul.com/dancing-with-the-stars-news/",
+      "title": "Dancing with the Stars 2026: Season 35 News & Eliminations"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/eliminated-dwts-last-night-fan-145027135.html",
+      "title": "Who was eliminated on 'DWTS' last night? Fan favorite sent home"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-yacht-rock-week-3-recap-scores-elimination-1236714613/",
+      "title": "DWTS Season 35 Yacht Rock Night Week 3 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/got-eliminated-dancing-stars-week-143752331.html",
+      "title": "Who got eliminated on 'Dancing with the Stars' Week 5? See scores"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-2-rcna599078",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Week 2: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/went-home-dwts-last-night-161622479.html",
+      "title": "Who went home on \u2018DWTS\u2019 last night? See \u2018Super Bowl Night\u2019 scores"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/2026/09/sharna-burgess-britt-stewart-dwts-elimination/",
+      "title": "Sharna Burgess Defends Britt Stewart After Surprise Elimination on DWTS, 'It's Not on Her'"
+    },
+    {
+      "url": "https://www.tiktok.com/@entertainment_weekly/video/7691195177804811534",
+      "title": "We need to see this freestyle!!! \ud83d\udcaf Tyler Cameron and Sharna Burgess react to tonight's elimination on 'Dancing With the Stars.' #DWTS #dancingwiththestars"
+    },
+    {
+      "url": "https://tvinsider.com/1297039/dancing-with-the-stars-super-bowl-night-2026-scores-eliminated-recap",
+      "title": "'Dancing With the Stars' Super Bowl Night 2026 Recap: Guillermo Rodriguez Eliminated"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-season-35-week-4-recap-who-was-eliminated",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35 Week 4 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-season-35-week-000044465.html",
+      "title": "'Dancing With the Stars' Season 35 Week 4 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-4-rcna600589",
+      "title": "Who Was Eliminated on \u2018DWTS\u2019 Week 4? See the Score Breakdown"
+    },
+    {
+      "url": "https://parade.com/news/who-went-home-dancing-with-the-stars-2026-tonight-week-4-elimination",
+      "title": "Who Went Home on \u2018Dancing With the Stars\u2019 Last Night? Season 35 Week 4 Results and Eliminations (Spoilers) - Parade"
+    },
+    {
+      "url": "https://thepopbreak.com/2026/10/09/dancing-with-the-stars-season-35-week-4-review-now-weve-got-a-competition/",
+      "title": "Dancing With the Stars Season 35 Week 4 Review: Now We've Got a Competition - The Pop Break"
+    },
+    {
+      "url": "https://www.directv.com/insider/dancing-with-the-stars-season-35-week-4/",
+      "title": "'Dancing with the Stars' S35, Week 4 Guide"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/06/dancing-with-the-stars-2026-scores-revealed-for-week-4-mariah-carey-night/",
+      "title": "\u2018Dancing with the Stars\u2019 2026 Scores Revealed for Week 4: \u2018Mariah Carey Night\u2019"
+    },
+    {
+      "url": "https://www.directv.com/insider/dancing-with-the-stars-season-35-week-5/",
+      "title": "'Dancing with the Stars' Season 35, Week 5"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/tyler-cameron-mom-andrea-dedication-night/",
+      "title": "Tyler Cameron Opens up About Honoring His Late Mom on 'Dedication Night' on DWTS"
+    },
+    {
+      "url": "https://countryrebel.com/dancing-with-the-stars-list-of-themes-season-35/",
+      "title": "\"Dancing With The Stars\" Unveils Entire List Of Themed Dances For Season 35"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/01/dancing-with-the-stars-2026-week-4-songs-dance-styles-revealed-for-mariah-carey-night/",
+      "title": "\u2018Dancing with the Stars\u2019 2026 Week 4 Songs & Dance Styles Revealed for 'Mariah Carey' Night"
+    },
+    {
+      "url": "https://justjared.com/2026/10/13/dancing-with-the-stars-2026-scores-revealed-for-week-5-super-bowl-night",
+      "title": "\u2018Dancing with the Stars\u2019 2026 Scores Revealed for Week 5: \u2018Super Bowl Night\u2019"
+    },
+    {
+      "url": "https://thescriptnotes.substack.com/p/dwts-season-35-week-5",
+      "title": "DWTS Season 35 Week 5 - by Isabel Klauminzer"
+    },
+    {
+      "url": "https://deadline.com/2026/10/dancing-with-the-stars-season-35-week-5-recap-super-bowl-1237155960/",
+      "title": "'Dancing With The Stars' Season 35, Week 5 Recap: Super Bowl Night"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-season-35-week-5-recap-who-was-eliminated",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35 Week 5 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-season-35-week-000035395.html",
+      "title": "'Dancing With the Stars' Season 35 Week 5 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/went-home-dwts-last-night-161622899.html",
+      "title": "Who went home on \u2018DWTS\u2019 last night? See \u2018Super Bowl Night\u2019 scores"
+    },
+    {
+      "url": "https://clickoneshirt.com/dwts-elimination-went-home-season-35-premiere/",
+      "title": "DWTS Elimination: Who Went Home in Season 35?"
+    },
+    {
+      "url": "https://soaps.sheknows.com/soaps/news/843886/dancing-with-the-stars-season-35-premiere-double-elimination/",
+      "title": "Dancing With the Stars Season 35 Premiere Will Have Double Elimination"
+    },
+    {
+      "url": "https://www.covers.com/entertainment/dwts-season-35-episode-6-elimination-odds",
+      "title": "DWTS Episode 6 Elimination Odds: Tyler Cameron Favorite to Leave"
+    }
+  ]
+}

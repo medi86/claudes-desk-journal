@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTIONB-26OCT14-COAL",
+  "event": "KXTRUMPMENTIONB-26OCT14",
+  "series": "KXTRUMPMENTIONB",
+  "title": "What will Donald Trump say during Midterm Rally in Kalispell, Montana originally scheduled for October 14, 2026? Coal",
+  "rules": "If \n Donald Trump says Coal as part of Midterm Rally in Kalispell, Montana originally scheduled for October 14, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Midterm Rally in Kalispell, Montana originally scheduled for October 14, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Midterm Rally in Kalispell, Montana originally scheduled for October 14, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-10-28T14:00:00+00:00",
+  "expected_close_time": "2026-10-28T14:00:00+00:00",
+  "forecast_at": "2026-10-14T21:37:29.524868+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.8",
+    "reasoning": "Trump regularly includes 'clean, beautiful coal' in his energy riff, made coal a 2026 White House priority, and has praised Colstrip coal workers at past Montana rallies. The rally is set for tonight with no sign of cancellation, and a single mention over an hour-plus speech is enough. The main risk is that he focuses on timber, oil and gas, or other topics, especially since Kalispell is far from coal country.",
+    "falsifier": "A full transcript or video of the October 14 Kalispell rally shows Trump never saying 'coal', or the rally is cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8900",
+    "best_yes_ask": "0.9000",
+    "p_market": "0.8950"
+  },
+  "final": {
+    "p_yes": "0.85",
+    "action": "pass",
+    "reasoning": "The market at 0.895 probably reflects better knowledge of how often coal comes up in Trump's 2026 rallies, so I moved up from 0.80 to 0.85. A 4.5-point gap with no transcript data isn't enough edge to buy NO."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-kalispell-montana-president-donald-j-trump",
+      "title": "Midterm Rally in Kalispell, Montana featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://flatheadbeacon.com/2026/10/12/president-donald-trump-to-appear-in-kalispell-wednesday/",
+      "title": "President Donald Trump to Appear in Kalispell Wednesday - Flathead Beacon"
+    },
+    {
+      "url": "https://www.montanarightnow.com/elections/president-trump-to-rally-for-aaron-flint-in-kalispell/article_1071ebfd-8c64-4e3d-9732-7e3188889a0f.html",
+      "title": "President Trump to rally for Aaron Flint in Kalispell"
+    },
+    {
+      "url": "https://diamondandsilk.substack.com/p/get-ready-montana-president-donald",
+      "title": "Get Ready, Montana: President Donald J. Trump Heads to Kalispell for a Massive Midterm Rally"
+    },
+    {
+      "url": "https://www.kpax.com/news/montana-legislature/watch-live-at-5-30-pm-trump-rallies-in-kalispell-wednesday-to-support-aaron-flint-in-tight-montana-race",
+      "title": "WATCH LIVE at 5:30 PM: Trump rallies in Kalispell Wednesday to support Aaron Flint in tight Montana race"
+    },
+    {
+      "url": "https://dailyinterlake.com/news/2026/oct/12/trump-will-touch-down-in-flathead-valley-for-campaign-rally-wednesday/",
+      "title": "Trump will touch down in Flathead Valley for campaign rally Wednesday"
+    },
+    {
+      "url": "https://www.kulr8.com/elections/president-trump-to-rally-for-aaron-flint-in-kalispell/article_b9d42bfe-a373-583e-9a20-44387e3e5e48.html",
+      "title": "President Trump to rally for Aaron Flint in Kalispell"
+    },
+    {
+      "url": "https://www.rsbnetwork.com/video/live-president-trump-holds-a-rally-in-kalispell-mt-10-14-26/",
+      "title": "LIVE: President Trump Holds a Rally in Kalispell, MT"
+    },
+    {
+      "url": "https://majesticvalleyarena.com/eventmt/midterm-rally-featuring-president-donald-j-trump/",
+      "title": "Midterm Rally featuring President Donald J. Trump - Majestic Valley Arena"
+    },
+    {
+      "url": "https://dailyinterlake.com/news/2026/oct/09/trump-expected-to-stump-for-flint-in-kalispell/",
+      "title": "Trump expected to stump for Flint in Kalispell"
+    },
+    {
+      "url": "https://dailyinterlake.com/news/2026/oct/14/trump-first-sitting-president-to-visit-northwest-montana-since-ford/",
+      "title": "Trump first sitting president to visit Northwest Montana since Gerald Ford"
+    },
+    {
+      "url": "https://nbcmontana.com/news/local/president-trump-set-to-visit-majestic-valley-arena-in-kalispell-on-wednesday",
+      "title": "President Trump set to visit Majestic Valley Arena in Kalispell on Wednesday"
+    },
+    {
+      "url": "https://billingsgazette.com/news/state-regional/article_f7c80373-041a-5f1c-9b51-fda9272d8af5.html",
+      "title": "President Trump's Montana rally confirmed for Wednesday in Kalispell"
+    },
+    {
+      "url": "https://www.ktvq.com/news/montana-legislature/watch-live-at-5-30-pm-trump-rallies-in-kalispell-wednesday-to-support-aaron-flint-in-tight-montana-race",
+      "title": "WATCH LIVE at 5:30 PM: Trump rallies in Kalispell Wednesday to support Aaron Flint in tight Montana race"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-lends-hand-tighter-expected-162412214.html",
+      "title": "Trump lends a hand in tighter-than-expected Montana House race"
+    },
+    {
+      "url": "https://www.kpax.com/news/trump-returning-to-montana-for-campaign-event-in-kalispell",
+      "title": "Trump returning to Montana for campaign event in Kalispell"
+    },
+    {
+      "url": "https://helenair.com/news/state-regional/government-politics/article_60a13ed3-4b96-4793-9ffd-e4f32a4dba9d.html",
+      "title": "President Trump's Montana rally confirmed for Wednesday in Kalispell"
+    },
+    {
+      "url": "https://nbcmontana.com/news/local/schedule-announced-for-trumps-rally-in-kalispell",
+      "title": "Schedule announced for Trump's rally in Kalispell"
+    },
+    {
+      "url": "https://montanafreepress.org/2026/10/08/trump-on-the-stump-for-flint/",
+      "title": "Trump on the stump for Flint - Montana Free Press"
+    },
+    {
+      "url": "https://hungryhorsenews.com/news/2026/oct/14/trump-first-sitting-president-to-visit-valley-in-decades/",
+      "title": "Trump first sitting president to visit valley in decades"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6140976-trump-rallies-montana-arizona/",
+      "title": "Trump continues red state campaign swing with Montana, Arizona rallies next week"
+    },
+    {
+      "url": "https://clarksvillenow.com/local/hundreds-line-up-along-streets-ahead-of-trump-rally-in-clarksville/",
+      "title": "UPDATE: Trump boasts of \u2018golden age of America\u2019 during rally in Clarksville"
+    },
+    {
+      "url": "https://dailyinterlake.com/news/2026/oct/12/trump-will-touch-down-in-flathead-valley-for-campaign-rally-wednesday",
+      "title": "Trump will touch down in Flathead Valley for campaign rally Wednesday"
+    },
+    {
+      "url": "https://www.rawstory.com/trump-rally-2678070423/",
+      "title": "Trump delivers speech to rows of empty seats \u2018deep in heart of Trump country\u2019: report - Raw Story"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-make-america-great-again-rally-great-falls-montana",
+      "title": "Remarks at a \u201cMake America Great Again\u201d Rally in Great Falls, Montana"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/02/champion-of-beautiful-clean-coal-president-trump-celebrates-industry-revival/",
+      "title": "\u201cChampion of Beautiful, Clean Coal\u201d: President Trump Celebrates Industry Revival"
+    },
+    {
+      "url": "https://www.sheehy.senate.gov/in_the_news/bozeman-daily-chronicle-unleash-montana-gop-hails-trumps-moves-to-boost-coal/",
+      "title": "Bozeman Daily Chronicle: 'Unleash': Montana GOP hails Trump\u2019s moves to boost coal - Senator Tim Sheehy"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/trump-rally-in-montana",
+      "title": "Donald Trump Rally Montana"
+    },
+    {
+      "url": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-receives-an-award-from-the-coal-industry-21126",
+      "title": "TRANSCRIPT: President Trump Speaks Receives an Award from the Coal Industry, 2.11.26"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-speaks-at-rally-along-arizona-nevada-border",
+      "title": "WATCH LIVE: Trump speaks at rally along Arizona-Nevada border"
+    },
+    {
+      "url": "https://www.factcheck.org/2018/11/clearing-up-the-facts-behind-trumps-clean-coal-catchphrase/",
+      "title": "Clearing Up the Facts Behind Trump\u2019s 'Clean Coal' Catchphrase - FactCheck.org"
+    },
+    {
+      "url": "https://billingsgazette.com/news/state-regional/government-politics/article_34fbf03f-6198-42ea-9370-6c7fdc19550e.html",
+      "title": "Trump signs bill to unlock federal coal reserves in Montana"
+    },
+    {
+      "url": "https://time.com/4912730/donald-trump-clean-coal-phoenix/",
+      "title": "President Trump Made a Confusing Reference to 'Clean Coal.' Here's What He Probably Meant"
+    },
+    {
+      "url": "https://www.kpax.com/news/what-to-know-about-president-trumps-visit-to-kalispell-for-aaron-flints-congressional-campaign-rally",
+      "title": "What to know about President Trump's visit to Kalispell for Aaron Flint's congressional campaign rally"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-arizona-montana-2026-elections-live-updates-rcna603250",
+      "title": "Live updates: Trump rallies in Arizona before heading to Montana as part of Western tour"
+    },
+    {
+      "url": "https://news3lv.com/news/local/trump-midterm-campaign-rally-bullhead-city-arizona-colorado-river-laughlin-politics-nevada-election-voting",
+      "title": "Trump to host midterm campaign rally in Bullhead City"
+    },
+    {
+      "url": "https://www.12news.com/article/news/politics/elections/president-trump-rally-bullhead-city-arizona-today-midterm-election-andy-biggs/75-b025303b-9b37-4f82-89c7-a643fafab533",
+      "title": "President Trump holds rally in Bullhead City today as midterm election approaches"
+    },
+    {
+      "url": "https://www.reviewjournal.com/news/politics-and-government/trump-to-rally-in-nearby-bullhead-city-3899113/",
+      "title": "Donald Trump to rally in Bullhead City, Arizona on Oct. 14, 2026"
+    },
+    {
+      "url": "https://www.azfamily.com/2026/10/14/trump-campaigns-bullhead-city-wednesday-part-midterm-rally-blitz/",
+      "title": "LIVE: Trump campaigns in Bullhead City Wednesday as part of midterm rally blitz"
+    },
+    {
+      "url": "https://www.kptv.com/video/2026/10/13/trump-host-campaign-rally-bullhead-city/",
+      "title": "Trump to host campaign rally at Bullhead City"
+    },
+    {
+      "url": "https://www.fox5vegas.com/2026/10/12/president-trump-headline-midterm-rally-bullhead-city/",
+      "title": "President Trump to headline midterm rally in Bullhead City"
+    },
+    {
+      "url": "https://www.8newsnow.com/news/local-news/president-donald-trump-to-attend-gop-rally-in-bullhead-city-arizona/",
+      "title": "President Donald Trump to attend GOP rally in Bullhead City, Arizona"
+    },
+    {
+      "url": "https://www.kltv.com/video/2026/10/13/trump-host-campaign-rally-bullhead-city/",
+      "title": "Trump to host campaign rally at Bullhead City"
+    },
+    {
+      "url": "https://www.12news.com/article/news/politics/elections/what-we-know-president-trump-political-rally-bullhead-city-arizona-wednesday/75-d0e289ca-69d9-4eda-b0e6-aaafeca5958d",
+      "title": "What we know about President Trump's political rally in Bullhead City on Wednesday"
+    },
+    {
+      "url": "https://hoodline.com/2026/10/trump-rally-set-for-bullhead-city-airport-during-arizona-early-voting/",
+      "title": "Trump Bullhead City Rally Planned for October 14"
+    }
+  ]
+}
