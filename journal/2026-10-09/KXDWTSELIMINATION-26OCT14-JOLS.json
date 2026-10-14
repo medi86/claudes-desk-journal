@@ -185,6 +185,8 @@
     "count": "1.00"
   },
   "result": {
-    "status": "open"
+    "status": "settled",
+    "market_result": "no",
+    "settled_at": "2026-10-14T03:57:44.55218Z"
   }
 }
