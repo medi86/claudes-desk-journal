@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-KLA-65",
+  "event": "KXRT-KLA",
+  "series": "KXRT",
+  "title": "Klara and the Sun Rotten Tomatoes score? Above 65",
+  "rules": "If Klara and the Sun has a Tomatometer score of above 65 on Oct 26, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-10-26T14:00:00+00:00",
+  "expected_close_time": "2026-10-26T14:00:00+00:00",
+  "forecast_at": "2026-10-14T10:49:35.587717+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.38",
+    "reasoning": "There are no reviews yet. The film premieres at the London Film Festival on Oct 15 and opens in the US on Oct 23, so the Oct 26 score will rest on a fairly full set of reviews. Strong Ishiguro source material and the Amy Adams/Jenna Ortega cast help, but post-production dragged on for two years, it skipped the big fall festivals, early trailer buzz was poor, and Waititi's recent films (Next Goal Wins, Thor 4) scored below 65%. That makes a score above 65 somewhat less likely than not.",
+    "falsifier": "Strongly positive first reactions and reviews out of the London premiere on Oct 15, pushing the early Tomatometer into the 75%+ range with dozens of reviews.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3600",
+    "best_yes_ask": "0.3700",
+    "p_market": "0.3650"
+  },
+  "final": {
+    "p_yes": "0.38",
+    "action": "pass",
+    "reasoning": "The market's 36.5% midpoint is almost the same as my independent 38%, so the price doesn't change my view and leaves no real edge. With premiere reviews not yet out, a 1.5-point gap isn't enough to bet on."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://letterboxd.com/film/klara-and-the-sun/",
+      "title": "\u200eKlara and the Sun (2026) directed by Taika Waititi \u2022 Reviews, film + cast \u2022 Letterboxd"
+    },
+    {
+      "url": "https://parentpreviews.com/movie-reviews/klara-and-the-sun",
+      "title": "Klara and the Sun Movie Review for Parents"
+    },
+    {
+      "url": "https://getyourcomicon.co.uk/blog/2026/10/02/taika-waititi-talks-klara-in-new-klara-and-the-sun-featurette/",
+      "title": "Taika Waititi Talks Klara In New KLARA AND THE SUN Featurette - Get Your Comic On"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/klara_and_the_sun",
+      "title": "Klara and the Sun"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/6/18/first-look-at-taika-waititis-klara-and-the-sun-which-he-calls-his-most-dramatic-film",
+      "title": "First Look at Taika Waititi\u2019s \u2018Klara and the Sun,\u2019 Which He Calls His \u201cMost Dramatic Film\u201d \u2014 World of Reel"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/4/13/taika-waititis-klara-and-the-sun-sets-october-2026-release-first-trailer-screened-looks-like-an-expensive-flop",
+      "title": "Taika Waititi\u2019s \u2018Klara and the Sun\u2019 Sets October 2026 Release, First Trailer Screened: \u201cLooks Like An Expensive Flop\u201d \u2014 World of Reel"
+    },
+    {
+      "url": "https://www.movieinsider.com/m18665/klara-and-the-sun",
+      "title": "Everything You Need to Know About Klara and the Sun Movie (2026): Sep. 15, 2026 - added a poster to photo gallery - Movie Insider"
+    },
+    {
+      "url": "https://jhmovie.fandom.com/wiki/Klara_and_the_Sun_(film)",
+      "title": "Klara and the Sun (film)"
+    },
+    {
+      "url": "https://www.moviefone.com/movie/klara-and-the-sun/ad6DLguQR46J8cEK1u0gF2/main/",
+      "title": "Klara and the Sun (2026) Movie"
+    },
+    {
+      "url": "https://variety.com/2026/film/news/klara-and-the-sun-trailer-jenna-ortega-taika-waititi-1235997680/",
+      "title": "'Klara and the Sun' Trailer: Jenna Ortega Stars in Taika Waititi Movie"
+    },
+    {
+      "url": "https://infinitebrief.com/movies/klara-and-the-sun-2026",
+      "title": "Klara and the Sun (2026) Review"
+    },
+    {
+      "url": "https://www.commonsensemedia.org/movie-reviews/klara-and-the-sun",
+      "title": "Klara and the Sun - Parents' Guide & Movie Review"
+    },
+    {
+      "url": "https://www.cinegeekspod.com/post/jenna-ortega-taika-waititi-klara-and-the-sun",
+      "title": "Jenna Ortega Is an Artificial Friend Looking for a Home in Taika Waititi\u2019s \u2018KLARA AND THE SUN\u2019, in PH Cinemas soon!"
+    },
+    {
+      "url": "https://geektyrant.com/news/trailer-for-taika-waititis-klara-and-the-sun-introduces-jenna-ortega-as-a-robot-girl-trying-to-heal-a-broken-family",
+      "title": "Trailer for Taika Waititi's KLARA AND THE SUN Introduces Jenna Ortega as a Robot Girl Trying to Heal a Broken Family \u2014 GeekTyrant"
+    },
+    {
+      "url": "https://theplaylist.net/klara-and-the-sun-first-look-taika-waititi-jenna-ortega-amy-adams-20260618/",
+      "title": "\u2018Klara And The Sun\u2019 First Look: Taika Waititi Says Jenna Ortega & Amy Adams Drama May Be His \u201cMost Dramatic Film\u201d Yet"
+    },
+    {
+      "url": "https://gizmodo.com/klara-and-the-sun-movie-trailer-taika-waititi-jenna-ortega-2000775403",
+      "title": "Taika Waititi's Sci-Fi Tale 'Klara and the Sun' Drops an Endearing First Trailer"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Klara_and_the_Sun_(film)",
+      "title": "Klara and the Sun (film)"
+    },
+    {
+      "url": "https://trevordecker.com/2026/09/28/everything-we-know-about-jenna-ortegas-klara-and-the-sun/",
+      "title": "Everything We Know About Jenna Ortega\u2019s Klara and the Sun"
+    },
+    {
+      "url": "https://www.imdb.com/title/tt14371256/news/",
+      "title": "Klara and the Sun - News"
+    },
+    {
+      "url": "https://www.themovieblog.com/2025/11/taika-waititis-klara-and-the-sun-is-finally-ready-for-release/",
+      "title": "Taika Waititi\u2019s Klara and the Sun Is Finally Ready for Release"
+    },
+    {
+      "url": "https://en.softonic.com/articles/klara-and-the-sun-arrives-next-month-jenna-ortega-moves-away-from-wednesday",
+      "title": "Klara and the Sun arrives next month: Jenna Ortega moves away from Wednesday - Softonic"
+    },
+    {
+      "url": "https://whatson.bfi.org.uk/lff/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=klara-and-the-sun-lff26",
+      "title": "Buy tickets for Klara and the Sun"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qXm1zonJMLY",
+      "title": "KLARA AND THE SUN trailer"
+    },
+    {
+      "url": "https://filmsandfestivals.britishcouncil.org/projects/klara-and-the-sun",
+      "title": "British Council UK Films Database: Klara and the Sun"
+    },
+    {
+      "url": "https://www.ukfilmreview.co.uk/trailers/klara-and-the-sun",
+      "title": "Klara and the Sun"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/klara-and-the-sun/",
+      "title": "Klara and the Sun Reviews - Metacritic"
+    },
+    {
+      "url": "https://thegeektwins.com/2026/10/review-klara-and-the-sun.html",
+      "title": "Review: Klara and the Sun (2021) - Beautiful, Lonely, and Fascinating - The Geek Twins"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/klara",
+      "title": "Klara"
+    },
+    {
+      "url": "https://ca.movies.yahoo.com/jenna-ortegas-movie-klara-sun-172800961.html",
+      "title": "Jenna Ortega's new movie Klara and the Sun casts Natasha Lyonne - Yahoo Movies Canada"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/celebrity/aran_murphy",
+      "title": "Aran Murphy Movies & TV Shows List"
+    },
+    {
+      "url": "https://www.themovieblog.com/2025/08/taika-waititi-klara-and-the-sun-delayed/",
+      "title": "Taika Waititi's 'Klara and the Sun' Delayed"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/6/22/taika-waititis-klara-and-the-sun-has-a-trailer",
+      "title": "Taika Waititi\u2019s \u2018Klara and the Sun\u2019 Finally Has Trailer After Two-Year Delay \u2014 World of Reel"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2025/8/1/taika-waititis-klara-and-the-sun-not-coming-out-this-year",
+      "title": "Taika Waititi\u2019s \u2018Klara and the Sun\u2019 Still in Post, Now Eyed for 2026 Release \u2014 World of Reel"
+    },
+    {
+      "url": "https://www.themovieblog.com/2026/01/taika-waititi-says-klara-and-the-sun-will-arrive-this-year/",
+      "title": "Taika Waititi Says Klara and the Sun Will Arrive This Year"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2025/11/4/klara-and-the-sun-is-ready",
+      "title": "Taika Waititi\u2019s \u2018Klara and the Sun\u2019 is Finally Ready \u2014 Rated PG-13 \u2014 World of Reel"
+    },
+    {
+      "url": "https://www.worldofreel.com/blog/2026/1/25/taika-waititi-says-klara-and-the-sun-will-have-festival-launch",
+      "title": "Taika Waititi Says \u2018Klara and the Sun\u2019 Is Finally Coming \u201cThis Year for Sure\u201d After Years of Delays \u2014 World of Reel"
+    }
+  ]
+}
