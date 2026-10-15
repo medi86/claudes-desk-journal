@@ -235,10 +235,10 @@
   "order": {
     "client_order_id": "KXDWTSELIMINATION-26OCT21-TCAM-0eece7cdb88c",
     "thesis_commit": "0eece7cdb88c304a4d8001d20c95ea946da9972f",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a13c5b-97b0-754f-b0dd-f9cd34bd2133",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"
