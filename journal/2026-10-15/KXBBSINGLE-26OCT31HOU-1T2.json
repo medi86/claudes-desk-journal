@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "ticker": "KXBBSINGLE-26OCT31HOU-1T2",
+  "event": "KXBBSINGLE-26OCT31HOU",
+  "series": "KXBBSINGLE",
+  "title": "Will \"Housewife\" rank No. 1\u20132 on Billboard Hot 100? Rank 1 to 2",
+  "rules": "If \"Housewife\" by Tate McRae ranks between No. 1 and No. 2, inclusive on the Billboard Hot 100 for the chart dated Oct 31, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Billboard. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-26T03:59:00+00:00",
+  "expected_close_time": "2026-10-26T03:59:00+00:00",
+  "forecast_at": "2026-10-15T01:40:02.678055+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.06",
+    "reasoning": "Housewife is Tate McRae's new solo single, out Oct. 15, 2026, so its first full tracking week feeds the Oct. 31 chart. Her solo singles have peaked at No. 3 at best, and her only No. 1 was a duet with Morgan Wallen. Taking the top two would mean a career-best solo debut against unknown competition, so YES is unlikely but possible.",
+    "falsifier": "Very strong first-week streams for Housewife (for example, a big US Spotify debut near the top with sustained daily volume) during a week with no blockbuster album or chart-topper, leading to a No. 1 or No. 2 Hot 100 debut.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3800",
+    "best_yes_ask": "0.4200",
+    "p_market": "0.4000"
+  },
+  "final": {
+    "p_yes": "0.2",
+    "action": "buy_no",
+    "reasoning": "The 40% price likely reflects first-week streaming data I couldn't access, so I raised my estimate from 6% to 20%. A top-two solo debut would still beat McRae's best solo peak of No. 3 against unknown competition, so I lean NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.3900",
+    "count": 1,
+    "cost": "0.6100",
+    "clamped_from": "0.20"
+  },
+  "sources": [
+    {
+      "url": "https://outloudculture.com/2026/10/07/tate-mcrae-announces-new-single-housewife-as-she-enters-a-new-pop-era/",
+      "title": "Tate McRae Announces New Single \u2018Housewife\u2019 as She Enters a New Pop Era - OutLoud! Culture"
+    },
+    {
+      "url": "https://ca.billboard.com/music/pop/tate-mcrae-housewife-easter-eggs",
+      "title": "Tate McRae Says New Single \u2018Housewife\u2019 Is About \u2018A Woman Who Can\u2019t Be Contained\u2019 on 'The Tonight Show'"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/tate-mcrae-taylor-swift-tit-for-tat-new-song-housewife-1236356972/",
+      "title": "Tate McRae on Taylor Swift's Love for 'Tit for Tat,' New Song 'Housewife'"
+    },
+    {
+      "url": "https://sunny943.com/2026/10/09/tate-mcrae-announces-new-single-housewife-for-oct-15-release/",
+      "title": "Tate McRae Announces New Single 'Housewife' for Oct. 15 Release - Sunny 94.3"
+    },
+    {
+      "url": "https://www.kjwl.com/2026/10/07/tate-mcrae-shifts-gears-from-sports-car-to-housewife-heres-when-her-new-song-arrives/",
+      "title": "Tate McRae Shifts Gears From \u2018Sports Car\u2019 to \u2018Housewife\u2019: Here\u2019s When Her New Song Arrives"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/tate-mcrae-shifts-gears-sports-180327111.html",
+      "title": "Tate McRae Shifts Gears From \u2018Sports Car\u2019 to \u2018Housewife\u2019: Here\u2019s When Her New Song Arrives"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/07/tate-mcrae-housewife-new-single-release-date-cover-art/",
+      "title": "Tate McRae Announces New Single 'Housewife,' Reveals Release Date & Cover Art"
+    },
+    {
+      "url": "https://www.designscene.net/2026/10/tate-mcrae-housewife.html",
+      "title": "Tate McRae Prepares to Release New Single \u201cHousewife\u201d"
+    },
+    {
+      "url": "https://www.realitytea.com/2026/10/13/tate-mcrae-morgan-wallen-duet-backlash/",
+      "title": "Tate McRae Pushes Back on Morgan Wallen Duet Backlash - Reality Tea"
+    },
+    {
+      "url": "https://topmusic.news/news/tate-mcraes-housewife-cover-puts-cash-in-a-baby-stroller/",
+      "title": "Tate McRae's Housewife Cover Puts Cash in a Baby Stroller"
+    },
+    {
+      "url": "https://www.nbc.com/nbc-insider/tate-mcrae-new-song-housewife-lollapalooza-easter-egg",
+      "title": "The Name of Tate McRae's New Song \"Housewife\" Was Hidden in Plain Sight for Months"
+    },
+    {
+      "url": "https://www.hercampus.com/school/pitt/the-housewife-the-fragrance-and-the-fine-print-of-tm4/",
+      "title": "THE HOUSEWIFE, THE FRAGRANCE, AND THE FINE PRINT OF TM4"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/tate-mcrae-new-song-housewife-release-date-1236356124/",
+      "title": "Tate McRae's New Song 'Housewife' & Its Release Date Announced"
+    },
+    {
+      "url": "https://tatemcrae.fandom.com/wiki/Housewife",
+      "title": "Housewife"
+    },
+    {
+      "url": "https://www.magic995abq.com/2026/10/09/tate-mcrae-teases-new-era-and-single-housewife-with-striking-artwork/",
+      "title": "Tate McRae Teases New Era and Single \u201cHousewife\u201d with Striking Artwork"
+    },
+    {
+      "url": "https://holler.country/news/breaking/is-tate-mcraes-new-single-housewife-a-country-song/",
+      "title": "\u201cA Woman Who Can\u2019t Be Contained\u201d: Is Tate McRae\u2019s New Single \u2018Housewife\u2019 a Country Song?"
+    },
+    {
+      "url": "https://ca.billboard.com/music/pop/tate-mcrae-new-song-housewife-release-date",
+      "title": "Tate McRae Shifts Gears From \u2018Sports Car\u2019 to \u2018Housewife\u2019: Here\u2019s When Her New Song Arrives"
+    },
+    {
+      "url": "https://www.tatemcrae.com/",
+      "title": "Tate McRae - Official Site"
+    },
+    {
+      "url": "https://open.spotify.com/playlist/4troqv6kl2QZ09IP65pnGY",
+      "title": "Housewife - Tate McRae - playlist by Anastasia"
+    },
+    {
+      "url": "https://chartmasters.org/artist/tate-mcrae/",
+      "title": "Tate McRae - Album Sales, Streaming & Chart Stats"
+    },
+    {
+      "url": "https://kworb.net/spotify/artist/45dkTj5sMRSjrmBSBeiHym_songs.html",
+      "title": "Tate McRae - Spotify Top Songs"
+    },
+    {
+      "url": "https://ca.billboard.com/music/pop/tate-mcrae-new-song-housewife-release-date?bil=554&debugld=stickybtest&mc_eid=UNIQID&utm_=&q=Fay+Olson-Vickery",
+      "title": "Tate McRae Shifts Gears From \u2018Sports Car\u2019 to \u2018Housewife\u2019: Here\u2019s When Her New Song Arrives"
+    },
+    {
+      "url": "https://www.musicmetricsvault.com/artists/tate-mcrae/45dkTj5sMRSjrmBSBeiHym",
+      "title": "Tate McRae - Spotify Statistics & Monthly Listeners"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_top-ten_singles_in_2026",
+      "title": "List of Billboard Hot 100 top-ten singles in 2026"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4922048.html",
+      "title": "Billboard Hot 100 Top 10 Countdown for Oct. 17, 2026 .. Billboard News ...Middle East"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-debut/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Debuts at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3IBkBBObmBw",
+      "title": "Billboard Hot 100 Top 10 Countdown For October 17th, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-10-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for October 10, 2026"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/12/top-5-singles-on-the-billboard-hot-100-this-week-10-12-drake-ella-langley-taylor-swift/",
+      "title": "Top 5 Singles on the Billboard Hot 100 This Week (10/12): Drake, Ella Langley & Taylor Swift"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-hot-100-03-october-2026/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-3-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for Oct. 3, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/lists/beatles-drake-hamilton-chart-highlights-oct-17-2026/",
+      "title": "The Beatles, Drake, \u2018Hamilton\u2019 & More: Highlights of This Week\u2019s Billboard Charts"
+    },
+    {
+      "url": "https://x.com/talkofthecharts?lang=en",
+      "title": "Talk of the Charts (@talkofthecharts) on X"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/billboard-hot-100-chart/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/charts/hot-100/",
+      "title": "Billboard Hot 100\u2122"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2026",
+      "title": "List of Billboard Hot 100 number ones of 2026"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-hot-100-every-no-1-song-of-2026/",
+      "title": "Billboard Hot 100: Every No. 1 song of 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_Hot_100",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/charts/year-end/",
+      "title": "Billboard's 2026 Year-End Charts"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Spends Second Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/0EN2gQhhn0rCYUR5BY1UJy",
+      "title": "Billboard Top 100 This Week 2026"
+    },
+    {
+      "url": "https://www.nylon.com/entertainment/tate-mcrae-housewife-new-music",
+      "title": "Tate McRae Is A 23-Year-Old Housewife - NYLON"
+    },
+    {
+      "url": "https://www.q98fm.com/2026/10/09/tate-mcrae-teases-new-era-and-single-housewife-with-striking-artwork/",
+      "title": "Tate McRae Teases New Era and Single \u201cHousewife\u201d with Striking Artwork"
+    },
+    {
+      "url": "https://www.x1071.com/tate-mcrae-teases-new-era-and-single-housewife-with-striking-artwork/",
+      "title": "Tate McRae Teases New Era and Single \u201cHousewife\u201d with Striking Artwork"
+    },
+    {
+      "url": "https://www.classy100.com/2026/10/09/tate-mcrae-teases-new-era-and-single-housewife-with-striking-artwork/",
+      "title": "Tate McRae Teases New Era and Single \u201cHousewife\u201d with Striking Artwork"
+    },
+    {
+      "url": "https://www.music-news.com/news/UK/191651/Tate-McRae-is-releasing-a-new-song-called-Housewife",
+      "title": "Tate McRae is releasing a new song called Housewife - Music News"
+    },
+    {
+      "url": "https://www.billboard.com/",
+      "title": "Billboard"
+    },
+    {
+      "url": "https://www.billboard.com/photos/billboard-hot-100-number-1-song-debuts-426225/",
+      "title": "Here Are All the Hits That Have Debuted at No. 1 on the Hot 100"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Streaming_Songs_number_ones_of_2026",
+      "title": "List of Billboard Streaming Songs number ones of 2026"
+    }
+  ]
+}
