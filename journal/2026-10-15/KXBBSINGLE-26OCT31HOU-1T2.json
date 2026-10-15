@@ -247,9 +247,9 @@
   "order": {
     "client_order_id": "KXBBSINGLE-26OCT31HOU-1T2-30d944b847a0",
     "thesis_commit": "30d944b847a0ff8ee7f5c6502b6fdce5bfba39c2",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a13d38-7a90-7963-9720-e87dff23e074",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
