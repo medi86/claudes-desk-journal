@@ -243,7 +243,7 @@
   "order": {
     "client_order_id": "KXHARVARDFEDREV-26JUN30-A800000000-1767580fda8b",
     "thesis_commit": "1767580fda8bfb29064f657fd8cfcf5fdc0f91b9",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a12238-cbf0-75b9-a85e-cfc599c2f9d0",
     "filled": "0.00",
     "count": "1.00"
