@@ -179,9 +179,9 @@
   "order": {
     "client_order_id": "KXZACHARIAOUT-26OCT-26OCT24-4305aba6b29d",
     "thesis_commit": "4305aba6b29d755ddb6dbb0e7a348e952da47723",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a140dd-a148-7b26-b188-19738c4b76bd",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
