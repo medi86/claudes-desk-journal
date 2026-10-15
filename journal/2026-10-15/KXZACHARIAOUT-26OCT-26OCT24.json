@@ -170,5 +170,21 @@
       "url": "https://simple.wikipedia.org/wiki/Katie_Zacharia",
       "title": "Katie Zacharia"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "4305aba6b29d755ddb6dbb0e7a348e952da47723",
+    "pushed_at": "2026-10-15T18:40:18Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXZACHARIAOUT-26OCT-26OCT24-4305aba6b29d",
+    "thesis_commit": "4305aba6b29d755ddb6dbb0e7a348e952da47723",
+    "status": "resting",
+    "order_id": "01a140dd-a148-7b26-b188-19738c4b76bd",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
