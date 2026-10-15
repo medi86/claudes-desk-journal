@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "ticker": "KXFEDMENTION-26OCT-CRED",
+  "event": "KXFEDMENTION-26OCT",
+  "series": "KXFEDMENTION",
+  "title": "Will Kevin Warsh say Credit at his Oct 2026 press conference?",
+  "rules": "If the Chair of the Federal Reserve says Credit at his Oct 2026 post-FOMC meeting introductory remarks and Q+A, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Oct 2026 post-FOMC meeting introductory remarks and Q+A. \nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Oct 2026 post-FOMC meeting introductory remarks and Q+A will be used. \n\nPayout criteria: Exact phrase/word, or a plural or possessive form of the phrase/word.\n\nDoesn't count for payout: Grammatical/tense inflections.",
+  "close_time": "2026-10-29T14:00:00+00:00",
+  "expected_close_time": "2026-10-29T14:00:00+00:00",
+  "forecast_at": "2026-10-15T14:35:29.351127+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.5",
+    "reasoning": "Warsh has held post-FOMC press conferences as chair (June, September 2026), but he hinted at holding fewer and gave a record-short one in September, so October's could be skipped or very brief. If it happens, 'credit' is a common Fed word (credit conditions, spreads, private credit, balance-sheet credit allocation), but shorter sessions cut the chances. Combining about 80-85% for a presser with about 60-65% for the word gives about 50%.",
+    "falsifier": "Warsh announces no press conference after the Oct 27-28 FOMC meeting (resolves NO), or he says 'credit' in his opening remarks or answers (resolves YES).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.5300",
+    "best_yes_ask": "0.5700",
+    "p_market": "0.5500"
+  },
+  "final": {
+    "p_yes": "0.52",
+    "action": "pass",
+    "reasoning": "The market's 0.55 is only a few points above my estimate, and traders may know the presser schedule and Warsh's word frequency better than my limited research did. That edge is too small to justify a bet, so I pass."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/fed-s-warsh-heeds-own-advice-with-record-short-press-conference",
+      "title": "Fed\u2019s Warsh Heeds Own Advice With Record Short Press Conference - Bloomberg"
+    },
+    {
+      "url": "https://www.galvnews.com/news_reuters/business/fed-reserve-chairman-kevin-warsh-holds-a-press-conference-in-washington/image_23bf2e59-c398-5a28-b757-6bfb16fd8d9f.html",
+      "title": "Fed Reserve Chairman Kevin Warsh holds a press conference in Washington"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2kI62fC3DXM",
+      "title": "LIVE: Fed Chair Kevin Warsh speaks after his first interest rate decision meeting - YouTube"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/16/fed-meeting-today-live-updates.html",
+      "title": "Fed meeting recap: Warsh says inflation is still too high as Fed hikes for the first time since 2023"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NEGuyi1qSAE",
+      "title": "LIVE"
+    },
+    {
+      "url": "https://abcnews.com/Business/inflation-report-provide-snapshot-prices-midterms-approach/story?id=137221675",
+      "title": "Inflation climbs in September as gas prices surge - ABC News"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/economy/watch-live-fed-chair-warsh-holds-news-conference-after-latest-interest-rate-decision",
+      "title": "WATCH: Fed chair Warsh holds news conference after leaving interest rate unchanged"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/economy/watch-live-warsh-holds-briefing-after-fed-meeting-as-interest-rates-expected-to-rise",
+      "title": "WATCH: Warsh says 'inflation is too high' after Fed raises interest rate 1st time in 3 years"
+    },
+    {
+      "url": "https://lufkindailynews.com/news_reuters/business/file-photo-fed-reserve-chairman-kevin-warsh-holds-a-press-conference-in-washington/image_c91da2a8-dd56-52cd-ba29-bf2da9d05f13.html",
+      "title": "FILE PHOTO: Fed Reserve Chairman Kevin Warsh holds a press conference in Washington"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kevin_Warsh",
+      "title": "Kevin Warsh"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/13/nx-s1-5816235/kevin-warsh-federal-reserve-chair-jerome-powell",
+      "title": "Senate confirms Kevin Warsh as next chair of the Federal Reserve : NPR"
+    },
+    {
+      "url": "https://www.cnn.com/2026/05/13/economy/kevin-warsh-confirmation-trump-fed-chair",
+      "title": "Kevin Warsh confirmed as Fed chair, succeeding Jerome Powell"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/kevin-warsh-senate-confirmation-fed-chair/",
+      "title": "Senate confirms Kevin Warsh as Fed chair as Trump presses for lower interest rates - CBS News"
+    },
+    {
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/4947184/kevin-warsh-was-confirmed-as-fed-chair-in-the-most-divisive-vote-in-federal-reserve-history-54-45-here-s-why-that-split-still-matters-now-that-he-s-raised-rates-for-the-first-time-since-2023/",
+      "title": "Kevin Warsh Was Confirmed as Fed Chair in the Most Divisive Vote in Federal Reserve History, 54-45. Here's Why That Split Still Matters Now That He's Raised Rates for the First Time Since 2023. - The Globe and Mail"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/5876684-kevin-warsh-confirmed-federal-reserve/",
+      "title": "Senate confirms Kevin Warsh as Fed chair"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/06/17/fed-meeting-today-live-updates.html",
+      "title": "Fed meeting recap: Warsh announces task forces to overhaul major Federal Reserve operations"
+    },
+    {
+      "url": "https://www.cnn.com/2026/06/17/business/live-news/federal-reserve-interest-rate-kevin-warsh",
+      "title": "Fed leaves interest rates unchanged but signals higher rates are ahead"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/economy/watch-live-new-fed-chair-kevin-warsh-holds-first-news-conference-after-interest-rate-decision",
+      "title": "WATCH: New Fed chair Kevin Warsh holds first news conference after leaving interest rate unchanged"
+    },
+    {
+      "url": "https://news.darden.virginia.edu/2026/06/17/what-did-kevin-warshs-fed-debut-reveal-the-fomc-oracle-weighs-in/",
+      "title": "What Did Kevin Warsh\u2019s Fed Debut Reveal? The \u2018FOMC Oracle\u2019 Weighs In."
+    },
+    {
+      "url": "https://www.cnn.com/2026/06/17/economy/fed-rate-decision-june-kevin-warsh",
+      "title": "Warsh promises a new vision for the Fed, as his colleagues eye a rate hike instead of a cut"
+    },
+    {
+      "url": "https://finance.yahoo.com/economy/live/fed-meeting-live-kevin-warsh-faces-challenging-inflation-backdrop-in-his-first-meeting-as-fed-chairman-141312780.html",
+      "title": "Fed meeting live: Fed holds rates in Warsh's first meeting; more officials see hike ahead"
+    },
+    {
+      "url": "https://www.pressreader.com/singapore/the-straits-times/20260918/281857240438895",
+      "title": "PressReader.com"
+    },
+    {
+      "url": "https://allweatherfinance.com/in-just-half-an-hour-warsh-lived-up-to-his-promise-of-speaking-less-delivering-the-shortest-press-conference-in-federal-reserve-history-and-showcasing-a-new-communication-style/",
+      "title": "In just half an hour! Warsh lived up to his promise of \"speaking less,\" delivering the shortest press conference in Federal Reserve history and showcasing a new communication style."
+    },
+    {
+      "url": "https://www.moneyweb.co.za/news/economy/feds-warsh-heeds-own-advice-with-record-short-press-conference/",
+      "title": "Fed\u2019s Warsh heeds own advice with record short press conference - Moneyweb"
+    },
+    {
+      "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+      "title": "September 16, 2026 Chairman Warsh\u2019s Press Conference FINAL Page 1 of 15"
+    },
+    {
+      "url": "https://fxnx.com/en/blog/what-changed-warshs-fed-press-conferences-why-matters",
+      "title": "Warsh Fed Press Conferences Explained for FX Traders"
+    },
+    {
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/FOMC/meetingdocuments/FOMCpresconf20260916.pdf",
+      "title": "September 16, 2026 Chairman Warsh\u2019s Press Conference PRELIMINARY Page 1 of 15"
+    },
+    {
+      "url": "https://www.axios.com/2026/09/17/feds-warsh-shakes-up-press-conference-format",
+      "title": "Fed's Warsh shakes up press conference format"
+    },
+    {
+      "url": "https://www.noradarealestate.com/blog/fed-chair-kevin-warsh-live-press-conference-signals-higher-for-longer-interest-rate-policy/",
+      "title": "Fed Chair Kevin Warsh Live Press Conference Signals Higher for Longer Interest Rate Policy"
+    },
+    {
+      "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260729.pdf",
+      "title": "July 29, 2026 Chairman Warsh\u2019s Press Conference FINAL Page 1 of 21"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+      "title": "Fed meeting recap: Warsh says Fed won't hesitate to stop inflation, but bond market has doubts"
+    },
+    {
+      "url": "https://files-scs.pstatic.net/2026/07/30/HwkxKXekHX/FOMCpresconf20260729.pdf",
+      "title": "July 29, 2026 Chairman Warsh\u2019s Press Conference PRELIMNARY Page 1 of 3"
+    },
+    {
+      "url": "https://thecatchengine.com/records/fomc-presconf-2026-07-29/",
+      "title": "Chairman Warsh's press conference, July 29, 2026 (transcript)"
+    },
+    {
+      "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026",
+      "title": "July 2026 Fed Meeting: Live Updates and Commentary"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7CcWIjtSTWQ",
+      "title": "Kevin Warsh FOMC Press Conference LIVE"
+    },
+    {
+      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-july-2026-federal-reserve-will-deliver-price-stability",
+      "title": "Kevin Warsh Says Fed Will 'Deliver Price Stability' After Decision to Hold Rates at July Meeting. Will There Be a Hike in September?"
+    },
+    {
+      "url": "https://x.com/federalreserve/status/2082450845937897871",
+      "title": "Federal Reserve on X: \"WATCH LIVE TODAY: Press conference with #FOMC Chairman Warsh at 2:30 p.m. ET: https://t.co/1uJrua5qsH https://t.co/FJa6TbkDMt\" / X"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/29/fed-kevin-warsh-markets.html",
+      "title": "Warsh's plan for a more opaque Fed will get put to the test by markets on edge"
+    },
+    {
+      "url": "https://www.westernasset.com/us/en/research/blog/july-fomc-recap-more-bark-than-bite-2026-07-29.cfm",
+      "title": "Western Asset Blog: July FOMC Recap\u2014More Bark Than Bite?"
+    },
+    {
+      "url": "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026",
+      "title": "Fed Rate Decision October 2026: Hike or Hold on 28 Oct?"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "title": "Federal Reserve Board - Calendar: October 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=j7Oi5qWIFfA",
+      "title": "\ud83d\udd34Fed Chair Kevin Warsh Speaks on Interest Rate Decision LIVE: FOMC Press Conference LIVE - YouTube"
+    },
+    {
+      "url": "https://recouprev.com/article/october-fomc-meeting-key-dates-and-policy-signals",
+      "title": "October FOMC Meeting: The Dates and Policy Signals to Watch"
+    },
+    {
+      "url": "https://en.fnnews.com/news/202610080307142738",
+      "title": "FOMC Minutes Signal \u2018Another Hike This Year\u2019 ... but Give No Timing - First-Class Business Newspaper Financial News"
+    },
+    {
+      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-officials-hawkish-tone-ahead-of-october-2026-fomc-meeting",
+      "title": "Are Fed Officials Changing Their Tone Ahead of October\u2019s FOMC Meeting? Here\u2019s What They\u2019re Saying"
+    },
+    {
+      "url": "https://abc7news.com/story/fed-minutes-another-rate-hike-coming-year-combat-persistent-inflation/19929930/",
+      "title": "Fed minutes: Another rate hike likely coming this year to combat persistent inflation - ABC7 San Francisco"
+    },
+    {
+      "url": "https://cryptobriefing.com/fed-warsh-transparency-communications-crypto/",
+      "title": "Federal Reserve's Warsh promises transparency overhaul isn't about hiding information"
+    },
+    {
+      "url": "https://www.advisorperspectives.com/commentaries/2026/06/18/warshs-first-fed-meeting",
+      "title": "Hawkish-Leaning Committee, Reform-Minded Chair: Warsh\u2019s First Fed Meeting - PIMCO - Commentaries - Advisor Perspectives"
+    },
+    {
+      "url": "https://www.pimco.com/us/en/insights/hawkish-leaning-committee-reform-minded-chair-warshs-first-fed-meeting",
+      "title": "Macro Signposts"
+    },
+    {
+      "url": "https://proinvestorinsights.substack.com/p/kevin-warsh-is-changing-the-fed-press",
+      "title": "Kevin Warsh Is Changing the Fed Press Conference: One Reporter, One Question, No Follow-Ups"
+    },
+    {
+      "url": "https://asreport.americanbanker.com/news/talk-less-smile-more-behind-warshs-communications-gambit",
+      "title": "Talk less, smile more: Behind Warsh's communications gambit"
+    },
+    {
+      "url": "https://daytradingtoolkit.com/market-insights/fomc-fewer-meetings-day-trading-impact",
+      "title": "Warsh Wants Fewer Fed Meetings: What Changes for Traders"
+    },
+    {
+      "url": "https://thenationaldesk.com/news/americas-news-now/kevin-warsh-floats-fewer-fed-meetings-to-reduce-market-dependence-federal-reserve-central-bank-interest-rate-decisions",
+      "title": "Warsh floats fewer Fed meetings to reduce market dependence"
+    },
+    {
+      "url": "https://www.conference-board.org/podcasts/c-suite-perspectives/What-Can-We-Learn-From-Kevin-Warshs-First-Fed-Meeting",
+      "title": "What Can We Learn from Kevin Warsh\u2019s First Fed Meeting?"
+    }
+  ]
+}
