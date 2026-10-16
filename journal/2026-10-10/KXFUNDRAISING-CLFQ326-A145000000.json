@@ -179,12 +179,14 @@
   "order": {
     "client_order_id": "KXFUNDRAISING-CLFQ326-A145000000-85e540599630",
     "thesis_commit": "85e540599630503175a04eef0568c56298e308bb",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a124b2-6af8-7b4b-b25f-9dd8cf231df5",
     "filled": "0.00",
     "count": "1.00"
   },
   "result": {
-    "status": "open"
+    "status": "settled",
+    "market_result": "yes",
+    "settled_at": "2026-10-16T06:16:36.77821Z"
   }
 }

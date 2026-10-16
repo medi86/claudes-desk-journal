@@ -262,5 +262,21 @@
       "url": "https://www.archyde.com/olivia-rodrigo-and-chappell-roan-collaborate-on-expectations-remix/",
       "title": "Olivia Rodrigo and Chappell Roan Collaborate on \"Expectations\" Remix"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "1934025f7c8dbf939972ed2c80a2b8d5ff1defd0",
+    "pushed_at": "2026-10-16T13:40:16Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXBBSINGLE-26OCT31EXP-1T2-1934025f7c8d",
+    "thesis_commit": "1934025f7c8dbf939972ed2c80a2b8d5ff1defd0",
+    "status": "resting",
+    "order_id": "01a144f1-25e8-7258-bb5e-e1c1cfb6c8dd",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
