@@ -1,0 +1,266 @@
+{
+  "schema": 1,
+  "ticker": "KXBBSINGLE-26OCT31EXP-1T2",
+  "event": "KXBBSINGLE-26OCT31EXP",
+  "series": "KXBBSINGLE",
+  "title": "Will \"expectations\" rank No. 1\u20132 on Billboard Hot 100? Rank 1 to 2",
+  "rules": "If \"expectations\" by Olivia Rodrigo & Chappell Roan ranks between No. 1 and No. 2, inclusive on the Billboard Hot 100 for the chart dated Oct 31, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Billboard. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-26T03:59:00+00:00",
+  "expected_close_time": "2026-10-26T03:59:00+00:00",
+  "forecast_at": "2026-10-16T13:38:43.421438+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.18",
+    "reasoning": "The Rodrigo/Roan remix of 'expectations' was released Oct. 15, so the Oct. 31 chart covers its first full week. The original album track only debuted at No. 20 in June, and remixes of album tracks rarely reach the top two even with combined credit and sales pushes. A top-10 jump is plausible, but reaching No. 1\u20132 needs exceptional first-week numbers and weak competition, which I could not check.",
+    "falsifier": "Early tracking or first-week streaming and sales reports showing the remix leading the Hot 100 race, for example by topping the U.S. Spotify daily chart for most of Oct. 16\u201322 with heavy digital sales.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3200",
+    "best_yes_ask": "0.4100",
+    "p_market": "0.3650"
+  },
+  "final": {
+    "p_yes": "0.27",
+    "action": "buy_no",
+    "reasoning": "The 36.5% midpoint likely reflects early streaming data I couldn't see, so I moved up from 18% to 27%. Remixes of album tracks rarely reach No. 1\u20132, and the market still looks rich relative to that history, so I'd take NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.3300",
+    "count": 1,
+    "cost": "0.6700",
+    "clamped_from": "0.27"
+  },
+  "sources": [
+    {
+      "url": "https://variety.com/2026/music/news/olivia-rodrigo-chappell-roan-expectations-remix-video-1236909332/",
+      "title": "Olivia Rodrigo, Chappell Roan Team for 'Expectations' Remix and Video"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Expectations_(Olivia_Rodrigo_song)",
+      "title": "Expectations (Olivia Rodrigo song)"
+    },
+    {
+      "url": "https://oliviarodrigo.lnk.to/expectationsofficialvideo",
+      "title": "Olivia Rodrigo - expectations (feat. Chappell Roan) (Official Music Video) - YouTube"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-chappell-roan-expectations-remix-1235642153/",
+      "title": "Olivia Rodrigo Taps Chappell Roan (and David Byrne) for Retro 'Expectations' Remix"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/music/music-news/olivia-rodrigo-expectations-remix-chappell-roan-1236728859/",
+      "title": "Olivia Rodrigo Announces \"Expectations\" Remix with Chappell Roan"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/chappell-roan-olivia-rodrigo-zane-lowe-expectations-1236361689/",
+      "title": "Chappell Roan on Making Olivia Rodrigo's 'Expectations' 'A Little Gay'"
+    },
+    {
+      "url": "https://shopuk.oliviarodrigo.com/products/expectations-cd",
+      "title": "expectations - cd - Olivia Rodrigo"
+    },
+    {
+      "url": "https://store.oliviarodrigo.com/products/expectations-cd",
+      "title": "expectations - cd - Olivia Rodrigo"
+    },
+    {
+      "url": "https://www.billboard.com/music/music-news/olivia-rodrigo-chappell-roan-expectations-remix-video-1236359831/",
+      "title": "Olivia Rodrigo, Chappell Roan 'Expectations' Remix & Video Announced"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/olivia-rodrigo-chappell-roan-expectations-164609037.html",
+      "title": "Olivia Rodrigo & Chappell Roan to Work Out Their \u2018Expectations\u2019 on the Remix: Here\u2019s When It Arrives"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/chappell-roan-talks-bringing-her-020449402.html",
+      "title": "Chappell Roan Talks Bringing Her Perspective to Olivia Rodrigo\u2019s \u2018Expectations\u2019: \u2018I Love Making Things a Little Gay\u2019"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/new-video-olivia-rodrigo-expectations-featuring-chappell-roan/",
+      "title": "New Video: Olivia Rodrigo - 'Expectations' (featuring Chappell Roan) - That Grape Juice"
+    },
+    {
+      "url": "https://oliviarodrigo.fandom.com/wiki/Expectations",
+      "title": "expectations"
+    },
+    {
+      "url": "https://top40-charts.com/news.php?nid=192456",
+      "title": "Olivia Rodrigo Announces Expectations Remix Ft. Chappell Roan @ Top40-Charts.com - New Songs & Videos from 49 Top 20 & Top 40 Music Charts from 30 Countries"
+    },
+    {
+      "url": "https://sunny943.com/2026/10/14/olivia-rodrigo-teases-studio-session-as-reports-point-to-expectations-remix-with-chappell-roan/",
+      "title": "Olivia Rodrigo Teases Studio Session as Reports Point to 'Expectations' Remix With Chappell Roan - Sunny 94.3"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-10-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for October 10, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-17-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for Oct. 17, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-3-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for Oct. 3, 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_top-ten_singles_in_2026",
+      "title": "List of Billboard Hot 100 top-ten singles in 2026"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/hot-100/2026-10-10",
+      "title": "The Billboard Hot 100"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4911628.html",
+      "title": "Billboard Hot 100 Top 10 Countdown for Oct. 10, 2026 .. Billboard News ...Middle East"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-hot-100-03-october-2026/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.spectrum-pulse.ca/blog/billboard-breakdown-hot-100-october-17-2026",
+      "title": "billboard BREAKDOWN - hot 100 - october 17, 2026 \u2014 Spectrum Pulse"
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/0EN2gQhhn0rCYUR5BY1UJy",
+      "title": "Billboard Top 100 This Week 2026"
+    },
+    {
+      "url": "https://www.billboard.com/lists/beatles-drake-hamilton-chart-highlights-oct-17-2026/",
+      "title": "The Beatles, Drake, \u2018Hamilton\u2019 & More: Highlights of This Week\u2019s Billboard Charts"
+    },
+    {
+      "url": "https://elle.in/life-culture/entertainment/olivia-rodrigo-and-chappell-roan-team-up-on-a-new-expectations-remix-12681377",
+      "title": "Olivia Rodrigo And Chappell Roan Team Up On A New \u2018Expectations\u2019 Remix"
+    },
+    {
+      "url": "https://www.billboard.com/artist/chappell-roan/",
+      "title": "Chappell Roan"
+    },
+    {
+      "url": "https://www.gmanetwork.com/entertainment/showbiznews/olivia-rodrigo-and-chappell-roan-team-up-for-expectations-remix/139824/",
+      "title": "Olivia Rodrigo and Chappell Roan team up for 'Expectations' remix"
+    },
+    {
+      "url": "https://wtmx.com/olivia-rodrigo-to-release-expectations-remix-music-video-with-chappell-roan/",
+      "title": "Olivia Rodrigo to release \u201cexpectations\u201d remix, music video with Chappell Roan"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Spends Second Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-debut/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Debuts at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/taylor-swift-the-beatles-hot-100-number-one-hits-1236355487/",
+      "title": "Will Taylor Swift Pass The Beatles for the Most Hot 100 No. 1 Hits?"
+    },
+    {
+      "url": "https://acharts.co/us_singles_top_100",
+      "title": "US Singles Top 100 - Music Charts"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/12/top-5-singles-on-the-billboard-hot-100-this-week-10-12-drake-ella-langley-taylor-swift/",
+      "title": "Top 5 Singles on the Billboard Hot 100 This Week (10/12): Drake, Ella Langley & Taylor Swift"
+    },
+    {
+      "url": "https://sosugary.com/patient-zero-dethrones-choosin-texas-as-1-on-billboard-hot-100/",
+      "title": "\u201cPatient Zero\u201d Dethrones \u201cChoosin\u2019 Texas\u201d As #1 On Billboard Hot 100"
+    },
+    {
+      "url": "https://top40weekly.com/",
+      "title": "Top 40 Weekly US Chart Archive! (Updated)"
+    },
+    {
+      "url": "https://www.billboard.com/",
+      "title": "Billboard"
+    },
+    {
+      "url": "https://www.billboard.com/charts/year-end/",
+      "title": "Billboard's 2026 Year-End Charts"
+    },
+    {
+      "url": "https://www.billboard.com/charts/hot-100/",
+      "title": "Billboard Hot 100\u2122"
+    },
+    {
+      "url": "https://x.com/talkofthecharts?lang=en",
+      "title": "Talk of the Charts (@talkofthecharts) on X"
+    },
+    {
+      "url": "https://x.com/ChartPredicts?lang=en",
+      "title": "Chart Predictions (@ChartPredicts) on X"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2026",
+      "title": "List of Billboard Hot 100 number ones of 2026"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/billboard-hot-100-chart/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_Hot_100",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-hot-100-every-no-1-song-of-2026/",
+      "title": "Billboard Hot 100: Every No. 1 song of 2026"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/hot-100/2026-10-17",
+      "title": "The Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/photos/billboard-hot-100-number-1-song-debuts-426225/",
+      "title": "Here Are All the Hits That Have Debuted at No. 1 on the Hot 100"
+    },
+    {
+      "url": "https://inmusicblog.com/news/olivia-rodrigo-chappell-roan-expectations-remix/",
+      "title": "Olivia Rodrigo Officially Announces \u201cexpectations\u201d Remix Featuring Chappell Roan"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/olivia-rodrigo-chappell-roan-just-173828733.html",
+      "title": "Olivia Rodrigo and Chappell Roan Just Teamed Up for the \u201cExpectations\u201d Remix, and Fans Are Already Losing It"
+    },
+    {
+      "url": "https://www.ad-hoc-news.de/unterhaltung/musik/olivia-rodrigo-releases-first-remix-of-expectations-on-15-october/70319703",
+      "title": "Olivia Rodrigo releases first remix of expectations on 15 October"
+    },
+    {
+      "url": "https://www.nylon.com/entertainment/olivia-rodrigo-chappell-roan-expectations-remix",
+      "title": "Olivia Rodrigo Announces \"Expectations\" Remix With Chappell Roan"
+    },
+    {
+      "url": "https://x.com/hitsignal/status/2110884164073312617",
+      "title": "Hit Signal on X: \"Olivia Rodrigo and Chappell Roan just dropped the \u201cexpectations\u201d remix. (https://t.co/xizwQg5Vto)\" / X"
+    },
+    {
+      "url": "https://kworb.net/spotify/artist/1McMsnEElThX1knmY4oliG_songs.html",
+      "title": "Olivia Rodrigo - Spotify Top Songs"
+    },
+    {
+      "url": "https://www.hitsdailydouble.com/news/streaming/spot-check-olivia-rodrigo-first-day-streams-2026-06-13",
+      "title": "Spot Check: olivia streams pretty great for a girl, guy or really anyone, ever"
+    },
+    {
+      "url": "https://www.archyde.com/olivia-rodrigo-and-chappell-roan-collaborate-on-expectations-remix/",
+      "title": "Olivia Rodrigo and Chappell Roan Collaborate on \"Expectations\" Remix"
+    }
+  ]
+}
