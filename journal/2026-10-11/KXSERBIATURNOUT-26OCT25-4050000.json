@@ -219,9 +219,9 @@
   "order": {
     "client_order_id": "KXSERBIATURNOUT-26OCT25-4050000-a905de6baf3a",
     "thesis_commit": "a905de6baf3abbde5222c35d70babadf3edb2f21",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a12b96-9010-7bdf-80e3-259a5004821b",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
