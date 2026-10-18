@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "ticker": "KXEOWEEK-26OCT17-1",
+  "event": "KXEOWEEK-26OCT17",
+  "series": "KXEOWEEK",
+  "title": "Will the President sign more than 1 Executive Orders between Oct 11, 2026 and Oct 17, 2026? Above 1",
+  "rules": "If the President signs above 1 executive orders during Oct 11, 2026 to Oct 17, 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe signing date as recorded in the Federal Register determines which period an Executive Order belongs to.\nFor example, if the period was \"Jan 1, 2025 to Jan 7, 2025,\" and on January 10th the Federal Register published a numbered Executive Order with a January 7th signing date, the market would resolve to Yes.\n\nPayout criteria\n\nAn \"Executive Order\" is a numbered presidential directive that: is formally titled \"Executive Order\" followed by a number, is signed by the President, is published in the Federal Register, and has the force of law.\nAll documents officially designated as \"Executive Orders\" with sequential numbering count, including Executive Orders that are later revoked or amended.\n\nExpiration date\n\nThe latest Expiration Date of the Contract shall be two weeks after the end of the period.\nIf an Executive Order that is dated past Oct 11, 2026 to Oct 17, 2026 is posted to the Federal Register, expiration may be moved to an earlier date.",
+  "close_time": "2026-10-31T14:00:00+00:00",
+  "expected_close_time": "2026-10-31T14:00:00+00:00",
+  "forecast_at": "2026-10-18T03:37:46.884178+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.6",
+    "reasoning": "Multiple outlets report Trump signed an executive order on Oct 16, 2026 implementing and largely waiving the Graham Russia-Iran sanctions act, so one qualifying EO in the window looks likely. The 2026 pace (~67 EOs by Oct 7, 11 in September alone) suggests a decent chance of at least one more during Oct 11-17, but I found no confirmed second order and the week was nearly over, so I discount the base rate.",
+    "falsifier": "The Federal Register's numbered EO list shows only one (or zero) executive orders with signing dates between Oct 11 and Oct 17, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0500",
+    "best_yes_ask": "0.1900",
+    "p_market": "0.1200"
+  },
+  "final": {
+    "p_yes": "0.14",
+    "action": "pass",
+    "reasoning": "The low price near the end of the window likely reflects traders who know only one order was signed October 11-16, and my incomplete search can't contradict that, so I've moved down toward the market. With my estimate near the midpoint and a wide spread, I see no edge."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://ballotpedia.org/Donald_Trump's_executive_orders_and_actions,_2025-2026",
+      "title": "Donald Trump's executive orders and actions, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2026",
+      "title": "2026 Donald J. Trump Executive Orders"
+    },
+    {
+      "url": "https://potus.fyi/executive-orders/2026",
+      "title": "Trump Executive Orders 2026: Count & Full List"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/how-many-executive-orders-donald-trump-signed-across-both-terms-2026-742187",
+      "title": "How Many Executive Orders Has Donald Trump Signed Acro..."
+    },
+    {
+      "url": "https://fedsforfreedom.substack.com/p/executive-orders-of-the-2nd-trump-2e8",
+      "title": "Executive Orders of the 2nd Trump Admin - Feds for Freedom"
+    },
+    {
+      "url": "https://ballotpedia.org/Donald_Trump's_executive_orders_on_foreign_policy,_2025-2026",
+      "title": "Donald Trump's executive orders on foreign policy, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://news.ballotpedia.org/tag/donald-trump-executive-orders-september-2026/",
+      "title": "Donald Trump Executive Orders September 2026 - Ballotpedia News"
+    },
+    {
+      "url": "https://ballotpedia.org/Donald_Trump's_executive_orders_on_the_administrative_state,_2025-2026",
+      "title": "Donald Trump's executive orders on the administrative state, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://ballotpedia.org/Donald_Trump's_executive_orders_on_immigration,_2025-2026",
+      "title": "Donald Trump's executive orders on immigration, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://usafacts.org/articles/how-many-executive-orders-has-each-president-signed/",
+      "title": "Executive orders by president: Who has signed the most?"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+      "title": "Fact Sheet: President Donald J. Trump Inaugurates The Era of Super Intelligence"
+    },
+    {
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/09/white-house-unveils-super-intelligence-executive-order-and-industry-accord/416325/",
+      "title": "White House unveils \u2018super intelligence\u2019 executive order and industry accord - Nextgov/FCW"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/",
+      "title": "Fact Sheet: President Donald J. Trump Streamlines Access to Government Services Through America.gov"
+    },
+    {
+      "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/trump-executive-order-mandates-shift-to-super-intelligence-102o403",
+      "title": "Trump Executive Order Mandates Shift to \"Super Intelligence\""
+    },
+    {
+      "url": "https://trumpexecutiveorders.com/",
+      "title": "Trump Executive Orders - Official Presidential Documents Tracker"
+    },
+    {
+      "url": "https://www.hklaw.com/en/insights/publications/2026/09/executive-order-declares-national-emergency-to-secure-us",
+      "title": "Executive Order Declares National Emergency to Secure U.S. Bulk-Power System"
+    },
+    {
+      "url": "https://www.billtrack50.com/executive-order/list",
+      "title": "Executive Orders"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-takes-decisive-action-to-lower-diesel-costs-for-american-truckers-farmers/",
+      "title": "President Trump Takes Decisive Action to Lower Diesel Costs for American Truckers, Farmers"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/05/business/trump-diesel-prices-executive-order",
+      "title": "Trump signs executive order aimed at lowering diesel prices"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/",
+      "title": "Fact Sheet: President Donald J. Trump Promotes Diesel Affordability"
+    },
+    {
+      "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+      "title": "Trump signs executive order waiving new Russia sanctions package"
+    },
+    {
+      "url": "https://energynewsbeat.co/crude-oil/president-trump-signs-executive-order-waiving-key-russian-sanctions-and-tariffs-under-the-graham-act-helping-keep-oil-flowing/",
+      "title": "President Trump Signs Executive Order Waiving Key Russian Sanctions and Tariffs Under the Graham Act, Helping Keep Oil Flowing - Energy News Beat"
+    },
+    {
+      "url": "https://www.newsy-today.com/trump-tangguhkan-sanksi-tarif-energi-rusia-ukraina-protes/",
+      "title": "Trump Tangguhkan Sanksi Tarif Energi Rusia, Ukraina Protes - Newsy Today"
+    },
+    {
+      "url": "https://www.newsy-today.com/trump-signs-order-halting-russian-sanctions-before-effective-date/",
+      "title": "Trump Signs Order Halting Russian Sanctions Before Effective Date - Newsy Today"
+    },
+    {
+      "url": "https://madihak2.substack.com/p/trump-signs-executive-order-exempting",
+      "title": "Trump Signs Executive Order Exempting Russia From New Sanctions"
+    },
+    {
+      "url": "https://www.federalregister.gov/presidential-documents/executive-orders",
+      "title": "Federal Register :: Executive Orders"
+    },
+    {
+      "url": "https://intelsi.si/guides/si-timeline-2025-2026",
+      "title": "Trump AI Executive Orders: 2025-2026 Timeline"
+    },
+    {
+      "url": "https://legalectric.org/tracking-presidential-actions/",
+      "title": "Legalectric \u00bb Tracking \u201cPresidential Actions\u201d and Executive Orders"
+    },
+    {
+      "url": "https://www.federalregister.gov/fr_index/pdf/2026/06/executive-office-of-the-president-June-2026.pdf",
+      "title": "FEDERAL REGISTER INDEX January\u2013June 2026 Executive Office of the President"
+    },
+    {
+      "url": "https://www.federalregister.gov/fr_index/pdf/2026/03/executive-office-of-the-president-March-2026.pdf",
+      "title": "FEDERAL REGISTER INDEX January\u2013March 2026 Executive Office of the President"
+    },
+    {
+      "url": "https://www.federalregister.gov/fr_index/pdf/2026/09/executive-office-of-the-president-September-2026.pdf",
+      "title": "FEDERAL REGISTER INDEX January\u2013September 2026 Executive Office of the President"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2026/08/14/2026-16604/2026-unified-agenda",
+      "title": "Federal Register :: 2026 Unified Agenda"
+    },
+    {
+      "url": "https://www.federalregister.gov/",
+      "title": "Federal Register :: Home - Monday, October 19th"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2026/08/14/2026-16603/introduction-to-the-unified-agenda-of-federal-regulatory-and-deregulatory-actions-2026",
+      "title": "Federal Register :: Introduction to the Unified Agenda of Federal Regulatory and Deregulatory Actions-2026"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence",
+      "title": "Federal Register :: Inaugurating the Era of Super Intelligence"
+    },
+    {
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "title": "Trump\u2019s Second-Term Executive Orders (2025\u20132026)"
+    },
+    {
+      "url": "https://nationalsecurityjournal.org/donald-trump-just-crossed-a-red-line-no-one-ever-thought-he-would-he-just-waived-sanctions-on-russia/",
+      "title": "Donald Trump Just Crossed a Red Line No One Ever Thought He Would: He Just Waived Sanctions on Russia - National Security Journal"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/17/trump-signs-executive-order-waiving-sanctions-against-russia/",
+      "title": "Trump\u2019s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post"
+    },
+    {
+      "url": "https://wlos.com/news/nation-world/trump-waives-most-russia-sanctions-and-tariffs-days-before-they-were-to-take-effect",
+      "title": "Trump waives most Russia sanctions and tariffs days before they were to take effect"
+    },
+    {
+      "url": "https://caycecwill.substack.com/p/policy-tracker-digest-2026-10-14",
+      "title": "Policy Tracker Digest \u2014 2026-10-14 - Cayce C Will"
+    },
+    {
+      "url": "https://www.akingump.com/en/insights/trump-executive-order-overview",
+      "title": "Trump Executive Order Overview - Akin Gump"
+    },
+    {
+      "url": "https://foxbaltimore.com/news/nation-world/trump-waives-most-russia-sanctions-and-tariffs-days-before-they-were-to-take-effect",
+      "title": "Trump waives most Russia sanctions and tariffs days before they were to take effect"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/app-attributes/executive-order",
+      "title": "Executive Order"
+    },
+    {
+      "url": "https://justthenews.com/government/white-house/trump-signs-executive-order-putting-new-sanctions-against-russia-under",
+      "title": "Trump signs executive order putting new sanctions against Russia under Lindsey Graham Act on hold"
+    },
+    {
+      "url": "https://www.upi.com/Top_News/US/2026/10/17/trump-waives-sanctions-against-russia/5771792263731/",
+      "title": "Trump executive order blocks U.S. sanctions on Russia - UPI.com"
+    },
+    {
+      "url": "https://thelogicalindian.com/trump-drops-fresh-tariff-threat-russia-130804/",
+      "title": "Trump Drops Fresh Tariff Threat on Russian Oil Buyers: What It Means for India - The Logical Indian"
+    },
+    {
+      "url": "https://gephardtdaily.com/top-stories/trump-executive-order-blocks-u-s-sanctions-on-russia/",
+      "title": "Trump executive order blocks U.S. sanctions on Russia"
+    }
+  ]
+}
