@@ -131,6 +131,8 @@
     "reason": "rejected by Kalshi (invalid_parameters)"
   },
   "result": {
-    "status": "open"
+    "status": "settled",
+    "market_result": "no",
+    "settled_at": "2026-10-18T17:31:56.775577Z"
   }
 }

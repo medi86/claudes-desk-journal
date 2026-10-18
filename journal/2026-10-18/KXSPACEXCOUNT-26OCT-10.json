@@ -291,9 +291,9 @@
   "order": {
     "client_order_id": "KXSPACEXCOUNT-26OCT-10-81176f3f5940",
     "thesis_commit": "81176f3f59409cd9a66416a4323ab265c9340375",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a14faf-6850-7421-8235-1b40ac9a655a",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {

@@ -236,6 +236,8 @@
     "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
   },
   "result": {
-    "status": "open"
+    "status": "settled",
+    "market_result": "yes",
+    "settled_at": "2026-10-18T18:03:06.777899Z"
   }
 }
