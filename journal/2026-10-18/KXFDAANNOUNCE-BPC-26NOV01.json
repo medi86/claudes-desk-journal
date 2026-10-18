@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "ticker": "KXFDAANNOUNCE-BPC-26NOV01",
+  "event": "KXFDAANNOUNCE-BPC",
+  "series": "KXFDAANNOUNCE",
+  "title": "When will FDA announce Reclassification of BPC-157 to Category 1 of the Bulk Drug Substances List? Before November",
+  "rules": "If the FDA announces Reclassification of BPC-157 to Category 1 of the Bulk Drug Substances List before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The Payout Criterion is satisfied by placement of BPC-157 in either Category 1 or Category 1 Bulk Drug Substances Under Evaluation on the 503A Bulk Drug Substances list, as either designation restores compounding eligibility. \nRemoval from Category 2 alone, without placement in Category 1, does not satisfy the Payout Criterion.",
+  "close_time": "2026-11-01T04:59:00+00:00",
+  "expected_close_time": "2026-11-01T04:59:00+00:00",
+  "forecast_at": "2026-10-18T07:39:48.625159+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.06",
+    "reasoning": "BPC-157 left Category 2 in April 2026 only because its nominations were withdrawn. It has not been placed in Category 1, and as of about October 7 the FDA had taken no final action after the July advisory vote, which went against its own staff's advice. The FDA could quickly add a substance back to Category 1, as it did for GHK-Cu, but nothing suggests it will do so for BPC-157 in the roughly two weeks before November 1.",
+    "falsifier": "The FDA updates its 503A categories list or issues a notice before Nov 1, 2026 placing BPC-157 (free base or acetate) in Category 1 or 'Category 1 under evaluation.'",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0900",
+    "best_yes_ask": "0.1400",
+    "p_market": "0.1150"
+  },
+  "final": {
+    "p_yes": "0.07",
+    "action": "buy_no",
+    "reasoning": "The 11.5% midpoint is above my estimate. The FDA has taken no action toward Category 1 since July, and too little time remains for a placement to be likely. I nudged up slightly from 6% because my research couldn't cover the last few days."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1000",
+    "count": 1,
+    "cost": "0.9000",
+    "clamped_from": "0.07"
+  },
+  "sources": [
+    {
+      "url": "https://djholtlaw.com/regulatory-alert-the-legal-status-of-bpc-157-in-compounding-and-clinical-practice/",
+      "title": "BPC-157 in 2026: Why Regulatory Limbo Is Not the Same as a Green Light"
+    },
+    {
+      "url": "https://superpower.com/guides/peptides/bpc-157",
+      "title": "BPC-157: What the Research Shows and Its FDA Status"
+    },
+    {
+      "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026",
+      "title": "July 23-24, 2026: Meeting of the Pharmacy Compounding Advisory Committee - 07/23/2026"
+    },
+    {
+      "url": "https://nationwidecompounding.com/bpc-157-compounding-pharmacy-fda-vote/",
+      "title": "BPC-157 Compounding Pharmacy: 2026 FDA Vote Explained"
+    },
+    {
+      "url": "https://thechemistpharm.com/bpc-157-in-2026-fda-rules-for-compounded-formulations/",
+      "title": "BPC-157 in 2026: FDA Rules for Compounded Formulations"
+    },
+    {
+      "url": "https://vektor.health/blog/bpc-157-legal-status-2026",
+      "title": "Is BPC-157 Legal in 2026? The FDA Reclassification, Explained"
+    },
+    {
+      "url": "https://remyresearch.com/research/fda-peptide-reclassification-2026",
+      "title": "FDA Peptide Reclassification 2026: Is BPC-157 Approved?"
+    },
+    {
+      "url": "https://education.mirrorplasticsurgery.com/peptides/bpc-157-fda-status",
+      "title": "BPC-157 FDA Status: What Patients Need to Know in 2026"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134/",
+      "title": "Multifunctionality and Possible Medical Application of the BPC 157 Peptide\u2014Literature and Patent Review"
+    },
+    {
+      "url": "https://health.clevelandclinic.org/bpc-157-peptide",
+      "title": "What You Need To Know About BPC-157"
+    },
+    {
+      "url": "https://pillo.care/blog/is-bpc-157-legal",
+      "title": "Is BPC-157 Legal? What the 2026 FDA Vote Did and Didn't ..."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT07437547",
+      "title": "BPC 157 for Acute Hamstring Muscle Strain Repair"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12567428/",
+      "title": "BPC 157 Therapy: Targeting Angiogenesis and Nitric Oxide\u2019s Cytotoxic and Damaging Actions, but Maintaining, Promoting, or Recovering Their Essential Protective Functions. Comment on J\u00f3zwiak et al. Multifunctionality and Possible Medical Application of the BPC 157 Peptide\u2014Literature and Patent Review. Pharmaceuticals 2025, 18, 185"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12396989/",
+      "title": "Concerning BPC-157, a natural pentadecapeptide, that acts as a cytoprotectant and is believed to protect the gastro-intestinal tract (GIT)"
+    },
+    {
+      "url": "https://www.sheppard.com/insights/blogs/what-to-watch-status-update-on-peptide-regulation",
+      "title": "What to Watch: Status Update on Peptide Regulation"
+    },
+    {
+      "url": "https://www.thefdalawblog.com/2026/04/fdas-peptide-rally-what-compounders-and-industry-need-to-know-post-1-of-2/",
+      "title": "FDA\u2019s Pep(tide) Rally! What Compounders and Industry Need to Know (Post 1 of 2)"
+    },
+    {
+      "url": "https://www.fda.gov/media/94155/download",
+      "title": "Bulk Drug Substances Nominated for Use in Compounding ..."
+    },
+    {
+      "url": "https://peptidewikis.com/category-1-vs-category-2-peptides-what-fdas-503a-compounding-lists-mean/",
+      "title": "Category 1 vs Category 2 Peptides: FDA 503A Lists Explained"
+    },
+    {
+      "url": "https://www.ajmc.com/view/fda-panel-backs-6-peptides-for-compounding",
+      "title": "FDA Panel Backs 6 Peptides for Compounding"
+    },
+    {
+      "url": "https://www.polsinelli.com/publications/what-fdas-latest-actions-mean-for-peptide-compounding",
+      "title": "Tiny Chains, Big Changes? What FDA\u2019s Latest Actions Mean for Peptide Compounding"
+    },
+    {
+      "url": "https://natlawreview.com/article/tiny-chains-big-changes-what-fdas-latest-actions-mean-peptide-compounding",
+      "title": "Tiny Chains, Big Changes? What FDA\u2019s Latest Actions Mean for Peptide Compounding"
+    },
+    {
+      "url": "https://www.peptavo.com/blog/peptide-compounding-categories-explained",
+      "title": "FDA Category 2 Peptides List: The 503A Interim Policy Explained"
+    },
+    {
+      "url": "https://newtropin.com/fda-peptide-status-tracker-2026",
+      "title": "Peptide FDA Compounding Status Tracker 2026 \u2014 Complete 503A Guide"
+    },
+    {
+      "url": "https://nexteralegal.com/bpc-157-legal-status-2026/",
+      "title": "BPC-157 Legal Status 2026: FDA Updates & What's Next"
+    },
+    {
+      "url": "https://www.mypeptidematch.com/blog/fda-peptide-compounding-vote-july-2026",
+      "title": "FDA Clears BPC-157 & TB-500 for Compounding \u2014 What It Really"
+    },
+    {
+      "url": "https://peptidedossier.com/guides/pcac-hearing-bpc-157-tb-500/",
+      "title": "PCAC Vote Results: FDA Panel Backs 6 of 7 Peptides for 503A Compounding [2026]"
+    },
+    {
+      "url": "https://altrohealth.com/post/the-fda-just-voted-on-7-peptides-heres-what-changed-and-what-didnt",
+      "title": "Altro Health Blog Post"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/322323/20260730/fda-panel-backs-peptide-bpc-157-compounding-8-6-vote-over-scientists-objections.htm",
+      "title": "FDA Panel Backs Peptide BPC-157 for Compounding in 8-6 Vote Over Scientists' Objections"
+    },
+    {
+      "url": "https://djholtlaw.com/deep-dive-regulatory-status-of-popular-compounded-peptides/",
+      "title": "Deep Dive: Regulatory Status of Popular Compounded Peptides"
+    },
+    {
+      "url": "https://rethinkpeptides.com/articles/bpc-157-and-the-fda-the-category-2-classification-explained",
+      "title": "BPC-157 and the FDA: Category 2 Explained"
+    },
+    {
+      "url": "https://newdrugloft.com/recent-regulatory-updates-on-compounded-peptide-injections/",
+      "title": "Regulatory Updates on Compounded Peptides \u2014 New Drug Loft and VLS Pharmacy"
+    },
+    {
+      "url": "https://djholtlaw.com/the-unregulated-world-of-peptides-what-you-need-to-know-before-you-inject/",
+      "title": "Are Peptides Like BPC-157 Legal and Safe? What Providers Need to Know Before Offering Them"
+    },
+    {
+      "url": "https://www.texasorthobiologics.com/blog/the-truth-about-peptides-compounding-pharmacies-and-fda-regulation/",
+      "title": "BPC-157, TB-500, GHK-Cu: FDA Compounding Status 2026"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12313605/",
+      "title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review - PMC"
+    },
+    {
+      "url": "https://www.ajmc.com/view/new-nonprofit-launches-to-develop-peptide-compounding-quality-standards",
+      "title": "New Nonprofit Launches to Develop Peptide Compounding Quality Standards"
+    },
+    {
+      "url": "https://qz.com/fda-advisory-panel-peptides-compounding-pharmacies-072826",
+      "title": "FDA panel votes to ease restrictions on 6 peptides - Quartz"
+    },
+    {
+      "url": "https://www.ajmc.com/view/peptide-regulation-debate-intensifies-after-fda-advisory-panel-s-controversial-vote",
+      "title": "Peptide Regulation Debate Intensifies After FDA Advisory Panel's Controversial Vote"
+    },
+    {
+      "url": "https://www.europe.peptide-drug-summit.com/news/peptides-win-an-advisory-vote-not-a-compounding-pass",
+      "title": "European Peptide Drug Summit 2026"
+    },
+    {
+      "url": "https://streamlinefeed.co.ke/news/fda-weighs-peptide-ruling-as-critics-warn-of-consumer-scams",
+      "title": "FDA weighs peptide ruling as critics warn of consumer scams"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6027222/",
+      "title": "2017 FDA Peptide Harvest"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11851826/",
+      "title": "FDA-Approved Antibacterials and Echinocandins"
+    },
+    {
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10005816",
+      "title": "Peptides and their use in food and beverage"
+    },
+    {
+      "url": "https://newdrugloft.com/bpc-157-a-briefing-for-healthcare-professionals/",
+      "title": "BPC-157: A Briefing for Healthcare Professionals \u2014 New Drug Loft and VLS Pharmacy"
+    },
+    {
+      "url": "https://purepeptideclinic.com/guides/bpc-157-fda-status/",
+      "title": "BPC-157 FDA Status & Category 1 Reclassification"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587/",
+      "title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs"
+    },
+    {
+      "url": "https://pepscribe.com/learn/bpc-157/legal-status",
+      "title": "BPC-157: What the Research Says"
+    }
+  ]
+}
