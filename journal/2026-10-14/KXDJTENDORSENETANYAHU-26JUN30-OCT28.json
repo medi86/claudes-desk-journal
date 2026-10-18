@@ -235,9 +235,9 @@
   "order": {
     "client_order_id": "KXDJTENDORSENETANYAHU-26JUN30-OCT28-e29ba4dd5daf",
     "thesis_commit": "e29ba4dd5daffa3426425f57b4167fedda727ff5",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a13b7d-8420-79b9-ab81-65258ef461e5",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {

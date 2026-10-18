@@ -282,5 +282,21 @@
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-next-astronaut-launch-for-nasa-now-set-for-oct-1-after-delay",
       "title": "SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "81176f3f59409cd9a66416a4323ab265c9340375",
+    "pushed_at": "2026-10-18T15:44:17Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXSPACEXCOUNT-26OCT-10-81176f3f5940",
+    "thesis_commit": "81176f3f59409cd9a66416a4323ab265c9340375",
+    "status": "resting",
+    "order_id": "01a14faf-6850-7421-8235-1b40ac9a655a",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
