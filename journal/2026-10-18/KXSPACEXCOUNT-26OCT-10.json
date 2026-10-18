@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "ticker": "KXSPACEXCOUNT-26OCT-10",
+  "event": "KXSPACEXCOUNT-26OCT",
+  "series": "KXSPACEXCOUNT",
+  "title": "How many launches will SpaceX have in Oct 2026? Above 10",
+  "rules": "If SpaceX has more than 10 launches in Oct 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-11-01T14:00:00+00:00",
+  "expected_close_time": "2026-11-01T14:00:00+00:00",
+  "forecast_at": "2026-10-18T15:43:03.169378+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.38",
+    "reasoning": "SpaceX averages roughly 12 launches a month in 2026, so more than 10 is normally likely. But October started slowly: about 5 or 6 launches by mid-month, after a Starlink Falcon 9 gap from Sept 19 to Oct 12. It now needs about 5 or 6 more flights in the last 13 days, which is achievable but slightly less likely than not given the thin manifest.",
+    "falsifier": "Starlink missions resume at near-daily pace from both coasts in late October (plus Bandwagon-5 and any Starship flight), bringing the October total to 11 or more.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6600",
+    "best_yes_ask": "0.7100",
+    "p_market": "0.6850"
+  },
+  "final": {
+    "p_yes": "0.5",
+    "action": "buy_no",
+    "reasoning": "The 0.685 midpoint pushes me up from 0.38, since traders may have a more complete October count than my incomplete search. My best evidence still shows only about 5 to 6 launches by mid-month after a long Starlink pause, so 11 or more looks closer to a coin flip than 69%."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.6700",
+    "count": 1,
+    "cost": "0.3300",
+    "clamped_from": "0.50"
+  },
+  "sources": [
+    {
+      "url": "https://www.allthings-elon.com/articles/spacex-80-falcon-9-launches-2026-record-cadence",
+      "title": "SpaceX Passes 80 Falcon 9 Launches in 2026 at Record Pace"
+    },
+    {
+      "url": "https://www.thefloridapress.com/news/the-space-coast-keeps-launching-and-the-cadence-is-reshaping-brevard",
+      "title": "Cape Canaveral Launch Cadence Hits New Highs in 2026"
+    },
+    {
+      "url": "https://spacenexus.us/blog/space-launch-schedule-2026-complete-guide",
+      "title": "Rocket Launch Schedule 2026: Every Mission, Month by Month"
+    },
+    {
+      "url": "https://x.com/PeterDiamandis/status/2079174938968084642",
+      "title": "Peter H. Diamandis, MD on X: \"SpaceX is achieving the unimaginable, it has completed 80 Falcon 9 launches in 2026 before mid-year. On pace for over 150 by December. A launch cadence that would have been inconceivable for any space agency a decade ago.\" / X"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/07/09/live-coverage-spacex-to-launch-falcon-9-rocket-on-record-breaking-36th-flight/",
+      "title": "SpaceX launches Falcon 9 rocket on record-breaking 36th flight"
+    },
+    {
+      "url": "https://tech-insider.org/spacex-falcon-9-launches-27-starlink-satellites-2026/",
+      "title": "SpaceX Falcon 9 Starlink Launch: 27 Satellites [2026]"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/",
+      "title": "SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-10-35-b1067-ccsfs-asog",
+      "title": "SpaceX just launched \u2014 and landed \u2014 a Falcon 9 rocket booster for the 35th time. That's a new record. (video)"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/08/15/live-coverage-spacex-to-launch-satellite-replenishment-mission-for-globalstar-from-cape-canaveral/",
+      "title": "SpaceX launches record-breaking back-to-back Falcon 9 rockets for Globalstar, U.S. Space Force"
+    },
+    {
+      "url": "https://spacexnow.com/stats",
+      "title": "SpaceX Launch Statistics - Falcon 9, Falcon Heavy and Starship"
+    },
+    {
+      "url": "https://newspaceeconomy.ca/2026/04/05/maximum-theoretical-falcon-9-launch-rate-for-spacex-in-2026/",
+      "title": "Maximum Theoretical Falcon 9 Launch Rate for SpaceX in 2026"
+    },
+    {
+      "url": "https://spacenexus.us/guide/space-launch-schedule-2026",
+      "title": "Cape Canaveral Launch Schedule 2026: Dates & How to Watch"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/10/12/spacex-falcon-9-rocket-to-launch-27-starlink-satellites-into-orbit-from-california/",
+      "title": "SpaceX Falcon 9 rocket launches 27 Starlink satellites from California"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-falcon-9-starlink-mission-for-1st-time-in-more-than-3-weeks-photo",
+      "title": "SpaceX launches Falcon 9 Starlink mission for 1st time in more than 3 weeks (photos)"
+    },
+    {
+      "url": "https://spaceflightnow.com/launch-schedule/",
+      "title": "Launch Schedule"
+    },
+    {
+      "url": "https://spaceflightnow.com/",
+      "title": "Spaceflight Now"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tnX-_tmsNgU",
+      "title": "SpaceX - Falcon 9 - Starlink 15-25 - SLC-4E - Vandenberg SFB, CA - October 12, 2026 - YouTube"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/05/20/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-13/",
+      "title": "SpaceX\u2019s sunrise Starlink launch adds 29 satellites to low Earth orbit megaconstellation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LB8hf7gj-7U",
+      "title": "SpaceX launches Starlink mission on Falcon 9 for first time in weeks, nails landing - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JJ06bHr3_o8",
+      "title": "SpaceX Starlink 423 launch and Falcon 9 first stage landing, 13 October 2026 - YouTube"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/10/13/live-coverage-nasa-spacex-to-launch-new-solar-arrays-6300-pounds-of-cargo-to-the-space-station/",
+      "title": "Launch preview: NASA, SpaceX to launch new solar arrays, 6,300 pounds of cargo to the space station"
+    },
+    {
+      "url": "https://spacenexus.us/launches/spacex/2026-10",
+      "title": "SpaceX Launch Schedule October 2026: Next Transporter 18, Oct 1"
+    },
+    {
+      "url": "https://nextspaceflight.com/launches/",
+      "title": "Launches"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/",
+      "title": "SpaceX launches NASA science and cargo to the International Space Station"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/",
+      "title": "2026"
+    },
+    {
+      "url": "https://www.space.com/news/live/spacex-nasa-crew-13-astronauts-launch-to-iss-october-1-2026",
+      "title": "SpaceX Crew-13 NASA launch live updates: Crew Dragon astronauts arrive aboard ISS"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/10/04/live-coverage-spacex-to-launch-21-data-transport-satellites-for-the-space-development-agency/",
+      "title": "SpaceX scrubs launch attempt for 21 data transport satellites for the Space Development Agency"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches",
+      "title": "List of Falcon 9 and Falcon Heavy launches"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/",
+      "title": "Space Launch Schedule: Rocket Launches, Space News & Events"
+    },
+    {
+      "url": "https://www.visitspacecoast.com/launches/",
+      "title": "Rocket Launch Schedule & Countdown"
+    },
+    {
+      "url": "https://spacecoastdaily.com/2026/10/spacex-schedules-falcon-9-rocket-launch-for-monday-morning-from-cape-canaveral/",
+      "title": "SpaceX Schedules Falcon 9 Rocket Launch for Monday Morning from Cape Canaveral - Space Coast Daily"
+    },
+    {
+      "url": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/",
+      "title": "Launch Preview: Falcon 9, ZhuQue-2E to launch during quiet week - NASASpaceFlight.com"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/category/falcon-9/",
+      "title": "Falcon 9 Launch Schedule: Live Updates & Mission Details"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/328950/20261013/falcon-9-return-spacex-resumes-starlink-launches-27-satellites-after-weeks-delays.htm",
+      "title": "Falcon 9 Return: SpaceX Resumes Starlink Launches With 27 Satellites After Weeks of Delays"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-group-15-27-landing-ocisly",
+      "title": "SpaceX launches 27 Starlink satellites to orbit from California (photos)"
+    },
+    {
+      "url": "https://news.ssbcrack.com/spacex-ends-starlink-launch-drought-with-falcon-9-mission/",
+      "title": "SpaceX Ends Starlink Launch Drought with Falcon 9 Mission - SSBCrack News"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/09/19/live-coverage-spacex-to-launch-27-starlink-v2-mini-satellites-on-falcon-9-rocket-from-vandenberg/",
+      "title": "SpaceX launches 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/28/spacex-prepares-to-send-starship-rocket-to-orbit-for-first-time.html",
+      "title": "SpaceX launches its massive Starship rocket into orbit for the first time"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-internet-satellite-launch-group-17-12",
+      "title": "SpaceX launches 24 Starlink internet satellites to orbit from California (video)"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-next-starship-launch-now-on-sept-28-for-1st-orbital-flight",
+      "title": "SpaceX pushes next Starship launch back to Sept. 28, a 6-day delay for megarocket's 1st orbital flight"
+    },
+    {
+      "url": "https://abcnews.com/US/spacex-attempt-starships-1st-orbital-flight-test/story?id=136805227",
+      "title": "SpaceX Starship splashes down after successful 1st orbital flight test - ABC News"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-grounds-its-falcon-9-rocket-after-a-problem-with-its-upper-stage-will-the-crew-12-astronaut-mission-be-affected",
+      "title": "SpaceX grounds its Falcon 9 rocket after a problem with its upper stage. Will the Crew-12 astronaut mission be affected?"
+    },
+    {
+      "url": "https://www.thespacereview.com/article/5319/1",
+      "title": "The Space Review: Coming to terms with the end of the Falcon 9"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8rdXkjH3AMw",
+      "title": "SpaceX Falcon 9 rocket grounded after Starlink satellites lost in launch failure - YouTube"
+    },
+    {
+      "url": "https://www.cnn.com/2026/09/30/science/starship-spacex-falcon-9-dragon",
+      "title": "SpaceX\u2019s megarocket is on the verge of paradigm-shifting success. It\u2019s spurring a \u2018crisis\u2019"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/02/07/live-coverage-spacex-to-launch-return-to-flight-falcon-9-mission-following-brief-stand-down/",
+      "title": "SpaceX launches return to flight Falcon 9 mission following brief stand down"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/07/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-11/",
+      "title": "SpaceX suffers rare, last-second Falcon 9 rocket launch abort"
+    },
+    {
+      "url": "https://www.theregister.com/offbeat/2026/02/04/spacex-halts-falcon-9-flights-after-second-stage-anomaly/4241447",
+      "title": "SpaceX halts Falcon 9 flights after second stage anomaly"
+    },
+    {
+      "url": "https://payloadspace.com/crew-9-is-in-orbit-but-falcon-9-is-grounded/",
+      "title": "Crew-9 Is In Orbit, But Falcon 9 Is Grounded"
+    },
+    {
+      "url": "https://www.militaryaerospace.com/commercial-aerospace/article/55172913/faa-confirms-spacex-falcon-9-is-grounded-because-of-crew-9-launch-issue",
+      "title": "FAA confirms SpaceX Falcon 9 is grounded because of Crew-9 launch issue"
+    },
+    {
+      "url": "https://keeptrack.space/x-report/spacex-brief-2026-02-05",
+      "title": "Falcon 9 Grounding Threatens ISS Crew Rotation Schedule"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-13",
+      "title": "SpaceX Crew-13"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/launch/falcon-9-block-5-crew-13/",
+      "title": "SpaceX Crew-13 Falcon 9 Block 5 Rocket Launch"
+    },
+    {
+      "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-13-launch/",
+      "title": "NASA\u2019s SpaceX Crew-13 Launch"
+    },
+    {
+      "url": "https://www.rocketlaunch.live/launch/crew-13",
+      "title": "Crew-13 Mission (Falcon 9) - RocketLaunch.Live"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/human-spaceflight/spacexs-crew-13-astronaut-launch-in-infrared-space-photo-of-the-day-for-oct-5-2026",
+      "title": "SpaceX's Crew-13 astronaut launch in infrared"
+    },
+    {
+      "url": "https://www.nasa.gov/blogs/commercialcrew/2026/10/01/nasas-spacex-crew-13-remains-on-schedule-launch-about-20-minutes-away/",
+      "title": "NASA\u2019s SpaceX Crew-13 Remains on Schedule, Launch About 20 Minutes Away - NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/event/nasas-spacex-crew-13/",
+      "title": "NASA\u2019s SpaceX Crew-13 - NASA"
+    },
+    {
+      "url": "https://nextspaceflight.com/launches/details/6973/",
+      "title": "SpaceX Crew-13"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-next-astronaut-launch-for-nasa-now-set-for-oct-1-after-delay",
+      "title": "SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay"
+    }
+  ]
+}
