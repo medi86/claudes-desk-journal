@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "ticker": "KXSONGRELEASEDATEPC-26-NOV01",
+  "event": "KXSONGRELEASEDATEPC-26",
+  "series": "KXSONGRELEASEDATEPC",
+  "title": "Will Playboi Carti release a new song before Nov 1, 2026? Before November",
+  "rules": "If Playboi Carti releases a new song Before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-18T19:44:23.036460+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.22",
+    "reasoning": "Today is about Oct 18, 2026, so roughly two weeks remain. Carti's latest release was a guest verse on Fatt Smaxk's 'Smaxk Or Die' (May 22, 2026). The market is still open, so that apparently didn't count or came before the market was created. He releases solo music rarely and unpredictably, so a qualifying song in a short window is unlikely, though recent Opium activity and live shows leave some chance of a surprise drop or a feature that counts.",
+    "falsifier": "Playboi Carti puts out a new single, a surprise Opium group project, or a guest verse the market counts on streaming platforms before Nov 1, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1000",
+    "best_yes_ask": "0.1500",
+    "p_market": "0.1250"
+  },
+  "final": {
+    "p_yes": "0.16",
+    "action": "pass",
+    "reasoning": "The market's 0.125 midpoint is below my earlier 0.22, and my research was incomplete, so I moved toward the market to 0.16. With the YES ask at 0.15, the remaining edge is too small to bet on given the uncertainty about whether features count."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=5dFwFXlDXYc",
+      "title": "Playboi Carti FULL SET Complexcon 2026 - YouTube"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/playboi-carti/982372505",
+      "title": "Playboi Carti on Apple Music"
+    },
+    {
+      "url": "https://audiomack.com/3you/song/jump-out-the-coupe",
+      "title": "Jump Out The Coupe by Playboi Carti: Listen on Audiomack"
+    },
+    {
+      "url": "https://www.dimers.com/prediction-markets/insights/when-will-playboi-carti-release-a-new-song",
+      "title": "When Will Playboi Carti Release a New Song?"
+    },
+    {
+      "url": "https://music.amazon.com/artists/B01CHYV7VM/playboi-carti",
+      "title": "Playboi Carti on Amazon Music Unlimited"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/ye-joins-playboi-carti-complexcon-165943951.html",
+      "title": "Ye Joins Playboi Carti for ComplexCon 2026 Performance"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=huXhw-MxnwQ",
+      "title": "Playboi Carti - Get High (Official Music Video) prod. dadanny - YouTube"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/986104-playboi-carti-song-leaks-promising-new-music",
+      "title": "Playboi Carti Suffers Multiple Song Leaks After Promising New Music Is Imminent"
+    },
+    {
+      "url": "https://www.shazam.com/en-us/artist/playboi-carti/982372505/releases",
+      "title": "Playboi Carti Discography - All albums, singles, EPs, and other releases."
+    },
+    {
+      "url": "https://stereogum.com/2288412/playboi-carti-play-this/music",
+      "title": "Playboi Carti - \"Play This\""
+    },
+    {
+      "url": "https://stereogum.com/2280223/playboi-carti-announces-new-album-music-shares-single-all-red/music",
+      "title": "Playboi Carti Announces New Album Music, Shares Single \"All Red\""
+    },
+    {
+      "url": "https://www.albumoftheyear.org/artist/30977-playboi-carti/",
+      "title": "Playboi Carti Albums, Songs - Discography - Album of The Year"
+    },
+    {
+      "url": "https://hypebeast.com/2024/9/playboi-carti-all-red-single-stream-music-album-bundles-release-info",
+      "title": "Playboi Carti Drops New Single \"All Red,\" Teases 'MUSIC' Album Release Date"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Playboi_Carti",
+      "title": "Playboi Carti"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Music_(Playboi_Carti_album)",
+      "title": "Music (Playboi Carti album)"
+    },
+    {
+      "url": "https://www.complex.com/music/a/joshua-espinoza/playboi-carti-releases-new-music-play-this",
+      "title": "Playboi Carti Releases New Song \"Play This\""
+    },
+    {
+      "url": "https://open.spotify.com/album/0X1jRt7ic4faNgXBHPD7L7",
+      "title": "Smaxk Or Die (feat. Playboi Carti) - Single by Fatt Smaxk"
+    },
+    {
+      "url": "https://soundcloud.com/fattsmaxk-sc/smaxk-or-die-feat-playboi",
+      "title": "Stream Smaxk Or Die (feat. Playboi Carti) by Fatt Smaxk"
+    },
+    {
+      "url": "https://music.apple.com/ca/song/smaxk-or-die-feat-playboi-carti/6773498482",
+      "title": "Smaxk Or Die (feat. Playboi Carti) by Fatt Smaxk & Playboi Carti on Apple Music"
+    },
+    {
+      "url": "https://soundcloud.com/bluntsbluntsblunts/smaxk-or-die-ft-playboi-1",
+      "title": "Stream Smaxk or Die (Ft. Playboi Carti) by bluntsbluntsblunts"
+    },
+    {
+      "url": "https://music.apple.com/us/song/smaxk-or-die/6762690838",
+      "title": "Smaxk Or Die by Fatt Smaxk on Apple Music"
+    },
+    {
+      "url": "https://www.thehypemagazine.com/2026/05/30/fatt-smaxk-taps-playboi-carti-for-explosive-new-version-of-smaxk-or-die-accompanied-by-atlanta-shot-visuals/",
+      "title": "Fatt Smaxk Taps Playboi Carti for Explosive New Version of \u201cSmaxk or Die\u201d Accompanied by Atlanta-Shot Visuals The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactful Editorials Spanning Fashion, Gaming, Movies, MMA, EDM, Rock, and Beyond! www.thehypemagazine.com - The Hype Magazine The Hype Magazine - News From Hip Hop To Hollywood!"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/entertainment/music/when-will-playboi-carti-release-a-new-song/",
+      "title": "When will Playboi Carti release a new song"
+    },
+    {
+      "url": "https://www.shazam.com/en-us/artist/playboi-carti/982372505/events",
+      "title": "Playboi Carti Tour Details \ud83c\udfa4"
+    },
+    {
+      "url": "https://www.musicfestivalwizard.com/artist/playboi-carti/",
+      "title": "Playboi Carti Tour Dates 2026-2027"
+    },
+    {
+      "url": "https://rapstar.news/playboi-carti-in-2026-whats-next-for-the-opium-king/",
+      "title": "Playboi Carti in 2026: What's Next for the Opium King?"
+    },
+    {
+      "url": "https://www.last.fm/music/Playboi+Carti",
+      "title": "Playboi Carti music, videos, stats, and photos"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/982726-playobi-carti-next-album-sooner-than-you-think",
+      "title": "Playboi Carti's Next Album Is Dropping Sooner Than You Think"
+    },
+    {
+      "url": "https://yahoo.com/entertainment/music/articles/playboi-cartis-albums-ranked-worst-163144670.html",
+      "title": "Playboi Carti's Albums, Ranked Worst to Best"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/967145-why-playboi-carti-baby-boi-didnt-come-out-this-year-hip-hop-news",
+      "title": "We Now Know Why Playboi Carti's \"BABY BOI\" Didn't Come Out This Year"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-features/playboi-carti-new-album-delays-1235291412/",
+      "title": "Will Playboi Carti Ever Drop His New Album?"
+    },
+    {
+      "url": "https://hypebeast.com/2025/3/playboi-carti-announces-new-album-i-am-music-finished",
+      "title": "Playboi Carti Announces 'I AM MUSIC' Is Finished"
+    },
+    {
+      "url": "https://chicago.suntimes.com/music/2024/04/25/travis-scott-playboi-carti-chief-keef-to-headline-2024-summer-smash-chicago",
+      "title": "Travis Scott, Playboi Carti and Chief Keef to headline 2024 Summer Smash - Chicago Sun-Times"
+    },
+    {
+      "url": "https://www.tmz.com/people/playboi-carti/",
+      "title": "Playboi Carti"
+    },
+    {
+      "url": "https://www.complex.com/tag/playboi-carti",
+      "title": "Playboi Carti: Find The Latest Playboi Carti Stories, News & Features"
+    },
+    {
+      "url": "https://www.billboard.com/artist/playboi-carti/",
+      "title": "Playboi Carti"
+    },
+    {
+      "url": "https://thesource.com/2026/10/05/complexcon-2026-ye-playboi-carti-kai-cenat-and-more-linkup-as-fashion-fights-and-chaos-shake-up-la/",
+      "title": "The Source |ComplexCon 2026: Ye, Playboi Carti, Kai Cenat And More Linkup as Fashion, Fights and Chaos Shake Up LA"
+    },
+    {
+      "url": "https://pittnews.com/article/195287/top-stories/review-playboi-carti-finally-drops-new-album-music-after-five-years/",
+      "title": "Review"
+    },
+    {
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/playboi-carti-giuseppe-zanotti-sneaker-boot-release-date-1239306918/",
+      "title": "Giuseppe Zanotti Teases New Partnership With Rapper Playboi Carti"
+    },
+    {
+      "url": "https://www.ksl.com/article/51391930/playboi-carti-cited-with-assaulting-limo-driver-during-rappers-stop-in-utah",
+      "title": "Playboi Carti cited with assaulting limo driver during rapper's stop in Utah"
+    }
+  ]
+}
