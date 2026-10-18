@@ -226,5 +226,21 @@
       "url": "https://pepscribe.com/learn/bpc-157/legal-status",
       "title": "BPC-157: What the Research Says"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "6b4ee998f317b1a53cfbf0e44daf97179f365330",
+    "pushed_at": "2026-10-18T07:41:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXFDAANNOUNCE-BPC-26NOV01-6b4ee998f317",
+    "thesis_commit": "6b4ee998f317b1a53cfbf0e44daf97179f365330",
+    "status": "resting",
+    "order_id": "01a14df5-b230-7cdc-86fa-3f9dd55efb6a",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
