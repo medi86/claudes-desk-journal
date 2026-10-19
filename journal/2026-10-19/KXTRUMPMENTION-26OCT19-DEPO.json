@@ -190,5 +190,21 @@
       "url": "https://www.kwch.com/2026/10/19/trump-making-second-visit-kansas-potus-4-sitting-presidents-have-visited-state-last-30-years/",
       "title": "Trump making second visit to Kansas as POTUS; 4 sitting presidents have visited state in last 30 years"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "b54b1b8521de8b739521d3a4a539b1786a209572",
+    "pushed_at": "2026-10-19T17:38:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPMENTION-26OCT19-DEPO-b54b1b8521de",
+    "thesis_commit": "b54b1b8521de8b739521d3a4a539b1786a209572",
+    "status": "resting",
+    "order_id": "01a1553e-a3f8-7f62-a550-cb77362e0cc7",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

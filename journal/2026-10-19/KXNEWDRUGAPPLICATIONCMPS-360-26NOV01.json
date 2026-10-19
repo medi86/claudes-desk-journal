@@ -213,5 +213,13 @@
       "url": "https://ph.investing.com/news/stock-market-news/compass-pathways-announces-first-trd-awareness-day-in-us-93CH-2627886",
       "title": "Compass Pathways announces first TRD awareness day in U.S. By Investing.com"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "b54b1b8521de8b739521d3a4a539b1786a209572",
+    "pushed_at": "2026-10-19T17:38:49Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
