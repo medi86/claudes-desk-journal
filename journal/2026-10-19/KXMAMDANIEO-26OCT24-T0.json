@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "ticker": "KXMAMDANIEO-26OCT24-T0",
+  "event": "KXMAMDANIEO-26OCT24",
+  "series": "KXMAMDANIEO",
+  "title": "Will Mamdani sign above 0 executive orders between Oct 18, 2026 and Oct 24, 2026?",
+  "rules": "If the number of non-emergency executive orders signed by Zohran Mamdani is above 0 from Oct 18, 2026 to Oct 24, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-10-25T13:59:00+00:00",
+  "expected_close_time": "2026-10-25T13:59:00+00:00",
+  "forecast_at": "2026-10-19T13:31:08.297145+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.52",
+    "reasoning": "Mamdani has signed regular (non-emergency) executive orders at a high pace: 11 in his first two weeks, more in February, two on Sept 4, and a worker-protection order in October 2026. Outside January, the pace looks like about one a week, but orders come in clusters, so many single weeks have none. I couldn't confirm whether one was signed during Oct 18\u201324, so I put it near a coin flip, nudged up slightly for the activity in October.",
+    "falsifier": "The NYC Mayor's Office list of executive orders shows no new numbered (non-emergency) order dated October 18\u201324, 2026 (which would make it NO), or shows one dated in that window, e.g. the worker-power order (which would make it YES).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2100",
+    "best_yes_ask": "0.2500",
+    "p_market": "0.2300"
+  },
+  "final": {
+    "p_yes": "0.28",
+    "action": "pass",
+    "reasoning": "My earlier 0.52 rested only on a weekly signing rate, not on any check of October 18\u201324, while the market at 0.23 may reflect traders watching the official order list and seeing nothing new. I'm moving most of the way toward the price and passing, since the remaining gap doesn't justify a bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://abc7ny.com/post/mayor-zohran-mamdani-signs-executive-order-nyc-sanctuary-laws-strengthen-protections-new-yorkers/18554112/",
+      "title": "Mayor Zohran Mamdani signs executive order on NYC sanctuary laws to strengthen protections for New Yorkers - ABC7 New York"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/mayor-mamdani-signs-executive-order-to-inventory-and-cut-fines-a",
+      "title": "Mayor Mamdani Signs Executive Order to Inventory and Cut Fines and Fees for Small Businesses - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/06/transcript--mayor-mamdani-signs-executive-order-protecting-worke",
+      "title": "Transcript: Mayor Mamdani Signs Executive Order Protecting Workers From Extreme Heat - NYC Mayor's Office"
+    },
+    {
+      "url": "https://pix11.com/news/local-news/mayor-mamdani-signs-executive-order-to-help-nyc-small-businesses/",
+      "title": "Mayor Mamdani signs executive order to help NYC small businesses"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/mayor-mamdani-signs-executive-order-to-require-chief-savings-off",
+      "title": "Mayor Mamdani Signs Executive Order to Require Chief Savings Officers Across City Agencies, Bolster City Performance - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.cbsnews.com/newyork/news/mamdani-executive-order-abusive-immigration-enforcement/",
+      "title": "Mamdani signs executive order to protect New Yorkers from \"abusive immigration enforcement\" - CBS New York"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/2/mamdani-signs-executive-order-letting-kids-stay-up-late-for-nba-finals",
+      "title": "Mamdani signs \u2018executive order\u2019 letting kids stay up late for NBA Finals"
+    },
+    {
+      "url": "https://www.cnn.com/politics/video/nyc-mayor-mamdani-executive-orders-september-11-anniversary-digvid",
+      "title": "Mamdani signs executive orders ahead of 9/11 anniversary"
+    },
+    {
+      "url": "https://www.nyic.org/2026/02/mamdami-executive-order-on-sanctuary-policies-advances-public-safety-for-all-nyers/",
+      "title": "Mamdani Executive Order on Sanctuary Policies Advances Public Safety for All NYers - NYC, Long Island, New York State"
+    },
+    {
+      "url": "https://edition.cnn.com/2026/09/04/us/video/nyc-mayor-mamdani-executive-orders-september-11-vrtc",
+      "title": "Mamdani signs executive orders ahead of 9/11 anniversary"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/executive-order-01",
+      "title": "Executive Order 01 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/site/macj/about/executive-order.page",
+      "title": "Executive Order"
+    },
+    {
+      "url": "https://www.nyc.gov/content/dam/nycgov/mayors-office/downloads/pdf/executive-orders/2026/eo1-prior-executive-orders.pdf",
+      "title": "EXECUTIVE ORDER No. I JANUARY I, 2026"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/mayor-mamdani-signs-two-emergency-executive-orders",
+      "title": "Mayor Mamdani Signs Two Emergency Executive Orders - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/mayor-mamdani-signs-first-two-executive-orders-of-his-administra",
+      "title": "Mayor Mamdani Signs First Two Executive Orders Of His Administration - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/mayor-mamdani-signs-executive-orders-to-crack-down-on-junk-fees-",
+      "title": "Mayor Mamdani Signs Executive Orders to Crack Down on Junk Fees, Subscription Tricks and Traps and Save New Yorkers Money - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.timesofisrael.com/mamdani-revokes-ihra-antisemitism-definition-on-day-1-amid-broad-rejection-of-adams-orders/",
+      "title": "Mamdani revokes IHRA antisemitism definition on day 1, amid broad rejection of Adams orders"
+    },
+    {
+      "url": "https://reviewmamdani.com/orders",
+      "title": "Mamdani Executive Orders \u2014 NYC Mayoral Orders Timeline"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-signs-executive-orders-related-to-sept",
+      "title": "Transcript: Mayor Mamdani Signs Executive Orders Related to September 11th and Government Preparedness - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-to-declare-sept--11th-an-official--day-of-remembra",
+      "title": "Mayor Mamdani to Declare Sept. 11th an Official \"Day of Remembrance and Service,\" Strengthen City Emergency Preparedness - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.amny.com/politics/mamdani-modernize-emergency-sept-11-service/",
+      "title": "Mamdani to modernize NYC emergency planning, designate Sept. 11 day of service"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/mamdani-announces-office-mass-engagement-says-needed-clean-slate-govern-new-york-city",
+      "title": "NYC Mayor Mamdani signs executive order, creates Office of Mass Engagement"
+    },
+    {
+      "url": "https://bronx.news12.com/nyc-mayor-zohran-mamdani-signs-multiple-executive-orders-on-1st-day-in-office",
+      "title": "News 12"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/10/emergency-executive-order-no--1-57",
+      "title": "Emergency Executive Order No. 1.57 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.gtlaw.com/en/insights/2026/10/mayor-mamdani-issues-executive-order-cracking-down-on-worker-abuse-creates-mayors-office-for-worker-power",
+      "title": "Mayor Mamdani Issues Executive Order \u2018Cracking Down on Worker Abuse\u2019; Creates Mayor\u2019s Office for Worker Power"
+    },
+    {
+      "url": "https://www.mondaq.com/unitedstates/employee-rights-labour-relations/1854850/mayor-mamdani-issues-executive-order-cracking-down-on-worker-abuse-creates-mayors-office-for-worker-power",
+      "title": "Mayor Mamdani Issues Executive Order \u2018Cracking Down On Worker Abuse\u2019; Creates Mayor\u2019s Office For Worker Power - Employee Rights/ Labour Relations - United States"
+    },
+    {
+      "url": "https://abc7ny.com/post/nyc-mayor-zohran-mamdani-revokes-eric-adams-executive-orders-israel/18342832/",
+      "title": "NYC Mayor Zohran Mamdani revokes Eric Adams' executive orders on Israel - ABC7 New York"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/01/executive-order-11",
+      "title": "Executive Order 11 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/03/executive-order-no--15",
+      "title": "Executive Order No. 15 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/executive-order-no--21",
+      "title": "Executive Order No. 21 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/content/dam/nycgov/mayors-office/downloads/pdf/executive-orders/2026/eo-18.pdf",
+      "title": "-- ' EXECUTIVE ORDER No. 18 July 20, 2026 OPEN FOR ..."
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/executive-order-no--20",
+      "title": "Executive Order No. 20 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/executive-order-no--22",
+      "title": "Executive Order No. 22 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/executive-order-no--24",
+      "title": "Executive Order No. 24 - NYC Mayor's Office"
+    },
+    {
+      "url": "https://www.nyc.gov/content/dam/nycgov/mayors-office/downloads/pdf/executive-orders/2026/eeo-1.34.pdf",
+      "title": "THE CITY Of\" NEW YORK \u25caF\"l'ICE OF' THE MAYOR NEW YORK, N. Y. 10007"
+    },
+    {
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-launches-first-in-the-nation-office-of-worker-powe",
+      "title": "Mayor Mamdani Launches First-in-the-Nation Office of Worker Power to Support Labor Organizing - NYC Mayor's Office"
+    },
+    {
+      "url": "https://jacobin.com/2026/09/zohran-mamdani-labor-organizing-nyc",
+      "title": "Zohran Mamdani Just Created an Office of Worker Power"
+    },
+    {
+      "url": "https://www.oann.com/newsroom/mamdani-signs-order-on-labor-day-creating-first-in-the-nation-municipal-office-aimed-at-organizing-nyc-workers/",
+      "title": "Mamdani signs order on Labor Day creating \u2018first-in-the-nation\u2019 municipal office aimed at organizing NYC workers"
+    },
+    {
+      "url": "https://ny1.com/nyc/all-boroughs/news/2026/09/07/on-labor-day--mamdani-creates-new-office-focused-on-worker-rights-",
+      "title": "On Labor Day, Mamdani creates office for worker rights"
+    },
+    {
+      "url": "https://bushwickdaily.com/news/mamdani-signs-executive-order-creating-a-first-in-the-nation-office-of-worker-power/",
+      "title": "Mamdani Creates Office of Worker Power to Help NYC Private-Sector Workers Unionize"
+    },
+    {
+      "url": "https://www.peoplesworld.org/article/mamdani-opens-mayors-office-of-worker-power/",
+      "title": "Mamdani opens Mayor\u2019s Office of Worker Power"
+    },
+    {
+      "url": "https://www.commondreams.org/news/mamdani-office-of-worker-power",
+      "title": "On Labor Day, Mamdani Announces First-of-Its Kind 'Office of Worker Power' in NYC"
+    },
+    {
+      "url": "https://www.europesays.com/us/1048654/",
+      "title": "Mamdani puts City Hall behind worker organizing with new office, orders proactive labor probes - United States"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "ticker": "KXPANAMAWEEKLY-26OCT25-T210",
+  "event": "KXPANAMAWEEKLY-26OCT25",
+  "series": "KXPANAMAWEEKLY",
+  "title": "Will there be more than 210 transit calls through the Panama Canal from Oct 19, 2026 to Oct 25, 2026? Above 210",
+  "rules": "If the number of transit calls through the Panama Canal as reported by the IMF PortWatch is above 210 from Oct 19, 2026 to Oct 25, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The total is calculated by summing daily counts from Oct 19, 2026 to Oct 25, 2026. The market will resolve no earlier than Tuesday at 9 AM following the end of the period, once complete data is available.",
+  "close_time": "2026-10-27T13:00:00+00:00",
+  "expected_close_time": "2026-10-27T13:00:00+00:00",
+  "forecast_at": "2026-10-19T13:31:08.297145+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.14",
+    "reasoning": "PortWatch counted about 27 Panama transits a day (~189/week) in early October 2026, when El Ni\u00f1o restrictions limited the Canal to 32 a day. The cap rises to 33 from Oct 15, and PortWatch typically counts about 86% of official transits, which points to roughly 195-200 for Oct 19-25. Clearing 210 needs about 30 a day, so it would take a further easing of the restrictions or an unusually busy week.",
+    "falsifier": "The Canal Authority raising the daily cap to 35 or more before Oct 19 (for example after heavy October rain), or PortWatch daily counts reaching 30+ in the week of Oct 12-18.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1000",
+    "best_yes_ask": "0.1100",
+    "p_market": "0.1050"
+  },
+  "final": {
+    "p_yes": "0.12",
+    "action": "pass",
+    "reasoning": "The market's ~10.5% sits close to my estimate, and it may reflect more recent PortWatch data I couldn't see, so I shaded down to 12%. That leaves too little edge over the 0.11 ask to bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://en.macromicro.me/charts/94486/imf-panama-canal-number-of-ships-and-transit-volume",
+      "title": "IMF - Panama Canal - Daily Transit Calls & Transit Trade Volume"
+    },
+    {
+      "url": "https://www.maps.com/a-week-in-the-life-of-the-panama-canal/",
+      "title": "Animated Panama Canal Map Shows Average Week of Transits"
+    },
+    {
+      "url": "https://portwatch.imf.org/",
+      "title": "PortWatch - International Monetary Fund"
+    },
+    {
+      "url": "https://github.com/LeonardUrbanski/canal_transit_forecast",
+      "title": "GitHub - LeonardUrbanski/canal_transit_forecast \u00b7 GitHub"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/indicators/ship-traffic-through-the-panama-canal",
+      "title": "Ship traffic through the Panama Canal"
+    },
+    {
+      "url": "https://content.ballastmarkets.com/blog/2024-11-05-imf-portwatch-changed-forecasting/",
+      "title": "How IMF PortWatch Changed Shipping Forecasts"
+    },
+    {
+      "url": "https://www.portcast.io/port-congestion/panama-canal",
+      "title": "Panama Canal Port - Live Port Congestion Data"
+    },
+    {
+      "url": "https://www.cruisemapper.com/ports/panama-canal-port-442",
+      "title": "Panama Canal cruise port schedule"
+    },
+    {
+      "url": "https://content.ballastmarkets.com/chokepoints/windward-passage/",
+      "title": "Windward Passage Trade Signals & Caribbean Chokepoint Guide"
+    },
+    {
+      "url": "https://content.ballastmarkets.com/chokepoints/panama-canal/",
+      "title": "Panama Canal: Complete Drought Crisis & Transit Trading S..."
+    },
+    {
+      "url": "https://www.worldcargonews.com/news/2026/09/panama-canal-to-increase-daily-neopanamax-transits/",
+      "title": "Panama Canal to increase daily Neopanamax transits \u2023 WorldCargo News"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-economy-2026/",
+      "title": "Panama Canal Caps Daily Transits as El Ni\u00f1o Threatens Its 2026 Recovery"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-transits-capped-el-nino-2026/",
+      "title": "Panama Canal Transits Capped at 34, Then 32, From September"
+    },
+    {
+      "url": "https://www.marinelink.com/news/panama-canal-cap-daily-transits-542311",
+      "title": "Panama Canal to Cap Daily Transits"
+    },
+    {
+      "url": "https://pancanal.com/en/panama-canal-reports-higher-transits-and-tonnage-while-preparing-to-meet-demand-amid-expected-el-nino-conditions/",
+      "title": "Panama Canal Reports Higher Transits and Tonnage While Preparing to Meet Demand Amid Expected El Ni\u00f1o Conditions - Autoridad del Canal de Panam\u00e1"
+    },
+    {
+      "url": "https://www.marineinsight.com/panama-canal-to-cut-ship-transits-again-due-to-severe-drought-linked-to-el-nino/",
+      "title": "Panama Canal To Maintain 32 Daily Ship Transits Despite El Ni\u00f1o Drought Risks"
+    },
+    {
+      "url": "https://www.ad-hoc-news.de/unterhaltung/reisen/panama-canal-raises-daily-transit-capacity-on-15-october/70352299",
+      "title": "Panama Canal raises daily transit capacity on 15 October"
+    },
+    {
+      "url": "https://gcaptain.com/panama-canal-to-cut-daily-transits-as-optimistic-water-outlook-fades/",
+      "title": "Panama Canal to Cut Daily Transits as Optimistic Water Outlook Fades"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-2026-guide/",
+      "title": "Panama Canal 2026: Revenue Hits $5.7B as Drought Eases"
+    },
+    {
+      "url": "https://www.nautilusshipping.com/news-and-insights/panama-canal-draft-restrictions-2026-what-shipowners-need-to-know",
+      "title": "Panama Canal Draft Restrictions 2026: What Shipowners Need to Know"
+    },
+    {
+      "url": "https://pancanal.com/wp-content/uploads/2025/11/ADV-35-2025-Monthly-Canal-Operations-Summary-October-2025-.pdf",
+      "title": "3654 (OP-I) V. 29/03/2023 Panama Canal Authority"
+    },
+    {
+      "url": "https://www.mol-service.com/blog/choke-point-panama-canal-2025",
+      "title": "Global Maritime Chokepoints: The Panama Canal (Updated in 2025)"
+    },
+    {
+      "url": "https://www.seatrade-maritime.com/maritime-transportation/panama-canal-transits-in-fy2025-bounce-back-from-drought",
+      "title": "Panama Canal transits in FY2025 bounce back from drought"
+    },
+    {
+      "url": "https://boards.cruisecritic.com/topic/3029294-panama-canal-transits-2024-2025-season",
+      "title": "Panama Canal transits 2024-2025 season - Panama Canal - Cruise Critic Community"
+    },
+    {
+      "url": "https://en.portnews.ru/news/383081/",
+      "title": "Panama Canal begins 2025\u20132026 cruise season"
+    },
+    {
+      "url": "https://www.seatrade-maritime.com/ship-operations/panama-canal-transits-bounce-back-after-drought",
+      "title": "Panama Canal transits bounce back after drought"
+    },
+    {
+      "url": "https://strategicenergymap.org/chokepoints/panama-canal/",
+      "title": "Panama Canal: is it open? Status, ship traffic and oil flows"
+    },
+    {
+      "url": "https://globalmaritimehub.com/panama-canal-traffic-rises-as-transits-increase-and-operations-remain-stable/",
+      "title": "Panama Canal traffic rises as transits increase and operations remain stable"
+    },
+    {
+      "url": "https://evtms-rpts.pancanal.com/eng/h2o/GatunWaterIndicators.pdf",
+      "title": "Gatun Lake Water Levels"
+    },
+    {
+      "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/panama-canal-authority-lowers-maximum-draft-level-after-issuing-el-nino-warning-89025",
+      "title": "Riviera - News Content Hub - Panama Canal Authority lowers maximum draft level after issuing El Ni\u00f1o warning"
+    },
+    {
+      "url": "https://gcaptain.com/panama-canal-to-tighten-draft-limits-again-as-water-levels-continue-to-fall/",
+      "title": "Panama Canal to Tighten Draft Limits Again as Water Levels Continue to Fall"
+    },
+    {
+      "url": "https://gcaptain.com/panama-canal-opens-floodgates-as-gatun-lake-reservoir-hits-maximum-capacity/",
+      "title": "Panama Canal Opens Spillways as Reservoir Hits Maximum Level"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-112-el-nino-draft-limits/",
+      "title": "Panama Canal Draft Limits Cut Again in 2026"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-draft-cut-el-nino-2026/",
+      "title": "Panama Canal Draft Cut Again as El Ni\u00f1o Threatens Water"
+    },
+    {
+      "url": "https://dataportuaria.com/en/panama/ports/panama-canal-increases-daily-transits-to-33-after-improved-water-levels-923aab",
+      "title": "Panama Canal increases daily transits to 33 after improved water levels \u2014 DataPortuaria"
+    },
+    {
+      "url": "https://wwd.com/sourcing-journal/logistics/panama-canal-eases-draft-restrictions-el-nino-water-levels-weather-trade-1239297242/",
+      "title": "Panama Canal Reverses Transit Restrictions as Water Levels Recover"
+    },
+    {
+      "url": "https://aitimeline.in/panama-canal-drought-history-timeline-10260/",
+      "title": "Panama Canal Drought History 2026: Why Shipping Keeps Getting Cut"
+    },
+    {
+      "url": "https://allbestshipping.com/blogs/panama-canal-transit-cuts-2026-asia-us-east-coast-shipping/",
+      "title": "Panama Canal Transit Cuts 2026: Surcharges, Delays and Golden Week Math for Asia\u2013US East Coast Shippers - AllBestShipping"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-transit-cuts-september-2026/",
+      "title": "Panama Canal Transits Cut to 34 a Day as Drought Tightens Shipping Again"
+    },
+    {
+      "url": "https://sea.weathernews.com/resources/202609/227",
+      "title": "Panama Canal Tightens Transit Limits Again \u2014 Is 2023 About to Repeat Itself?"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/indicators/ship-traffic-around-the-cape-of-good-hope",
+      "title": "Ship traffic around the Cape of Good Hope"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/2026/06/02/the-disruption-in-the-strait-of-hormuz-is-driving-the-traffic-of-the-panama-canal-to-nearly-reach-its-maximum-capacity",
+      "title": "The disruption in the Strait of Hormuz is driving traffic in the Panama Canal to nearly reach its maximum capacity"
+    },
+    {
+      "url": "https://www.vesselfinder.com/ports/PAPCN006",
+      "title": "Port of Panama Canal (Panama) - Arrivals, Departures, Expected vessels - VesselFinder"
+    },
+    {
+      "url": "https://riotimesonline.com/panama-geopolitics-explained-2026",
+      "title": "Panama Geopolitics: US, China and the Canal in 2026"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/indicators",
+      "title": "Indicators for the Spanish port and logistics system"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/maritime-radar/ports/port1160",
+      "title": "Port of Santos daily activity"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/18/americas/panama-canal-reservoir-project-intl-latam",
+      "title": "Panama Canal reservoir project expected to flood cemeteries, displace families"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/maritime-radar/ports/port1025",
+      "title": "Port of Providenciales daily activity"
+    },
+    {
+      "url": "https://europesays.com/3319721",
+      "title": "Trump\u2019s bid for energy supremacy by taking maritime choke points could fuel US decline - EUROPE SAYS"
+    },
+    {
+      "url": "https://pancanal.com/en/panama-canal-announces-increase-in-draft-and-daily-transit/",
+      "title": "Panama Canal announces increase in draft and daily transit - Autoridad del Canal de Panam\u00e1"
+    },
+    {
+      "url": "https://iamovers.org/news/panama-canal-boosts-daily-transits-and-draft-limits/",
+      "title": "Panama Canal Boosts Daily Transits and Draft Limits - IAM"
+    },
+    {
+      "url": "https://activeinvestormag.com/story/2026-09-29-pm-panama-canal-lifts-daily-transits-and-maximum-draft-as-water/",
+      "title": "Panama Canal lifts daily transits and maximum draft as water levels recover"
+    },
+    {
+      "url": "https://allaboutshipping.co.uk/2026/10/08/panama-canal-expects-more-than-220-transits-during-the-2026-2027-cruise-season/",
+      "title": "Panama Canal Expects More Than 220 Transits During the 2026-2027 Cruise Season"
+    },
+    {
+      "url": "https://www.drycargomag.com/panama-canal-announces-increase-in-draft-and-daily-transit",
+      "title": "Panama Canal announces increase in draft and daily transit"
+    },
+    {
+      "url": "https://www.riotimesonline.com/panama-canal-cruise-season-220-transits-2026/",
+      "title": "Panama Canal Expects Over 220 Cruise Transits by May"
+    }
+  ]
+}
