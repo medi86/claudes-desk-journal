@@ -278,5 +278,19 @@
       "url": "https://billypenn.com/2026/10/19/eagles-jalen-hurts-inury-philadelphia-deep-vein-thrombosis-pulmonary-embolism/",
       "title": "Jalen Hurts injury: Why the Eagles quarterback is out for the foreseeable future"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "6ac6a5190d8d8e6c3db311d64d020b81cd05c787",
+    "pushed_at": "2026-10-19T22:23:21Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXWORLDNEWSMENTION-26OCT19-JALE-6ac6a5190d8d",
+    "thesis_commit": "6ac6a5190d8d8e6c3db311d64d020b81cd05c787",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (invalid_order)"
+  },
+  "result": {
+    "status": "open"
+  }
 }

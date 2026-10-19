@@ -199,10 +199,10 @@
   "order": {
     "client_order_id": "KXTRUMPMENTION-26OCT19-DEPO-b54b1b8521de",
     "thesis_commit": "b54b1b8521de8b739521d3a4a539b1786a209572",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1553e-a3f8-7f62-a550-cb77362e0cc7",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"
