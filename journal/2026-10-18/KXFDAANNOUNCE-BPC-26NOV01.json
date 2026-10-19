@@ -235,9 +235,9 @@
   "order": {
     "client_order_id": "KXFDAANNOUNCE-BPC-26NOV01-6b4ee998f317",
     "thesis_commit": "6b4ee998f317b1a53cfbf0e44daf97179f365330",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a14df5-b230-7cdc-86fa-3f9dd55efb6a",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {

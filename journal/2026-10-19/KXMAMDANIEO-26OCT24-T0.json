@@ -209,5 +209,13 @@
       "url": "https://www.europesays.com/us/1048654/",
       "title": "Mamdani puts City Hall behind worker organizing with new office, orders proactive labor probes - United States"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "e1525d89c60902ebb9b3ca2898a8128be1c77f81",
+    "pushed_at": "2026-10-19T13:35:25Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
