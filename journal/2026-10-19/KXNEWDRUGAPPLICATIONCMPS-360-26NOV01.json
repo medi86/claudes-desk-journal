@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "ticker": "KXNEWDRUGAPPLICATIONCMPS-360-26NOV01",
+  "event": "KXNEWDRUGAPPLICATIONCMPS-360",
+  "series": "KXNEWDRUGAPPLICATIONCMPS",
+  "title": "When will COMPASS Pathways plc submit a NDA for COMP360 psilocybin to the FDA? before November",
+  "rules": "If COMPASS Pathways plc submits a NDA for COMP360 psilocybin to the FDA before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-11-01T05:00:00+00:00",
+  "expected_close_time": "2026-11-01T05:00:00+00:00",
+  "forecast_at": "2026-10-19T17:35:31.360147+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.28",
+    "reasoning": "Compass's August 5, 2026 release says the rolling NDA is underway and final submission is expected in Q4 2026, with launch in H1 2027. YES needs the submission finished in October, the first month of that window, and companies more often hit the middle or end of a guided quarter, or slip. The H1 2027 launch target gives a modest push toward an early-Q4 filing, and there is a small chance the resolver counts the rolling submission loosely.",
+    "falsifier": "Compass announces in October 2026 that it has completed its NDA submission for COMP360 to the FDA.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1300",
+    "best_yes_ask": "0.1500",
+    "p_market": "0.1400"
+  },
+  "final": {
+    "p_yes": "0.18",
+    "action": "pass",
+    "reasoning": "The 14% price is well below my 28%, and since I couldn't check news after August or confirm the current date, the market likely reflects later information such as no October filing yet. I moved most of the way toward it, and the remaining 4-point edge is too thin to bet on."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+      "title": "COMPASS Pathways plc - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000047/cmps-20260707.htm",
+      "title": "COMPASS Pathways plc - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000043/q12026pressrelease.htm",
+      "title": "COMPASS Pathways plc - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000021/q42025pressrelease.htm",
+      "title": "COMPASS Pathways plc - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1816590/000162828026009499/cmps-2025prosuppfinal.htm",
+      "title": "COMPASS Pathways plc - Form 424B5 - FY2026"
+    },
+    {
+      "url": "https://finance.yahoo.com/healthcare/articles/compass-pathways-targets-2027-comp360-210218096.html",
+      "title": "Compass Pathways Targets 2027 COMP360 Launch After Positive Phase III Depression Data"
+    },
+    {
+      "url": "https://www.marketbeat.com/instant-alerts/event-compass-pathways-targets-q4-comp360-nda-completion-eyes-2027-launch-2026-09-24/",
+      "title": "Compass Pathways Targets Q4 COMP360 NDA Completion, Eyes 2027 Launch"
+    },
+    {
+      "url": "https://www.clinicaltrialsarena.com/news/compass-pathways-psychedelic-comp360-trd-phase-iii/",
+      "title": "Compass stock heads north on psychedelic\u2019s Phase III TRD success\u00a0 - Clinical Trials Arena"
+    },
+    {
+      "url": "https://finance.yahoo.com/healthcare/articles/compass-pathways-plc-cmps-q2-190123153.html",
+      "title": "Compass Pathways PLC (CMPS) (Q2 2026) Earnings Call Highlights: Strong Cash Position and NDA ..."
+    },
+    {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-Second-Quarter-and-First-Half-2026-Financial-Results-and-Business-Highlights/default.aspx",
+      "title": "Compass Pathways - Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights"
+    },
+    {
+      "url": "https://finance.yahoo.com/healthcare/articles/compass-pathways-targets-q4-comp360-000207683.html",
+      "title": "Compass Pathways Targets Q4 COMP360 NDA Completion, Eyes 2027 Launch"
+    },
+    {
+      "url": "https://www.tradingview.com/news/marketbeat:2cf7f6fc6094b:0-compass-pathways-targets-q4-comp360-nda-completion-eyes-2027-launch/",
+      "title": "Compass Pathways Targets Q4 COMP360 NDA Completion, Eyes 2027 Launch \u2014 TradingView News"
+    },
+    {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-Six-Month-Data-from-Second-Phase-3-Trial-Confirming-Rapid-and-Durable-Profile/default.aspx",
+      "title": "Compass Pathways - Compass Pathways Announces Six-Month Data from Second Phase 3 Trial Confirming Rapid and Durable Profile"
+    },
+    {
+      "url": "https://finance.yahoo.com/healthcare/articles/compass-pathways-q2-earnings-call-130411767.html",
+      "title": "Compass Pathways Q2 Earnings Call Highlights"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260805927238/en/Compass-Pathways-Announces-Second-Quarter-and-First-Half-2026-Financial-Results-and-Business-Highlights",
+      "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4920673-compass-pathways-strong-buy-comp360-trial-wins-and-q4-nda-full-submission",
+      "title": "Compass Pathways: 'Strong Buy' COMP360 Trial Wins And Q4 NDA Full Submission (NASDAQ:CMPS)"
+    },
+    {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-First-Quarter-2026-Financial-Results-and-Business-Highlights/default.aspx",
+      "title": "Compass Pathways - Compass Pathways Announces First Quarter 2026 Financial Results and Business Highlights"
+    },
+    {
+      "url": "https://psychedelicbeacon.com/blog/psilocybin-fda-approval-tracker",
+      "title": "Psilocybin FDA Approval Status (Updated July 2026) \u2014 Tracker & Timeline"
+    },
+    {
+      "url": "https://marketbeat.com/instant-alerts/event-compass-pathways-targets-q4-comp360-nda-completion-eyes-2027-launch-2026-09-24/?amp=",
+      "title": "Compass Pathways Targets Q4 COMP360 NDA Completion, Eyes 2027 Launch"
+    },
+    {
+      "url": "https://www.merlintrader.com/compass-pathways-stock-hub/",
+      "title": "Compass Pathways ($CMPS): COMP360, Cash And The NDA"
+    },
+    {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Granted-NDA-Rolling-Review-Request-and-Awarded-Commissioners-National-Priority-Voucher/default.aspx",
+      "title": "Compass Pathways - Compass Pathways Announces FDA Granted NDA Rolling Review Request and Awarded Commissioner's National Priority Voucher"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/CMPS/compass-pathways-announces-fda-granted-nda-rolling-review-request-ou8p8s1sprns.html",
+      "title": "Compass Pathways gets FDA rolling NDA review, voucher"
+    },
+    {
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/compass-pathways-announces-fda-granted-143700887.html",
+      "title": "Compass Pathways Announces FDA Granted NDA Rolling Review Request and Awarded Commissioner's National Priority Voucher"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000043/q12026pressrelease.htm",
+      "title": "Press Release dated"
+    },
+    {
+      "url": "https://www.stocktitan.net/sec-filings/CMPS/8-k-compass-pathways-plc-reports-material-event-93419847928e.html",
+      "title": "Compass Pathways (CMPS) gains Q1 profit, boosts cash to $466M and speeds COMP360 NDA"
+    },
+    {
+      "url": "https://www.benzinga.com/news/26/10/62237646/compass-pathways-reports-q2-2026-results-full-earnings-call-transcript",
+      "title": "Compass Pathways Reports Q2 2026 Results: Full Earnings Call Transcript - Compass Pathways (NASDAQ:CMPS) - Benzinga"
+    },
+    {
+      "url": "https://s204.q4cdn.com/927483861/files/doc_events/2026/Phase-3-006-data-webcast-presentation-7-July-26.pdf",
+      "title": "\u00a9 Compass Pathways"
+    },
+    {
+      "url": "https://www.moreblossom.com/stakeholders/compass-pathways",
+      "title": "COMPASS Pathways: Company Profile & Drug Pipeline"
+    },
+    {
+      "url": "https://pharmatimes.com/news/compass-pathways-reports-six-month-data-confirming-durable-profile-of-comp360/",
+      "title": "Compass Pathways reports six\u2011month data confirming durable profile of COMP360 - PharmaTimes"
+    },
+    {
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/compass-pathways-eyes-rolling-fda-082816500.html",
+      "title": "Compass Pathways Eyes Rolling FDA Filing for COMP360, Preps TRD Launch Ahead of Q3 Data"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260707713443/en/Compass-Pathways-Announces-Six-Month-Data-from-Second-Phase-3-Trial-Confirming-Rapid-and-Durable-Profile",
+      "title": "Compass Pathways Announces Six-Month Data from Second Phase 3 Trial Confirming Rapid and Durable Profile"
+    },
+    {
+      "url": "https://www.clinicaltrialvanguard.com/clinical-bellwether/compass-pathways-just-answered-the-durability-question-now-comes-the-harder-problem/",
+      "title": "Compass Pathways Just Answered the Durability Question. Now Comes the Harder Problem."
+    },
+    {
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/compass-pathways-touts-phase-3-093302009.html",
+      "title": "Compass Pathways Touts Phase 3 COMP360 Depression Data, Eyes Rolling NDA and 2026 Launch Readiness"
+    },
+    {
+      "url": "https://www.stocktitan.net/sec-filings/CMPS/8-k-compass-pathways-plc-reports-material-event-23ad7b8f3b99.html",
+      "title": "Compass Pathways posts positive Phase 3 TRD data"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CMPS/",
+      "title": "COMPASS Pathways plc (CMPS) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.wdam.com/2026/10/18/prccs-compass-pathways-offers-up-close-look-career-options/",
+      "title": "PRCC\u2019s Compass Pathways offers up-close look at career options"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/CMPS/",
+      "title": "COMPASS Pathways (CMPS) Stock News & Updates"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CMPS/news/",
+      "title": "COMPASS Pathways plc (CMPS) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cmps/compass-pathways/news/phase-3-trial-success-might-change-the-case-for-compass-path",
+      "title": "Phase 3 Trial Success Might Change The Case For COMPASS Pathways Stock - Simply Wall St News"
+    },
+    {
+      "url": "https://stocktwits.com/symbol/CMPS",
+      "title": "CMPS: COMPASS Pathways Latest Stock Price, Analysis, News and Trading Ideas"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CMPS/press-releases/",
+      "title": "COMPASS Pathways plc (CMPS) Latest Press Releases & Corporate News - Yahoo Finance"
+    },
+    {
+      "url": "https://www.fiercepharma.com/marketing/compass-puts-treatment-resistant-depression-map-first-awareness-day",
+      "title": "Compass puts treatment-resistant depression on the map with first awareness day"
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cmps/compass-pathways/news/how-phase-iii-progress-at-compass-pathways-stock-has-changed",
+      "title": "How Phase III Progress At Compass Pathways Stock Has Changed Its Investment Story - Simply Wall St News"
+    },
+    {
+      "url": "https://ph.investing.com/news/stock-market-news/compass-pathways-announces-first-trd-awareness-day-in-us-93CH-2627886",
+      "title": "Compass Pathways announces first TRD awareness day in U.S. By Investing.com"
+    }
+  ]
+}

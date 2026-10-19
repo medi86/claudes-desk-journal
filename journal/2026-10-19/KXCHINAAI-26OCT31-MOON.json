@@ -1,0 +1,285 @@
+{
+  "schema": 1,
+  "ticker": "KXCHINAAI-26OCT31-MOON",
+  "event": "KXCHINAAI-26OCT31",
+  "series": "KXCHINAAI",
+  "title": "Top Chinese AI company on October 31, 2026? Moonshot",
+  "rules": "If Moonshot is the Highest Ranked Chinese AI Company model on Arena AI Text Score (Remove Style Control) on Oct 31, 2026 at 10:00am ET, then the market resolves to Yes.",
+  "rules_secondary": "Qualifying Chinese AI companies are defined as a company whose global or primary operational headquarters is located in mainland China.\n\nTied rankings shall be resolved using the publisher's official tie-breaking methodology; if none exists, all tied entities share the highest rank among them.\n\nIf multiple candidates are tied for a given rank, then their Contracts will resolve to $1/(the number of candidates tied), rounded down.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-31T14:00:00+00:00",
+  "expected_close_time": "2026-10-31T14:00:00+00:00",
+  "forecast_at": "2026-10-19T17:35:31.360147+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.48",
+    "reasoning": "A source from about a day ago says Moonshot's Kimi K3 is currently the top Chinese model on the LMArena text arena, so Moonshot looks like the frontrunner. But the market uses the leaderboard with style control removed, which can reorder models scoring close together, and I couldn't check that view. Qwen, DeepSeek, GLM and ERNIE are all near the top and could release or update models in the roughly 12 days left. My search allowance ran out early, so the evidence is limited.",
+    "falsifier": "On Oct 31, 2026 at 10:00am ET, with style control removed, the Arena text leaderboard shows a model from Alibaba (Qwen), DeepSeek, Zhipu (GLM), Baidu (ERNIE), Xiaomi or another mainland Chinese company ranked above Kimi K3.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0900",
+    "best_yes_ask": "0.1700",
+    "p_market": "0.1300"
+  },
+  "final": {
+    "p_yes": "0.18",
+    "action": "pass",
+    "reasoning": "The market can see the style-control-removed leaderboard I couldn't check, and a 13% price suggests Kimi K3 is not leading that view. I updated sharply toward the market, and my remaining gap above the ask is too small to bet on."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://ernie.baidu.com/blog/posts/ernie-5.0-0110-release-on-lmarena/",
+      "title": "ERNIE-5.0 Tops LMArena Text Leaderboard as No.1 Chinese Model!"
+    },
+    {
+      "url": "https://ernie.baidu.com/blog/posts/ernie-5.1-preview-0430-release-on-lmarena/",
+      "title": "ERNIE-5.1-Preview Tops LMArena Text Leaderboard as No.1 Chinese Model!"
+    },
+    {
+      "url": "https://inferencehub.org/blog/chinese-frontier-open-source-ai-models-2026/",
+      "title": "Chinese Frontier Open-Source AI Models in 2026: The Labs, the Models, and How They Stack Up"
+    },
+    {
+      "url": "https://www.i-scoop.eu/chinese-ai-labs/",
+      "title": "The 40 most innovative AI labs in China and their latest models"
+    },
+    {
+      "url": "https://llm-stats.com/benchmarks/lmarena-text",
+      "title": "LMArena Text Leaderboard Leaderboard"
+    },
+    {
+      "url": "https://localaimaster.com/blog/lmarena-chatbot-arena-leaderboard",
+      "title": "LMArena Leaderboard (Now Arena): Who's #1 on Chatbot Arena Right Now"
+    },
+    {
+      "url": "https://superpowers-skills.com/en-us/2026/09/02/ai-model-leaderboards-2026.html",
+      "title": "7 AI Model Leaderboards: Latest Rankings and What They Measure - Superpowers Skills"
+    },
+    {
+      "url": "https://www.toolcenter.ai/en/articles/best-ai-models-ranking-2026",
+      "title": "Best AI Models 2026: LMSYS Arena Top 10 Ranked"
+    },
+    {
+      "url": "https://pinggy.io/blog/usa_europe_china_llm_comparison/",
+      "title": "USA, Europe, or China - Who has the best AI Models?"
+    },
+    {
+      "url": "https://shattered.io/kimi-k3-coding-leaderboard-2026/",
+      "title": "Kimi K3 Beats GPT-6.1 Sol by 61 Elo Points [2026]"
+    },
+    {
+      "url": "https://x.com/arena/status/2077802013245816962?lang=en",
+      "title": "Arena.ai on X: \"Kimi K3 by @Kimi_Moonshot is available in the Agent Arena! Agent Arena evaluates long-running agents. It measures models on millions of real-world, long-horizon agentic tasks from a global community of users. Models can access web search, filesystem, and terminal tools to https://t.co/6WBuYYeeqr\" / X"
+    },
+    {
+      "url": "https://wan27.org/blog/kimi-k3-benchmarks",
+      "title": "Kimi K3 Benchmarks: Every Score, Every Comparison, Every Surprise (July 2026)"
+    },
+    {
+      "url": "https://appreviewlab.com/kimi-k3-benchmarks/",
+      "title": "Kimi K3 Benchmarks Explained"
+    },
+    {
+      "url": "https://x.com/scaling01/status/2077825950717272150",
+      "title": "Lisan al Gaib on X: \"Kimi-K3 is 10th in the Text Arena\" / X"
+    },
+    {
+      "url": "https://thenewstack.io/kimi-k3-open-weight-coding/",
+      "title": "Kimi K3 tops Arena's coding leaderboard \u2014 and it's open-weight - The New Stack"
+    },
+    {
+      "url": "https://awesomeagents.ai/models/kimi-k3/",
+      "title": "Kimi K3"
+    },
+    {
+      "url": "https://awesomeagents.ai/reviews/review-kimi-k3/",
+      "title": "Kimi K3 Review: Best at Code, Worse at Honesty"
+    },
+    {
+      "url": "https://benchlm.ai/best/chinese-models",
+      "title": "Best Chinese AI Models (October 2026): 66 LLMs Ranked"
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-026-02281-2",
+      "title": "Does China\u2019s latest AI model finally equal US rivals? What scientists think"
+    },
+    {
+      "url": "https://geotoolbox.ai/blog/chinese-ai-models-compared",
+      "title": "Chinese AI Models Compared: DeepSeek, Qwen, GLM, Kimi (2026)"
+    },
+    {
+      "url": "https://www.secondtalent.com/resources/chinese-open-source-llms-ai-leaders/",
+      "title": "Top 5 Chinese Open-Source LLMs Dominating 2026 - Second Talent"
+    },
+    {
+      "url": "https://www.recodechinaai.com/p/moonshot-ais-high-stakes-bet-inside",
+      "title": "\ud83c\udf1dKimi K3: The Least \"Chinese\" AI Model - by Tony Peng"
+    },
+    {
+      "url": "https://felloai.com/best-chinese-ai-models",
+      "title": "Best Chinese AI Models in 2026: Ranked and Compared"
+    },
+    {
+      "url": "https://kenhuangus.substack.com/p/demystifying-kimi-k3-how-chinas-28t",
+      "title": "Demystifying Kimi K3: The Three Algorithms Behind the #1 Frontend Coding Model"
+    },
+    {
+      "url": "https://pasqualepillitteri.it/en/news/16873/best-chinese-ai-coding-models-2026",
+      "title": "Best Chinese AI coding models in September 2026, ranked"
+    },
+    {
+      "url": "https://benchlm.ai/llm-leaderboard-history",
+      "title": "LLM Leaderboard History: Arena Rankings 2023\u20132026 (October 2026)"
+    },
+    {
+      "url": "https://www.swfte.com/lmarena",
+      "title": "LMArena Leaderboard October 2026"
+    },
+    {
+      "url": "https://bestllmmodels.com/llm-leaderboard",
+      "title": "LLM Leaderboard (2026) \u2014 Arena Text Ladder"
+    },
+    {
+      "url": "https://anotherwrapper.com/tools/llm-pricing/evals/arena-text-elo",
+      "title": "Chatbot Arena Leaderboard 2026"
+    },
+    {
+      "url": "https://felloai.com/best-ai-models/",
+      "title": "Best AI Models in October 2026: Updated Rankings and Comparisons"
+    },
+    {
+      "url": "https://www.swfte.com/ai/lm/leaderboard",
+      "title": "LM Leaderboard October 2026"
+    },
+    {
+      "url": "https://www.swfte.com/lmsys-leaderboard",
+      "title": "LMSys Chatbot Arena Leaderboard (October 2026): Live Rankings + Elo"
+    },
+    {
+      "url": "https://www.codesota.com/arena/text",
+      "title": "AI Text Arena: Best AI Chatbot Rankings by Human Preference"
+    },
+    {
+      "url": "https://x.com/arena/status/2084108703729615026",
+      "title": "Arena.ai on X: \"Big news: Qwen3.8-Max by @Alibaba_Qwen just landed at #4 on the Frontend Code Arena leaderboard with a score of 1,668! With 1,668 points, Qwen3.8-Max is trailing only Claude Opus 5 (Max) with 1,705 pts and Kimi K3 (Max) with 1,676 pts, on par with Claude Opus 5 (High) with 1669 pts\u2026 / X"
+    },
+    {
+      "url": "https://felloai.com/qwen-3-8/",
+      "title": "Qwen 3.8 Review 2026: Specs, Price & the Fable 5 Claim"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/322773/20260803/qwen38-max-debuts-arenaai-qwenwork-brings-china-state-law-risk-enterprise-workflows.htm",
+      "title": "Qwen3.8-Max Debuts on Arena.AI: QwenWork Brings China State-Law Risk Into Enterprise Workflows"
+    },
+    {
+      "url": "https://benchmarklist.com/models/qwen-qwen3.8-max/",
+      "title": "Qwen3.8 Max Benchmark Scores & Evals"
+    },
+    {
+      "url": "https://helloai.com/articles/qwen3-8-max-cools-below-gemini",
+      "title": "Qwen3.8-Max Cools Below Gemini as Arena Votes Arrive"
+    },
+    {
+      "url": "https://officechai.com/ai/qwen3-8-max-ranks-4-on-frontend-code-arena-2-on-vision-arena/",
+      "title": "Qwen3.8-Max Ranks #4 On Frontend Code Arena, #2 On Vision Arena"
+    },
+    {
+      "url": "https://x.com/arena/status/2084108711665270942",
+      "title": "Arena.ai on X: \"Qwen3.8-Max ranks #2 in Vision Arena scoring 1,305. Second only to Claude Fable 5 (High) which has only a 13pt lead.\" / X"
+    },
+    {
+      "url": "https://github.com/W52M/qwen3-8-max-text-arena-rank-climb",
+      "title": "GitHub - W52M/qwen3-8-max-text-arena-rank-climb: Vertical Remotion leaderboard animation for Alibaba Qwen3.8 Max climbing to rank 2 in Text Arena. \u00b7 GitHub"
+    },
+    {
+      "url": "https://x.com/top7ico/status/2084262527265812654?lang=en",
+      "title": "Top 7"
+    },
+    {
+      "url": "https://awesomeagents.ai/models/qwen-3-8-max/",
+      "title": "Qwen3.8-Max"
+    },
+    {
+      "url": "https://ollama.com/library/glm-5.3",
+      "title": "glm-5.3"
+    },
+    {
+      "url": "https://armes.ai/docs/models/z-ai/glm-5.3",
+      "title": "GLM-5.3 Specs, Benchmarks & Token Pricing \u2014 Z.ai"
+    },
+    {
+      "url": "https://modelmarkets.ai/models/zai-org/glm-5-3",
+      "title": "GLM-5.3 Specs, Pricing & Providers \u00b7 Model Markets"
+    },
+    {
+      "url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+      "title": "GLM-5.3-Flash/FlashX - Overview - Z.AI DEVELOPER DOCUMENT"
+    },
+    {
+      "url": "https://kingy.ai/blog/glm-5-3-specs-benchmarks-api-how-to-use/",
+      "title": "GLM-5.3 Weights Are Out\u2014But Running Them Takes Eight GPUs"
+    },
+    {
+      "url": "https://ollama.com/library/glm-5.3-flash",
+      "title": "glm-5.3-flash"
+    },
+    {
+      "url": "https://artificialanalysis.ai/models/glm-5-3",
+      "title": "GLM-5.3 (max) - Intelligence, Performance & Price Analysis"
+    },
+    {
+      "url": "https://evolink.ai/blog/glm-5-3-vs-glm-5-2",
+      "title": "GLM-5.3 vs GLM-5.2: What Changed and Should You Switch?"
+    },
+    {
+      "url": "https://tech-insider.org/au/how-to-use-glm-5-3-2026/",
+      "title": "How to Use GLM-5.3: 13 Steps, 90 Min [2026] - Tech Insider"
+    },
+    {
+      "url": "https://arena.ai/leaderboard",
+      "title": "Arena Leaderboard: Official AI Model Rankings & Benchmarks"
+    },
+    {
+      "url": "https://x.com/arena/status/2047518357726056502?lang=en",
+      "title": "Arena.ai on X: \"DeepSeek v4 lands in the Text Arena: - DeepSeek V4 Pro (thinking): #2 open model (#14 overall), matching Kimi-2.6 - DeepSeek V4 Flash (thinking): #10 open model (#47 overall) Top 10 Text categories: - #1 Medicine & Healthcare (v4 Pro) - #8 Legal & Government (v4 Pro) - #8 Math\" / X"
+    },
+    {
+      "url": "https://x.com/arena/status/2047518354903359697",
+      "title": "Arena.ai on X: \"Exciting news - DeepSeek V4 Pro is in the Arena with 1.6T parameters (49B activated) alongside V4 Flash at 284B parameters (13B activated). Both support 1M token context. It\u2019s a major leap over DeepSeek V3.2! Code Arena: - DeepSeek V4 Pro (thinking): #3 open model (#14 overall), on par with GPT-5.4-high and Gemini-3.1-Pro in agentic webdev tasks Text Arena: - DeepSeek V4 Pro (thinking): #2 open model (#14 overall), matching Kimi-2.6 - DeepSeek V4 Flash (thinking): #10 open model (#47 overall) Competition at the top of the open model leaderboards keeps heating up. Huge congrats to @DeepSeek_AI on the strong comeback!\" / X"
+    },
+    {
+      "url": "https://x.com/arena/status/2087767198974533648",
+      "title": "Arena.ai on X: \"Big news: DeepSeek-V4-Pro (Max) by @deepseek_ai is coming in around ~#8 overall (#2 among open models) in the Code Arena: WebDev! At 1607 pts, this places it after GPT-5.6 Sol (xHigh)(1622 pts), and makes it the second best open model after Kimi K3 (Max) (1674 pts). Note: this https://t.co/K1rEbOfyE5\" / X"
+    },
+    {
+      "url": "https://cryptobriefing.com/deepseek-v4-1-flash-tops-code-arena/",
+      "title": "DeepSeek-V4.1-Flash takes the top open model spot in Code Arena"
+    },
+    {
+      "url": "https://www.swfte.com/ai/leaderboard",
+      "title": "AI Model Leaderboard October 2026 \u2014 LMSys Arena, LLM, Image & Coding Rankings"
+    },
+    {
+      "url": "https://openrouter.ai/rankings",
+      "title": "LLM Rankings"
+    },
+    {
+      "url": "https://aifront-page.com/deepseek-v4-1-flash-1017-arena-ai-webdev-leaderboard/",
+      "title": "DeepSeek-V4.1- Flash-1017 Tops Arena AI WebDev Leaderboard"
+    },
+    {
+      "url": "https://x.com/arena/status/2083351033993142605",
+      "title": "Arena.ai on X: \"DeepSeek-V4-Flash-High by @deepseek_ai is #7 overall in the Frontend Code Arena with 1,586 pts! It\u2019s #3 among open. In categories it\u2019s #4 in Consumer Product, #6 in Reference-based Design, Data & Analytics, Gaming, and #7 in Brand & Marketing. This is an impressive improvement from DeepSeek-V4-Flash-High-Preview, a +154 pt jump. Even more impressive is the jump from DeepSeek-V4-Pro-Preview, a +121 point improvement.\" / X"
+    }
+  ]
+}

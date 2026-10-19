@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT19-DEPO",
+  "event": "KXTRUMPMENTION-26OCT19",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during Midterm Rally in Wichita, Kansas originally scheduled for October 19, 2026? Deport / Deported / Deportation",
+  "rules": "If \n Donald Trump says Deport / Deported / Deportation as part of Midterm Rally in Wichita, Kansas originally scheduled for October 19, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Midterm Rally in Wichita, Kansas originally scheduled for October 19, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Midterm Rally in Wichita, Kansas originally scheduled for October 19, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-19T17:35:31.360147+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.67",
+    "reasoning": "The Monday October 19 rally for Sen. Roger Marshall was confirmed at a Park City (Wichita-area) arena, with Trump due to speak at 6 p.m. during a nationwide midterm tour. Immigration is a near-constant theme in his rally speeches, and these usually run more than an hour, so saying 'deport', 'deported' or 'deportation' at least once is more likely than not. However, he often uses other phrasings like 'illegal aliens' or 'getting them out', and tense forms like 'deporting' don't count. I couldn't confirm what he actually said.",
+    "falsifier": "A full transcript of the Park City/Wichita rally shows Trump discussing immigration only with terms like 'illegal aliens,' 'removed,' or 'deporting' and never saying 'deport,' 'deported,' or 'deportation'; or the rally is cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2300",
+    "best_yes_ask": "0.2500",
+    "p_market": "0.2400"
+  },
+  "final": {
+    "p_yes": "0.36",
+    "action": "buy_yes",
+    "reasoning": "The low price suggests recent Trump rallies rarely include the exact words deport, deported or deportation, so I lowered my estimate a lot. It stays above 0.25 because immigration is a staple of his long rally speeches."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.2400",
+    "count": 1,
+    "cost": "0.2400",
+    "clamped_from": "0.36"
+  },
+  "sources": [
+    {
+      "url": "https://www.kcur.org/2026-10-16/trump-rally-will-be-at-heartland-credit-union-arena-in-park-city",
+      "title": "Trump's Kansas rally will be at Heartland Credit Union Arena in Park City"
+    },
+    {
+      "url": "https://www.kcur.org/2026-10-13/trump-scheduled-to-visit-wichita-on-monday-for-campaign-rally",
+      "title": "Trump coming to Kansas for Marshall campaign rally on Monday"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/13/potus-wichita-trump-flying-next-week-rally-roger-marshall/",
+      "title": "POTUS to Wichita: Trump flying in next week to rally for Roger Marshall"
+    },
+    {
+      "url": "https://www.ksn.com/news/your-local-election-hq/trump-coming-to-wichita-for-campaign-rally/",
+      "title": "President Donald Trump coming to Wichita, Kansas, for campaign rally"
+    },
+    {
+      "url": "https://www.kcur.org/2026-10-19/president-trump-will-visit-the-wichita-area-today-heres-what-to-know-before-the-rally",
+      "title": "President Trump will visit the Wichita area today. Here's what to know before the rally"
+    },
+    {
+      "url": "https://kansaspublicradio.org/2026-10-19/president-trump-will-visit-the-wichita-area-today-heres-what-to-know-before-the-rally",
+      "title": "President Trump will visit the Wichita area today. Here's what to know before the rally"
+    },
+    {
+      "url": "https://www.ksn.com/news/state-regional/line-forms-to-see-president-trumps-kansas-style-rally-in-park-city/",
+      "title": "Line forms to see President Trump\u2019s \u2018Kansas Style Rally\u2019 in Park City"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-wichita-kansas-president-donald-j-trump-ks?amp=&amp=&amp=&amp=&amp=&_nlid=EatpmVxchj&amp=&_nhids=nc60yfEjac05Qls",
+      "title": "Midterm Rally in Wichita, Kansas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/trump-campaign-rallies-kansas-north-carolina",
+      "title": "Trump to bring campaign blitz to Kansas, North Carolina next week"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/13/potus-park-city-trump-rally-roger-marshall-heartland-credit-union-arena/",
+      "title": "POTUS to Park City: Trump to rally for Roger Marshall at Heartland Credit Union Arena"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-trump-visits-kansas-support-134809001.html",
+      "title": "President Trump visits Kansas to support Sen. Roger Marshall"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/19/midterm-rally-park-city-president-trump-visiting-wichita-area-today/",
+      "title": "Midterm rally in Park City: President Trump visiting Wichita area today"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/see-coverage-trump-monday-rally-100000275.html",
+      "title": "See coverage of Trump\u2019s Monday rally in Kansas for Sen. Marshall, locked in tight race"
+    },
+    {
+      "url": "https://fox4kc.com/news/kansas-news/president-trump-visits-kansas-to-support-sen-roger-marshall/",
+      "title": "President Trump visits Kansas to support Sen. Roger Marshall"
+    },
+    {
+      "url": "https://hayspost.com/posts/5da57ad1-38d3-40e6-a2dd-67ccf169be46",
+      "title": "President Trump visit: Road closures and event parking information"
+    },
+    {
+      "url": "https://ca.news.yahoo.com/trump-rally-not-wichita-still-152304890.html",
+      "title": "Trump rally not in Wichita after all, but still close by - Yahoo News Canada"
+    },
+    {
+      "url": "https://www.ksn.com/news/local/president-trumps-visit-expected-to-bring-economic-boost-to-park-city/",
+      "title": "President Trump\u2019s visit expected to bring economic boost to Park City"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/trump-takes-border-crackdown-deep-red-state-shock-senate-battle-threatens-gop-stronghold",
+      "title": "Trump rallies in Kansas to push immigration agenda amid Senate race"
+    },
+    {
+      "url": "https://www.jammin999fm.com/2026/10/19/trump-takes-border-crackdown-to-deep-red-state-as-shock-senate-battle-threatens-gop-stronghold/",
+      "title": "Trump takes border crackdown to deep-red state as shock Senate battle threatens GOP stronghold"
+    },
+    {
+      "url": "https://jingletree.com/trump-takes-border-crackdown-to-deep-red-state-as-shock-senate-battle-threatens-gop-stronghold-291124.html",
+      "title": "Trump takes border crackdown to deep-red state as shock Senate battle threatens GOP stronghold - Jingletree"
+    },
+    {
+      "url": "https://www.ksn.com/news/local/protests-across-u-s-spike-following-new-immigration-policies-including-wichita/",
+      "title": "Wichita demonstration targets President Trump's immigration policies"
+    },
+    {
+      "url": "https://www.kake.com/home/trump-to-hold-rally-at-heartland-credit-union-arena-in-park-city/article_1a839baa-951b-474a-b6a5-e4e89f49cb3f.html",
+      "title": "Trump to hold rally at Heartland Credit Union Arena in Park City"
+    },
+    {
+      "url": "https://www.westernjournal.com/report-trump-admin-intends-deport-ilhan-omar-immigration-fraud-allegations/",
+      "title": "Report: Trump Admin. Intends to Deport Ilhan Omar Over Immigration Fraud Allegations"
+    },
+    {
+      "url": "https://www.kshb.com/news/state/kansas/what-does-president-donald-trumps-visit-to-kansas-say-about-u-s-senate-race",
+      "title": "What does President Donald Trump\u2019s visit to Kansas say about U.S. Senate race?"
+    },
+    {
+      "url": "https://www.ksn.com/news/your-local-election-hq/president-trumps-visit-to-kansas-will-happen-at-heartland-credit-union-arena/",
+      "title": "President Trump's visit to Wichita, Kansas will happen at Park City's Heartland Credit Union Arena"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-promises-kansas-style-rally-223322544.html",
+      "title": "Trump promises \u2018Kansas Style rally very soon\u2019 to support Roger Marshall"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-heads-to-rally-in-kansas-as-republican-voters-frustrations-deepen",
+      "title": "WATCH LIVE: Trump heads to rally in Kansas as Republican voters' frustrations deepen"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-park-city-kansas-president-donald-j-trump-ks",
+      "title": "Midterm Rally in Park City, Kansas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/16/trump-headline-midterm-rally-park-city-what-know-before-you-go/",
+      "title": "Trump to headline midterm rally in Park City; what to know before you go"
+    },
+    {
+      "url": "https://www.kake.com/home/park-city-prepares-as-president-trump-announces-rally-at-heartland-credit-union-arena/article_6e8d4285-5060-4a01-9367-eeca187d3545.html",
+      "title": "Park City prepares as President Trump announces rally at Heartland Credit Union Arena"
+    },
+    {
+      "url": "https://kcur.org/news/2026-10-19/kansas-farmers-ranchers-roger-marshall-donald-trump-midterm",
+      "title": "U.S. Sen. Roger Marshall's close ties to Trump may hurt his chances with Kansas farmers"
+    },
+    {
+      "url": "https://www.ksn.com/news/line-forms-to-see-president-trumps-kansas-style-rally-in-park-city/",
+      "title": "Line forms to see President Trump\u2019s \u2018Kansas Style Rally\u2019 in Park City"
+    },
+    {
+      "url": "https://www.kake.com/home/trump-to-hold-rally-in-wichita-for-sen-roger-marshall-ahead-of-election/article_56c43ec2-fbcd-48a9-86aa-e7f91b8539e6.html",
+      "title": "Trump to hold rally in Wichita for Sen. Roger Marshall ahead of election"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-rally-not-wichita-still-152304890.html",
+      "title": "Trump rally not in Wichita after all, but still close by"
+    },
+    {
+      "url": "https://www.ksn.com/news/your-local-election-hq/adam-hamilton-issues-message-ahead-of-trump-rally-for-sen-roger-marshall/",
+      "title": "Adam Hamilton issues message ahead of Trump rally for Sen. Roger Marshall"
+    },
+    {
+      "url": "https://fox4kc.com/news/kansas-news/president-trumps-visit-to-kansas-will-happen-at-heartland-credit-union-arena/",
+      "title": "President Trump's visit to Wichita, Kansas will happen at Park City's Heartland Credit Union Arena"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/19/trump-making-second-visit-kansas-potus-4-sitting-presidents-have-visited-state-last-30-years/",
+      "title": "Trump making second visit to Kansas as POTUS; 4 sitting presidents have visited state in last 30 years"
+    }
+  ]
+}
