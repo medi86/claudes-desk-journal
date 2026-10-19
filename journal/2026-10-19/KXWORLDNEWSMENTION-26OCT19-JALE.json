@@ -1,0 +1,282 @@
+{
+  "schema": 1,
+  "ticker": "KXWORLDNEWSMENTION-26OCT19-JALE",
+  "event": "KXWORLDNEWSMENTION-26OCT19",
+  "series": "KXWORLDNEWSMENTION",
+  "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026? Jalen Hurts",
+  "rules": "If \n any host or reporter says Jalen Hurts as part of ABC World News Tonight originally scheduled for October 19, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "Video of the ABC World News Tonight originally scheduled for October 19, 2026 will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the ABC World News Tonight originally scheduled for October 19, 2026 will be used.\n\nPayout Criterion: \nThe exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc) are included.\nFor the purpose of this market, the live broadcast or stream will be used to resolve this event. \nAdditional content not included in the original broadcast or stream will not count. \nPromotional content aired during the event will count, but advertisements will not. \nFor the purpose of this market, the entirety of content within the original broadcast will be used for resolution.\nPlease see full rules for more details.\n\nPostponement:\nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-19T22:21:22.019617+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.81",
+    "reasoning": "On October 19, 2026 itself, the Eagles announced that Jalen Hurts has DVT and blood clots in both lungs and will likely miss the season. That made it a major health and sports story, and ABC News' medical correspondents (Narula, Sutton) were already covering it. World News Tonight regularly covers star athletes' serious health scares, so a mention by name that evening is likely. The main risks are other heavy news pushing it out, or the story airing without his full name.",
+    "falsifier": "The October 19 broadcast airs without a Hurts segment, or covers it without anyone saying 'Jalen Hurts', for example because of breaking news like the France riots or another major domestic story.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3300",
+    "best_yes_ask": "0.3900",
+    "p_market": "0.3600"
+  },
+  "final": {
+    "p_yes": "0.66",
+    "action": "buy_yes",
+    "reasoning": "The low price suggests skepticism that World News Tonight covers NFL injuries, so I shaded down from 0.81. A same-day, season-ending pulmonary embolism diagnosis for a star QB, which ABC's medical team was already covering, still makes a named mention more likely than 36%."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.3800",
+    "count": 1,
+    "cost": "0.3800",
+    "clamped_from": "0.66"
+  },
+  "sources": [
+    {
+      "url": "https://fbschedules.com/2026-nfl-monday-night-football-schedule/",
+      "title": "2026 NFL Monday Night Football Schedule"
+    },
+    {
+      "url": "https://abc.com/news/640105ff-cab7-46f5-98c5-ccd165214869/category/1138628",
+      "title": "Monday Night Football Schedule 2026-2027 Season: Watch on ABC & ESPN"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/monday-night-football-game-tonight-230030804.html",
+      "title": "Is there a Monday Night Football game tonight? How to watch Eagles vs Bears - Yahoo Sports"
+    },
+    {
+      "url": "https://www.sync2cal.com/sports/football/nfl/monday-night-football",
+      "title": "Monday Night Football Schedule 2026 - Google Calendar"
+    },
+    {
+      "url": "https://www.skysports.com/nfl/news/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+      "title": "NFL fixtures and schedule 2026: UK times for regular season games and post-season playoffs on road to Super Bowl LXI"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/2026-nfl-monday-night-football-233553294.html",
+      "title": "2026 NFL Monday Night Football schedule, full list of games - Yahoo Sports"
+    },
+    {
+      "url": "https://centexkiteboarding.com/article/who-s-playing-monday-night-football-tonight-schedule-how-to-watch-week-6",
+      "title": "Who's Playing Monday Night Football Tonight? Schedule & How to Watch (Week 6) (2026)"
+    },
+    {
+      "url": "https://www.cbssports.com/nfl/news/2026-monday-night-football-schedule/",
+      "title": "2026 'Monday Night Football' schedule: Ranking full slate of games, featuring Broncos-Chiefs in Week 1"
+    },
+    {
+      "url": "https://www.philadelphiaeagles.com/news/eagles-schedule-release-2026",
+      "title": "Eagles announce 2026 schedule"
+    },
+    {
+      "url": "https://www.philadelphiaeagles.com/schedule/2026/",
+      "title": "Eagles 2026 Schedule"
+    },
+    {
+      "url": "https://www.cbssports.com/nfl/teams/PHI/philadelphia-eagles/schedule/",
+      "title": "Philadelphia Eagles Schedule 2026-27 - CBS Sports"
+    },
+    {
+      "url": "https://sports.yahoo.com/nfl/breaking-news/article/philadelphia-eagles-2026-nfl-schedule-dates-time-tv-171201184.html",
+      "title": "Philadelphia Eagles 2026 NFL schedule: dates, time, TV - Yahoo Sports"
+    },
+    {
+      "url": "https://www.fox29.com/sports/philadelphia-eagles-2026-2027-full-schedule-released-everything-you-need-know",
+      "title": "Philadelphia Eagles 2026-2027 full schedule released: Everything you need to know"
+    },
+    {
+      "url": "https://www.bleedinggreennation.com/philadelphia-eagles-schedule/175606/philadelphia-eagles-2026-schedule",
+      "title": "Philadelphia Eagles 2026 schedule"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Philadelphia_Eagles_season",
+      "title": "2026 Philadelphia Eagles season"
+    },
+    {
+      "url": "https://www.cabletv.com/nfl/philadelphia-eagles/schedule",
+      "title": "2026 Philadelphia Eagles TV Schedule & Game Times"
+    },
+    {
+      "url": "https://www.sportsmediawatch.com/tv-schedules/nfl-tv-schedule/philadelphia-eagles/",
+      "title": "Philadelphia Eagles TV Schedule 2026: How to Watch - Sports Media Watch"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/eagles-2026-nfl-schedule-release-233554068.html",
+      "title": "Eagles 2026 NFL schedule release tracker: Every confirmed and rumored game for Philadelphia - Yahoo Sports"
+    },
+    {
+      "url": "https://www.nbcphiladelphia.com/news/sports/nfl/philadelphia-eagles/jalen-hurts-out-for-the-rest-of-the-season-eagles-announce/4481805/",
+      "title": "Jalen Hurts likely out for season, Philadelphia Eagles announce"
+    },
+    {
+      "url": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot",
+      "title": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely"
+    },
+    {
+      "url": "https://www.espn.com/nfl/story/_/id/50218378/eagles-jalen-hurts-season-due-blood-clots-lungs",
+      "title": "Jalen Hurts expected to miss season after blood clots discovered in QB's lungs"
+    },
+    {
+      "url": "https://sports.yahoo.com/nfl/breaking-news/article/eagles-qb-jalen-hurts-ruled-out-for-week-6-after-blood-clot-found-in-his-leg-171742514.html",
+      "title": "Eagles QB Jalen Hurts ruled out for Week 6 after blood clot found in his leg - Yahoo Sports"
+    },
+    {
+      "url": "https://www.foxnews.com/outkick-sports/former-nfl-team-doctor-addresses-jalen-hurts-blood-clot-qb-season-hinges-one-key-word",
+      "title": "Former NFL team doctor addresses Jalen Hurts' blood clot as QB's season hinges on one key word"
+    },
+    {
+      "url": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-place-jalen-hurts-on-injured-reserve-with-blood-clot/759308/",
+      "title": "Eagles place Jalen Hurts on Injured Reserve with blood clot"
+    },
+    {
+      "url": "https://www.foxnews.com/outkick-sports/eagles-bring-back-jalen-hurts-season-one-condition-amid-blood-clot-issue-report",
+      "title": "Eagles will bring back Jalen Hurts this season under one condition amid blood clot issue: report"
+    },
+    {
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-will-go-on-injured-reserve-miss-at-least-four-games-and-possibly-more",
+      "title": "Jalen Hurts will go on injured reserve, miss at least four games and possibly more - NBC Sports"
+    },
+    {
+      "url": "https://www.espn.com/nfl/story/_/id/50200331/sources-no-ir-plans-hurts-indefinitely-clot",
+      "title": "Sources: Eagles' Jalen Hurts, out indefinitely with blood clot, not planned for IR"
+    },
+    {
+      "url": "https://www.nfl.com/players/jalen-hurts/",
+      "title": "Jalen Hurts Stats, News and Video - QB"
+    },
+    {
+      "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-6-142829593.html",
+      "title": "NFL news, live updates: Davante Adams to miss 6-10 weeks with ruptured hamstring; Eagles QB Jalen Hurts reportedly out for season with blood clots in lungs; Colts fire Chris Ballard - Yahoo Sports"
+    },
+    {
+      "url": "https://www.cbssports.com/nfl/news/jalen-hurts-blood-clot-expert-weighs-in-eagles-qb/",
+      "title": "Jalen Hurts blood clot: Expert weighs in on Eagles' situation, and when QB could return to the field"
+    },
+    {
+      "url": "https://www.espn.com/nfl/story/_/id/50219637/jalen-hurts-eagles-blood-clot",
+      "title": "Jalen Hurts' blood clot diagnosis explained: What it means for the QB"
+    },
+    {
+      "url": "https://www.cbsnews.com/philadelphia/news/jalen-hurts-blood-clots-news-eagles/",
+      "title": "Eagles QB Jalen Hurts out for season after blood clots discovered in lungs, league sources say - CBS Philadelphia"
+    },
+    {
+      "url": "https://time.com/article/2026/10/19/jalen-hurts-dvt-blood-clots-lungs/",
+      "title": "Jalen Hurts Has Deep Vein Thrombosis and Blood Clots in His Lungs. Here\u2019s What to Know"
+    },
+    {
+      "url": "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-2026-season-blood-clots",
+      "title": "NFL Network: Eagles QB Jalen Hurts likely out for rest of 2026 season due to blood clots"
+    },
+    {
+      "url": "https://6abc.com/post/philadelphia-eagles-quarterback-jalen-hurts-season-blood-clots-discovered-qbs-lungs/19955100/",
+      "title": "Philadelphia Eagles quarterback Jalen Hurts out for season after blood clots discovered in QB's lungs - 6abc Philadelphia"
+    },
+    {
+      "url": "https://www.inquirer.com/eagles/jalen-hurts-not-playing-blood-clots-in-lungs-20261019.html",
+      "title": "Eagles quarterback Jalen Hurts is out indefinitely, could miss rest of 2026 season with \u2018multiple blood clots\u2019 in lungs"
+    },
+    {
+      "url": "https://abcnews.com/GMA/Culture/jalen-hurts-miss-eagles-sunday-matchup-panthers-due/story?id=137300122",
+      "title": "Jalen Hurts to miss Eagles' Sunday matchup against Panthers due to blood clot: What to know - ABC News"
+    },
+    {
+      "url": "https://abcnews.com/Sports/wireStory/eagles-qb-jalen-hurts-injured-reserve-blood-clot-137352927",
+      "title": "Eagles QB Jalen Hurts placed on injured reserve with blood clot in his calf - ABC News"
+    },
+    {
+      "url": "https://abcnews.com/US/eagles-jalen-hurts-blood-clots-leg-lungs-timeline/story?id=137387183",
+      "title": "Eagles coach defends handling of Jalen Hurts' blood clots diagnosis: What to know - ABC News"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-20/philadelphia-eagles-qb-jalen-hurts-blood-clots-in-lungs/107286260",
+      "title": "Philadelphia Eagles QB Jalen Hurts to miss NFL season with blood clots in lungs - ABC News"
+    },
+    {
+      "url": "https://6abc.com/post/jalen-hurts-future-philadelphia-is-now-question-mark/19943776/",
+      "title": "Jalen Hurts' future in Philadelphia is now a question mark - 6abc Philadelphia"
+    },
+    {
+      "url": "https://www.abc27.com/news/eagles-qb-jalen-hurts-out-for-season-with-multiple-blood-clots/",
+      "title": "Eagles QB Jalen Hurts out for season with multiple blood clots"
+    },
+    {
+      "url": "https://abc7news.com/post/jalen-hurts-season-blood-clots-discovered-eagles-qbs-lungs-nfl-network-espn-say/19955107/?userab=kfsn_content_recs-582*variant_b_trending_kfsn-2513%2Ckabc_content_recs-577*variant_a_control-2480%2Cwls_content_recs-584*variant_a_control_wls-2516%2Cwtvd_content_recs-585*variant_a_control_wtvd-2518%2Cktrk_content_recs-587*variant_a_control_ktrk-2522%2Cwpvi_content_recs-586*variant_a_control_wpvi-2520%2Cabcn_article_nfy_v2-691*v2_model_enabled-3729%2Cotv_web_content_rec-539*variant_c_trending-2268%2Cotv_web_topic-580*variant_b_topic_redesign-2509%2Cfollow_abcnews_otv_on_google-654*variant_a_control-3493%2Cotv_search_page_design_unification-546*variant_b_search_redesign-2300%2Cotv_web_live-581*variant_a_live-2510%2Cfollow_otv_on_google-683*variant_b_share_drop_down-3661%2Cabcn_popular_reads_exp_followup-648*variant_c_autotagswpopularity-3458%2Cotv_mobile_web_content_recs-639*variant_b_mobile_content_recs_enabled-3431%2Ckgo_content_recs-583*variant_b_trending_kgo-2515%2Cabcn_verts_midterms-671*variant_a_control-3586%2Cotvlink_abcnnav-576*variant_a_control-2478",
+      "title": "Jalen Hurts out for season after blood clots discovered in Eagles QB's lungs, NFL Network and ESPN say - ABC7 San Francisco"
+    },
+    {
+      "url": "https://abcnews.com/video/137320059",
+      "title": "Jalen Hurts out of Sunday's game due to blood clot - ABC News"
+    },
+    {
+      "url": "https://abcnews.com/video/137384865",
+      "title": "Jalen Hurts expected to be out for season after blood clots found in lungs - ABC News"
+    },
+    {
+      "url": "https://drydenwire.com/news/morning-headlines-monday-oct-19-2026",
+      "title": "Morning Headlines - Monday, Oct. 19, 2026"
+    },
+    {
+      "url": "https://www.npr.org/sections/news/",
+      "title": "News: U.S. and World News Headlines : NPR"
+    },
+    {
+      "url": "https://www.aol.co.uk/articles/latest-news-bulletin-october-19th-050032000.html",
+      "title": "Latest news bulletin"
+    },
+    {
+      "url": "https://www.euronews.com/video/2026/10/19/latest-news-bulletin-october-19th-2026-evening",
+      "title": "Video. Latest news bulletin"
+    },
+    {
+      "url": "https://www.usnews.com/news/world",
+      "title": "World News Headlines - US News and World Report"
+    },
+    {
+      "url": "https://www.democracynow.org/2026/10/19/headlines",
+      "title": "Headlines for October 19, 2026"
+    },
+    {
+      "url": "https://www.justsecurity.org/161263/early-edition-october-19-2026/",
+      "title": "Early Edition: October 19, 2026"
+    },
+    {
+      "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653",
+      "title": "Iran live updates: Russia says it won't stop cooperating with Iran - ABC News"
+    },
+    {
+      "url": "https://sports.yahoo.com/nfl/breaking-news/article/eagles-announce-jalen-hurts-diagnosed-with-deep-vein-thrombosis-141647824.html",
+      "title": "Eagles QB Jalen Hurts reportedly out for 2026 season after being diagnosed with blood clots in lungs - Yahoo Sports"
+    },
+    {
+      "url": "https://www.foxnews.com/outkick-sports/jalen-hurts-miss-remainder-nfl-season-blood-clots-quarterback-lungs",
+      "title": "Jalen Hurts to reportedly miss remainder of NFL season after blood clots found in quarterback's lungs"
+    },
+    {
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-has-deep-vein-thrombosis-multiple-pulmonary-embolisms",
+      "title": "Jalen Hurts has deep vein thrombosis, multiple pulmonary embolisms - NBC Sports"
+    },
+    {
+      "url": "https://www.newsnationnow.com/us-news/sports/eagles-qb-jalen-hurts-out-for-the-year-blood-clots/",
+      "title": "Jalen Hurts, Philadelphia Eagles QB, out for the year with blood clots: Report"
+    },
+    {
+      "url": "https://abc7ny.com/post/jalen-hurts-season-blood-clots-discovered-eagles-qbs-lungs-nfl-network-espn-say/19955107/",
+      "title": "Jalen Hurts out for season after blood clots discovered in Eagles QB's lungs, NFL Network and ESPN say - ABC7 New York"
+    },
+    {
+      "url": "https://billypenn.com/2026/10/19/eagles-jalen-hurts-inury-philadelphia-deep-vein-thrombosis-pulmonary-embolism/",
+      "title": "Jalen Hurts injury: Why the Eagles quarterback is out for the foreseeable future"
+    }
+  ]
+}

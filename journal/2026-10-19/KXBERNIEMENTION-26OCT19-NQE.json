@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "ticker": "KXBERNIEMENTION-26OCT19-NQE",
+  "event": "KXBERNIEMENTION-26OCT19",
+  "series": "KXBERNIEMENTION",
+  "title": "What will Bernie Sanders say during Fighting Oligarchy: Get Out the Vote rally in Amarillo originally scheduled for October 19, 2026? Event does not qualify",
+  "rules": "If \na qualifying event does not occur\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Fighting Oligarchy: Get Out the Vote rally in Amarillo originally scheduled for October 19, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Fighting Oligarchy: Get Out the Vote rally in Amarillo originally scheduled for October 19, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nBernie Sanders speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-19T22:21:22.019617+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.05",
+    "reasoning": "Same-day local reporting (Oct 19, 2026) confirms the Amarillo Civic Center rally is on, with the program starting at 1 p.m., and the tour has run on schedule in Tampa and Gainesville over the prior two days. Sanders' rallies are usually livestreamed, so a qualifying video record is likely. The leftover risk is a last-minute no-show or remote-only appearance (as at the June 2025 Amarillo stop) or a lack of usable stream footage.",
+    "falsifier": "Reports that Sanders cancelled or missed the Amarillo rally, or spoke only by phone and Kalshi ruled that doesn't count, or that no live broadcast/stream of the event exists.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8800",
+    "best_yes_ask": "0.9100",
+    "p_market": "0.8950"
+  },
+  "final": {
+    "p_yes": "0.8",
+    "action": "pass",
+    "reasoning": "A 0.895 midpoint on 'does not qualify' strongly suggests traders know the rally lacked a qualifying stream or Sanders didn't appear, which I couldn't check. I've updated sharply toward the market but have no independent edge to bet either way."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://texasscorecard.com/decisiontexas/socialist-bernie-sanders-campaigns-in-texas-ahead-of-midterms/",
+      "title": "Socialist Bernie Sanders Campaigns in Texas Ahead of Midterms - Texas Scorecard"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour",
+      "title": "Fighting Oligarchy tour"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/talarico-skip-bernie-sanders-texas-185044737.html",
+      "title": "Talarico to skip Bernie Sanders Texas rally as Senate polling lead tightens"
+    },
+    {
+      "url": "https://www.newsweek.com/talarico-to-skip-bernie-sanders-texas-rally-as-senate-polling-lead-tightens-12569008",
+      "title": "Talarico to Skip Bernie Sanders Texas Rally as Senate Polling Lead Tightens - Newsweek"
+    },
+    {
+      "url": "https://berniesanders.com/oligarchy/",
+      "title": "Fighting Oligarchy Tour"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/bernie-sanders-bringing-fighting-oligarchy-174831456.html",
+      "title": "Bernie Sanders is bringing his \u2018Fighting Oligarchy' tour to Houston. Here's what to know."
+    },
+    {
+      "url": "https://www.houstonchronicle.com/news/houston-texas/trending/article/bernie-sanders-houston-event-22476571.php",
+      "title": "Bernie Sanders\u2019 Houston tour stop is Oct. 20. Here\u2019s what to know."
+    },
+    {
+      "url": "https://hoodline.com/2026/10/bernie-sanders-brings-oligarchy-tour-to-el-paso-with-beto-o-rourke-greg-casar/",
+      "title": "Bernie Sanders Rally Hits El Paso Oct. 19 With O'Rourke, Casar"
+    },
+    {
+      "url": "https://www.myhighplains.com/news/recap-sen-bernie-sanders-in-fighting-oligarchy-tour-stop-in-amarillo/",
+      "title": "RECAP: Sen. Bernie Sanders' in \u2018Fighting Oligarchy\u2019 tour stop in Amarillo"
+    },
+    {
+      "url": "https://news.yahoo.com/bernie-sanders-rally-draws-full-153843075.html",
+      "title": "Bernie Sanders rally draws full house in Amarillo despite absence"
+    },
+    {
+      "url": "https://www.myhighplains.com/news/local-news/recap-sen-bernie-sanders-in-fighting-oligarchy-tour-stop-in-amarillo/",
+      "title": "RECAP: Sen. Bernie Sanders' in \u2018Fighting Oligarchy\u2019 tour stop in Amarillo"
+    },
+    {
+      "url": "https://yahoo.com/news/politics/articles/angie-nixon-bernie-sanders-rally-162241070.html",
+      "title": "Angie Nixon, Bernie Sanders rally supporters at UF in Gainesville"
+    },
+    {
+      "url": "https://yahoo.com/news/politics/articles/bernie-sanders-angie-nixon-draw-220528138.html",
+      "title": "Bernie Sanders and Angie Nixon draw more than 2,000 to Tampa rally"
+    },
+    {
+      "url": "https://amarillotribune.org/2025/06/23/amarilloans-pack-globe-news-center-in-support-of-fighting-oligarchy/",
+      "title": "Amarilloans pack Globe-News Center in support of \u2018Fighting Oligarchy\u2019\u00a0 : Amarillo Tribune"
+    },
+    {
+      "url": "https://www.myhighplains.com/news/local-news/bernie-sanders-visits-amarillo-as-part-of-fighting-oligarchy-tour/",
+      "title": "Bernie Sanders visits Amarillo as part of 'Fighting Oligarchy' tour"
+    },
+    {
+      "url": "https://www.myhighplains.com/news/your-local-election-hq/sen-bernie-sanders-brings-his-fighting-oligarchy-tour-to-amarillo/",
+      "title": "Sen. Bernie Sanders brings his \u201cFighting Oligarchy\u201d tour to Amarillo"
+    },
+    {
+      "url": "https://www.myhighplains.com/news/political-news/sen-bernie-sanders-fighting-oligarchy-tour-coming-to-amarillo/",
+      "title": "Sen. Bernie Sanders Fighting Oligarchy Tour coming to Amarillo"
+    },
+    {
+      "url": "https://bluewaterhealthyliving.com/news/national-news/texas/bernie-sanders-rally-draws-full-house-in-amarillo-despite-absence/",
+      "title": "Bernie Sanders rally draws full house in Amarillo despite absence"
+    },
+    {
+      "url": "https://www.newschannel10.com/2025/06/20/bernie-sanders-coming-amarillo-globe-news-center-sunday/",
+      "title": "Bernie Sanders coming to Amarillo Globe-News Center Sunday"
+    },
+    {
+      "url": "https://houstonchronicle.com/news/houston-texas/trending/article/bernie-sanders-houston-event-22476571.php",
+      "title": "Bernie Sanders\u2019 Houston tour stop is Oct. 20. Here\u2019s what to know."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-AfJijuitQA",
+      "title": "LIVE: Bernie Sanders & Abdul El-Sayed Speak on \u2018Fighting Oligarchy\u2019 - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CzJGHSuK59Q",
+      "title": "LIVE: Bernie Sanders Teams Up With Angie Nixon To Give Trump & Oligarchs a Nightmare"
+    },
+    {
+      "url": "https://kvia.com/politics/2026/10/19/bernie-sanders-makes-stop-in-el-paso-with-beto-orourke/",
+      "title": "Bernie Sanders makes stop in El Paso with Beto O'Rourke - KVIA"
+    },
+    {
+      "url": "https://x.com/baylisswagner/status/2110392134042026188",
+      "title": "Bayliss Wagner on X: \"James Talarico will not attend Bernie Sanders' GOTV rallies in Texas next week, his campaign confirmed to @nytimes. Sanders is hitting Amarillo, El Paso & Houston on Monday & Tuesday w/ Greg Casar and Beto O'Rourke: https://t.co/fkP8smErx0\" / X"
+    },
+    {
+      "url": "https://www.amarillo.gov/amarillo-civic-center-complex/",
+      "title": "Amarillo Civic Center Complex - City of Amarillo"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amarillo_Civic_Center",
+      "title": "Amarillo Civic Center"
+    },
+    {
+      "url": "https://maps.apple.com/place?place-id=IBC92F33BE4E8EC24",
+      "title": "Amarillo Civic Center Complex in Amarillo, TX United States - Apple Maps"
+    },
+    {
+      "url": "https://www.axs.com/venues/100770/amarillo-civic-center-amarillo-tickets",
+      "title": "Amarillo Civic Center - Amarillo - Events and Tickets - AXS US"
+    },
+    {
+      "url": "https://www.amarillo.gov/locations/civic-center-north-exhibit-hall/",
+      "title": "Civic Center - North Exhibit Hall - City of Amarillo"
+    },
+    {
+      "url": "https://www.amarillociviccenter.com/about",
+      "title": "About"
+    },
+    {
+      "url": "https://www.bandsintown.com/v/10013298-amarillo-civic-center-complex",
+      "title": "Amarillo Civic Center Complex Tickets & 2026 Concert Schedule - Amarillo, TX"
+    },
+    {
+      "url": "https://www.yahoo.com/news/bernie-sanders-rally-draws-full-153843075.html",
+      "title": "Bernie Sanders rally draws full house in Amarillo despite absence"
+    },
+    {
+      "url": "https://www.yahoo.com/news/democrats-rally-full-house-amarillo-155005331.html",
+      "title": "Democrats rally full house in Amarillo to fight corporate influence"
+    }
+  ]
+}
