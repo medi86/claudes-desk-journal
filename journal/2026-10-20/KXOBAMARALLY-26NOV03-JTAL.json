@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "ticker": "KXOBAMARALLY-26NOV03-JTAL",
+  "event": "KXOBAMARALLY-26NOV03",
+  "series": "KXOBAMARALLY",
+  "title": "Will any of the Source Agencies report that James Talarico attends an in-person rally with Barack Obama?",
+  "rules": "If James Talarico attends an in-person rally with Barack Obama after Issuance and before Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Both Barack Obama and the named candidate must be physically present at the same rally; virtual or recorded appearances, such as video messages or ads, do not qualify.",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-20T17:11:55.421769+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.27",
+    "reasoning": "Obama appeared with Talarico in May, but at a taco-restaurant stop, not a rally, and probably before issuance. With about two weeks left, his announced fall rallies are in Ohio, Michigan, Georgia, Illinois and Mississippi, not Texas. The race is close and important for Senate control, so a late Texas rally is plausible, but it isn't announced and Obama has historically skipped Texas rallies.",
+    "falsifier": "An announcement or report of Obama headlining a Texas rally (e.g., Houston, Dallas, San Antonio) with Talarico on stage before Nov 3, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4900",
+    "best_yes_ask": "0.5700",
+    "p_market": "0.5300"
+  },
+  "final": {
+    "p_yes": "0.36",
+    "action": "buy_no",
+    "reasoning": "A price around 0.53 suggests no confirmed Obama\u2013Talarico rally has been announced, and Obama's known late-October schedule leaves no Texas stop in my results. I moved toward the market because my research was cut short, but my estimate is still below the midpoint."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.5000",
+    "count": 1,
+    "cost": "0.5000",
+    "clamped_from": "0.36"
+  },
+  "sources": [
+    {
+      "url": "https://www.foxnews.com/politics/james-talarico-enlists-barack-obama-help-win-over-black-voters-after-contentious-texas-primary",
+      "title": "James Talarico enlists Barack Obama to help win over black voters after contentious Texas primary"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/pMRKwycLC8E",
+      "title": "Obama campaigns for Talarico in Texas - YouTube"
+    },
+    {
+      "url": "https://www.c-span.org/program/campaign-2026/former-president-obama-campaigns-for-james-talarico-in-texas/679210",
+      "title": "Former President Obama Campaigns for James Talarico in Texas"
+    },
+    {
+      "url": "https://noticias.foxnews.com/politics/james-talarico-enlists-barack-obama-help-win-over-black-voters-after-contentious-texas-primary",
+      "title": "James Talarico enlists Barack Obama to help win over black voters after contentious Texas primary"
+    },
+    {
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/05/13/551672/texas-barack-obama-james-talarico-gina-hinojosa-austin-restaurant-2026/",
+      "title": "Barack Obama appears with James Talarico and Gina Hinojosa at Austin restaurant"
+    },
+    {
+      "url": "https://www.texastribune.org/2026/05/12/texas-barack-obama-james-talarico-gina-hinojosa-austin-restaurant-2026/",
+      "title": "Barack Obama campaigns with James Talarico, Gina Hinojosa"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5875305-talarico-hinojosa-obama-texas-senate/",
+      "title": "Barack Obama backs James Talarico, Gina Hinojosa in Texas"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9qCBVWXPoDM",
+      "title": "When Obama Made Surprise Campaign For James Talarico - YouTube"
+    },
+    {
+      "url": "https://newsweek.com/map-talarico-paxton-final-campaign-tours-12588970",
+      "title": "Map Shows Where Talarico, Paxton Headed in Final Campaign Tours - Newsweek"
+    },
+    {
+      "url": "https://jamestalarico.com/",
+      "title": "Talarico for Texas - Official Campaign Website of James Talarico for U.S. Senate"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/James_Talarico",
+      "title": "James Talarico"
+    },
+    {
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
+      "title": "Talarico holds slight edge over Paxton in U.S. Senate race on cusp of election, poll shows"
+    },
+    {
+      "url": "https://www.fec.gov/data/candidate/S6TX00479/",
+      "title": "TALARICO, JAMES - Candidate overview - FEC.gov"
+    },
+    {
+      "url": "https://ballotpedia.org/James_Talarico",
+      "title": "James Talarico - Ballotpedia"
+    },
+    {
+      "url": "https://www.cnbc.com/amp/2026/10/15/james-talarico-texas-senate-fundraising-ken-paxton.html",
+      "title": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6148528-talarico-paxton-texas-senate/",
+      "title": "New polls show James Talarico with lead over Ken Paxton in Texas Senate race"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/08/politics/james-talarico-campaign-trail-paxton-texas",
+      "title": "\u2018Where is James Talarico?\u2019: Senate candidate\u2019s absence becomes fodder for Ken Paxton"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RJ-X3wDCjtc",
+      "title": "President Obama Campaigns with James Talarico in Texas - YouTube"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/05/12/talarico-obama-texas-senate/4f477ab2-4e46-11f1-97e7-22c6c29ff0d8_story.html",
+      "title": "Obama meets with Talarico, aiming to boost Democrat's bid for US Senate in Texas - The Washington Post"
+    },
+    {
+      "url": "https://www.usnews.com/news/best-states/texas/articles/2026-05-12/obama-meets-with-talarico-aiming-to-boost-democrats-bid-for-us-senate-in-texas",
+      "title": "Obama Meets With Talarico, Aiming to Boost Democrat's Bid for US Senate in Texas"
+    },
+    {
+      "url": "https://www.axios.com/local/cleveland/2026/10/14/obama-trump-ohio-midterm-rallies",
+      "title": "Obama and Trump bring presidential star power to Ohio's midterm races"
+    },
+    {
+      "url": "https://drooid.social/post/732899/obama-to-campaign-in-cleveland-with-sherrod-brown-acton/full-breakdown",
+      "title": "Obama Mobilizes in Key 2026 Midterm Races"
+    },
+    {
+      "url": "https://www.11alive.com/article/news/politics/elections/former-president-obama-set-to-rally-in-atlanta-in-advance-of-the-end-of-early-voting/85-af0790f6-2ea1-421a-a81d-f92ee5ed909a",
+      "title": "Former President Obama set to rally in Atlanta in advance of the end of early voting"
+    },
+    {
+      "url": "https://abdulforsenate.com/2026/10/president-obama-to-join-abdul-el-sayed-on-the-campaign-trail/",
+      "title": "President Obama to Join Abdul El-Sayed on the Campaign Trail"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6129716-obama-michigan-el-sayed-rally/",
+      "title": "Barack Obama to join Abdul El-Sayed, Jocelyn Benson in Michigan for rally"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-kansas-latino-voters-october-19",
+      "title": "2026 Midterm Elections: Trump Campaigns in Kansas"
+    },
+    {
+      "url": "https://rollcall.com/2026/10/08/at-the-races-unleash-obama/",
+      "title": "At the Races: Unleash Obama"
+    },
+    {
+      "url": "https://www.wsbtv.com/news/local/barack-obama-rally-with-keisha-lance-bottoms-jon-ossoff-atlanta/BLPTFBTQT5C4LFXR2YPXBZ6FYU/",
+      "title": "Barack Obama to rally with Keisha Lance Bottoms, Jon Ossoff in Atlanta"
+    },
+    {
+      "url": "https://www.wtoc.com/2026/10/18/obama-set-campaign-ossoff-bottoms/",
+      "title": "Obama set to campaign for Ossoff, Bottoms"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/obama-to-campaign-with-el-sayed-in-detroit-as-ex-president-gets-more-involved-in-midterms",
+      "title": "Obama to campaign with El-Sayed in Detroit as ex-president gets more involved in midterms"
+    },
+    {
+      "url": "https://www.cbsnews.com/texas/news/michelle-obama-opal-lee-100th-birthday-fort-worth-october-2026/",
+      "title": "Michelle Obama honors Opal Lee's legacy at 100th birthday event - CBS Texas"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/obama-boosts-senate-democrats-october-fundraiser-rcna600371",
+      "title": "Obama boosts Senate Democrats with October fundraiser"
+    },
+    {
+      "url": "https://www.cbsnews.com/atlanta/news/obama-heads-to-atlanta-to-rally-voters-for-jon-ossoff-and-keisha-lance-bottoms/",
+      "title": "Obama heads to Atlanta to rally voters for Jon Ossoff and Keisha Lance Bottoms - CBS Atlanta"
+    },
+    {
+      "url": "https://www.cleveland19.com/2026/10/13/former-president-barack-obama-rally-cleveland/",
+      "title": "Former President Barack Obama to rally in Cleveland"
+    },
+    {
+      "url": "https://www.tpr.org/government-politics/2026-08-06/ken-paxton-touts-economic-plan-bashes-senate-race-rival-james-talarico-at-houston-rally",
+      "title": "Ken Paxton touts economic plan, bashes Senate race rival James Talarico at Houston rally"
+    },
+    {
+      "url": "https://www.newsweek.com/map-talarico-paxton-final-campaign-tours-12588970",
+      "title": "Map Shows Where Talarico, Paxton Headed in Final Campaign Tours - Newsweek"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/article/james-talarico-black-voters-houston-22427406.php",
+      "title": "James Talarico renews push for Black voters at Houston rally"
+    },
+    {
+      "url": "https://time.com/article/2026/09/30/can-james-talarico-make-texas-competitive-again/",
+      "title": "James Talarico on Reclaiming Capitalism and Flipping Texas"
+    },
+    {
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/05/28/553075/james-talarico-houston-democrat-voters-ken-paxton-senate-race/",
+      "title": "Democratic voters voice optimism as James Talarico goes on the offensive at Houston rally"
+    },
+    {
+      "url": "https://www.khou.com/video/news/politics/elections/james-talarico-to-hold-rally-in-houston/285-97df62fc-08ae-49f3-9bbf-eb724fd49baf",
+      "title": "James Talarico to hold rally in Houston"
+    },
+    {
+      "url": "https://lufkindailynews.com/news_reuters/national/democratic-candidate-for-us-senate-james-talarico-c-pose-with-supporters-during-a-rally-in/image_55a6f7cf-3e3f-5ba2-b10e-6bb9c4dd5d59.html",
+      "title": "Democratic candidate for US Senate James Talarico (C) pose with supporters during a rally in Houston, Texas, on September 13, 2026."
+    },
+    {
+      "url": "https://newsweek.com/james-talarico-ken-paxton-texas-crowd-rally-size-12589672",
+      "title": "Talarico and Paxton Face Off With Dueling Rallies in Pivotal Texas County - Newsweek"
+    },
+    {
+      "url": "https://www.mobilize.us/talaricofortexas/event/842961/",
+      "title": "\u2b50 Talarico for Texas: Rally in Dallas \u00b7 Talarico for Texas"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/james-talarico-launches-north-texas-141842473.html",
+      "title": "James Talarico launches North Texas campaign swing with Plano rally"
+    },
+    {
+      "url": "https://texasaflcio.org/events/dallas-tara-rally-james-talarico-saving-social-security",
+      "title": "Dallas: TARA Rally for James Talarico & Saving Social Security"
+    },
+    {
+      "url": "https://www.dallasnews.com/news/article/no-kings-dallas-22480330.php",
+      "title": "Hundreds at Dallas No Kings rally urged to carry concerns to ballot box"
+    },
+    {
+      "url": "https://www.dallasnews.com/news/politics/article/paxton-talarico-rally-north-texas-dual-warnings-22484054.php",
+      "title": "Paxton, Talarico rally North Texas with competing warnings as voting begins"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/talarico-paxton-face-off-dueling-175626336.html",
+      "title": "Talarico and Paxton face off with dueling rallies in pivotal Texas county"
+    },
+    {
+      "url": "https://www.dallasnews.com/news/politics/article/paxton-talarico-hit-road-competing-messages-22480105.php",
+      "title": "Paxton, Talarico hit the road with competing messages in Texas Senate race"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/paxton-talarico-rally-north-texas-220731642.html",
+      "title": "Paxton, Talarico rally North Texas with competing warnings as early voting begins"
+    }
+  ]
+}

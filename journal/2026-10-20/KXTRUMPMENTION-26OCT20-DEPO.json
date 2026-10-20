@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT20-DEPO",
+  "event": "KXTRUMPMENTION-26OCT20",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during Midterm Rally in Greenville, North Carolina originally scheduled for October 20, 2026? Deport / Deported / Deportation",
+  "rules": "If \n Donald Trump says Deport / Deported / Deportation as part of Midterm Rally in Greenville, North Carolina originally scheduled for October 20, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Midterm Rally in Greenville, North Carolina originally scheduled for October 20, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Midterm Rally in Greenville, North Carolina originally scheduled for October 20, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-03T15:00:00+00:00",
+  "expected_close_time": "2026-11-03T15:00:00+00:00",
+  "forecast_at": "2026-10-20T17:11:55.421769+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.64",
+    "reasoning": "The Greenville rally is happening as scheduled on Oct 20, 2026, with a live broadcast. Immigration has been central to Trump's midterm rallies, and crowds have chanted 'deport' (e.g., Youngstown, Oct 12), and he often brags about 'the largest deportation' program. However, in the Youngstown excerpt he answered the chant with 'get them the hell out' instead of saying the word, and only his own words count, so it's likely but far from certain.",
+    "falsifier": "A full transcript of the Greenville speech showing Trump never said 'deport,' 'deported,' or 'deportation' (e.g., he talked about immigration only as 'removing criminals' or 'getting them out'), or the rally being cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3100",
+    "best_yes_ask": "0.3200",
+    "p_market": "0.3150"
+  },
+  "final": {
+    "p_yes": "0.38",
+    "action": "pass",
+    "reasoning": "The low price suggests Trump rarely uses the word lately, or the speech is already underway without it. My evidence was thin (he dodged the word in Youngstown), so I'm moving most of the way toward the market and passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-greenville-north-carolina-president-donald-j-trump-djtnc",
+      "title": "Midterm Rally in Greenville, North Carolina featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.wral.com/news/local/trump-visit-north-carolina-greenville-october-2026/",
+      "title": "Trump to visit North Carolina Oct. 20 as Republicans work to gain ground :: WRAL.com"
+    },
+    {
+      "url": "https://www.witn.com/2026/10/16/president-trump-event-be-held-pgv/",
+      "title": "President Trump event to be held at PGV"
+    },
+    {
+      "url": "https://www.witn.com/2026/10/20/president-trump-holding-midterm-rally-greenville-today/",
+      "title": "President Trump holding midterm rally in Greenville today"
+    },
+    {
+      "url": "https://www.wbtv.com/2026/10/13/trump-hold-midterm-rally-north-carolina-next-week/",
+      "title": "Trump to hold midterm rally in North Carolina next week"
+    },
+    {
+      "url": "https://www.witn.com/2026/10/13/president-trump-hold-rally-greenville/",
+      "title": "President Trump to hold rally in Greenville"
+    },
+    {
+      "url": "https://ncnewsline.com/2026/10/19/trump-heads-to-greenville-as-nc-republicans-struggle-with-early-voter-turnout/",
+      "title": "Trump heads to Greenville as NC Republicans struggle with early voter turnout \u2022 NC Newsline"
+    },
+    {
+      "url": "https://www.wral.com/video/president-donald-trump-visiting-greenville-nc-october-2026/",
+      "title": "President Donald Trump to speak in Greenville on Tuesday"
+    },
+    {
+      "url": "https://www.qcnews.com/news/u-s/north-carolina/president-trump-to-visit-greenville-next-tuesday/",
+      "title": "President Trump to visit Greenville next Tuesday"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/donald-trump-maga-event-speech-transcript-north-carolina-rally",
+      "title": "Trump Speech Transcript at NC Rally"
+    },
+    {
+      "url": "https://www.newsbreak.com/rocky-mount-telegram-1593117/3643429104141-trump-fires-up-greenville-crowd-rails-against-illegal-immigration",
+      "title": "Trump fires up Greenville crowd, rails against illegal immigration - NewsBreak"
+    },
+    {
+      "url": "https://www.postandcourier.com/politics/donald-trump-darline-graham-clemson-rally/article_9b52d8e3-24de-4db9-94a7-250410144325.html",
+      "title": "Donald Trump to rally for Darline Graham in Clemson next week"
+    },
+    {
+      "url": "https://www.c-span.org/program/campaign-2024/former-president-trump-campaigns-in-greenville-north-carolina/650625",
+      "title": "Former President Trump Campaigns in Greenville, North Carolina"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-campaign-rally-greensboro-north-carolina-0",
+      "title": "Remarks at a Campaign Rally in Greensboro, North Carolina"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/donald-trump-campaign-rally-greenville-nc-transcript-october-15",
+      "title": "Trump Rally Transcript in Greenville, NC 10/15"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-keep-america-great-rally-greenville-north-carolina",
+      "title": "Remarks at a \u201cKeep America Great\u201d Rally in Greenville, North Carolina"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/12/politics/trump-rally-ohio",
+      "title": "Trump holds raucous Ohio rally as he tries to shore up base voters for GOP"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-ohio-rally-2026-midterm-elections-congress-live-updates-rcna602859",
+      "title": "Trump rallies for Republican candidates in Ohio"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/trump-rally-crowd-chants-deport-president-rips-ilhan-omar-federal-raid",
+      "title": "Trump rally crowd chants 'deport' as president rips Ilhan Omar after federal raid"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-youngstown-ohio-october-12-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Youngstown, Ohio - October 12, 2026"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-speaks-at-midterm-rally-in-youngstown-ohio",
+      "title": "WATCH: Trump attacks Somali and Haitian immigrants while rallying for Ohio Republican candidates"
+    },
+    {
+      "url": "https://politifact.com/article/2026/sep/29/a-cheat-sheet-to-trumps-2026-talking-points/",
+      "title": "Trump\u2019s midterm rallies: A fact-checked guide to talking points, falsehoods"
+    },
+    {
+      "url": "https://www.archyde.com/trump-targets-ilhan-omar-and-abdul-el-sayed-in-ohio-rally-speech/",
+      "title": "Trump Targets Ilhan Omar and Abdul El-Sayed in Ohio Rally Speech"
+    },
+    {
+      "url": "https://singjupost.com/transcript-trump-remarks-at-syracuse-new-york-rally-oct-9-2026/",
+      "title": "Transcript: Trump Remarks at Syracuse, New York Rally"
+    },
+    {
+      "url": "https://vimeo.com/1232238305",
+      "title": "Speech: Donald Trump Addresses a Political Rally in Durant, Oklahoma - October 1, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1233219490",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Grand Island, Nebraska - October 5, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1236704792",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Dalton, Georgia - October 16, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1235839543",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Wasilla, Alaska - October 13, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1233913838",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in San Antonio, Texas - October 7, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1232796039",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Vandalia, Ohio - October 3, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1236383873",
+      "title": "Remarks: Donald Trump Holds a Virtual Tele-Rally for Iowa GOP Candidates - October 15, 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5KZiHHWjxtE",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Youngstown, Ohio - October 12, 2026 - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iAU8trvb_JI",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Vandalia, Ohio - October 3, 2026 - YouTube"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-bullhead-city-arizona-october-14-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Bullhead City, Arizona - October 14, 2026"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-political-rally-mobile-alabama-october-2-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Addresses a Midterm Political Rally in Mobile, Alabama - October 2, 2026"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-jd-vance-midterm-political-rally-monroe-michigan-october-15-2026/",
+      "title": "Roll Call Factba.se - Remarks: JD Vance Holds a Midterm Political Rally in Monroe, Michigan - October 15, 2026"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-political-rally-choctaw-oklahoma-october-1-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Addresses a Political Rally in Durant, Oklahoma - October 1, 2026"
+    },
+    {
+      "url": "https://www.wichitaliberty.org/politics/trump-midterm-rallies-fact-check-october-2026/",
+      "title": "Trump Midterm Rallies Fact Check: 5 States, 1 Script"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/trump-rally-in-syracuse",
+      "title": "Donald Trump Rally Syracuse NY"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026"
+    },
+    {
+      "url": "https://cnycentral.com/news/local/what-will-president-trump-say-in-syracuse-ai-already-knows-and-can-tell-us",
+      "title": "What will President Trump say in Syracuse? A.I. already knows and can tell us"
+    },
+    {
+      "url": "https://cnycentral.com/news/local/president-donald-trump-rally-oncenter-syracuse-wrgb",
+      "title": "Trump praises Blakeman; denounces Hochul, Democrats ..."
+    },
+    {
+      "url": "https://www.rev.com/category/donald-trump",
+      "title": "Donald Trump Transcripts"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-syracuse-ny-april-16-2016/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump in Syracuse, NY - April 16, 2016"
+    },
+    {
+      "url": "https://www.ibtimes.co.uk/donald-trumps-confusion-seizure-like-are-not-getting-better-psychologist-warns-1826794",
+      "title": "Donald Trump's Confusion and 'Seizure-Like' Are Not Getting Better, Psychologist Warns"
+    },
+    {
+      "url": "https://cnn.com/2026/10/12/politics/trump-rally-ohio",
+      "title": "Trump holds raucous Ohio rally as he tries to shore up base voters for GOP"
+    },
+    {
+      "url": "https://singjupost.com/transcript-trump-delivers-remarks-at-midterm-rally-in-dalton-georgia/",
+      "title": "Transcript: Trump Delivers Remarks At Midterm Rally In Dalton, Georgia"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-dalton-georgia-october-16-2026",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Dalton, Georgia - October 16, 2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-dalton-georgia-rally-full-video",
+      "title": "Trump Dalton, Georgia Rally - Full Video And Transcript"
+    },
+    {
+      "url": "https://www.local3news.com/local-news/watch-president-trump-campaigns-for-gops-collins-jackson-in-dalton-friday/article_0d0833b9-bfa2-4599-ad55-35b8c30d0d5c.html",
+      "title": "WATCH: President Trump campaigns for GOP's Collins, Jackson in Dalton Friday"
+    },
+    {
+      "url": "https://www.fox5atlanta.com/news/trump-rallies-dalton-collins-jackson-ahead-midterms",
+      "title": "Inside Donald Trump's high-stakes Dalton rally with Collins, Jackson"
+    },
+    {
+      "url": "https://www.11alive.com/article/news/politics/trump-rallies-with-top-republicans-dalton-georgia/85-c4007ba2-343c-4dbb-bad9-75f8bf3df480",
+      "title": "President Donald Trump rallies with top Republicans in Georgia"
+    },
+    {
+      "url": "https://georgiarecorder.com/2026/10/16/trump-urges-supporters-to-pretend-hes-on-the-ballot-as-he-campaigns-with-georgia-republicans/",
+      "title": "Trump urges supporters to \u2018pretend\u2019 he\u2019s on the ballot as he campaigns with Georgia Republicans \u2022 Georgia Recorder"
+    }
+  ]
+}

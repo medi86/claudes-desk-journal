@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "ticker": "KXENDORSEAOC-26NOV03-DCHE",
+  "event": "KXENDORSEAOC-26NOV03",
+  "series": "KXENDORSEAOC",
+  "title": "Will Alexandria Ocasio-Cortez endorse Darializa Avila Chevalier in NY-13 before Nov 3, 2026?",
+  "rules": "If Alexandria Ocasio-Cortez publicly endorses Darializa Avila Chevalier in NY-13 before Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "An endorsement requires a clear, affirmative statement of support for the nominee's election. The statement must be public (not private communications) and specifically reference the race or be clearly in context of the race. The endorsement must come directly from the person or through their official channels. Positive comments without explicit support, policy endorsements without nominee endorsement, or conditional endorsements do not qualify. Social media endorsements count only from verified accounts, and likes or retweets alone do not constitute endorsement. Quote tweets with additional supportive commentary do count. Sarcastic statements or those immediately clarified as jokes do not qualify.",
+  "close_time": "2026-11-03T15:00:00+00:00",
+  "expected_close_time": "2026-11-03T15:00:00+00:00",
+  "forecast_at": "2026-10-20T17:11:55.421769+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.13",
+    "reasoning": "AOC deliberately stayed out of the NY-13 primary, and CNN noted in late August that she had not endorsed Avila Chevalier. Since then she has only praised her in general terms and defended her, which the market rules exclude. With about two weeks left in a safe-Democratic general election and controversy over Avila Chevalier's Oct. 8 rally attendance, AOC has little reason to make an explicit endorsement, though a last-minute slate post or rally appearance is possible.",
+    "falsifier": "AOC posts on her verified account, or says at a rally, that voters should elect Darializa Avila Chevalier to Congress in NY-13 before Nov 3, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1000",
+    "best_yes_ask": "0.1400",
+    "p_market": "0.1200"
+  },
+  "final": {
+    "p_yes": "0.13",
+    "action": "pass",
+    "reasoning": "The market midpoint of 0.12 sits almost exactly on my independent estimate of 0.13, so there is no meaningful edge after the spread. I'm keeping my number and passing rather than paying 0.14 for YES or selling at 0.10."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.cnn.com/2026/08/24/politics/darializa-avila-chevalier-democrats-congress",
+      "title": "Darializa Avila Chevalier defeated a veteran Democrat and upset the party establishment. Here\u2019s her strategy for Congress"
+    },
+    {
+      "url": "https://www.sunrisemovement.org/endorsement/we-proudly-endorse-darializa-avila-chevalier/",
+      "title": "We Proudly Endorse Darializa Avila Chevalier - Sunrise Movement"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_New_York's_13th_congressional_district_election",
+      "title": "2026 New York's 13th congressional district election"
+    },
+    {
+      "url": "https://thenationmagazine.substack.com/p/the-uaw-wave-has-hit-our-shores",
+      "title": "The UAW Wave Has Hit Our Shores - by Nation Magazine"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/darializa-avila-chevalier-mamdani-backed-170830373.html",
+      "title": "Darializa Avila-Chevalier, Mamdani-backed DSA NY pol, calls for NYPD boss Jessica Tisch to resign over ICE migrant shooting"
+    },
+    {
+      "url": "https://x.com/DropSiteNews/status/2070698621134139591",
+      "title": "Drop Site on X: \"\ud83c\uddfa\ud83c\uddf8 Rep. Alexandria Ocasio-Cortez defended Democratic congressional nominee Darializa Avila Chevalier, saying voters in New York\u2019s 13th District elected her and she has shown \u201ca sense of responsibility\u201d about how she wants to lead. AOC urged Democrats not to judge Chevalier https://t.co/2jSQubsI2w\" / X"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/aoc-issues-warning-her-fellow-164705995.html",
+      "title": "AOC issues warning to her fellow Democratic incumbents in the wake of socialists winning big in NYC"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Darializa_Avila_Chevalier",
+      "title": "Darializa Avila Chevalier"
+    },
+    {
+      "url": "https://politicsny.com/2026/06/24/primary-results-darializa-avila-chevalier-wins-ny-13-alexandria-ocasio-cortez-re-elected-to-ny-14-ritchie-torres-re-elected-to-ny-15/",
+      "title": "PRIMARY RESULTS: Darializa Avila Chevalier wins NY-13, Alexandria Ocasio-Cortez re-elected to NY-14, Ritchie Torres re-elected to NY-15"
+    },
+    {
+      "url": "https://www.amny.com/politics/aoc-jeffries-condemn-federal-raid-rep-omars/",
+      "title": "Mamdani, AOC, Jeffries and other New York pols condemn Trump Homeland Security raid on Minnesota Rep. Ilhan Omar\u2019s home"
+    },
+    {
+      "url": "https://unherd.com/2026/07/aocs-leftist-headache/",
+      "title": "AOC\u2019s Leftist headache - UnHerd"
+    },
+    {
+      "url": "https://ourrevolution.com/our-champions/",
+      "title": "OUR CHAMPIONS - Our Revolution"
+    },
+    {
+      "url": "https://theintercept.com/2026/06/25/aoc-endorses-justin-pearson-tennessee-congress/",
+      "title": "Alexandria Ocasio-Cortez Wades Into Tennessee Primary, Endorsing Justin J. Pearson"
+    },
+    {
+      "url": "https://x.com/TimesofIsrael/status/2063188172930978149",
+      "title": "The Times of Israel on X: \"NEW: Darializa Avila Chevalier, a candidate for Congress in New York City, has defended participating in an anti-Israel, pro-Hamas rally on October 8, 2023, the day after the Hamas onslaught in Israel, an event that saw participants celebrate the high number of Israeli fatalities https://t.co/lST352zYT5\" / X"
+    },
+    {
+      "url": "https://www.jta.org/2026/06/05/ny/avila-chevalier-attended-oct-8-pro-palestinian-rally-that-mamdani-and-lander-condemned",
+      "title": "Avila Chevalier attended Oct. 8 pro-Palestinian rally that Mamdani and Lander condemned - Jewish Telegraphic Agency"
+    },
+    {
+      "url": "https://www.timesofisrael.com/mamdani-backed-congress-candidate-defends-joining-oct-8-rally-celebrating-hamas-atrocities/",
+      "title": "Mamdani-backed Congress candidate defends joining Oct. 8 rally celebrating Hamas atrocities"
+    },
+    {
+      "url": "https://x.com/NY1/status/2067046968233202082",
+      "title": "Spectrum News NY1 on X: \"During a #NY1Debate, congressional candidate Darializa Avila Chevalier explained why she attended a pro-Palestinian rally on Oct. 8, 2023, a day after the October 7 attack on Israel. \u201cI was there at that rally on October 8th because I remembered what happened in 2014, and I knew https://t.co/MgjZItv0t7\" / X"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ZiOkCfd6e4A",
+      "title": "Avila Chevalier on attendance at pro-Palestinian rally on Oct. 8, 2023 - YouTube"
+    },
+    {
+      "url": "https://iqnewsdaily.substack.com/p/to-the-left-of-aoc-ny-dsaer-darializa",
+      "title": "\u2018To the Left of AOC\u2019: NY DSAer Darializa Avila Chevalier Claims US Worse Than Hamas"
+    },
+    {
+      "url": "https://combatantisemitism.org/cam-news/nyc-mayor-mamdani-endorses-congressional-candidate-who-attended-october-8-rally-celebrating-hamas-massacre/",
+      "title": "NYC Mayor Mamdani Endorses Congressional Candidate Who Attended October 8 Rally Celebrating Hamas Massacre"
+    },
+    {
+      "url": "https://www.jpost.com/diaspora/antisemitism/article-902154",
+      "title": "NY congressional candidate Avila Chevalier doubles down on attending Oct. 8 pro-Palestinian rally"
+    },
+    {
+      "url": "https://rairfoundation.com/left-aoc-ny-dsaer-darializa-avila-chevalier-claims/",
+      "title": "\u2018To the Left of AOC\u2019: NY DSAer Darializa Avila Chevalier Claims US Worse Than Hamas, Praised Terrorists While Blasting Men for \u2018Fetishizing Ugly Colonizer Women\u2019 - RAIR"
+    },
+    {
+      "url": "https://x.com/AvivaKlompas/status/2076252123277197366",
+      "title": "Aviva Klompas on X: \"Not only does Democratic congressional candidate Darializa Avila Chevalier refuse to regret attending a rally celebrating the October 7 attacks - she's doubling down https://t.co/VvMfHCkQKa\" / X"
+    },
+    {
+      "url": "https://ballotpedia.org/Alexandria_Ocasio-Cortez",
+      "title": "Alexandria Ocasio-Cortez - Ballotpedia"
+    },
+    {
+      "url": "https://www.nysna.org/news/nysna-2026-general-election-endorsements",
+      "title": "NYSNA 2026 General Election Endorsements"
+    },
+    {
+      "url": "https://region9a.uaw.org/news/NYCEndorsements826",
+      "title": "NYC CAP Announces 2026 General Election Endorsements"
+    },
+    {
+      "url": "https://nysaflcio.org/endorsements",
+      "title": "New York State AFL-CIO Endorsements 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez",
+      "title": "Alexandria Ocasio-Cortez"
+    },
+    {
+      "url": "https://www.nylcv.org/press-item/2026-april-endorsements/",
+      "title": "NYLCV Gives Green Announces 2026 Endorsements for Congressional, Statewide, and Local Races - New York League of Conservation Voters"
+    },
+    {
+      "url": "https://www.axios.com/2026/06/14/aoc-endorsements-democrats-winning",
+      "title": "AOC's hot streak on endorsements divides the left"
+    },
+    {
+      "url": "https://centeractionfund.org/2026-midterm-general-endorsements/",
+      "title": "2026 Midterm General Endorsements - Center Action Fund"
+    },
+    {
+      "url": "https://ballotpedia.org/New_York's_13th_Congressional_District_election,_2026",
+      "title": "New York's 13th Congressional District election, 2026 - Ballotpedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York",
+      "title": "2026 United States House of Representatives elections in New York"
+    },
+    {
+      "url": "https://ballotpedia.org/New_York's_13th_Congressional_District_election,_2026_(June_23_Democratic_primary)",
+      "title": "New York's 13th Congressional District election, 2026 (June 23 Democratic primary) - Ballotpedia"
+    },
+    {
+      "url": "https://www.cityandstateny.com/prediction-markets/races/ny-13-house",
+      "title": "2026 NY-13 Congressional Election"
+    },
+    {
+      "url": "https://www.govtrack.us/congress/members/NY/13",
+      "title": "New York\u2019s 13th Congressional District - NY-13 Representatives & District Map - GovTrack.us"
+    },
+    {
+      "url": "https://www.c-span.org/event/campaign-2026/democratic-candidates-for-new-yorks-13th-congressional-district-debate-ahead-of-primary-election/443995",
+      "title": "Democratic Candidates for New York's 13th Congressional District Debate Ahead of Primary Election"
+    },
+    {
+      "url": "https://www.quiverquant.com/election-fundraising/house/NY/13",
+      "title": "Fundraising in New York's 13th Congressional District"
+    }
+  ]
+}
