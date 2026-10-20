@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "ticker": "KXFRANCEEMERGENCY-27-26NOV01",
+  "event": "KXFRANCEEMERGENCY-27",
+  "series": "KXFRANCEEMERGENCY",
+  "title": "Will France declare a state of emergency before Nov 1, 2026?",
+  "rules": "If the French government declares a state of emergency (\u00e9tat d'urgence) after Issuance and before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Only reporting from Bloomberg News, Reuters, the Associated Press, or Le Monde qualifies. Reports that merely reference prior publications (from before Issuance) do not qualify unless the new publication explicitly reaffirms the truth of the topic as of its publication date. Republishing of content from other sources qualifies only if hosted on the outlet\u2019s official platform with that outlet identified as publisher.\n\nA state of emergency (\u00e9tat d'urgence) is one declared by decree of the President of France in the Council of Ministers under Law No. 55-385 of April 3, 1955, for all or part of French territory, including overseas territories. It counts when the decree is adopted, not when it is merely announced, requested or under consideration.\n\nCurfews, protest bans and other measures taken by prefects or mayors, Article 16 or state-of-siege powers, a state of health emergency (\u00e9tat d'urgence sanitaire), and natural-disaster declarations do not count.",
+  "close_time": "2026-11-01T03:59:00+00:00",
+  "expected_close_time": "2026-11-01T03:59:00+00:00",
+  "forecast_at": "2026-10-20T02:23:27.324019+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.24",
+    "reasoning": "France is in its worst unrest in years after the October 17-18 riots, and PM Lecornu has said he could declare a state of emergency 'if needed.' However, the government has openly said it prefers curfews, which don't count. The interior minister reportedly ruled out an emergency 'for now', and declaring one against political protests before the 2027 election is costly. With only about 11 days left, YES needs the unrest to keep escalating or curfews to visibly fail, as happened in 2005.",
+    "falsifier": "A decree under the 1955 law adopted in the Council of Ministers before Nov 1, 2026 and reported by Reuters, AP, Bloomberg or Le Monde. On the NO side, a clear calming of the riots under curfews in the next week would confirm this forecast.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1800",
+    "best_yes_ask": "0.2000",
+    "p_market": "0.1900"
+  },
+  "final": {
+    "p_yes": "0.21",
+    "action": "pass",
+    "reasoning": "I'm moving from 0.24 to 0.21 because the market may reflect news after October 20 that I couldn't see. A one-point edge over the 0.20 ask is too thin to justify buying YES, so I'm passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://nausica-avocats.fr/emeutes-des-17-et-18-octobre-2026-et-etat-durgence-ce-que-permet-le-droit/",
+      "title": "Nausica Avocats"
+    },
+    {
+      "url": "https://kohenavocats.com/etat-urgence-17-octobre-meetings-partis-parlement-elections-ce-qui-changerait/",
+      "title": "\u00c9tat d'urgence r\u00e9clam\u00e9 apr\u00e8s le 17 octobre : ce qu'il changerait pour les meetings, les partis, le Parlement et les \u00e9lections - Ma\u00eetre Hassan Kohen, avocat en droit p\u00e9nal \u00e0 Paris"
+    },
+    {
+      "url": "https://www.francemag.fr/article/3789/bruno-retailleau-reclame-l-etat-d-urgence-voici-ce-que-cela-changerait",
+      "title": "Bruno Retailleau r\u00e9clame l\u2019\u00e9tat d\u2019urgence, voici ce que cela changerait"
+    },
+    {
+      "url": "https://www.lapresse.tn/2025/12/30/letat-durgence-prolonge-jusquau-30-janvier-2026/",
+      "title": "L'\u00e9tat d'urgence prolong\u00e9 jusqu'au 30 janvier 2026 - La Presse de Tunisie"
+    },
+    {
+      "url": "https://crisehelp.fr/etat-alerte-securite-nationale-loi-16-aout-2026/",
+      "title": "\u00c9tat d'alerte de s\u00e9curit\u00e9 nationale : ce que change la loi"
+    },
+    {
+      "url": "https://www.lemondemoderne.media/paris-et-lyon-imposent-un-couvre-feu-a-tous-sans-etat-d-urgence/",
+      "title": "Paris et Lyon imposent un couvre-feu \u00e0 tous, sans \u00e9tat d'urgence"
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054200274",
+      "title": "D\u00e9cret n\u00b0 2026-449 du 3 juin 2026 portant diverses mesures relatives \u00e0 la lutte contre les p\u00e9nuries de m\u00e9dicaments - L\u00e9gifrance"
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000695350/2026-01-05",
+      "title": "Loi n\u00b0 55-385 du 3 avril 1955 relative \u00e0 l'\u00e9tat d'urgence. - L\u00e9gifrance"
+    },
+    {
+      "url": "https://www.france24.com/en/france/20261019-french-pm-says-could-declare-state-of-emergency-over-unrest-if-needed",
+      "title": "French PM Lecornu says ready to declare state of emergency 'if needed' - France 24"
+    },
+    {
+      "url": "https://www.24newshd.tv/19-Oct-2026/french-pm-says-declare-state-emergency-unrest-needed",
+      "title": "French PM says could declare state of emergency over unrest 'if needed'"
+    },
+    {
+      "url": "https://bourgdujean.com/article/france-in-crisis-violent-riots-state-of-emergency-and-rising-tensions",
+      "title": "France in Crisis: Violent Riots, State of Emergency, and Rising Tensions (2026)"
+    },
+    {
+      "url": "https://www.peopleandpolitics.net/2026/10/20/situation-in-france-deteriorates-govt-slams-curfew-state-of-emergency-looms-under-fire-interior-minister-resigns-rejected/",
+      "title": "Situation In France Deteriorates, Govt Slams Curfew, State Of Emergency Looms, Under-Fire Interior Minister Resigns, Rejected - People&Politics"
+    },
+    {
+      "url": "https://insiderpaper.com/france-declare-state-of-emergency-unrest/",
+      "title": "France's PM says could declare state of emergency over unrest 'if needed' - Insider Paper"
+    },
+    {
+      "url": "https://www.voiceofemirates.com/en/news/2026/10/19/lecorno-waves-a-declaration-of-emergency-france-is-considering-a-curfew-after-violent-protests/",
+      "title": "Locorno threatens to declare a state of emergency, and France is considering a curfew to contain the riots."
+    },
+    {
+      "url": "https://report.az/en/other-countries/lecornu-says-state-of-emergency-possible-in-france",
+      "title": "Lecornu says state of emergency possible in France"
+    },
+    {
+      "url": "https://www.europesays.com/france/96734/",
+      "title": "France's leaders vow to restore order after weekend of violent riots across the country - France"
+    },
+    {
+      "url": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/levee-de-letat-durgence-en-nouvelle-caledonie-forces-de-securite",
+      "title": "Lev\u00e9e de l'\u00e9tat d'urgence en Nouvelle-Cal\u00e9donie : les forces de s\u00e9curit\u00e9 int\u00e9rieure restent totalement mobilis\u00e9es"
+    },
+    {
+      "url": "https://www.aefinfo.fr/depeche/712166-nouvelle-caledonie-letat-durgence-decrete-et-500-policiers-et-gendarmes-attendus-en-renfort",
+      "title": "Nouvelle-Cal\u00e9donie : l\u2019\u00e9tat d\u2019urgence d\u00e9cr\u00e9t\u00e9 et \"500 policiers et gendarmes\" attendus en renfort"
+    },
+    {
+      "url": "https://www.franceinfo.fr/france/nouvelle-caledonie-iles-loyaute/emeutes-en-nouvelle-caledonie-l-etat-d-urgence-decrete_6546248.html",
+      "title": "\u00c9meutes en Nouvelle-Cal\u00e9donie : l'\u00e9tat d'urgence d\u00e9cr\u00e9t\u00e9"
+    },
+    {
+      "url": "https://www.maire-info.com/nouvelle-cal%C3%A9donie/l'etat-d'urgence-decrete-en-nouvelle-caledonie-o%EF%BF%BD-la-situation-sanitaire-se-degrade-article-28606",
+      "title": "L'\u00e9tat d'urgence d\u00e9cr\u00e9t\u00e9 en Nouvelle-Cal\u00e9donie, o\u00f9 la situation sanitaire se d\u00e9grade"
+    },
+    {
+      "url": "https://www.info.gouv.fr/actualite/letat-durgence-decrete-en-nouvelle-caledonie",
+      "title": "L\u2019\u00e9tat d\u2019urgence d\u00e9cr\u00e9t\u00e9 en Nouvelle Cal\u00e9donie"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zl9IjZCgw38",
+      "title": "En Nouvelle-Cal\u00e9donie, l'\u00e9tat d'urgence d\u00e9clar\u00e9 - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=u1JxM9glM7s",
+      "title": "Emeutes en Nouvelle-Cal\u00e9donie: 4 morts et l'\u00e9tat d'urgence annonc\u00e9"
+    },
+    {
+      "url": "https://www.arabnews.fr/node/488626/france",
+      "title": "Nouvelle-Cal\u00e9donie: Macron annonce l'\u00e9tat d'urgence apr\u00e8s quatre morts dans les \u00e9meutes"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tat_d'urgence_en_France",
+      "title": "\u00c9tat d'urgence en France"
+    },
+    {
+      "url": "https://www.cairn.info/revue-journal-du-droit-des-jeunes-2005-10-page-54.htm",
+      "title": "Loi n\u02da55-385 du 3 avril 1955 instituant un \u00e9tat d'urgence et en d\u00e9clarant l'application en Alg\u00e9rie (J.O. 7 avril 1955)"
+    },
+    {
+      "url": "https://www.assemblee-nationale.fr/12/rapports/r2675.asp",
+      "title": "N\u00b0 2675 - Rapport de M. Philippe Houillon sur le projet de loi prorogeant l'application de la loi n\u00b0 55-385 du 3 avril 1955 (n\u00b02673)"
+    },
+    {
+      "url": "https://lcp.fr/actualites/etat-d-urgence-couvre-feu-interdiction-de-manifester-ce-que-permet-la-loi-443967",
+      "title": "Etat d'urgence, couvre-feu, interdiction de manifester: ce que permet la loi"
+    },
+    {
+      "url": "https://lediplomate.media/securite-violences-17-octobre-etat-urgence/",
+      "title": "S\u00c9CURIT\u00c9"
+    },
+    {
+      "url": "https://www.legiwatch.fr/lexique/etat-d-urgence/",
+      "title": "\u00c9tat d'urgence : d\u00e9finition parlementaire"
+    },
+    {
+      "url": "https://www.senat.fr/lc/lc156/lc156_mono.html",
+      "title": "L'\u00e9tat d'urgence - S\u00e9nat"
+    },
+    {
+      "url": "https://blogdroit.fr/droit-public/etat-urgence-loi/",
+      "title": "\u00c9tat d\u2019urgence : comprendre la loi en un clin d'\u0153il"
+    },
+    {
+      "url": "https://www.bvoltaire.fr/chronique-etat-durgence-etat-de-siege-ou-remigration/",
+      "title": "[CHRONIQUE] \u00c9tat d'urgence, \u00e9tat de si\u00e8ge\u2026 ou remigration ?\u00a0\u00a0 - Boulevard Voltaire"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+      "title": "France hit by worst unrest in years as attempts to rein in government spending meet citizen ire"
+    },
+    {
+      "url": "https://townhall.com/news/mattvespa/2026/10/17/the-french-arent-declaring-a-national-emergency-yet-are-they-nuts-n2684867",
+      "title": "CBS News Had a Weird Phrase to Describe France's Widespread Riots"
+    },
+    {
+      "url": "https://www.atalayar.com/en/articulo/politics/french-government-decrees-partial-curfews-following-fresh-wave-of-severe-riots/20261019135109229970.html",
+      "title": "French government decrees partial curfews following a fresh wave of severe riots"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/europe/france-violence-riots-looting-paris-limoges-curfews-macron-protests-rcna604292",
+      "title": "France moves to impose curfews as it reels from worst violence in years"
+    },
+    {
+      "url": "https://www.dailysignal.com/2026/10/19/france-wants-curfews-after-riots/",
+      "title": "France Wants Curfews in Some Areas After Weekend of Riots - The Daily Signal"
+    },
+    {
+      "url": "https://politique-france.info/articles/violences-urbaines-lecornu-impose-couvre-feux-et-etat-durgence-face-au-chaos",
+      "title": "Violences urbaines : Lecornu impose couvre-feux et \u00e9tat d\u2019urgence face\u2026"
+    },
+    {
+      "url": "https://www.france24.com/fr/info-en-continu/20261019-violences-lecornu-annonce-des-couvre-feux-localis%C3%A9s-et-des-aides-pour-les-commerces-touch%C3%A9s",
+      "title": "Violences : Lecornu annonce des couvre-feux \"localis\u00e9s\" et des aides pour les commerces touch\u00e9s"
+    },
+    {
+      "url": "https://www.fdesouche.com/2026/10/19/violences-du-17-octobre-lecornu-demande-des-couvre-feux-localises-et-nexclut/",
+      "title": "Violences du 17 octobre : Lecornu demande des couvre-feux localis\u00e9s et n\u2019exclut pas l\u2019\u00e9tat d\u2019urgence"
+    },
+    {
+      "url": "https://www.publicsenat.fr/actualites/politique/violences-du-17-octobre-pourquoi-letat-durgence-est-ecarte-par-le-gouvernement",
+      "title": "Violences du 17 octobre : pourquoi l\u2019\u00e9tat d\u2019urgence est \u00e9cart\u00e9 par le gouvernement ?"
+    },
+    {
+      "url": "https://www.letribunaldunet.fr/politique/macron-couvre-feu-etat-urgence-emeutes-17-octobre.html",
+      "title": "Apr\u00e8s les \u00e9meutes du 17 octobre, Macron songe au couvre-feu et \u00e0 l'\u00e9tat d'urgence"
+    }
+  ]
+}
