@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPNUMSTATES-26SEP15-AL22",
+  "event": "KXTRUMPNUMSTATES-26SEP15",
+  "series": "KXTRUMPNUMSTATES",
+  "title": "Will the number of distinct US states Donald Trump has visited (per VISITAREA rules) be at least 22 in Oct 2026?",
+  "rules": "If the number of distinct US states Donald Trump has visited (per VISITAREA rules) is at least 22 in Oct 2026, then the market resolves to Yes.",
+  "rules_secondary": "VISITAREA contract: https://kalshi-public-docs.s3.amazonaws.com/contractterms/VISITAREA.pdf\n\nThe following do NOT constitute a visit:\n\nFlying over the area without landing\nLayovers during which the person remains in an airplane\nVirtual or remote appearances\nPresence in international waters adjacent to the area\nPresence solely within embassy or consulate grounds\nPlans, announcements, or scheduling of future visits that do not occur during the applicable time period\n\nFor the avoidance of doubt, a visit occurs only when the person exits an aircraft, vehicle, vessel, or train within the area, or otherwise physically enters the area not aboard one. Remaining aboard, including during flyovers, drive-throughs, and non-exit refueling stops, does not constitute a visit. Exiting within the area constitutes a visit regardless of duration or method of exit.",
+  "close_time": "2026-11-01T14:59:00+00:00",
+  "expected_close_time": "2026-11-01T14:59:00+00:00",
+  "forecast_at": "2026-10-20T21:32:08.849187+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.09",
+    "reasoning": "Through about Oct 20, 2026, the October stops I could find are Tennessee, Georgia, Kansas and North Carolina, probably Texas, plus Maryland (Air Force One flies from Joint Base Andrews) and likely Florida. That is around 7\u201310 states, and he keeps repeating states such as Texas and North Carolina. Reaching 22 would need about a dozen new states in the last 11 days. Even his heavier near-daily October 2018 schedule, as I recall it, got only about 20.",
+    "falsifier": "An announced final-week schedule of near-daily, multi-state rallies (two or three new states a day) across Senate battlegrounds such as Michigan, Ohio, Iowa, Maine, New Hampshire, Alaska and Nebraska, pushing October's distinct-state total to 22 or more.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6300",
+    "best_yes_ask": "0.6600",
+    "p_market": "0.6450"
+  },
+  "final": {
+    "p_yes": "0.5",
+    "action": "pass",
+    "reasoning": "The market at 64.5% likely reflects a fuller tally of early-October stops that my search, which ran out early, couldn't see, so I've moved sharply up from 9%. My remaining doubt about reaching 22 distinct states isn't strong enough to justify betting against better-informed traders."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-dalton-georgia-president-donald-j-trump",
+      "title": "Midterm Rally in Dalton, Georgia featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.cbsnews.com/texas/news/trump-fourth-texas-visit-lubbock-waco-rallies-2026-midterms/",
+      "title": "Trump to make fourth trip to Texas for rallies in Lubbock and Waco ahead of midterm elections - CBS Texas"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Donald_Trump_rally_in_Grand_Island",
+      "title": "2026 Donald Trump rally in Grand Island"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-syracuse-ny-president-donald-j-trump",
+      "title": "Midterm Rally in Syracuse, New York featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-clarksville-tennessee-president-donald-j-trump",
+      "title": "Midterm Rally in Clarksville, Tennessee featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-youngstown-ohio-president-donald-j-trump",
+      "title": "Midterm Rally in Youngstown, Ohio featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)",
+      "title": "List of Donald Trump rallies (2025\u2013present)"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-bullhead-city-arizona-president-donald-j-trump",
+      "title": "Midterm Rally in Bullhead City, Arizona featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-san-antonio-texas-president-donald-j-trump",
+      "title": "Midterm Rally in San Antonio, Texas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-fort-myers-fl-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Fort Myers, Florida featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://baynews9.com/fl/tampa/politics/2026/10/13/trump-campaign-rallies-kansas-north-carolina",
+      "title": "Trump to bring campaign blitz to Kansas, North Carolina next week"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/trump-campaign-rallies-kansas-north-carolina",
+      "title": "Trump to bring campaign blitz to Kansas, North Carolina next week"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-greenville-north-carolina-president-donald-j-trump-djtnc",
+      "title": "Midterm Rally in Greenville, North Carolina featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.ktiv.com/2026/10/16/president-donald-trump-will-headline-midterm-election-rally-sioux-city/",
+      "title": "President Donald Trump will headline midterm election rally in Sioux City"
+    },
+    {
+      "url": "https://abc11.com/post/nc-elections-president-trump-returning-north-carolina-rally-ahead-november-midterms/19935415/",
+      "title": "NC Elections: President Trump returning to North Carolina for rally ahead of November midterms - ABC11 Raleigh-Durham"
+    },
+    {
+      "url": "https://abcnews.com/Politics/trump-republican-leaning-states-midterm-election-rallies/story?id=136824226",
+      "title": "Why Trump is going to Republican-leaning states for midterm election rallies - ABC News"
+    },
+    {
+      "url": "https://noticias.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+      "title": "Trump campaigns in key battleground of North Carolina for 2026 midterms"
+    },
+    {
+      "url": "https://linknky.com/elections/2026/10/17/trump-northern-kentucky-rally-2026-midterm-elections/",
+      "title": "Trump rallies Republicans in Northern Kentucky ahead of midterms"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-rallies-republican-turf-midterm-161450764.html",
+      "title": "Trump rallies on Republican turf as midterm fears mount"
+    },
+    {
+      "url": "https://www.fox44news.com/news/local-news/mclennan-county/president-trump-to-visit-waco-for-oct-27-rally/",
+      "title": "President Trump to visit Waco for Oct. 27 rally"
+    },
+    {
+      "url": "https://www.fox4news.com/election/trump-returning-texas-next-week-campaign-rallies",
+      "title": "Trump returning to Texas next week for campaign rallies"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-returning-texas-next-week-190016218.html",
+      "title": "Trump returning to Texas next week for campaign rallies"
+    },
+    {
+      "url": "https://texasscorecard.com/decisiontexas/trump-plans-two-texas-rallies-in-final-stretch-of-midterm-campaign/",
+      "title": "Trump Plans Two Texas Rallies in Final Stretch of Midterm Campaign - Texas Scorecard"
+    },
+    {
+      "url": "https://townhall.com/news/josephchalfant/2026/10/19/trump-will-return-to-texas-for-two-more-midterm-rallies-n2684942",
+      "title": "Trump Will Return to Texas for Two More Midterm Rallies Next Week"
+    },
+    {
+      "url": "https://www.denver7.com/politics/the-president/first-on-scripps-news-trump-is-headed-back-to-texas-to-campaign-for-ken-paxton",
+      "title": "First on Scripps News: Trump is headed back to Texas to campaign for Ken Paxton"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6159173-trump-waco-texas-rally/",
+      "title": "Donald Trump set to return to Texas for midterm rally one week before election"
+    },
+    {
+      "url": "https://kwtx.com/2026/10/19/pres-trump-visit-waco-next-tuesday",
+      "title": "Pres. Trump to visit Waco next Tuesday"
+    },
+    {
+      "url": "https://www.kadoa.com/potus/schedule",
+      "title": "Trump Schedule Today - Live Daily Public Schedule"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-hits-campaign-trail-7-143907621.html",
+      "title": "Trump hits the campaign trail for 7 straight days. Here\u2019s where he\u2019s going"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/",
+      "title": "Trump plans marathon tour of Senate battles across several states"
+    },
+    {
+      "url": "https://meidasnews.com/news/trump-schedules-another-palm-beach-trip",
+      "title": "Trump Schedules Another Palm Beach Trip - MeidasTouch"
+    },
+    {
+      "url": "https://foxbaltimore.com/news/nation-world/trump-bets-on-his-base-to-rescue-republicans-in-increasingly-competitive-races-midterm-elections-congress-majority-politics",
+      "title": "Trump bets on his base to rescue Republicans in increasingly competitive races"
+    },
+    {
+      "url": "https://cnn.com/2026/10/19/politics/trump-midterms-red-state-travel",
+      "title": "Why Trump is campaigning in states that voted for him by double digits"
+    },
+    {
+      "url": "https://wltreport.com/2026/10/18/president-trump-launches-seven-rally-seven-state-midterm-sprint/",
+      "title": "President Trump Launches Seven-Rally, Seven-State Midterm Sprint"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-schedules-another-palm-beach-225252059.html",
+      "title": "Trump Schedules Another Palm Beach Trip"
+    },
+    {
+      "url": "https://www.presidentialprayerteam.org/category/uncategorized/daily-schedule/",
+      "title": "President\u2019s Daily Schedule"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/donald-trump-rally-schedule/",
+      "title": "Trump Rally Schedule: Upcoming Events and Speeches (2026)"
+    },
+    {
+      "url": "https://covellicentre.com/event/president-donald-trump-rally/",
+      "title": "PRESIDENT DONALD TRUMP RALLY - Covelli CentreCovelli Centre"
+    },
+    {
+      "url": "https://schedule2025.com/trump-rally-schedule-2026/",
+      "title": "Trump Rally Schedule 2026"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/20/trumps-rally-show-rolls-economic-development-plans/",
+      "title": "Trump\u2019s rally show rolls out the economic development plans"
+    },
+    {
+      "url": "https://www.mccormick.senate.gov/news/press-releases/president-donald-j-trump-to-headline-2026-pennsylvania-defense-and-innovation-summit-at-u-s-army-war-college/",
+      "title": "PRESIDENT DONALD J. TRUMP TO HEADLINE 2026 PENNSYLVANIA DEFENSE AND INNOVATION SUMMIT AT U.S. ARMY WAR COLLEGE"
+    },
+    {
+      "url": "https://www.newsweek.com/donald-trump-pennsylvania-rally-when-how-to-watch-11180096",
+      "title": "Donald Trump Pennsylvania Rally: When Is It and How to Watch - Newsweek"
+    },
+    {
+      "url": "https://www.wral.com/news/local/trump-visit-north-carolina-greenville-october-2026/",
+      "title": "Trump to visit North Carolina Oct. 20 as Republicans work to gain ground :: WRAL.com"
+    },
+    {
+      "url": "https://www.wbtv.com/2026/10/13/trump-hold-midterm-rally-north-carolina-next-week/",
+      "title": "Trump to hold midterm rally in North Carolina next week"
+    },
+    {
+      "url": "https://abc11.com/post/vote-2026-president-trump-returns-north-carolina-early-voting-turnout-surges-statewide-midterm-elections/19959513/",
+      "title": "Vote 2026: President Trump returns to North Carolina as early voting turnout surges statewide in midterm elections - ABC11 Raleigh-Durham"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/2026/10/watch-live-trump-rally-today-in-greenville-north-carolina-oct-20/",
+      "title": "Watch Live: Trump Rally Today in Greenville, North Carolina (Oct. 20) - Election Central"
+    },
+    {
+      "url": "https://ncnewsline.com/2026/10/19/trump-heads-to-greenville-as-nc-republicans-struggle-with-early-voter-turnout/",
+      "title": "Trump heads to Greenville as NC Republicans struggle with early voter turnout \u2022 NC Newsline"
+    }
+  ]
+}

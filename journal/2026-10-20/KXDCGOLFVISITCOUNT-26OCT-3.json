@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "ticker": "KXDCGOLFVISITCOUNT-26OCT-3",
+  "event": "KXDCGOLFVISITCOUNT-26OCT",
+  "series": "KXDCGOLFVISITCOUNT",
+  "title": "How many times will Donald Trump visit Trump National Golf Club Washington, D.C. in Oct 2026? 3",
+  "rules": "If Donald Trump makes exactly 3 trips to Trump National Golf Club Washington, D.C. in Oct 2026, then the market resolves to Yes.",
+  "rules_secondary": "A single visit begins when Donald Trump arrives in Trump National Golf Club Washington, D.C. and ends when Donald Trump has left Trump National Golf Club Washington, D.C. A visit need not end to be included \u2014 i.e., if Oct 2026 ends with Donald Trump still there, that visit counts for the purposes of the count. If Donald Trump is in Trump National Golf Club Washington, D.C. at the beginning of Oct 2026, that will count as a visit. Multiple separate visits during Oct 2026 count individually.",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-20T21:32:08.849187+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.35",
+    "reasoning": "A golf tracker and press pool reports show Trump at Trump National Sterling on Oct 3, Oct 4 and Oct 12, 2026, so the count is likely already at 3. YES requires no further visit from Oct 13\u201331. Pre-midterm rallies (SC Oct 21, Macon GA Oct 24, plus Western travel) cut his time in DC, but he still has several weekends left and usually visits Sterling about once a week when in town.",
+    "falsifier": "Any reported Trump motorcade visit to the Sterling club between Oct 13 and Oct 31 (e.g., the Oct 17-18 or Oct 24-25 weekends), or Oct 3-4 being counted as one continuous visit.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3200",
+    "best_yes_ask": "0.4000",
+    "p_market": "0.3600"
+  },
+  "final": {
+    "p_yes": "0.35",
+    "action": "pass",
+    "reasoning": "The midpoint (0.36) is essentially at my estimate (0.35), and the wide 0.32\u20130.40 spread leaves no edge on either side. I can't verify whether Trump made any Sterling visits after Oct 12, so I hold my estimate and pass."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://donaldtrump.golf/",
+      "title": "Trump Golf Tracker \u2014 141 Days Golfed Since Jan 2025"
+    },
+    {
+      "url": "https://www.thedailybeast.com/donald-trump-80-marks-three-weeks-to-must-win-elections-with-golf-club-visit",
+      "title": "Donald Trump, 80, Marks Three Weeks to Must-Win Elections With Golf Club Visit"
+    },
+    {
+      "url": "https://www.yelp.com/biz/trump-national-golf-club-washington-dc-sterling",
+      "title": "TRUMP NATIONAL GOLF CLUB WASHINGTON DC - Updated September 2026 - 50 Photos & 33 Reviews - 20391 Lowes Island Blvd, Sterling, Virginia - Golf - Phone Number - Yelp"
+    },
+    {
+      "url": "https://www.livgolf.com/news/liv-golf-confirms-return-to-virginia-for-2026-season",
+      "title": "LIV Golf confirms return to Virginia for 2026 season"
+    },
+    {
+      "url": "https://www.insidenova.com/headlines/liv-golf-returning-to-trump-national-in-sterling-in-2026/article_e318efa1-bd33-4791-93d5-e2d49c1db659.html",
+      "title": "LIV Golf returning to Trump National in Sterling in 2026"
+    },
+    {
+      "url": "https://www.foxnews.com/sports/trump-shows-liv-golf-event-virginia-course-calling-players-rejoin-pga-tour",
+      "title": "Trump watches LIV Golf tournament at his own course in Sterling, Virginia"
+    },
+    {
+      "url": "https://www.golfpass.com/travel-advisor/courses/13154-trump-national-golf-club-washington-d-c-championship-course",
+      "title": "Trump National Golf Club - Washington D.C. - Championship Course in Sterling, Virginia, USA"
+    },
+    {
+      "url": "https://www.trumpnationaldc.com/",
+      "title": "Trump National Golf Club Washington D.C."
+    },
+    {
+      "url": "https://frontofficesports.com/trump-golf-courses-secure-2026-stops-on-liv-pga/",
+      "title": "Trump Golf Courses Secure 2026 Stops on LIV, PGA"
+    },
+    {
+      "url": "https://www.timesargus.com/news/national/trump/image_4eb00c95-fd6d-5a72-a4ea-e71feebe0f33.html",
+      "title": "Trump"
+    },
+    {
+      "url": "https://x.com/trumpgolfdc?lang=en",
+      "title": "Trump Washington DC (@TrumpGolfDC) on X"
+    },
+    {
+      "url": "https://www.golfpass.com/travel-advisor/courses/13152-trump-national-golf-club-washington-d-c-river-course",
+      "title": "Trump National Golf Club - Washington D.C. - River Course in Sterling, Virginia, USA"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trump_National_Golf_Club_Washington,_D.C.",
+      "title": "Trump National Golf Club Washington, D.C."
+    },
+    {
+      "url": "https://www.findglocal.com/US/Sterling/105218496189083/Trump-National-Golf-Club-Washington-D.C.",
+      "title": "Trump National Golf Club Washington D.C., 20391 Lowes Island Boulevard, Sterling, VA (2026)"
+    },
+    {
+      "url": "https://ca.news.yahoo.com/trump-spotted-golfing-virginia-over-151620277.html",
+      "title": "Trump spotted golfing in Virginia over Labor Day weekend - Yahoo News Canada"
+    },
+    {
+      "url": "https://x.com/TrumpGolfDC",
+      "title": "Trump Washington DC (@TrumpGolfDC) / Posts / X"
+    },
+    {
+      "url": "https://course.bluegolf.com/bluegolf/course/course/trumpntlchmp/index.htm",
+      "title": "Trump National Golf Club Washington D.C - Championship - Course Profile"
+    },
+    {
+      "url": "https://bluegolf.ijgt.com/bluegolf/ijgt/course/trumpntlchmp/actual.htm",
+      "title": "Trump National Golf Club Washington D.C - Championship - Course Profile"
+    },
+    {
+      "url": "https://donaldtrump.golf/2026-08-29",
+      "title": "Did Donald Trump golf on August 29, 2026?"
+    },
+    {
+      "url": "https://www.irishstar.com/sport/golf/trump-golf-weekend-taxpayer-money-37169112",
+      "title": "Donald Trump makes most of weekend off work with activity set to infuriate taxpayers again"
+    },
+    {
+      "url": "https://northernvirginiamag.com/news/2026/05/04/liv-golfs-2026-tournament-returns-to-trump-national-in-sterling/",
+      "title": "Trump National Hosts LIV Golf Tournament Over Mother\u2019s Day Weekend"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/calendar/",
+      "title": "October 2026 - President's Public Schedule"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/topic/calendar/",
+      "title": "Roll Call Factba.se - Donald J. Trump's Public Schedule"
+    },
+    {
+      "url": "https://x.com/WHPressPool/status/2105827615311306916",
+      "title": "White House Press Pool Reports on X: \"President Trump\u2019s Weekend Schedule \ud83d\udcc5 Friday, Oct. 2 - Sunday, Oct. 4, 2026 \ud83d\udcc5 FRIDAY, OCTOBER 2, 2026 8:00 AM EDT THE PRESIDENT participates in Executive Time CLOSED PRESS \ud83d\udccd The White House 11:00 AM EDT THE PRESIDENT receives his Intelligence Briefing CLOS\u2026 / X"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_presidential_trips_made_by_Donald_Trump_(2026)",
+      "title": "List of presidential trips made by Donald Trump (2026)"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/donald-trump-rally-schedule/",
+      "title": "Trump Rally Schedule: Upcoming Events and Speeches (2026)"
+    },
+    {
+      "url": "https://www.presidentialprayerteam.org/category/uncategorized/daily-schedule/",
+      "title": "President\u2019s Daily Schedule"
+    },
+    {
+      "url": "https://x.com/DeItaone/status/2110372022500958313",
+      "title": "*Walter Bloomberg on X: \"\ud83c\uddfa\ud83c\uddf8 PRESIDENT TRUMP'S SCHEDULE \u2014 WEDNESDAY, OCTOBER 14, 2026 All times Eastern (ET) \ud83d\udd38 11:00 AM \u2014 Executive Time, Las Vegas, Nevada \ud83d\udd38 11:30 AM \u2014 Travel pool call time, Las Vegas \ud83d\udd38 4:00 PM \u2014 Political rally in Bullhead City, Arizona \ud83d\udd38 8:15 PM \u2014 Political rally in Kali\u2026 / X"
+    },
+    {
+      "url": "https://locatetrump.com/schedule",
+      "title": "Trump's Schedule Today - Live Timeline & Movements"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Donald_Trump_rallies_(2025%E2%80%93present)",
+      "title": "List of Donald Trump rallies (2025\u2013present)"
+    },
+    {
+      "url": "https://www.espn.com/golf/story/_/id/50211001/president-trump-close-historic-dc-golf-course-renovations",
+      "title": "President Donald Trump to shutter East Potomac Golf Course for renovations"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/trump-says-he-will-close-historic-d-c-golf-course-for-15-months-of-renovations",
+      "title": "Trump says he will close historic D.C. golf course for 15 months of renovations"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/18/trump-says-he-will-close-dc-golf-course-for-15-months-of-renovations.html",
+      "title": "Trump says he will close historic DC golf course for 15 months of renovations"
+    },
+    {
+      "url": "https://www.usnews.com/news/world/articles/2026-10-18/trump-says-washington-golf-course-renovation-to-start-in-november-despite-judges-order",
+      "title": "Trump Says Washington Golf Course Renovation to Start in November, Despite Judge's Order"
+    },
+    {
+      "url": "https://thehill.com/policy/energy-environment/6156714-trump-plans-east-potomac-golf/",
+      "title": "Donald Trump announces plan for championship golf course at East Potomac Park"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-announces-plans-renovate-dc-golf-course-legal-battle-rcna604147",
+      "title": "Trump announces plans to renovate D.C. golf course amid legal battle"
+    },
+    {
+      "url": "https://americanbazaaronline.com/2026/10/19/trump-plans-dc-golf-course-renovation-despite-ongoing-legal-battle-490363/",
+      "title": "Trump plans DC golf course renovation despite ongoing legal battle"
+    },
+    {
+      "url": "https://www.washingtonpost.com/sports/2026/10/18/trump-east-potomac-golf-course/4db2dc32-cb0a-11f1-ac04-9f58578a68b4_story.html",
+      "title": "Trump says he will close historic DC golf course for 15 months of renovations - The Washington Post"
+    },
+    {
+      "url": "https://www.whattrumpdid.today/2026/10/what-did-donald-trump-do-today-he_01797555730.html",
+      "title": "What Trump Did Today"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007384/trump-to-close-and-renovate-d-c-golf-course-despite-legal-battle",
+      "title": "Trump to close and renovate D.C. golf course, despite legal battle. : NPR"
+    },
+    {
+      "url": "https://www.arlnow.com/2026/10/18/trump-to-close-east-potomac-golf-course-for-15-months-as-beyer-calls-plan-a-disgrace/",
+      "title": "Trump to close East Potomac golf course for 15 months as Beyer calls plan \u2018a disgrace\u2019"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/trump-unveils-plan-transform-historic-dc-golf-course-judge-tees-off",
+      "title": "Trump unveils plan to redesign East Potomac Golf Links with Fazio"
+    },
+    {
+      "url": "https://trumpgolftrack.com/",
+      "title": "Trump Golf Track 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Donald_Trump_and_golf",
+      "title": "Donald Trump and golf"
+    }
+  ]
+}
