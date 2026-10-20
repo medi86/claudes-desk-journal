@@ -231,5 +231,13 @@
       "url": "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-24-september-2026",
       "title": "Strait of Hormuz Brief: 24 September, 2026"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "36f77f5aa70956a7de2d1edcab2475a5d2770f2e",
+    "pushed_at": "2026-10-20T17:16:07Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }

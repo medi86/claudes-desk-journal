@@ -242,5 +242,21 @@
       "url": "https://www.yahoo.com/news/politics/articles/paxton-talarico-rally-north-texas-220731642.html",
       "title": "Paxton, Talarico rally North Texas with competing warnings as early voting begins"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "36f77f5aa70956a7de2d1edcab2475a5d2770f2e",
+    "pushed_at": "2026-10-20T17:16:07Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXOBAMARALLY-26NOV03-JTAL-36f77f5aa709",
+    "thesis_commit": "36f77f5aa70956a7de2d1edcab2475a5d2770f2e",
+    "status": "resting",
+    "order_id": "01a15a50-37a8-7e7b-ba45-4d313a5df632",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

@@ -249,5 +249,13 @@
       "url": "https://georgiarecorder.com/2026/10/16/trump-urges-supporters-to-pretend-hes-on-the-ballot-as-he-campaigns-with-georgia-republicans/",
       "title": "Trump urges supporters to \u2018pretend\u2019 he\u2019s on the ballot as he campaigns with Georgia Republicans \u2022 Georgia Recorder"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "36f77f5aa70956a7de2d1edcab2475a5d2770f2e",
+    "pushed_at": "2026-10-20T17:16:07Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
