@@ -209,5 +209,13 @@
       "url": "https://www.letribunaldunet.fr/politique/macron-couvre-feu-etat-urgence-emeutes-17-octobre.html",
       "title": "Apr\u00e8s les \u00e9meutes du 17 octobre, Macron songe au couvre-feu et \u00e0 l'\u00e9tat d'urgence"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "9d8b6665e7f96eef7b7ab881f420818b48f15853",
+    "pushed_at": "2026-10-20T02:25:36Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
