@@ -1,0 +1,245 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUTHSOCIAL-26OCT24-T240",
+  "event": "KXTRUTHSOCIAL-26OCT24",
+  "series": "KXTRUTHSOCIAL",
+  "title": "Will Donald Trump make above 240 Truth Social posts the week of Oct 18, 2026? >240",
+  "rules": "If the number of Truth Social posts by Donald Trump from Oct 18, 2026 to Oct 24, 2026 is above 240, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe observation period begins at 12:00:00 AM ET on Oct 18, 2026 and ends at 11:59:59 PM ET on Oct 24, 2026.\nThe primary resolution source for this market is Roll Call.\nIn the event that Roll Call data is unavailable or inaccurate, alternative sources may be used at Kalshi's discretion.\n\nPayout criteria\n\nTruths, ReTruths, and Quote Truths are included in the total count.\nReplies are included if captured by Roll Call.\n\"Between\" is inclusive of the lower and upper bound.\n\nDoesn\u2019t count for payout: Posts deleted as of 12:00 AM ET.",
+  "close_time": "2026-10-25T13:59:00+00:00",
+  "expected_close_time": "2026-10-25T13:59:00+00:00",
+  "forecast_at": "2026-10-20T12:32:06.152466+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.16",
+    "reasoning": "Trump's recent typical output is about 20-25 Truth Social posts per day (roughly 140-176 a week; TrumpAlert mean 25.2/day from late June to mid-October 2026), and even his record month (861 posts in May) averaged only about 195 a week. Going above 240 requires about 35 a day, which usually takes a 150+ post binge on top of a normal week. Such binges happen occasionally, and the late-campaign midterm period may raise activity, so YES is possible but unlikely.",
+    "falsifier": "Roll Call's count for Oct 18-24, 2026 exceeds 240, for example because of one or more 100+ post late-night sprees during the week.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2200",
+    "best_yes_ask": "0.2300",
+    "p_market": "0.2250"
+  },
+  "final": {
+    "p_yes": "0.19",
+    "action": "pass",
+    "reasoning": "The market at 22.5% sits above my estimate, but the week is already under way and traders likely see partial counts, and Roll Call probably counts more posts than TrumpAlert. I moved my estimate toward the market, and the remaining gap is too small to act on."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.huffpost.com/entry/donald-trump-posts-record-white-house-explains_n_6a1fdcdfe4b032392fa751f2",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.trumpalert.app/trump-truth-social-statistics",
+      "title": "Trump Truth Social Post Statistics"
+    },
+    {
+      "url": "https://www.kadoa.com/potus/truth",
+      "title": "What Did Trump Post Today? Truth Social Posts Ranked by Impact"
+    },
+    {
+      "url": "https://www.huffingtonpost.co.uk/entry/donald-trump-record-breaking-truth-social_uk_6a1ff4f1e4b08a03cfbd9f5d",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/politics/donald-trump-of-truth-social-posts-june-19-june-26",
+      "title": "How Many Truth Social Posts Will Trump Make June 19-26?"
+    },
+    {
+      "url": "https://www.mediaite.com/politics/trump-has-averaged-a-whopping-19-truth-social-posts-a-day-in-2026-report/",
+      "title": "Trump Has Averaged a Whopping 19 Truth Social Posts a Day in 2026: Report"
+    },
+    {
+      "url": "https://www.trumpstruth.org/",
+      "title": "Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-sets-new-posting-record-on-truth-social-as-mania-spirals-out-of-control/",
+      "title": "Trump Sets Worrying New Record on Truth Social as Mania Spirals Out of Control"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom",
+      "title": "Trump's Truth Social lays bare narrow obsessions of an extremely online president"
+    },
+    {
+      "url": "https://www.aol.com/articles/donald-trump-had-one-seriously-080445000.html",
+      "title": "Donald Trump Had A Seriously Wild Night On Truth Social - AOL"
+    },
+    {
+      "url": "https://time.com/7338077/trump-truth-social-posts-addiction/",
+      "title": "Trump Posts More Than 160 Times in Late-Night Blitz. That's Not Even His Record"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/donald-trump-truth-social-posts-by-date-summary-257689",
+      "title": "What Did Donald Trump Post on Truth Social, By Date?"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-goes-wild-truth-041523952.html",
+      "title": "Donald Trump Goes On Wild Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.aol.com/articles/trump-fans-abandon-truth-social-161202000.html",
+      "title": "Trump fans abandon Truth Social en masse as president floods profile with AI slop - AOL"
+    },
+    {
+      "url": "https://www.thedailybeast.com/insane-number-of-times-trump-posted-in-six-hours-revealed/",
+      "title": "Insane Number of Times Trump Posted in Six Hours Revealed"
+    },
+    {
+      "url": "https://www.washingtonpost.com/technology/2025/06/03/trump-truth-social-twitter/",
+      "title": "Tallying Trump\u2019s online posting frenzy: 2,262 \u2018truths\u2019 in 132 days - The Washington Post"
+    },
+    {
+      "url": "https://rollcall.com/2024/10/02/trump-averages-more-than-24-truth-social-posts-a-day-and-he-was-even-busier-during-the-vp-debate/",
+      "title": "Trump averages more than 24 Truth Social posts a day and he was even busier during the VP debate"
+    },
+    {
+      "url": "https://rollcall.com/2026/01/20/trump-by-the-numbers-first-year/",
+      "title": "What the numbers say: Trump\u2019s 2025 versus his 2017"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/trump-truth-social-2025-post-count-and-research-patterns-bae2ce",
+      "title": "How Many Truth Social Posts Did Trump Make in 2025 and..."
+    },
+    {
+      "url": "https://x.com/kirk_bado/status/1929860605617307787",
+      "title": "Kirk A. Bado on X: \"Roll Call has a great tracker of Trump's social media posts https://t.co/uAWrAOaSiT\" / X"
+    },
+    {
+      "url": "https://www.axios.com/2025/12/02/trump-truth-social-december-150-posts-social-media",
+      "title": "What Trump said in a 158-post, late-night Truth Social barrage"
+    },
+    {
+      "url": "https://www.inkl.com/news/trump-averages-more-than-24-truth-social-posts-a-day-and-he-was-even-busier-during-the-vp-debate-roll-call",
+      "title": "Trump averages more than 24 Truth Social posts a day and he was even busier during the VP debate - Roll Call"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/donald-trump-truth-social-posts-by-date-summary-16e0c2",
+      "title": "What Did Donald Trump Post on Truth Social, Day By Day"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/donald-trump-truth-social-posts-summary-by-date-6badfd",
+      "title": "List of Donald Trump\u2019s Truth Social Posts by Date: Sum..."
+    },
+    {
+      "url": "https://www.forbes.com/sites/siladityaray/2026/10/14/trump-shares-bizarre-ai-tiger-video-in-late-night-spree-after-posting-fatal-attack-footage/",
+      "title": "Trump Shares Bizarre AI Tiger Video In Late-Night Spree After Posting Fatal Attack Footage"
+    },
+    {
+      "url": "https://www.poynter.org/commentary/2026/trump-truth-social-posting-spree-lies/",
+      "title": "Trump\u2019s overnight posting frenzy draws swift pushback, fact checks - Poynter"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/trump-middle-of-the-night-posting-spree_n_6acf1bcbe4b08a0fe8547e78",
+      "title": "Trump Had A Seriously Wild Night On Truth Social"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-goes-posting-spree-192026172.html",
+      "title": "Donald Trump Goes on Posting Spree as Rally Crowd Questions Mount"
+    },
+    {
+      "url": "https://www.forbes.com/sites/conormurray/2026/10/04/trump-launches-bizarre-sunday-posting-spree-from-crumbling-kennedy-center-to-greenland-memes/",
+      "title": "Trump Fires Off 23 Truth Social Posts In 1 Hour During Wild Sunday Spree"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-posts-14-times-hour-085055488.html",
+      "title": "Trump Posts 14 Times in an Hour on Truth Social After Court Ruling"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/07/trump-truth-social-ai-images-posting-spree.html",
+      "title": "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-fires-off-46-posts-in-manic-two-hour-spree/",
+      "title": "Trump Fires Off 46 Posts in Manic Two-Hour Spree"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/14/trumps-truth-social-faces-sharp-decline-traffic/",
+      "title": "Trump\u2019s Truth Social faces a sharp decline in traffic - The Washington Post"
+    },
+    {
+      "url": "https://finance.yahoo.com/media-advertising/articles/trump-truth-social-seen-staggering-132521039.html",
+      "title": "Trump\u2019s Truth Social has seen a staggering drop in users despite president\u2019s constant posting"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trumps-fans-ditch-truth-social-in-stunning-exodus",
+      "title": "Trump\u2019s Fans Ditch Truth Social in Stunning Exodus"
+    },
+    {
+      "url": "https://www.demandsage.com/truth-social-statistics/",
+      "title": "Truth Social Statistics (2026)"
+    },
+    {
+      "url": "https://www.trumpstruth.org/stats",
+      "title": "Stats - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42415",
+      "title": "Donald J. Trump video post from October 18, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl",
+      "title": "Trump slams Zelensky after Ukraine defies US president with major attack on Russia"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42417",
+      "title": "Donald J. Trump: \"RT: https://truthsocial.com/users/realDonaldTrump/statuses/117464065930232379\" - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-announces-plans-renovate-dc-golf-course-legal-battle-rcna604147",
+      "title": "Trump announces plans to renovate D.C. golf course amid legal battle"
+    },
+    {
+      "url": "https://www.clevelandjewishnews.com/jns/in-phone-call-trump-predicts-tremendous-victory-for-netanyahu-s-likud/article_aa0b6ae5-fc1e-5297-9c90-278134532c58.html",
+      "title": "In phone call, Trump predicts \u2018tremendous victory\u2019 for Netanyahu\u2019s Likud"
+    },
+    {
+      "url": "https://www.aol.com/articles/donald-trump-turns-fox-news-124020000.html",
+      "title": "Donald Trump turns on Fox News in early morning Truth Social meltdown - AOL"
+    },
+    {
+      "url": "https://nationalsecurityjournal.org/donald-trump-finally-told-the-world-the-real-reason-he-eased-sanctions-on-russia/",
+      "title": "Donald Trump Finally Told the World the Real Reason He Eased Sanctions on Russia - National Security Journal"
+    },
+    {
+      "url": "https://nationalsecurityjournal.org/crazed-lunatic-donald-trump-just-doesnt-care-what-even-a-judge-thinks-and-had-the-guts-to-call-him-maybe-insane/",
+      "title": "'Crazed Lunatic': Donald Trump Just Doesn't Care What Even a Judge Thinks and Had the Guts to Call Him Maybe 'Insane' - National Security Journal"
+    },
+    {
+      "url": "https://foxnews.com/live-news/paris-france-riots-protests-extremists-open-borders-elections-october-19",
+      "title": "Trump says amid Paris riots: 'Migrants have taken over France,' 'close the borders fast'"
+    },
+    {
+      "url": "https://adipredictstreet.com/politics/donald-trump-truth-social-posts-september-29-october-6-2026",
+      "title": "Donald Trump # Truth Social Posts September 29 - October 6, 2026"
+    },
+    {
+      "url": "https://www.yahoo.com/news/videos/donald-trump-goes-posting-spree-212249035.html",
+      "title": "Donald Trump Goes on Posting Spree as Rally Crowd Questions Mount"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42394",
+      "title": "Donald J. Trump: \"RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453447477979909\" - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42397",
+      "title": "Donald J. Trump image post from October 17, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-kansas-latino-voters-october-19",
+      "title": "2026 Midterm Elections: Trump Campaigns in Kansas"
+    }
+  ]
+}

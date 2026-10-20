@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "ticker": "KXCROCKETTCAMPAIGN-26-26NOV03",
+  "event": "KXCROCKETTCAMPAIGN-26",
+  "series": "KXCROCKETTCAMPAIGN",
+  "title": "Will it be reported by any of the Source Agencies that Jasmine Crockett personally participates in at least one campaign activity, such as a rally, fundraiser, campaign advertisement, canvassing event, or phone-banking effort, in which she specifically and expressly advocates for James Talarico\u2019s election in the November 2026 Texas U.S. Senate general election before Nov 3, 2026?",
+  "rules": "If Jasmine Crockett personally participates in at least one campaign activity, such as a rally, fundraiser, campaign advertisement, canvassing event, or phone-banking effort, in which she specifically and expressly advocates for James Talarico\u2019s election in the November 2026 Texas U.S. Senate general election  after Issuance and before Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Only reporting from any of the Source Agencies qualifies for the purposes of this market. Reports that merely reference prior publications (from before Issuance) do not qualify. Republishing of content originally produced by other sources (e.g., wire services) only qualifies if the content is hosted on the outlet's official platform and the outlet is clearly identified as the publishing entity.",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-20T12:32:06.152466+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.18",
+    "reasoning": "Crockett has refused for seven months to campaign alongside Talarico. She left him off her PAC's endorsement slate and has said her early-voting tour is for down-ballot candidates, arguing that sharing a stage with him wouldn't help. With about two weeks left, a YES would need a sharp reversal, such as a joint unity rally, or an explicit 'vote for Talarico' at one of her events being reported. Her recent 'I've endorsed him 100 times' comments show this is possible but probably don't meet the strict standard.",
+    "falsifier": "A Source Agency reports Crockett appearing at a rally, GOTV event, or in an ad before Nov 3 in which she explicitly urges voters to elect Talarico, whether a joint appearance or an explicit call at her own down-ballot stops.",
+    "price_seen": true,
+    "price_sources": [
+      "https://vinnews.com/2026/10/04/crockett-declines-to-endorse-talarico-in-texas-senate-race/"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4500",
+    "best_yes_ask": "0.4900",
+    "p_market": "0.4700"
+  },
+  "final": {
+    "p_yes": "0.27",
+    "action": "buy_no",
+    "reasoning": "The 0.47 midpoint suggests traders expect a late unity appearance or a lenient reading of Crockett's 'I've endorsed him 100 times' remarks, so I raised my estimate from 0.18 to 0.27. Her consistent, explicit refusal to campaign with Talarico and the short time left still put my number well below the price."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.4600",
+    "count": 1,
+    "cost": "0.5400",
+    "clamped_from": "0.27"
+  },
+  "sources": [
+    {
+      "url": "https://www.newsweek.com/did-jasmine-crockett-endorse-james-talarico-in-texas-what-the-record-shows-12504186",
+      "title": "Did Jasmine Crockett Endorse James Talarico in Texas? What the Record Shows - Newsweek"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6130518-crockett-supports-texas-democrat-talarico/",
+      "title": "Crockett says she supports \u2018all Democrats\u2019: \u2018Yes, that includes James Talarico\u2019"
+    },
+    {
+      "url": "https://thetexan.news/elections/2026/crockett-focuses-on-down-ballot-races-in-latest-endorsements-excludes-talarico/article_3fc92fd7-47ee-45fa-a719-b57672fba08b.html",
+      "title": "Crockett Focuses on Down-Ballot Races in Latest Endorsements, Excludes Talarico"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/09/29/jasmine-crocketts-pac-releases-new-endorsements-talarico-is-still-not-list/",
+      "title": "Jasmine Crockett\u2019s PAC released new endorsements. Talarico is still not on the list. - The Washington Post"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/did-jasmine-crockett-endorse-james-011408570.html",
+      "title": "Did Jasmine Crockett endorse James Talarico in Texas? What the record shows"
+    },
+    {
+      "url": "https://www.chron.com/news/article/jasmine-crockett-james-talarico-endorsement-22452629.php",
+      "title": "Jasmine Crockett endorses 14 Texas Democrats. Talarico isn't one."
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/james-talarico-faces-unexpected-obstacle-195925517.html",
+      "title": "James Talarico faces unexpected obstacle from within his own party"
+    },
+    {
+      "url": "https://vinnews.com/2026/10/04/crockett-declines-to-endorse-talarico-in-texas-senate-race/",
+      "title": "Crockett Declines To Endorse Talarico In Texas Senate Race"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/texas-take/article/jasmine-crockett-insists-helping-james-talarico-22484334.php",
+      "title": "Jasmine Crockett insists she's helping James Talarico in the best way possible"
+    },
+    {
+      "url": "https://www.keranews.org/elections-2026/2026-06-22/jasmine-crockett-campaign-james-talarico-state-convention-not-attend",
+      "title": "Jasmine Crockett has 'no idea' if she'll campaign for Talarico. That's not what she told KERA"
+    },
+    {
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/03/03/544877/crockett-talarico-texas-senate-democratic-primary-election-results/",
+      "title": "James Talarico beats Jasmine Crockett in Democratic primary for U.S. Senate"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/texas-senate-primary-race-between-crockett-and-talarico-ramps-up-after-pulled-colbert-interview",
+      "title": "Texas' Senate primary race between Crockett and Talarico ramps up after pulled Colbert interview"
+    },
+    {
+      "url": "https://www.ksat.com/news/texas/2026/03/04/james-talarico-takes-early-lead-over-jasmine-crockett-in-blockbuster-democratic-primary-for-us-senate/",
+      "title": "James Talarico defeats Jasmine Crockett in blockbuster Democratic primary for U.S. Senate"
+    },
+    {
+      "url": "https://cbsaustin.com/news/local/democratic-voters-leading-in-early-voting-totals-as-senate-candidates-travel-state",
+      "title": "Democratic voters leading in early voting totals as Senate candidates travel state"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5763463-jasmine-crockett-james-talarico-and-the-power-of-compact-electoral-minorities/",
+      "title": "Jasmine Crockett, James Talarico and the power of compact electoral minorities"
+    },
+    {
+      "url": "https://emersoncollegepolling.com/texas-2026-primary-poll-talarico-paxton-with-narrow-edges-in-senate-primaries/",
+      "title": "Texas 2026 Primary Poll: Talarico & Paxton with Narrow Edges in Senate Primaries\u00a0 - Emerson Polling"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+      "title": "2026 United States Senate election in Texas"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4757626/jasmine-crockett-virginia-house-race-talarico/",
+      "title": "Jasmine Crockett stumps in Virginia for Democrats while spurning Talarico"
+    },
+    {
+      "url": "https://www.kcbd.com/2026/10/19/talarico-hold-community-rally-texas-tech-oct-27/",
+      "title": "Talarico to hold community rally at Texas Tech Oct. 27"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5766697-crockett-talarico-concession-senate-democratic-primary-race-texas/",
+      "title": "Jasmine Crockett concedes to James Talarico in Texas Senate Democratic primary"
+    },
+    {
+      "url": "https://www.fox34.com/2026/10/19/talarico-hold-community-rally-texas-tech-oct-27/",
+      "title": "Talarico to hold community rally at Texas Tech, Oct. 27"
+    },
+    {
+      "url": "https://texasaflcio.org/events/dallas-tara-rally-james-talarico-saving-social-security",
+      "title": "Dallas: TARA Rally for James Talarico & Saving Social Security"
+    },
+    {
+      "url": "https://www.bloomberg.com/opinion/articles/2026-08-30/in-texas-talarico-and-crockett-aren-t-campaigning-together-so-what",
+      "title": "In Texas, Talarico and Crockett Aren't Campaigning Together. So What? - Bloomberg"
+    },
+    {
+      "url": "https://theaustinindependent.org/crockett-is-helping-talarico-by-not-campaigning-with-him/",
+      "title": "Crockett Is Helping Talarico By Refusing To Campaign with Him - The Austin Independent"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6058356-crockett-down-ballot-texas-senate/",
+      "title": "Jasmine Crockett suggests she won't campaign with James Talarico, will focus 'down ballot' in Texas"
+    },
+    {
+      "url": "https://www.cnn.com/2026/08/28/politics/video/jasmine-crockett-has-no-plans-to-campaign-for-james-talarico-lcl",
+      "title": "Jasmine Crockett has no plans to campaign for James Talarico"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/aug/28/crockett-no-plans-campaign-talarico/",
+      "title": "Rep. Jasmine Crockett: No plans to campaign for James Talarico"
+    },
+    {
+      "url": "https://politicalwire.com/2026/08/28/jasmine-crockett-wont-be-campaigning-for-talarico/",
+      "title": "Jasmine Crockett Won\u2019t Be Campaigning for Talarico"
+    },
+    {
+      "url": "https://www.cnn.com/2026/05/29/politics/james-talarico-black-voters-jasmine-crockett",
+      "title": "How James Talarico is working to win over Black voters who strongly backed Jasmine Crockett"
+    },
+    {
+      "url": "https://www.texastribune.org/2026/08/04/texas-senate-race-black-voters-james-talarico-ken-paxton-jasmine-crockett/",
+      "title": "Most Black Texas voters back Talarico over Paxton, poll finds, despite Senate primary tensions"
+    },
+    {
+      "url": "https://www.imeupolicyproject.org/polls/tx-primary",
+      "title": "New Poll: Talarico Boosted By 4:1 Margin Over Crockett By Comments Criticizing Israel \u2014 IMEU Policy Project"
+    },
+    {
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/2025/12/12/538516/texas-senate-democratic-primary-poll-jasmine-crockett-james-talarico/",
+      "title": "Jasmine Crockett leads James Talarico by 8 points in Senate Democratic primary, new poll finds"
+    },
+    {
+      "url": "https://texassouthernnews.com/crockett-leads-talarico-in-texas-u-s-senate-democratic-primary/",
+      "title": "Crockett Leads Talarico in Texas U.S. Senate Democratic Primary - TSU News"
+    },
+    {
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/08/04/558614/talarico-paxton-poll-senate-texas-southern-university-black-voters/",
+      "title": "Another poll shows James Talarico leading Ken Paxton in their race for the U.S. Senate"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/article/talarico-leads-paxton-texas-senate-poll-22459847.php",
+      "title": "James Talarico leading Ken Paxton in Senate race: UH poll"
+    },
+    {
+      "url": "https://www.everythinglubbock.com/news/local-news/talarico-to-host-lubbock-community-rally-at-texas-tech/",
+      "title": "Talarico to host Lubbock community rally at Texas Tech"
+    },
+    {
+      "url": "https://www.dallasnews.com/news/politics/article/crockett-talarico-different-sides-congressional-22270757.php",
+      "title": "Jasmine Crockett, James Talarico on different sides in congressional runoff"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/5772311-talarico-rallies-support-general-election/",
+      "title": "Talarico turns toward general as Texas GOP Senate primary heads to runoff"
+    },
+    {
+      "url": "https://www.dallasnews.com/news/politics/article/paxton-talarico-rally-north-texas-dual-warnings-22484054.php",
+      "title": "Paxton, Talarico rally North Texas with competing warnings as voting begins"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/article/crockett-abbott-harris-county-early-voting-turnout-22483756.php",
+      "title": "Jasmine Crockett, Greg Abbott each visit Houston as early voting begins"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/election/2026/article/harris-county-early-voting-election-day-locations-22447154.php",
+      "title": "Harris County early voting, Election Day locations, hours"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/texas/article/trump-texas-democrats-22483009.php",
+      "title": "Trump targets down-ballot Texas Democrats on eve of early voting"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/texas-take/article/jasmine-crockett-black-voter-turnout-senate-run-21311899.php",
+      "title": "Jasmine Crockett banks on growing Black voter turnout to get to U.S. Senate"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/VotingInfo/EarlyVotingPDFMaps/EarlyVotingMap.pdf",
+      "title": "Early Voting Locations"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/texas/politifact/article/fact-check-paxton-puppies-22480700.php",
+      "title": "Fact check: James Talarico claims Ken Paxton voted 'to protect puppy abusers'"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/politics/texas/article/jasmine-crockett-senate-stop-houston-21241966.php",
+      "title": "Jasmine Crockett's Senate campaign makes first Houston stop"
+    }
+  ]
+}

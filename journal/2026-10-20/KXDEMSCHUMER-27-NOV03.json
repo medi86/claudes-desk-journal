@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "ticker": "KXDEMSCHUMER-27-NOV03",
+  "event": "KXDEMSCHUMER-27",
+  "series": "KXDEMSCHUMER",
+  "title": "Will any current member of the Democratic Senate caucus (including independents who caucus with Democrats) publicly states that Chuck Schumer should step down, resign, or be replaced as Senate Democratic Leader before Nov 3, 2026?",
+  "rules": "If any\u00a0current member of the Democratic Senate caucus (including independents who caucus with Democrats) publicly states that Chuck Schumer should step down, resign, or be replaced as Senate Democratic Leader before Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-20T12:32:06.152466+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.09",
+    "reasoning": "So far no sitting Senate Democrat has clearly said Schumer should step down. Slotkin's June 2026 comment was hedged and evidently hasn't resolved the market. Only about two weeks remain, the caucus is publicly united behind the midterm push, and senators like Sanders and Warren are deferring the question until after the election. The leadership vote, where any challenge would surface, comes after Nov 3.",
+    "falsifier": "A sitting Democratic or caucusing senator (e.g., Slotkin, Murphy, Gallego, Fetterman) explicitly saying before Nov 3 that Schumer should not remain leader or should be replaced, or the market resolver deciding Slotkin's June 2026 remarks count.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1200",
+    "best_yes_ask": "0.1500",
+    "p_market": "0.1350"
+  },
+  "final": {
+    "p_yes": "0.1",
+    "action": "buy_no",
+    "reasoning": "The market's 12-15% sits a bit above my 10%. The likely gap is the chance that Slotkin's ambiguous June remarks get counted, which I already weighted. With only about two weeks left, a united caucus, and the leadership vote after Nov 3, I see a modest edge on NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1300",
+    "count": 1,
+    "cost": "0.8700",
+    "clamped_from": "0.10"
+  },
+  "sources": [
+    {
+      "url": "https://thehill.com/homenews/senate/6007652-moulton-calls-for-schumer-ouster/",
+      "title": "Rep. Seth Moulton pushes for Chuck Schumer to be ousted as Senate Democratic leader"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/government-shutdown-ro-khanna-chuck-schumer-senate-leader/",
+      "title": "Khanna explains his call for Schumer to be replaced over shutdown deal: \"He is not meeting the moment\" - CBS News"
+    },
+    {
+      "url": "https://www.commondreams.org/news/chuck-schumer-step-aside",
+      "title": "'You Are Out of Touch': Schumer Faces New Calls to Step Aside After Israel Weapons Vote"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/5598207-rep-ro-khanna-calls-for-chuck-schumer-replacement/",
+      "title": "Ro Khanna calls for Chuck Schumer to be ousted from Senate leadership"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/5602591-democrats-dissent-schumer-leadership/",
+      "title": "Here are the Democrats calling for Schumer to be replaced as leader"
+    },
+    {
+      "url": "https://www.axios.com/2025/11/10/schumer-resign-democrats-shutdown-deal-senate",
+      "title": "Chuck Schumer faces mounting calls from Democrats to resign as Senate leader"
+    },
+    {
+      "url": "https://www.axios.com/2025/11/14/house-democrats-schumer-resign-shutdown",
+      "title": "Scoop: More House Democrats call for Chuck Schumer to resign over shutdown deal"
+    },
+    {
+      "url": "https://conservativebrief.com/dem-should-102432/",
+      "title": "Dem Senator Suggests Schumer, Jeffries Should Be Replaced"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1xJgEzzeLnU",
+      "title": "Khanna says Schumer should step down as Senate Democratic leader: \"Time for him to be replaced\" - YouTube"
+    },
+    {
+      "url": "https://www.washingtonsun.com/campaigns/schumers-leadership-chances-are-looking-better-than-ever",
+      "title": "Democrats' Surge Has Schumer Out of the Hot Seat \u2014 For Now - The Washington Sun"
+    },
+    {
+      "url": "https://truthout.org/articles/democrats-call-for-new-leadership-after-schumer-caves-on-terrible-gop-deal/",
+      "title": "Democrats Call for New Leadership After Schumer Caves on \u201cTerrible\u201d GOP Deal"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/6030959-schumer-senate-leader-future/",
+      "title": "New Senate winners vow to reject Schumer as Democratic leader"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/schumer-had-a-plan-to-win-back-the-senate-but-some-democrats-arent-on-board",
+      "title": "Schumer had a plan to win back the Senate, but some Democrats aren't on board"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/senate/4749661/chuck-schumer-senate-democrat-leadership-reelection/",
+      "title": "Schumer affirms leadership plans despite opposition from insurgent candidates"
+    },
+    {
+      "url": "https://abcnews.com/amp/US/wireStory/chuck-schumer-broad-support-caucus-midterms-decide-future-137189528",
+      "title": "Chuck Schumer has broad support from his caucus, but midterms could decide his future as leader - ABC News"
+    },
+    {
+      "url": "https://www.wsls.com/news/politics/2026/10/12/chuck-schumer-has-broad-support-from-his-caucus-but-midterms-could-decide-his-future-as-leader/",
+      "title": "Chuck Schumer has broad support from his caucus, but midterms could decide his future as leader"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/15/yolo-chuck-schumers-final-fight",
+      "title": "YOLO Chuck: Schumer's final fight"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/6002807-van-hollen-declines-to-say-schumer-endorsement/",
+      "title": "Van Hollen declines to say if he would back Schumer for continued Senate leadership"
+    },
+    {
+      "url": "https://www.usnews.com/news/politics/articles/2026-10-12/chuck-schumer-has-broad-support-from-his-caucus-but-midterms-could-decide-his-future-as-leader",
+      "title": "Chuck Schumer Has Broad Support From His Caucus, but Midterms Could Decide His Future as Leader"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/chuck-schumer-has-broad-support-from-his-caucus-but-the-midterms-could-decide-his-future-as-leader",
+      "title": "Chuck Schumer has broad support from his caucus. But the midterms could decide his future as leader"
+    },
+    {
+      "url": "https://time.com/7333965/congress-democrats-chuck-schumer/",
+      "title": "The Shutdown\u2019s Over and Chuck Schumer Isn\u2019t Going Anywhere"
+    },
+    {
+      "url": "https://www.newsweek.com/democratic-party-future-trump-schumer-leadership-2026-11904381",
+      "title": "Chuck Schumer\u2019s Last Stand - Newsweek"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chuck_Schumer",
+      "title": "Chuck Schumer"
+    },
+    {
+      "url": "https://www.aol.com/articles/senate-democrat-suggests-may-time-235008195.html",
+      "title": "Senate Democrat suggests it may be time to replace Schumer and Jeffries: \u2018Let others lead\u2019 - AOL"
+    },
+    {
+      "url": "https://internewscast.com/news/senate-democrat-says-schumer-and-jeffries-may-need-to-step-aside-for-new-leadership/",
+      "title": "Senate Democrat Says Schumer and Jeffries May Need to Step Aside for New Leadership - Internewscast Journal"
+    },
+    {
+      "url": "https://heritagereview.com/democrat-senator-calls-for-schumer-and-jeffries-to-make-way-for-new-party-leadership/",
+      "title": "Democrat senator calls for Schumer and Jeffries to make way for new party leadership"
+    },
+    {
+      "url": "https://americantribune.com/sen-elissa-slotkin-calls-on-schumer-and-jeffries-to-step-aside-for-new-democratic-leadership/",
+      "title": "Sen. Elissa Slotkin calls on Schumer and Jeffries to step aside for new Democratic leadership"
+    },
+    {
+      "url": "https://capitalisminstitute.org/michigan-democrat-slotkin-calls-on-schumer-and-jeffries-to-step-aside-for-new-party-leadership/",
+      "title": "Slotkin Calls for Schumer, Jeffries to Step Down"
+    },
+    {
+      "url": "https://www.thegatewaypundit.com/2026/06/democrat-sen-slotkin-calls-replace-schumer-jeffries-as/",
+      "title": "Democrat Sen. Slotkin Calls to Replace Schumer and Jeffries as Democrats Sink Deeper into Socialist Politics * The Gateway Pundit * by Jim H\u1d0fft"
+    },
+    {
+      "url": "https://www.msn.com/en-us/news/politics/elissa-slotkin-suggests-it-s-time-to-replace-dem-leaders-schumer-and-jeffries-let-others-lead/ar-AA26zPCz",
+      "title": "Elissa Slotkin suggests it's time to replace Dem leaders Schumer and Jeffries: 'Let others lead'"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8KDTk2WH-kU",
+      "title": "Elissa Slotkin Suggests It's Time To Replace Dem Leaders Schumer And Jeffries: \u2018Let Others Lead\u2019 - YouTube"
+    },
+    {
+      "url": "https://abcnews.com/US/wireStory/chuck-schumer-broad-support-caucus-midterms-decide-future-137189528",
+      "title": "Chuck Schumer has broad support from his caucus, but midterms could decide his future as leader - ABC News"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/12/senate-schumer-elections-democrats/53f6b4e4-c630-11f1-aefb-abe4112d087e_story.html",
+      "title": "Chuck Schumer has broad support from his caucus, but midterms could decide his future as leader - The Washington Post"
+    },
+    {
+      "url": "https://www.wcax.com/2026/10/12/chuck-schumer-has-broad-support-his-caucus-midterms-could-decide-his-future-leader/",
+      "title": "Chuck Schumer has broad support from his caucus, but midterms could decide his future as leader"
+    },
+    {
+      "url": "https://www.wral.com/news/ap/e63e4-chuck-schumer-has-broad-support-from-his-caucus-but-midterms-could-decide-his-future-as-leader/",
+      "title": "Chuck Schumer has broad support from his caucus, but midterms could decide his future as leader :: WRAL.com"
+    }
+  ]
+}
