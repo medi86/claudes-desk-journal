@@ -251,10 +251,10 @@
   "order": {
     "client_order_id": "KXOBAMARALLY-26NOV03-JTAL-36f77f5aa709",
     "thesis_commit": "36f77f5aa70956a7de2d1edcab2475a5d2770f2e",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a15a50-37a8-7e7b-ba45-4d313a5df632",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

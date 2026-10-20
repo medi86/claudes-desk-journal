@@ -237,9 +237,9 @@
   "order": {
     "client_order_id": "KXCROCKETTCAMPAIGN-26-26NOV03-1e2cbcfb9f6d",
     "thesis_commit": "1e2cbcfb9f6debab03abaefbf68f03e43b14965f",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a15951-4220-7177-a1c8-dd167a5b6c04",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {

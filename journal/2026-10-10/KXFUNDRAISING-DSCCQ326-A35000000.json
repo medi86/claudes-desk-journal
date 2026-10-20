@@ -227,9 +227,9 @@
   "order": {
     "client_order_id": "KXFUNDRAISING-DSCCQ326-A35000000-4b3760e67aac",
     "thesis_commit": "4b3760e67aace45ff04653b7589aa3876821d689",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1266e-8a48-7914-acbb-70c3f3b27ff1",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
