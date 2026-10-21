@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "ticker": "KXTOPMODEL-26OCT31-GEMI",
+  "event": "KXTOPMODEL-26OCT31",
+  "series": "KXTOPMODEL",
+  "title": "What will be the top AI model on Oct 31, 2026? gemini-4-argon-high",
+  "rules": "If gemini-4-argon-high is the top-ranked AI model on Oct 31, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "If two models are tied under Rank (UB), then the model with the highest Arena Score will win. If two models are still tied after that, then the model with the most votes will win. If two models are still tied after that, the model that was released earlier will win. Important information: When checking the source for this market, check the 'Remove Style Control' toggle.",
+  "close_time": "2026-10-31T14:00:00+00:00",
+  "expected_close_time": "2026-10-31T14:00:00+00:00",
+  "forecast_at": "2026-10-21T01:38:18.627889+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.72",
+    "reasoning": "Gemini 4 Argon was released October 13, 2026 and is reported to be #1 on the LMArena Text Arena, and only about 2.5 weeks remain before resolution. A newly crowned leader usually holds that long. Risks are that the ranking differs with style control removed, a rival launches before October 31, or the exact 'high' variant is not the one at the top.",
+    "falsifier": "A different model (e.g., a new Claude, GPT-6 or Grok release, or Claude Opus 5.5) shows as Rank 1 with a higher Arena Score on the LMArena text leaderboard with style control removed on Oct 31, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7100",
+    "best_yes_ask": "0.7600",
+    "p_market": "0.7350"
+  },
+  "final": {
+    "p_yes": "0.73",
+    "action": "pass",
+    "reasoning": "The market midpoint (0.735) is essentially the same as my independent estimate (0.72), so the price confirms rather than changes my view. The gap is smaller than the 0.71\u20130.76 spread, so there is no edge on either side."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "title": "Gemini 4 Argon (high) - Intelligence, Performance & Price Analysis"
+    },
+    {
+      "url": "https://x.com/arena/status/2105411271525052418",
+      "title": "Arena.ai on X: \"More big news from @GoogleDeepMind: Gemini 4 Argon (High) is #8 in Agent Arena with a +7.92% net improvement score, and has reshaped the Pareto frontier with a $0.62 cost per task! See its placement below. Gemini 4 Argon (High) is a 4.96 percentage point improvement over Gemini 3.8\u2026 / X"
+    },
+    {
+      "url": "https://aistudio.google.com/learn/gemini-4-argon-developer-guide",
+      "title": "Gemini 4 Argon: Developer Guide"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49914236",
+      "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis"
+    },
+    {
+      "url": "https://www.vals.ai/models/google_gemini-4-argon",
+      "title": "Gemini 4 Argon Benchmarks, Cost and Capabilities"
+    },
+    {
+      "url": "https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release",
+      "title": "Google unveils Gemini 4 Argon, retaking benchmark lead over OpenAI and Anthropic \u2014 but in limited release"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet"
+    },
+    {
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-gemini-4-argon-closes-235954585.html",
+      "title": "Google\u2019s Gemini 4 Argon Closes the Pricing Triangle. The Benchmark Lead Is the Real Story."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2103.15071",
+      "title": "The Curious Case of Argon"
+    },
+    {
+      "url": "https://felloai.com/gemini-4-argon/",
+      "title": "Gemini 4 Argon: Benchmarks, Price and Who Gets It"
+    },
+    {
+      "url": "https://www.techzine.eu/news/applications/144960/opinions-are-divided-on-gemini-4-argon/",
+      "title": "Opinions are divided on Gemini 4 Argon - Techzine Global"
+    },
+    {
+      "url": "https://metatext.io/benchmarks/lmarena-elo",
+      "title": "LMArena (Chatbot Arena) Elo Leaderboard (October 2026) \u2014 227 Models Ranked by Score & Cost"
+    },
+    {
+      "url": "https://dev.to/max_quimby/gemini-4-argon-wins-12-of-18-benchmarks-code-isnt-one-2h70",
+      "title": "Gemini 4 Argon Wins 12 of 18 Benchmarks. Code Isn't One. - DEV Community"
+    },
+    {
+      "url": "https://pasqualepillitteri.it/en/news/18784/gemini-4-pro-checkpoint-arena",
+      "title": "Gemini 4 Pro leaks on Arena disguised as Gemini 3.8 Flash"
+    },
+    {
+      "url": "https://x.com/arena/status/2105394855644139908",
+      "title": "Arena.ai on X: \"Big news: Gemini 4 Argon (High) by @GoogleDeepMind just landed #1 in Text Arena with 1525 pts, and #8 in Code Arena: WebDev with 1679 pts! This release has reshaped the Text Arena Pareto frontier with a blended $8/MToken! Gemini 4 Argon (High) is now the most cost efficient model,\u2026 / X"
+    },
+    {
+      "url": "https://neuraltrust.ai/blog/gemini-4-argon",
+      "title": "Gemini 4 Argon: Benchmarks, Pricing & Security (2026)"
+    },
+    {
+      "url": "https://arena.ai/leaderboard",
+      "title": "Arena Leaderboard: Official AI Model Rankings & Benchmarks"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/gemini-4-argon-benchmark-analysis",
+      "title": "Gemini 4 Argon Benchmarks: How It Really Stacks Up Against Rivals"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "title": "Gemini 4 Argon is now available in the Gemini app"
+    },
+    {
+      "url": "https://llm-stats.com/benchmarks/lmarena-text",
+      "title": "LMArena Text Leaderboard - Benchmarks"
+    },
+    {
+      "url": "https://localaimaster.com/blog/lmarena-chatbot-arena-leaderboard",
+      "title": "LMArena Leaderboard (Now Arena): Who's #1 on Chatbot Arena Right Now"
+    },
+    {
+      "url": "https://www.swfte.com/lmarena",
+      "title": "LMArena Leaderboard October 2026"
+    },
+    {
+      "url": "https://ofox.ai/blog/llm-leaderboard-best-ai-models-ranked-2026/",
+      "title": "Artificial Analysis & LMArena Leaderboard: Top AI Models (Sept 2026)"
+    },
+    {
+      "url": "https://llmrun.dev/benchmark/lmarena-text",
+      "title": "LMArena Text Leaderboard \u2014 LLM Scores"
+    },
+    {
+      "url": "https://sophon.at/leaderboards/lmarena-text",
+      "title": "Arena - Text leaderboard by LMArena \u00b7 Sophon"
+    },
+    {
+      "url": "https://www.toolcenter.ai/en/llm-leaderboard",
+      "title": "LMArena LLM Leaderboard 2026: Top 10 AI Models (July)"
+    },
+    {
+      "url": "https://flami.pro/en/blog/lmarena-text-to-image-leaderboard",
+      "title": "LMArena text-to-image leaderboard: 80 models ranked"
+    },
+    {
+      "url": "https://grokipedia.com/page/lmarena",
+      "title": "Arena \u2014 Grokipedia"
+    },
+    {
+      "url": "https://felloai.com/all-we-know-about-google-gemini-4/",
+      "title": "Gemini 4: Release Date, Argon Launch & Rumors"
+    },
+    {
+      "url": "https://aireiter.com/blog/gemini-4-what-we-know",
+      "title": "Gemini 4: Everything Confirmed, Expected, and Unknown (2026)"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/gemini-4-release-date-rumors",
+      "title": "Gemini 4 Release Date: What We Know So Far"
+    },
+    {
+      "url": "https://shattered.io/gemini-4-zero-specs-timeline-vow-2026/",
+      "title": "Gemini 4 Arrives With 0 Specs, Only a Timeline Vow [2026]"
+    },
+    {
+      "url": "https://projedefteri.com/en/blog/gemini-4-release-date/",
+      "title": "Gemini 4 Release Date: Confirmed vs Leaked"
+    },
+    {
+      "url": "https://www.consens.io/topics/gemini-4-release-date",
+      "title": "Gemini 4 Release Date: What Google Has Confirmed"
+    },
+    {
+      "url": "https://huggingface.co/blog/liliruli/gemini-4-coming-confirmed-leaks-how-to-prepare",
+      "title": "Gemini 4.0 Is Coming: What Google Confirmed, What Leaked, and How to Get Ready"
+    },
+    {
+      "url": "https://emergent.sh/news/gemini-4-release-date",
+      "title": "Gemini 4 Release Date: What We Know and What's Rumored"
+    },
+    {
+      "url": "https://techpilot.ai/gemini-4-argon-release-date-access/",
+      "title": "Gemini 4 Release Date: Argon Access & Pricing"
+    },
+    {
+      "url": "https://www.trendingtopics.eu/gemini-4-rumors-google/",
+      "title": "Gemini 4: Leaks, Release Date and Why Google Must Catch Up"
+    },
+    {
+      "url": "https://benchlm.ai/llm-leaderboard-history",
+      "title": "LLM Leaderboard History: Arena Rankings 2023\u20132026 (October 2026)"
+    },
+    {
+      "url": "https://x.com/i/trending/2107034367239266568",
+      "title": "Google's Gemini 4 Argon Tops AI Leaderboards with Massive Output Power / X"
+    },
+    {
+      "url": "https://digg.com/ai/eysadv9u",
+      "title": "Gemini 4 Argon (High) is said to reshape Text Arena's Pareto frontier \u00b7 Digg"
+    },
+    {
+      "url": "https://tech.slashdot.org/story/26/09/30/2244216/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic",
+      "title": "Google Unveils Gemini 4 Argon, Retaking Benchmark Lead Over OpenAI and Anthropic - Slashdot"
+    },
+    {
+      "url": "https://www.swfte.com/ai/lm/leaderboard",
+      "title": "LM Leaderboard October 2026"
+    },
+    {
+      "url": "https://essentras.com/llm-leaderboard",
+      "title": "LLM Leaderboard October 2026: Best AI Models Ranked (Live)"
+    },
+    {
+      "url": "https://www.swfte.com/lmsys-leaderboard",
+      "title": "LMSys Chatbot Arena Leaderboard (October 2026): Live Rankings + Elo"
+    },
+    {
+      "url": "https://metatext.io/benchmarks/lmarena-webdev",
+      "title": "LMArena WebDev Elo Leaderboard (October 2026) \u2014 118 Models Ranked by Score & Cost"
+    },
+    {
+      "url": "https://metatext.io/benchmarks/lmarena-vision",
+      "title": "LMArena Vision Elo Leaderboard (October 2026) \u2014 113 Models Ranked by Score & Cost"
+    },
+    {
+      "url": "https://www.swfte.com/ai/leaderboard",
+      "title": "AI Model Leaderboard October 2026 \u2014 LMSys Arena, LLM, Image & Coding Rankings"
+    },
+    {
+      "url": "https://news.lmarena.ai/leaderboard-changelog/",
+      "title": "Leaderboard Changelog"
+    },
+    {
+      "url": "https://anotherwrapper.com/tools/llm-pricing/leaderboards/arena",
+      "title": "LLM Arena Leaderboard 2026"
+    },
+    {
+      "url": "https://swen.ia.br/benchmark/anthropic-claude-opus-5-5-high",
+      "title": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback) 2026: benchmarks, pre\u00e7o e especifica\u00e7\u00f5es completas"
+    },
+    {
+      "url": "https://www.gradually.ai/en/llm-comparison/claude-opus-5.5-vs-claude-sonnet-5/",
+      "title": "Claude Opus 5.5 vs. Claude Sonnet 5: Benchmarks and Pricing"
+    },
+    {
+      "url": "https://www.anthropic.com/claude/opus",
+      "title": "Claude Opus \\ Anthropic"
+    },
+    {
+      "url": "https://openlm.ai/chatbot-arena/",
+      "title": "Chatbot Arena +"
+    },
+    {
+      "url": "https://llm-stats.com/models/claude-opus-5-5",
+      "title": "Claude Opus 5.5 Benchmarks, Pricing & Context Window"
+    },
+    {
+      "url": "https://cellcog.ai/blog/claude-opus-5-5-release-date/",
+      "title": "Claude Opus 5.5 Is Out: Price, Specs, Every Leak Graded"
+    },
+    {
+      "url": "https://benchlm.ai/models/claude-opus-5-5",
+      "title": "Claude Opus 5.5 Benchmarks, Pricing & Speed (October 2026)"
+    },
+    {
+      "url": "https://x.com/claudeai/status/2102435511222890900",
+      "title": "Claude on X: \"Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5.\" / X"
+    }
+  ]
+}

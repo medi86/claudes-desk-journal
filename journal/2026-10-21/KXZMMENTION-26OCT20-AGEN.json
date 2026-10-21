@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "ticker": "KXZMMENTION-26OCT20-AGEN",
+  "event": "KXZMMENTION-26OCT20",
+  "series": "KXZMMENTION",
+  "title": "What will Eric Yuan say during Zoomtopia 2026 Keynote? Agentic",
+  "rules": "If \n Eric Yuan says Agentic as part of Zoomtopia 2026 Keynote\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Zoomtopia 2026 Keynote using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Zoomtopia 2026 Keynote will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nEric Yuan speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-03T15:00:00+00:00",
+  "expected_close_time": "2026-11-03T15:00:00+00:00",
+  "forecast_at": "2026-10-21T01:38:18.627889+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.84",
+    "reasoning": "The keynote took place October 20, 2026, and I couldn't find a transcript to check it. Zoom has framed its AI strategy as 'agentic AI' since 2025: AI Companion 3.0, ZoomMate as an 'agentic AI assistant,' and an 'Agentic Event Setup' product announced at this event. So Yuan very likely said the word at least once. The main risks are that the 2026 messaging moved toward 'context' and 'system of action,' and that other speakers may have covered the agent details.",
+    "falsifier": "A full transcript or video of the Zoomtopia 2026 keynote in which Eric Yuan's own remarks never include 'agentic', even if other speakers or slides use it.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0600",
+    "best_yes_ask": "0.2600",
+    "p_market": "0.1600"
+  },
+  "final": {
+    "p_yes": "0.25",
+    "action": "pass",
+    "reasoning": "The keynote already took place, so a 0.06\u20130.26 market likely reflects traders who watched it and didn't hear Yuan say 'agentic', which outweighs my indirect, transcript-free evidence. I'm lowering my estimate to about 0.25. That leaves little edge against a wide, illiquid spread, so I'm passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.callcentrehelper.com/zoomtopia-emea-2026-275797.htm",
+      "title": "Zoomtopia EMEA 2026 - Call Centre Helper"
+    },
+    {
+      "url": "https://gotranscript.com/public/zoomtopia-reveals-ai-companion-docs-and-cx-upgrades",
+      "title": "Zoomtopia reveals AI Companion, Docs, and CX upgrades"
+    },
+    {
+      "url": "https://zoomtopia.com/",
+      "title": "Don't miss Zoomtopia 2026"
+    },
+    {
+      "url": "https://electronlibre.info/articles/107654-zoomtopia-2026-eric-yuan-delivers-on-his-promise-to-work-less-thanks-to-ai/",
+      "title": "Zoomtopia 2026: Eric Yuan delivers on his promise to work less thanks to AI"
+    },
+    {
+      "url": "https://zoomtopia.com/?region=emea#home-register",
+      "title": "Zoomtopia is coming October 20th/October 21st"
+    },
+    {
+      "url": "https://www.webpronews.com/zoom-unified-context-layer-zoomtopia-2026",
+      "title": "Zoom Builds Its AI Strategy Around a New Unified Context Layer"
+    },
+    {
+      "url": "https://www.aaespeakers.com/keynote-speakers/eric-yuan",
+      "title": "Eric Yuan"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/zoom-video-communications_zoomtopia-activity-6843200689468919809-8V8U?trk=public_profile_like_view",
+      "title": "Zoom on LinkedIn: #zoomtopia"
+    },
+    {
+      "url": "https://www.linkedin.com/video/live/urn:li:ugcPost:6843204390871023616/",
+      "title": "Zoom on LinkedIn: #zoomtopia"
+    },
+    {
+      "url": "https://www.fastcompany.com/90961627/zoom-ai-companion-zoomtopia-eric-yuan",
+      "title": "Zoom CEO Eric Yuan on the company's AI Companion\u2014and keeping it simple"
+    },
+    {
+      "url": "https://www.uctoday.com/events/zoomtopia-2025/",
+      "title": "Zoomtopia 2025: For the People, Powered by AI Event - UC Today News"
+    },
+    {
+      "url": "https://uctoday.com/what-to-expect-from-zoomtopia-2025-ai-big-names-and-a-customer-first-focus",
+      "title": "Zoomtopia 2025"
+    },
+    {
+      "url": "https://news.zoom.com/zoomtopia2025/",
+      "title": "Zoom unveils AI Companion 3.0 at Zoomtopia 2025, enhancing agentic AI across the Zoom platform"
+    },
+    {
+      "url": "https://www.technewsworld.com/story/zoomtopia-2025-innovation-ai-and-the-future-of-work-179925.html",
+      "title": "Zoomtopia 2025: AI Innovation and Future of Hybrid Work"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/09/17/3151930/0/en/Zoom-unveils-AI-Companion-3-0-at-Zoomtopia-2025-enhancing-agentic-AI-across-the-Zoom-platform.html",
+      "title": "Zoom unveils AI Companion 3.0 at Zoomtopia 2025, enhancing agentic AI across the Zoom platform"
+    },
+    {
+      "url": "https://www.constellationr.com/insights/news/zoom-launches-ai-companion-30-bevy-cx-tools",
+      "title": "Zoom launches AI Companion 3.0, bevy of CX tools"
+    },
+    {
+      "url": "https://www.tahawultech.com/home-slide/our-agentic-ai-can-help-users-cut-through-the-noise-and-focus-on-what-matters-most-eric-s-yuan-zoom/",
+      "title": "\"Our Agentic AI can help users cut through the noise and focus on what matters most\" - Eric S. Yuan, Zoom"
+    },
+    {
+      "url": "https://siliconangle.com/2025/09/17/ai-bonanza-zoomtopia-2025/",
+      "title": "It's an AI bonanza at Zoomtopia 2025 - SiliconANGLE"
+    },
+    {
+      "url": "https://uctoday.com/events/zoomtopia-2026",
+      "title": "Zoomtopia 2026 \u2014 UC Today"
+    },
+    {
+      "url": "https://community.zoom.com/zoomtopia-25",
+      "title": "Zoomtopia Community"
+    },
+    {
+      "url": "https://www.beri.net/events/zoomtopia-2026",
+      "title": "Zoomtopia 2026: Dates, Speakers & Registration"
+    },
+    {
+      "url": "https://iteventsaustralia.com.au/event_details/761",
+      "title": "Zoomtopia 2026 - New York 2026 - IT Events Australia"
+    },
+    {
+      "url": "https://itevents.us/event_details/172",
+      "title": "Zoomtopia 2026 - New York 2026 - IT Events Americas"
+    },
+    {
+      "url": "https://community.zoom.com/zoomtopia-25/get-excited-for-zoomtopia-2026-october-20th-americas-october-21st-emea-october-22nd-apac-and-japan-80199?ampDeviceId=22fcaf77-1b89-47f6-8a58-ee2898ce58d4&ampSessionId=undefined",
+      "title": "Get excited for Zoomtopia 2026: October 20th (Americas)/October 21st (EMEA)/October 22nd (APAC and Japan)"
+    },
+    {
+      "url": "https://www.govevents.com/event/29617/zoomtopia-2026",
+      "title": "Zoomtopia 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ivzYc59WP-Q",
+      "title": "Save the Date: Zoomtopia 2026 - YouTube"
+    },
+    {
+      "url": "https://cxtoday.com/zoom-targets-cxs-broken-context-with-its-new-ai-layer",
+      "title": "Zoom Targets CX\u2019s Broken Context With Its New AI Layer \u2014 CX Today"
+    },
+    {
+      "url": "https://www.avinteractive.com/news/collaboration/zoom-ceo-eric-yuan-sees-three-day-working-week-by-2031-13-04-2026/",
+      "title": "Zoom CEO Eric Yuan sees three-day working week by 2031"
+    },
+    {
+      "url": "https://india.entrepreneur.com/business-news/zoom-launches-ai-context-layer-to-turn-meetings-into-work",
+      "title": "Zoom Launches AI Context Layer to Turn Meetings into Work"
+    },
+    {
+      "url": "https://investors.zoom.us/static-files/9e80191a-490e-47e9-bc81-6a4d40a469bc",
+      "title": "Zoom Q3 FY26 Earnings - Prepared Remarks Slide 1"
+    },
+    {
+      "url": "https://ev.zoom.com/webinars-events/ai-in-action-a-recap-of-educause-2026-and-zoomtopia/",
+      "title": "AI in Action: A Recap of EDUCAUSE 2026 and Zoomtopia"
+    },
+    {
+      "url": "https://wpreset.com/zoomtopia-highlights-product-announcements-keynotes-and-event-insights/",
+      "title": "Zoomtopia Highlights: Product Announcements, Keynotes, and Event Insights - WP Reset"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ivzYc59WP-Q",
+      "title": "Save the Date: Zoomtopia 2026 - YouTube"
+    },
+    {
+      "url": "http://www.dailydooh.com/archives/177381",
+      "title": "DailyDOOH \u00bb Blog Archive \u00bb Zoomtopia 2026, October 20"
+    },
+    {
+      "url": "https://www.philmckinney.com/eric-yuan-and-the-future-of-zoom/",
+      "title": "Eric Yuan and the Future of Zoom - Killer Innovations with Phil McKinney"
+    },
+    {
+      "url": "https://www.smartmeetings.com/magazine_article/future-zoom",
+      "title": "Future Zoom"
+    },
+    {
+      "url": "https://markvena.medium.com/zoomtopia-2025-innovation-ai-and-the-future-of-work-ad100ff56897",
+      "title": "Zoomtopia 2025: Innovation, AI, and the Future of Work"
+    },
+    {
+      "url": "https://x.com/ericsyuan/status/1577464456195342336",
+      "title": "Eric S. Yuan on X: \"Join us on November 8-9th for @Zoom\u2019s sixth-annual #Zoomtopia! Dive deep into Zoom\u2019s integrated platform, and discover how to elevate your communication and collaboration experiences! Register now at https://t.co/GwgIhZbhk8\" / X"
+    },
+    {
+      "url": "https://news.zoom.com/zoomtopia-2026-news/",
+      "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work"
+    },
+    {
+      "url": "https://za.investing.com/news/assorted/zoom-unveils-unified-context-layer-and-new-ai-tools-at-zoomtopia-432SI-4514711",
+      "title": "Zoom unveils Unified Context Layer and new AI tools at Zoomtopia By Investing.com"
+    },
+    {
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-10-20-zoom-advances-its-ai-strategy-with-a-new-unified-context-layer-that-helps-turn-meeting-conversations-into-completed-work",
+      "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work"
+    },
+    {
+      "url": "https://lifestyle.middletownlifemagazine.com/story/771214/zoom-advances-its-ai-strategy-with-a-new-unified-context-layer-that-helps-turn-meeting-conversations-into-completed-work/",
+      "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work"
+    },
+    {
+      "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/globenewswire/zoom-advances-its-ai-strategy-with-a-new-unified-context-layer-that-helps-turn-meeting-conversations-into-completed-work/2450149",
+      "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work"
+    }
+  ]
+}
