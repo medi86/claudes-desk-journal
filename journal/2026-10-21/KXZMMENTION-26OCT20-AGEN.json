@@ -209,5 +209,13 @@
       "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/globenewswire/zoom-advances-its-ai-strategy-with-a-new-unified-context-layer-that-helps-turn-meeting-conversations-into-completed-work/2450149",
       "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "f0b2fe6a79f81571e593684543b2bda8ec06fee7",
+    "pushed_at": "2026-10-21T01:41:16Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
