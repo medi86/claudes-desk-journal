@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "ticker": "KXNETFLIXTOPVIEWSMOVIE-26OCT26-12",
+  "event": "KXNETFLIXTOPVIEWSMOVIE-26OCT26",
+  "series": "KXNETFLIXTOPVIEWSMOVIE",
+  "title": "Will the #1 Movie on Netflix have at least 12 million views?",
+  "rules": "If the #1 Movie on Netflix has at least 12 million views on the chart published on Oct 27, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market specifically encompasses the number of \u201cViews\u201d (not hours viewed) of\nthe top Movie ranked on Netflix\u2019s weekly charts for Global \"Movies  | English\"  chart.\n\nThe Netflix charts are updated on Tuesday. Therefore, the market will close at 11:59 PM ET the day before. The chart published on Oct 27, 2026 will be for the week ending the previous Sunday.\n\nThis market and these products have not been endorsed by Netflix. Any references to Netflix, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Netflix and Kalshi.",
+  "close_time": "2026-10-27T03:59:00+00:00",
+  "expected_close_time": "2026-10-27T03:59:00+00:00",
+  "forecast_at": "2026-10-21T09:46:17.026908+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.74",
+    "reasoning": "FlixPatrol shows Ben Affleck's Animals still dominating Netflix's global movie rankings on Oct 19 (859 points vs 298 for #2), which usually means a weekly total well above 12M even in a third chart week. Tyler Perry's Doing Life is a second possible top film, and the new Oct 21\u201323 releases look modest. Historically most weeks' #1 English film clears 12M, but weak weeks fall to 8\u201311M, and Animals will be losing viewers.",
+    "falsifier": "Netflix's Oct 27 chart shows the #1 English film (likely Animals or Doing Life) under 12.0M views because Animals dropped sharply in week three and no new release took off.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8400",
+    "best_yes_ask": "0.8500",
+    "p_market": "0.8450"
+  },
+  "final": {
+    "p_yes": "0.8",
+    "action": "pass",
+    "reasoning": "The market at 0.845 is above my 0.74, and traders may know Animals' actual week-two views, which I couldn't find. I'm moving toward their price, and the remaining gap is too small and uncertain to bet NO."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.netflix.com/tudum/articles/new-on-netflix",
+      "title": "New on Netflix in October 2026 - Netflix Tudum"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-october-2026/",
+      "title": "Full List of What's Coming to Netflix in October 2026"
+    },
+    {
+      "url": "https://www.howtogeek.com/new-netflix-movies-to-watch-in-october-2026/",
+      "title": "5 new Netflix movies to watch in October"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/what-to-watch/best-new-movies-added-to-netflix-in-october-2026/",
+      "title": "Best New Movies Added to Netflix in October 2026"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/what-to-watch-on-netflix-october-16-2026",
+      "title": "What to Watch on Netflix: October 16, 2026"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/netflix-october-2026-new-releases-movies-tv-1236718064/",
+      "title": "Netflix\u2019s New Releases Coming in October 2026"
+    },
+    {
+      "url": "https://www.tomsguide.com/entertainment/netflix/new-on-netflix-october-2026-5-best-movies-and-shows-to-stream-plus-full-release-list",
+      "title": "New on Netflix in October 2026: 5 best movies and shows to stream, plus full release list"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-10-2026/",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 10, 2026"
+    },
+    {
+      "url": "https://www.tvguide.com/news/new-on-netflix/",
+      "title": "New Netflix Shows and Movies in October 2026 - TV Guide"
+    },
+    {
+      "url": "https://www.indiewire.com/lists/best-new-movies-streaming-netflix-october-2026/",
+      "title": "The 7 Best New Movies Streaming on Netflix in October 2026"
+    },
+    {
+      "url": "https://www.forbes.com/sites/erikkain/2026/09/29/everything-coming-to-netflix-october-2026/",
+      "title": "Everything Coming To Netflix In October 2026, And What To Watch"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/netflix/",
+      "title": "TOP 10 on Netflix in the World on October 19, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://seat42f.com/netflix-top-10-movies-shows-october-18-2026/",
+      "title": "Netflix Top 10 This Week: Animals and Below Debut at No. 1"
+    },
+    {
+      "url": "https://www.documentarytube.com/blog/top-10-trending-movies-right-now-netflixs-global-chart-for-september-28-october-4-2026/",
+      "title": "Top 10 Trending Movies Right Now: Netflix Chart (Oct. 2026)"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-new-netflix-movies-2026/",
+      "title": "Most Watched New Netflix Movies of 2026 So Far"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-17-2026/",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 17, 2026"
+    },
+    {
+      "url": "https://www.moviefone.com/news/netflix-top-10-movies-for-the-week-of-october-5-2026/",
+      "title": "Netflix Top 10 Movies for the Week of October 5, 2026"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10",
+      "title": "Top 10 Movies on Netflix Right Now - Netflix Tudum"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts/",
+      "title": "Netflix Top 10s: Josh Hartnett's 'Below' and Ben Affleck's 'Animals' Top The Charts"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/streaming/united-states/",
+      "title": "TOP 10 on Streaming in the United States on October 20, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "http://thefutoncritic.com/ratings/2026/10/20/netflix-top-10-week-of-october-12-get-the-ransom-ready-animals-takes-the-no-1-spot-for-a-second-week-461015/20261020netflix05/",
+      "title": "Ratings - Netflix Top 10: Week of October 12 - Get the Ransom Ready: \"Animals\" Takes the No. 1 Spot for a Second Week"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-fall-2026-movies-preview/",
+      "title": "Netflix Fall 2026 Movie Lineup: Complete List of Release Dates So Far"
+    },
+    {
+      "url": "https://www.buzzfeed.com/alanna_marshall/best-new-netflix-movies-october-2026",
+      "title": "Netflix Is Dropping 48 Must-Watch Films This October, And The Lineup Is Incredible"
+    },
+    {
+      "url": "https://www.tvline.com/2236241/netflix-fall-2026-schedule-movies-tv-shows/",
+      "title": "Netflix Fall 2026 Schedule: All The New Movies And TV Shows Coming Soon - TVLine"
+    },
+    {
+      "url": "https://www.tvguide.com/galleries/new-movies-to-stream-in-october-2026/",
+      "title": "The Best Movies to Stream at Home in October - TV Guide"
+    },
+    {
+      "url": "https://movieweb.com/netflix-new-arrivals-october-2026/",
+      "title": "What's Coming to Netflix in October 2026? Everything Arriving Next Month"
+    },
+    {
+      "url": "https://www.thewrap.com/creative-content/what-to-watch/new-on-netflix-october-2026/",
+      "title": "Here\u2019s Everything New on Netflix in October 2026"
+    },
+    {
+      "url": "https://www.timeout.com/news/best-new-movies-shows-on-netflix-october-2026-100326",
+      "title": "What\u2019s new on Netflix in October 2026: best movies and shows to watch"
+    },
+    {
+      "url": "https://netflixlife.com/full-list-new-netflix-shows-movies-coming-october-2026",
+      "title": "Full list of new Netflix shows and movies coming in October 2026"
+    },
+    {
+      "url": "https://deadline.com/2026/10/animals-review-ben-affleck-kerry-washington-netflix-1237149370/",
+      "title": "'Animals' Review: Ben Affleck Netflix Thriller With Kerry Washington"
+    },
+    {
+      "url": "https://collider.com/animals-ben-affleck-netflix-number-one-23-million-views/",
+      "title": "Ben Affleck\u2019s New Thriller Officially Becomes Netflix\u2019s No. 1 Movie"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-reviews/animals-review-ben-affleck-kerry-washington-netflix-1236725125/",
+      "title": "'Animals' Review: Ben Affleck and Kerry Washington in Netflix Thriller"
+    },
+    {
+      "url": "https://collider.com/netflix-action-movie-animals-ben-affleck-release-date-october-2026/",
+      "title": "Ben Affleck\u2019s New Netflix Thriller Officially Arrives October 9"
+    },
+    {
+      "url": "https://www.forbes.com/sites/erikkain/2026/10/08/animals-netflix-ben-affleck-rotten-tomatoes-cast-review/",
+      "title": "Is \u2018Animals\u2019 Worth Watching? Ben Affleck\u2019s Netflix Thriller Bombs On RT"
+    },
+    {
+      "url": "https://movieweb.com/animals-ben-affleck-thriller-stream-netflix-october-2026/",
+      "title": "Forget 'The Rip,' Ben Affleck's New 108-Minute Crime Thriller Remains Netflix's No. 1 Movie in the World"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/news/ben-affleck-animals-netflix-release-date-trailer/",
+      "title": "Ben Affleck's R-Rated Netflix Thriller 'Animals': Trailer, First Look & October 2026 Release Date"
+    },
+    {
+      "url": "https://www.cbr.com/ben-affleck-netflix-thriller-animals-release-date-first-look/",
+      "title": "Ben Affleck's New Netflix Thriller Confirms Release Date After The Rip Success"
+    },
+    {
+      "url": "https://fandomwire.com/ben-afflecks-animals-has-officially-become-the-no-1-movie-on-netflix-globally/",
+      "title": "Ben Affleck\u2019s Animals Has Officially Become the No. 1 Movie on Netflix Globally"
+    },
+    {
+      "url": "https://www.channelcanada.com/streaming-tv/netflix/netflix-top-10-week-of-october-12-get-the-ransom-ready-animals-takes-the-no-1-spot-for-a-second-week/",
+      "title": "Netflix Top 10: Week of October 12 - Get the Ransom Ready: \"Animals\" Takes the No. 1 Spot for a Second Week - Channel Canada"
+    },
+    {
+      "url": "https://www.hollywoodoutbreak.com/2026/10/20/ben-affleck-and-josh-hartnett-lead-new-netflix-top-10/",
+      "title": "Ben Affleck and Josh Hartnett Lead New Netflix Top 10 - Hollywood Outbreak"
+    },
+    {
+      "url": "https://screenrant.com/netflix-animals-movie-the-rip-success-matt-damon/",
+      "title": "Netflix's New Most-Watched Thriller Confirms The Key To Matt Damon's Hit Movie With Over 136 Million Views"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SC9TJ5RB9Zw",
+      "title": "Animals (2026): #1 on Netflix, 32% on Rotten Tomatoes. Who's Wrong? - YouTube"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "ticker": "KXSERBIAELECTIONCALL-26NOV01-26NOV01",
+  "event": "KXSERBIAELECTIONCALL-26NOV01",
+  "series": "KXSERBIAELECTIONCALL",
+  "title": "Will Serbia call its presidential election before Nov 1, 2026?",
+  "rules": "If Serbia agrees to or announces a formal decision by the Speaker of the National Assembly calling the election for President of Serbia before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "An agreement or announcement qualifies if it involves any of the following:\n\nFormal signing of treaties\nParliamentary approval with binding effect\nOfficial ratification\nFormal commitment by the head of state/government with constitutional authority\nOfficial statements by authorized ministers\nOfficial press releases\nFormal declarations during government proceedings\nOfficial statements to international bodies\n\nPhased implementation announcements and multi-party agreements where the country is a signatory also qualify.\n\nThe following do NOT qualify:\n\nPreliminary discussions\nConditional agreements contingent on circumstances\nOpposition party statements\nLeaked documents\nThink-tank recommendations\nGeneral aspirations without specific commitment\nDraft legislation without approval\nRegional actions (unless specified)\nRetraction of previously announced commitments\n\nThe decision calling the election for President of Serbia must be issued by the Speaker of the National Assembly, including a Speaker serving as acting President, and must set the voting date. Statements of intent, planned or expected dates, and statements by parties, the Government or other officials do not qualify unless they officially record that the decision has been issued. The decision counts if it is signed or officially announced after Issuance and before the market's date.",
+  "close_time": "2026-11-01T03:59:00+00:00",
+  "expected_close_time": "2026-11-01T03:59:00+00:00",
+  "forecast_at": "2026-10-21T09:46:17.026908+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.18",
+    "reasoning": "Vu\u010di\u0107 resigned on Sept 27, 2026, so the presidential vote must happen by about Dec 26\u201327, and Speaker/acting president Brnabi\u0107 will issue the decision. Serbian authorities usually call elections only about 45\u201346 days before voting, and officials have pointed to a late-December vote after the Oct 25 parliamentary election. That puts the likely call date in early-to-mid November, after the deadline. A call before Nov 1 would need a vote around Dec 13 or earlier, or an unusually long gap.",
+    "falsifier": "Brnabi\u0107 signs and publishes the decision calling the presidential election, with a voting date, between now and Oct 31, 2026 (e.g., right after the Oct 25 parliamentary vote, for a mid-December election).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2200",
+    "best_yes_ask": "0.2900",
+    "p_market": "0.2550"
+  },
+  "final": {
+    "p_yes": "0.2",
+    "action": "pass",
+    "reasoning": "The market's 25.5% midpoint is somewhat above my roughly 20% estimate, and the usual 45\u201346 day calling gap for a late-December vote points to a November call. But NO would cost 0.78 against my roughly 0.80\u20130.82 fair value, and I couldn't confirm the latest news. That edge is too thin to bet on."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election",
+      "title": "2026 Serbian presidential election"
+    },
+    {
+      "url": "https://www.freiheit.org/western-balkans/serbia-eve-generational-decision",
+      "title": "SERBIA: Serbia Elections 2026: Vu\u010di\u0107 Resigns in Bid to Retain Power"
+    },
+    {
+      "url": "https://electionindex.org/election/serbia-presidential-2026",
+      "title": "Serbia presidential election 2026: when the result is final \u00b7 Global Election Index"
+    },
+    {
+      "url": "https://balkaninsight.com/2026/01/06/serbia-in-2026-embattled-president-mulls-high-stakes-elections/bi/",
+      "title": "Serbia in 2026: Embattled President Mulls High-Stakes Elections"
+    },
+    {
+      "url": "https://fsi.stanford.edu/events/captured-field-open-contest-serbias-upcoming-elections",
+      "title": "A Captured Field, an Open Contest: Serbia\u2019s Upcoming Elections"
+    },
+    {
+      "url": "https://europeanwesternbalkans.com/2026/09/28/ana-brnabic-becomes-acting-president-of-serbia/",
+      "title": "Ana Brnabi\u0107 becomes Acting President of Serbia - European Western Balkans"
+    },
+    {
+      "url": "https://theconversation.com/serbias-president-has-resigned-but-intends-to-remain-in-control-293032",
+      "title": "Serbia\u2019s president has resigned"
+    },
+    {
+      "url": "https://odihr.osce.org/sites/default/files/documents/official_documents/2026/07/SRB%202026%20forthcoming%20elections%20NAM%20report_30.07.2026.pdf",
+      "title": "Office for Democratic Institutions and Human Rights REPUBLIC OF SERBIA"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/interpreting-elections-serbia",
+      "title": "Interpreting the elections in Serbia"
+    },
+    {
+      "url": "https://tvpworld.com/95617068/serbias-president-vuic-resigns-paving-way-for-early-elections",
+      "title": "Serbia's President Vu\u010di\u0107 resigns, paving way for early elections"
+    },
+    {
+      "url": "https://informat.ro/en/international/aleksandar-vucic-resigns-as-president-of-serbia-140792",
+      "title": "Aleksandar Vu\u010di\u0107 has resigned as president of Serbia / The country will hold an early presidential election"
+    },
+    {
+      "url": "https://www.kiprinform.com/en/news/serbias-president-vucic-resigns-ahead-of-early-elections/",
+      "title": "Serbia\u2019s President Vucic resigns ahead of early elections"
+    },
+    {
+      "url": "https://www.globalbankingandfinance.com/serbias-president-vucic-resigns-paving-way-early-elections/",
+      "title": "Serbia's President Vucic Resigns, Clearing Path for Early Elections"
+    },
+    {
+      "url": "https://www.rapporteur.com/news/vucic-resigns-as-serbia-prepares-for-both-parliamentary-and-presidential-elections/",
+      "title": "Vu\u010di\u0107 resigns as Serbia prepares for both parliamentary and presidential elections"
+    },
+    {
+      "url": "https://mezha.net/eng/news/mezha-ad2186065c667c1fa33c5d21_serbia-s_student_movement",
+      "title": "Serbia\u2019s student movement takes its two-year protest campaign to the ballot box"
+    },
+    {
+      "url": "https://www.usnews.com/news/world/articles/2026-09-27/serbias-president-vucic-resigns-paving-way-for-early-elections",
+      "title": "Serbia's President Vucic Resigns Ahead of October Parliamentary Elections"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+      "title": "2026 Serbian parliamentary election"
+    },
+    {
+      "url": "https://odihr.osce.org/node/666908",
+      "title": "Serbia, Early Parliamentary Elections, 25 October 2026"
+    },
+    {
+      "url": "https://odihr.osce.org/odihr/elections/serbia",
+      "title": "Elections in Serbia"
+    },
+    {
+      "url": "https://www.ifimes.org/en/researches/serbia-2026-early-parliamentary-elections-a-test-of-political-legitimacy-and-serbias-future-direction/6012",
+      "title": "Serbia 2026: Early parliamentary elections"
+    },
+    {
+      "url": "https://www.eurasiareview.com/26092026-serbia-early-parliamentary-elections-a-test-of-political-legitimacy-and-future-direction-analysis/",
+      "title": "Serbia: Early Parliamentary Elections, A Test Of Political Legitimacy And Future Direction - Analysis - Eurasia Review"
+    },
+    {
+      "url": "https://balkaninsight.com/2026/09/09/serbias-vucic-calls-early-parliamentary-elections-for-october-25/bi/",
+      "title": "Serbia's Vucic Calls Early Parliamentary Elections for October 25"
+    },
+    {
+      "url": "https://www.modernghana.com/news/1530698/serbia-2026-early-parliamentary-elections-a.html",
+      "title": "Serbia 2026: Early parliamentary elections"
+    },
+    {
+      "url": "https://mezha.net/eng/news/9cc91e14_vucic_sets_serbia-s_early/",
+      "title": "Vucic Sets Serbia\u2019s Early Parliamentary Elections for October as His Path to Power Remains Unclear"
+    },
+    {
+      "url": "https://seenews.com/news/serbia-may-hold-early-presidential-general-elections-in-dec-2026-vucic-1282736",
+      "title": "Serbia may hold early presidential, general elections in Dec 2026 - Vucic"
+    },
+    {
+      "url": "https://www.electionguide.org/elections/id/5252/",
+      "title": "IFES Election Guide"
+    },
+    {
+      "url": "https://sr.wikipedia.org/sr-el/%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%BD%D0%B8%D1%87%D0%BA%D0%B8_%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%D0%B8_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8_2026.",
+      "title": "Predsedni\u010dki izbori u Srbiji 2026. \u2014 \u0412\u0438\u043a\u0438\u043f\u0435\u0434\u0438\u0458\u0430"
+    },
+    {
+      "url": "https://www.rtv.rs/sr_lat/politika/%C2%A0vucic-predsednicki-i-parlamentarni-izbori-krajem-2026-necu-se-ponovo-kandidovati_1661887.html",
+      "title": "Vu\u010di\u0107: Predsedni\u010dki i parlamentarni izbori krajem 2026, ne\u0107u se ponovo kandidovati - JMU Radio-televizija Vojvodine"
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%BD%D0%B8%D1%87%D0%BA%D0%B8_%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%D0%B8_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8_2027.",
+      "title": "\u041f\u0440\u0435\u0434\u0441\u0435\u0434\u043d\u0438\u0447\u043a\u0438 \u0438\u0437\u0431\u043e\u0440\u0438 \u0443 \u0421\u0440\u0431\u0438\u0458\u0438 2026. \u2014 \u0412\u0438\u043a\u0438\u043f\u0435\u0434\u0438\u0458\u0430"
+    },
+    {
+      "url": "https://n1info.rs/vesti/aleksandar-vucic-predsednicki-izbori-decembar-februar-2027/",
+      "title": "Vu\u010di\u0107: Predsedni\u010dki izbori najkasnije u februaru - Vesti iz Srbije, regiona i sveta - N1 info"
+    },
+    {
+      "url": "https://www.021.rs/bbc/bbc/456412/vucic-podneo-ostavku-pred-srbijom-izbor-novog-predsednika",
+      "title": "Vu\u010di\u0107 podneo ostavku, pred Srbijom izbor novog predsednika"
+    },
+    {
+      "url": "https://www.republika.rs/vesti/politika/778943/aleksandar-vucic-izbori-2026",
+      "title": "7 razloga zbog kojih Aleksandar Vu\u010di\u0107 ne gubi izbore"
+    },
+    {
+      "url": "https://republika.rs/vesti/politika/778822/aleksandar-vucic-kampanja-izbori-2026",
+      "title": "\"Ko bude tra\u017eio partijsku knji\u017eicu za posao, odgovara\u0107e\": Vu\u010di\u0107 dao obe\u0107anje mladima i najavio ulaganje od 1,3 milijarde evra!"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=a0gRNARl4mo&xstg=CAMSBhUD-7L2Hw%3D%3D",
+      "title": "Vu\u010di\u0107:Predsedni\u010dki i parlamentarni izbori krajem 2026, ne\u0107u se ponovo kandidovati - YouTube"
+    },
+    {
+      "url": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt",
+      "title": "Serbia\u2019s snap election: Can Vucic outmanoeuvre the student revolt?"
+    },
+    {
+      "url": "https://www.azernews.az/region/263592.html",
+      "title": "Vu\u010di\u0107 announces early parliamentary elections in Serbia for October 25"
+    },
+    {
+      "url": "https://armenpress.am/en/article/1263355",
+      "title": "Serbia will not face French-style unrest after elections, says Vu\u010di\u0107 - ARMENPRESS Armenian News Agency"
+    },
+    {
+      "url": "https://www.rferl.org/a/serbia-vucic-resign-early-elections-protests/33790216.html",
+      "title": "Serbian President Vucic Vows To Resign, Announces Early Elections"
+    },
+    {
+      "url": "https://www.tanjug.rs/srbija/politika/286822/brnabic-raspisacu-predsednicke-izbore-u-roku-predvidenom-ustavom/vest",
+      "title": "Brnabi\u0107: Raspisa\u0107u predsedni\u010dke izbore u roku predvi\u0111enom Ustavom"
+    },
+    {
+      "url": "https://24sedam.rs/politika/vesti/482252/brnabic-o-predsednickim-izborima/vest",
+      "title": "Brnabi\u0107: Raspisa\u0107u predsedni\u010dke izbore u roku predvi\u0111enom Ustavom"
+    },
+    {
+      "url": "https://insajder.net/prenosimo/brnabic-na-pitanja-insajdera-predsednicke-izbore-raspisacu-kada-dode-vreme-o-imenima-pomilovanih-ne-mogu-da-pricam-kao-kandidat-na-listi",
+      "title": "Brnabi\u0107 na pitanja Insajdera: Predsedni\u010dke izbore raspisa\u0107u kada do\u0111e vreme, o imenima pomilovanih ne mogu da pri\u010dam kao kandidat na listi"
+    },
+    {
+      "url": "https://balkantv.rs/brnabic-raspisacu-predsednicke-izbore-u-roku-predvidjenom-ustavom/",
+      "title": "Brnabi\u0107: Raspisa\u0107u predsedni\u010dke izbore u roku predvi\u0111enom Ustavom"
+    },
+    {
+      "url": "https://www.rtv.rs/sr_ci/politika/brnabic-raspisacu-predsednicke-izbore-u-roku-predvidjenom-ustavom_1748965.html",
+      "title": "\u0411\u0440\u043d\u0430\u0431\u0438\u045b: \u0420\u0430\u0441\u043f\u0438\u0441\u0430\u045b\u0443 \u043f\u0440\u0435\u0434\u0441\u0435\u0434\u043d\u0438\u0447\u043a\u0435 \u0438\u0437\u0431\u043e\u0440\u0435 \u0443 \u0440\u043e\u043a\u0443 \u043f\u0440\u0435\u0434\u0432\u0438\u0452\u0435\u043d\u043e\u043c \u0423\u0441\u0442\u0430\u0432\u043e\u043c - \u0408\u041c\u0423 \u0420\u0430\u0434\u0438\u043e-\u0442\u0435\u043b\u0435\u0432\u0438\u0437\u0438\u0458\u0430 \u0412\u043e\u0458\u0432\u043e\u0434\u0438\u043d\u0435"
+    },
+    {
+      "url": "https://nistv.rs/brnabic-poslala-jasnu-poruku-predsednicki-izbori-bice-raspisani-u-ustavnom-roku/",
+      "title": "Brnabi\u0107 poslala jasnu poruku: Predsedni\u010dki izbori bi\u0107e raspisani u ustavnom roku"
+    },
+    {
+      "url": "https://una.rs/vesti/politika/brnabic-o-predsednickim-izborima-raspisacu-ih-kada-dode-vreme-u-skladu-sa-ustavom",
+      "title": "Brnabi\u0107 o predsedni\u010dkim izborima: \"Raspisa\u0107u ih kada do\u0111e vreme, u skladu sa Ustavom\""
+    },
+    {
+      "url": "https://naslovi.net/2026-10-05/nova/brnabic-predsednicke-izbore-cu-raspisati-kada-za-to-dodje-vreme-videcete-sta-cemo-uraditi-sa-sapicem/42450593",
+      "title": "Brnabi\u0107: Predsedni\u010dke izbore \u0107u raspisati \"kada za to do\u0111e vreme\", vide\u0107ete \u0161ta \u0107emo uraditi sa \u0160api\u0107em - Naslovi.net"
+    },
+    {
+      "url": "https://www.srpskadijaspora.info/brnabic-predsednicki-izbori-bice-u-skladu-sa-ustavom-o-sapicu-ce-odluciti-sns-u-buducnosti/",
+      "title": "Brnabi\u0107: Predsedni\u010dki izbori bi\u0107e u skladu sa Ustavom, o \u0160api\u0107u \u0107e odlu\u010diti SNS u budu\u0107nosti"
+    },
+    {
+      "url": "https://naslovi.net/2026-10-05/newsmax-balkans/brnabic-raspisacu-predsednicke-izbore-u-roku-postujem-ustav-srbije/42450618",
+      "title": "Brnabi\u0107: Raspisa\u0107u predsedni\u010dke izbore u roku, po\u0161tujem Ustav Srbije - Naslovi.net"
+    },
+    {
+      "url": "https://n1info.rs/vesti/brnabic-mora-danas-da-raspise-predsednicke-izbore-marinkovic-ukazuje-koji-su-datumi-u-opticaju-ako-se-postuje-ustav",
+      "title": "\"Brnabi\u0107 mora danas da raspi\u0161e predsedni\u010dke izbore\": Marinkovi\u0107 ukazuje koji su datumi u opticaju, ako se po\u0161tuje Ustav - Vesti iz Srbije, regiona i sveta - N1 info"
+    },
+    {
+      "url": "https://vranjskaplustv.rs/2026/10/05/brnabic-raspisacu-predsednicke-izbore-kada-dodje-vreme-u-skladu-sa-ustavom-republike-srbije/",
+      "title": "\u0411\u0440\u043d\u0430\u0431\u0438\u045b: \u0420\u0430\u0441\u043f\u0438\u0441\u0430\u045b\u0443 \u043f\u0440\u0435\u0434\u0441\u0435\u0434\u043d\u0438\u0447\u043a\u0435 \u0438\u0437\u0431\u043e\u0440\u0435 \u043a\u0430\u0434\u0430 \u0434\u043e\u0452\u0435 \u0432\u0440\u0435\u043c\u0435, \u0443 \u0441\u043a\u043b\u0430\u0434\u0443 \u0441\u0430 \u0423\u0441\u0442\u0430\u0432\u043e\u043c \u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u0421\u0440\u0431\u0438\u0458\u0435"
+    },
+    {
+      "url": "https://www.rtvbn.com/4097426/raspisacu-izbore-za-predsjednika-u-predvidjenom-roku",
+      "title": "Raspisa\u0107u izbore za predsjednika u predvi\u0111enom roku"
+    },
+    {
+      "url": "https://www.press.rs/vesti/politika/narodna-skupstina-raspisuje-predsednicke-izbore-nakon-ostavke-predsednika-republike",
+      "title": "Narodna skup\u0161tina raspisuje predsedni\u010dke izbore nakon ostavke predsednika Republike"
+    },
+    {
+      "url": "https://nova.rs/vesti/politika/ceka-nas-vrlo-burnih-10-dana-raspisivanje-izbora-raspustanje-skupstine-ostavka-predsednika-imenovanje-ane-brnabic-i-jos-nekoliko-vaznih-rokova/",
+      "title": "\u010ceka nas vrlo burnih 10 dana - nova.rs"
+    },
+    {
+      "url": "https://www.nedeljnik.rs/sta-tacno-sledi-nakon-ostavke-aleksandra-vucica-ko-preuzima-duznost-i-kada-se-raspisuju-izbori-za-predsednika-srbije/",
+      "title": "Aleksandar Vu\u010di\u0107 predao du\u017enost Ani Brnabi\u0107: Kada se raspisuju izbori za predsednika Srbije? - Nedeljnik"
+    },
+    {
+      "url": "https://insajder.net/teme/sta-sledi-nakon-vuciceve-ostavke-ko-preuzima-funkciju-predsednika-srbije-i-kada-ce-biti-izbori",
+      "title": "\u0160ta sledi nakon Vu\u010di\u0107eve ostavke: Ko preuzima funkciju predsednika Srbije i kada \u0107e biti izbori?"
+    }
+  ]
+}

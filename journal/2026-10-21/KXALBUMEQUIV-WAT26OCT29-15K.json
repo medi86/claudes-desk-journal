@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-WAT26OCT29-15K",
+  "event": "KXALBUMEQUIV-WAT26OCT29",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Watch Dis by Yung Miami have above 15000 Album Equivalent Units during the October 23, 2026 - October 29, 2026 tracking week? Above 15K",
+  "rules": "If Watch Dis by Yung Miami has above 15K Album Equivalent Units during the October 23, 2026 - October 29, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 23, 2026 - October 29, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-11-01T14:00:00+00:00",
+  "expected_close_time": "2026-11-01T14:00:00+00:00",
+  "forecast_at": "2026-10-21T09:46:17.026908+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.67",
+    "reasoning": "Watch Dis is Yung Miami's debut solo album, due Oct 23, 2026, so the Oct 23-29 window is its opening week. She is coming off her first solo top-20 Hot 100 hit ('Spend Dat', No. 17) and released two more singles with the announcement. Debut albums from comparable female rappers have recently opened above 15K, by my unchecked memory. Still, City Girls' album numbers have been modest, a delay would mean zero units, and I couldn't find any projections, so a fair amount of uncertainty remains.",
+    "falsifier": "The album slips past Oct 23, or first-week reporting (e.g., HitsDailyDouble/Billboard) shows Watch Dis debuting with under 15K units, such as a Billboard 200 debut outside the top 40.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3000",
+    "best_yes_ask": "0.3800",
+    "p_market": "0.3400"
+  },
+  "final": {
+    "p_yes": "0.42",
+    "action": "pass",
+    "reasoning": "The market at 0.34, set near the end of the tracking week, likely reflects early sales projections I couldn't find, so I'm cutting my unchecked 0.67 estimate a lot. At 0.42 the edge over the 0.38 ask is too small to bet on given I'm the less-informed side."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.udiscovermusic.com/news/yung-miami-debut-album-watch-dis/",
+      "title": "Yung Miami Announces Debut Album 'Watch Dis'"
+    },
+    {
+      "url": "https://www.mybasin.com/2026/10/15/yung-miami-to-release-debut-solo-album-watch-dis/",
+      "title": "Yung Miami to release debut solo album 'Watch Dis'"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/20/yung-miami-watch-dis-album-october-23-features/",
+      "title": "Yung Miami\u2019s \"WATCH DIS\" Arrives October 23 With Travis Scott, Summer Walker and More"
+    },
+    {
+      "url": "https://foxy99.com/2026/10/19/yung-miami-to-release-debut-solo-album-watch-dis-on-oct-23/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis' on Oct. 23 - foxy99.com"
+    },
+    {
+      "url": "https://foxy99.com/2026/10/02/yung-miami-announces-debut-solo-album-watch-dis-after-spend-dat-success/",
+      "title": "Yung Miami Announces Debut Solo Album 'Watch Dis' After 'Spend Dat' Success - foxy99.com"
+    },
+    {
+      "url": "https://1077thebounce.com/2026/10/19/yung-miami-to-release-debut-solo-album-watch-dis-on-oct-23/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis' on Oct. 23 - 107.7 The Bounce"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/yung-miami-announces-debut-solo-175943410.html",
+      "title": "Yung Miami Announces Debut Solo Album Watch Dis"
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/10/02/ung-miamis-summer-was-just-the-beginning-now-she-tells-the-world-watch-this-debut-solo-album-watch-disout-october-23/",
+      "title": "YUNG MIAMI\u2019S SUMMER WAS JUST THE BEGINNING NOW SHE TELLS THE WORLD, WATCH THIS DEBUT SOLO ALBUM WATCH DISOUT OCTOBER 23 - Universal Music Canada"
+    },
+    {
+      "url": "https://hip-hopvibe.com/news/yung-miami-announces-debut-album-watch-dis/",
+      "title": "Yung Miami Announces Her Debut Album \u201cWatch Dis\u201d"
+    },
+    {
+      "url": "https://rollingout.com/2026/10/04/yung-miami-album-watch-dis/",
+      "title": "Yung Miami launches solo album era with 'Watch Dis'"
+    },
+    {
+      "url": "https://hot969boston.com/2026/10/19/yung-miami-to-release-debut-solo-album-watch-dis-on-oct-23/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis' on Oct. 23 - HOT 96.9 Boston"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/112999/20261021/chart-watch-billboard-200-this-week.htm",
+      "title": "Billboard 200 Chart Watch: Taylor Swift Hits 101 Weeks at No. 1, Greta Van Fleet Debuts, Republic Dominates Top 10"
+    },
+    {
+      "url": "https://www.audacy.com/1065thebeat/video/yung-miami-dishes-on-watch-dis-xbnwr8y",
+      "title": "Yung Miami Dishes on 'Watch Dis'"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/yung-miami-unveils-watch-dis-album-tracklist-featuring-summer-walker-trina-travis-scott-more",
+      "title": "Yung Miami Unveils 'Watch Dis' Album Tracklist Featuring Summer Walker, Trina, Travis Scott, & More - That Grape Juice"
+    },
+    {
+      "url": "https://femmusic.com/2026/10/03/yung-miami-watch-dis/",
+      "title": "Yung Miami"
+    },
+    {
+      "url": "https://www.thatericalper.com/2026/10/02/yung-miami-turns-a-breakout-summer-into-debut-solo-album-watch-dis/",
+      "title": "Yung Miami Turns A Breakout Summer Into Debut Solo Album 'Watch Dis' - That Eric Alper"
+    },
+    {
+      "url": "https://grungecake.com/yung-miami-f-you/news/139461/",
+      "title": "Witness Yung Miami\u2019s gorgeous solo rise in \u2018F You\u2019"
+    },
+    {
+      "url": "https://hip-hopvibe.com/news/yung-miami-reveals-watch-dis-tracklist-summer-walker-bryson-tiller-travis-scott-and-more-featured/",
+      "title": "Yung Miami Reveals \"Watch Dis\" Tracklist"
+    },
+    {
+      "url": "https://www.alice965.com/2026/10/15/yung-miami-to-release-debut-solo-album-watch-dis/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis'"
+    },
+    {
+      "url": "https://www.complex.com/music/a/markelibert/yung-miami-watch-dis-debut-solo-album-announcement",
+      "title": "Yung Miami Wants to 'Prove Everybody Wrong' as She Announces Debut Solo Album"
+    },
+    {
+      "url": "https://1051thebounce.com/2026/10/19/yung-miami-to-release-debut-solo-album-watch-dis-on-oct-23/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis' on Oct. 23 - 105.1 The Bounce"
+    },
+    {
+      "url": "https://balleralert.com/yung-miami-watch-dis-tea-time-spend-dat-album/",
+      "title": "Yung Miami Album: \"Tea Time\" and \"Spend Dat\" Build \"Watch Dis\" Buzz"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/yung-miami-unleashes-watch-dis-album-cover-release-date-ahead-of-double-single-drop/",
+      "title": "Yung Miami Unleashes 'Watch Dis' Album Cover & Release Date Ahead of DOUBLE Single Drop - That Grape Juice"
+    },
+    {
+      "url": "https://newhot997.com/khhk-homepage-news/yung-miami-reveals-tracklist-star-studded-features-for-new-album/",
+      "title": "Yung Miami Reveals Tracklist & Star-Studded Features For New Album"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/yung-miami-unveils-watch-dis-album-tracklist-featuring-summer-walker-trina-travis-scott-more/",
+      "title": "Yung Miami Unveils 'Watch Dis' Album Tracklist Featuring Summer Walker, Trina, Travis Scott, & More - That Grape Juice"
+    },
+    {
+      "url": "https://thesource.com/2026/10/05/yung-miami-watch-dis-debut-album/",
+      "title": "Yung Miami Announces Debut Solo Album \u2018WATCH DIS\u2019 With Two New Singles"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/09/yung-miami-announces-debut-album-watch-dis-spend-dat-smash/",
+      "title": "Yung Miami Announces Debut Album 'Watch Dis' After 'Spend Dat' Smash - That Grape Juice"
+    },
+    {
+      "url": "https://kissfmdetroit.com/2026/10/02/yung-miami-announces-debut-solo-album-watch-dis-after-spend-dat-success/",
+      "title": "Yung Miami Announces Debut Solo Album 'Watch Dis' After 'Spend Dat' Success - 105.9 Kiss-FM"
+    },
+    {
+      "url": "https://inmusicblog.com/rap/yung-miami-watch-dis-album-tracklist/",
+      "title": "Yung Miami Unveils \u2018Watch Dis\u2019 Tracklist With Travis Scott, Quavo and Summer Walker"
+    },
+    {
+      "url": "https://ca.news.yahoo.com/yung-miami-announces-debut-solo-175943410.html",
+      "title": "Yung Miami Launches Debut Solo Album With New Songs \u201cF U\u201d and \u201c2008\u201d - Yahoo News Canada"
+    },
+    {
+      "url": "https://music.amazon.com/albums/B0HL7TX93N?trackAsin=B0HL7R6SQQ",
+      "title": "Play Watch Dis by Yung Miami on Amazon Music Unlimited"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/1011619-yung-miami-watch-dis-release-date",
+      "title": "Yung Miami Reveals Release Date And Features For New Album \"Watch Dis\""
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/729808-city-girls-raw-first-week-sales-billboard-hip-hop-news",
+      "title": "City Girls Sell 10K Units First Week For \"RAW\" Amid Claims They Fumbled The Bag"
+    },
+    {
+      "url": "https://x.com/rapalert6/status/1719002034123186460",
+      "title": "Rap Alert on X: \"City Girls' \u201cRAW\u201d debuts at #117 on this week's Billboard 200 selling 10,000 units first week.\" / X"
+    },
+    {
+      "url": "https://sandrarose.com/2023/10/city-girls-blame-poor-management-for-low-album-sales/",
+      "title": "City Girls\u2019 RAW Album Debuts at #117 on the Billboard 200 Chart"
+    },
+    {
+      "url": "https://hiphopdx.com/news/city-girls-raw-albumr-meager-first-week-sales/",
+      "title": "City Girls Get Ridiculed As 'RAW' Album Set For Meager First-Week Sales - HipHopDX"
+    },
+    {
+      "url": "https://x.com/chartdata/status/1719001494039499014?lang=en",
+      "title": "chart data on X: \"City Girls' 'RAW' debuts at #117 on this week's Billboard 200 (10K sold). https://t.co/SOv5OEwIkh\" / X"
+    },
+    {
+      "url": "https://x.com/rapalert4/status/1460650346246770695",
+      "title": "Rap Alert (Backup) on X: \"3 years ago today City Girls released their debut studio album \u201cGirl Code\u201d featuring \u201cAct Up,\u201d \u201cTwerk,\u201d & more. It debuted at #63 on the Billboard 200 selling 13,000 units first week and peaked at #55. https://t.co/CPK1DGovki\" / X"
+    },
+    {
+      "url": "https://grokipedia.com/page/City_Girls_discography",
+      "title": "City Girls discography \u2014 Grokipedia"
+    },
+    {
+      "url": "https://grokipedia.com/page/City_Girls",
+      "title": "City Girls \u2014 Grokipedia"
+    },
+    {
+      "url": "https://www.urbanmag-online.com/city-girls-raw-album-expected-to-move-6k-8k-units-in-first-week/",
+      "title": "City Girls\u2019 RAW Album Expected to Move 6K-8K Units in First Week"
+    }
+  ]
+}

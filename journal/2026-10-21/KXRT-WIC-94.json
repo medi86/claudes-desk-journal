@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-WIC-94",
+  "event": "KXRT-WIC",
+  "series": "KXRT",
+  "title": "Wicker Rotten Tomatoes score? Above 94",
+  "rules": "If Wicker has a Tomatometer score of above 94 on Nov, 02, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-10-26T14:00:00+00:00",
+  "forecast_at": "2026-10-21T09:46:17.026908+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.34",
+    "reasoning": "Wicker is at 94% (46/49) on Rotten Tomatoes, one point below what's needed, and has risen steadily from 91% as recent reviews came in fresh. To get above 94 it must hold about 95%+ positivity across roughly 50-80 more reviews expected by Nov 2. That's possible given the trend, but a Metacritic score of about 64 points to lukewarm critics still to come, and scores usually slip after wide release.",
+    "falsifier": "The Tomatometer showing 95% or higher on Nov 2 at 10 AM ET (e.g., the fresh streak continuing through the Oct 23 and Oct 30 releases with at most 2-3 new rotten reviews).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1900",
+    "best_yes_ask": "0.2000",
+    "p_market": "0.1950"
+  },
+  "final": {
+    "p_yes": "0.23",
+    "action": "pass",
+    "reasoning": "My data is a few days old and traders likely see newer reviews since release, which probably explains the lower price, so I moved from 0.34 to 0.23. The small remaining edge isn't worth betting on with stale information."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/wicker",
+      "title": "Wicker"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wicker_(film)",
+      "title": "Wicker (film)"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/article/is-wicker-worth-watching-what-reviews-say-about-olivia-colman-and-alexander-skarsgards-r-rated-love-story-150351328.html",
+      "title": "Is 'Wicker' worth watching? What reviews say about Olivia Colman and Alexander Skarsg\u00e5rd's R-rated love story"
+    },
+    {
+      "url": "https://tilt.goombastomp.com/celebrity/olivia-colman/",
+      "title": "Olivia Colman, 52, Debuts Grey Hair With Husband Ed Sinclair At Wicker Premiere"
+    },
+    {
+      "url": "https://www.abc10.com/article/entertainment/in-the-spotlight/olivia-colman-alexander-skarsgard-interview-wicker/507-baca1650-ca6a-4d1a-930d-3c2cad7a1934",
+      "title": "Oscar winner Olivia Colman, Emmy winner Alexander Skarsg\u00e5rd preview unconventional romance 'Wicker'"
+    },
+    {
+      "url": "https://www.wearemoviegeeks.com/tag/olivia-colman/",
+      "title": "Olivia Colman"
+    },
+    {
+      "url": "https://www.indiewire.com/criticism/movies/wicker-review-olivia-colman-alexander-skarsgard-1235175039/",
+      "title": "'Wicker' Review: Olivia Colman and Alexander Skarsgard in Bawdy Tale"
+    },
+    {
+      "url": "https://www.aol.com/articles/wicker-worth-watching-reviews-olivia-150351000.html",
+      "title": "Is 'Wicker' worth watching? What reviews say about Olivia Colman and Alexander Skarsg\u00e5rd's R-rated love story - AOL"
+    },
+    {
+      "url": "https://movieweb.com/wicker-review/",
+      "title": "Alexander Skarsg\u00e5rd's Raunchy Fantasy Movie Is More Than Sex And Wicker Dick"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/wicker/",
+      "title": "Wicker Reviews - Metacritic"
+    },
+    {
+      "url": "https://alisechaffins.substack.com/p/wicker-review-2026?action=share",
+      "title": "Wicker Review: Friendship in Marriage is Sexy"
+    },
+    {
+      "url": "https://collider.com/wicker-review-alexander-skarsgard-olivia-colman-sundance/",
+      "title": "'Wicker' Review: Olivia Colman and Alexander Skarsg\u00e5rd Ignite a Surprising Spark in This Absurd Fantasy Film"
+    },
+    {
+      "url": "https://www.imdb.com/title/tt29611136/",
+      "title": "Wicker (2026) \u2b50 8.2"
+    },
+    {
+      "url": "https://www.fandango.com/wicker-2026-246507/movie-overview",
+      "title": "Wicker (2026) Movie Tickets & Showtimes Near You"
+    },
+    {
+      "url": "https://www.wicker.movie/",
+      "title": "Wicker"
+    },
+    {
+      "url": "https://www.amctheatres.com/movies/wicker-84240",
+      "title": "Wicker movie showtimes at an AMC Theatre near you."
+    },
+    {
+      "url": "https://variety.com/2026/film/news/wicker-theatrical-release-olivia-colman-alexander-skarsgard-1236785399/",
+      "title": "\u2018Wicker,\u2019 Olivia Colman and Alexander Skarsg\u00e5rd Sundance Hit, Sets Theatrical Release Date"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dKzprumGCwY",
+      "title": "WICKER Trailer (2026) Olivia Colman, Alexander Skarsg\u00e5rd - YouTube"
+    },
+    {
+      "url": "https://letterboxd.com/film/wicker/",
+      "title": "Wicker (2026)"
+    },
+    {
+      "url": "https://www.movieinsider.com/m22446/wicker",
+      "title": "Everything You Need to Know About Wicker Movie (2026): Jul. 30, 2026 - Added new image to the movie\u2019s photo gallery - Movie Insider"
+    },
+    {
+      "url": "https://www.imdb.com/title/tt29611136/news/",
+      "title": "Wicker (2026) - News"
+    },
+    {
+      "url": "https://movieweb.com/wicker-rotten-tomatoes-score/",
+      "title": "Alexander Skarsg\u00e5rd's Raunchy Fantasy Movie Officially Lands Magical Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://www.cbr.com/wicker-rotten-tomatoes-score-reviews/",
+      "title": "R-Rated 'Medieval Edward Scissorhands' Fantasy Film Gets High Praise From Critics"
+    },
+    {
+      "url": "https://www.forbes.com/sites/timlammers/2026/10/20/wicker-wows-most-rotten-tomatoes-critics/",
+      "title": "\u2018Wicker\u2019 Wows Most Rotten Tomatoes Critics"
+    },
+    {
+      "url": "https://www.cbr.com/wicker-fantasy-cult-classic-movie/",
+      "title": "Wicker is Already a Fantasy Cult Classic Movie"
+    },
+    {
+      "url": "https://www.comicbasics.com/theaters-beware-wicker-fans-are-plotting-to-steal-the-wicker-husband-standee/",
+      "title": "Theaters Beware: \u2018Wicker\u2019 Fans Are Plotting to Steal the Wicker Husband Standee"
+    },
+    {
+      "url": "https://fictionhorizon.com/wicker-fans-are-jokingly-stealing-the-wicker-husband-theater-standee/",
+      "title": "\u2018Wicker\u2019 Fans Are Jokingly \u201cStealing\u201d the Wicker Husband Theater Standee"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wicker-wows-most-rotten-tomatoes-161722032.html",
+      "title": "\u2018Wicker\u2019 Wows Most Rotten Tomatoes Critics"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/pass-popcorn-because-wicker-reviews-154734796.html",
+      "title": "Pass The Popcorn, Because These Wicker Reviews Have Only One Word For This Lusty Romance"
+    },
+    {
+      "url": "https://www.timeout.com/movies/wicker-review-2026",
+      "title": "Wicker review: Bawdy 1970s sex comedy meets \u2018Lord of the Rings\u2019 in Olivia Colman\u2019s outrageous period romp"
+    },
+    {
+      "url": "https://faroutmagazine.co.uk/alex-huston-fischer-eleanor-wilson-wicker-movie-review/",
+      "title": "\u2018Wicker\u2019 movie review: Olivia Colman stars in a raunchy satire"
+    },
+    {
+      "url": "https://screenrant.com/wicker-movie-review/",
+      "title": "Wicker Review: Olivia Colman's Absurdly Hilarious and Achingly Romantic Fable Teaches Us How To Love"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/the_wicker_man_1973",
+      "title": "The Wicker Man (1973)"
+    }
+  ]
+}
