@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "ticker": "KXPRESSBRIEFINGCOUNT-26OCT-A3",
+  "event": "KXPRESSBRIEFINGCOUNT-26OCT",
+  "series": "KXPRESSBRIEFINGCOUNT",
+  "title": "Will the number of White House Press Briefings in Oct 2026 be at least 3?",
+  "rules": "If the White House holds at least 3 press briefings in the James S. Brady Press Briefing Room in October 2026, then the market resolves to Yes.",
+  "rules_secondary": "Any event held in the James S. Brady Press Briefing Room where an administration official takes questions from or makes remarks to the press corps counts as a press briefing.",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-21T05:41:21.169700+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.5",
+    "reasoning": "Only one October 2026 Brady Room briefing is confirmed: Katie Zacharia's first one on October 13. Recent coverage (Parade's 'White House exit' headline, a Washington Post piece advising 'the next one') suggests she left within days, so the job may be empty. Any official's remarks in the room count, and there are about 10 days left plus possible early-October briefings I couldn't check, but turnover and the pre-midterm campaign schedule make a sparse month quite possible.",
+    "falsifier": "Counts from transcripts or the White House video archive showing two or more more Brady Room events in October 2026 (from Leavitt early in the month, deputies, Vance or Trump) would make this too low. Confirmation that the Oct 13 briefing was the only one, with the job empty through Halloween, would make it too high.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0900",
+    "best_yes_ask": "0.1700",
+    "p_market": "0.1300"
+  },
+  "final": {
+    "p_yes": "0.18",
+    "action": "pass",
+    "reasoning": "The 13% midpoint likely reflects traders' knowledge that only one October briefing has happened and the press secretary job is empty, so I cut my estimate from 50% to 18%. That sits only just above the 0.17 ask on evidence I couldn't fully verify, so the edge is too thin to bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=JBqMgq2o844",
+      "title": "LIVE: White House press briefing with Karoline Leavitt - YouTube"
+    },
+    {
+      "url": "https://www.whitehouse.gov/videos/press-briefing-by-the-white-house-press-secretary-karoline-leavitt/",
+      "title": "Press Briefing by the White House Press Secretary Karoline Leavitt"
+    },
+    {
+      "url": "https://www.c-span.org/event/white-house-event/white-house-press-secretary-holds-briefing/442551",
+      "title": "White House Press Secretary Holds Briefing"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/karoline-leavitt-white-house-press-briefing-on-12-01-25",
+      "title": "Karoline Leavitt White House Press Briefing on 12/01/25"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/karoline-leavitt-white-house-press-briefing-on-7-31-25",
+      "title": "Karoline Leavitt White House Press Briefing on 7/31/25"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/karoline-leavitt-responds-stupid-rumor-194409445.html",
+      "title": "Karoline Leavitt responds to 'stupid' rumor about White House exit"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/tag/karoline-leavitt",
+      "title": "karoline leavitt"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/karoline-leavitt-white-house-press-briefing-on-12-11-25",
+      "title": "Karoline Leavitt White House Press Briefing on 12/11/25"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Karoline_Leavitt",
+      "title": "Karoline Leavitt"
+    },
+    {
+      "url": "https://edition.cnn.com/2026/07/16/politics/karoline-leavitt-maternity-leave-briefing",
+      "title": "\u2018Let\u2019s get back to work\u2019: Karoline Leavitt returns to the briefing room podium for the first time since maternity leave"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZxaM4GQmWnc",
+      "title": "Karoline Leavitt returns to White House briefing room after maternity leave - YouTube"
+    },
+    {
+      "url": "https://www.scrippsnews.com/politics/the-president/karoline-leavitt-returns-to-white-house-briefing-room-after-maternity-leave",
+      "title": "Karoline Leavitt returns to White House briefing room after maternity leave"
+    },
+    {
+      "url": "https://www.irishstar.com/culture/entertainment/karoline-leavitt-maternity-leave-trump-37077957",
+      "title": "Karoline Leavitt cuts maternity leave short after White House Correspondents' Dinner breach"
+    },
+    {
+      "url": "https://yahoo.com/news/politics/articles/theres-chance-jd-vance-may-154408656.html",
+      "title": "There's a chance JD Vance may not run for president in 2028"
+    },
+    {
+      "url": "https://www.foreignpolicyjournal.com/2026/05/03/karoline-leavitt-cuts-maternity-leave-to-three-days-to-return-to-briefing-room-after-correspondents-dinner-shooting/",
+      "title": "Karoline Leavitt Cuts Maternity Leave to Three Days to Return to Briefing Room After Correspondents' Dinner Shooting"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qSZUBUJuXzY",
+      "title": "Karoline Leavitt Says She\u2019ll Return \u201cVery Soon\u201d As She Begins Maternity Leave - YouTube"
+    },
+    {
+      "url": "https://www.whitehouse.gov/briefings-statements/",
+      "title": "Briefings & Statements"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/statistics/data/presidential-news-conferences",
+      "title": "Presidential News Conferences"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/calendar/",
+      "title": "October 2026 - President's Public Schedule"
+    },
+    {
+      "url": "https://obamawhitehouse.archives.gov/realitycheck/briefing-room/Press-Briefings/2026/01",
+      "title": "Press Briefings"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/topic/calendar/",
+      "title": "Roll Call Factba.se - Donald J. Trump's Public Schedule"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/White_House_Press_Secretary",
+      "title": "White House Press Secretary"
+    },
+    {
+      "url": "https://bnonews.com/whpool/1tSyD8IX",
+      "title": "The White House Announces October 19 - October 25, 2026, Press Rotation \u2014 White House Press Pool"
+    },
+    {
+      "url": "https://obamawhitehouse.archives.gov/podcast/white-house-press-briefings",
+      "title": "White House Press Briefings"
+    },
+    {
+      "url": "https://www.state.gov/department-press-briefings/",
+      "title": "Press Briefings - United States Department of State"
+    },
+    {
+      "url": "https://www.whitehouse.gov/gallery/press-secretary-katie-zacharia-holds-first-press-briefing-in-the-james-s-brady-press-briefing-room-october-13-2026/",
+      "title": "Press Secretary Katie Zacharia holds first press briefing in the James S. Brady Press Briefing Room, October 13, 2026"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6006807/what-does-a-white-house-press-secretary-do",
+      "title": "What does a White House press secretary do? : NPR"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Press_Secretary_Katie_Zacharia_holds_first_press_briefing_in_the_James_S_Brady_Press_Briefing_Room,_October_13,_2026_(P20261013AH-0626).jpg",
+      "title": "File:Press Secretary Katie Zacharia holds first press briefing in the James S Brady Press Briefing Room, October 13, 2026 (P20261013AH-0626).jpg - Wikimedia Commons"
+    },
+    {
+      "url": "https://www.washingtonpost.com/ripple/2026/10/18/lessons-jim-brady-reagan-white-house/",
+      "title": "I worked for 3 White House press secretaries \u2014 here\u2019s some advice for the next one - The Washington Post"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/James_S._Brady_Press_Briefing_Room",
+      "title": "James S. Brady Press Briefing Room"
+    },
+    {
+      "url": "https://parade.com/news/katie-zacharia-spotted-out-in-california-after-white-house-exit",
+      "title": "Katie Zacharia Spotted Out In California After White House Exit - Parade"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/16/politics/katie-zacharia-press-secretary",
+      "title": "Why Trump decided to fire Katie Zacharia as press secretary after just five days: \u2018Did anyone vet her?\u2019"
+    },
+    {
+      "url": "https://thehill.com/opinion/white-house/6155486-lessons-jim-brady-reagan-white-house/",
+      "title": "Advice for the next press secretary on duty"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6155603-katie-zacharia-press-secretary-exit-statement/",
+      "title": "Zacharia speaks out after White House press secretary exit: \u2018It was an honor\u2019"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6155287-katie-zacharia-white-house-exit-five-days/",
+      "title": "Katie Zacharia exits White House press secretary role: How her 5 days went"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+      "title": "Katie Zacharia out as Trump's White House press secretary"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/trump-casts-doubt-on-press-secretary-katie-zacharias-future",
+      "title": "White House press secretary Katie Zacharia leaving the job after Trump casts doubt"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/16/trump-katie-zacharia-press-secretary",
+      "title": "Katie Zacharia ousted as White House press secretary"
+    },
+    {
+      "url": "https://www.ms.now/news/katie-zacharia-out-white-house-press-secretary-trump",
+      "title": "Katie Zacharia is out as White House press secretary after just 5 days"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Katie_Zacharia",
+      "title": "Katie Zacharia"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/white-house/white-house-press-secretary-katie-zacharia-out-after-5-days-rcna603912",
+      "title": "Katie Zacharia is out as White House press secretary after just 5 days on the job"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+      "title": "Katie Zacharia is out as press secretary, White House says : NPR"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/trump-casts-doubt-new-press-secretarys-future-after-rocky-white-house-debut",
+      "title": "Katie Zacharia dropped as press secretary after one week on the job"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/11/trump-katie-zacharia-white-house-press-secretary.html",
+      "title": "Trump Media advisor Katie Zacharia named White House press secretary"
+    },
+    {
+      "url": "https://www.britannica.com/question/Who-is-Katie-Zacharia",
+      "title": "Who is Katie Zacharia?"
+    },
+    {
+      "url": "https://www.britannica.com/biography/Who-is-Katie-Zacharia",
+      "title": "Katie Zacharia"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/10/katie-zacharia-delivers-powerful-inaugural-briefing-as-37th-white-house-press-secretary/",
+      "title": "Katie Zacharia Delivers Powerful Inaugural Briefing as the 37th White House Press Secretary"
+    },
+    {
+      "url": "https://www.whitehouse.gov/videos/press-secretary-katie-zacharia-briefs-members-of-the-media-oct-13-2026/",
+      "title": "Press Secretary Katie Zacharia Briefs Members of the Media, Oct. 13, 2026"
+    },
+    {
+      "url": "https://www.c-span.org/program/white-house-event/white-house-daily-briefing/686409",
+      "title": "White House Daily Briefing"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-new-white-house-press-secretary-katie-zacharia-holds-first-briefing",
+      "title": "WATCH: New White House press secretary Katie Zacharia takes few questions in short first briefing"
+    },
+    {
+      "url": "https://deadline.com/2026/10/trump-press-secretary-katie-zacharia-first-briefing-1237155615/",
+      "title": "New White House Press Secretary Debuts With A Very Short Briefing"
+    },
+    {
+      "url": "https://www.yahoo.com/news/videos/full-white-house-press-briefing-142417102.html",
+      "title": "FULL White House Press Briefing: October 13, 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=N_DWkMd6AZ8&xstg=CAMSBhUDze3xHw%3D%3D",
+      "title": "FULL: White House Press Briefing - Oct. 13, 2026 - YouTube"
+    },
+    {
+      "url": "https://www.fox29.com/video/fmc-oqt77cdfx26omjpn.amp",
+      "title": "FULL White House Press Briefing: October 13, 2026"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/12/new-white-house-press-secretary-begins-her-term/",
+      "title": "New White House press secretary begins her term - The Washington Post"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/13/politics/video/vv-kaitlan-collins-pov-on-zacharias-first-briefing-vrtc",
+      "title": "Trump\u2019s new press secretary takes only three questions at first briefing"
+    }
+  ]
+}

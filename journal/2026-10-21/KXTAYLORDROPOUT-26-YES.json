@@ -1,0 +1,269 @@
+{
+  "schema": 1,
+  "ticker": "KXTAYLORDROPOUT-26-YES",
+  "event": "KXTAYLORDROPOUT-26",
+  "series": "KXTAYLORDROPOUT",
+  "title": "Will Treg Taylor drop out of the 2026 Alaska Governor race before Nov 3, 2026? Yes",
+  "rules": "If Treg Taylor drops out of the 2026 Alaska Governor race before Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "\"Dropped out\" means any of the following:\nTreg Taylor announces they are ending, suspending, or withdrawing from their campaign\nTreg Taylor files official withdrawal paperwork with relevant election authorities\nTreg Taylor publicly states they are no longer seeking the office\nTreg Taylor endorses another candidate while stating they are no longer running\nTreg Taylor is disqualified by election authorities or courts and does not appeal\n\nThe following do NOT constitute dropping out:\nLosing a primary or election\nFailing to qualify for debates or ballots\nTemporarily suspending campaign activities without withdrawing\nBeing eliminated through the normal election process\nReducing campaign activities while remaining a candidate\n\nKey provisions:\nOnce someone drops out per above criteria, the market resolves YES even if they later re-enter\n\"Suspending\" a campaign is treated as dropping out unless Treg Taylor explicitly states they remain a candidate\nFor primary races, dropping out of the presidential race entirely counts as dropping out of that party's primary\nWithdrawing from the race counts even if the person remains on the ballot",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-21T05:41:21.169700+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.11",
+    "reasoning": "Taylor made the top-four general election ballot and, about three days ago, publicly refused President Trump's call to drop out and back Bernadette Wilson. He previously fought a disqualification to get back on the ballot. Only about two weeks remain and ballots are already out, so a withdrawal is unlikely. The remaining risk comes from strong pressure to unite Republicans and his last-place polling at around 8-10%.",
+    "falsifier": "Taylor announces before Nov 3 that he is suspending or ending his campaign, or endorses Wilson or Bronson while saying he is no longer running.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.predictionedge.com/elections/profile/treg-taylor/",
+      "https://www.predictionedge.com/elections/ak/"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1200",
+    "best_yes_ask": "0.1600",
+    "p_market": "0.1400"
+  },
+  "final": {
+    "p_yes": "0.11",
+    "action": "buy_no",
+    "reasoning": "The market at 0.14 sits slightly above my 0.11. Taylor's recent public refusal to quit, his earlier fight to stay on the ballot, and the short time left make dropping out unlikely. The edge is modest because Trump's pressure to unite behind Wilson is real."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1300",
+    "count": 1,
+    "cost": "0.8700",
+    "clamped_from": "0.11"
+  },
+  "sources": [
+    {
+      "url": "https://ballotpedia.org/Treg_Taylor",
+      "title": "Treg Taylor - Ballotpedia"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/elections/2026-10-16/republican-treg-taylor-refuses-trumps-call-to-exit-alaska-governors-race",
+      "title": "Republican Treg Taylor refuses Trump\u2019s call to exit Alaska governor\u2019s race"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2026/08/31/state-says-treg-taylors-campaign-governor-is-over-due-donation-violation/",
+      "title": "State disqualifies Treg Taylor from governor race due to financial violation"
+    },
+    {
+      "url": "https://ivoterguide.com/candidate/77416",
+      "title": "Voter Guide Profile for AK Governor candidate - Treg Taylor"
+    },
+    {
+      "url": "https://www.youralaskalink.com/news/politics/treg-taylor-outlines-priorities-for-the-state-in-alaska-governor-s-race/article_9aea99bc-a531-47da-b1cd-c0bd9a8ce895.html",
+      "title": "Treg Taylor outlines priorities for the state in Alaska governor\u2019s race"
+    },
+    {
+      "url": "https://www.adn.com/politics/2026/09/04/treg-taylor-is-back-in-alaskas-race-for-governor-after-election-officials-reverse-decision/",
+      "title": "Treg Taylor is back in Alaska\u2019s race for governor after election officials reverse decision - Anchorage Daily News"
+    },
+    {
+      "url": "https://alaskabeacon.com/2026/09/05/alaska-lt-gov-dahlstrom-reverses-herself-puts-former-attorney-general-treg-taylor-back-in-governors-race/",
+      "title": "Alaska Lt. Gov. Dahlstrom reverses herself, puts Treg Taylor back in governor\u2019s race"
+    },
+    {
+      "url": "https://alaskabeacon.com/2025/09/17/former-alaska-attorney-general-treg-taylor-is-11th-candidate-to-announce-run-for-governor-in-2026/",
+      "title": "Former Alaska attorney general Treg Taylor is 11th candidate to announce run for governor in 2026"
+    },
+    {
+      "url": "https://www.adn.com/politics/2026/08/28/alaska-campaign-watchdog-says-treg-taylor-should-not-be-allowed-to-run-for-governor/",
+      "title": "Alaska campaign watchdog says Treg Taylor should not be allowed to run for governor - Anchorage Daily News"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/alaska-legislature/2025-09-17/former-alaska-ag-treg-taylor-enters-governors-race",
+      "title": "Former Alaska AG Treg Taylor enters governor\u2019s race"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Treg_Taylor",
+      "title": "Treg Taylor"
+    },
+    {
+      "url": "https://www.predictionedge.com/elections/profile/treg-taylor/",
+      "title": "Treg Taylor: 2026 Alaska Governor Polls & Odds"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+      "title": "2026 Alaska gubernatorial election"
+    },
+    {
+      "url": "https://alaskapublic.org/programs/talk-of-alaska/2026-09-15/the-race-for-alaskas-next-governor-treg-taylor-talk-of-alaska",
+      "title": "The race for Alaska\u2019s next Governor: Treg Taylor"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+      "title": "2026 United States gubernatorial elections"
+    },
+    {
+      "url": "https://www.multistate.us/resources/2026-gubernatorial-candidates",
+      "title": "2026 Governor Candidates by State"
+    },
+    {
+      "url": "https://ballotpedia.org/Alaska_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+      "title": "Alaska gubernatorial and lieutenant gubernatorial election, 2026 - Ballotpedia"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/alaska-governor-results",
+      "title": "Alaska Governor Primary Election 2026 Live Results: Wilson, Walker, Begich and More"
+    },
+    {
+      "url": "https://www.britannica.com/question/Who-are-the-candidates-for-governor-of-Alaska",
+      "title": "Who are the candidates for governor of Alaska?"
+    },
+    {
+      "url": "https://smarter.vote/races/ak-governor-2026/",
+      "title": "Alaska Governor race 2026"
+    },
+    {
+      "url": "https://alaskabeacon.com/voter-guides/2026-voter-guide/",
+      "title": "Voter Guide: 2026 Voter Guide"
+    },
+    {
+      "url": "https://www.decodethevote.com/seats/ak/governor",
+      "title": "Alaska Governor Race 2026: Candidates & Records \u00b7 DecodeTheVote"
+    },
+    {
+      "url": "https://alaskabeacon.com/briefs/seventeen-people-sign-up-to-run-in-2026-alaska-governor-race-top-four-advance-in-aug-18-primary/",
+      "title": "Seventeen people sign up to run in 2026 Alaska governor race; top four advance in Aug. 18 primary"
+    },
+    {
+      "url": "https://alaskabeacon.com/voter-guides/2026-general-election/",
+      "title": "Voter Guide: 2026 General Election"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/governor/open-primary/2026/alaska",
+      "title": "2026 Alaska Governor - RCV 1st Round"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/elections/2026-09-22/poll-shows-democrat-with-lead-in-alaska-governors-race-but-large-swaths-remain-undecided",
+      "title": "Poll shows Democrat with lead in Alaska governor\u2019s race, but large swaths remain undecided"
+    },
+    {
+      "url": "https://www.270towin.com/2026-governor-polls/alaska",
+      "title": "2026 Polls: Alaska Governor - 270toWin"
+    },
+    {
+      "url": "https://www.predictionedge.com/elections/ak/",
+      "title": "2026 Alaska Elections, Odds & Candidates"
+    },
+    {
+      "url": "https://www.predictionedge.com/elections/governor/alaska-race-winner-by-party/",
+      "title": "2026 Alaska Governor Election: Polls & Odds"
+    },
+    {
+      "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food",
+      "title": "Every Statewide Race in Alaska Is Close, as 7 in 10 Voters Worry About Affording Gas and Food"
+    },
+    {
+      "url": "https://alaskabeacon.com/2026/08/31/last-day-shakeup-in-alaskas-race-for-governor-puts-disqualified-candidates-wife-on-the-ballot/",
+      "title": "Last-day shakeup in Alaska\u2019s race for governor puts disqualified candidate\u2019s wife on the ballot"
+    },
+    {
+      "url": "https://law.alaska.gov/press/releases/2025/082125-Taylor-Resignation.html",
+      "title": "Press Release - Attorney General Treg Taylor Announces Resignation, Highlights Record of Defending Alaska"
+    },
+    {
+      "url": "https://www.adn.com/politics/2025/08/21/alaska-attorney-general-treg-taylor-resigns/",
+      "title": "Alaska Attorney General Treg Taylor resigns - Anchorage Daily News"
+    },
+    {
+      "url": "https://grokipedia.com/page/Treg_Taylor",
+      "title": "Treg Taylor \u2014 Grokipedia"
+    },
+    {
+      "url": "https://www.youralaskalink.com/news/politics/alaska-attorney-general-treg-taylor-resigns-after-serving-since-2021/article_c3ae7d0c-6c49-401d-999e-311c9030a69f.html",
+      "title": "Alaska Attorney General Treg Taylor resigns after serving since 2021"
+    },
+    {
+      "url": "https://gov.alaska.gov/governor-dunleavy-announces-attorney-general-treg-taylors-resignation/",
+      "title": "Governor Dunleavy Announces Attorney General Treg Taylor\u2019s Resignation - Mike Dunleavy"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2025/08/21/attorney-general-treg-taylor-resigns-opening-questions-gubernatorial-run/",
+      "title": "Attorney General Treg Taylor to resign, opening questions of gubernatorial run"
+    },
+    {
+      "url": "https://mychamplainvalley.com/local-sports/taylor-departs-green-for-family-reasons",
+      "title": "Taylor Departs Green for Family Reasons"
+    },
+    {
+      "url": "https://messenger-inquirer.com/ap/elections/the-latest-trump-looks-to-boost-republicans-in-arizona-and-montana-during-campaign-rallies/article_98492808-59cc-5fb8-bf51-bcac387b6552.html",
+      "title": "The Latest: Trump looks to boost Republicans in Arizona and Montana during campaign rallies"
+    },
+    {
+      "url": "https://www.adn.com/politics/2026/10/13/trump-to-rally-for-alaska-republicans-in-wasilla-on-tuesday/",
+      "title": "Trump rallies for Alaska Republicans in Wasilla on Tuesday after endorsing Wilson in governor\u2019s race - Anchorage Daily News"
+    },
+    {
+      "url": "https://www.ktoo.org/2026/10/20/republican-treg-taylor-refuses-trumps-call-to-exit-alaska-governors-race/",
+      "title": "Republican Treg Taylor refuses Trump's call to exit Alaska governor's race"
+    },
+    {
+      "url": "https://www.newsfromthestates.com/article/alaska-rally-trump-endorses-wilson-and-seeks-boost-sullivan-and-begich",
+      "title": "At Alaska rally, Trump endorses Wilson and seeks to boost Sullivan and Begich"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/alaska-rally-trump-endorses-wilson-110059439.html",
+      "title": "At Alaska rally, Trump endorses Wilson and seeks to boost Sullivan and Begich"
+    },
+    {
+      "url": "https://www.kmxt.org/alaska-statewide-news/2026-10-16/republican-treg-taylor-refuses-trumps-call-to-exit-alaska-governors-race",
+      "title": "Republican Treg Taylor refuses Trump\u2019s call to exit Alaska governor\u2019s race"
+    },
+    {
+      "url": "https://thealaskastory.com/breaking-trump-endorses-bernadette-wilson-for-alaska-governor-urges-republicans-to-unite-behind-her/",
+      "title": "Breaking: Trump endorses Bernadette Wilson for Alaska governor, urges Republicans to unite behind her - Alaska Story"
+    },
+    {
+      "url": "https://adn.com/politics/2026/10/19/show-up-and-do-your-part-early-voting-begins-in-alaska-with-long-lines-in-anchorage",
+      "title": "\u2018Show up and do your part\u2019: Early voting begins in Alaska with long lines in Anchorage - Anchorage Daily News"
+    },
+    {
+      "url": "https://www.homernews.com/2026/10/14/at-alaska-rally-trump-endorses-wilson-and-seeks-to-boost-sullivan-and-begich/",
+      "title": "At Alaska rally, Trump endorses Wilson and seeks to boost Sullivan and Begich"
+    },
+    {
+      "url": "https://www.newsweek.com/trumps-alaska-rally-takeaways-as-he-issues-pardons-on-stage-12564970",
+      "title": "Trump\u2019s Alaska Rally Takeaways as He Backs Bernadette Wilson For Governor - Newsweek"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-unravels-at-republican-candidates-in-255-word-tirade",
+      "title": "Trump Unravels at Republican Candidates in 255-Word Tirade"
+    },
+    {
+      "url": "https://www.dermotcole.com/reportingfromalaska/2026/10/13/trump-backs-wilson-claims-bronson-agreed-to-drop-out",
+      "title": "Reporting From Alaska- Trump backs Wilson. Claims Bronson agreed to drop out. Bronson denies it."
+    },
+    {
+      "url": "https://thealaskastory.com/bronsons-running-mate-suggests-taylor-leave-governors-race-complicating-rank-the-red-message/",
+      "title": "Bronson's running mate suggests Taylor leave governor\u2019s race, complicating 'rank the red' message - Alaska Story"
+    },
+    {
+      "url": "https://www.ktoo.org/2026/10/20/conservatives-worry-trumps-alaska-visit-may-have-done-more-harm-than-good/",
+      "title": "Conservatives worry Trump's Alaska visit may have done more harm than good"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2026/10/13/trump-endorses-wilson-alaska-governor/",
+      "title": "Trump endorses Wilson for Alaska governor"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/elections/2026-10-14/bronson-will-keep-campaigning-despite-trumps-call-to-drop-out",
+      "title": "Bronson will keep campaigning despite Trump\u2019s call to drop out"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/elections/2026-08-31/november-ballot-in-alaska-governors-race-set-after-chaotic-last-day-scramble",
+      "title": "November ballot in Alaska governor\u2019s race set after chaotic last-day scramble"
+    }
+  ]
+}

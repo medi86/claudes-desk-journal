@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPSTATESMON-26OCT-NH",
+  "event": "KXTRUMPSTATESMON-26OCT",
+  "series": "KXTRUMPSTATESMON",
+  "title": "Will Donald Trump visit New Hampshire in Oct 2026?",
+  "rules": "If Donald Trump has physically travelled to and been present within the geographic boundaries of New Hampshire on or after Oct 1, 2026 and before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The following do NOT constitute a visit:\n\nFlying over the area without landing\nLayovers during which the person remains in an airplane\nVirtual or remote appearances\nPresence in international waters adjacent to the area\nPresence solely within embassy or consulate grounds\nPlans, announcements, or scheduling of future visits that do not occur during the applicable time period\n\nFor the avoidance of doubt, a visit occurs only when the person exits an aircraft, vehicle, vessel, or train within the area, or otherwise physically enters the area not aboard one. Remaining aboard, including during flyovers, drive-throughs, and non-exit refueling stops, does not constitute a visit. Exiting within the area constitutes a visit regardless of duration or method of exit.",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-21T05:41:21.169700+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "As of Oct 20, 2026, Trump had not visited New Hampshire and CNN reported no sign of planned campaigning there. His midterm travel is concentrated in states he won by double digits. The GOP Senate nominee, Sununu, explicitly doesn't want Trump to visit and is running ads distancing himself, and Trump's NH approval is about 32%. With roughly 11 days left, only a surprise rally or official trip would produce a Yes.",
+    "falsifier": "An announcement of, or report on, a Trump rally or official event in New Hampshire (e.g., Manchester or Pease) between Oct 21 and Oct 31, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0800",
+    "best_yes_ask": "0.1200",
+    "p_market": "0.1000"
+  },
+  "final": {
+    "p_yes": "0.05",
+    "action": "buy_no",
+    "reasoning": "The 10% midpoint seems to overprice a visit. As of Oct 20 Trump had made no New Hampshire trip, his travel is focused on safe states, the GOP Senate nominee doesn't want him there, and only about 11 days remain. Buying NO at roughly $0.92 against my ~95% estimate of NO is positive expected value."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.0900",
+    "count": 1,
+    "cost": "0.9100",
+    "clamped_from": "0.05"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhpr.org/nh-news/2026-09-02/trump-administration-sending-poll-observers-to-manchester-nashua-primary-nh-newhampshire-election-midterms",
+      "title": "Trump administration sending poll observers to Manchester, Nashua for state primary"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/19/politics/trump-midterms-red-state-travel",
+      "title": "Why Trump is campaigning in states that voted for him by double digits"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/white-house-travel-trump-17-states-midterms-rcna600978",
+      "title": "White House plans travel for Trump in at least 17 states ahead of the midterms"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/new-hampshire-primaries-test-trump-left-rcna596109",
+      "title": "New Hampshire primaries test Trump and the left"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/4405439-trump-new-hampshire-primary-manchester-rally/",
+      "title": "Trump to hold New Hampshire rally ahead of primary"
+    },
+    {
+      "url": "https://www.unionleader.com/news/article_51322350-afc8-11ee-93cf-ffd15de3e69b-aa00046d/",
+      "title": "Trump to return to NH Jan. 16"
+    },
+    {
+      "url": "https://www.unionleader.com/news/politics/trump-to-return-to-nh-nov-11/article_f81ee2c8-b045-52be-829f-cb1cb0b37318.html",
+      "title": "Trump to return to NH Nov. 11"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/donald-trump-rally-schedule/",
+      "title": "Trump Rally Schedule: Upcoming Events and Speeches (2026)"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/calendar/",
+      "title": "October 2026 - President's Public Schedule"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/October_2026_No_Kings_protests",
+      "title": "October 2026 No Kings protests"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/20/trumps-rally-show-rolls-economic-development-plans/",
+      "title": "Trump\u2019s rally show rolls out the economic development plans"
+    },
+    {
+      "url": "https://www.rev.com/transcripts/donald-trump-manchester-new-hampshire-rally-transcript-october-25",
+      "title": "Trump Rally in Manchester, NH Transcript"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/19/politics/live-news/midterm-election-congress",
+      "title": "Midterm election live updates: Trump ratchets up alarm about Democrats as he tries to stave off GOP losses"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4771991/sununu-pappas-attacks-trump-new-hampshire-senate-race/",
+      "title": "New Hampshire\u2019s Sununu says he\u2019s \u2018never even met\u2019 Trump amid attacks from Democratic opponent"
+    },
+    {
+      "url": "https://www.bostonglobe.com/2026/10/19/opinion/pappas-sununu-new-hampshire-senate/",
+      "title": "Could Democrats really lose the New Hampshire Senate race? - The Boston Globe"
+    },
+    {
+      "url": "https://www.irishstar.com/culture/entertainment/kaitlan-collins-miderms-trump-hecklers-37793342",
+      "title": "Kaitlan Collins brands midterms 'extremely ugly' as Trump clashes with hecklers at rally"
+    },
+    {
+      "url": "https://www.unionleader.com/news/politics/sununu-speaks-at-nashua-rotary-ba2e6d5c",
+      "title": "Pressed on Trump in Nashua, John E. Sununu points to record of bucking GOP presidents"
+    },
+    {
+      "url": "https://news.bgov.com/bloomberg-government-news/sununu-conjures-old-school-gop-in-new-hampshire-senate-race",
+      "title": "Sununu Conjures Old-School GOP in New Hampshire Senate Race"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-endorses-john-sununu-new-hampshire-senate-race-rcna256966",
+      "title": "Trump endorses John Sununu in New Hampshire Senate race"
+    },
+    {
+      "url": "https://www.unionleader.com/news/politics/trump-endorses-sununu-in-nh-senate-race/article_8532bd6f-0def-4d7a-9ac8-a0bcbfa4de3b.html",
+      "title": "Trump endorses Sununu in NH Senate race"
+    },
+    {
+      "url": "https://nhjournal.com/breaking-trump-endorses-sununu-in-senate-gop-primary/",
+      "title": "Trump Endorses Sununu in Senate GOP Primary - NH Journal"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/4364130-trump-slams-sununu-during-new-hampshire-rally-spoiled-brat/",
+      "title": "Trump slams Sununu during New Hampshire rally: \u2018Spoiled brat\u2019"
+    },
+    {
+      "url": "https://www.concordmonitor.com/2023/01/27/on-the-trail-49700055/",
+      "title": "On the Trail: Trump makes his return to NH on Saturday - Concord Monitor"
+    },
+    {
+      "url": "https://cbsnews.com/amp/boston/news/donald-trump-salem-new-hampshire-visit",
+      "title": "Former President Trump returning to New Hampshire for first time since 2020 - CBS Boston"
+    },
+    {
+      "url": "https://www.cbsnews.com/boston/news/donald-trump-manchester-new-hampshire-campaign-rally-thursday/",
+      "title": "Donald Trump returns to New Hampshire, focuses on Biden rematch - CBS Boston"
+    },
+    {
+      "url": "https://www.npr.org/2023/10/09/1204724370/trump-holds-a-rally-in-new-hampshire-in-an-effort-to-solidify-early-primary-supp",
+      "title": "Trump holds a rally in New Hampshire in an effort to solidify early primary support : NPR"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/trump-launches-2024-run-with-visits-to-new-hampshire-south-carolina",
+      "title": "Trump launches 2024 run with visits to New Hampshire, South Carolina"
+    },
+    {
+      "url": "https://www.unionleader.com/news/article_1cf6fc49-59f0-576f-a4bb-52a125f8c7c2-c7befbbe/",
+      "title": "Trump to visit NH next week"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465",
+      "title": "Trump holds rally in North Carolina for midterm GOP candidates"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/",
+      "title": "Trump plans marathon tour of Senate battles across several states"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-travel-least-10-states-220621379.html",
+      "title": "Trump to travel to at least 10 states before the midterms, including traditional battlegrounds"
+    },
+    {
+      "url": "https://www.opb.org/article/2026/10/17/trumps-campaign-travel-highlights-his-midterm-strategy/",
+      "title": "Trump promised a swing district blitz. He's going to a lot of very red states - OPB"
+    },
+    {
+      "url": "https://www.newsbreak.com/politico-560779/4922236784619-trump-to-travel-to-at-least-10-states-before-the-midterms-including-traditional-battlegrounds",
+      "title": "Trump to travel to at least 10 states before the midterms, including traditional battlegrounds - NewsBreak"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6121792-trump-midterms-red-state-stops/",
+      "title": "Trump\u2019s red-state tour raises eyebrows and anxiety among Republicans ahead of midterms"
+    },
+    {
+      "url": "https://www.newsweek.com/map-donald-trump-approval-rating-state-midterms-12591677",
+      "title": "Map Shows Trump\u2019s Approval Rating in Each State After 21 Months - Newsweek"
+    },
+    {
+      "url": "https://deadline.com/2023/05/kaitlyn-collins-addresses-cnn-trump-town-hall-calling-it-major-inflection-point-in-race-for-president-critics-call-it-something-else-entirely-1235364369/",
+      "title": "Kaitlan Collins Speaks Out About Her Trump Town Hall, Calling It \u201cMajor Inflection Point\u201d In Race For President; Critics Call It Something Else Entirely"
+    },
+    {
+      "url": "https://edition.cnn.com/2023/05/11/politics/transcript-cnn-town-hall-trump",
+      "title": "READ: Transcript of CNN\u2019s town hall with former President Donald Trump"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CNN_Republican_Town_Hall_with_Donald_Trump",
+      "title": "CNN Republican Town Hall with Donald Trump"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kaitlan_Collins",
+      "title": "Kaitlan Collins"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/trump-snaps-at-kaitlan-collins-ahead-of-un-speech-you-should-not-be-here_n_6ab295d5e4b085277b539118",
+      "title": "\u2018You Should Not Be Here!\u2019: Trump Snaps At Kaitlan Collins Ahead Of UN Speech"
+    },
+    {
+      "url": "https://www.irishstar.com/culture/entertainment/cnn-kaitlan-collins-donald-trump-37773849",
+      "title": "CNN's Kaitlan Collins angers White House by showing empty seats at Donald Trump rally"
+    },
+    {
+      "url": "https://www.unionleader.com/news/article_1926a686-2a9c-574a-ac10-80311d6e3057-479c7d47/",
+      "title": "Sununu says he will greet Trump but won't attend rally"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/20/new-hampshires-john-sununu-distances-trump-never-even-met-man/",
+      "title": "N.H.\u2019s Sununu distances himself from Trump: \u2018Never even met the man\u2019"
+    },
+    {
+      "url": "https://unionleader.com/news/politics/voters/sununu-says-he-will-greet-trump-but-won-t-attend-rally/article_1926a686-2a9c-574a-ac10-80311d6e3057.html",
+      "title": "Sununu says he will greet Trump but won't attend rally"
+    },
+    {
+      "url": "https://vnews.com/2026/09/20/nh-gop-distancing-trump/",
+      "title": "New Hampshire Republicans distance from Trump - Valley News"
+    },
+    {
+      "url": "https://www.cnn.com/2020/07/07/politics/new-hampshire-governor-trump-rally/index.html",
+      "title": "New Hampshire\u2019s GOP governor defends Trump\u2019s rally"
+    }
+  ]
+}
