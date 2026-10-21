@@ -250,5 +250,19 @@
       "url": "https://www.complex.com/music/a/dimassanfiorenzo/best-rappers-right-now",
       "title": "100 Hottest Rappers Right Now [October 2026]"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "c7b85512b9a8d013337927707b8dda4f8ab4d4cb",
+    "pushed_at": "2026-10-21T13:55:21Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXALBUMSTREAMS-WAT26OCT29-12.0M-c7b85512b9a8",
+    "thesis_commit": "c7b85512b9a8d013337927707b8dda4f8ab4d4cb",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (invalid_parameters)"
+  },
+  "result": {
+    "status": "open"
+  }
 }

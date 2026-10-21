@@ -236,5 +236,21 @@
       "url": "https://gulfnews.com/uae/us-israel-iran-war-lull-nears-breaking-point-us-israel-weighing-new-strikes-what-to-know-oct-20-2026-1.500716736",
       "title": "US-Israel-Iran war: Lull nears 'breaking point' \u2014 US, Israel weighing new strikes? What to know Oct. 20, 2026"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "c7b85512b9a8d013337927707b8dda4f8ab4d4cb",
+    "pushed_at": "2026-10-21T13:55:21Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXMAXSHIPSHORMUZ-26OCT01-AL10-c7b85512b9a8",
+    "thesis_commit": "c7b85512b9a8d013337927707b8dda4f8ab4d4cb",
+    "status": "resting",
+    "order_id": "01a15ebe-c4f8-73ee-9d34-9b1a52895521",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

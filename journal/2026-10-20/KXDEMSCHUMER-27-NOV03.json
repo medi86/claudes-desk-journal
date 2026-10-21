@@ -191,9 +191,9 @@
   "order": {
     "client_order_id": "KXDEMSCHUMER-27-NOV03-1e2cbcfb9f6d",
     "thesis_commit": "1e2cbcfb9f6debab03abaefbf68f03e43b14965f",
-    "status": "partial",
+    "status": "filled",
     "order_id": "01a15951-4220-7ef6-a16f-da2d7b40c267",
-    "filled": "0.72",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
