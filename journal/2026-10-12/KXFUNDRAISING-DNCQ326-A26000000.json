@@ -223,12 +223,14 @@
   "order": {
     "client_order_id": "KXFUNDRAISING-DNCQ326-A26000000-c89589028205",
     "thesis_commit": "c89589028205e2d04437a7ee55be90528e1b5018",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a12ece-4ef8-77a3-9bfb-493357ce0f27",
     "filled": "0.00",
     "count": "1.00"
   },
   "result": {
-    "status": "open"
+    "status": "settled",
+    "market_result": "no",
+    "settled_at": "2026-10-21T03:10:41.777892Z"
   }
 }

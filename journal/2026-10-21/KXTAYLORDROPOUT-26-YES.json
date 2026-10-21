@@ -265,5 +265,21 @@
       "url": "https://alaskapublic.org/news/politics/elections/2026-08-31/november-ballot-in-alaska-governors-race-set-after-chaotic-last-day-scramble",
       "title": "November ballot in Alaska governor\u2019s race set after chaotic last-day scramble"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "4390d52acdfc05c8617f422be64a4546a4e278a1",
+    "pushed_at": "2026-10-21T05:46:11Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTAYLORDROPOUT-26-YES-4390d52acdfc",
+    "thesis_commit": "4390d52acdfc05c8617f422be64a4546a4e278a1",
+    "status": "resting",
+    "order_id": "01a15cfe-ec88-7910-acc0-68dc18c56e27",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

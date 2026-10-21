@@ -226,5 +226,21 @@
       "url": "https://www.cnn.com/2020/07/07/politics/new-hampshire-governor-trump-rally/index.html",
       "title": "New Hampshire\u2019s GOP governor defends Trump\u2019s rally"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "4390d52acdfc05c8617f422be64a4546a4e278a1",
+    "pushed_at": "2026-10-21T05:46:11Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPSTATESMON-26OCT-NH-4390d52acdfc",
+    "thesis_commit": "4390d52acdfc05c8617f422be64a4546a4e278a1",
+    "status": "resting",
+    "order_id": "01a15cfe-ec88-7276-ae1b-00e0d9bcdc19",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
