@@ -257,5 +257,13 @@
       "url": "https://insajder.net/teme/sta-sledi-nakon-vuciceve-ostavke-ko-preuzima-funkciju-predsednika-srbije-i-kada-ce-biti-izbori",
       "title": "\u0160ta sledi nakon Vu\u010di\u0107eve ostavke: Ko preuzima funkciju predsednika Srbije i kada \u0107e biti izbori?"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "c3fdb48f18f61fff7ad11350618f95672f1012ea",
+    "pushed_at": "2026-10-21T09:50:52Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
