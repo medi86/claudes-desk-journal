@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "ticker": "KXLUKEOUT-26JUL-26NOV01",
+  "event": "KXLUKEOUT-26JUL",
+  "series": "KXLUKEOUT",
+  "title": "Will Sylvia Luke be out as Lieutenant Governor of Hawaii before Nov 1, 2026?",
+  "rules": "If Sylvia Luke leaves as Lieutenant Governor of Hawaii before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Sylvia Luke must have an actual departure date and vacate the role within the time period.\n\nIf the person leaves the role due to death (i.e., if the person dies while holding the role), all contracts on the person may resolve to the last fair price as determined in the sole discretion of the Exchange. Temporary leaves of absence, suspensions, or recusals do not constitute leaving, resigning from, or retiring from the role unless the individual formally and permanently ceases to hold the position. If the person vacates the role and then re-occupies the role, the contract may settle on the initial vacation of the role.\n\nFor \"leave,\" cessation of holding the role qualifies, including resignation, retirement, removal, expulsion, expiration of term without renewal, recall, or other means by which the individual no longer occupies the role\u2014this includes both voluntary and involuntary early departure AND the natural expiration of a term.",
+  "close_time": "2026-11-01T04:59:00+00:00",
+  "expected_close_time": "2026-11-01T04:59:00+00:00",
+  "forecast_at": "2026-10-21T13:50:57.362581+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.05",
+    "reasoning": "Luke has been on indefinite unpaid leave since April 2026 and was indicted for bribery in July. She has apparently refused Gov. Green's call to resign for about three months, and her term ends in early December 2026, after the market closes. With only about two weeks left, she has little reason to resign now, and impeachment or a conviction could not realistically happen that fast. A leave of absence does not count as leaving under the rules.",
+    "falsifier": "Luke formally resigns (for example as part of a plea deal) or is removed from office before November 1, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0800",
+    "best_yes_ask": "0.1400",
+    "p_market": "0.1100"
+  },
+  "final": {
+    "p_yes": "0.06",
+    "action": "buy_no",
+    "reasoning": "The market's 11% midpoint looks too high. Luke has stayed on unpaid leave for months since her July indictment, her term ends in December after the deadline, and only about two weeks remain for an unlikely resignation or removal. My last-minute news check was cut short, which keeps me from going much lower than 6%."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.0900",
+    "count": 1,
+    "cost": "0.9100",
+    "clamped_from": "0.06"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sylvia_Luke",
+      "title": "Sylvia Luke"
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2026/04/20/lt-gov-sylvia-luke-announces-decision-not-seek-reelection/",
+      "title": "Lt. Gov. Sylvia Luke announces decision to not seek re-election"
+    },
+    {
+      "url": "https://www.civilbeat.org/2026/04/lt-gov-sylvia-luke-abandons-reelection-bid/",
+      "title": "Lt. Gov. Sylvia Luke Abandons Reelection Bid - Honolulu Civil Beat"
+    },
+    {
+      "url": "https://ballotpedia.org/Sylvia_Luke",
+      "title": "Sylvia Luke - Ballotpedia"
+    },
+    {
+      "url": "https://alohastatedaily.com/2026/04/20/sylvia-luke-not-running-for-reelection/",
+      "title": "Sylvia Luke not running for reelection"
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2026/04/23/lieutenant-governor-sylvia-luke-announces-leave-absence-without-pay-indefinitely/",
+      "title": "Lieutenant Governor Sylvia Luke announces leave of absence, without pay, indefinitely"
+    },
+    {
+      "url": "https://bigislandnow.com/2026/04/19/sylvia-luke-announces-she-will-not-seek-re-election-for-lieutenant-governor-of-hawai%CA%BBi/",
+      "title": "Sylvia Luke announces she will not seek re-election for lieutenant governor of Hawai\u02bbi"
+    },
+    {
+      "url": "https://www.hawaiipublicradio.org/local-news/2026-04-19/lt-gov-sylvia-luke-ends-reelection-bid-cites-stress-on-family",
+      "title": "Lt. Gov. Sylvia Luke ends reelection bid, cites stress on family"
+    },
+    {
+      "url": "https://www.staradvertiser.com/2026/04/19/breaking-news/hawaii-lt-gov-sylvia-luke-will-not-seek-reelection/",
+      "title": "Hawaii Lt. Gov. Sylvia Luke announces she will not seek re-election"
+    },
+    {
+      "url": "https://www.civilbeat.org/2026/07/bribery-charges-sylvia-luke-ex-state-rep-and-others-indicted-in-corruption-case",
+      "title": "Bribery Charges: Sylvia Luke, Ex-State Rep And Others Indicted In Corruption Case - Honolulu Civil Beat"
+    },
+    {
+      "url": "https://political.org/2026/07/25/hawaii-lt-gov-sylvia-luke-indicted-on-bribery-and-conspiracy-charges-tied-to-covid-19-testing-contract-gov-josh-green-demands-resignation/",
+      "title": "Hawaii Lt. Gov. Sylvia Luke Indicted on Bribery and Conspiracy Charges Tied to COVID-19 Testing Contract; Gov. Josh Green Demands Resignation"
+    },
+    {
+      "url": "https://heritagereview.com/hawaii-gov-josh-green-calls-on-lt-gov-sylvia-luke-to-resign-after-bribery-indictment/",
+      "title": "Hawaii Gov. Josh Green calls on Lt. Gov. Sylvia Luke to resign after bribery indictment"
+    },
+    {
+      "url": "https://thedregsreport.com/2026/07/27/hawaiis-democratic-lieutenant-governor-indicted-on-bribery-charges-as-governor-calls-for-her-resignation/",
+      "title": "Hawaii Lt. Gov. Sylvia Luke Indicted on Bribery Charges"
+    },
+    {
+      "url": "https://conservativeinstitute.org/justice/hawaii-lt-gov-sylvia-luke-indicted-on-bribery-charges-tied-to-covid-19-testing-contract.htm",
+      "title": "Hawaii Lt. Gov. Sylvia Luke indicted on bribery charges tied to COVID-19 testing contract"
+    },
+    {
+      "url": "https://www.thegardenisland.com/2026/08/01/hawaii-news/green-calls-on-luke-to-resign-after-she-pleads-not-guilty-with-3-co-defendants/",
+      "title": "Green calls on Luke to resign after she pleads not guilty with 3 co-defendants - The Garden Island"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/politics/local/sylvia-luke-out-as-lieutenant-governor-of-hawaii",
+      "title": "Sylvia Luke out as Lieutenant Governor of Hawaii"
+    },
+    {
+      "url": "https://www.staradvertiser.com/2026/07/31/hawaii-news/luke-and-others-plead-not-guilty-green-again-calls-on-lieutenant-governor-to-resign/",
+      "title": "Green calls on Luke to resign after she pleads not guilty with 3 co-defendants"
+    },
+    {
+      "url": "https://www.kitv.com/news/5-officials-including-sylvia-luke-indicted-by-oahu-grand-jury-in-political-bribery-case/article_6928bcd0-06a5-4269-a62d-4ef4c9a3ebf3.html",
+      "title": "5 officials, including Sylvia Luke, indicted by Oahu grand jury in political bribery case"
+    },
+    {
+      "url": "https://thehill.com/homenews/state-watch/5990691-hawaii-sylvia-luke-indicted-bribery/",
+      "title": "Hawaii Lt. Gov. indicted in alleged bribery scheme"
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2026/07/25/luke-among-5-indicted-by-grand-jury-following-massive-bribery-probe/",
+      "title": "Luke among 5 indicted by grand jury following massive bribery probe"
+    },
+    {
+      "url": "https://www.msn.com/en-us/news/us/hawaiis-lt-gov-sylvia-luke-indicted-for-bribery/ar-AA28Gggl",
+      "title": "Hawaii's Lt. Gov. Sylvia Luke indicted for bribery"
+    },
+    {
+      "url": "https://www.thegatewaypundit.com/2026/07/hawaiis-democrat-lt-gov-sylvia-luke-indicted-grand/",
+      "title": "Hawaii\u2019s Democrat Lt. Gov. Sylvia Luke Indicted by Grand Jury on Criminal Conspiracy Connected to Alleged Payment Involving COVID 19 Testing Contract * The Gateway Pundit * by Margaret Flavin"
+    },
+    {
+      "url": "https://www.hawaiipublicradio.org/local-news/2026-07-24/lt-gov-sylvia-luke-indicted-in-alleged-bribery-scheme",
+      "title": "Lt. Gov. Sylvia Luke indicted in alleged bribery scheme"
+    },
+    {
+      "url": "https://www.msn.com/en-us/politics/government/hawaii-lt-gov-sylvia-luke-indicted-in-bribery-case-tied-to-covid-19-testing-contract/ar-AA28HViJ",
+      "title": "Hawaii Lt. Gov. Sylvia Luke indicted in bribery case tied to COVID-19 testing contract"
+    },
+    {
+      "url": "https://www.msn.com/en-us/news/other/hawaii-lt-gov-sylvia-luke-indicted-in-state-corruption-probe/ar-AA28ItjC",
+      "title": "Hawaii Lt. Gov. Sylvia Luke indicted in state corruption probe"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/hawaiis-democratic-lieutenant-governor-indicted-state-corruption-investigation",
+      "title": "Hawaii Lt Gov Sylvia Luke indicted on bribery and conspiracy charges"
+    },
+    {
+      "url": "https://www.staradvertiser.com/2026/02/15/hawaii-news/questions-over-lt-gov-sylvia-luke-likely-to-inspire-challengers/",
+      "title": "Questions over Lt. Gov. Sylvia Luke likely to inspire challengers"
+    },
+    {
+      "url": "https://www.civilbeat.org/2026/04/hawaii-lt-gov-luke-taking-leave-of-absence/",
+      "title": "New Acting Lt. Gov. Chosen As Luke Takes Leave Of Absence - Honolulu Civil Beat"
+    },
+    {
+      "url": "https://www.hawaiitribune-herald.com/2026/07/24/hawaii-news/lt-gov-luke-four-others-indicted-in-political-corruption-probe/",
+      "title": "Lt. Gov. Luke, four others indicted in political corruption probe - Hawaii Tribune-Herald"
+    },
+    {
+      "url": "https://www.hawaiipublicradio.org/local-news/2026-04-23/lt-gov-sylvia-luke-to-take-leave-of-absence-amid-investigation",
+      "title": "Sylvia Luke takes leave of absence, comptroller named acting lieutenant governor"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/justice/4663722/hawaii-lieutenant-governor-sylvia-luke-bribery/",
+      "title": "Hawaii's Democratic lieutenant governor indicted in bribery investigation"
+    },
+    {
+      "url": "https://www.chron.com/news/article/new-acting-lt-gov-chosen-in-hawaii-as-luke-22224481.php",
+      "title": "New Acting Lt. Gov. Chosen in Hawaii As Luke Takes Leave Of Absence"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/hi/hawaii/news/2026/04/24/luke-steps-aside-amid-bribery-investigation",
+      "title": "Luke steps aside amid bribery investigation"
+    },
+    {
+      "url": "https://www.kitv.com/news/local/lt-gov-luke-takes-indefinite-leave-amid-bribery-investigation/article_3958fffc-34a4-4797-b7a8-af26987f850d.html",
+      "title": "Lt. Gov. Luke takes indefinite leave amid bribery investigation"
+    },
+    {
+      "url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-names-keith-regan-as-acting-lieutenant-governor/",
+      "title": "Office of the Governor \u2014 News Release \u2014 Governor Green Names Keith Regan as Acting Lieutenant Governor"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Keith_Regan",
+      "title": "Keith Regan"
+    },
+    {
+      "url": "https://www.hawaiipublicradio.org/the-conversation/2026-05-05/balancing-act-acting-lt-gov-keith-regan-speaks-on-embracing-his-new-role",
+      "title": "Balancing act: Acting Lt. Gov. Keith Regan speaks on embracing his new role"
+    },
+    {
+      "url": "https://www.kitv.com/news/local/comptroller-keith-regan-named-acting-lieutenant-governor-for-hawaii/article_8530a08b-3f72-440f-99ab-25f3bbf1ae43.html",
+      "title": "Comptroller Keith Regan named Acting Lieutenant Governor for Hawaii"
+    },
+    {
+      "url": "https://mauinow.com/2026/05/09/from-trucking-to-technocrat-how-did-former-maui-official-keith-regan-land-in-states-second-highest-post/",
+      "title": "From trucking to technocrat: How did former Maui official Keith Regan land in state\u2019s second-highest post?"
+    },
+    {
+      "url": "https://alohastatedaily.com/2026/04/27/who-is-hawaiis-acting-lieutenant-governor/",
+      "title": "Who is Hawai\u2018i's Acting Lieutenant Governor?"
+    },
+    {
+      "url": "https://hoodline.com/2026/05/maui-trucking-vet-thrust-into-hawaii-power-vacuum-as-acting-lt-gov/",
+      "title": "Keith Regan Named Acting Lieutenant Governor in Hawaii"
+    },
+    {
+      "url": "https://civilbeat.digitaldemocracy.org/officials/keith-regan-187694",
+      "title": "Keith Regan - Digital Democracy"
+    },
+    {
+      "url": "https://bigislandnow.com/2026/04/23/gov-green-names-keith-regan-acting-lieutenant-governor-with-sylvia-luke-taking-leave-of-absence/",
+      "title": "Gov. Green names Keith Regan acting lieutenant governor with Sylvia Luke taking leave of absence"
+    },
+    {
+      "url": "https://kauainownews.com/2026/04/23/keith-regan-named-acting-lt-gov-hours-after-sylvia-luke-announced-she-was-stepping-down/",
+      "title": "Keith Regan named acting Lt. Governor hours after Sylvia Luke announced she was stepping down"
+    },
+    {
+      "url": "https://www.hawaiipublicradio.org/local-news/2026-07-31/hawaii-lawmakers-call-for-emergency-special-session",
+      "title": "Hawai\u02bbi lawmakers call for emergency special session"
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2026/07/29/indictment-sparks-calls-special-session-contractor-donation-ban/",
+      "title": "Indictment sparks calls for special session on contractor donation ban"
+    },
+    {
+      "url": "https://bookofthestates.org/tables/2022-4-8/",
+      "title": "Impeachment Provisions in the States"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/88th_Texas_Legislature",
+      "title": "88th Texas Legislature"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/resources/register/chapter_2_legislative_branch.pdf",
+      "title": "Chapter 2 - Iowa Legislature"
+    },
+    {
+      "url": "https://www.gmanetwork.com/news/topstories/nation/990385/impeachment-prosecutors-open-to-holding-special-session/story/",
+      "title": "Impeachment prosecutors open to holding special session"
+    },
+    {
+      "url": "https://www.justsecurity.org/wp-content/uploads/2020/01/ukraine-clearinghouse-crec-2020-01-21-senate.pdf",
+      "title": "Congressional Record U N U M E P LU RI B U S United States of America"
+    },
+    {
+      "url": "https://www.thehansindia.com/news/cities/new-delhi/special-parliament-session-likely-in-october-end-delimitation-womens-bill-on-agenda-1132943",
+      "title": "Special Parliament Session Likely in October-End; Delimitation, Women\u2019s Bill on Agenda"
+    },
+    {
+      "url": "https://testbook.com/question-answer/which-of-the-following-options-do-not-participate--5e25c5eaf60d5d3b87e1e7c8",
+      "title": "[Solved] Which of the following options do not participate in the imp"
+    },
+    {
+      "url": "https://bookofthestates.org/tables/2022-3-2/",
+      "title": "Legislative Sessions: Legal Provisions"
+    }
+  ]
+}

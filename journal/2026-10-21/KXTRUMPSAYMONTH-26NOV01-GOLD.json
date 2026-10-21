@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPSAYMONTH-26NOV01-GOLD",
+  "event": "KXTRUMPSAYMONTH-26NOV01",
+  "series": "KXTRUMPSAYMONTH",
+  "title": "Will Trump say \"Golden Dome\" before Nov 1, 2026?",
+  "rules": "If Golden Dome, or a plural or possessive form of Golden Dome, is stated by Donald Trump after October 1, 2026 at 10:00am ET and before Nov 1, 2026 at 12:00am ET, then the market resolves to Yes.",
+  "rules_secondary": "Payout criteria\nThe word or phrase must be stated by President Donald Trump in public statements, direct quotes published by Source Agencies, or written public statements on his personal social media accounts (Twitter/Truth Social).\nThe exact phrase/word, or a plural or possessive form of the phrase/word, must be used.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\n Official acts like Executive Orders or bills signed do not count. \n Grammatical/tense inflections.",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-21T13:50:57.362581+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.91",
+    "reasoning": "Golden Dome is one of Trump's signature projects. He has repeatedly named it in speeches and on Truth Social, and it is in the news this month because of a funding fight. He is giving midterm rally speeches almost daily through October, so a direct quote between Oct 1 and Nov 1 is very likely. I couldn't confirm a specific October quote, so some risk remains that he sticks to domestic campaign themes.",
+    "falsifier": "A transcript review of Trump's October 1-31, 2026 rallies, interviews, and Truth Social posts finds no instance of him saying or writing 'Golden Dome'.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2100",
+    "best_yes_ask": "0.3800",
+    "p_market": "0.2950"
+  },
+  "final": {
+    "p_yes": "0.78",
+    "action": "buy_yes",
+    "reasoning": "The low price hints that traders may have checked and found no October mention so far, so I lowered my estimate. With frequent rallies and an active Golden Dome funding story, I still think a mention before Nov 1 is well above the ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.3700",
+    "count": 1,
+    "cost": "0.3700",
+    "clamped_from": "0.78"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Golden_Dome_(missile_defense_system)",
+      "title": "Golden Dome (missile defense system)"
+    },
+    {
+      "url": "https://www.congress.gov/crs-product/IF13115",
+      "title": "Defense Primer: The Golden Dome for America"
+    },
+    {
+      "url": "https://armscontrolcenter.org/fact-sheet-golden-dome/",
+      "title": "Fact Sheet: \"Golden Dome\" - Center for Arms Control and Non-Proliferation"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/golden-dome-for-america-trump-missile-defense-plan/",
+      "title": "What is the \"Golden Dome\"? Here's what to know about Trump's missile defense plans - CBS News"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/13/g-s1-121780/trumps-golden-dome-cost",
+      "title": "Trump's proposed 'Golden Dome' estimated to cost $1.2 trillion : NPR"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/trump-golden-dome-25-billion-dollar-missile-defense/",
+      "title": "Trump announces $25 billion and architectural design for \"Golden Dome\" missile defense system - CBS News"
+    },
+    {
+      "url": "https://www.astronomy.com/science/heres-how-trumps-golden-dome-would-work-and-why-some-call-it-a-fantasy/",
+      "title": "Trump's Golden Dome: How will it work? Is it a \u2018fantasy\u2019?"
+    },
+    {
+      "url": "https://www.gisreportsonline.com/r/trump-golden-dome/",
+      "title": "Golden Dome takes shape"
+    },
+    {
+      "url": "https://politifact.com/truth-o-meter/promises/maga-meter-tracking-donald-trumps-2024-promises/promise/387485/construct-an-iron-dome-like-missile-defense-system/article/387489/",
+      "title": "Trump fills in some details on \u2018Golden Dome\u2019 missile defense plan"
+    },
+    {
+      "url": "https://www.euronews.com/next/2026/01/19/what-is-donald-trumps-proposed-golden-dome-missile-defence-system-and-how-would-it-work",
+      "title": "What is Donald Trump's proposed 'Golden Dome' missile defence system and how would it work?"
+    },
+    {
+      "url": "https://www.defensenews.com/air-warfare/2026/10/20/us-army-support-for-golden-dome-missile-shield-takes-shape/",
+      "title": "US Army support for Golden Dome missile shield takes shape"
+    },
+    {
+      "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-expands-golden-dome-cyber-defenses-to-protect-homeland-missile-systems-against-cyberattacks",
+      "title": "U.S. Expands Golden Dome Cyber Defenses to Protect Homeland Missile Systems Against Cyberattacks"
+    },
+    {
+      "url": "https://www.koreatimes.co.kr/amp/world/20261021/us-bill-calls-for-updating-list-of-critical-golden-dome-missile-defense-assets",
+      "title": "US bill calls for updating list of critical Golden Dome missile defense assets - The Korea Times"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/us-army-support-golden-dome-173040121.html",
+      "title": "US Army support for Golden Dome missile shield takes shape"
+    },
+    {
+      "url": "https://www.armscontrol.org/act/2026-10/news/golden-dome-defend-against-decapitation-rogue-attacks",
+      "title": "Golden Dome to Defend Against Decapitation, Rogue Attacks"
+    },
+    {
+      "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-army-assigns-first-air-defense-unit-to-golden-dome-missile-defense-mission",
+      "title": "U.S. Army Assigns First Air Defense Unit to Golden Dome Missile Defense Mission"
+    },
+    {
+      "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-invests-17-9-billion-in-golden-dome-air-and-missile-defense-system-to-counter-china-russia-threats",
+      "title": "U.S. Unveils $17.9 Billion Golden Dome Missile Defense Program in 2027 Defense Budget"
+    },
+    {
+      "url": "https://thehill.com/policy/defense/6127776-golden-dome-missile-funding-crisis/",
+      "title": "Golden Dome faces uncertainty as Congress struggles to put up money"
+    },
+    {
+      "url": "https://ua.news/en/world/armiia-ssha-viznachila-pidrozdil-ppo-dlia-golden-dome-defense-news",
+      "title": "US Army selects air defense unit for Golden Dome \u2014 Defense News"
+    },
+    {
+      "url": "https://koreatimes.co.kr/amp/world/20261021/us-bill-calls-for-updating-list-of-critical-golden-dome-missile-defense-assets",
+      "title": "US bill calls for updating list of critical Golden Dome missile defense assets - The Korea Times"
+    },
+    {
+      "url": "https://21stcentech.com/why-trumps-golden-dome-will-be-impossible-and-the-weaponization-of-the-heavens",
+      "title": "Why Trump's Golden Dome Will Be Impossible and the Weaponization of the Heavens - 21st Century Tech Blog"
+    },
+    {
+      "url": "https://news.bgov.com/bloomberg-government-news/spacex-defense-portfolio-surges-with-trumps-golden-dome-awards",
+      "title": "SpaceX Defense Portfolio Surges with Trump\u2019s Golden Dome Awards"
+    },
+    {
+      "url": "https://www.dailysignal.com/2026/10/06/golden-dome-senate-hearing-missiles/",
+      "title": "What the Golden Dome Provides: Insights From the Hearing"
+    },
+    {
+      "url": "https://www.bloomberg.com/graphics/2026-trump-golden-dome-unproven-bet/",
+      "title": "Trump Asks Companies to Spend Billions on Unproven Tech For His Golden Dome"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/nation/trumps-golden-dome-estimated-to-cost-1-2-trillion-far-more-than-initially-said",
+      "title": "Trump's 'Golden Dome' estimated to cost $1.2 trillion, far more than initially said"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L3qkJziT_5M",
+      "title": "Trump Announces Golden Dome System (Full Remarks) - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c6ddYqPcWLU&pp=0gcJCdgAo7VqN5tD",
+      "title": "Full Speech: US' Golden Dome Vs Iron Dome? Trump\u2019s Unveils Big Plan to Spark Biggest Defense Boom - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2fpW2K_Z8CY",
+      "title": "Trump announces 'Golden Dome' missile shield - YouTube"
+    },
+    {
+      "url": "https://www.whitehouse.gov/videos/breaking-president-trump-announces-the-golden-dome/",
+      "title": "BREAKING: President Trump announces the 'Golden Dome'"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cHdLv8Jfgqw",
+      "title": "Trump unveils Golden Dome defence project - confirming US plans to put weapons in space - YouTube"
+    },
+    {
+      "url": "https://breakingdefense.com/2026/01/trump-calls-for-immediate-negotiations-for-greenland-calls-island-critical-for-golden-dome/",
+      "title": "Trump calls for \u2018immediate negotiations\u2019 for Greenland, says island critical for Golden Dome - Breaking Defense"
+    },
+    {
+      "url": "https://www.americanrhetoric.com/speeches/donaldjtrumpgoldendomeannouncement.htm",
+      "title": "Donald J. Trump: Opening Remarks to the Press Announcing Golden Dome Anti-Missile Defense System (transcript-video)"
+    },
+    {
+      "url": "https://uk.news.yahoo.com/trump-goes-truth-social-spree-033249378.html",
+      "title": "Trump goes on Truth Social spree with AI posts on Greenland and Golden Dome defense shield for the White House - Yahoo News UK"
+    },
+    {
+      "url": "https://www.aol.com/articles/trump-goes-truth-social-spree-033249000.html",
+      "title": "Trump goes on Truth Social spree with AI posts on Greenland and Golden Dome defense shield for the White House - AOL"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-posts-ai-image-golden-191457910.html",
+      "title": "Trump Posts AI Image of Golden Dome Over White House Amid Renovation Push"
+    },
+    {
+      "url": "https://www.unilad.com/news/us-news/trump-truth-social-greenland-golden-dome-ai-posts-022537-20260523",
+      "title": "Trump posts AI Greenland takeover visuals during Truth Social spree alongside Golden Dome defence plan"
+    },
+    {
+      "url": "https://www.aninews.in/news/world/us/trump-shares-ai-pic-of-golden-dome-around-white-house20260523065111/",
+      "title": "Trump shares AI pic of 'golden dome' around White House"
+    },
+    {
+      "url": "https://www.axios.com/2025/05/28/trump-canada-golden-dome-carney-eu",
+      "title": "Trump touts free \"Golden Dome\" for Canada, as PM Carney pushes for closer ties with EU"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/12/trump-rally-voters-ohio-key-races-senate-governor/",
+      "title": "Trump to rally voters again in Ohio in key races for Senate, governor"
+    },
+    {
+      "url": "https://defensenews.com/air-warfare/2026/10/20/us-army-support-for-golden-dome-missile-shield-takes-shape",
+      "title": "US Army support for Golden Dome missile shield takes shape"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/17/trump-touts-power-kentucky-rally-ahead-midterm-elections/",
+      "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections"
+    },
+    {
+      "url": "https://nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465",
+      "title": "Trump holds rally in North Carolina for midterm GOP candidates"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/17/trump-rallies-bluegrass-voters-support-gop-ticket/",
+      "title": "Trump rallies Bluegrass voters to support GOP ticket"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/14/trump-rallies-faithful-bullhead-city-arizona-early-voting-underway/",
+      "title": "Trump rallies faithful in Bullhead City, Arizona, with early voting underway"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/12/politics/trump-rally-ohio",
+      "title": "Trump holds raucous Ohio rally as he tries to shore up base voters for GOP"
+    }
+  ]
+}

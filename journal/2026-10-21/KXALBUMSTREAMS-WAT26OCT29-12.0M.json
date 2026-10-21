@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMSTREAMS-WAT26OCT29-12.0M",
+  "event": "KXALBUMSTREAMS-WAT26OCT29",
+  "series": "KXALBUMSTREAMS",
+  "title": "Will Watch Dis by Yung Miami have above 12000000 streams during the October 23, 2026 - October 29, 2026 tracking week? Above 12M",
+  "rules": "If Watch Dis by Yung Miami has above 12M streams during the October 23, 2026 - October 29, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 23, 2026 - October 29, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-11-01T14:00:00+00:00",
+  "expected_close_time": "2026-11-01T14:00:00+00:00",
+  "forecast_at": "2026-10-21T13:50:57.362581+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.74",
+    "reasoning": "Watch Dis is Yung Miami's debut solo album and comes out Oct 23, the first day of the tracking week. It includes her Hot 100 top-20 hit 'Spend Dat' and two remixes, plus features from Travis Scott, Lil Baby, Quavo and Summer Walker. 'Spend Dat' alone probably still gets something like 7-10M U.S. streams a week, and about nine new tracks at roughly 1-2M each would put the album well above 12M. The main risks are that the single has faded more than I think, the new tracks get little attention, the count turns out to be audio-only, or the album is delayed.",
+    "falsifier": "The album is delayed past Oct 29, or Luminate shows 'Spend Dat' below ~5M weekly streams and the new tracks averaging under ~0.7M each, leaving the album under 12M.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1600",
+    "best_yes_ask": "0.3400",
+    "p_market": "0.2500"
+  },
+  "final": {
+    "p_yes": "0.5",
+    "action": "buy_yes",
+    "reasoning": "I cut my estimate from 0.74 to 0.5 because the original 'Spend Dat' may not be on the album, and the low market price is some evidence of weaker demand. Even so, a debut album with a recent top-20 hit, its remixes and big guest artists has a fair chance of 12M+ in its first full week, which is above the 0.34 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.3300",
+    "count": 1,
+    "cost": "0.3300",
+    "clamped_from": "0.50"
+  },
+  "sources": [
+    {
+      "url": "https://music.apple.com/us/album/watch-dis/6816805547",
+      "title": "Watch Dis - Album by Yung Miami - Apple Music"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/20/yung-miami-watch-dis-album-october-23-features/",
+      "title": "Yung Miami\u2019s \"WATCH DIS\" Arrives October 23 With Travis Scott, Summer Walker and More"
+    },
+    {
+      "url": "https://www.mybasin.com/2026/10/15/yung-miami-to-release-debut-solo-album-watch-dis/",
+      "title": "Yung Miami to release debut solo album 'Watch Dis'"
+    },
+    {
+      "url": "https://www.audacy.com/v103/latest/yung-miami-watch-dis",
+      "title": "Yung Miami on \u2018Watch Dis,\u2019 City Girls, motherhood and more"
+    },
+    {
+      "url": "https://thesource.com/2026/10/05/yung-miami-watch-dis-debut-album/",
+      "title": "Yung Miami Announces Debut Solo Album \u2018WATCH DIS\u2019 With Two New Singles"
+    },
+    {
+      "url": "https://foxy99.com/2026/10/19/yung-miami-to-release-debut-solo-album-watch-dis-on-oct-23/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis' on Oct. 23 - foxy99.com"
+    },
+    {
+      "url": "https://1077thebounce.com/2026/10/19/yung-miami-to-release-debut-solo-album-watch-dis-on-oct-23/",
+      "title": "Yung Miami to Release Debut Solo Album 'Watch Dis' on Oct. 23 - 107.7 The Bounce"
+    },
+    {
+      "url": "https://musictimes.com/articles/112999/20261021/chart-watch-billboard-200-this-week.htm",
+      "title": "Billboard 200 Chart Watch: Taylor Swift Hits 101 Weeks at No. 1, Greta Van Fleet Debuts, Republic Dominates Top 10"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/1013192-yung-miami-city-girls-reunion",
+      "title": "Yung Miami Had A One-Word Response When Asked About A City Girls Reunion"
+    },
+    {
+      "url": "https://www.udiscovermusic.com/news/yung-miami-debut-album-watch-dis/",
+      "title": "Yung Miami Announces Debut Album \u2018Watch Dis\u2019"
+    },
+    {
+      "url": "https://foxy99.com/2026/10/02/yung-miami-announces-debut-solo-album-watch-dis-after-spend-dat-success/",
+      "title": "Yung Miami Announces Debut Solo Album 'Watch Dis' After 'Spend Dat' Success - foxy99.com"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/yung-miami-announces-debut-solo-175943410.html",
+      "title": "Yung Miami Launches Debut Solo Album With New Songs ..."
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/10/02/ung-miamis-summer-was-just-the-beginning-now-she-tells-the-world-watch-this-debut-solo-album-watch-disout-october-23/",
+      "title": "YUNG MIAMI\u2019S SUMMER WAS JUST THE BEGINNING NOW SHE TELLS THE WORLD, WATCH THIS DEBUT SOLO ALBUM WATCH DISOUT OCTOBER 23 - Universal Music Canada"
+    },
+    {
+      "url": "https://hip-hopvibe.com/news/yung-miami-announces-debut-album-watch-dis/",
+      "title": "Yung Miami Announces Her Debut Album \u201cWatch Dis\u201d"
+    },
+    {
+      "url": "https://www.complex.com/music/a/markelibert/yung-miami-watch-dis-debut-solo-album-announcement",
+      "title": "Yung Miami Wants to 'Prove Everybody Wrong' as She Announces Debut Solo Album"
+    },
+    {
+      "url": "https://www.thehypemagazine.com/2026/10/09/yung-miami-f-you-video-watch-dis/",
+      "title": "Yung Miami Debuts Explosive \u201cF-You\u201d Music Video Ahead of Solo Album The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactful Editorials Spanning Fashion, Gaming, Movies, MMA, EDM, Rock, and Beyond! www.thehypemagazine.com - The Hype Magazine The Hype Magazine - News From Hip Hop To Hollywood!"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/yung-miami-spend-dat-hot-100-top-20-city-girls-1236289480/",
+      "title": "Yung Miami \u2018Spend Dat\u2019 Hits Hot 100 Top 20, Passing City Girls Peak"
+    },
+    {
+      "url": "https://inmusicblog.com/rap/yung-miami-watch-dis-album-tracklist/",
+      "title": "Yung Miami Unveils \u2018Watch Dis\u2019 Tracklist With Travis Scott, Quavo and Summer Walker"
+    },
+    {
+      "url": "https://hotaugusta.com/2026/07/02/yung-miamis-spend-dat-climbs-to-no-25-on-billboard-hot-100-hits-solo-career-high/",
+      "title": "Yung Miami's 'Spend Dat' Climbs to No. 25 on Billboard Hot 100, Hits Solo Career High - Hot Augusta"
+    },
+    {
+      "url": "https://hotaugusta.com/2026/08/26/yung-miami-hit-spend-dat-reaches-no-17-on-hot-100-as-solo-album-nears-release/",
+      "title": "Yung Miami Hit 'Spend Dat' Reaches No. 17 on Hot 100 as Solo Album Nears Release - Hot Augusta"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/yung-miami-spend-dat-reaches-220932900.html",
+      "title": "Yung Miami\u2019s \u2018Spend Dat\u2019 Reaches Hot 100 Top 20, Surpassing City Girls\u2019 Peak"
+    },
+    {
+      "url": "https://www.antimusic.com/p/26/p0602yung_miami_hits_the_billboard_hot_100_with_spend_dat.shtml",
+      "title": "Yung Miami Hits The Billboard Hot 100 With 'Spend Dat' ::antiMusic.com"
+    },
+    {
+      "url": "https://thesource.com/2026/06/20/yung-miami-spend-dat-billboard-hot-100-top-40/",
+      "title": "Yung Miami\u2019s \u201cSpend Dat\u201d Reaches Top 40 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.vibe.com/features/opinion/yung-miami-spend-dat-song-of-the-summer-1235178177/",
+      "title": "Yung Miami\u2019s \u201cSpend Dat\u201d is Undoubtedly the Song of the Summer"
+    },
+    {
+      "url": "https://www.hot97.com/news/yung-miamis-spend-dat-reaches-riaa-platinum-eligibility/",
+      "title": "Yung Miami's \"Spend Dat\" Reaches RIAA Platinum Eligibility"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/yung-miami-unveils-watch-dis-album-tracklist-featuring-summer-walker-trina-travis-scott-more/",
+      "title": "Yung Miami Unveils 'Watch Dis' Album Tracklist Featuring Summer Walker, Trina, Travis Scott, & More - That Grape Juice"
+    },
+    {
+      "url": "https://theneedledrop.com/news/lil-baby-reveals-fresh-album-artwork-and-november-release-date",
+      "title": "Lil Baby reveals \u2018Fresh\u2019 album artwork and November release date"
+    },
+    {
+      "url": "https://consequence.net/upcoming-releases",
+      "title": "A Complete and Updated List of Upcoming Releases in Music"
+    },
+    {
+      "url": "https://24hip-hop.com/yung-miami-2008-f-you-watch-dis/",
+      "title": "Yung Miami Pairs \u201c2008\u201d and \u201cF You\u201d as the Watch Dis Countdown Begins - 24Hip-Hop"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/112999/20261021/chart-watch-billboard-200-this-week.htm",
+      "title": "Billboard 200 Chart Watch: Taylor Swift Hits 101 Weeks at No. 1, Greta Van Fleet Debuts, Republic Dominates Top 10"
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/quarter-of-a-billion-tracks-now-sit-on-music-streaming-services-where-does-it-end/",
+      "title": "Music streaming platforms now host quarter of a BILLION tracks. Where does it end?"
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/global-audio-streams-jumped-14-in-2024-to-4-8-trillion-as-pop-music-was-the-fastest-growing-genre-in-the-us/",
+      "title": "Global audio streams jumped 14% in 2024 to 4.8 trillion"
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/global-on-demand-audio-streams-grew-15-1-to-reach-2-29tn-in-h1-according-to-luminates-mid-year-report/",
+      "title": "Global on-demand audio streams grew 15.1% to reach 2.29 trillion in H1, according to Luminate\u2019s Midyear Music Report - Music Business Worldwide"
+    },
+    {
+      "url": "https://imusician.pro/en/resources/blog/150-000-new-tracks-uploaded-to-music-platforms-daily",
+      "title": "150,000 New Tracks Are Uploaded to Streaming Platforms Every Day"
+    },
+    {
+      "url": "https://www.recordoftheday.com/news-and-press/luminate-2024-year-end-music-report-global-audio-streaming-grows-14-driven-by-ex-us-markets",
+      "title": "Luminate 2024 year-end music report: Global audio streaming grows 14%, driven by ex-US markets"
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/there-are-now-more-than-200m-tracks-on-audio-streaming-services-nearly-100m-of-them-attracted-no-more-than-10-plays-each/",
+      "title": "There are now over 200m tracks on audio streaming services. Nearly 100m of them aren\u2019t played more than 10 times each year. - Music Business Worldwide"
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/middle-class-of-artists-growing-larger-luminate-report-finds-as-29253-clocked-between-1m-and-10m-on-demand-audio-streams-in-h1/",
+      "title": "\u2018Middle class\u2019 of artists growing larger, Luminate report finds, as 29,253 clocked between 1m and 10m on-demand audio streams in H1 - Music Business Worldwide"
+    },
+    {
+      "url": "https://www.ukmix.org/forum/chart-discussion/chart-analysis/11657880-luminate%E2%80%99s-2024-year-end-music-report-for-the-usa",
+      "title": "Luminate\u2019s 2024 Year-End Music Report for the USA - UKMIX Forums"
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/on-demand-song-streams-grew-12-2-in-the-us-last-year-and-25-6-globally1/",
+      "title": "On-demand song streams grew 12.2% in the US last year, and 25.6% globally - Music Business Worldwide"
+    },
+    {
+      "url": "https://newhot997.com/khhk-homepage-news/yung-miami-reveals-tracklist-star-studded-features-for-new-album/",
+      "title": "Yung Miami Reveals Tracklist & Star-Studded Features For New Album"
+    },
+    {
+      "url": "https://music.amazon.com/albums/B0HL7TX93N?trackAsin=B0HL7R6SQQ",
+      "title": "Play Watch Dis by Yung Miami on Amazon Music Unlimited"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/yung-miami/1476226954",
+      "title": "Yung Miami on Apple Music"
+    },
+    {
+      "url": "https://ca.news.yahoo.com/yung-miami-announces-debut-solo-175943410.html",
+      "title": "Yung Miami Launches Debut Solo Album With New Songs \u201cF U\u201d and \u201c2008\u201d - Yahoo News Canada"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-hot-100-17-october-2026/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-hot-100-03-october-2026-2/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.spectrum-pulse.ca/blog/billboard-breakdown-hot-100-october-10-2026",
+      "title": "billboard BREAKDOWN - hot 100 - october 10, 2026 \u2014 Spectrum Pulse"
+    },
+    {
+      "url": "https://capitalfm.africa/yung-miamis-spend-dat-soars-up-the-hot-100-deemed-song-of-the-summer/",
+      "title": "Yung Miami\u2019s \u201cSpend Dat\u201d Soars Up The Hot 100, Deemed Song Of The Summer"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/hot-100/2026-10-10",
+      "title": "The Billboard Hot 100"
+    },
+    {
+      "url": "https://www.miaminewtimes.com/music/yung-miami-spend-dat-goes-gold-40567093/",
+      "title": "Yung Miami \"Spend Dat\" goes gold"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/hot-100/2026-10-17",
+      "title": "The Billboard Hot 100"
+    },
+    {
+      "url": "https://www.complex.com/music/a/jaelaniturnerwilliams/india-arie-yung-miami-spend-dat-criticism",
+      "title": "India.Arie Criticizes 'Mass Acceptance' of Yung Miami Song \"Spend Dat\""
+    },
+    {
+      "url": "https://www.complex.com/music/a/dimassanfiorenzo/best-rappers-right-now",
+      "title": "100 Hottest Rappers Right Now [October 2026]"
+    }
+  ]
+}
