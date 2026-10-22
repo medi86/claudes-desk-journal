@@ -210,5 +210,21 @@
       "url": "https://www.breezyscroll.com/world/russia-diesel-tanker-us-trump-putin-deal",
       "title": "Russia to Send First Diesel Tanker to US on Thursday"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "f3847f9ddd15a5efc9c09c1c8cbacf48f7ebb6f5",
+    "pushed_at": "2026-10-22T06:01:50Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXRUSDIESELIMPORT-27-26NOV01-f3847f9ddd15",
+    "thesis_commit": "f3847f9ddd15a5efc9c09c1c8cbacf48f7ebb6f5",
+    "status": "resting",
+    "order_id": "01a16233-9898-75b3-bd9f-3e5bb26eaa9a",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
