@@ -230,5 +230,21 @@
       "url": "https://www.yardbarker.com/entertainment/articles/taylor_swifts_patient_zero_debuts_at_no_1_on_hot_100_ending_ella_langleys_record_choosin_texas_run/s1_17431_44399764",
       "title": "Taylor Swift's 'Patient Zero' Debuts at No. 1 on Hot 100, Ending Ella Langley's Record 'Choosin' Texas' Run"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "24ed83819b36fca5145ed98aed684d78e8836e4d",
+    "pushed_at": "2026-10-22T10:04:26Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXWEEKSNUM1-26OCT31-CHO-2-24ed83819b36",
+    "thesis_commit": "24ed83819b36fca5145ed98aed684d78e8836e4d",
+    "status": "resting",
+    "order_id": "01a16311-b7e0-755f-bfb0-b8a679b925fd",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
