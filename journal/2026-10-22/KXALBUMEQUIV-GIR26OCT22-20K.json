@@ -1,0 +1,237 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-GIR26OCT22-20K",
+  "event": "KXALBUMEQUIV-GIR26OCT22",
+  "series": "KXALBUMEQUIV",
+  "title": "Will The Girl Of Your Dreams by Ashe have above 20000 Album Equivalent Units during the October 16, 2026 - October 22, 2026 tracking week? Above 20K",
+  "rules": "If The Girl Of Your Dreams by Ashe has above 20K Album Equivalent Units during the October 16, 2026 - October 22, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 16, 2026 - October 22, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-10-25T14:00:00+00:00",
+  "expected_close_time": "2026-10-25T14:00:00+00:00",
+  "forecast_at": "2026-10-22T10:01:55.171011+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.8",
+    "reasoning": "Ashe's lead single 'Stop the Wedding!' just reached No. 34 on the Hot 100 and was still climbing when the album dropped Oct 16 on Atlantic, with 245K+ Spotify pre-saves and many physical variants and in-store events. A No. 34-level single plus first-week streams of the other tracks likely gives about 20-25K streaming units, and physical sales should add 8-20K, putting the total around 30-40K. The main risk is that her breakout is concentrated in the UK and Ireland, and her earlier albums barely charted in the U.S.",
+    "falsifier": "Luminate reports the album's debut week at or below 20,000 units, for example because U.S. album-track streaming is weak and physical sales come in under about 5K.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8500",
+    "best_yes_ask": "0.9300",
+    "p_market": "0.8900"
+  },
+  "final": {
+    "p_yes": "0.86",
+    "action": "pass",
+    "reasoning": "The market sits above my 0.80 estimate, likely reflecting midweek sales projections I couldn't access, so I moved up to about 0.86. That is too close to the 0.89 midpoint, and inside the wide spread, to justify a NO bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://open.spotify.com/album/03HD0ohJOvejRoesXWKZFl",
+      "title": "Listen to The Girl Of Your Dreams - Album by Ashe"
+    },
+    {
+      "url": "https://ashemusic.fandom.com/wiki/The_Girl_Of_Your_Dreams",
+      "title": "The Girl Of Your Dreams"
+    },
+    {
+      "url": "https://billboardphilippines.com/music/news/ashe-the-girl-of-your-dreams-new-album/",
+      "title": "Ashe Releases 'The Girl of Your Dreams', Her Atlantic Debut"
+    },
+    {
+      "url": "https://thewimn.com/ashe-announces-fourth-album-the-girl-of-your-dreams-out-october-16/",
+      "title": "Ashe Announces Fourth Album \"The Girl of Your Dreams,\" Out October 16:"
+    },
+    {
+      "url": "https://kindacoolmagazine.com/features/2026/10/16/ashe-just-released-the-album-of-your-dreams",
+      "title": "Ashe Just Released the Album of Your Dreams \u2014 kinda cool magazine"
+    },
+    {
+      "url": "https://www.melodicmag.com/news/album-announcements/ashe-fourth-studio-album-girl-of-your-dreams/",
+      "title": "Ashe announces her fourth studio album, 'Girl of Your Dreams' - // MELODIC Magazine"
+    },
+    {
+      "url": "https://www.fullaccessmagazine.com/2026/10/17/ashe-the-girl-of-your-dreams-lasso-the-moon/",
+      "title": "Ashe Releases The Girl Of Your Dreams and New Video"
+    },
+    {
+      "url": "https://www.allthethings-music.com/post/ashe-announces-new-album-the-girl-of-your-dreams-out-october-18",
+      "title": "Ashe Announces New Album, 'The Girl of Your Dreams,' Out October 16"
+    },
+    {
+      "url": "https://www.thelineofbestfit.com/news/ashe-confirms-debut-album-the-girl-of-your-dreams",
+      "title": "\u201cThere are pieces of every version of me on this album\u201d: Ashe confirms new album, The Girl Of Your Dreams"
+    },
+    {
+      "url": "https://musicboard.app/album/the-girl-of-your-dreams/ashe/",
+      "title": "The Girl Of Your Dreams by Ashe - Musicboard"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Girl_of_Your_Dreams_(album)",
+      "title": "The Girl of Your Dreams (album)"
+    },
+    {
+      "url": "https://musicandgigs.com/ashe-the-girl-of-your-dreams-album/",
+      "title": "Ashe's New Album The Girl of Your Dreams Is Out Now"
+    },
+    {
+      "url": "https://www.officialcharts.com/albums/ashe-the-girl-of-your-dreams/",
+      "title": "THE GIRL OF YOUR DREAMS"
+    },
+    {
+      "url": "https://www.grimeys.com/preorders/ashe-the-girl-of-your-dreams",
+      "title": "Ashe - The Girl of Your Dreams + Wristband (Preorder - Event 10/21/2026) \u2014 Grimey's New & Preloved Music"
+    },
+    {
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Ashe-to-Release-New-Album-THE-GIRL-OF-YOUR-DREAMS-on-Atlantic-Records-20260902",
+      "title": "Ashe to Release New Album THE GIRL OF YOUR DREAMS on Atlantic Records"
+    },
+    {
+      "url": "https://sunny943.com/2026/10/13/ashe-scores-first-u-k-top-five-hit-as-the-girl-of-your-dreams-nears-release/",
+      "title": "Ashe Scores First U.K. Top-Five Hit as 'The Girl of Your Dreams' Nears Release - Sunny 94.3"
+    },
+    {
+      "url": "https://femmusic.com/2026/10/16/ashe-the-girl-of-your-dreams-2/",
+      "title": "Ashe"
+    },
+    {
+      "url": "https://x.com/billboardcharts/status/2099894304386826628",
+      "title": "billboard charts on X: \"Ashe's \"Stop The Wedding!\" debuts at No. 95 on this week's Hot 100. It's her second career entry on the chart, after \"Moral of the Story\" in 2020.\" / X"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stop_the_Wedding!",
+      "title": "Stop the Wedding!"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/dominic-fike-ashe-bruno-mars-171945541.html",
+      "title": "Dominic Fike, Ashe, Bruno Mars & More: Highlights of This Week\u2019s Billboard Charts"
+    },
+    {
+      "url": "https://jameslanepost.com/ashes-new-album-the-girl-of-your-dreams-is-out-now/10/18/2026/Hamptons-News-Happenings",
+      "title": "Ashe\u2019s New Album 'The Girl Of Your Dreams' Is Out Now \u2022 James Lane Post \u2022 Hamptons Culture & Lifestyle Magazine"
+    },
+    {
+      "url": "https://theconcertchronicles.com/2026/10/19/ashe-releases-new-album-the-girl-of-your-dreams/",
+      "title": "Ashe Releases Fourth Studio Album The Girl of Your Dreams"
+    },
+    {
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Ashe-Releases-THE-GIRL-OF-YOUR-DREAMS-Album-Shares-LASSO-THE-MOON-Video-20261016",
+      "title": "Ashe Releases THE GIRL OF YOUR DREAMS Album, Shares LASSO THE MOON Video"
+    },
+    {
+      "url": "https://mcgigmusic.com/ashes-much-anticipated-fourth-studio-album-the-girl-of-your-dreams-video-for-new-album-track-lasso-the-moon/",
+      "title": "Ashe\u2019s - much anticipated fourth studio album 'The Girl Of Your Dreams' + video for new album track \u201cLasso The Moon\u201d - Mc Gig Music"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/predictions-rest-billboard-hot-100-194219246.html",
+      "title": "What Are Our Predictions for the Rest of the Year on the Billboard Hot 100?"
+    },
+    {
+      "url": "https://www.thatericalper.com/2026/10/19/ashe-embraces-romance-drama-and-whimsy-on-new-album-the-girl-of-your-dreams/",
+      "title": "Ashe Embraces Romance, Drama And Whimsy On New Album 'The Girl Of Your Dreams' - That Eric Alper"
+    },
+    {
+      "url": "https://www.music-discussion.com/showthread.php?tid=25996",
+      "title": "NEW SONG: Ashe - Stop The Wedding!"
+    },
+    {
+      "url": "https://www.billboard.com/artist/ashe/",
+      "title": "Ashe"
+    },
+    {
+      "url": "https://x.com/ChartPredicts",
+      "title": "Chart Predictions (@ChartPredicts) / X"
+    },
+    {
+      "url": "https://www.billboard.com/lists/dominic-fike-ashe-bruno-mars-chart-highlights-oct-24-2026/",
+      "title": "Dominic Fike, Ashe, Bruno Mars & More: Highlights of This Week\u2019s Billboard Charts"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4933752.html",
+      "title": "Dominic Fike, Ashe, Bruno Mars & More: Highlights of This Week\u2019s Billboard Charts ...Middle East"
+    },
+    {
+      "url": "https://x.com/talkofthecharts/status/2046692542087926133",
+      "title": "Talk of the Charts on X: \"Midweek Billboard 200 Predictions (chart dated May 2nd, 2026; via @HITSDD)\" / X"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/karol-g-judeline-rusowsky-bby-181127029.html",
+      "title": "Karol G, Judeline & rusowsky\u2019s \u2018BbY WOW\u2019 Scores Sixth Week at No. 1 on Billboard Global Charts"
+    },
+    {
+      "url": "https://www.billboard.com/charts/genre/top-charts/",
+      "title": "Top Charts"
+    },
+    {
+      "url": "https://www.3rdandlindsley.com/tm-attraction/ashe/",
+      "title": "Ashe - 3rd and Lindsley"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/karol-g-bby-wow-global-charts-six-weeks-1236362970/",
+      "title": "Karol G, Judeline & rusowsky \u2018BbY WOW\u2019 No. 1 Global Charts, Sixth Week"
+    },
+    {
+      "url": "https://music.apple.com/us/album/the-girl-of-your-dreams/6805240956",
+      "title": "The Girl Of Your Dreams - Album by Ashe - Apple Music"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ho1xrpJthdc",
+      "title": "Ashe - The Girl Of Your Dreams (Official Visualizer) - YouTube"
+    },
+    {
+      "url": "https://store.ashe-music.com/products/the-girl-of-your-dreams-cd",
+      "title": "The Girl Of Your Dreams - CD"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ashe_(singer)",
+      "title": "Ashe (singer)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ashe_discography",
+      "title": "Ashe discography"
+    },
+    {
+      "url": "https://www.euphoriazine.com/blog/2026/10/covers-ashe-girl-of-your-dreams/",
+      "title": "Ashe 'The Girl Of Your Dreams' Cover Story Interview"
+    },
+    {
+      "url": "https://ashemusic.fandom.com/wiki/Stop_The_Wedding!",
+      "title": "Stop The Wedding!"
+    },
+    {
+      "url": "https://somethingdopeforthepeople.com/news/ashe-announces-album-the-girl-of-your-dreams-october-16",
+      "title": "Ashe Announces Album 'The Girl Of Your Dreams' October ..."
+    },
+    {
+      "url": "https://www.antimusic.com/p/26/p0902ashe_sets_oct_16th_release_for_the_girl_of_your_dreams.shtml",
+      "title": "Ashe Sets Oct 16th Release For 'The Girl Of Your Dreams' ::antiMusic.com"
+    },
+    {
+      "url": "https://theconcertchronicles.com/2026/09/10/ashe-announces-new-album-the-girl-of-your-dreams-out-october-16th/",
+      "title": "Ashe announces new album 'The Girl of Your Dreams' out October 16th"
+    },
+    {
+      "url": "https://www.newreleasesnow.com/album/ashe-the-girl-of-your-dreams",
+      "title": "New Releases Now"
+    },
+    {
+      "url": "https://www.allmusic.com/artist/ashe-mn0003496874",
+      "title": "Ashe \u2014 Biography, Discography, Albums & Expert Reviews"
+    },
+    {
+      "url": "https://www.bolnews.com/entertainment/ashe-sparks-chart-buzz-with-stop-the-wedding-ahead-of-new-album",
+      "title": "Ashe sparks chart buzz with \u2018Stop the Wedding!\u2019 ahead of new album"
+    }
+  ]
+}

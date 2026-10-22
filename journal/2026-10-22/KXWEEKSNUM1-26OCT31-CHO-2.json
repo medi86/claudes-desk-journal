@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "ticker": "KXWEEKSNUM1-26OCT31-CHO-2",
+  "event": "KXWEEKSNUM1-26OCT31-CHO",
+  "series": "KXWEEKSNUM1",
+  "title": "Will Choosin' Texas by Ella Langley spend 2 weeks at #1 on the Billboard Hot 100 in October 2026? At least 2 weeks",
+  "rules": "If Choosin' Texas by Ella Langley spends at least 2 week(s) at the #1 position on the Billboard Hot 100 in October 2026, then the market resolves to Yes.",
+  "rules_secondary": "",
+  "close_time": "2026-10-31T03:59:00+00:00",
+  "expected_close_time": "2026-10-31T03:59:00+00:00",
+  "forecast_at": "2026-10-22T10:01:55.171011+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.07",
+    "reasoning": "Choosin' Texas probably got one October No. 1 week (the chart dated Oct 3) before Taylor Swift's 'Patient Zero' took the Oct 10, 17 and 24 charts. To get two October weeks it would have to win back No. 1 on the Oct 31 chart. That's unlikely for an old song against Swift's strong sales, and one Billboard snippet even mentions a fourth week for 'Patient Zero'.",
+    "falsifier": "Billboard's chart dated Oct 31, 2026 (released around Oct 27) shows 'Choosin' Texas' back at No. 1, or the market counts both the Oct 3 chart and another October-dated chart as Langley weeks.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2100",
+    "best_yes_ask": "0.2500",
+    "p_market": "0.2300"
+  },
+  "final": {
+    "p_yes": "0.1",
+    "action": "buy_no",
+    "reasoning": "Swift's 'Patient Zero' holds the Oct 10, 17 and 24 charts, so Langley needs her likely Oct 3 week plus a comeback on the Oct 31 chart. That is unlikely, and if weeks are counted by release date even Oct 3 may not count. The 23% midpoint looks too high, so I'm betting NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.2200",
+    "count": 1,
+    "cost": "0.7800",
+    "clamped_from": "0.10"
+  },
+  "sources": [
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-12th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Tallies 12th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-16th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Scores 16th Week at No. 1 on Hot 100, Country Takes Entire Top 5 for First Time"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-15-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Adds Landmark 15th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5977962/choosin-texas-ella-langley-chart-success",
+      "title": "Why 'Choosin' Texas' is the longest-running No. 1 hit in Billboard Hot 100 history : NPR"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-number-1-hot-100-18-week/",
+      "title": "Ella Langley's 'Choosin' Texas' No. 1 on Hot 100 for 18th Week"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-14th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Makes More History With 14th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Hits No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-13th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Extends No. 1 Run on Billboard Hot 100 to 13 Weeks"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-10-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Notches Milestone 10th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.foxnews.com/outkick-culture/ella-langley-choosin-texas-spends-15-weeks-number-one-billboard-hot-100",
+      "title": "Ella Langley's 'Choosin' Texas' spends 15 weeks at number one on the Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-three-weeks/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Adds Third Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Spends Second Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://acharts.co/us_singles_top_100",
+      "title": "US Singles Top 100 - Music Charts"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/taylor-swift-patient-zero-number-one-hot-100-chart-single-1236899253/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Bumps \u2018Choosin\u2019 Texas\u2019 Out of No. 1 on Hot 100; \u2018Encore\u2019 Tracks Fill Four Out of Five Top Slots"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-debut/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Debuts at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://inmusicblog.com/news/taylor-swift-patient-zero-billboard-hot-100-third-week/",
+      "title": "Taylor Swift\u2019s \u201cPatient Zero\u201d Rules Billboard Hot 100 for Third Straight Week"
+    },
+    {
+      "url": "https://top40weekly.com/",
+      "title": "Top 40 Weekly US Chart Archive! (Updated)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_Hot_100",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-24th-week/",
+      "title": "Ella Langley 'Choosin' Texas' No. 1 on Hot 100 for 24th Week"
+    },
+    {
+      "url": "https://billboard.com/charts/decade-end",
+      "title": "Billboard"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-22nd-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Ties All-Time Hot 100 Record With 22nd Week at No. 1"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ella-langley-choosin-texas-17th-week-hot-100-1236831734/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Spends 17th Week at No. 1, Now Solely Holds Fourth Place Spot Among All-Time Hot 100 Streaks"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-21st-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Adds 21st Week at No. 1 Hot 100, Moves to Within One of Tying All-Time Record"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-11th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Hits Historic 11th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/sep/29/ella-langleys-choosin-texas-extends-hot-100-record-24th-week-no-1/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 extends Hot 100 record with 24th week at No. 1"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2026",
+      "title": "List of Billboard Hot 100 number ones of 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-september-26-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for September 26, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-september-12-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for September 12, 2026"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/billboard-hot-100-chart/20260909/hot100/",
+      "title": "Billboard Hot 100 on 9/9/2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-september-19-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for September 19, 2026"
+    },
+    {
+      "url": "https://ratedrnb.com/2026/09/chart-brief-earth-wind-fire-sentury/",
+      "title": "Chart Brief: Earth, Wind & Fire's 'September' Returns to Hot 100 After 47 Years, Sentury Hits No. 1 on Adult R&B Airplay"
+    },
+    {
+      "url": "https://billboard-hot-100.fandom.com/wiki/2026",
+      "title": "2026"
+    },
+    {
+      "url": "https://billboard-hot-100.fandom.com/wiki/September_5,_2026",
+      "title": "September 5, 2026"
+    },
+    {
+      "url": "https://creativedisc.com/2026/09/billboard-hot-100-26-sep-2026/",
+      "title": "Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-chart-record/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Breaks All-Time Hot 100 Record With 23rd Week at No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-eight-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Returns to No. 1 for Eighth Week Atop Hot 100"
+    },
+    {
+      "url": "https://www.foxnews.com/entertainment/ella-langley-joins-music-royalty-insane-milestone-choosin-texas",
+      "title": "Ella Langley ties record with 'Choosin' Texas' at No. 1 on Hot 100"
+    },
+    {
+      "url": "https://www.aceshowbiz.com/news/view/00262475.html",
+      "title": "Ella Langley Reaches #1 on Billboard Hot 100 with Choosin' Texas"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/taylor-swift-the-beatles-hot-100-number-one-hits-1236355487/",
+      "title": "Will Taylor Swift Pass The Beatles for the Most Hot 100 No. 1 Hits?"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/taylor-swift-patient-zero-number-one-hot-100-1235635574/",
+      "title": "Taylor Swift Nabs Yet Another Number One Song With 'Patient Zero'"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/112949/20261007/taylor-swifts-patient-zero-debuts-no-1-hot-100-ending-ella-langleys-record-choosin-texas.htm",
+      "title": "Taylor Swift's \"Patient Zero\" Debuts at No. 1 on Hot 100, Ending Ella Langley's Record \"Choosin' Texas\" Run"
+    },
+    {
+      "url": "https://www.wftv.com/news/trending/patient-zero-no-1-billboard-hot-100-knocks-choosin-texas-off-top-spot/L3JQZ2UWUBAV5DCMTTAIFSMTK4/",
+      "title": "\u2018Patient Zero\u2019 No. 1 on Billboard Hot 100, knocks \u2018Choosin\u2019 Texas\u2019 off top spot"
+    },
+    {
+      "url": "https://slate.com/culture/2026/10/taylor-swift-patient-zero-billboard-hot-100-lyrics.html",
+      "title": "Taylor Swift\u2019s \u201cPatient Zero\u201d was panned. Here\u2019s why it\u2019s still atop the Billboard Hot 100."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Patient_Zero_(song)",
+      "title": "Patient Zero (song)"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-hot-100-every-no-1-song-of-2026/",
+      "title": "Billboard Hot 100: Every No. 1 song of 2026"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-for-october-24th-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown For October 24th, 2026"
+    },
+    {
+      "url": "https://www.yardbarker.com/entertainment/articles/taylor_swifts_patient_zero_debuts_at_no_1_on_hot_100_ending_ella_langleys_record_choosin_texas_run/s1_17431_44399764",
+      "title": "Taylor Swift's 'Patient Zero' Debuts at No. 1 on Hot 100, Ending Ella Langley's Record 'Choosin' Texas' Run"
+    }
+  ]
+}
