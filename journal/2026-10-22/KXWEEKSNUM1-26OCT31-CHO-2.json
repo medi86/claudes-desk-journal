@@ -239,9 +239,9 @@
   "order": {
     "client_order_id": "KXWEEKSNUM1-26OCT31-CHO-2-24ed83819b36",
     "thesis_commit": "24ed83819b36fca5145ed98aed684d78e8836e4d",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a16311-b7e0-755f-bfb0-b8a679b925fd",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
