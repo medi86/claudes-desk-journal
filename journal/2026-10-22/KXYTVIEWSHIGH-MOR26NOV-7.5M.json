@@ -1,0 +1,281 @@
+{
+  "schema": 1,
+  "ticker": "KXYTVIEWSHIGH-MOR26NOV-7.5M",
+  "event": "KXYTVIEWSHIGH-MOR26NOV",
+  "series": "KXYTVIEWSHIGH",
+  "title": "Will Morgan Wallen have above 7.5M daily views at any point during October 2026?",
+  "rules": "If Morgan Wallen has above 7.5M Global views on YouTube at any point during October 2026, then the market resolves to Yes.",
+  "rules_secondary": "View counts may vary by location. This market will resolve using values displayed from a New York IP address.\n\nGlobal daily views can be accessed through YouTube Charts by searching for the artist and selecting \u201cGlobal\u201d as the location.\n\nThis market and these products have not been endorsed by YouTube. Any references to YouTube charts or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between YouTube and Kalshi.",
+  "close_time": "2026-11-04T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-22T01:55:39.640993+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.4",
+    "reasoning": "Kworb shows Morgan Wallen's official-channel videos averaging about 2.6M views a day. Adding audio-only Topic tracks and fan uploads likely puts his YouTube Charts global total around 6.5\u20138M a day, close to the 7.5M line. The market needs only one day above 7.5M in October, which helps, but the tour has ended, the album is more than a year old and I found no confirmed October release, so I lean slightly toward NO. I couldn't check the actual YouTube Charts number, so confidence is low.",
+    "falsifier": "YouTube Charts showing Wallen's global daily views already regularly above 7.5M, or a new single or album dropping in October 2026 that pushes a single day above 7.5M.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0400",
+    "best_yes_ask": "0.1800",
+    "p_market": "0.1100"
+  },
+  "final": {
+    "p_yes": "0.12",
+    "action": "pass",
+    "reasoning": "The low price late in October suggests the 7.5M mark hasn't been hit yet, with only about nine days left. My 40% rested on a guessed multiplier, so I'm deferring to the market. With a wide spread and no clear edge, I'm passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://kworb.net/youtube/artist/morganwallen.html",
+      "title": "Morgan Wallen YouTube Statistics and History"
+    },
+    {
+      "url": "https://music.youtube.com/@morganwallen",
+      "title": "Morgan Wallen"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCzIyoPv6j1MAZpDHKLGP_eA",
+      "title": "Morgan Wallen - YouTube"
+    },
+    {
+      "url": "https://socialblade.com/youtube/handle/morganwallen",
+      "title": "Morgan Wallen's YouTube Statistics - Social Blade"
+    },
+    {
+      "url": "https://chartmetric.com/artist/212715",
+      "title": "Morgan Wallen, Artist Stats, Streams & Social Analytics"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FXzE9eP1U_E",
+      "title": "Morgan Wallen: Sand In My Boots (The Dangerous Sessions) - YouTube"
+    },
+    {
+      "url": "https://music.youtube.com/search?q=Morgan+Wallen",
+      "title": "YouTube Music"
+    },
+    {
+      "url": "https://soundcharts.com/en/artist/11e81bc9-1a2f-5b0a-a48b-a0369fe50396",
+      "title": "Morgan Wallen \u2014 33M monthly listeners \u00b7 Stats & charts"
+    },
+    {
+      "url": "https://chartmasters.org/artist/morgan-wallen/",
+      "title": "Morgan Wallen - Album Sales, Streaming & Chart Stats"
+    },
+    {
+      "url": "https://holler.country/news/breaking/four-big-predictions-for-morgan-wallens-next-album/",
+      "title": "4 Big Predictions for Morgan Wallen's Next Album"
+    },
+    {
+      "url": "https://www.forbes.com/sites/hughmcintyre/2026/05/22/morgan-wallens-newest-album-becomes-his-latest-to-reach-a-milestone/",
+      "title": "Morgan Wallen\u2019s Newest Album Becomes His Latest To Reach A Milestone"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/I'm_the_Problem_(Morgan_Wallen_album)",
+      "title": "I'm the Problem (Morgan Wallen album)"
+    },
+    {
+      "url": "https://countrynow.com/morgan-wallen-kicks-off-new-chapter-with-first-solo-release-of-2026-been-by-now/",
+      "title": "Morgan Wallen Kicks Off New Chapter With First Solo Release Of 2026, 'Been By Now' - Country Now"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/112214/20260627/morgan-wallen-2026-age-net-worth-tour-albums-family-everything-you-need-know.htm",
+      "title": "Morgan Wallen in 2026: Age, Net Worth, Tour, Albums, Family, and Everything You Need to Know"
+    },
+    {
+      "url": "https://morganwallen.com/home/",
+      "title": "Morgan Wallen"
+    },
+    {
+      "url": "https://vault.denox.es/article/morgan-wallen-new-album-release-date-and-current-status",
+      "title": "Morgan Wallen New Album Release Date and Current Status"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Last_Thing_You_Need",
+      "title": "Last Thing You Need"
+    },
+    {
+      "url": "https://music.amazon.com/artists/B00QNUADXK/morgan-wallen",
+      "title": "Morgan Wallen on Amazon Music Unlimited"
+    },
+    {
+      "url": "https://www.foxnews.com/outkick-culture/morgan-wallen-ella-langley-hold-top-two-album-spots-america-first-half-2026",
+      "title": "Morgan Wallen and Ella Langley hold the top two album spots in America for first half of 2026"
+    },
+    {
+      "url": "https://kworb.net/youtube/video/ZsEjZKNzt9E.html",
+      "title": "YouTube Stats of Morgan Wallen - 7 Summers (Official Music ..."
+    },
+    {
+      "url": "https://www.kworb.net/youtube/video/IVdNtA0M2tM.html",
+      "title": "YouTube Stats of Morgan Wallen - Everything I Love (Live from Abbey Road Studios / 2024)"
+    },
+    {
+      "url": "https://kworb.net/youtube/video/zjw6KczssI8.html",
+      "title": "YouTube Stats of Morgan Wallen"
+    },
+    {
+      "url": "https://www.kworb.net/youtube/video/k3swFEhOJYA.html",
+      "title": "YouTube Stats of Morgan Wallen - Whatcha Know 'Bout That (Audio Only)"
+    },
+    {
+      "url": "https://kworb.net/youtube/video/bUjPPBxbQrQ.html",
+      "title": "YouTube Stats of Morgan Wallen - Last Night (One Record At A Time Sessions)"
+    },
+    {
+      "url": "https://kworb.net/youtube/video/G8lnYcC8yjk.html",
+      "title": "YouTube Stats of Morgan Wallen - Thinkin' Bout Me (Live from Abbey Road Studios / 2024)"
+    },
+    {
+      "url": "https://www.hellorayo.co.uk/absolute-radio-country/entertainment/music/morgan-wallen-songs",
+      "title": "Morgan Wallen's songs: 15 of his biggest songs of all time (2026)"
+    },
+    {
+      "url": "https://kworb.net/youtube/video/HcouevFpUXk.html",
+      "title": "YouTube Stats of Morgan Wallen - Wine Into Water (Lyric Video)"
+    },
+    {
+      "url": "https://kworb.net/youtube//video/6JuxfCxH75k.html",
+      "title": "YouTube Stats of Morgan Wallen"
+    },
+    {
+      "url": "https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122",
+      "title": "Morgan Wallen Tickets, 2026-2027 Concert Tour Dates"
+    },
+    {
+      "url": "https://www.elevarmagazine.com/morgan-wallen-net-worth-country-star-estimated-at-35-million-as-he-heads-into-2026-tour-season/",
+      "title": "Morgan Wallen's Net Worth: Country Star Estimated at $35 Million as He Heads Into 2026 Tour Season - Elevar Magazine"
+    },
+    {
+      "url": "https://uproxx.com/country/morgan-wallen-2026-tour-dates-still-the-problem/",
+      "title": "Morgan Wallen's 2026 Tour Dates: 'Still The Problem Tour'"
+    },
+    {
+      "url": "https://www.livenation.com/artist/K8vZ9174qlV/morgan-wallen-events",
+      "title": "Morgan Wallen - 2026 Tour Dates & Concert Schedule - Live Nation"
+    },
+    {
+      "url": "https://www.songkick.com/artists/8964794-morgan-wallen/calendar",
+      "title": "Morgan Wallen Full Tour Schedule 2026 & 2027, Tour Dates & Concerts"
+    },
+    {
+      "url": "https://www.allegiantstadium.com/events/detail/morgan_wallen_still_the_problem_tour_2026",
+      "title": "Morgan Wallen"
+    },
+    {
+      "url": "https://holler.country/news/breaking/is-morgan-wallen-teasing-a-2026-tour-and-deluxe-album/",
+      "title": "\u201cStill the Problem\u201d: Is Morgan Wallen Teasing a 2026 Tour and Deluxe Album?"
+    },
+    {
+      "url": "https://www.udiscovermusic.com/news/morgan-wallen-been-by-now/",
+      "title": "Morgan Wallen Releases New Track 'Been By Now'"
+    },
+    {
+      "url": "https://www.stubhub.com/morgan-wallen-tickets/performer/100271016",
+      "title": "Morgan Wallen Tickets & 2026 Tour Dates"
+    },
+    {
+      "url": "https://www.ad-hoc-news.de/unterhaltung/musik/morgan-wallen-received-riaa-certification-on-5-october/70288154",
+      "title": "Morgan Wallen received RIAA certification on 5 October"
+    },
+    {
+      "url": "https://parade.com/entertainment/morgan-wallen-been-by-now-release-date-2026-still-the-problem-tour",
+      "title": "Country Star, With No. 1 Hit Song, Announces News Amid 2026 Tour - Parade"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Been_By_Now",
+      "title": "Been By Now"
+    },
+    {
+      "url": "https://www.miniceent.com/2026/10/morgan-wallen-album-list.html",
+      "title": "Morgan wallen album list - Mi Nice blog"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/morgan-wallen-announces-single-now-090512156.html",
+      "title": "Morgan Wallen Announces New Single 'Been By Now' Release Date During Tour"
+    },
+    {
+      "url": "https://www.aceshowbiz.com/news/view/00262461.html",
+      "title": "Morgan Wallen\u2019s Been By Now Hits #3 on Billboard Hot 100 with Stunning Video"
+    },
+    {
+      "url": "https://www.forbes.com/sites/hughmcintyre/2026/09/28/morgan-wallens-new-single-is-a-bestseller---but-only-a-minor-country-hit/",
+      "title": "Morgan Wallen\u2019s New Single Is A Bestseller \u2014 But Only A Minor Country Hit"
+    },
+    {
+      "url": "https://www.siriusxm.com/blog/morgan-wallen-new-song-been-by-now-first-listen",
+      "title": "Hear Morgan Wallen\u2019s New Song 'Been By Now' First on SiriusXM"
+    },
+    {
+      "url": "https://abcnews.com/GMA/Culture/morgan-wallen-announces-new-album-im-the-problem-tour/story?id=118066751",
+      "title": "Morgan Wallen announces new album 'I'm the Problem,' accompanying tour - ABC News"
+    },
+    {
+      "url": "https://www.billboard.com/music/country/morgan-wallen-release-im-the-problem-album-1235926979/",
+      "title": "Morgan Wallen Sets Release Date for 'I'm The Problem' Album"
+    },
+    {
+      "url": "https://musicrow.com/2025/01/just-in-morgan-wallen-announces-new-album-tour/",
+      "title": "JUST IN: Morgan Wallen Announces New Album & Tour - MusicRow.com"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-country/morgan-wallen-new-album-im-the-problem-tour-1235245366/",
+      "title": "Morgan Wallen New Album 'I'm the Problem' Announced With Tour Dates"
+    },
+    {
+      "url": "https://bigloud.com/morgan-wallen-releases-4th-studio-album-im-the-problem/",
+      "title": "MORGAN WALLEN RELEASES 4TH STUDIO ALBUM, I'M THE PROBLEM"
+    },
+    {
+      "url": "https://holler.country/news/breaking/morgan-wallen-announces-highly-anticipated-new-album-im-the-problem/",
+      "title": "Morgan Wallen Announces Highly Anticipated New Album, \u2018I'm the Problem\u2019"
+    },
+    {
+      "url": "https://morganwallen.com/2025/",
+      "title": "Morgan Wallen"
+    },
+    {
+      "url": "https://www.billboard.com/music/country/morgan-wallen-new-album-one-thing-at-a-time-album-announcement-1235208273/",
+      "title": "Morgan Wallen Announces 36-Track New Album \u2018One Thing at a Time\u2019"
+    },
+    {
+      "url": "https://chartmasters.org/artist/?id=4oUHIQIBe0LHzYfvXNW4QM",
+      "title": "Morgan Wallen - Album Sales, Streaming & Chart Stats"
+    },
+    {
+      "url": "https://chartmasters.org/youtube-most-viewed-artists-2025/",
+      "title": "YouTube Most-Viewed Artists of 2025 - ChartMasters"
+    },
+    {
+      "url": "https://www.countryinsider.com/news/morgan-wallen-s-domination-of-sales-streaming-chart-continues/article_b0700926-811a-4c85-aa45-379c2d796be4.html",
+      "title": "Morgan Wallen\u2019s Domination Of Sales, Streaming Chart Continues."
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/morgan-wallen-billboard-top-artist-2025-1236129874/",
+      "title": "Morgan Wallen Is Billboard\u2019s Top Artist of 2025"
+    },
+    {
+      "url": "https://www.countryinsider.com/news/wallen-langley-return-to-top-five-of-billboard-albums-chart/article_82dbdc2d-a6b5-4c97-baa2-d713274a4145.html",
+      "title": "Wallen, Langley Return To Top Five Of Billboard Albums Chart."
+    },
+    {
+      "url": "https://www.bloomberg.com/graphics/pop-star-ranking/2023-april/morgan-wallen-rebounded-from-controversy-stronger-than-ever.html",
+      "title": "Country Singer Morgan Wallen Rebounded From Controversy Stronger Than Ever"
+    },
+    {
+      "url": "https://www.humansofyoutube.com/morgan-wallen-chart-topping-country-star/",
+      "title": "Morgan Wallen: Chart-Topping Country Star - Humans of YouTube"
+    }
+  ]
+}

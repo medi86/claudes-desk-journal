@@ -1,0 +1,269 @@
+{
+  "schema": 1,
+  "ticker": "KXTOPSONG-26OCT31-CHO",
+  "event": "KXTOPSONG-26OCT31",
+  "series": "KXTOPSONG",
+  "title": "Will Choosin' Texas be #1 on the Billboard Hot 100 during the week of Oct 31, 2026",
+  "rules": "If Choosin' Texas is #1 on the Billboard Hot 100  chart for the Week of Oct 31, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.",
+  "close_time": "2026-10-26T03:59:00+00:00",
+  "expected_close_time": "2026-10-26T03:59:00+00:00",
+  "forecast_at": "2026-10-22T01:55:39.640993+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.4",
+    "reasoning": "On the latest chart, Taylor Swift's 'Patient Zero' held No. 1 for a third week and 'Choosin' Texas' was No. 2. Swift's lead comes mostly from very high physical sales (about 134K\u2013151K a week, driven by new CD and vinyl versions) while her streams fell 27%. 'Choosin' Texas' is still the No. 1 streaming song and is barely declining, so it likely returns to No. 1 if Swift's sales drop in the Oct. 16\u201322 tracking week. Swift's team has kept those sales high with new versions, so I lean slightly against a return.",
+    "falsifier": "The Oct. 31 chart shows 'Patient Zero' (or some new debut) at No. 1, for example because another Swift variant keeps physical sales above roughly 80K. Or, the other way, 'Choosin' Texas' takes back No. 1 after Swift's sales collapse.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8300",
+    "best_yes_ask": "0.9000",
+    "p_market": "0.8650"
+  },
+  "final": {
+    "p_yes": "0.75",
+    "action": "pass",
+    "reasoning": "A price this high after the tracking week has closed likely reflects early sales projections showing Swift's sales dropped, which I couldn't check, so I moved strongly toward it. My remaining doubt is not enough of an edge to buy NO."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5977962/choosin-texas-ella-langley-chart-success",
+      "title": "Why 'Choosin' Texas' is the longest-running No. 1 hit in Billboard Hot 100 history : NPR"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-22nd-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Ties All-Time Hot 100 Record With 22nd Week at No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-20-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Becomes Sole Longest-Leading Non-Holiday Hot 100 Hit With 20th Week at No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-19-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Ties for Longest Hot 100 Rule Among Non-Holiday Hits With 19th Week at No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-21st-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Adds 21st Week at No. 1 Hot 100, Moves to Within One of Tying All-Time Record"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-15-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Adds Landmark 15th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-number-1-hot-100-18-week/",
+      "title": "Ella Langley's 'Choosin' Texas' No. 1 on Hot 100 for 18th Week"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-14th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Makes More History With 14th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Hits No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-13th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Extends No. 1 Run on Billboard Hot 100 to 13 Weeks"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-three-weeks/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Adds Third Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Spends Second Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/taylor-swift-patient-zero-number-one-hot-100-chart-single-1236899253/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Bumps \u2018Choosin\u2019 Texas\u2019 Out of No. 1 on Hot 100; \u2018Encore\u2019 Tracks Fill Four Out of Five Top Slots"
+    },
+    {
+      "url": "https://acharts.co/us_singles_top_100",
+      "title": "US Singles Top 100 - Music Charts"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-debut/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Debuts at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://inmusicblog.com/news/taylor-swift-patient-zero-billboard-hot-100-third-week/",
+      "title": "Taylor Swift\u2019s \u201cPatient Zero\u201d Rules Billboard Hot 100 for Third Straight Week"
+    },
+    {
+      "url": "https://top40weekly.com/",
+      "title": "Top 40 Weekly US Chart Archive! (Updated)"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-24th-week/",
+      "title": "Ella Langley 'Choosin' Texas' No. 1 on Hot 100 for 24th Week"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/taylor-swift-patient-zero-number-one-hot-100-1235635574/",
+      "title": "Taylor Swift Nabs Yet Another Number One Song With 'Patient Zero'"
+    },
+    {
+      "url": "https://www.billboard.com/charts/year-end/",
+      "title": "Billboard's 2026 Year-End Charts"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/taylor-swift-patient-zero-adds-165610302.html",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Adds Third Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://retroruby.org/article/taylor-swift-s-patient-zero-scores-3rd-week-at-no-1-on-billboard-hot-100",
+      "title": "Taylor Swift's 'Patient Zero' Scores 3rd Week at No. 1 on Billboard Hot 100 (2026)"
+    },
+    {
+      "url": "https://newyorknewchurch.org/article/taylor-swift-s-patient-zero-reigns-supreme-a-billboard-hot-100-update",
+      "title": "Taylor Swift's 'Patient Zero' Reigns Supreme: A Billboard Hot 100 Update (2026)"
+    },
+    {
+      "url": "https://custommapposter.com/article/taylor-swift-s-patient-zero-dominates-billboard-hot-100-for-3rd-week-music-news",
+      "title": "Taylor Swift's 'Patient Zero' Dominates Billboard Hot 100 for 3rd Week"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/112949/20261007/taylor-swifts-patient-zero-debuts-no-1-hot-100-ending-ella-langleys-record-choosin-texas.htm",
+      "title": "Taylor Swift's \"Patient Zero\" Debuts at No. 1 on Hot 100, Ending Ella Langley's Record \"Choosin' Texas\" Run"
+    },
+    {
+      "url": "https://idahopublicpress.com/taylor-swift-s-patient-zero-holds-no-1-for-a-third-week-after-ending-a-24-week-reign/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Holds No. 1 for a Third Week After Ending a 24-Week Reign"
+    },
+    {
+      "url": "https://www.y100fm.com/news/trending/patient-zero-no-1-billboard-hot-100-knocks-choosin-texas-off-top-spot/L3JQZ2UWUBAV5DCMTTAIFSMTK4/",
+      "title": "\u2018Patient Zero\u2019 No. 1 on Billboard Hot 100, knocks \u2018Choosin\u2019 Texas\u2019 off top spot"
+    },
+    {
+      "url": "https://www.wsbradio.com/news/trending/patient-zero-no-1-billboard-hot-100-knocks-choosin-texas-off-top-spot/L3JQZ2UWUBAV5DCMTTAIFSMTK4/",
+      "title": "\u2018Patient Zero\u2019 No. 1 on Billboard Hot 100, knocks \u2018Choosin\u2019 Texas\u2019 off top spot"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/taylor-swift-patient-zero-spends-170345705.html",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Spends Second Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.rttnews.com/3699818/taylor-swift-s-patient-zero-tops-billboard-hot-100-for-second-week.aspx",
+      "title": "Taylor Swift's 'Patient Zero' Tops Billboard Hot 100 For Second Week"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/taylor-swift-patient-zero-no-1-second-week-singles-chart-1236909200/",
+      "title": "Taylor Swift's 'Patient Zero' Scores Second Week at No. 1 on Chart"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/taylor-swift-patient-zero-holds-173412965.html",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Holds Steady at No. 1 for Second Week on Singles Chart"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Patient_Zero_(song)",
+      "title": "Patient Zero (song)"
+    },
+    {
+      "url": "https://www.bigtop40.com/news/taylor-swift-patient-zero-number1-chart-for-third-week/",
+      "title": "Taylor Swift's 'Patient Zero' stays at Number 1 for a THIRD week - BigTop40"
+    },
+    {
+      "url": "https://www.gosschips.com/music/taylor-swift-patient-zero-no-1/",
+      "title": "Taylor Swift\u2019s Patient Zero Stays No. 1 on Hot 100"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/patient-zero-taylor-swift-joins-rihanna-mariah-carey-as-the-only-women-in-hot-100-history-with-over-50-career-weeks-at-1/",
+      "title": "'Patient Zero': Taylor Swift Joins Rihanna & Mariah Carey As the ONLY Women in Hot 100 History with Over 50 Career Weeks at #1 - That Grape Juice"
+    },
+    {
+      "url": "https://exclaim.ca/music/article/new-album-releases-masterlist",
+      "title": "New Album Releases for October 16, 2026: Fontaines D.C., Rachel Chinouriri, @ and More \u2502 Exclaim!"
+    },
+    {
+      "url": "https://www.shatterthestandards.com/p/new-music-drops-october-16-2026",
+      "title": "New Music Drops: October 16, 2026"
+    },
+    {
+      "url": "https://goodtasterecords.com/blogs/news/new-album-releases-arrivals-october-16-2026",
+      "title": "New Album Releases & Arrivals October 16, 2026"
+    },
+    {
+      "url": "https://savingcountrymusic.com/october-16-2026-is-a-huge-release-day-heres-your-guide/",
+      "title": "October 16, 2026 Is a HUGE Release Day. Here\u2019s Your Guide - Saving Country Music"
+    },
+    {
+      "url": "https://townsendmusic.store/blog/most-anticipated-albums-autumn-2026",
+      "title": "New Album Releases Autumn 2026"
+    },
+    {
+      "url": "https://consequence.net/upcoming-releases/",
+      "title": "Upcoming Album Releases"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/2026/releases/october-10/",
+      "title": "October 2026 Album & Single Releases, Music Releases"
+    },
+    {
+      "url": "https://2loud2oldmusic.com/2026/10/16/friday-new-releases-october-16-2026/",
+      "title": "New Album Releases"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/releases/",
+      "title": "New Album Releases 2026 - Album of the Year"
+    },
+    {
+      "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
+      "title": "2026 Hard Rock + Metal Album Release Calendar"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-chart-record/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Breaks All-Time Hot 100 Record With 23rd Week at No. 1"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ella-langley-choosin-texas-17th-week-hot-100-1236831734/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Spends 17th Week at No. 1, Now Solely Holds Fourth Place Spot Among All-Time Hot 100 Streaks"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/ella-langley-choosin-texas-extends-213011867.html",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Extends Hot 100 Record With 24th Week at No. 1"
+    },
+    {
+      "url": "https://www.forbes.com/sites/conormurray/2026/08/10/ella-langleys-choosin-texas-earns-17th-week-at-no-1-surpasses-this-mariah-carey-smash/",
+      "title": "Ella Langley's 'Choosin' Texas' Earns 17th Week At No. 1\u2014Surpasses This Mariah Carey Smash"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/sep/29/ella-langleys-choosin-texas-extends-hot-100-record-24th-week-no-1/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 extends Hot 100 record with 24th week at No. 1"
+    },
+    {
+      "url": "https://www.thatericalper.com/2026/09/30/taylor-swift-gives-new-single-patient-zero-three-different-lives-on-cd/",
+      "title": "Taylor Swift Gives New Single \u201cPatient Zero\u201d Three Different Lives On CD - That Eric Alper"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/taylor-swift-patient-zero-single-easter-eggs-1236872454/",
+      "title": "Taylor Swift Announces New Single, 'Patient Zero'"
+    },
+    {
+      "url": "https://taylorswift.fandom.com/wiki/Patient_Zero",
+      "title": "Patient Zero"
+    },
+    {
+      "url": "https://curiouscollectionstx.com/products/taylor-swift-patient-zero-new-single-cd-acoustic-version-copy",
+      "title": "Taylor Swift * Patient Zero [New Single CD - Piano Version]"
+    },
+    {
+      "url": "https://curiouscollectionstx.com/products/taylor-swift-patient-zero-new-single-cd-copy",
+      "title": "Taylor Swift * Patient Zero [New Single CD - Acoustic Version]"
+    },
+    {
+      "url": "https://www.discogs.com/release/38656551-Taylor-Swift-Patient-Zero-Acoustic-Version",
+      "title": "Taylor Swift"
+    }
+  ]
+}
