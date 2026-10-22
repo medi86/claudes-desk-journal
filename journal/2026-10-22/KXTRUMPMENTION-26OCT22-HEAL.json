@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT22-HEAL",
+  "event": "KXTRUMPMENTION-26OCT22",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during Midterm Rally in Sioux City, Iowa originally scheduled for October 22, 2026? Healthcare",
+  "rules": "If \n Donald Trump says Healthcare as part of Midterm Rally in Sioux City, Iowa originally scheduled for October 22, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Midterm Rally in Sioux City, Iowa originally scheduled for October 22, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the Midterm Rally in Sioux City, Iowa originally scheduled for October 22, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-05T15:00:00+00:00",
+  "expected_close_time": "2026-11-05T15:00:00+00:00",
+  "forecast_at": "2026-10-22T18:04:40.157972+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.87",
+    "reasoning": "The Sioux City rally was set for Oct 22 with C-SPAN coverage, and healthcare is a top midterm issue: Trump is actively promoting his $500 ACA and $90 Medicare checks, and Democrats are attacking Republicans on it in Iowa. Over a rally of an hour or more, Trump very likely says 'healthcare' at least once, for example when bragging about the checks or attacking Obamacare. The main risks are a speech focused narrowly on immigration or a cancellation.",
+    "falsifier": "A full transcript or video of the Sioux City speech shows Trump never said 'healthcare'/'health care' (e.g., he discussed only 'checks' or 'Obamacare'), or the rally was cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8800",
+    "best_yes_ask": "0.8900",
+    "p_market": "0.8850"
+  },
+  "final": {
+    "p_yes": "0.87",
+    "action": "pass",
+    "reasoning": "The market at 0.885 essentially agrees with my independent estimate of 0.87, which rests on healthcare checks being a major Trump midterm talking point. The gap is too small to justify a trade given the spread and my uncertainty about whether he says the word itself."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-sioux-city-ia-president-donald-j-trump-djt",
+      "title": "Midterm Rally in Sioux City, Iowa featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.ktiv.com/2026/10/21/how-watch-president-trumps-rally-sioux-city-thursday-oct-22/",
+      "title": "How to watch President Trump\u2019s rally in Sioux City on Thursday, Oct. 22"
+    },
+    {
+      "url": "https://www.ktiv.com/2026/10/16/president-donald-trump-will-headline-midterm-election-rally-sioux-city/",
+      "title": "President Donald Trump will headline midterm election rally in Sioux City"
+    },
+    {
+      "url": "https://www.kcau9.com/news/local-news/president-donald-trump-to-make-midterm-election-rally-tour-stop-in-sioux-city/",
+      "title": "President Donald Trump to make midterm election rally tour stop in Sioux City"
+    },
+    {
+      "url": "https://www.3newsnow.com/news/local-news/trump-to-midterm-rally-sioux-city-iowa-thursday-oct-22-2026",
+      "title": "President Donald Trump to headline midterm rally in Sioux City on Thursday"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/2026/10/watch-live-trump-rally-in-sioux-city-iowa-with-ashley-hinson-and-zach-lahn-oct-22/",
+      "title": "Watch Live: Trump Rally in Sioux City, Iowa With Ashley Hinson and Zach Lahn (Oct. 22) - Election Central"
+    },
+    {
+      "url": "https://www.aol.com/articles/president-donald-trump-midterm-election-002256000.html",
+      "title": "President Donald Trump to make midterm election rally tour stop in Sioux City - AOL"
+    },
+    {
+      "url": "https://www.kcrg.com/2026/10/19/president-donald-trump-hold-rally-sioux-gateway-airport/",
+      "title": "President Donald Trump to hold rally at the Sioux Gateway Airport"
+    },
+    {
+      "url": "https://abcnews4.com/news/nation-world/president-trump-planning-two-stops-in-iowa-ahead-of-election-day",
+      "title": "Trump plans two Iowa visits before Election Day, with Sioux ..."
+    },
+    {
+      "url": "https://www.iowapublicradio.org/political-news/2026-10-16/trump-campaign-iowa-hinson-lahn-2026-midterms-election-day-republican",
+      "title": "President Trump to campaign in Iowa for Hinson and Lahn, ahead of midterm elections"
+    },
+    {
+      "url": "https://www.thegazette.com/news/elections/candidates/president-trump-to-rally-in-sioux-city-thursday/article_498aa17f-4a56-482b-86e2-c4ff73f5bc44.html",
+      "title": "President Donald Trump plans two rallies in Iowa before the midterm election"
+    },
+    {
+      "url": "https://kscj.com/2026/10/21/trump-to-speak-at-midterm-election-rally-at-sioux-gateway-airport/",
+      "title": "TRUMP TO SPEAK AT MIDTERM ELECTION RALLY AT SIOUX GATEWAY AIRPORT - KSCJ 1360"
+    },
+    {
+      "url": "https://www.dailywire.com/news/exclusive-trump-to-contrast-europes-immigration-crisis-with-us-successes-in-primetime-iowa-speech",
+      "title": "EXCLUSIVE: Trump To Contrast Europe\u2019s Immigration Crisis With US Successes In Primetime Iowa Speech"
+    },
+    {
+      "url": "https://www.kwqc.com/2026/10/21/how-watch-president-trumps-rally-sioux-city-thursday-oct-22/",
+      "title": "How to watch President Trump\u2019s rally in Sioux City on Thursday, Oct. 22"
+    },
+    {
+      "url": "https://www.yahoo.com/news/weather-news/articles/president-trump-rally-forecast-10-124234800.html",
+      "title": "President Trump Rally Forecast (10/22/2026)"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-rallies-in-iowa-with-gop-senate-candidate-ashley-hinson",
+      "title": "WATCH LIVE: Trump rallies in Iowa with GOP Senate candidate Ashley Hinson"
+    },
+    {
+      "url": "https://www.keloland.com/news/local-news/president-donald-trump-hosting-rally-in-sioux-city/",
+      "title": "President Donald Trump hosting rally in Sioux City"
+    },
+    {
+      "url": "https://www.thegazette.com/news/elections/iowa-way-of-life-is-under-siege-trump-warns-in-sioux-city-rally/article_0efe92c8-8a40-542d-ac8d-9e19e4053ec4.html",
+      "title": "\u2018Iowa way of life is under siege\u2019 Trump warns in Sioux City rally"
+    },
+    {
+      "url": "https://www.c-span.org/event/campaign-2026/president-trump-delivers-remarks-at-sioux-city-iowa-rally/448633",
+      "title": "President Trump Delivers Remarks at Sioux City, Iowa Rally"
+    },
+    {
+      "url": "https://www.protectourcare.org/statement-trump-rallies-in-iowa-in-a-desperate-attempt-to-distract-from-republicans-failed-health-care-agenda/",
+      "title": "STATEMENT: Trump Rallies in Iowa in a Desperate Attempt to Distract from Republicans\u2019 Failed Health Care Agenda \u2014 Protect Our Care"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-hinson-iowa-vance-nebraska-congress-2026-live-updates-rcna604927",
+      "title": "Election 2026 live updates: Trump to campaign for Ashley Hinson, other GOP midterm candidates in Iowa"
+    },
+    {
+      "url": "https://newscord.org/article/trump-rallies-with-ashley-hinson-in-sioux-city-as-iowa-senate-race-tightens--Story_20261022_TrumprallyingwithSenefd671e0",
+      "title": "Trump Rallies With Ashley Hinson in Sioux City as Iowa Senate Race Tightens: how 9 outlets framed it"
+    },
+    {
+      "url": "https://who13.com/news/president-donald-trump-hosting-rally-in-sioux-city/",
+      "title": "President Donald Trump hosting rally in Sioux City"
+    },
+    {
+      "url": "https://www.snopes.com/fact-check/trump-healthcare-democrats-win-quote/",
+      "title": "Did Trump say 'everyone gets healthcare' if Democrats win?"
+    },
+    {
+      "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
+      "title": "2026 Midterm Elections: Trump, Democrats Campaign"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/fact-check-trump-once-said-232500870.html",
+      "title": "Fact Check: Trump once said 'everyone gets healthcare' if Democrats win"
+    },
+    {
+      "url": "https://kansasreflector.com/2026/10/19/in-kansas-rally-trump-defends-marshalls-record-and-calls-hamilton-a-disgrace/",
+      "title": "In Kansas rally, Trump defends Marshall\u2019s record and calls Hamilton a \u2018disgrace\u2019 \u2022 Kansas Reflector"
+    },
+    {
+      "url": "https://www.lgbtqnation.com/2026/10/quick-hit-trumps-slurred-speech-at-rally-likely-caused-by-brain-damage-forensic-psychologist-says/",
+      "title": "Trump's slurred speech at rally likely caused by brain damage, forensic psychologist says - LGBTQ Nation"
+    },
+    {
+      "url": "https://time.com/article/2026/10/04/trump-is-promising-health-care-checks-before-the-midterms-how-far-will-they-go-/",
+      "title": "Trump Is Promising Health Care Checks Before the Midterms. How Far Will They Go?"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/trump-rally-iowa-ashley-hinson-senate-josh-turek/",
+      "title": "Trump rallying with Senate hopeful Ashley Hinson in Iowa as she pledges to push back on White House - CBS News"
+    },
+    {
+      "url": "https://www.kiro7.com/news/politics/ashley-hinson-shows/PXRTREDSLY5YLJKMYCDKRGHYR4/",
+      "title": "Hinson joins Trump rally in Sioux City as Iowa Senate race tightens - KIRO 7 News Seattle"
+    },
+    {
+      "url": "https://www.wsbtv.com/news/politics/ashley-hinson-shows/PXRTREDSLY5YLJKMYCDKRGHYR4/",
+      "title": "Hinson joins Trump rally in Sioux City as Iowa Senate race tightens - WSB-TV Channel 2 - Atlanta"
+    },
+    {
+      "url": "https://cbs2iowa.com/news/local/hinson-shows-republicans-midterm-balancing-act-as-trump-heads-to-iowa-to-boost-turnout",
+      "title": "Hinson shows Republicans' midterm balancing act as Trump heads to Iowa to boost turnout"
+    },
+    {
+      "url": "https://www.newsbeep.com/780276/",
+      "title": "Trump rallying with Senate hopeful Ashley Hinson in Iowa as she pledges to push back on White House - News Beep"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-rallying-hinson-iowa-she-100013210.html",
+      "title": "Trump rallying with Hinson in Iowa as she pledges to push back on White House"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/30/obamacare-aca-refund-checks.html",
+      "title": "Trump administration starts sending $500 Obamacare refund checks \u2014 who stands to benefit"
+    },
+    {
+      "url": "https://abcnews.com/Health/trump-administration-begins-mailing-500-aca-refund-checks/story?id=136915170",
+      "title": "Trump administration begins mailing out $500 ACA refund checks. Here's what to know - ABC News"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/trump-medicare-aca-checks-healthcare-costs/",
+      "title": "Trump is sending ACA and Medicare checks. Are they enough to cover rising healthcare costs? - CBS News"
+    },
+    {
+      "url": "https://www.ktiv.com/2026/10/05/pres-trump-promises-checks-seniors/",
+      "title": "Pres. Trump promises checks for seniors"
+    },
+    {
+      "url": "https://www.forbes.com/sites/omerawan/2026/10/09/trumps-500-checks-and-its-impact-on-healthcare-affordability/",
+      "title": "Trump\u2019s $500 Checks And Their Impact On Healthcare Affordability"
+    },
+    {
+      "url": "https://www.fox32chicago.com/news/trump-aca-refund-checks",
+      "title": "Trump says he's sending $500 checks to 1 million Americans: Here's why"
+    },
+    {
+      "url": "https://www.wsgw.com/trump-rallying-with-hinson-in-iowa-as-she-pledges-to-push-back-on-white-house/",
+      "title": "Trump rallying with Hinson in Iowa as she pledges to push back on White House - WSGW 790 AM & 100.5 FM"
+    },
+    {
+      "url": "https://www.ksat.com/news/politics/2026/10/22/ashley-hinson-shows-republicans-midterm-balancing-act-as-trump-heads-to-iowa-to-boost-turnout/",
+      "title": "Ashley Hinson shows Republicans' midterm balancing act as Trump heads to Iowa to boost turnout"
+    },
+    {
+      "url": "https://iowa-news.com/article/hinson-joins-trump-at-sioux-city-rally-as-iowa-senate-race-tightens",
+      "title": "Hinson Joins Trump at Sioux City Rally as Iowa Senate Race\u2026"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22",
+      "title": "12 days until midterms, Trump heads to Iowa as GOP candidates balance loyalty, voter concerns"
+    },
+    {
+      "url": "https://ground.news/article/ashley-hinson-shows-republicans-midterm-balancing-act-as-trump-heads-to-iowa-to-boost-turnout",
+      "title": "Trump heads to Iowa as Republicans fight for seats in longtime stronghold"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6164811-live-updates-donald-trump-iowa-midterm-elections",
+      "title": "Live updates: Trump heads to Iowa, candidates make final pitches with 10 days until midterms"
+    }
+  ]
+}
