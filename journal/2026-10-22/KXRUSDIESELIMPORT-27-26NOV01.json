@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "ticker": "KXRUSDIESELIMPORT-27-26NOV01",
+  "event": "KXRUSDIESELIMPORT-27",
+  "series": "KXRUSDIESELIMPORT",
+  "title": "Will it be reported by any of the Source Agencies that Russian-origin diesel fuel is imported into the United States before Nov 1, 2026?",
+  "rules": "If Russian-origin diesel fuel is imported into the United States after Issuance and before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Only reporting from any of the Source Agencies qualifies for the purposes of this market. Reports that merely reference prior publications (from before Issuance) do not qualify. Republishing of content originally produced by other sources (e.g., wire services) only qualifies if the content is hosted on the outlet's official platform and the outlet is clearly identified as the publishing entity.\n\nRussian-origin diesel fuel is diesel fuel produced in Russia. Diesel fuel refined in another country from Russian crude oil is not Russian-origin diesel fuel.\n\nDiesel fuel is imported into the United States when it is physically delivered to a U.S. port, or otherwise into U.S. territory, for commercial or government use within the United States. Whether the import is made under the October 9, 2026 agreement between the United States and Russia, General License 135 or any other authorization does not matter.\n\nThe following do NOT satisfy the Payout Criterion:\nA purchase, contract, loading or voyage of Russian-origin diesel fuel to the United States, before it is actually delivered\nDiesel fuel carried as a vessel's own fuel\nDiesel fuel held in bond for re-export or passing through the United States in transit to another country\nAn announcement, agreement or license permitting imports, before diesel fuel is actually delivered",
+  "close_time": "2026-11-01T03:59:00+00:00",
+  "expected_close_time": "2026-11-01T03:59:00+00:00",
+  "forecast_at": "2026-10-22T05:59:02.883626+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.07",
+    "reasoning": "As of Oct 21, the first Russian diesel tanker bound for the US was only scheduled to leave port on Oct 22. Voyages from Russian ports to US ports usually take about 13-20+ days, so physical delivery before Nov 1 is very unlikely. On top of that, the congressional import ban remains in force, departure could slip, and a qualifying source would have to report the delivery in time.",
+    "falsifier": "A qualifying source reports that a tanker carrying Russian-refined diesel docked and discharged at a US port on or before Oct 31, 2026 (e.g., a cargo already at sea that was diverted, or a fast Arctic voyage).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1500",
+    "best_yes_ask": "0.2500",
+    "p_market": "0.2000"
+  },
+  "final": {
+    "p_yes": "0.09",
+    "action": "buy_no",
+    "reasoning": "The 20% midpoint makes me allow a little for information I lack, such as a cargo already afloat being diverted. But the first announced tanker was only due to depart on Oct 22, and normal voyage times put its arrival in November. My estimate stays well below the market, so I bet NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1600",
+    "count": 1,
+    "cost": "0.8400",
+    "clamped_from": "0.09"
+  },
+  "sources": [
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/10/why-is-us-turning-to-russia-for-diesel-despite-sanctions",
+      "title": "Why is US turning to Russia for diesel despite sanctions?"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+      "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms"
+    },
+    {
+      "url": "https://www.diplomacyandlaw.com/post/trump-russia-diesel-deal",
+      "title": "Trump\u2019s Russia Diesel Deal: Can the US Import Russian Fuel Despite Sanctions?"
+    },
+    {
+      "url": "https://fortune.com/2026/10/10/diesel-prices-russia-deal-trump-putin-fuel-energy-costs-midterm-elections/",
+      "title": "Russia's deal to supply the U.S. with diesel is unlikely to ease pain at the pump, experts say. 'It\u2019s kind of shuffling deck chairs on the Titanic'"
+    },
+    {
+      "url": "https://abcnews.com/Politics/trump-stands-russia-diesel-plan-despite-backlash-made/story?id=137193699",
+      "title": "Trump stands by Russia diesel plan despite backlash: 'I made the right choice' - ABC News"
+    },
+    {
+      "url": "https://www.clydeco.com/en/insights/2026/10/ofac-authorizes-us-imports-of-russian-diesel",
+      "title": "Sanctions Alert: OFAC Authorizes US Imports of Russian Diesel, But Beware of Limitations : Clyde & Co"
+    },
+    {
+      "url": "https://shipandbunker.com/news/world/445068-us-lifts-sanctions-on-russian-diesel-for-six-months-after-trump-putin-call",
+      "title": "US Lifts Sanctions on Russian Diesel for Six Months After Trump-Putin Call - Ship & Bunker"
+    },
+    {
+      "url": "https://www.karmactive.com/russian-diesel-sanctions-waiver-ofac-license-135",
+      "title": "Russian Diesel Sanctions Waiver: OFAC License 135 Opens US Imports Until April 2027 - Karmactive"
+    },
+    {
+      "url": "https://www.nyxmarkets.com/insights/general-license-135-russian-diesel",
+      "title": "What General License 135 changes for Russian diesel, and what it does not \u2014 NYX Markets"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/what-does-the-us-russian-diesel-licence-mean-for-maritime-sanctions-compliance",
+      "title": "US Russian Diesel Licence: Maritime Compliance Guide"
+    },
+    {
+      "url": "https://hscodematch.com/news/united-states-allows-russian-diesel-imports-until-april-7-2027/",
+      "title": "United States Allows Russian Diesel Imports Until April 7, 2027"
+    },
+    {
+      "url": "https://theworlddata.com/diesel-supply-deal-between-the-us-and-russia/",
+      "title": "Diesel Supply Deal Between the US & Russia 2026"
+    },
+    {
+      "url": "https://disputeindex.com/cases/russian-diesel-sanctions-general-license-135",
+      "title": "Trump's Russian diesel deal: should the U.S. lift sanctions?"
+    },
+    {
+      "url": "https://euromaidanpress.com/2026/10/10/washington-makes-it-official-us-treasury-license-clears-sale-and-import-of-russian-diesel-blocked-by-sanctions/",
+      "title": "Washington makes it official: US Treasury license clears sale and import of Russian diesel blocked by sanctions - Euromaidan Press"
+    },
+    {
+      "url": "https://www.cfr.org/articles/trumps-russian-diesel-deal-explained",
+      "title": "Trump\u2019s Russian Diesel Deal, Explained"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html",
+      "title": "Trump strikes deal with Putin to supply Russian diesel to U.S. and global markets"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/09/trump-putin-diesel-agreement-ukraine-war",
+      "title": "Trump announces major diesel deal with Putin, infuriating Ukraine"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/trump-strikes-deal-with-putin-for-russian-diesel-in-sharp-reversal-of-u-s-policy-ahead-of-midterms",
+      "title": "Trump strikes deal with Putin for Russian diesel in sharp reversal of U.S. policy ahead of midterms"
+    },
+    {
+      "url": "https://www.steptoe.com/en/news-publications/stepwise-risk-outlook/the-analysts-brief-the-us-russia-diesel-deal.html",
+      "title": "The Analysts' Brief: The US-Russia Diesel Deal"
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/2026/10/21/russia-to-send-first-diesel-tanker-to-the-us-amid-trump-deal",
+      "title": "Russia to send first diesel tanker to the US amid Trump deal"
+    },
+    {
+      "url": "https://qz.com/russia-first-diesel-tanker-us-trump-putin-fuel-deal-102126",
+      "title": "Russia will send its first diesel tanker to the U.S. under the Trump-Putin fuel deal"
+    },
+    {
+      "url": "https://unn.ua/en/news/the-russian-federation-announced-the-dispatch-of-its-first-tanker-carrying-diesel-fuel-to-the-united-states-on-october-22",
+      "title": "Russia announced dispatch of its first tanker carrying diesel fuel to the United States on October 22"
+    },
+    {
+      "url": "https://www.themoscowtimes.com/2026/10/21/first-shipment-of-russian-diesel-expected-to-depart-for-the-united-states-under-trump-deal-a94039",
+      "title": "First Shipment of Russian Diesel Expected to Depart for the United States Under Trump Deal - The Moscow Times"
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms",
+      "title": "Will Russia\u2019s diesel shipment to the US lower prices before midterms?"
+    },
+    {
+      "url": "https://tass.com/economy/2205189",
+      "title": "Russia to send first tanker with diesel fuel to US on October 22 \u2014 Novak - Business & Economy - TASS"
+    },
+    {
+      "url": "https://english.nv.ua/business/russian-diesel-tanker-heads-toward-u-s-as-analysts-question-moscow-s-export-capacity-50648976.html",
+      "title": "Russian diesel tanker heads toward U.S. as analysts question Moscow\u2019s export capacity / The New Voice of Ukraine"
+    },
+    {
+      "url": "https://ukrmedia.news/en/world/minerva-zen-russian-diesel-us-route/",
+      "title": "The tanker MINERVA ZEN is carrying Russian diesel to the US"
+    },
+    {
+      "url": "https://glavnoe.in.ua/en/news-en/russia-to-send-first-tanker-carrying-40000-tonnes-of-diesel-to-us-how-long-will-the-shipment-last",
+      "title": "Russia to send first diesel tanker to US: How long will 40,000 tonnes last?"
+    },
+    {
+      "url": "https://www.bairdmaritime.com/shipping/tankers/russia-sends-first-us-bound-diesel-cargo-following-deal-with-trump",
+      "title": "Russia sends first US-bound diesel cargo following deal with Trump"
+    },
+    {
+      "url": "https://thehill.com/policy/energy-environment/6139544-trump-putin-us-diesel-supply-high-costs/",
+      "title": "Donald Trump announces Russia will supply US with diesel as high costs weigh on midterms"
+    },
+    {
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/101226-russian-diesel-imports-unlikely-to-ease-us-fuel-prices",
+      "title": "Russian diesel imports unlikely to ease US fuel prices"
+    },
+    {
+      "url": "https://www.wbng.com/2026/10/13/trump-russia-diesel-deal-faces-pushback-over-supply-impact-gas-prices/",
+      "title": "Trump-Russia diesel deal faces pushback over supply, impact on gas prices"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows",
+      "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows : NPR"
+    },
+    {
+      "url": "https://www.oilandgas360.com/russian-diesel-shipment-tests-whether-additional-supply-can-ease-u-s-fuel-costs/",
+      "title": "Russian diesel shipment tests whether additional supply can ease U.S. fuel costs - Oil & Gas 360"
+    },
+    {
+      "url": "https://breezyscroll.com/world/russia-diesel-tanker-us-trump-putin-deal",
+      "title": "Russia to Send First Diesel Tanker to US on Thursday"
+    },
+    {
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+      "title": "Russia to Send First Diesel Tanker to U.S. on Thursday"
+    },
+    {
+      "url": "https://unn.ua/en/news/the-first-russian-diesel-shipment-arrived-on-the-us-east-coast-osint-analysts",
+      "title": "The first Russian diesel shipment has arrived on the U.S. East Coast, OSINT analysts say"
+    },
+    {
+      "url": "https://nashaniva.com/en/406551",
+      "title": "First tanker with Russian diesel already approaching US shores"
+    },
+    {
+      "url": "https://www.yahoo.com/news/us/articles/russia-sending-first-tanker-carrying-092100128.html",
+      "title": "Russia is sending first tanker carrying diesel to US"
+    },
+    {
+      "url": "https://unn.ua/en/news/by-the-time-the-tanker-carrying-russian-diesel-arrives-the-united-states-will-have-managed-to-export-100-times-more-abroad-presidential-adviser-says",
+      "title": "By the time the tanker carrying Russian diesel arrives, US will have managed to export 100 times more abroad, presidential adviser says"
+    },
+    {
+      "url": "https://ground.news/article/the-first-shipment-of-diesel-fuel-from-russia-is-already-approaching-american-shores-aboard-a-tanker",
+      "title": "The first shipment of diesel fuel from Russia is already approaching American shores aboard a tanker"
+    },
+    {
+      "url": "https://www.breezyscroll.com/world/russia-diesel-tanker-us-trump-putin-deal",
+      "title": "Russia to Send First Diesel Tanker to US on Thursday"
+    }
+  ]
+}

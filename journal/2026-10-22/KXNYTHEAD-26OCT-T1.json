@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "ticker": "KXNYTHEAD-26OCT-T1",
+  "event": "KXNYTHEAD-26OCT",
+  "series": "KXNYTHEAD",
+  "title": "Will the number of full-width New York Times front page headlines be at least 1 in Oct 2026?",
+  "rules": "If the number of New York Times front page banner headlines is at least 1 in Oct 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThis market resolves based on the front page displayed in the NYT Store's 'Front Page Reprint' section.\n\"Banner headline\" refers to a standalone centered headline surrounded only by whitespace.\n\nPast examples: Jan 5, 2026; Jan 4, 2026; Nov 5, 2025; May 31, 2024; Jun 24, 2016",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-22T05:59:02.883626+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.2",
+    "reasoning": "The NYT runs full-width banner headlines only for major news, roughly a few times a year, so any given month has maybe a 20-35% chance. October 2026 has no scheduled mega-event because the midterm results will land in November, and about two-thirds of the month seems to have passed without a banner I could find, though my search was very limited. That leaves a surprise in the remaining ~10 days or an early-October banner I missed as the main ways to YES.",
+    "falsifier": "An NYT Store front-page reprint for any October 2026 date showing a standalone, centered, full-width banner headline, e.g., for a sudden war escalation, the death of a major world figure, or a large disaster.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2100",
+    "best_yes_ask": "0.3000",
+    "p_market": "0.2550"
+  },
+  "final": {
+    "p_yes": "0.22",
+    "action": "pass",
+    "reasoning": "The midpoint (0.255) is only slightly above my estimate, and the wide spread means buying NO at about 0.79 has essentially no edge. The market may also reflect early-October events I couldn't check, so I nudge my estimate toward it and pass."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.quora.com/Which-edition-of-the-New-York-Times-had-the-largest-text-ever-used-for-a-front-page-headline",
+      "title": "Which edition of the New York Times had the largest text ever used for a front page headline? - Quora"
+    },
+    {
+      "url": "https://www.gettyimages.com/photos/new-york-times-front-page",
+      "title": "198 New York Times Front Page Stock Photos and High-Res Images - Getty Images"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_New_York_Times",
+      "title": "The New York Times"
+    },
+    {
+      "url": "https://www.quora.com/What-cap-font-is-used-in-New-York-Times%E2%80%99-front-page-headline-stories",
+      "title": "What cap font is used in New York Times\u2019 front-page headline stories? - Quora"
+    },
+    {
+      "url": "https://dnyuz.com/2026/01/04/behind-the-scenes-of-our-nicolas-maduro-front-page/",
+      "title": "Behind the Scenes of Our Nicol\u00e1s Maduro Front Page"
+    },
+    {
+      "url": "https://biztoc.com/x/5db12f9ba61223a7",
+      "title": "Behind the Scenes of Our Nicol\u00e1s Maduro Front Page"
+    },
+    {
+      "url": "https://x.com/nasoskook/status/2008100161617305811",
+      "title": "Thanasis Koukakis on X: \"Behind the Scenes of Our Nicol\u00e1s Maduro Front Page https://t.co/cOs39DgkHI\" / X"
+    },
+    {
+      "url": "https://dailycaller.com/2026/01/03/donald-trump-meet-nicolas-maduro-venezuela-photos-videos-social-media/",
+      "title": "Photos Show Behind-The-Scenes Tension, Focus As Trump Orders Military Operation To Venezuela"
+    },
+    {
+      "url": "https://hungamaofficial.com/behind-the-scenes-of-our-nicolas-maduro-front-page/",
+      "title": "News - Hungama"
+    },
+    {
+      "url": "https://kesq.com/news/national-world/cnn-world/2026/10/15/nicolas-maduro-fast-facts-5/",
+      "title": "Nicol\u00e1s Maduro Fast Facts - KESQ"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/latin-america/live-blog/venezuela-explosions-trump-maduro-live-updates-rcna251053",
+      "title": "Maduro arrives in New York after capture; Trump says U.S. to \u2018run\u2019 Venezuela temporarily"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/frontline/article/nicolas-maduro-capture-venezuela-trump-administration/",
+      "title": "Inside Caracas the Night the U.S. Captured Nicol\u00e1s Maduro"
+    },
+    {
+      "url": "https://www.frontpages.com/the-new-york-times/",
+      "title": "The New York Times - Today's Cover"
+    },
+    {
+      "url": "https://frontpages.freedomforum.org/newspapers/ny_nyt-The_New_York_Times",
+      "title": "The New York Times Front Page"
+    },
+    {
+      "url": "https://eeditionnytimes.pressreader.com/the-new-york-times",
+      "title": "The New York Times - October 21, 2026"
+    },
+    {
+      "url": "https://www.frontpages.com/us-newspapers/",
+      "title": "Today's US Front Pages"
+    }
+  ]
+}
