@@ -256,5 +256,21 @@
       "url": "https://www.cnn.com/2026/05/20/politics/live-news/raul-castro-doj-indictment",
       "title": "May 20, 2026"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "18075af30d5257974ac1f2dd10f230b3b92c9567",
+    "pushed_at": "2026-10-23T00:58:06Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXDIAZOUT-MDC-26NOV01-18075af30d52",
+    "thesis_commit": "18075af30d5257974ac1f2dd10f230b3b92c9567",
+    "status": "resting",
+    "order_id": "01a16643-e118-7316-a5e5-dcc7b5160ee4",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
