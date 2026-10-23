@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "ticker": "KXDIAZOUT-MDC-26NOV01",
+  "event": "KXDIAZOUT-MDC",
+  "series": "KXDIAZOUT",
+  "title": "Will Miguel D\u00edaz-Canel leave office before 2026-11-01T15:00:00.000Z? Before November 1, 2026",
+  "rules": "If Miguel D\u00edaz-Canel leaves office before November 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "An announcement that the Miguel D\u00edaz-Canel will leave the office within the next year is also encompassed by the Payout Criterion. If Miguel D\u00edaz-Canel leaves solely because they have died, the associated market will resolve and the Exchange will determine the payouts to the holders of long and short positions based upon the last traded price (prior to the death). If a last traded price is not available or is not logically consistent, or if the Exchange determines at its sole discretion that the last traded prices prior to death do not represent a fair settlement value, the Outcome Review Committee will be responsible for making a binding determination of fair allocation.\n\nClarification (05/23/26): To clarify, Miguel D\u00edaz-Canel currently holds two positions relevant to this market: First Secretary of the Communist Party of Cuba and President of Cuba. For purposes of this contract, departure from either position will satisfy the Payout Criterion.",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-23T00:57:02.699471+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.03",
+    "reasoning": "As of Oct 22, 2026, D\u00edaz-Canel holds both posts and is working normally (radio show, UN-vote diplomacy). He has publicly refused to resign despite heavy US pressure, sanctions and the indictment of Ra\u00fal Castro. With only about nine days left, YES would need a sudden shock such as US military action, an internal ouster, or a surprise announcement that he will leave within a year. Cuba's leadership rarely changes abruptly, so that's unlikely.",
+    "falsifier": "Before Nov 1, 2026, the Cuban government announces that D\u00edaz-Canel is resigning or being replaced as President or First Secretary (or will be within a year), or a US operation removes him from power.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.octagonai.co/markets/politics/international/miguel-d-az-canel-departure-announced"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0900",
+    "best_yes_ask": "0.1300",
+    "p_market": "0.1100"
+  },
+  "final": {
+    "p_yes": "0.04",
+    "action": "buy_no",
+    "reasoning": "The 11% midpoint likely reflects general fear of a US move or a sudden reshuffle rather than any concrete sign. With nine days left and D\u00edaz-Canel visibly governing and refusing to resign, I nudge my estimate up only slightly to 4%, still well below the market."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1000",
+    "count": 1,
+    "cost": "0.9000",
+    "clamped_from": "0.04"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Miguel_D%C3%ADaz-Canel",
+      "title": "Miguel D\u00edaz-Canel"
+    },
+    {
+      "url": "https://www.facebook.com/MDiazCanelB",
+      "title": "Miguel D\u00edaz-Canel Berm\u00fadez"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/tag/miguel-diaz-canel",
+      "title": "Miguel D\u00edaz-Canel"
+    },
+    {
+      "url": "https://www.gettyimages.com/photos/miguel-diaz-canel",
+      "title": "3,679 Miguel Diaz Canel Photos and High-Res Pictures - Getty Images"
+    },
+    {
+      "url": "https://x.com/DiazCanelB?lang=en",
+      "title": "Miguel D\u00edaz-Canel Berm\u00fadez (@DiazCanelB) on X"
+    },
+    {
+      "url": "https://www.aljazeera.com/tag/miguel-diaz-canel/",
+      "title": "Miguel Diaz-Canel"
+    },
+    {
+      "url": "https://www.ibtimes.com/who-miguel-diaz-canel-all-you-need-know-about-cubas-heir-apparent-after-fidel-castros-2452701",
+      "title": "Who Is Miguel Diaz-Canel? All You Need To Know About Cuba\u2019s Heir Apparent After Fidel Castro\u2019s Death"
+    },
+    {
+      "url": "https://thehill.com/policy/international/cuba-president-miguel-diaz-canel/",
+      "title": "Cuban President Miguel D\u00edaz-Canel tells NBC News that he will not step down"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/4/10/cuban-president-defiant-despite-trump-pressure-to-resign",
+      "title": "Cuban president defiant despite Trump pressure to resign"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/cubas-president-says-island-does-not-wish-for-u-s-aggression-but-ready-to-fight-if-necessary",
+      "title": "Cuba's president says island does not wish for U.S. aggression but ready to fight if necessary"
+    },
+    {
+      "url": "https://ultimasnoticias.com.ve/actualidad/diaz-canel-denuncia-presiones-de-eeuu/",
+      "title": "D\u00edaz-Canel denuncia presiones de EEUU - \u00daltimas Noticias"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/cuba/cubas-president-says-not-stepping-down-rcna267456",
+      "title": "Cuba's president says he's 'not stepping down' in interview with NBC News"
+    },
+    {
+      "url": "https://www.latintimes.com/topics/miguel-diaz-canel",
+      "title": "Miguel D\u00edaz-Canel news & latest pictures from latintimes.com"
+    },
+    {
+      "url": "https://thehill.com/policy/international/5827924-diaz-canel-cuba-us-tensions/",
+      "title": "Miguel D\u00edaz-Canel says 'dialogue and deals' with US 'possible' but 'difficult'"
+    },
+    {
+      "url": "https://www.breitbart.com/national-security/2026/04/10/cubas-diaz-canel-says-he-is-not-stepping-down-nbc-news-interview/",
+      "title": "Cuba's D\u00edaz-Canel Says He Is 'Not Stepping Down' in NBC News Interview"
+    },
+    {
+      "url": "https://en.cibercuba.com/noticias/2026-04-09-u1-e208933-s27061-nid325480-diaz-canel-estalla-pregunta-dejar-poder-entrevista",
+      "title": "D\u00edaz-Canel erupts in response to a question about relinquishing power during an interview with NBC: \"It's not in our vocabulary.\""
+    },
+    {
+      "url": "https://www.octagonai.co/markets/politics/international/miguel-d-az-canel-departure-announced",
+      "title": "Miguel D\u00edaz-Canel departure announced Odds and Forecast"
+    },
+    {
+      "url": "https://www.npr.org/2026/04/10/g-s1-116990/cuban-president-miguel-diaz-canel-tells-nbc-news-that-he-will-not-step-down",
+      "title": "Cuban President Miguel D\u00edaz-Canel tells NBC News that he will not step down : NPR"
+    },
+    {
+      "url": "https://riotimesonline.com/cuba-united-states-tensions-explained-2026",
+      "title": "What Is Going On Between Cuba and the United States?"
+    },
+    {
+      "url": "https://en.cibercuba.com/noticias/2026-04-10-u1-e135253-s27061-nid325494-diaz-canel-dice-solo-dimitiria-pueblo-cubano-ve-apto",
+      "title": "D\u00edaz-Canel says he would only resign if the Cuban people do not see him as fit for the position."
+    },
+    {
+      "url": "https://translatingcuba.com/the-u-s-conditions-an-agreement-with-cuba-on-the-departure-of-diaz-canel-according-to-the-new-york-times/",
+      "title": "The U.S. Conditions an Agreement With Cuba on the Departure of D\u00edaz-Canel, According to The New York Times"
+    },
+    {
+      "url": "https://www.semafor.com/article/04/10/2026/cuba-leader-says-he-will-not-step-down",
+      "title": "Cuba leader says he will not step down"
+    },
+    {
+      "url": "https://www.cubaheadlines.com/articles/343543",
+      "title": "D\u00edaz-Canel Foresees Dwindling Support at Upcoming U.N. Vote"
+    },
+    {
+      "url": "https://en.cibercuba.com/noticias/2026-10-22-u1-e74-s27061-nid343543-van-cambiar-voto-porque-acobardan-diaz-canel-anticipa",
+      "title": "\"They are going to change their vote because they are becoming cowardly\": D\u00edaz-Canel anticipates less support in the UN"
+    },
+    {
+      "url": "https://www.plenglish.com/news/2026/10/12/diaz-canel-denounces-at-fao-impact-of-us-blockade-on-cuba/",
+      "title": "Diaz"
+    },
+    {
+      "url": "https://www.cubaheadlines.com/articles/342466",
+      "title": "D\u00edaz-Canel Proclaims Hope Amidst Cuba's Collapse: \"The Present is a Struggle; The Future is Ours\""
+    },
+    {
+      "url": "https://morningstaronline.co.uk/article/w/cuba-re-elects-miguel-diaz-canel-president-for-new-five-year-term",
+      "title": "Cuba re-elects Miguel Diaz-Canel as president for a new five-year term"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_in_Cuba",
+      "title": "2026 in Cuba"
+    },
+    {
+      "url": "https://www.riotimesonline.com/cuban-politics-and-government-2026/",
+      "title": "Ra\u00fal Castro in 2026, Cuba's Government Explained"
+    },
+    {
+      "url": "https://www.periodicocubano.com/que-se-sabe-sobre-la-carta-de-renuncia-atribuida-a-diaz-canel/",
+      "title": "Qu\u00e9 se sabe sobre la \u201cCarta de Renuncia\u201d atribuida a D\u00edaz-Canel"
+    },
+    {
+      "url": "https://voz.us/en/world/260816/38321/cuba-miguel-diaz-canel-alleged-resignation-letter.html",
+      "title": "Cuba: filtran la presunta carta de renuncia de Miguel D\u00edaz-Canel"
+    },
+    {
+      "url": "https://oncubanews.com/cuba-ee-uu/diaz-canel-a-nbc-si-el-pueblo-cubano-entiende-que-no-soy-apto-para-el-cargo-entonces-si-deberia-dejar-esta-posicion-de-presidente/",
+      "title": "D\u00edaz-Canel a NBC: \"Si el pueblo cubano entiende que no soy apto para el cargo, entonces s\u00ed deber\u00eda dejar esta posici\u00f3n de presidente\" - OnCubaNews"
+    },
+    {
+      "url": "https://www.libertaddigital.com/internacional/latinoamerica/2026-08-16/que-se-sabe-de-la-supuesta-renuncia-de-diaz-canel-en-favor-del-nieto-de-raul-castro-7448666/",
+      "title": "\u00bfQu\u00e9 se sabe de la supuesta renuncia de D\u00edaz-Canel en favor del nieto de Ra\u00fal Castro? - Libertad Digital"
+    },
+    {
+      "url": "https://www.periodicocubano.com/piden-la-renuncia-de-diaz-canel-tras-el-colapso-del-sistema-energetico-en-cuba/",
+      "title": "Piden la renuncia de D\u00edaz-Canel tras el colapso del sistema energ\u00e9tico en Cuba"
+    },
+    {
+      "url": "https://www.cubanoticias360.com/ee-uu-exige-renuncia-de-diaz-canel-segun-the-new-york-times/",
+      "title": "EE.UU. exige renuncia de D\u00edaz-Canel, seg\u00fan The New York Times"
+    },
+    {
+      "url": "https://www.univision.com/local/miami-wltv/exilio-miami-reacciona-respuesta-diaz-canel-renuncia-gobernar-cuba",
+      "title": "Exilio de Miami reacciona a respuesta de D\u00edaz-Canel sobre su renuncia a gobernar Cuba"
+    },
+    {
+      "url": "https://www.telemundo51.com/noticias/local/miguel-diaz-canel-asegura-a-nbc-news-que-no-renunciara-a-la-presidencia/2769862/",
+      "title": "Miguel D\u00edaz-Canel asegura a NBC News que no renunciar\u00e1 a la presidencia"
+    },
+    {
+      "url": "https://x.com/JLMNoticias/status/2033782900622082247",
+      "title": "Jos\u00e9 Luis Morales on X: \"El gobierno de EE.UU. pedir\u00e1, en pr\u00f3ximos dias, la renuncia del dictador Miguel D\u00edaz-Canel, asegura The New York Times. El equipo de negociadores tambi\u00e9n quiere la destituci\u00f3n de varios funcionarios hist\u00f3ricos del Partido Comunista y la liberaci\u00f3n de presos pol\u00edticos, se\u00f1ala\" / X"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QBMjWLdjwys",
+      "title": "Miguel D\u00edaz-Canel dice que no dimitir\u00e1 de su cargo como cabeza del r\u00e9gimen cubano - YouTube"
+    },
+    {
+      "url": "https://thehill.com/homenews/ap/ap-international/ap-us-and-cuba-clash-at-un-as-washington-seeks-to-sway-annual-vote-on-economic-embargo/",
+      "title": "US and Cuba clash at UN as Washington seeks to sway annual vote on economic embargo"
+    },
+    {
+      "url": "https://www.usnews.com/news/world/articles/2026-10-21/top-cuban-diplomat-accuses-us-of-threatening-countries-that-vote-with-cuba-at-united-nations",
+      "title": "Top Cuban Diplomat Accuses US of Threatening Countries That Vote With Cuba at UN"
+    },
+    {
+      "url": "https://ua.news/en/world/kuba-zvinuvatila-ssha-u-poturanni-teroristam-pislia-morskogo-reidu-jerusalem-post",
+      "title": "Cuba accuses US of harboring terrorists after sea raid"
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2026/oct/19/us-cuba-clash-un-washington-seeks-sway-annual-vote-economic-embargo/",
+      "title": "U.S. and Cuba clash at U.N. as Washington seeks to sway annual vote on economic embargo"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/us-embargo-sanctions-cuba-power-medicine/",
+      "title": "U.S. embargo, sanctions on Cuba impacting power supplies, access to medicine - CBS News"
+    },
+    {
+      "url": "https://uk.headtopics.com/news/us-and-cuba-clash-at-un-ahead-of-annual-embargo-resolution-88987901",
+      "title": "US and Cuba Clash at UN Ahead of Annual Embargo Resolution Vote"
+    },
+    {
+      "url": "https://www.cubaheadlines.com/articles/343341",
+      "title": "U.S. Rallies Cuban Political Exiles at U.N. to Undermine Support for Anti-Embargo Resolution"
+    },
+    {
+      "url": "https://www.cbsnews.com/miami/tag/cuba/",
+      "title": "Cuba news - Today\u2019s latest updates - CBS Miami"
+    },
+    {
+      "url": "https://www.aljazeera.com/amp/news/2026/10/21/cuba-accuses-us-of-threatening-countries-ahead-of-un-embargo-vote",
+      "title": "Cuba accuses US of threatening countries ahead of UN embargo vote"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro",
+      "title": "Florida issues arrest warrant for Cuban leader Raul Castro"
+    },
+    {
+      "url": "https://www.nysun.com/article/florida-secures-arrest-warrant-for-communist-dictator-of-cuba-raul-castro",
+      "title": "Florida Secures Arrest Warrant for \u2018Communist Dictator of Cuba, Ra\u00fal Castro\u2019"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/raul-castro-indicted-us-cuba/",
+      "title": "U.S. indicts Cuba's Ra\u00fal Castro on murder and conspiracy charges for downing of planes in 1996 - CBS News"
+    },
+    {
+      "url": "https://themoscowtimes.com/2026/10/20/russia-slams-us-arrest-warrant-for-cubas-raul-castro-a94031",
+      "title": "Russia Slams U.S. Arrest Warrant for Cuba\u2019s Ra\u00fal Castro - The Moscow Times"
+    },
+    {
+      "url": "https://www.cnn.com/2026/05/20/politics/live-news/raul-castro-doj-indictment",
+      "title": "May 20, 2026"
+    }
+  ]
+}
