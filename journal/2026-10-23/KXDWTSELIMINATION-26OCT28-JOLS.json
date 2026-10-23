@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "ticker": "KXDWTSELIMINATION-26OCT28-JOLS",
+  "event": "KXDWTSELIMINATION-26OCT28",
+  "series": "KXDWTSELIMINATION",
+  "title": "Will Jackson Olson and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
+  "rules": "If Jackson Olson and their partner are officially eliminated from Dancing with the Stars Season 35 before Oct 28, 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nThe declaration must be made through official program broadcast, website, verified social media, or press releases.\nIf the season is canceled without declaring eliminations, the market resolves to No.\n\nPayout criteria\nElimination includes being voted off, evicted, knocked out, removed from further contention, voluntary withdrawal, disqualification, or producer removal.\nMultiple simultaneous eliminations count.\nInitial elimination counts even if the contestant later returns.\n\nDoesn't count for payout\nEliminations immediately reversed in the same episode don't count.\nTemporary suspensions, medical holds, or being runner-up in the finale don't count as elimination. \n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-28T03:59:00+00:00",
+  "expected_close_time": "2026-10-28T03:59:00+00:00",
+  "forecast_at": "2026-10-23T13:57:24.537079+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.3",
+    "reasoning": "Only one episode falls inside the window: the Oct. 27 Horror Movie Night double elimination, where 2 of 10 couples go home based on judges' scores plus combined votes from Weeks 6 and 7. Jackson tied for last with the judges in Week 6 and has been near the bottom all season, which raises his risk above the 20% base rate. But he has survived six weeks thanks to a large social media and Savannah Bananas fan base, which outweighs some of the other low scorers.",
+    "falsifier": "Jackson Olson and Emma Slater are named as one of the two couples eliminated on the Oct. 27 Horror Movie Night episode (which would make YES correct), or they clearly finish mid-pack and safe.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.yahoo.com/entertainment/tv/articles/got-eliminated-dwts-dancing-stars-144521623.html"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6200",
+    "best_yes_ask": "0.6300",
+    "p_market": "0.6250"
+  },
+  "final": {
+    "p_yes": "0.4",
+    "action": "buy_no",
+    "reasoning": "The 62.5% price moved my estimate from 30% to 40%, in case traders have information I lack. But the public evidence is that Jackson is one of four couples tied at the bottom of the judges' leaderboard and has survived six weeks on fan votes, which doesn't support 62%, so NO looks like the better bet."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.6300",
+    "count": 1,
+    "cost": "0.3700",
+    "clamped_from": "0.40"
+  },
+  "sources": [
+    {
+      "url": "https://deadline.com/2026/05/dwts-season-cast-35-savannah-bananas-jackson-olson-1236899625/",
+      "title": "Dancing With The Stars Season 35 Adds Savannah Bananas' Jackson Olson"
+    },
+    {
+      "url": "https://gohatters.com/news/2026/9/3/baseball-former-hatter-jackson-olson-set-to-compete-on-dancing-with-the-stars.aspx",
+      "title": "Former Hatter Jackson Olson Set to Compete on \u2018Dancing with the Stars\u2019 - Stetson University Athletics"
+    },
+    {
+      "url": "https://abc.com/news/2bd622e9-a6cc-400e-8e06-9799cecaa773/category/1138628",
+      "title": "Dancing with the Stars: Savannah Bananas' Jackson Olson Slides into the Ballroom for Season 35!"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "title": "Dancing with the Stars (American TV series) season 35"
+    },
+    {
+      "url": "https://dancingwiththestars.fandom.com/wiki/Jackson_Olson",
+      "title": "Jackson Olson"
+    },
+    {
+      "url": "https://parade.com/news/who-went-home-dancing-with-the-stars-2026-tonight-week-6-elimination",
+      "title": "Who Went Home on \u2018Dancing With the Stars\u2019 Last Night? Season 35 Week 6 Results and Elimination Surprise (Spoilers) - Parade"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-the-next-pro-season-1-week-6-live-recap",
+      "title": "\u2018Dancing With the Stars: the Next Pro\u2019 Season 1 Week 6 Live Recap: Who Was Eliminated?"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/went-home-dancing-stars-2026-020234631.html",
+      "title": "Who Went Home on \u2018Dancing with the Stars\u2019 2026 Week 6? \u2018Dedication Night\u2019 Spoilers Revealed!"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/elimination-results-sent-home-dancing-000000338.html",
+      "title": "Dancing With the Stars Week 6: No Eliminations, Amber and Pasha Score Highest"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-dedication-week-6-recap-scores-elimination-1236736527/",
+      "title": "Grab the Tissues, It\u2019s Dedication Night on \u2018Dancing With the Stars\u2019: See the Scores, Who Went Home"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/went-home-dwts-last-night-165925469.html",
+      "title": "Who went home on DWTS last night? Week 6 ends with no elimination"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-season-35-week-6-recap-who-was-eliminated",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35 Week 6 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.tvinsider.com/1295470/dancing-with-the-stars-mariah-carey-night-2026-scores-eliminated-recap/",
+      "title": "'Dancing With the Stars' Mariah Carey Night 2026 Recap: Ciara Miller Eliminated"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/22/dwts-2026-horror-movie-night-songs-dances-films-revealed/",
+      "title": "\u2018DWTS\u2019 2026 Horror Movie Night Songs, Dances, & Films Revealed"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dwts-double-elimination-next-know-162843196.html",
+      "title": "DWTS double elimination is next: What to know before Horror Movie Night"
+    },
+    {
+      "url": "https://rollingout.com/2026/10/22/dancing-with-the-stars-horror-movie/",
+      "title": "\u2018Dancing With the Stars\u2019 Horror Movie Night: How to vote and avoid the double elimination"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/dwts-horror-movie-night-week-seven/",
+      "title": "'Dancing With the Stars' Presents 'Horror Movie Night,' See the Spooky Routines"
+    },
+    {
+      "url": "https://whatsondisneyplus.com/dancing-with-the-stars-horror-movie-night-details-revealed/",
+      "title": "\"Dancing With The Stars\" - \u201cHorror Movie Night\u201d Details Revealed - What's On Disney Plus"
+    },
+    {
+      "url": "https://www.thethings.com/dwts-season-35-horror-movie-night-all-dance-styles-songs-special-guest-judge-announced/",
+      "title": "'DWTS' Season 35 Horror Movie Night: All Dance Styles, Songs,& Special Guest Judge Announced"
+    },
+    {
+      "url": "https://www.detpress.com/abc/shows/dancing-with-the-stars/press-releases/",
+      "title": "ABC Press - Dancing with the Stars"
+    },
+    {
+      "url": "https://www.thethings.com/dancing-with-the-stars-season-35-announces-special-guest-judge-for-horror-movie-night/",
+      "title": "'Dancing With The Stars' Season 35 Announces \"Worst Nightmare\" Special Guest Judge For Horror Movie Night"
+    },
+    {
+      "url": "https://deadline.com/2026/10/dancing-with-the-stars-season-35-recap-dedication-night-1237168767/",
+      "title": "'DWTS' Season 35 Recap: Who Goes Home On Dedication Night?"
+    },
+    {
+      "url": "https://www.primetimer.com/features/dancing-with-the-stars-season-35-who-went-home-during-the-dedication-night-details-explored",
+      "title": "Dancing with the Stars season 35: Who went home during the Dedication Night? Details explored - PRIMETIMER"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/went-home-dwts-last-night-133137897.html",
+      "title": "Who went home on \u2018DWTS\u2019 last night? See \u2018Dedication Night\u2019 scores"
+    },
+    {
+      "url": "https://meaww.com/who-went-home-on-dwts-tonight-season-35-dedication-night-results-julia-stiles-heath-ledger-ezra-frech-harry-shum-jr-tyler-cameron-jenna-dewan",
+      "title": "Who was eliminated on \u2018Dancing With the Stars\u2019 tonight? Season 35's Dedication Night gets emotional"
+    },
+    {
+      "url": "https://www.tvinsider.com/1298466/dancing-with-the-stars-dedication-night-2026-scores-eliminated-recap/",
+      "title": "'Dancing With the Stars' Dedication Night 2026 Recap: Everyone's Safe in Elimination Twist"
+    },
+    {
+      "url": "https://www.eonline.com/news/1436980/dwts-emma-slater-shares-reason-behind-bizarre-move-in-jackson-olson-waltz",
+      "title": "DWTS' Emma Slater Details Reason Behind Bizarre Dance Move During Jackson Olson Waltz"
+    },
+    {
+      "url": "https://abcnews.com/GMA/Culture/dancing-with-the-stars-season-35-who-is-eliminated/story?id=136377567",
+      "title": "'Dancing with the Stars' season 35: See who is eliminated - ABC News"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/season-35-rankings-after-week-6-top-10-couples-judges-scores/",
+      "title": "DWTS Season 35: Cumulative Judges\u2019 Scores After Week 6"
+    },
+    {
+      "url": "https://www.dancemogul.com/dwts-horror-movie-night-2026-songs-dances/",
+      "title": "DWTS Horror Movie Night 2026: All 10 Songs, Dances and the Double Elimination"
+    },
+    {
+      "url": "https://www.eonline.com/news/1436129/dancing-with-the-stars-premiere-emma-slater-reacts-to-low-judges-scores",
+      "title": "Dancing With the Stars' Emma Slater Reacts to Judges' \"Stingy\u201d Scores on Premiere Episode"
+    },
+    {
+      "url": "https://lifestyle.si.com/celebrities/dancing-with-the-stars-season-35-week-5-recap-who-was-eliminated",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35 Week 5 Live Recap: Dances, Scores and Elimination"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/article/who-was-eliminated-from-dancing-with-the-stars-last-night-6th-celebrity-sent-home-084656333.html",
+      "title": "Who was eliminated from 'Dancing With the Stars' last night? 6th celebrity sent home."
+    },
+    {
+      "url": "https://www.dancemogul.com/dwts-week-5-results-2026-super-bowl-night/",
+      "title": "DWTS Week 5 Results 2026: Scores and Who Went Home"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-5-rcna601966",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Super Bowl Week: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-mariah-carey-week-4-recap-scores-elimination-1236723985/",
+      "title": "DWTS Season 35 Mariah Carey Night Week 4 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.goodmorningamerica.com/culture/story/dancing-with-the-stars-season-35-who-is-eliminated-136377567",
+      "title": "'Dancing with the Stars' season 35: See who is eliminated - Good Morning America"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-4-rcna600589",
+      "title": "Who Was Eliminated on \u2018DWTS\u2019 Week 4? See the Score Breakdown"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/got-eliminated-dwts-dancing-stars-144521623.html",
+      "title": "Who got eliminated from DWTS? Dancing with the Stars elmination order"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/2026/10/dwts-season-35-jackson-olson-mariah-carey-night/",
+      "title": "Why 'Dancing With the Stars' Fans Think Jackson Olson Will Be the Next Eliminated in Season 35"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/could-jackson-olson-eliminated-dwts-161931156.html",
+      "title": "Could Jackson Olson be eliminated on 'DWTS' tonight? How to watch"
+    },
+    {
+      "url": "https://wtnh.com/news/connecticut/hartford/university-of-hartford-baseball-team-cheers-on-former-hawk-on-dancing-with-the-stars",
+      "title": "University of Hartford baseball team cheers on former Hawk on 'Dancing with the Stars'"
+    },
+    {
+      "url": "https://parade.com/news/as-dwts-rehearsal-video-goes-viral-jackson-olson-fans-claim-abc-isnt-showing-the-whole-truth",
+      "title": "As 'DWTS' Rehearsal Video Goes Viral, One Duo's Fans Claim ABC Isn't Showing the Whole Truth - Parade"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/banana-ball-fans-already-debating-160004253.html",
+      "title": "Banana Ball Fans Are Already Debating the 2027 Draft - and Who Really Needs Their Vote - Yahoo Sports"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dwts-fans-think-savannah-bananas-184843178.html",
+      "title": "'DWTS' Fans Think Savannah Bananas' Jackson Olson Is on Season 35"
+    },
+    {
+      "url": "https://parade.com/celebrities/savannah-bananas-jackson-olson-dwts",
+      "title": "Fans Are Basically Certain This Athlete Will Be on 'DWTS': 'This All But Confirms It'"
+    },
+    {
+      "url": "https://www.si.com/onsi/savannah-bananas/news/banana-ball-fans-are-already-debating-the-2027-draft-and-who-really-needs-their-vote-01m5d86nenef",
+      "title": "Banana Ball Fans Are Already Debating the 2027 Draft - and Who Really Needs Their Vote"
+    }
+  ]
+}
