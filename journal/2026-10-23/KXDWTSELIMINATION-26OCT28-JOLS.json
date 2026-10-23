@@ -232,5 +232,21 @@
       "url": "https://www.si.com/onsi/savannah-bananas/news/banana-ball-fans-are-already-debating-the-2027-draft-and-who-really-needs-their-vote-01m5d86nenef",
       "title": "Banana Ball Fans Are Already Debating the 2027 Draft - and Who Really Needs Their Vote"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "4fdfd2befad40a51ece9d9798f4a143ab8e8bd16",
+    "pushed_at": "2026-10-23T13:58:45Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXDWTSELIMINATION-26OCT28-JOLS-4fdfd2befad4",
+    "thesis_commit": "4fdfd2befad40a51ece9d9798f4a143ab8e8bd16",
+    "status": "resting",
+    "order_id": "01a1690e-99d8-7a6f-b47d-961735e35ab0",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
