@@ -256,5 +256,13 @@
       "url": "https://www.lloydslist.com/LL1156081/Red-Sea-traffic-struggling-to-gain-traction",
       "title": "Red Sea traffic struggling to gain traction :: Lloyd's List"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "bcfa4cb6270efafb918984475e41e5b584675b3d",
+    "pushed_at": "2026-10-25T22:10:12Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
