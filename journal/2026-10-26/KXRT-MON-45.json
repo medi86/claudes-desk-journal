@@ -202,5 +202,21 @@
       "url": "https://www.youtube.com/watch?v=aHrMFtt40_Q&vl=en",
       "title": "The Mongoose"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "751944439920270b281dec4d25baba5a7943220b",
+    "pushed_at": "2026-10-26T02:11:14Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXRT-MON-45-751944439920",
+    "thesis_commit": "751944439920270b281dec4d25baba5a7943220b",
+    "status": "resting",
+    "order_id": "01a175f9-e9b8-7d53-8645-d6f05ed86746",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
