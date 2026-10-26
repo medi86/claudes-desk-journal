@@ -1,0 +1,206 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-MON-45",
+  "event": "KXRT-MON",
+  "series": "KXRT",
+  "title": "The Mongoose Rotten Tomatoes score? Above 45",
+  "rules": "If The Mongoose has a Tomatometer score of above 45 on Nov 2, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-26T02:10:16.887950+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.24",
+    "reasoning": "The Mongoose is a Samuel Goldwyn-distributed Liam Neeson action thriller directed by Mark Vanselow. Most comparable recent Neeson action films scored below 45% on Rotten Tomatoes (about 3 in 10 cleared it). The trailer drew mockery, and the Rotten Tomatoes page showed 0 reviews just before the October 30 release, suggesting a late embargo. That points to a score at or below 45.",
+    "falsifier": "Early critic reviews come in mostly positive, putting the Tomatometer at 50% or higher with 20+ reviews by Nov 2.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2800",
+    "best_yes_ask": "0.2900",
+    "p_market": "0.2850"
+  },
+  "final": {
+    "p_yes": "0.25",
+    "action": "buy_no",
+    "reasoning": "The market's 0.285 is close to my estimate, so I nudged up slightly. The roughly 3-in-10 rate at which comparable Neeson action films clear 45%, plus the 0-review page just before opening and the mocked trailer, still keep me below the market. The edge is modest."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.2900",
+    "count": 1,
+    "cost": "0.7100",
+    "clamped_from": "0.25"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Mongoose_(film)",
+      "title": "The Mongoose (film)"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/the_mongoose",
+      "title": "The Mongoose"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z5UOOYYRoQY",
+      "title": "THE MONGOOSE Official Trailer (2026) Liam Neeson - YouTube"
+    },
+    {
+      "url": "https://www.movieinsider.com/m23136/mongoose",
+      "title": "Everything You Need to Know About The Mongoose Movie (2026): Oct. 4, 2026 - set the parent rating to R for some violence/bloody images and language - Movie Insider"
+    },
+    {
+      "url": "https://movieweb.com/liam-neeson-action-thriller-the-mongoose-leaks/",
+      "title": "Liam Neeson\u2019s New Action Thriller Reportedly Leaks Online 2 Months Ahead of Official Release"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Lwcjld-vm7U",
+      "title": "THE MONGOOSE Trailer (2026) Marisa Tomei, Liam Neeson - YouTube"
+    },
+    {
+      "url": "https://www.cineamo.com/en-US/movies/the-mongoose-2026",
+      "title": "The Mongoose (2026)"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/liam-neeson-the-mongoose-trailer-1236649239/",
+      "title": "Watch Liam Neeson Movie 'The Mongoose' Trailer"
+    },
+    {
+      "url": "https://www.firstshowing.net/2026/liam-neeson-marisa-tomei-in-the-mongoose-action-thriller-trailer/",
+      "title": "Liam Neeson & Marisa Tomei in 'The Mongoose' Action Thriller Trailer"
+    },
+    {
+      "url": "https://mulderville.net/en/reviews/6993/the-mongoose",
+      "title": "The Mongoose (2026) - Mulderville.net"
+    },
+    {
+      "url": "https://www.koimoi.com/reviews/trailer-reviews/the-mongoose-trailer-review-a-fake-sense-of-urgency-slow-paced-dialogues-make-this-liam-neeson-video-look-like-a-fan-edit/",
+      "title": "The Mongoose Trailer Review: A Fake Sense Of Urgency, Slow-Paced Dialogues Make This Liam Neeson Video Look Like A Fan Edit"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TtYuD7HhHN8&xstg=CAMSBhUDzO3xHw%3D%3D",
+      "title": "THE MONGOOSE (2026)"
+    },
+    {
+      "url": "https://budomate.com/the-mongoose-movie-review/",
+      "title": "The Mongoose movie review - Budomate Magazine"
+    },
+    {
+      "url": "https://books.google.com/books/about/The_Mongoose_2026.html?id=aHkIEgAAQBAJ",
+      "title": "The Mongoose 2026: Liam Neeson\u2019s High-Stakes Chase, the Characters, the ... - David C. Porter - Google Books"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/liam-neeson-mongoose-driving-super-161200122.html",
+      "title": "Liam Neeson Is a Mongoose Driving a Super Snake, and on Paper That\u2019s the Best Part of His New Chase Movie"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/the_humans_and_the_mongoose",
+      "title": "The Humans and the Mongoose"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/nandor_fodor_and_the_talking_mongoose",
+      "title": "Nandor Fodor and the Talking Mongoose"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/snake_and_mongooe",
+      "title": "Snake and Mongoose"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/tv/banded_brothers_the_mongoose_mob/s01",
+      "title": "Banded Brothers: The Mongoose Mob: Season 1"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nandor_Fodor_and_the_Talking_Mongoose",
+      "title": "Nandor Fodor and the Talking Mongoose"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/tv/banded_brothers_the_mongoose_mob",
+      "title": "Banded Brothers: The Mongoose Mob"
+    },
+    {
+      "url": "https://www.iomtoday.co.im/news/new-film-based-on-manx-legend-gef-the-mongoose-released-in-usa-to-mixed-reviews-637217",
+      "title": "New film based on Manx legend, Gef the Mongoose, released in USA to mixed reviews"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/tv/banded_brothers_the_mongoose_mob/s01/e04",
+      "title": "Banded Brothers: The Mongoose Mob: Season 1, Episode 4"
+    },
+    {
+      "url": "https://tcuandsa.org/article/the-mongoose-trailer-liam-neeson-s-high-octane-action-thriller",
+      "title": "The Mongoose Trailer - Liam Neeson's High-Octane Action Thriller (2026)"
+    },
+    {
+      "url": "https://backfirenews.com/the-mongoose-liam-neeson-shelby-super-snake-car-chase/",
+      "title": "The Mongoose Car Chase: Liam Neeson's Shelby Super Snake"
+    },
+    {
+      "url": "https://letterboxd.com/film/the-mongoose-2026/",
+      "title": "The Mongoose (2026) directed by Mark Vanselow \u2022 Film + cast \u2022 Letterboxd"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TyhpVthCx4s",
+      "title": "The Mongoose"
+    },
+    {
+      "url": "https://www.darkhorizons.com/trailer-liam-neeson-is-the-mongoose/",
+      "title": "Trailer: Liam Neeson Is \"The Mongoose\" - Dark Horizons"
+    },
+    {
+      "url": "https://m.youtube.com/watch?v=Gt935z2RdWU",
+      "title": "YouTube"
+    },
+    {
+      "url": "https://www.movieinsider.com/m23136/mongoose/videos/22020",
+      "title": "The Mongoose Movie Official Trailer Video - Watch Now - Movie Insider"
+    },
+    {
+      "url": "https://www.joblo.com/the-mongoose-trailer-liam-neeson-thriller/",
+      "title": "Liam Neeson rules the road in the high-octane first trailer for The Mongoose"
+    },
+    {
+      "url": "https://www.samuelgoldwynfilms.com/the-mongoose/",
+      "title": "The Mongoose"
+    },
+    {
+      "url": "https://youtube.com/watch?v=Z5UOOYYRoQY&xstg=CAMSBhUDzO3xHw%3D%3D",
+      "title": "THE MONGOOSE Official Trailer (2026) Liam Neeson - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CgMPao4LThQ",
+      "title": "THE MONGOOSE"
+    },
+    {
+      "url": "https://www.imdb.com/title/tt13611778/",
+      "title": "The Mongoose"
+    },
+    {
+      "url": "https://deadline.com/2025/02/liam-neeson-film-mongoose-filming-australia-marisa-tomei-ving-rhames-michael-chiklis-1236285534/",
+      "title": "Liam Neeson Film 'Mongoose' Underway In Australia; Marisa Tomei Joins"
+    },
+    {
+      "url": "https://creatorsfaire.com/new-release/the-mongoose-starring-liam-neeson-and-marisa-tomei/",
+      "title": "The Mongoose Starring Liam Neeson and Marisa Tomei"
+    },
+    {
+      "url": "https://www.movievine.com/movies/the-mongoose-action-thriller-film-stars-liam-neeson-marisa-tomei-ving-rhames-michael-chiklis-trailer-and-release-date/",
+      "title": "\u2018The Mongoose\u2019 Action Thriller Film Stars Liam Neeson, Marisa Tomei, Ving Rhames, Michael Chiklis"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/liam-neeson-action-movie-mongoose-170738969.html",
+      "title": "Liam Neeson Action Movie The Mongoose Adds Marisa Tomei & 2 More to Cast"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aHrMFtt40_Q&vl=en",
+      "title": "The Mongoose"
+    }
+  ]
+}
