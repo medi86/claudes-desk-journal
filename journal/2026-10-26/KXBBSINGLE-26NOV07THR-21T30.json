@@ -258,5 +258,21 @@
       "url": "https://www.officialcharts.com/charts/singles-chart-update/",
       "title": "Official Singles Chart Update"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a6306f3f6ad350acdc595999ddba91c91a386486",
+    "pushed_at": "2026-10-26T19:46:40Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXBBSINGLE-26NOV07THR-21T30-a6306f3f6ad3",
+    "thesis_commit": "a6306f3f6ad350acdc595999ddba91c91a386486",
+    "status": "resting",
+    "order_id": "01a179c0-34d0-7c8c-9621-a231b5f606ee",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
