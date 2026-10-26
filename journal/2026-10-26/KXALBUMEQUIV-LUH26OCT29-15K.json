@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-LUH26OCT29-15K",
+  "event": "KXALBUMEQUIV-LUH26OCT29",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Luh Leakyz Vol. 1 by Yeat have above 15000 Album Equivalent Units during the October 23, 2026 - October 29, 2026 tracking week? Above 15K",
+  "rules": "If Luh Leakyz Vol. 1 by Yeat has above 15K Album Equivalent Units during the October 23, 2026 - October 29, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 23, 2026 - October 29, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-11-01T14:00:00+00:00",
+  "expected_close_time": "2026-11-01T14:00:00+00:00",
+  "forecast_at": "2026-10-26T19:41:08.320195+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.74",
+    "reasoning": "This is the album's full release week. It drew about 5.7M global Spotify streams on day one and about 9.5M by day two, which looks clearly ahead of Yeat's 7-track COCOON EP, and that EP still got about 14K first-week units. Rough scaling from his past albums points to roughly 18-24K units, mostly from streaming. The risks are a fast drop-off for songs fans already heard as leaks, very few pure sales, and COCOON's miss against its projection.",
+    "falsifier": "A HitsDailyDouble or Luminate first-week figure at or below 15K, for example if streaming fell off sharply after the first weekend because fans had already heard the leaks.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1900",
+    "best_yes_ask": "0.2000",
+    "p_market": "0.1950"
+  },
+  "final": {
+    "p_yes": "0.33",
+    "action": "buy_yes",
+    "reasoning": "The 19.5% price likely reflects a low projection I haven't seen, so I've cut my estimate sharply from 74%. COCOON's 14K from 7 tracks and this album's higher stream count still put 15K within reach, so 33% stays above the midpoint."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.1900",
+    "count": 1,
+    "cost": "0.1900",
+    "clamped_from": "0.33"
+  },
+  "sources": [
+    {
+      "url": "https://open.spotify.com/album/2AyMtdDF0mmc6bI4ljSIaN",
+      "title": "Listen to Luh Leakyz Vol. 1 - Album by Yeat"
+    },
+    {
+      "url": "https://music.apple.com/us/album/luh-leakyz-vol-1/6825987374",
+      "title": "Luh Leakyz Vol. 1 - Album by Yeat & Lyfestyle Corporation - Apple Music"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/1014124-luh-leakyz-vol-1-yeat",
+      "title": "Luh Leakyz Vol. 1 - Album by Yeat"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/album/2093398-yeat-luh-leakyz-vol-1.php",
+      "title": "Yeat - Luh Leakyz Vol. 1 (Compilation) - Reviews - Album of The Year"
+    },
+    {
+      "url": "https://www.thatericalper.com/2026/10/23/yeat-turns-fan-favourite-leaks-into-luh-leakyz-vol-1-after-his-fortnite-debut/",
+      "title": "Yeat Turns Fan-Favourite Leaks Into 'Luh Leakyz Vol. 1' After His Fortnite Debut - That Eric Alper"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Luh_Leakyz_Vol._1",
+      "title": "Luh Leakyz Vol. 1"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vE_QP5Tw27Y",
+      "title": "Yeat - \"Luh Leakyz Vol.1\" (Full Album) - YouTube"
+    },
+    {
+      "url": "https://themusicuniverse.com/yeat-releases-luh-leakyz-vol-1/",
+      "title": "Yeat releases 'Luh Leakyz Vol 1' - The Music Universe"
+    },
+    {
+      "url": "https://www.universalmusic.ca/2026/10/23/yeat-releases-luh-leakyz-vol-1-a-collection-of-fan-demanded-songs/",
+      "title": "YEAT RELEASES LUH LEAKYZ VOL. 1 A COLLECTION OF FAN-DEMANDED SONGS - Universal Music Canada"
+    },
+    {
+      "url": "https://www.complex.com/music/a/tracewilliamcowen/yeat-luh-leakyz-vol-1",
+      "title": "Yeat Puts 'Every Era in the Cup' for 'Luh Leakyz Vol. 1' Project"
+    },
+    {
+      "url": "https://x.com/Kurrco/status/2114084642223431808",
+      "title": "Kurrco on X: \"Yeat\u2019s 'Luh Leakyz Vol. 1' earned ~5.72M first-day streams on Spotify \ud83d\udcca\" / X"
+    },
+    {
+      "url": "https://x.com/Rap/status/2114085011070570691",
+      "title": "RapTV on X: \"Yeat\u2019s 'Luh Leakyz Vol. 1' received 5.72M first-day Spotify streams \u203c\ufe0f\ud83d\udcc8\" / X"
+    },
+    {
+      "url": "https://www.antimusic.com/p/26/p1024yeat_releases_luh_leakyz_vol_1.shtml",
+      "title": "Yeat Releases 'Luh Leakyz Vol. 1' ::antiMusic.com"
+    },
+    {
+      "url": "https://thegarnettereport.com/art/music/yeat-drops-luh-leakyz-vol-1/",
+      "title": "Yeat Drops Luh Leakyz Vol. 1 - The Garnette Report"
+    },
+    {
+      "url": "https://x.com/OnThinlce/status/2113066699406868797",
+      "title": "OnThinIce on X: \"YEAT \u2014 LUH LEAKYZ VOL 1 TOMORROW\" / X"
+    },
+    {
+      "url": "https://www.onthesceneny.com/uncategorized/yeat-opens-the-vault-on-luh-leakyz-vol-1/",
+      "title": "Yeat Opens The Vault On \u201cLuh Leakyz Vol. 1\u201d"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/26/biggest-first-week-billboard-200-debuts-of-2026",
+      "title": "Biggest First-Week Billboard 200 Debuts of 2026"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/21/yeat-luh-leakyz-vol-1-surprise-tape-october-22/",
+      "title": "Yeat Announces Surprise Tape \"LUH LEAKYZ VOL. 1\" for Tomorrow"
+    },
+    {
+      "url": "https://rapindustry.com/yeat-releases-luh-leakyz-vol-1",
+      "title": "Yeat Releases \u2018Luh Leakyz Vol. 1.\u2019 - Yeat Releases new hip hop compilation - Luh Leakyz Vol. 1."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yeat",
+      "title": "Yeat"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/26/biggest-first-week-billboard-200-debuts-of-2026/",
+      "title": "Biggest First-Week Billboard 200 Debuts of 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yeat_discography",
+      "title": "Yeat discography"
+    },
+    {
+      "url": "https://rateyourmusic.com/release/mixtape/yeat/luh-leakyz-vol-1/",
+      "title": "Luh Leakyz Vol. 1 by Yeat (Mixtape): Reviews, Ratings, Credits, Song list - Rate Your Music"
+    },
+    {
+      "url": "https://x.com/YeatCharts/status/2113067100717621334",
+      "title": "Yeat Charts on X: \"\ud83d\udcbf YEAT - LUH LEAKYZ VOL. 1 \ud83d\udea8 DROPS THIS FRIDAY, OCTOBER 23\" / X"
+    },
+    {
+      "url": "https://x.com/Rap/status/2040870911235002582",
+      "title": "RapTV on X: \"Yeat\u2019s 'ADL' sells 57K units first-week\u203c\ufe0f It will debut at #5 on the Billboard 200\ud83d\udd25\" / X"
+    },
+    {
+      "url": "https://x.com/chartdata/status/2039429860779561448",
+      "title": "chart data on X: \"Yeat's 'ADL' aiming for #4 debut on the Billboard 200 with 80K units first week (via @HITSDD). https://t.co/PIuw1fE2qq\" / X"
+    },
+    {
+      "url": "https://x.com/HipHopAllDay/status/2039435963810591013?lang=en",
+      "title": "Hip Hop All Day on X: \"Yeat's 'ADL' to sell 80K units first week and debut at #4 on Billboard \u2014 (45K pure) \ud83d\udd25\ud83d\udcc8 It will be the seventh top ten album of his career. https://t.co/RfSXs2oMwB\" / X"
+    },
+    {
+      "url": "https://x.com/Rap/status/2040123388958785701",
+      "title": "RapTV on X: \"Revealing Yeat's first-week career sales\ud83d\udc47\ud83d\udc40 \ud83d\udcbf 80K (projected) \u2014 ADL \ud83d\udcbf 34K \u2014 DANGEROUS SUMMER \ud83d\udcbf 89K \u2014 LYFESTYLE \ud83d\udcbf 70K \u2014 2093 \ud83d\udcbf 55K \u2014 Aft\u00ebrLyfe \ud83d\udcbf 30K \u2014 Lyf\u00eb \ud83d\udcbf 32K \u2014 Ge\u00ebk Pack \ud83d\udcbf 34K \u2014 2 Aliv\u00eb \ud83d\udcbf <5K \u2014 Up 2 M\u00eb\" / X"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/04/05/billboard-200-bully-arirang-adl/",
+      "title": "Kanye West\u2019s \"BULLY\" Lands At #2 on Billboard 200; Yeat\u2019s \"ADL\" Makes Top 5 Debut"
+    },
+    {
+      "url": "https://www.universalmusic.ca/press-releases/yeat-scores-first-no-1-album-on-billboard-200-chart-with-lyfestyle/",
+      "title": "YEAT SCORES FIRST NO.1 ALBUM ON BILLBOARD 200 CHART WITH LYFESTYLE - Universal Music Canada"
+    },
+    {
+      "url": "https://hypebeast.com/2026/4/kanye-west-ye-bully-no-2-debut-billboard-200",
+      "title": "Ye \u2018BULLY\u2019 No. 2 Debut Billboard 200"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/09/29/yeats-cocoon-debuts-at-no-88-on-the-billboard-200/",
+      "title": "Yeat\u2019s \"COCOON\" Debuts at No. 88 on the Billboard 200"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cocoon_(EP)",
+      "title": "Cocoon (EP)"
+    },
+    {
+      "url": "https://www.udiscovermusic.com/news/yeat-cocoon/",
+      "title": "Yeat Drops New 7-Song Collection 'Cocoon'"
+    },
+    {
+      "url": "https://www.threads.com/@zinx_nx/post/Ddhr5yoDXr8/yeats-cocoon-projected-to-sell-k-units-first-week-and-challenge-for-a-debut/",
+      "title": "Yeat\u2019s \u2019COCOON\u2019 projected to sell 16K units first-week and challenge for a debut inside the top 50 on next weeks Billboard chart \ud83d\udcbf"
+    },
+    {
+      "url": "https://x.com/HipHopAllDay/status/2101739455727976560",
+      "title": "Hip Hop All Day on X: \"Yeat\u2019s \u2019COCOON\u2019 projected to sell 16K units first-week and challenge for a debut inside the top 50 on next weeks Billboard chart \ud83d\udcbf\" / X"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/yeat-shares-ep-cocoon-f-122453575.html",
+      "title": "Yeat Shares New EP 'Cocoon' f/ Drake 'FOMO' Collab \"Miss My Dawg\""
+    },
+    {
+      "url": "https://elpee.jp/artist/Yeat/",
+      "title": "Yeat"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/09/20/yeat-cocoon-ep-first-week-sales-projection/",
+      "title": "Yeat\u2019s \"COCOON\" EP Projected to Open With 16,000 Units"
+    },
+    {
+      "url": "https://theconcertchronicles.com/2026/10/26/yeat-releases-luh-leakyz-vol-1-following-fortinte-collaboration",
+      "title": "Yeat releases Luh Leakyz Vol. 1 following Fortinte collaboration"
+    },
+    {
+      "url": "https://songslover.net/albums/tinashe-popstar-e.html",
+      "title": "Tinashe - Popstar [E]"
+    },
+    {
+      "url": "https://udiscovermusic.com/news/black-eyed-peas-i-gotta-feeling-youtube-billion-views",
+      "title": "Black Eyed Peas\u2019 \u2018I Gotta Feeling\u2019 Video Reaches One Billion YouTube Views"
+    },
+    {
+      "url": "https://24hip-hop.com/shabazz-palaces-its-a-style-sport-collaborators",
+      "title": "Shabazz Palaces Reunites Longtime Collaborators for \u2018It\u2019s a Style Sport\u2019 - 24Hip-Hop"
+    },
+    {
+      "url": "https://udiscovermusic.com/news/karrahbooo-no-cap",
+      "title": "Listen to Karrahbooo\u2019s New Song 'No Cap'"
+    },
+    {
+      "url": "https://hiphopdrops.com/yeat-luh-leakyz-vol-1-14-tracks/",
+      "title": "Yeat - Luh Leakyz Vol. 1 (14 tracks) - HipHopDrops.com"
+    },
+    {
+      "url": "https://x.com/YeatCharts",
+      "title": "Yeat Charts (@YeatCharts) on X"
+    },
+    {
+      "url": "https://t.me/s/yeatonk?q=#release",
+      "title": "@yeatonk"
+    },
+    {
+      "url": "https://kworb.net/spotify/artist/3qiHUAX7zY4Qnjx8TNUzVx_albums.html",
+      "title": "Yeat - Spotify Top Albums"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/user/iloveliluzi/album/2093398-luh-leakyz-vol-1/",
+      "title": "Yeat - Luh Leakyz Vol. 1 review by iloveliluzi - Album of The Year"
+    }
+  ]
+}

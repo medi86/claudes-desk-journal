@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "ticker": "KXAPRPOTUS-26OCT30-38.1",
+  "event": "KXAPRPOTUS-26OCT30",
+  "series": "KXAPRPOTUS",
+  "title": "Will the President's approval rating be between 38.0 and 38.2 according to RealClearPolitics? 38.0 to 38.2",
+  "rules": "If the President's approval rating is between 38.0 and 38.2% at 11:00 AM ET on October 30, 2026 according to RealClearPolitics, then the market resolves to Yes.",
+  "rules_secondary": "The market will determine at 11:00 AM ET on October 30, 2026.",
+  "close_time": "2026-10-30T15:00:00+00:00",
+  "expected_close_time": "2026-10-30T15:00:00+00:00",
+  "forecast_at": "2026-10-26T19:41:08.320195+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.17",
+    "reasoning": "The RCP average was 38.5% around Oct 25\u201326, down from 38.8% a few days earlier, and other averages (Silver Bulletin ~37%, Pollsmax 37.3%) suggest some further downward pull. Hitting the narrow 38.0\u201338.2 band on Oct 30 needs a further 0.3\u20130.5 point decline that stops in exactly the right place. With typical daily swings of a few tenths, that band gets roughly 15\u201320% of the probability.",
+    "falsifier": "The RCP average on Oct 30 at 11 AM ET reading 38.3% or higher (e.g., stable at 38.5%) or 37.9% or lower after a burst of bad pre-midterm polls.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1000",
+    "best_yes_ask": "0.1100",
+    "p_market": "0.1050"
+  },
+  "final": {
+    "p_yes": "0.13",
+    "action": "pass",
+    "reasoning": "The market at ~10.5% sits below my 17%, but my latest RCP reading (38.5%) is several days old and the market likely reflects newer polls, so I shade to ~13%. The small remaining edge over the 0.11 ask doesn't justify a bet given that information gap."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493_test_v2.html",
+      "title": "RealClearPolitics - Election Other - Trump: Favorable/Unfavorable"
+    },
+    {
+      "url": "https://wibc.com/900237/trump-claims-60-approval-rating-despite-polling-slump/",
+      "title": "Trump Claims 60% Approval Rating Despite Polling Slump"
+    },
+    {
+      "url": "https://rawstory.com/trump-cognitive-decline-2678141879",
+      "title": "'Delusional' Trump astounds with 'greatest evidence of cognitive decline' in new interview - Raw Story"
+    },
+    {
+      "url": "https://mediaite.com/media/news/trump-insists-his-job-approval-is-somehow-actually-60-amid-sinking-polling-i-dont-believe-i-could-be-beaten-by-anybody",
+      "title": "Donald Trump Claims His Job Approval is Actually Somehow 60%"
+    },
+    {
+      "url": "https://washingtonexaminer.com/daily-memo/4778408/trump-maga-enthusiasm-strategy",
+      "title": "Trump and the MAGA enthusiasm strategy"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/epolls/other/approval_of_presidentelect_trump-8650.html",
+      "title": "RealClearPolitics - Approval of President-Elect Trump"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/favorability/donald-trump",
+      "title": "Trump: Favorable/Unfavorable"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/trump-rejects-approval-ratings-poll-its-fake_n_6adccb4ae4b027da9ae6d5c4",
+      "title": "Trump Comes Up With His Own Approval Rating: 'I Think 60'"
+    },
+    {
+      "url": "https://nationalsecurityjournal.org/donald-trump-just-cant-keep-his-mouth-shut-and-democrats-are-about-to-teach-him-a-masterclass-in-losing-an-election/",
+      "title": "Donald Trump Just Can\u2019t Keep His Mouth Shut And Democrats are About to Teach Him a Masterclass in Losing an Election - National Security Journal"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "title": "President Trump Job Approval"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump-president-elect/approval-rating",
+      "title": "Approval of President-Elect Trump"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/favorability/donald-trump/issues",
+      "title": "Trump Job Approval on Issues"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/issues/inflation",
+      "title": "President Trump Job Approval - Inflation"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/issues/economy",
+      "title": "President Trump Approval - Economy"
+    },
+    {
+      "url": "https://economystupid.substack.com/p/republicans-cant-escape-trumps-39",
+      "title": "Republicans can\u2019t escape Trump\u2019s 39% approval"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/video/2026/10/08/cnn_poll_trumps_approval_falls_to_36_in_ohio_41_in_iowa_3_in_4_voters_blame_trump_for_higher_costs.html",
+      "title": "CNN Poll: Trump's Approval Falls To 36% In Ohio, 41% In Iowa; 3 In 4 Voters Blame Trump For Higher Costs"
+    },
+    {
+      "url": "https://www.unilad.com/news/us-news/donald-trump-fake-news-low-approval-563907-20261025",
+      "title": "Trump's actual approval rating revealed as he slams 'fake' polls and comes up with his own figure"
+    },
+    {
+      "url": "https://mediabias.news/politics/trump-disputes-approval-ratings-claims-60-figure",
+      "title": "Trump Approval Rating Dispute"
+    },
+    {
+      "url": "https://www.huffingtonpost.co.uk/entry/donald-trump-disastrous-polls-midterms_uk_6addbdabe4b04f5132f460d7",
+      "title": "Trump Rejects Disastrous Polls: 'I Don't Believe I Could Be Beaten By Anybody'"
+    },
+    {
+      "url": "https://www.mediaite.com/media/news/trump-insists-his-job-approval-is-somehow-actually-60-amid-sinking-polling-i-dont-believe-i-could-be-beaten-by-anybody/",
+      "title": "Donald Trump Claims His Job Approval is Actually Somehow 60%"
+    },
+    {
+      "url": "https://ground.news/article/trump-insists-his-job-approval-is-somehow-actually-60-amid-sinking-polling-i-dont-believe-i-could-be-beaten-by-anybody",
+      "title": "Trump Claims His Job Approval Is 60%"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-insists-job-approval-somehow-144140167.html",
+      "title": "Trump Insists His Job Approval Is Somehow Actually 60% Amid Sinking Polling: \u2018I Don\u2019t Believe I Could Be Beaten By Anybody\u2019"
+    },
+    {
+      "url": "https://www.pollsmax.com/approval/trump/",
+      "title": "Trump Approval Rating"
+    },
+    {
+      "url": "https://rasmussenreports.com/public_content/politics/trump_administration_second_term/prez_track_oct26",
+      "title": "Daily Presidential Tracking Poll - Rasmussen Reports\u00ae"
+    },
+    {
+      "url": "https://yougov.com/en-us/trackers/donald-trump-approval",
+      "title": "President Trump's second-term job approval rating 2025-2026"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-approval-ratings-where-132426878.html",
+      "title": "Donald Trump approval ratings: Where they stand ahead of midterms"
+    },
+    {
+      "url": "https://wegotthiscovered.com/politics/trump-is-told-his-job-approval-rating-is-in-the-30s-he-refuses-to-believe-that-and-reveals-what-he-thinks-the-real-number-is-im-way-up",
+      "title": "Trump is told his job approval rating is in the 30s. He refuses to believe that and reveals what he thinks the real number is: 'I'm way up'"
+    },
+    {
+      "url": "https://forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily",
+      "title": "Hottest 2026 Midterm Races\u2014Maine Senate Race Tied In Latest Poll (Updated Daily)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_on_the_second_Trump_presidency",
+      "title": "Opinion polling on the second Trump presidency"
+    },
+    {
+      "url": "https://trumpinsight.com/trump-approval-rating",
+      "title": "Trump Approval Rating Today: 35% Approve (October 2026)"
+    },
+    {
+      "url": "https://www.poliwave.com/us/approval/donald-trump",
+      "title": "Donald Trump Approval Rating, October 2026"
+    },
+    {
+      "url": "https://www.forbes.com/sites/saradorn/2026/10/22/trump-approval-rating-hits-a-low-on-the-economy-as-republican-pessimism-reaches-all-time-high/",
+      "title": "Trump Approval Rating: Hits A Low On The Economy\u2014As Republican Pessimism Reaches All-Time High"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/epolls/other/president_trump_job_approval-6179-test-v2.html",
+      "title": "RealClearPolitics - Election Other - President Trump Job Approval"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating/independents",
+      "title": "President Trump Job Approval - Independents"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating/republicans",
+      "title": "President Trump Job Approval - Republicans"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/issues/foreign-policy",
+      "title": "President Trump Job Approval - Foreign Policy"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/issues/immigration",
+      "title": "President Trump Job Approval - Immigration"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating-1st-term",
+      "title": "President Trump Job Approval - 1st Term"
+    },
+    {
+      "url": "https://www.realclearpolling.com/",
+      "title": "2026 Latest Election Polls and Political Insights"
+    },
+    {
+      "url": "https://www.rawstory.com/trump-cognitive-decline-2678141879/",
+      "title": "'Delusional' Trump astounds with 'greatest evidence of cognitive decline' in new interview - Raw Story"
+    },
+    {
+      "url": "https://www.newsminimalist.com/articles/trump-rejects-polls-showing-388percent-approval-claims-real-rating-is-60percent-95622b20",
+      "title": "Trump Rejects Polls Showing 38.8% Approval, Claims Real Rating Is 60%"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6149735-trumps-approval-rating-hits-record-low-in-fox-news-poll/",
+      "title": "Donald Trump approval drops to 36 percent in new Fox News poll"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/26/trump-approval-midterms-cnbc-survey.html",
+      "title": "The arc of Trump: How the president lost the coalition that put him in the White House"
+    },
+    {
+      "url": "https://www.newsweek.com/donald-trump-approval-rating-conservative-pollster-midterms-12583441",
+      "title": "Trump's Approval Rating Hits All-Time Low Days Before Midterms - Newsweek"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6131134-donald-trump-approval-rating-record-low-stuck-survey/",
+      "title": "Donald Trump approval stuck at 32 percent ahead of midterms: Survey"
+    }
+  ]
+}

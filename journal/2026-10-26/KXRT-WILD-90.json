@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-WILD-90",
+  "event": "KXRT-WILD",
+  "series": "KXRT",
+  "title": "Wild Horse Nine Rotten Tomatoes score? Above 90",
+  "rules": "If Wild Horse Nine has a Tomatometer score of above 90 on Nov 9, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-11-09T15:00:00+00:00",
+  "expected_close_time": "2026-11-09T15:00:00+00:00",
+  "forecast_at": "2026-10-26T19:41:08.320195+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.57",
+    "reasoning": "Wild Horse Nine sits at 93% (88 fresh, 7 rotten) about two weeks before its Nov 6 wide release, and Metacritic shows 79 with zero negative reviews. Wide-release reviews usually pull festival scores down by 1-2 points, and recent reviews have been about 87% fresh, so the final score probably lands around 91-92%. That is only just above the 90 line.",
+    "falsifier": "A wave of mixed or negative US critic reviews at the Nov 6 release pushes the displayed Tomatometer to 90% or lower by Nov 9.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8700",
+    "best_yes_ask": "0.8800",
+    "p_market": "0.8750"
+  },
+  "final": {
+    "p_yes": "0.68",
+    "action": "buy_no",
+    "reasoning": "The 0.875 price led me to raise my estimate somewhat, since films like Banshees held their festival scores. But at 92.6% the buffer above the 91 display threshold is only about 2 points, recent reviews are about 87% fresh, and release-week critics usually pull scores down. I still think the market overrates YES."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.8800",
+    "count": 1,
+    "cost": "0.1200",
+    "clamped_from": "0.68"
+  },
+  "sources": [
+    {
+      "url": "https://letterboxd.com/film/wild-horse-nine/",
+      "title": "\u200eWild Horse Nine (2026) directed by Martin McDonagh \u2022 Reviews, film + cast \u2022 Letterboxd"
+    },
+    {
+      "url": "https://www.indiewire.com/criticism/movies/wild-horse-nine-movie-review-1235213912/",
+      "title": "Wild Horse Nine Review: Martin McDonagh's Prickly CIA Satire"
+    },
+    {
+      "url": "https://discussingfilm.net/2026/09/17/wild-horse-nine-review-martin-mcdonagh/",
+      "title": "'Wild Horse Nine' Review - Even Martin McDonagh's Safest Tricks Prove Fruitful"
+    },
+    {
+      "url": "https://thehollywoodnews.com/2026/10/22/wild-horse-nine-review-dir-martin-mcdonagh-2026/",
+      "title": "'Wild Horse Nine' review: Dir. Martin McDonagh (2026)"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/movies/movie-reviews/wild-horse-nine-review-john-malkovich-sam-rockwell-mcdonagh-1236689345/",
+      "title": "\u2018Wild Horse Nine\u2019 Review: John Malkovich and Sam Rockwell Make a Perfect Pair in Martin McDonagh\u2019s Poignant, Blood-Dipped Buddy Comedy"
+    },
+    {
+      "url": "https://www.deepfocusreview.com/reviews/wild-horse-nine/",
+      "title": "Wild Horse Nine (2026)"
+    },
+    {
+      "url": "https://www.slantmagazine.com/film/wild-horse-nine-review-john-malkovich-sam-rockwell-mcdonagh/",
+      "title": "'Wild Horse Nine' Review: Martin McDonagh Replays the Hits"
+    },
+    {
+      "url": "https://www.bfi.org.uk/sight-and-sound/reviews/wild-horse-nine-martin-mcdonagh-deploys-his-trademark-irreverence-funny-sad-1970s-spy-caper",
+      "title": "Wild Horse Nine review: McDonagh\u2019s indecent agents"
+    },
+    {
+      "url": "https://collider.com/wild-horse-nine-review-john-malkovich-sam-rockwell/",
+      "title": "John Malkovich Is an Instant Oscar Favorite in Martin McDonagh's 'Wild Horse Nine'"
+    },
+    {
+      "url": "https://www.slashfilm.com/2255960/wild-horse-nine-review/",
+      "title": "Wild Horse Nine Review: John Malkovich And Sam Rockwell Are A Great Duo In Martin McDonagh's Subversive Modern Western - SlashFilm"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/m/wild_horse_nine",
+      "title": "Wild Horse Nine"
+    },
+    {
+      "url": "https://www.comicbasics.com/wild-horse-nine-rotten-tomatoes-score-is-in-martin-mcdonaghs-john-malkovich-led-cia-comedy-sparks-awards-buzz/",
+      "title": "\u2018Wild Horse Nine\u2019 Rotten Tomatoes Score Is In: Martin McDonagh\u2019s John Malkovich-Led CIA Comedy Sparks Awards Buzz"
+    },
+    {
+      "url": "https://screenrant.com/wild-horse-nine-rotten-tomatoes-score-debut/",
+      "title": "Sam Rockwell\u2019s New Action Thriller Breaks 8-Year Rotten Tomatoes Record"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wild_Horse_Nine",
+      "title": "Wild Horse Nine"
+    },
+    {
+      "url": "https://www.threads.com/@rottentomatoes/post/Dc1YT9wlI_j/first-reviews-from-venezia-are-in-for-wild-horse-nine-currently-its-fresh-at-on/",
+      "title": "First reviews from Venezia83 are in for #WildHorseNine - currently it's Fresh at 91% on the Tomatometer, with 11 reviews. https://www.rottentomatoes.com/m/wild_horse_nine?cmp=TWRT_Movie_WildHorseNine_Score"
+    },
+    {
+      "url": "https://www.amctheatres.com/movies/wild-horse-nine-82937",
+      "title": "Wild Horse Nine movie showtimes at an AMC Theatre near you."
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wild-horse-nine-reviews-critics-183500728.html",
+      "title": "\u2018Wild Horse Nine\u2019 reviews: Critics hail awards-worthy John Malkovich"
+    },
+    {
+      "url": "https://movieweb.com/wild-horse-nine-new-trailer/",
+      "title": "Near-Perfect Action Thriller Officially Declared \"One of the Best Films of the Year\" in New Trailer"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/celebrity/770694539",
+      "title": "Martin McDonagh Movies & TV Shows List"
+    },
+    {
+      "url": "https://deadline.com/2026/09/wild-horse-nine-trailer-martin-mcdonagh-film-1236759951/",
+      "title": "'Wild Horse Nine' Trailer: Martin McDonagh Film Stars Rockwell, Malkovich"
+    },
+    {
+      "url": "https://tvdocket.com/movies/wild-horse-nine/",
+      "title": "Wild Horse Nine Release Date: In Theaters November 6, 2026"
+    },
+    {
+      "url": "https://www.laughingplace.com/entertainment/wild-horse-nine-release-date/",
+      "title": "Searchlight Pictures Gives Release Date to \"Wild Horse Nine\" from Director Martin McDonagh"
+    },
+    {
+      "url": "https://disney.fandom.com/wiki/Wild_Horse_Nine",
+      "title": "Wild Horse Nine"
+    },
+    {
+      "url": "https://www.imdb.com/news/ni65714749/",
+      "title": "'Wild Horse Nine': Release Date Set for Martin McDonagh Thriller"
+    },
+    {
+      "url": "https://deadline.com/2026/02/wild-horse-release-date-martin-mcdonagh-1236719156/",
+      "title": "'Wild Horse Nine' Martin McDonagh Movie Set for Fall Release"
+    },
+    {
+      "url": "https://tv.apple.com/us/movie/wild-horse-nine/umc.cmc.27adb71fsg7xe4yla8e2dhh65",
+      "title": "Wild Horse Nine - Apple TV"
+    },
+    {
+      "url": "https://www.fxoxo.com/336190/",
+      "title": "'Wild Horse Nine' is officially Certified Fresh, currently at 94% on the Tomatometer, with 80 reviews. - F*XOXO"
+    },
+    {
+      "url": "https://www.flicks.us/movie/wild-horse-nine/",
+      "title": "Wild Horse Nine"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/wild-horse-nine/",
+      "title": "Wild Horse Nine Reviews - Metacritic"
+    },
+    {
+      "url": "https://deadline.com/2026/09/wild-horse-nine-reviews-what-the-critics-are-saying-1237067100/",
+      "title": "'Wild Horse Nine' Reviews And Reaction: What The Critics Are Saying"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/wild-horse-nine/critic-reviews/",
+      "title": "Wild Horse Nine critic reviews - Metacritic"
+    },
+    {
+      "url": "https://geeksofcolor.co/reviews/ciff-2026-wild-horse-nine-review",
+      "title": "CIFF 2026:"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/wild-horse-nine-critics-saying-175725519.html",
+      "title": "\u2018Wild Horse Nine\u2019: What The Critics Are Saying About Martin McDonagh\u2019s Dark Comedy"
+    },
+    {
+      "url": "https://www.screen-reflections.com/p/wild-horse-nine-lff-2026-review",
+      "title": "Wild Horse Nine Review (LFF 2026)"
+    },
+    {
+      "url": "https://nextbestpicture.com/wild-horse-nine/",
+      "title": "\"WILD HORSE NINE\" - Review"
+    },
+    {
+      "url": "https://www.bollywoodhungama.com/movie/wild-horse-nine-english/box-office/",
+      "title": "Wild Horse Nine (English) Box Office Collection"
+    },
+    {
+      "url": "https://www.fandango.com/wild-horse-nine-2026-247109/movie-overview",
+      "title": "Wild Horse Nine (2026) Tickets & Showtimes"
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt15799564/",
+      "title": "Wild Horse Nine - Box Office Mojo"
+    },
+    {
+      "url": "https://www.hsx.com/security/view/WILDH",
+      "title": "Wild Horse Nine - MovieStock"
+    },
+    {
+      "url": "https://www.movieinsider.com/m25275/wild-horse-9",
+      "title": "Everything You Need to Know About Wild Horse Nine Movie (2026): Sep. 23, 2026 - added a poster to photo gallery - Movie Insider"
+    },
+    {
+      "url": "https://bedfordplayhouse.org/movies/wild-horse-nine/",
+      "title": "Wild Horse Nine"
+    },
+    {
+      "url": "https://www.atomtickets.com/movies/wild-horse-nine/367290",
+      "title": "Wild Horse Nine"
+    }
+  ]
+}

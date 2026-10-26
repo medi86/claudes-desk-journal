@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "ticker": "KXBBSINGLE-26NOV07THR-21T30",
+  "event": "KXBBSINGLE-26NOV07THR",
+  "series": "KXBBSINGLE",
+  "title": "Will \"Thriller\" rank No. 21\u201330 on Billboard Hot 100? Rank 21 to 30",
+  "rules": "If \"Thriller\" by Michael Jackson ranks between No. 21 and No. 30, inclusive on the Billboard Hot 100 for the chart dated Nov 7, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Billboard. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-26T19:41:08.320195+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.43",
+    "reasoning": "The Nov. 7 chart covers Oct. 23\u201329 and stops two days before a Saturday Halloween. Last year's matching pre-Halloween week (8.9M streams) put 'Thriller' at No. 32. Its streaming base is clearly higher in 2026 after the 'Michael' biopic, but the window shifts one day earlier and misses the big day before Halloween. Estimated 10\u201312.5M streams suggest about No. 17\u201327, centred in the low-to-mid 20s, with real chances of a top-20 placement or a finish in the 30s.",
+    "falsifier": "'Thriller' lands at No. 20 or higher (the pre-Halloween lift is bigger than expected) or at No. 31 or lower (the lift is weaker than expected) on the Hot 100 dated Nov. 7, 2026.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2700",
+    "best_yes_ask": "0.3000",
+    "p_market": "0.2850"
+  },
+  "final": {
+    "p_yes": "0.37",
+    "action": "buy_yes",
+    "reasoning": "The market at about 29% likely leans toward a top-20 finish. My straight-line estimate from last year still centres in the low-to-mid 20s, so I shade down for whatever the market may know that I don't but still see value in YES."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.2900",
+    "count": 1,
+    "cost": "0.2900",
+    "clamped_from": "0.37"
+  },
+  "sources": [
+    {
+      "url": "https://www.billboard.com/music/chart-beat/michael-jackson-thriller-halloween-2025-top-10-streams-1236110511/",
+      "title": "Why Did Michael Jackson\u2019s \u2018Thriller\u2019 Hit the Hot 100\u2019s Top 10 for the First Time Since 1984?"
+    },
+    {
+      "url": "https://www.npr.org/2025/11/13/nx-s1-5607015/michael-jackson-thriller-charts-halloween",
+      "title": "Michael Jackson sets new record on Billboard charts : NPR"
+    },
+    {
+      "url": "https://variety.com/2025/music/news/michael-jackson-first-artist-top-10-hits-six-decades-charts-1236574326/",
+      "title": "Michael Jackson Becomes First Artist With Top 10 Hits in Six Decades as \u2018Thriller\u2019 Re-Enters Hot 100"
+    },
+    {
+      "url": "https://www.forbes.com/sites/hughmcintyre/2025/11/08/michael-jackson-returns-to-no-1-in-america-thanks-to-halloween/",
+      "title": "Michael Jackson Returns To No. 1 In America Thanks To Halloween"
+    },
+    {
+      "url": "https://www.forbes.com/sites/hughmcintyre/2025/11/15/michael-jacksons-thriller-passes-two-of-his-biggest-songs-as-it-soars/",
+      "title": "Michael Jackson\u2019s \u2018Thriller\u2019 Passes Two Of His Biggest Songs As It Soars"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2025/10/21/michael-jacksons-thriller-named-22-biggest-halloween-song-of-all-time/",
+      "title": "Michael Jackson\u2019s \u201cThriller\u201d Named #22 Biggest Halloween Song of All Time"
+    },
+    {
+      "url": "https://laist.com/brief/news/arts-and-entertainment/michael-jackson-sets-a-record-on-the-pop-charts-thanks-to-spooky-season",
+      "title": "Michael Jackson record"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2025/11/04/michael-jacksons-thriller-set-to-re-enter-billboard-hot-100-top-10-after-halloween/",
+      "title": "Michael Jackson\u2019s \u201cThriller\u201d Set to Re-Enter Billboard Hot 100 Top 10 After Halloween"
+    },
+    {
+      "url": "https://www.npr.org/2025/11/13/nx-s1-5607016/michael-jacksons-music-sets-a-new-record-on-the-pop-charts",
+      "title": "Michael Jackson's music sets a new record on the pop charts : NPR"
+    },
+    {
+      "url": "https://thegrio.com/2025/11/11/michael-jackson-makes-chart-history-again-as-thriller-returns-to-billboards-top-10/",
+      "title": "Michael Jackson makes chart history (again) as \u2018Thriller\u2019 returns to Billboard's Top 10 - TheGrio"
+    },
+    {
+      "url": "https://www.internationalnewsandviews.com/michael-jackson-thriller-billboard-hot-100-comeback-halloween-streaming-391501-2/",
+      "title": "\u2018Thriller\u2019 Returns to Billboard Hot 100 Top 10 After Halloween Streaming Spike; Leon Thomas\u2019 \u2018Mutt\u2019 Climbs"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thriller_(song)",
+      "title": "Thriller (song)"
+    },
+    {
+      "url": "https://www.mandatory.com/news/1686167-michael-jackson-billboard-record-thriller",
+      "title": "Michael Jackson Has Set Another Huge Music Record - Mandatory"
+    },
+    {
+      "url": "https://x.com/chartdata/status/1987382690434240758",
+      "title": "chart data on X: \"Michael Jackson\u2019s \"Thriller\" re-enters this week\u2019s Hot 100 at #32. It peaked at #4. https://t.co/OPhrnDMXtH\" / X"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2025/11/michael-jacksons-thriller-album-makes-billboard-history-as-title-track-soars-into-hot-100s-top-10-over-40-years-release/",
+      "title": "Michael Jackson's 'Thriller' Album Makes Billboard History As Title Track Soars Into Hot 100's Top 10 Over 40 Years After Release - That Grape Juice"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-november-15-2025/",
+      "title": "Billboard Hot 100 Top 10 Countdown for November 15, 2025: Video"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/quincy-jones-number-1-billboard-charts-michael-jackson-thriller-1236107491/",
+      "title": "Quincy Jones Hits No. 1 on Billboard Charts Thanks to 'Thriller'"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/why-did-michael-jackson-thriller-210117685.html",
+      "title": "Why Did Michael Jackson\u2019s \u2018Thriller\u2019 Hit the Hot 100\u2019s Top 10 for the First Time Since 1984?"
+    },
+    {
+      "url": "https://x.com/billboardcharts/status/1853555993172390079",
+      "title": "billboard charts on X: \"Five Halloween songs re-enter this week's #Hot100: No. 20, Michael Jackson, \u201cThriller\u201d No. 28, Ray Parker Jr., \u201cGhostbusters\u201d No. 30, Bobby \u201cBoris\u201d Pickett & The Crypt-Kickers, \u201cMonster Mash\u201d No. 38, The Citizens of Halloween, \u201cThis Is Halloween\u201d No. 50, Rockwell, \u201cSomebody\u2019s\" / X"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/fans-king-pops-shocking-thriller-202432506.html",
+      "title": "Fans Say King of Pop's Shocking 'Thriller' Ranking Among Biggest Halloween Songs Is Pure 'Disrespect'"
+    },
+    {
+      "url": "https://www.forbes.com/sites/hughmcintyre/2024/10/16/michael-jackson-hits-no-1-on-a-billboard-chart-15-years-after-his-death/",
+      "title": "Michael Jackson Hits No. 1 On A Billboard Chart 15 Years After His Death"
+    },
+    {
+      "url": "https://www.klfy.com/local/spooky-seasons-top-5-halloween-hits/",
+      "title": "Spooky season's top 5 Halloween hits - Lafayette"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/michael-jackson-thriller-halloween-billboard-hot-100-9657016/",
+      "title": "Michael Jackson 'Thriller' Leads Halloween Songs on Hot 100"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thriller_(album)",
+      "title": "Thriller (album)"
+    },
+    {
+      "url": "https://mikhailgrant.substack.com/p/michael-jacksons-catalog-is-having",
+      "title": "I Predict The Song \u201cThriller\u201d Will Go To #1 Soon on the Hot 100"
+    },
+    {
+      "url": "https://eurweb.com/michael-jackson-thriller-six-decade-chart-record/",
+      "title": "Michael Jackson's 'Thriller' Makes History with Sixth Decade in Hot 100 Top 10"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/113018/20261024/michael-jacksons-thriller-could-crash-halloween-no-1-race-saturday-calendar-quirk-helping.htm",
+      "title": "Michael Jackson's \"Thriller\" Could Crash the Halloween No. 1 Race, and a Saturday Calendar Quirk Is Helping"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/14/nx-s1-5822509/michael-jackson-popularity-billboard-charts",
+      "title": "Michael Jackson\u2019s biopic has pushed his music up the Billboard charts : NPR"
+    },
+    {
+      "url": "https://www.mjvibe.com/mj-charts-weekly-on-october-24-2026/",
+      "title": "MJ Charts Weekly on October 24, 2026 - MJVibe"
+    },
+    {
+      "url": "https://www.cultureslate.com/news/michael-jackson-makes-history-with-thriller-back-on-hot-100",
+      "title": "Michael Jackson Makes History With 'Thriller' Back On Hot 100 \u2014 CultureSlate"
+    },
+    {
+      "url": "https://www.complex.com/music/a/backwoodsaltar/michael-jackson-hot-100-top-ten-six-decades",
+      "title": "Michael Jackson's \"Thriller\" Reenters Billboard Hot 100 Top Ten"
+    },
+    {
+      "url": "https://www.billboard.com/lists/michael-jackson-top-hit-songs-billboard-hot-100/",
+      "title": "Michael Jackson\u2019s Top 50 Hit Songs on the Billboard Hot 100"
+    },
+    {
+      "url": "https://www.forbes.com/sites/hughmcintyre/2026/04/26/michael-jacksons-classic-hit-single-dances-to-a-new-chart-peak/",
+      "title": "Michael Jackson\u2019s Classic Hit Single Dances To A New Chart Peak"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/halloween-number-one-thriller-dracula-michael-jackson-1236367320/",
+      "title": "Will We Get Our First Seasonal Halloween No. 1 of the Century This Year? \u2018Thriller,\u2019 \u2018Dracula\u2019 & The Spookiest Hot 100 Race Ever"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/first-seasonal-halloween-no-1-180516446.html",
+      "title": "Will We Get Our First Seasonal Halloween No. 1 of the Century This Year? \u2018Thriller,\u2019 \u2018Dracula\u2019 & The Spookiest Hot 100 Race Ever"
+    },
+    {
+      "url": "https://eng.pressbee.net/show4939087.html",
+      "title": "Will We Get Our First Seasonal Halloween No. 1 of the Century This Year? \u2018Thriller,\u2019 \u2018Dracula\u2019 & The Spookiest Hot 100 Race Ever ...Middle East"
+    },
+    {
+      "url": "https://elpee.jp/artist/Michael%20Jackson/",
+      "title": "Michael Jackson"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dracula_(song)",
+      "title": "Dracula (song)"
+    },
+    {
+      "url": "https://themusicalhype.com/15-not-so-scary-songs-for-any-time-of-the-year-playlist/",
+      "title": "15 Not-So-Scary Songs for Any Time of the Year \u2192 Playlist"
+    },
+    {
+      "url": "https://thatsmyjammusic.substack.com/p/55-songs-for-your-halloween-playlist",
+      "title": "55 Songs for Your Halloween Playlist - by Joel Lyons"
+    },
+    {
+      "url": "https://music.amazon.com/playlists/B01M9H0JJ4",
+      "title": "Happy Halloween Playlist on Amazon Music Unlimited"
+    },
+    {
+      "url": "https://www.billboard.com/pro/michael-jackson-thriller-returns-hot-100/",
+      "title": "Michael Jackson's 'Thriller' Returns To The Hot 100"
+    },
+    {
+      "url": "https://collider.com/jason-statham-thriller-shelter-streaming-success-prime-video-october-2026/",
+      "title": "Jason Statham's 2026 Action Thriller Officially Returns to Streaming Charts"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/thriller-monster-mash-ghostbusters-hot-100-halloween-1235465448/",
+      "title": "'Thriller,' 'Monster Mash,' 'Ghostbusters' Back on Hot 100 After Halloween"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-31-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for October 31, 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2026",
+      "title": "List of Billboard Hot 100 number ones of 2026"
+    },
+    {
+      "url": "https://www.billboard.com/charts/hot-100/",
+      "title": "Billboard Hot 100\u2122"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/entertainment/music-charts/top-10-on-the-billboard-hot-100-chart-for-the-week-of-oct-31-2026/",
+      "title": "Top 10 on the Billboard Hot 100 chart for the Week of\u2026"
+    },
+    {
+      "url": "https://x.com/talkofthecharts?lang=en",
+      "title": "Talk of the Charts (@talkofthecharts) on X"
+    },
+    {
+      "url": "https://www.octagonai.co/news/billboard-hot-100-prediction-market-odds-october-2026/",
+      "title": "Billboard Prediction Market Odds October"
+    },
+    {
+      "url": "https://www.billboard.com/charts/year-end/",
+      "title": "Billboard's 2026 Year-End Charts"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-25th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Rebounds for Record-Extending 25th Week at No. 1 on Hot 100"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-hot-100-every-no-1-song-of-2026/",
+      "title": "Billboard Hot 100: Every No. 1 song of 2026"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/singles-chart-update/",
+      "title": "Official Singles Chart Update"
+    }
+  ]
+}
