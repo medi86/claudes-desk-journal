@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "ticker": "KXYTTOPSONGGW-26OCT29-DAI",
+  "event": "KXYTTOPSONGGW-26OCT29",
+  "series": "KXYTTOPSONGGW",
+  "title": "Will Dai Dai rank #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026?",
+  "rules": "If Dai Dai is ranked #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market and these products have not been endorsed by YouTube. Any references to YouTube or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between YouTube and Kalshi.",
+  "close_time": "2026-10-30T03:59:00+00:00",
+  "expected_close_time": "2026-10-30T03:59:00+00:00",
+  "forecast_at": "2026-10-27T03:26:42.110057+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.34",
+    "reasoning": "Dai Dai is still #1 on YouTube's global songs chart. In the week ending Oct 22 it had 44.6M views, but its lead over KALYANI (Remix) shrank from about 20% to 6.5% in a single week. Dai Dai is losing roughly 7% of its views per week while KALYANI is growing, and if both trends hold for one more week KALYANI passes it. Noise in the weekly numbers and Dai Dai's long record of holding #1 keep its chances meaningful.",
+    "falsifier": "The chart dated Oct 23-29 shows Dai Dai still at #1 because KALYANI (Remix)'s views stalled or fell, or Dai Dai's decline leveled off.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1800",
+    "best_yes_ask": "0.3100",
+    "p_market": "0.2450"
+  },
+  "final": {
+    "p_yes": "0.29",
+    "action": "pass",
+    "reasoning": "The lower market price suggests others may see mid-week data favoring KALYANI, so I shaded my 0.34 down to 0.29. With the spread running from 0.18 to 0.31, neither side offers enough edge to trade."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.billboard.com/music/latin/shakira-burna-boy-dai-dai-video-billion-views-youtube-1236337667/",
+      "title": "Goal! Shakira & Burna Boy\u2019s \u2018Dai Dai\u2019 Surpasses 1 Billion Views on YouTube"
+    },
+    {
+      "url": "https://ppc.land/shakiras-dai-dai-wins-9-of-15-youtube-markets-at-117-8m-weekly-views/",
+      "title": "Shakira's Dai Dai wins 9 of 15 YouTube markets at 117.8M weekly views"
+    },
+    {
+      "url": "https://ppc.land/shakiras-dai-dai-drops-to-117m-youtube-views-in-its-13th-week-at-no-1/",
+      "title": "Shakira's Dai Dai drops to 117M YouTube views in its 13th week at No. 1"
+    },
+    {
+      "url": "https://ppc.land/shakiras-dai-dai-drops-to-61m-youtube-views-in-its-17th-week-at-no-1/",
+      "title": "Shakira's Dai Dai drops to 61M YouTube views in its 17th week at No. 1"
+    },
+    {
+      "url": "https://ppc.land/shakiras-dai-dai-loses-51-of-weekly-youtube-views-since-august/",
+      "title": "Shakira's Dai Dai loses 51% of weekly YouTube views since August"
+    },
+    {
+      "url": "https://soundcharts.com/en/charts/youtube/global",
+      "title": "YouTube Chart"
+    },
+    {
+      "url": "https://k24.digital/entertainment/music/shakiras-dai-dai-song-surpasses-225m-youtube-views-in-one-month",
+      "title": "Shakira\u2019s \u2018Dai Dai\u2019 song surpasses 225M YouTube views in one month - K24 Digital"
+    },
+    {
+      "url": "https://www.dancehallmag.com/2026/09/11/news/burna-boy-and-shakiras-dai-dai-surpasses-1-billion-youtube-views.html",
+      "title": "Burna Boy and Shakira's 'Dai Dai' Surpasses 1 Billion YouTube Views - DancehallMag"
+    },
+    {
+      "url": "https://x.com/chartdata/status/2096368460393799778",
+      "title": "chart data on X: \"Shakira and Burna Boy's \"Dai Dai\" has now surpassed 1 billion views on YouTube. It\u2019s the first 2026 music video to reach this milestone.\" / X"
+    },
+    {
+      "url": "https://www.talktalknigeria.com/home/2026/9/12/dai-dai-has-passed-a-billion-views-and-burna-boy-is-on-it",
+      "title": "Dai Dai Has Passed A Billion Views, And Burna Boy Is On It"
+    },
+    {
+      "url": "https://tophit.com/chart/top/youtube/hits/global/weekly",
+      "title": "Top YouTube Hits Global Weekly Chart Oct 15, 2026"
+    },
+    {
+      "url": "https://www.billboard.com/charts/hot-100/",
+      "title": "Billboard Hot 100\u2122"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4sBsMtCDwt8",
+      "title": "Spotify's Top 100 Songs of the Week (October 1st, 2026) - YouTube"
+    },
+    {
+      "url": "https://www.recotop.com/charts/world/2026/",
+      "title": "Top Songs 2026 \u2014 Global Music Charts, Trending Hits & #1s"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-hot-100-every-no-1-song-of-2026/",
+      "title": "Billboard Hot 100: Every No. 1 song of 2026"
+    },
+    {
+      "url": "https://www.mediatraffic.de/",
+      "title": "Global Chart Track Top 40"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2026",
+      "title": "List of Billboard Hot 100 number ones of 2026"
+    },
+    {
+      "url": "https://top40weekly.com/top-songs-of-2026/",
+      "title": "Top Songs of 2026 - Top40weekly"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/singles-chart/",
+      "title": "Official Singles Chart Top 100"
+    },
+    {
+      "url": "https://ppc.land/turkish-girl-group-manifest-debuts-at-no-4-on-youtube-with-27-3m-views/",
+      "title": "Turkish girl group manifest debuts at No. 4 on YouTube with 27.3M views"
+    },
+    {
+      "url": "https://ppc.land/turkish-group-manifests-tralala-loses-49-of-youtube-views-in-week-two/",
+      "title": "Turkish group manifest's TRALALA loses 49% of YouTube views in week two"
+    },
+    {
+      "url": "https://ppc.land/taylor-swifts-patient-zero-loses-45-of-youtube-views-in-its-second-week/",
+      "title": "Taylor Swift's Patient Zero loses 45% of YouTube views in its second week"
+    },
+    {
+      "url": "https://ppc.land/sawadika-drops-from-no-1-to-fifth-on-youtubes-global-chart/",
+      "title": "SaWaDiKa drops from No. 1 to fifth on YouTube's global chart"
+    },
+    {
+      "url": "https://ppc.land/dai-dai-holds-global-1-as-oliver-trees-death-reshapes-youtube-charts/",
+      "title": "\"Dai Dai\" holds global #1 as Oliver Tree's death reshapes YouTube charts"
+    },
+    {
+      "url": "https://ppc.land/dai-dai-just-conquered-france-and-germany-at-last/",
+      "title": "\"Dai Dai\" just conquered France and Germany at last"
+    },
+    {
+      "url": "https://soundcharts.com/en/charts/youtube/india",
+      "title": "YouTube Chart"
+    },
+    {
+      "url": "https://www.desiblitz.com/content/shreya-ghoshal-joins-kalyani-remix-after-its-chart-topping-rise",
+      "title": "Shreya Ghoshal joins 'Kalyani' Remix after its Chart-Topping Rise"
+    },
+    {
+      "url": "https://www.musicplus.in/kalyani-remix-becomes-first-malayalam-song-to-enter-youtubes-global-charts/",
+      "title": "\u2018Kalyani Remix\u2019 becomes first Malayalam song to enter YouTube\u2019s Global Charts"
+    },
+    {
+      "url": "https://kworb.net/youtube/insights/in_daily.html",
+      "title": "YouTube India Daily Chart"
+    },
+    {
+      "url": "https://music.youtube.com/search?q=kalyani",
+      "title": "YouTube Music"
+    },
+    {
+      "url": "https://www.thenationalnews.com/arts-culture/music-stage/2026/07/04/kalyani-remix-shreya-ghoshal-saniya-iyappan-video/",
+      "title": "Indian singer Shreya Ghoshal joins viral Kalyani crew for remix video starring Saniya Iyappan"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/video-streaming-chart/20261016/7508/",
+      "title": "Official Video Streaming Chart on 16/10/2026"
+    },
+    {
+      "url": "https://ppc.land/dai-dai-still-cant-be-stopped-now-in-its-sixth-week-at-global-1/",
+      "title": "\"Dai Dai\" still can't be stopped - now in its sixth week at global #1"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/video-streaming-chart/20260821/7508/",
+      "title": "Official Video Streaming Chart on 21/8/2026"
+    },
+    {
+      "url": "https://ppc.land/r-opensource-bans-ai-built-projects-for-its-98-000-weekly-visitors/",
+      "title": "r/opensource bans AI-built projects for its 98,000 weekly visitors"
+    },
+    {
+      "url": "https://cumhuriyet.com.tr/turkiye/manifest-in-kurucusu-tolga-akis-in-hakim-karsisina-cikacagi-tarih-belli-oldu-2549231",
+      "title": "Manifest'in kurucusu Tolga Ak\u0131\u015f'\u0131n hakim kar\u015f\u0131s\u0131na \u00e7\u0131kaca\u011f\u0131 tarih belli oldu - Son Dakika T\u00fcrkiye Haberleri"
+    },
+    {
+      "url": "https://www.broadwayworld.com/bwwmusic/article/YouTube-Music-Charts-Olivia-Rodrigo-Chappell-Roan-Hit-1-20261021",
+      "title": "YouTube Music Charts: Olivia Rodrigo & Chappell Roan Hit #1"
+    },
+    {
+      "url": "https://www.turkiyetoday.com/culture/turkish-pop-group-manifest-tops-youtube-with-tralala-draws-mixed-reactions-3230017",
+      "title": "Turkish pop group Manifest tops YouTube with 'TRALALA,' draws mixed reactions - T\u00fcrkiye Today"
+    },
+    {
+      "url": "https://gazetekritik.com/magazin/manifestten-dunya-capinda-basari-tralala-youtube-global-listesinde-3-siraya-yukseldi/415923",
+      "title": "Manifest'ten D\u00fcnya \u00c7ap\u0131nda Ba\u015far\u0131! TRALALA, YouTube Global Listesinde 3. S\u0131raya Y\u00fckseldi - Gazete Kritik"
+    },
+    {
+      "url": "https://www.threads.com/@thatgrapejuice/post/DeRcbU9lUFG/watch-turkish-girl-group-manifest-make-go-global-with-tralala-video-turkish/",
+      "title": "Watch: Turkish Girl Group manifest Make Go Global with \u2018TRALALA\u2019 Video Turkish girl group manifest are making their international play with the video for their debut English-language single, 'TRALALA.' And the six-piece have brought their infectious Pop sound, slick choreography, and cultural flair to the streets of London for the occasion. Full story below... http://thatgrapejuice.net/2026/10/watch-turkish-girl-group-manifest-make-go-global-with-tralala-video/"
+    },
+    {
+      "url": "https://lifemagazin.net/manifest-grubu-tralala-sarkisiyla-gundeme-oturdu.html",
+      "title": "Manifest grubu Tralala \u015fark\u0131s\u0131yla g\u00fcndeme oturdu - Life Magazin"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qH_bb70pxAk",
+      "title": "Turkish girl group manifest takes over London - YouTube"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Manifest_(band)",
+      "title": "Manifest (band)"
+    },
+    {
+      "url": "https://note.com/futa0501/n/na227acf0535b?hl=en",
+      "title": "manifest, the 6-member group from Turkey: Born from the Big 5, the revival of girl groups since Hepsi, 'TRALALA' beyond the indictment. The road to Wembley followed by Netflix, and Turkish pop heading to the world\uff5c\u30d5\u30a6\u30bf"
+    },
+    {
+      "url": "https://music.youtube.com/channel/UCavTTSUSD6aYPeF-F3ND9Yg",
+      "title": "manifest"
+    },
+    {
+      "url": "https://kprofiles.com/manifest-members-profile/",
+      "title": "MANIFEST Members Profile (Updated!) - Kpop Profiles"
+    }
+  ]
+}

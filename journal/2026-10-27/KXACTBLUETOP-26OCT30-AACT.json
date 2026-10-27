@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "ticker": "KXACTBLUETOP-26OCT30-AACT",
+  "event": "KXACTBLUETOP-26OCT30",
+  "series": "KXACTBLUETOP",
+  "title": "Will Amy Acton be the top ActBlue fundraiser on Oct 30 at 10:00 AM ET?",
+  "rules": "If Amy Acton is the top ActBlue fundraiser on Oct 30 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "Fundraiser rankings are determined by the \u201cTop fundraisers from this week\u201d list displayed on ActBlue\u2019s official directory page. The leftmost candidate is considered the top fundraiser.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with ActBlue. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-10-30T13:59:00+00:00",
+  "expected_close_time": "2026-10-30T13:59:00+00:00",
+  "forecast_at": "2026-10-27T03:26:42.110057+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.1",
+    "reasoning": "About four days before this forecast, Amy Acton was ActBlue's second-highest fundraiser of the week, after a backlash against an attack ad. A week ending Oct 30 will mostly miss that spike. In the last week before the election, Senate candidates with national donor networks (for example Talarico) usually lead the list. She could only overtake them with a new viral surge, so YES is unlikely.",
+    "falsifier": "A new viral moment or controversy in Ohio in the final days pushes Acton's small-dollar fundraising above every Senate candidate's, putting her in the leftmost spot on ActBlue's weekly list on Oct 30.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1600",
+    "best_yes_ask": "0.1700",
+    "p_market": "0.1650"
+  },
+  "final": {
+    "p_yes": "0.12",
+    "action": "buy_no",
+    "reasoning": "The 16.5% price is somewhat above my estimate. I shaded up to 12% because my research stopped before confirming the current leader. A week ending Oct 30 mostly misses the spike after the ad, and Senate candidates usually lead the final pre-election week, so I modestly favor NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.17",
+    "count": 1,
+    "cost": "0.83",
+    "clamped_from": null
+  },
+  "sources": [
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/state/4776129/amy-acton-act-blue-second-highest-fundraiser-ramaswamy-attack-ad/",
+      "title": "Acton becomes Act Blue's second highest fundraiser after attack ad"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/democrats-rake-in-833-million-through-actblue-ahead-of-midterms",
+      "title": "Democrats Narrow GOP Fundraising Gap With $833 Million ActBlue Haul - Bloomberg"
+    },
+    {
+      "url": "https://www.morningstar.com/news/pr-newswire/20261002ne62482/with-midterm-elections-one-month-out-actblue-releases-q3-fundraising-results-best-non-presidential-quarter-to-date-as-organization-passes-20-billion-total-raised",
+      "title": "With Midterm Elections One Month Out, ActBlue Releases Q3 Fundraising Results: Best Non-Presidential Quarter to Date as Organization Passes $20 Billion Total Raised"
+    },
+    {
+      "url": "https://www.actblue.com/press-release/with-midterm-elections-one-month-out-actblue-releases-q3-fundraising-results-best-non-presidential-quarter-to-date-as-organization-passes-20-billion-total-raised/",
+      "title": "With Midterm Elections One Month Out, ActBlue Releases Q3 Fundraising Results: Best Non-Presidential Quarter to Date as Organization Passes $20 Billion Total Raised - ActBlue"
+    },
+    {
+      "url": "https://www.actblue.com/blog/page/5/",
+      "title": "Blog - ActBlue"
+    },
+    {
+      "url": "https://www.actblue.com/posts/the-surge-before-the-blue-wave-a-record-q3-and-20b-lifetime-milestone/",
+      "title": "The Surge Before the Blue Wave: A Record Q3 and $20B Lifetime Milestone - ActBlue"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/with-midterm-elections-one-month-out-actblue-releases-q3-fundraising-results-best-non-presidential-quarter-to-date-as-organization-passes-20-billion-total-raised-302896920.html",
+      "title": "With Midterm Elections One Month Out, ActBlue Releases Q3 Fundraising Results: Best Non-Presidential Quarter to Date as Organization Passes $20 Billion Total Raised"
+    },
+    {
+      "url": "https://www.breitbart.com/politics/2026/10/23/michigan-retiree-without-internet-connection-credited-with-4500-in-actblue-donations/",
+      "title": "MI Retiree Without Internet Credited With $4,500 in ActBlue Donations"
+    },
+    {
+      "url": "https://www.actblue.com/posts/19-billion-raised-built-to-power-grassroots-movements/",
+      "title": "$19 Billion Raised: Built to Power Grassroots Movements - ActBlue"
+    },
+    {
+      "url": "https://finance.yahoo.com/small-business/articles/midterm-elections-one-month-actblue-120000818.html",
+      "title": "With Midterm Elections One Month Out, ActBlue Releases Q3 Fundraising Results: Best Non-Presidential Quarter to Date as Organization Passes $20 Billion Total Raised"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6166387-ohio-acton-democrats-donations-ramaswamy-ad/",
+      "title": "Amy Acton surges in donations after Vivek Ramaswamy attack ad"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/acton-fundraising-surges-following-controversial-200248511.html",
+      "title": "Acton fundraising surges following controversial ad"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/acton-sees-fundraising-boost-ramaswamy-225234066.html",
+      "title": "Acton Sees Fundraising Boost After Ramaswamy Attack Ad"
+    },
+    {
+      "url": "https://secure.actblue.com/donate/260502shakerheights-pendleton",
+      "title": "Join Dr. Amy Acton on May 2nd in Shaker Heights!"
+    },
+    {
+      "url": "https://secure.actblue.com/donate/260420columbus-hune",
+      "title": "Join Dr. Amy Acton on August 11th in Columbus!"
+    },
+    {
+      "url": "https://secure.actblue.com/donate/260311cincinnati-robinson",
+      "title": "Join Dr. Amy Acton on March 11th in Cincinnati!"
+    },
+    {
+      "url": "https://secure.actblue.com/donate/260409perrysburg-alcroft",
+      "title": "Join Dr. Amy Acton on April 9th in Perrysburg!"
+    },
+    {
+      "url": "https://secure.actblue.com/donate/260324cincinnati-kissel",
+      "title": "Join Dr. Amy Acton on May 11th in Cincinnati!"
+    },
+    {
+      "url": "https://secure.actblue.com/donate/260329columbus-blair",
+      "title": "Join Dr. Amy Acton on March 29th in Bexley!"
+    },
+    {
+      "url": "https://www.activote.net/polls/2026/oh-governor/",
+      "title": "Ramaswamy Leads Acton in Ohio Governor Race \u00b7 ActiVote"
+    },
+    {
+      "url": "https://asamnews.com/2026/10/26/vivek-ramaswamy-ohio-governor-race-amy-acton-polls/",
+      "title": "Polls show Ramaswamy falling behind in Ohio's governor's race"
+    },
+    {
+      "url": "https://www.newsweek.com/vivek-ramaswamy-gets-boost-after-five-ohio-polling-blows-in-a-row-12544047",
+      "title": "Vivek Ramaswamy Gets Boost After Five Ohio Polling Blows in a Row Against Amy Acton - Newsweek"
+    },
+    {
+      "url": "https://irontontribune.com/2026/10/06/two-polls-show-acton-lead-grows-over-ramaswamy/",
+      "title": "Two polls show Acton lead grows over Ramaswamy"
+    },
+    {
+      "url": "https://www.activote.net/polls/2026/oh-governor/2026-10-19/",
+      "title": "Ramaswamy Leads Acton in Ohio Governor Race \u00b7 Oct 19, 2026"
+    },
+    {
+      "url": "https://poliagg.com/race/us-governor-2026-oh/",
+      "title": "Ohio Governor 2026 Polls \u2014 Acton vs Ramaswamy \u2014 PoliAgg"
+    },
+    {
+      "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+      "title": "Midterm Elections in Ohio, October 2026 - Marist Poll"
+    },
+    {
+      "url": "https://newscord.org/article/vivek-ramaswamy-and-amy-acton-battle-for-ohio-governor-in-costly-showdown--Story_20261020_VivekRamaswamygetsap8949ff42",
+      "title": "Vivek Ramaswamy and Amy Acton Battle for Ohio Governor in Costly Showdown: how 5 outlets framed it"
+    },
+    {
+      "url": "https://wng.org/sift/ohio-governors-race-heats-up-with-conflicting-polls-attack-ads-1792501013",
+      "title": "Ohio governor\u2019s race heats up with conflicting polls, attack\u2026"
+    },
+    {
+      "url": "https://thehill.com/homenews/state-watch/6172476-ramaswamy-acton-mother-defamation-allegation/",
+      "title": "Vivek Ramaswamy slams Amy Acton campaign for attacking his mother"
+    },
+    {
+      "url": "https://www.coinbase.com/en-ar/predictions/event/KXACTBLUETOP-26SEP25",
+      "title": "Who will be the top ActBlue fundraiser on Sep 25, 2026?"
+    },
+    {
+      "url": "https://www.actblue.com/donors-and-supporters/",
+      "title": "Your Partner for Donating to Candidates and Causes"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ActBlue",
+      "title": "ActBlue"
+    },
+    {
+      "url": "https://x.com/actblue/status/1815198823771165179?lang=en",
+      "title": "ActBlue on X: \"UPDATE: As of 9pm ET, grassroots supporters have raised $46.7 million through ActBlue following Vice President Kamala Harris\u2019 campaign launch. This has been the biggest fundraising day of the 2024 cycle. Small-dollar donors are fired up and ready to take on this election \ud83d\udd25\" / X"
+    },
+    {
+      "url": "https://thehill.com/newsletters/morning-report/6167437-ramaswamy-acton-ad-backlash-ohio-senate/",
+      "title": "Ramaswamy\u2019s last-ditch attack shows signs of backfiring"
+    },
+    {
+      "url": "https://actonforgovernor.com/dr-amy-acton-announces-raising-over-13-million-in-the-third-quarter-of-2026/",
+      "title": "Dr. Amy Acton Announces Raising Over $13 Million in the Third Quarter of 2026"
+    },
+    {
+      "url": "https://actonforgovernor.com/dr-amy-acton-announces-record-breaking-9-4-million-raised-in-the-second-quarter-of-2026/",
+      "title": "Dr. Amy Acton Announces Record-Breaking $9.4 Million Raised in the Second Quarter of 2026"
+    },
+    {
+      "url": "https://actonforgovernor.com/dr-amy-acton-announces-record-breaking-4-8-million-raised-in-first-quarter-of-2026/",
+      "title": "Dr. Amy Acton Announces Record-Breaking $4.8 Million Raised in First Quarter of 2026"
+    },
+    {
+      "url": "https://ohiocapitaljournal.com/2026/04/27/ohio-republican-vivek-ramaswamy-holds-big-cash-lead-over-democrat-amy-acton-after-25-million-loan/",
+      "title": "Ohio Republican Vivek Ramaswamy holds big cash lead over Democrat Amy Acton after $25 million loan \u2022 Ohio Capital Journal"
+    },
+    {
+      "url": "https://amyactonoh.substack.com/p/new-amy-acton-announces-record-haul",
+      "title": "NEW: Amy Acton announces RECORD Haul - by Dr. Amy Acton"
+    },
+    {
+      "url": "https://smarter.vote/races/oh-governor-2026/amy-acton/",
+      "title": "Amy Acton (D)"
+    },
+    {
+      "url": "https://hoodline.com/2026/10/acton-out-raises-ramaswamy-in-small-dollar-donations-as-ohio-governor-s-race-heats-up/",
+      "title": "Acton vs Ramaswamy: Ohio September Small-Donor Breakdown"
+    },
+    {
+      "url": "https://signalohio.org/in-ohio-gubernatorial-race-amy-acton-outraises-vivek-ramaswamy-in-2026-death-penalty-divides-governor-and-attorney-general/",
+      "title": "Ohio's Amy Acton outraises Republican Vivek Ramaswamy in 2026"
+    },
+    {
+      "url": "https://actonforgovernor.com/dr-amy-acton-announces-record-breaking-10-4-million-raised/",
+      "title": "Dr. Amy Acton Announces Record-Breaking $10.4 Million Raised"
+    },
+    {
+      "url": "https://www.nbc4i.com/news/your-local-election-hq/where-acton-ramaswamys-reported-donations-came-from-in-ohio-governors-race/",
+      "title": "Where Acton, Ramaswamy\u2019s reported donations came from in Ohio governor\u2019s race"
+    },
+    {
+      "url": "https://www.washingtonexaminer.com/news/campaigns/state/4776327/trump-defends-ramaswamy-ad-amy-acton-estranged-mother/",
+      "title": "Trump defends Vivek Ramaswamy ad featuring opponent\u2019s estranged mother"
+    },
+    {
+      "url": "https://www.playtyperguy.com/p/kitten-killing-child-rape-enablers",
+      "title": "Kitten-Killing Child Rape Enablers For Vivek Ramaswamy!"
+    },
+    {
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-fe1",
+      "title": "This Weekend in Politics, Bulletin 488."
+    },
+    {
+      "url": "https://campaignsandelections.com/uncategorized/actblue-says-it-just-had-its-best-q2-ever-for-a-midterm-cycle/",
+      "title": "ActBlue Says It Just Had Its Best Q2 Ever for a Midterm Cycle - Campaigns & Elections"
+    },
+    {
+      "url": "https://www.newsmax.com/politics/amy-acton-vivek-ramaswamy-ohio/2026/10/22/id/1273729/",
+      "title": "Acton Sees Fundraising Boost After Ramaswamy Attack Ad"
+    }
+  ]
+}
