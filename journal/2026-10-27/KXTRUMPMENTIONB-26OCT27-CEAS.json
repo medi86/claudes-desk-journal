@@ -198,5 +198,21 @@
       "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
       "title": "Melania Trump secures ceasefire in Russian-occupied Ukrainian city of Oleshky, White House says"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "1695e6d37c7a346daba8741d7fb364d353d8c00e",
+    "pushed_at": "2026-10-27T16:51:55Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPMENTIONB-26OCT27-CEAS-1695e6d37c7a",
+    "thesis_commit": "1695e6d37c7a346daba8741d7fb364d353d8c00e",
+    "status": "resting",
+    "order_id": "01a17e46-8fe0-723d-b144-994064c26354",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

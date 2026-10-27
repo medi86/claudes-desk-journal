@@ -218,5 +218,21 @@
       "url": "https://www.kxxv.com/news/local-news/live-updates-president-trump-campaigns-in-corpus-christi-ahead-of-election",
       "title": "LIVE UPDATES: President Trump to campaign in Corpus Christi ahead of election"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "1695e6d37c7a346daba8741d7fb364d353d8c00e",
+    "pushed_at": "2026-10-27T16:51:55Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPMENTION-26OCT27-CEAS-1695e6d37c7a",
+    "thesis_commit": "1695e6d37c7a346daba8741d7fb364d353d8c00e",
+    "status": "resting",
+    "order_id": "01a17e46-8fe0-7636-a823-7d04d4b33fd7",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

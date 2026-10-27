@@ -159,7 +159,7 @@
   "order": {
     "client_order_id": "KXZACHARIAROLE-26-KZAC-37cb6d1a1cfb",
     "thesis_commit": "37cb6d1a1cfb59d74732f2123ba38e94474e6010",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a17d68-ed98-77d6-9091-db8ff0e4180a",
     "filled": "0.00",
     "count": "1.00"

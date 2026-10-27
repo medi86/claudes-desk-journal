@@ -195,9 +195,9 @@
   "order": {
     "client_order_id": "KXRT-GOD-94-37cb6d1a1cfb",
     "thesis_commit": "37cb6d1a1cfb59d74732f2123ba38e94474e6010",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a17d68-ed98-70bb-8d6c-0e0e74a10a06",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
