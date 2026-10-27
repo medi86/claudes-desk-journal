@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTIONB-26OCT27-CEAS",
+  "event": "KXTRUMPMENTIONB-26OCT27",
+  "series": "KXTRUMPMENTIONB",
+  "title": "What will Donald Trump say during midterm rally in Waco, Texas originally scheduled for October 27, 2026? Ceasefire",
+  "rules": "If Donald Trump says Ceasefire as part of midterm rally in Waco, Texas originally scheduled for October 27, 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the midterm rally in Waco, Texas originally scheduled for October 27, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the midterm rally in Waco, Texas originally scheduled for October 27, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-10T15:00:00+00:00",
+  "expected_close_time": "2026-11-10T15:00:00+00:00",
+  "forecast_at": "2026-10-27T16:49:56.368878+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "The Waco rally on October 27 was cancelled: the Secret Service confirmed it and the rally moved to Corpus Christi. The market's rules say a definitive cancellation resolves every word market No. The only way to Yes is if Kalshi treats the Corpus Christi rally as the same event, which seems unlikely, though Trump would probably say 'ceasefire' there given the Ukraine truce Melania Trump brokered that day.",
+    "falsifier": "Kalshi announces that the replacement Corpus Christi (or Lubbock) rally counts as the Waco event, and Trump says 'ceasefire' there; or the Waco rally is reinstated within 14 days and he says it.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1100",
+    "best_yes_ask": "0.1200",
+    "p_market": "0.1150"
+  },
+  "final": {
+    "p_yes": "0.06",
+    "action": "buy_no",
+    "reasoning": "The Waco rally was definitively cancelled and replaced by a rally in another city at a different time, so the cancellation clause points to No. The 11.5% price likely reflects some chance that Kalshi counts Corpus Christi as the Waco event. I think that chance is around 10% at most, which leaves YES overpriced."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1200",
+    "count": 1,
+    "cost": "0.8800",
+    "clamped_from": "0.11"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-waco-tx-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Waco, Texas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.valleycentral.com/news/president-trump-to-visit-waco-for-oct-27-rally/",
+      "title": "President Trump to visit Waco for Oct. 27 rally"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6159173-trump-waco-texas-rally/",
+      "title": "Donald Trump set to return to Texas for midterm rally one week before election"
+    },
+    {
+      "url": "https://www.kwtx.com/2026/10/19/pres-trump-visit-waco-next-tuesday/",
+      "title": "Trump\u2019s planned visit to Waco has been canceled and moved to Corpus Christi"
+    },
+    {
+      "url": "https://www.kcentv.com/article/news/politics/elections/homecoming-trump-rally-waco-talarico-paxton-senate-mclennan-county-republicans/500-4c7cdfe5-6756-4143-93f9-39bfe27b7563",
+      "title": "'A little bit of a homecoming': Trump to rally in Waco as Talarico-Paxton Senate race heats up"
+    },
+    {
+      "url": "https://texasscorecard.com/decisiontexas/trump-plans-two-texas-rallies-in-final-stretch-of-midterm-campaign/",
+      "title": "Trump Plans Two Texas Rallies in Final Stretch of Midterm Campaign - Texas Scorecard"
+    },
+    {
+      "url": "https://www.kxxv.com/news/local-news/sources-president-trump-no-longer-coming-to-waco-still-planning-lubbock-visit",
+      "title": "President Trump, VP Vance scheduled to visit Corpus Christi, Lubbock ahead of election"
+    },
+    {
+      "url": "https://baylorlariat.com/2026/10/19/donald-trump-to-speak-in-waco-oct-27-ahead-of-midterm-elections/",
+      "title": "Donald Trump to speak in Waco Oct. 27 ahead of midterm elections - The Baylor Lariat"
+    },
+    {
+      "url": "https://b93.net/ixp/514/p/trump-returns-waco-paxton-rally/",
+      "title": "Trump Returns To Waco For Paxton Senate Campaign Rally Tuesday"
+    },
+    {
+      "url": "https://koolfmabilene.com/ixp/513/p/trump-rally-waco-texas-october/",
+      "title": "Trump\u2019s Travel Schedule Updated: Major Waco Visit Set for Next Tuesday"
+    },
+    {
+      "url": "https://www.audacy.com/krld/news/local/trump-cancels-waco-rally-moves-stop-to-corpus-christi-next-tuesday",
+      "title": "Trump cancels Waco rally, moves stop to Corpus Christi next Tuesday"
+    },
+    {
+      "url": "https://www.kxxv.com/news/local-news/central-texas-republicans-weigh-in-on-trumps-last-minute-shift-to-corpus-christi",
+      "title": "Central Texas Republicans weigh in on Trump's last-minute shift to Corpus Christi"
+    },
+    {
+      "url": "https://wacobridge.org/2026/10/22/trump-rally-waco-canceled-reactionv/",
+      "title": "Canceled Waco Trump rally a \u201cbig bummer\u201d for local fans - The Waco Bridge"
+    },
+    {
+      "url": "https://hoodline.com/2026/10/trump-swaps-waco-for-corpus-christi-rally-as-texas-senate-race-tightens/",
+      "title": "Trump Corpus Christi Rally Replaces Canceled Waco Stop"
+    },
+    {
+      "url": "https://kwtx.com/2026/10/26/pres-trump-rally-gop-voters-dual-tx-rallies-tuesday",
+      "title": "Pres. Trump to rally GOP voters in dual TX rallies Tuesday"
+    },
+    {
+      "url": "https://yournews.com/2026/10/27/7240759/watch-trump-holds-back-to-back-texas-rallies-in-corpus-christi-and",
+      "title": "WATCH: Trump Holds Back-to-Back Texas Rallies in Corpus Christi and Lubbock as Senate Race Tightens"
+    },
+    {
+      "url": "https://kbat.com/ixp/514/p/trump-waco-rally-canceled/",
+      "title": "President Trump Campaign Rally Planned For Waco Moved To Corpus Christi"
+    },
+    {
+      "url": "https://statesman.com/news/politics/state/article/manziel-mccoy-trump-texas-campaign-22496317.php",
+      "title": "Colt McCoy, Johnny Manziel to join Trump at Texas campaign stops"
+    },
+    {
+      "url": "https://www.newsbreak.com/z94-520744/4962344474226-trump-cancels-waco-appearance-and-reschedules-lubbock-rally-time",
+      "title": "Trump Cancels Waco Appearance And Reschedules Lubbock Rally Time - NewsBreak"
+    },
+    {
+      "url": "https://www.kvue.com/article/news/politics/vote-texas/trump-cancels-planned-visit-waco/500-2df33636-8510-465f-a4a3-def892e3d425",
+      "title": "Trump cancels planned visit to Waco, shifts rally to Corpus Christi"
+    },
+    {
+      "url": "https://www.1011now.com/2026/10/26/pres-trump-rally-gop-voters-dual-tx-rallies-tuesday/",
+      "title": "Pres. Trump to rally GOP voters in dual TX rallies Tuesday"
+    },
+    {
+      "url": "https://fox17.com/news/nation-world/trump-returns-to-texas-today-for-rallies-in-corpus-christi-lubbock-amid-tight-senate-race-midterm-elections-marco-rubio-oil-tanker-national-security-advisor-campaign-stops",
+      "title": "Trump returns to Texas today for rallies in Corpus Christi, Lubbock amid tight Senate race"
+    },
+    {
+      "url": "https://www.fox4news.com/news/trump-campaign-lubbock-corpus-christi-texas-senate-race-tightens",
+      "title": "Trump to campaign in Lubbock and Corpus Christi as Texas Senate race tightens"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-corpus-christi-tx-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Corpus Christi, Texas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.kristv.com/news/local-news/in-your-neighborhood/corpus-christi/6-things-to-know-trump-rally-in-corpus-christi-tuesday-early-voting-tops-30-000-take-back-day",
+      "title": "6 Things to Know: Trump rally in Corpus Christi Tuesday, early voting tops 30,000, Take Back Day"
+    },
+    {
+      "url": "https://www.kvue.com/article/news/politics/vote-texas/trump-corpus-christi-rally-live-updates-october-27-2026/503-0643bcb7-899b-4c5d-aead-62fba30ab705",
+      "title": "LIVE UPDATES: Trump rally in Corpus Christi draws crowds as supporters await president's arrival"
+    },
+    {
+      "url": "https://www.ksat.com/news/local/2026/10/22/donald-trump-to-visit-corpus-christi-for-midterm-rally-tuesday/",
+      "title": "Donald Trump to visit Corpus Christi for midterm rally Tuesday"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-iHNfxJp7Oc",
+      "title": "President Trump plans visit to Corpus Christi for rally supporting GOP candidates - YouTube"
+    },
+    {
+      "url": "https://www.kristv.com/news/local-news/live-updates-president-trump-campaigns-in-corpus-christi-ahead-of-election",
+      "title": "LIVE UPDATES: Doors open at campaign event, President Trump expected to speak at 2 p.m."
+    },
+    {
+      "url": "https://www.ksat.com/news/local/2026/10/27/president-trumps-planned-corpus-christi-rally-draws-mixed-reaction-from-texas-voters/",
+      "title": "President Trump\u2019s planned Corpus Christi rally draws mixed reaction from Texas voters"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/27/russia-ukraine-zelenskyy-trump-putin-ceasefire.html",
+      "title": "Melania Trump-brokered local ceasefire begins as Russia continues attacks on Ukraine"
+    },
+    {
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/",
+      "title": "First Lady Melania Trump Secures Ceasefire Between Russia and Ukraine, Localized to Oleshky"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/ukraine/ceasefire-brokered-melania-trump-comes-effect-russian-occupied-town-br-rcna605667",
+      "title": "Ceasefire brokered by Melania Trump goes into effect in Russian-occupied town \u2018on the brink of disaster\u2019"
+    },
+    {
+      "url": "https://time.com/article/2026/10/11/trump-claims-russia-and-ukraine-have-agreed-to-an-energy-ceasefire-/",
+      "title": "What to Know About Trump\u2019s Russia-Ukraine \u2018Energy Ceasefire\u2019 Claim"
+    },
+    {
+      "url": "https://www.washingtonpost.com/world/2026/10/26/russia-ukraine-war-trump/7e061c88-d1a3-11f1-9931-2a41b76fc976_story.html",
+      "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine as Russia attacks other areas - The Washington Post"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/23/politics/melania-trump-ceasefire-ukraine-russia",
+      "title": "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html",
+      "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/trump-says-russia-and-ukraine-agreed-to-energy-ceasefire-mv3wxxro",
+      "title": "Russia, Ukraine Reach \u2018Energy Ceasefire,\u2019 Trump Says on Social Media - Bloomberg"
+    },
+    {
+      "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
+      "title": "Melania Trump secures ceasefire in Russian-occupied Ukrainian city of Oleshky, White House says"
+    }
+  ]
+}
