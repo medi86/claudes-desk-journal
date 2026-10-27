@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-GOD-94",
+  "event": "KXRT-GOD",
+  "series": "KXRT",
+  "title": "Godzilla Minus Zero Rotten Tomatoes score? Above 94",
+  "rules": "If Godzilla Minus Zero has a Tomatometer score of above 94 on Nov 9, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-11-09T15:00:00+00:00",
+  "expected_close_time": "2026-11-09T15:00:00+00:00",
+  "forecast_at": "2026-10-27T12:40:40.771857+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.52",
+    "reasoning": "The film sits at 96% from 46 reviews and has held at 95-96% since its festival premiere, but YES needs it to still show 95% or higher after roughly 150-200 reviews. Reviews that arrive around wide release often pull scores down 1-3 points, and a few mixed or negative notices (Empire 3/5, Dread Central) are already in. Minus One kept a 97-99% score, so holding 95% is plausible, which makes this close to a coin flip.",
+    "falsifier": "Six or more extra rotten reviews around the Nov 6 US release, pushing the Tomatometer down to 94% or lower by Nov 9.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6900",
+    "best_yes_ask": "0.7000",
+    "p_market": "0.6950"
+  },
+  "final": {
+    "p_yes": "0.58",
+    "action": "buy_no",
+    "reasoning": "The market's 69.5% suggests more confidence than my estimate, possibly from newer score data, so I move up partway to 58%. YES needs at least a 95.5% fresh rate across a large final review count, which leaves little room for the usual post-release drift, so NO still looks underpriced."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.7000",
+    "count": 1,
+    "cost": "0.3000",
+    "clamped_from": "0.63"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/godzilla_minus_zero",
+      "title": "Godzilla Minus Zero"
+    },
+    {
+      "url": "https://letterboxd.com/film/godzilla-minus-zero/",
+      "title": "\u200eGodzilla Minus Zero (2026) directed by Takashi Yamazaki \u2022 Reviews, film + cast \u2022 Letterboxd"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
+      "title": "Godzilla Minus Zero"
+    },
+    {
+      "url": "https://discussingfilm.net/2026/09/26/godzilla-minus-zero-review-yamazaki/",
+      "title": "'Godzilla Minus Zero' Review - Takashi Yamazaki's Bold and Audacious Sequel Will Leave You Speechless"
+    },
+    {
+      "url": "https://screenrant.com/godzilla-minus-zero-movie-review-london-film-festival-2026/",
+      "title": "Godzilla Minus Zero Review: The Sequel Loses Sight Of What Made 2023's Kaiju Epic Work"
+    },
+    {
+      "url": "https://www.indiewire.com/criticism/movies/godzilla-minus-zero-movie-review-1235218720/",
+      "title": "Godzilla Minus Zero Review: A Sequel that's Better in Almost Every Way"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/godzilla-minus-zero/",
+      "title": "Godzilla Minus Zero Reviews - Metacritic"
+    },
+    {
+      "url": "https://www.screendaily.com/reviews/godzilla-minus-zero-review-towering-monster-sequel-amps-up-the-action-and-raises-the-emotional-stakes/5220816.article",
+      "title": "\u2018Godzilla Minus Zero\u2019 review: Towering monster sequel amps up the action and raises the emotional stakes"
+    },
+    {
+      "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/godzilla-minus-zero-debuts-to-near-perfect-rotten-tomatoes-score/",
+      "title": "Godzilla Minus Zero debuts to near-perfect Rotten Tomatoes score"
+    },
+    {
+      "url": "https://collider.com/godzilla-minus-zero-rotten-tomatoes-score-is-it-good/",
+      "title": "Godzilla's New Sci-Fi Epic Officially Lands Near-Perfect Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/godzilla-minus-zero-debuts-near-102526875.html",
+      "title": "Godzilla Minus Zero debuts to near-perfect Rotten Tomatoes score"
+    },
+    {
+      "url": "https://www.cbr.com/godzilla-minus-zero-rotten-tomatoes-score/",
+      "title": "Godzilla Minus Zero Debuts High on Rotten Tomatoes as Critics Say It Surpasses Part One"
+    },
+    {
+      "url": "https://screenrant.com/godzilla-minus-zero-rotten-tomatoes-score-best-kaiju-sequel-franchise/",
+      "title": "First R-Rated Godzilla Movie Officially Sets Rotten Tomatoes Record For Kaiju Franchise"
+    },
+    {
+      "url": "https://movieweb.com/godzilla-minus-zero-rotten-tomatoes-reviews/",
+      "title": "Sequel to Best-Ever 'Godzilla' Movie Gets Spectacular Marks from Critics"
+    },
+    {
+      "url": "https://www.forbes.com/sites/timlammers/2026/09/26/godzilla-minus-zero-has-critics-raving-in-early-rotten-tomatoes-reviews/",
+      "title": "\u2018Godzilla Minus Zero\u2019 Has Critics Raving In Early Rotten Tomatoes Reviews"
+    },
+    {
+      "url": "https://geektyrant.com/news/godzilla-minus-zero-roars-to-a-near-perfect-rotten-tomatoes-score",
+      "title": "GODZILLA MINUS ZERO Roars to a Near-Perfect Rotten Tomatoes Score \u2014 GeekTyrant"
+    },
+    {
+      "url": "https://digg.com/entertainment/60ag70er",
+      "title": "'Godzilla Minus Zero' rises to 97% on Rotten Tomatoes"
+    },
+    {
+      "url": "https://digg.com/entertainment/j8np2ain",
+      "title": "\u2018Godzilla Minus Zero\u2019 reportedly debuts at 93% on Rotten Tomatoes \u00b7 Digg"
+    },
+    {
+      "url": "https://editorial.rottentomatoes.com/article/godzilla-minus-zero-first-reviews/",
+      "title": "Godzilla Minus Zero First Reviews: Bigger, Bolder, and Somehow More Visually Impressive than Minus One"
+    },
+    {
+      "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/godzilla-minus-zero-review/",
+      "title": "Godzilla Minus Zero review: \"Easily one of the best films of the year\""
+    },
+    {
+      "url": "https://www.inverse.com/entertainment/godzilla-minus-zero-review",
+      "title": "'Godzilla Minus Zero' Review: A Worthy Followup To The Best Godzilla Movie Of The Decade"
+    },
+    {
+      "url": "https://www.dreadcentral.com/reviews/593001/godzilla-minus-zero-review-big-monstrous-and-confused/",
+      "title": "'Godzilla Minus Zero' Review: Big, Monstrous, and Confused"
+    },
+    {
+      "url": "https://collider.com/godzilla-minus-zero-review/",
+      "title": "\u2018Godzilla Minus Zero\u2019 Is a Rare Sequel That's Better Than the Original"
+    },
+    {
+      "url": "https://www.slantmagazine.com/film/godzilla-minus-zero-review-yamazaki-takashi/",
+      "title": "'Godzilla Minus Zero' Review: A Monster Movie at War with Itself"
+    },
+    {
+      "url": "https://movieweb.com/godzilla-minus-zero-rotten-tomatoes-score/",
+      "title": "New Sci-Fi Thriller Is Officially One of the Best of the Year With Record-Breaking RT Score"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/movies/articles/godzilla-minus-zero-critics-raving-030215157.html",
+      "title": "\u2018Godzilla Minus Zero\u2019 Has Critics Raving In Early Rotten Tomatoes Reviews"
+    },
+    {
+      "url": "https://fictionhorizon.com/godzilla-minus-zero-roars-onto-rotten-tomatoes-with-glowing-reviews-ahead-of-its-theatrical-release/",
+      "title": "\u2018Godzilla Minus Zero\u2019 Roars Onto Rotten Tomatoes With Glowing Reviews Ahead of Its Theatrical Release"
+    },
+    {
+      "url": "https://2immersive4u.com/2026/09/29/godzilla-minus-zero-reviews-why-critics-are-raving/",
+      "title": "Godzilla Minus Zero Reviews: Why Critics Are Raving - 2IMMERSIVE4U\u00ae"
+    },
+    {
+      "url": "https://www.comicbasics.com/godzilla-minus-zero-reviews-are-in-and-critics-say-the-sequel-is-bigger-louder-and-nearly-as-devastating/",
+      "title": "'Godzilla Minus Zero' Reviews Are In, and Critics Say the Sequel Is Bigger, Louder, and Nearly as Devastating"
+    },
+    {
+      "url": "https://www.comicbasics.com/godzilla-minus-zero-roars-into-theaters-with-a-near-perfect-rotten-tomatoes-score/",
+      "title": "'Godzilla Minus Zero' Roars Into Theaters With a Near-Perfect Rotten Tomatoes Score"
+    },
+    {
+      "url": "https://www.superherohype.com/news/695937-godzilla-minus-zero-rotten-tomatoes-score-reviews",
+      "title": "Godzilla Minus Zero\u2019s Impressive RT Score Falls Short of Its Predecessor - Comic Book Movies and Superhero Movie News - SuperHeroHype"
+    },
+    {
+      "url": "https://boxofficewatch.com/movies/godzilla-minus-zero",
+      "title": "Godzilla Minus Zero Box Office \u2014 Daily & Weekend Grosses"
+    },
+    {
+      "url": "https://www.koimoi.com/box-office/godzilla-minus-zero-north-america-box-office-sequel-tracking-for-25-million-opening-more-than-2x-godzilla-minus-one/",
+      "title": "Godzilla Minus Zero North America Box Office: Sequel Tracking For $25 Million Opening, More Than 2X Godzilla Minus One!"
+    },
+    {
+      "url": "https://www.boxofficepro.com/long-range-forecast-monsters-make-their-way-to-the-big-screen-in-the-cat-in-the-hat-godzilla-minus-zero/",
+      "title": "Long Range Forecast: Monsters Make Their Way to the Big Screen in THE CAT IN THE HAT, GODZILLA MINUS ZERO - Boxoffice Pro"
+    },
+    {
+      "url": "https://www.mediapredict.com/onboard/topics/148622",
+      "title": "\"Godzilla Minus Zero\" Opening Box Office: How Much Will It Gross? (Opens November 6, 2026)"
+    },
+    {
+      "url": "https://www.koimoi.com/box-office/godzilla-minus-zero-north-america-box-office-can-it-crack-the-all-time-top-10-november-debuts/",
+      "title": "Godzilla Minus Zero North America Box Office: Can It Crack The All-Time Top 10 November Debuts?"
+    }
+  ]
+}

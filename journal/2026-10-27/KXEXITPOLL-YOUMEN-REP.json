@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "ticker": "KXEXITPOLL-YOUMEN-REP",
+  "event": "KXEXITPOLL-YOUMEN",
+  "series": "KXEXITPOLL",
+  "title": "Will Republicans win young men (18-29) in the exit poll? Republican party",
+  "rules": "If the Republican Party wins young men (18-29) in the 2026 United States midterm elections, then the market resolves to Yes.",
+  "rules_secondary": "For purposes of this market, a party \u201cwins\u201d young men (18-29) if it receives the higher reported share among that group in the national U.S. House exit poll. If the relevant parties are tied, each tied strike will receive 1/N of the Settlement Value, where N is the number of tied strikes.\n\nCNN is the primary resolution source, using the applicable figure displayed at Nov 6, 2026 at 12:00 PM ET. If the figure is unavailable at that time, CNN will remain the primary source for 24 additional hours. After that, CBS and then ABC will be used, in that order, through Nov 7, 2026 at 11:59 PM ET.",
+  "close_time": "2026-11-06T16:59:00+00:00",
+  "expected_close_time": "2026-11-06T16:59:00+00:00",
+  "forecast_at": "2026-10-27T12:40:40.771857+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.15",
+    "reasoning": "Democrats lead the national generic ballot by about 8-9 points, and most surveys of young men (Harvard, Lafayette, Third Way) show Democratic leads of 16-26 points. In past midterm exit polls (2018, 2022), young voters, including young men, went Democratic. Republicans' 2024 strength with young men and one NYT poll showing only D+1 keep a meaningful chance that the exit-poll subgroup tips Republican.",
+    "falsifier": "The CNN national House exit poll shows Republicans with a higher share than Democrats among men 18-29, for example if young men repeat their 2024 pro-Trump margin despite a Democratic national environment.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1400",
+    "best_yes_ask": "0.2000",
+    "p_market": "0.1700"
+  },
+  "final": {
+    "p_yes": "0.15",
+    "action": "pass",
+    "reasoning": "The market's 0.17 midpoint is close to my 0.15 estimate, which rests on Democrats' national lead and most polls of young men favouring them. Taking NO would mean selling YES at the 0.14 bid, about one point below my 0.15, so there is no edge after the spread."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.thirdway.org/memo/where-do-young-men-stand-ahead-of-the-2026-midterms",
+      "title": "Where Do Young Men Stand Ahead of the 2026 Midterms?"
+    },
+    {
+      "url": "https://youngamericanmen.com/data/2026",
+      "title": "The 2026 Survey \u00b7 Symposium on Young American Men"
+    },
+    {
+      "url": "https://www.thirdway.org/memo/where-do-young-men-stand-ahead-of-the-2026-midterms.pdf",
+      "title": "MEMO Where Do Young Men Stand Ahead of the 2026 Midterms? Lucas Holtz"
+    },
+    {
+      "url": "https://townhall.com/news/jeff-charles/2026/09/25/democrats-gaining-with-young-male-voters-n2683615",
+      "title": "GOP Bleeding Young Male Voters Right Before Midterms"
+    },
+    {
+      "url": "https://iop.harvard.edu/youth-poll/latest-poll",
+      "title": "53rd Edition - Fall 2026"
+    },
+    {
+      "url": "https://thirdwaydatahub.substack.com/p/where-do-young-men-stand-ahead-of",
+      "title": "Where Do Young Men Stand Ahead of the 2026 Midterms?"
+    },
+    {
+      "url": "https://dailycaller.com/2026/10/22/young-voters-democrats-trump-poll/",
+      "title": "Young Voters Flocking Back To Democrats After Helping Trump Win In 2024: POLL"
+    },
+    {
+      "url": "https://ua.news/en/world/opituvannia-nyt-demokrati-na-odin-punkt-poperedu-sered-molodikh-cholovikiv-ssha-abc-news-australia",
+      "title": "NYT poll: Democrats one point ahead among young U.S. men \u2014 ABC News Australia"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/poll-reveals-where-young-voters-163148423.html",
+      "title": "New poll reveals where young voters stand as midterms near"
+    },
+    {
+      "url": "https://www.libertynation.com/young-men-turning-to-democrats-in-the-midterms/",
+      "title": "A Political Shift for Young Men"
+    },
+    {
+      "url": "https://www.aei.org/op-eds/the-2022-exit-polls-a-z/",
+      "title": "The 2022 Exit Polls: A-Z"
+    },
+    {
+      "url": "https://www.forbes.com/sites/bowmanmarsico/2022/11/09/the-2022-exit-polls-a-z/",
+      "title": "The 2022 Exit Polls: A-Z"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2022-elections/exit-polls/",
+      "title": "Live exit polls 2022: Election Day exit polls for Democrats vs Republicans"
+    },
+    {
+      "url": "https://www.cnn.com/interactive/2022/politics/exit-polls-2022-midterm-2018-shift/",
+      "title": "Exit polls show shifts among 2022 midterm voters compared with 2018 - CNN"
+    },
+    {
+      "url": "https://abcnews.com/Elections/exit-polls-2022-us-house-election-results-analysis",
+      "title": "Exit Polls for 2022 US House Election: Results & Analysis - ABC News"
+    },
+    {
+      "url": "https://www.cnn.com/2022/11/08/politics/exit-polls-midterm-election-analysis/",
+      "title": "Exit polls: High inflation dominates voters\u2019 views in the midterm elections"
+    },
+    {
+      "url": "https://edition.cnn.com/interactive/2022/politics/exit-polls-2022-midterm-2018-shift/index.html",
+      "title": "Exit polls show shifts among 2022 midterm voters compared with 2018 - CNN"
+    },
+    {
+      "url": "https://www.statista.com/statistics/1343993/house-representatives-youth-vote-exit-polls-us-midterm/",
+      "title": "House of Representatives exit polls by age U.S. midterm 2022| Statista"
+    },
+    {
+      "url": "https://www.aei.org/op-eds/the-exit-polls-from-a-to-z/",
+      "title": "The Exit Polls: From A to Z"
+    },
+    {
+      "url": "https://www.brookings.edu/articles/midterm-exit-polls-show-that-young-voters-drove-democratic-resistance-to-the-red-wave/",
+      "title": "Midterm exit polls show that young voters drove Democratic resistance to the \u2018red wave\u2019"
+    },
+    {
+      "url": "https://www.forbes.com/sites/bowmanmarsico/2024/11/12/the-exit-polls-from-a-to-z/",
+      "title": "The Exit Polls: From A To Z"
+    },
+    {
+      "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
+      "title": "FiftyPlusOne - Generic Ballot Polls and Average for 2026"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/generic-ballot/",
+      "title": "Generic Ballot October 2026: D+7.4 \u2014 House Forecast, Pollster Breakdown & Monthly Trend"
+    },
+    {
+      "url": "https://www.pollsmax.com/approval/generic-ballot/",
+      "title": "2026 Generic Ballot"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "title": "2026 Generic Congressional Vote"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/26/democrats-hold-big-lead-on-generic-ballot-2",
+      "title": "Democrats Hold Big Lead on Generic Ballot"
+    },
+    {
+      "url": "https://www.poliwave.com/us/fed/polls",
+      "title": "2026 Midterm Polls: Generic Ballot and Senate Races"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/",
+      "title": "All 2026 US Polls: Generic Ballot D+7.4, Trump 36.9% \u2014 Updated Daily"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/2026-midterm-tracker/",
+      "title": "2026 Midterm Tracker: Generic Ballot D+7.4, Trump Approval 37%"
+    },
+    {
+      "url": "https://uspollingdata.com/",
+      "title": "US Polling Data 2026 \u2014 Midterms, Generic Ballot D+7.4 & Trump Approval 36.9%"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-counted-young-voters-win-200310000.html",
+      "title": "Trump counted on young voters to win in 2024. They are now switching to Democrats in droves"
+    },
+    {
+      "url": "https://www.ibtimes.com/young-voters-appear-turning-trump-republicans-general-poll-3808876",
+      "title": "Young Voters Appear To Be Turning On Trump And Republicans in General: Poll"
+    },
+    {
+      "url": "https://www.latintimes.com/young-men-are-walking-away-maga-democrats-havent-sealed-deal-weeks-before-midterms-600427",
+      "title": "Young Men Are Walking Away From MAGA \u2014 And Democrats Haven't Sealed the Deal Weeks Before the Midterms"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/22/young-voters-swing-back-to-democrats/",
+      "title": "Young Voters Swing Back to Democrats"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-25/us-midterm-elections-donald-trump-losing-support-among-young-men/107299276",
+      "title": "Young men are turning on Trump, but not necessarily to Democrats"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "ticker": "KXZACHARIAROLE-26-KZAC",
+  "event": "KXZACHARIAROLE-26",
+  "series": "KXZACHARIAROLE",
+  "title": "Will Katie Zacharia take another Trump administration role before Nov 1, 2026?",
+  "rules": "If Katie Zacharia is announced or appointed as the holder of an administration role other than White House Press Secretary for President Trump before Nov 1, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Any position in the Trump administration other than White House Press Secretary counts, including a White House aide, advisor, envoy or spokesperson role, or a nomination, appointment or announcement to a role in a federal department or agency. An announcement that Katie Zacharia will take on such a role counts even if she has not yet assumed it, and even if she also remains Press Secretary. Her service as White House Press Secretary, or any duty performed as part of that role, does not count.",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-27T12:40:40.771857+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.02",
+    "reasoning": "Zacharia was pushed out as press secretary on October 16, 2026, after five days because of a bad briefing and questions about her legal credentials. Reporting since then calls her a former official and mentions no new role. With about five days left before the November 1 deadline, an announcement of a new administration post is very unlikely.",
+    "falsifier": "Before November 1, 2026, Trump or the White House announces Zacharia for any administration job, such as an envoy, adviser, agency spokesperson or ambassador nomination.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1000",
+    "best_yes_ask": "0.1800",
+    "p_market": "0.1400"
+  },
+  "final": {
+    "p_yes": "0.04",
+    "action": "buy_no",
+    "reasoning": "The 0.14 midpoint likely prices in Trump's habit of rewarding loyalists, but Zacharia was pushed out over credibility problems and coverage shows no talk of a new post. Less than a week remains, so I stay well below the market and bet NO."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1100",
+    "count": 1,
+    "cost": "0.8900",
+    "clamped_from": "0.09"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Katie_Zacharia",
+      "title": "Katie Zacharia"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/white-house/white-house-press-secretary-katie-zacharia-out-after-5-days-rcna603912",
+      "title": "Katie Zacharia is out as White House press secretary after just 5 days on the job"
+    },
+    {
+      "url": "https://abc7.com/story/katie-zacharia-appointed-white-house-press-secretary-taking-spot-karoline-leavitt-trump-says/19927219/",
+      "title": "Katie Zacharia appointed White House press secretary, taking spot of Karoline Leavitt, Trump says - ABC7 Los Angeles"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/katie-zacharia-white-house-press-secretary-trump-rcna602560",
+      "title": "Katie Zacharia will be the next White House press secretary"
+    },
+    {
+      "url": "https://www.britannica.com/biography/Who-is-Katie-Zacharia",
+      "title": "Katie Zacharia"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/11/trump-katie-zacharia-white-house-press-secretary.html",
+      "title": "Trump Media advisor Katie Zacharia named White House press secretary"
+    },
+    {
+      "url": "https://www.britannica.com/question/Who-is-Katie-Zacharia",
+      "title": "Who is Katie Zacharia?"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6155287-katie-zacharia-white-house-exit-five-days/",
+      "title": "Katie Zacharia exits White House press secretary role: How her 5 days went"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+      "title": "Katie Zacharia out as Trump's White House press secretary"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/katie-zacharia-offered-role-white-house-press-secretary",
+      "title": "Katie Zacharia tapped as White House Press Secretary"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6154278-donald-trump-katie-zacharia-press-secretary-role/",
+      "title": "Katie Zacharia 'transitioning out' as White House press secretary after 5 days on job"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/17/why-trumps-latest-white-house-press-secretary-lasted-just-five-days",
+      "title": "Why Trump\u2019s latest White House press secretary lasted just five days"
+    },
+    {
+      "url": "https://www.ms.now/news/katie-zacharia-out-white-house-press-secretary-trump",
+      "title": "Katie Zacharia is out as White House press secretary after just 5 days"
+    },
+    {
+      "url": "https://www.nbcwashington.com/news/national-international/trump-press-secretary-katie-zacharia-future/4168341/",
+      "title": "Katie Zacharia out as White House press secretary after 5 days"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-failed-press-secretary-katie-132719933.html",
+      "title": "Trump\u2019s failed press secretary Katie Zacharia reminds people she is \u2018ruthlessly loyal\u2019 to president"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/09/katie-zacharia-white-house-press-secretary.html",
+      "title": "Trump Media advisor Katie Zacharia offered White House press secretary role"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-10/katie-zacharia-offered-white-house-press-secretary-role/107250834",
+      "title": "Former Truth Social adviser Katie Zacharia offered White House press secretary role - ABC News"
+    },
+    {
+      "url": "https://www.jpost.com/international/article-911186",
+      "title": "Conservative commentator offered role of Trump's new White House press secretary"
+    },
+    {
+      "url": "https://abcnews.com/Politics/katie-zacharia-offered-white-house-press-secretary-job/story?id=137140926",
+      "title": "Katie Zacharia appointed White House press secretary, Trump says - ABC News"
+    },
+    {
+      "url": "https://www.mediaite.com/media/news/who-is-katie-zacharia-everything-you-need-to-know-from-her-brief-dhs-stint-to-trump-media/",
+      "title": "Who Is Katie Zacharia? Here's Everything You Need to Know"
+    },
+    {
+      "url": "https://www.newsweek.com/trump-says-perfect-katie-zacharia-freaked-out-as-white-house-press-sec-12613196",
+      "title": "Exclusive: Katie Zacharia Responds After Trump Says She \u2018Freaked Out\u2019 - Newsweek"
+    },
+    {
+      "url": "https://www.rawstory.com/katie-zacharia-trump/",
+      "title": "Fired Trump spokeswoman remains \u2018ruthlessly loyal\u2019 as he humiliates her at rally: report - Raw Story"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-failed-press-secretary-sends-135307303.html",
+      "title": "Trump\u2019s Failed Press Secretary Sends Him Desperate Message"
+    },
+    {
+      "url": "https://www.alternet.org/katie-zacharia-trump-groveling/",
+      "title": "Humiliated ex-Trump official grovels to stay in good graces - Alternet.org"
+    },
+    {
+      "url": "https://www.soapcentral.com/entertainment/news-i-remain-ruthlessly-loyal-katie-zacharia-thanks-trump-president-criticizes-reporters-treatment",
+      "title": "\"I remain ruthlessly loyal\": Katie Zacharia thanks Trump after president criticizes reporters' treatment of her"
+    },
+    {
+      "url": "https://finwire.io/news/world-news/trumps-failed-press-secretary-katie-zacharia-reminds-people-she-is-ruthlessly-loyal-to-president",
+      "title": "Trump\u2019s failed press secretary Katie Zacharia says she remains \u2018ruthlessly loyal\u2019"
+    },
+    {
+      "url": "https://newswav.com/article/trump-s-failed-press-secretary-katie-zacharia-reminds-people-she-is-ruthles-A2610_vFSTlm",
+      "title": "Trump\u2019s failed press secretary Katie Zacharia reminds people she is \u2018ruthlessly loyal\u2019 to president - Newswav"
+    }
+  ]
+}

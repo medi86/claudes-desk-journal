@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUTHSOCIAL-26OCT31-B229",
+  "event": "KXTRUTHSOCIAL-26OCT31",
+  "series": "KXTRUTHSOCIAL",
+  "title": "Will Donald Trump make between 220 and 239 Truth Social posts the week of Oct 25, 2026? 220-239",
+  "rules": "If the number of Truth Social posts by Donald Trump from Oct 25, 2026 to Oct 31, 2026 is between 220 and 239, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe observation period begins at 12:00:00 AM ET on Oct 25, 2026 and ends at 11:59:59 PM ET on Oct 31, 2026.\nThe primary resolution source for this market is Roll Call.\nIn the event that Roll Call data is unavailable or inaccurate, alternative sources may be used at Kalshi's discretion.\n\nPayout criteria\n\nTruths, ReTruths, and Quote Truths are included in the total count.\nReplies are included if captured by Roll Call.\n\"Between\" is inclusive of the lower and upper bound.\n\nDoesn\u2019t count for payout: Posts deleted as of 12:00 AM ET.",
+  "close_time": "2026-11-01T13:59:00+00:00",
+  "expected_close_time": "2026-11-01T13:59:00+00:00",
+  "forecast_at": "2026-10-27T12:40:40.771857+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.09",
+    "reasoning": "Trump's 2026 baseline is about 19 posts/day (~133/week), and his record month of May averaged 27/day (~189/week). The 220-239 range needs ~31-34/day for the whole week. The final pre-midterm week and his habit of 100+ post late-night binges give real upside, but this narrow range is still above the most likely outcome.",
+    "falsifier": "Roll Call's count for Oct 25-31 shows a late-night binge or a midterm-eve surge that pushes the weekly total to 220-239.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.lines.com/prediction-markets/politics/donald-trump-of-truth-social-posts-june-19-june-26"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1100",
+    "best_yes_ask": "0.1500",
+    "p_market": "0.1300"
+  },
+  "final": {
+    "p_yes": "0.11",
+    "action": "pass",
+    "reasoning": "I moved partway toward the 13% midpoint because traders can see the live mid-week count and I couldn't. The remaining gap is too small to bet NO against people with better information on the week so far."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.huffpost.com/entry/donald-trump-posts-record-white-house-explains_n_6a1fdcdfe4b032392fa751f2",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.huffingtonpost.co.uk/entry/donald-trump-record-breaking-truth-social_uk_6a1ff4f1e4b08a03cfbd9f5d",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.mediaite.com/politics/trump-has-averaged-a-whopping-19-truth-social-posts-a-day-in-2026-report/",
+      "title": "Trump Has Averaged a Whopping 19 Truth Social Posts a Day in 2026: Report"
+    },
+    {
+      "url": "https://www.trumpstruth.org/",
+      "title": "Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/politics/donald-trump-of-truth-social-posts-june-19-june-26",
+      "title": "How Many Truth Social Posts Will Trump Make June 19-26?"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-sets-new-posting-record-on-truth-social-as-mania-spirals-out-of-control/",
+      "title": "Trump Sets Worrying New Record on Truth Social as Mania Spirals Out of Control"
+    },
+    {
+      "url": "https://www.kadoa.com/potus/truth",
+      "title": "What Did Trump Post Today? Truth Social Posts Ranked by Impact"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom",
+      "title": "Trump's Truth Social lays bare narrow obsessions of an extremely online president"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Social_media_use_by_Donald_Trump",
+      "title": "Social media use by Donald Trump"
+    },
+    {
+      "url": "https://www.washingtonpost.com/technology/2025/06/03/trump-truth-social-twitter/",
+      "title": "Tallying Trump\u2019s online posting frenzy: 2,262 \u2018truths\u2019 in 132 days - The Washington Post"
+    },
+    {
+      "url": "https://www.irishstar.com/news/us-news/donald-trump-truth-social-posts-37598071",
+      "title": "Unhinged Trump's posting rampage as he melts down with over 40 posts in an hour"
+    },
+    {
+      "url": "https://time.com/7338077/trump-truth-social-posts-addiction/",
+      "title": "Trump Posts More Than 160 Times in Late-Night Blitz. That's Not Even His Record"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-faces-fresh-calls-for-removal-over-ai-fueled-posting-frenzy/",
+      "title": "Trump Faces Fresh Calls for Removal Over AI-Fueled Posting Frenzy"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-80-unravels-in-frantic-rageposting-spree/",
+      "title": "Trump, 80, Unravels in Frantic Rageposting Spree"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-fires-off-46-posts-in-manic-two-hour-spree/",
+      "title": "Trump Fires Off 46 Posts in Manic Two-Hour Spree"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-posts-35-times-90-161432117.html",
+      "title": "Trump Posts 35 Times in 90 Minutes on Truth Social"
+    },
+    {
+      "url": "https://rollcall.com/2024/10/02/trump-averages-more-than-24-truth-social-posts-a-day-and-he-was-even-busier-during-the-vp-debate/",
+      "title": "Trump averages more than 24 Truth Social posts a day and he was even busier during the VP debate"
+    },
+    {
+      "url": "https://rollcall.com/2026/01/20/trump-by-the-numbers-first-year/",
+      "title": "What the numbers say: Trump\u2019s 2025 versus his 2017"
+    },
+    {
+      "url": "https://factually.co/fact-checks/politics/trump-truth-social-2025-post-count-and-research-patterns-bae2ce",
+      "title": "How Many Truth Social Posts Did Trump Make in 2025 and..."
+    },
+    {
+      "url": "https://www.axios.com/2025/12/02/trump-truth-social-december-150-posts-social-media",
+      "title": "What Trump said in a 158-post, late-night Truth Social barrage"
+    },
+    {
+      "url": "https://x.com/kirk_bado/status/1929860605617307787",
+      "title": "Kirk A. Bado on X: \"Roll Call has a great tracker of Trump's social media posts https://t.co/uAWrAOaSiT\" / X"
+    },
+    {
+      "url": "https://www.inkl.com/news/trump-averages-more-than-24-truth-social-posts-a-day-and-he-was-even-busier-during-the-vp-debate-roll-call",
+      "title": "Trump averages more than 24 Truth Social posts a day and he was even busier during the VP debate - Roll Call"
+    },
+    {
+      "url": "https://www.forbes.com/sites/siladityaray/2026/10/26/trump-attacks-bill-maher-in-1300-word-post-days-after-white-house-dinner-calls-him-coward-and-pothead/",
+      "title": "Trump Calls Bill Maher \u2018Coward\u2019 And \u2018Pothead\u2019 In Record-Long 1,300-Word Truth Social Rant"
+    },
+    {
+      "url": "https://theprint.in/feature/trumps-longest-ever-truth-social-post-is-an-attack-on-bill-maher/3082012/",
+      "title": "Trump\u2019s longest-ever Truth Social post is an attack on Bill Maher"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/25/media/trump-bill-maher-truth-social-longest-post-ever",
+      "title": "Trump rails against Bill Maher in his longest Truth Social post ever"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/13/trump-posts-video-truth-social-man-being-attacked-by-tiger/",
+      "title": "Trump posts video on Truth Social of man being attacked by tiger - The Washington Post"
+    },
+    {
+      "url": "https://forbes.com/sites/siladityaray/2026/10/26/trump-attacks-bill-maher-in-1300-word-post-days-after-white-house-dinner-calls-him-coward-and-pothead",
+      "title": "Trump Calls Bill Maher \u2018Coward\u2019 And \u2018Pothead\u2019 In Record-Long 1,300-Word Truth Social Rant"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42768",
+      "title": "Donald J. Trump: \"RT: https://truthsocial.com/users/realDonaldTrump/statuses/117509139794268337\" - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42729",
+      "title": "Donald J. Trump: \"https://truthsocial.com/group/memes/statuses/117473154555335665\" - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://deadline.com/2026/10/trump-bill-maher-loser-truth-social-post-1237172835/",
+      "title": "Donald Trump Posts 1,300+ Word Sunday Diatribe About \"Loser\" Bill Maher"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42582",
+      "title": "Donald J. Trump image post from October 22, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/26/politics/live-news/midterm-election-congress",
+      "title": "Midterm elections updates: \u2018I can\u2019t take a chance,\u2019 Trump says at rally for GOP Senate candidate in deep-red Mississippi"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-october-12-2026",
+      "title": "Truth Social Posts of October 12, 2026"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42719",
+      "title": "Donald J. Trump: \"RT: https://truthsocial.com/users/realDonaldTrump/statuses/11746244914958204... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42492",
+      "title": "Donald J. Trump image post from October 20, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42528",
+      "title": "Donald J. Trump video post from October 20, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/donald-trump-attacks-bill-maher-truth-social-post-loser-1236739778/",
+      "title": "Donald Trump Attacks Bill Maher in Truth Social Post as 'Total Loser'"
+    },
+    {
+      "url": "https://finance.yahoo.com/media-advertising/articles/trump-truth-social-plunges-time-132934887.html",
+      "title": "Trump\u2019s Truth Social Plunges to All-Time Low as Users Flee"
+    },
+    {
+      "url": "https://www.forth.news/stories/CffDPfsNgmgthUAxxZkM8",
+      "title": "President Trump Posts on Truth Social, No New Policy Announced"
+    },
+    {
+      "url": "https://www.forbes.com/sites/conormurray/2026/10/04/trump-launches-bizarre-sunday-posting-spree-from-crumbling-kennedy-center-to-greenland-memes/",
+      "title": "Trump Fires Off 23 Truth Social Posts In 1 Hour During Wild Sunday Spree"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-posting-more-ever-100551932.html",
+      "title": "Donald Trump Is Posting More Than Ever, but Truth Social Users Are Vanishing"
+    },
+    {
+      "url": "https://www.newsweek.com/donald-trump-blasts-bill-maher-white-house-dinner-12617352",
+      "title": "Donald Trump Unloads on Bill Maher in 1,300-Word Post After White House Dinner - Newsweek"
+    },
+    {
+      "url": "https://variety.com/2026/tv/news/trump-calls-bill-maher-complete-total-loser-truth-social-1236931052/",
+      "title": "Trump Calls Bill Maher a \u2018Complete and Total Loser,\u2019 Tells Him \u2018Don\u2019t Call Anymore\u2019 in Lengthy Truth Social Post"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/trump-middle-of-the-night-posting-spree_n_6acf1bcbe4b08a0fe8547e78",
+      "title": "Trump Had A Seriously Wild Night On Truth Social"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42726",
+      "title": "Donald J. Trump video post from October 25, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42723",
+      "title": "Donald J. Trump image post from October 25, 2026 - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42718",
+      "title": "Donald J. Trump: \"Heading to Michigan to fight a Jihadist Member of the Muslim Brotherhood \u2014 A... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42716",
+      "title": "Donald J. Trump: \"https://www.youtube.com/live/tVCs0-N4XiY?si=qvAuIZc2WDP8MCEL\" - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42717",
+      "title": "Donald J. Trump: \"FoxNews is spending far too much time putting on the OPPONENTS of Republican... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42725",
+      "title": "Donald J. Trump: \"Let\u2019s talk about this COMPLETE AND TOTAL LOSER, Bill Maher. He\u2019s got a Low R... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42730",
+      "title": "Donald J. Trump: \"Iran Oil Minister Resigns Amid US Blockade; Hamid Bovard Takes Interim Charg... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42731",
+      "title": "Donald J. Trump: \"NY plans to drop part of Native American logo ban in \u2018huge victory\u2019 for Mass... - Trump\u2019s Truth"
+    }
+  ]
+}
