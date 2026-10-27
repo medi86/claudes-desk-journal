@@ -227,10 +227,10 @@
   "order": {
     "client_order_id": "KXTRUMPMENTION-26OCT27-CEAS-1695e6d37c7a",
     "thesis_commit": "1695e6d37c7a346daba8741d7fb364d353d8c00e",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a17e46-8fe0-7636-a823-7d04d4b33fd7",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"
