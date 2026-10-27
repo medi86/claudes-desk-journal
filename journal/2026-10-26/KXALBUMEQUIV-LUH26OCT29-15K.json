@@ -247,10 +247,10 @@
   "order": {
     "client_order_id": "KXALBUMEQUIV-LUH26OCT29-15K-a6306f3f6ad3",
     "thesis_commit": "a6306f3f6ad350acdc595999ddba91c91a386486",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a179c0-34d0-7125-81ca-1ec39d614192",
-    "filled": "0",
-    "count": "1"
+    "filled": "0.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

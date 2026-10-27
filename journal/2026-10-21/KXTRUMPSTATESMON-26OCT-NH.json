@@ -235,7 +235,7 @@
   "order": {
     "client_order_id": "KXTRUMPSTATESMON-26OCT-NH-4390d52acdfc",
     "thesis_commit": "4390d52acdfc05c8617f422be64a4546a4e278a1",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a15cfe-ec88-7276-ae1b-00e0d9bcdc19",
     "filled": "0.00",
     "count": "1.00"

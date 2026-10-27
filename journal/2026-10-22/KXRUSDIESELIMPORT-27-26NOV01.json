@@ -219,7 +219,7 @@
   "order": {
     "client_order_id": "KXRUSDIESELIMPORT-27-26NOV01-f3847f9ddd15",
     "thesis_commit": "f3847f9ddd15a5efc9c09c1c8cbacf48f7ebb6f5",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a16233-9898-75b3-bd9f-3e5bb26eaa9a",
     "filled": "0.00",
     "count": "1.00"

@@ -267,7 +267,7 @@
   "order": {
     "client_order_id": "KXLUKEOUT-26JUL-26NOV01-c7b85512b9a8",
     "thesis_commit": "c7b85512b9a8d013337927707b8dda4f8ab4d4cb",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a15ebe-c4f8-7866-a89b-9718fa858ce9",
     "filled": "0.00",
     "count": "1.00"

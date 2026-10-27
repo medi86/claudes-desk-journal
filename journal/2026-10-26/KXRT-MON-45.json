@@ -211,7 +211,7 @@
   "order": {
     "client_order_id": "KXRT-MON-45-751944439920",
     "thesis_commit": "751944439920270b281dec4d25baba5a7943220b",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a175f9-e9b8-7d53-8645-d6f05ed86746",
     "filled": "0.00",
     "count": "1.00"
