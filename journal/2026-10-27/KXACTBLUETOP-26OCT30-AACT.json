@@ -247,7 +247,7 @@
   "order": {
     "client_order_id": "KXACTBLUETOP-26OCT30-AACT-fa5ddca99ae5",
     "thesis_commit": "fa5ddca99ae52bba06a7beddabdf818f49657c1f",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a17b6a-1c10-7799-957d-5be465591ecb",
     "filled": "0.00",
     "count": "1.00"

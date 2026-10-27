@@ -243,7 +243,7 @@
   "order": {
     "client_order_id": "KXRT-CAT-65-fa5ddca99ae5",
     "thesis_commit": "fa5ddca99ae52bba06a7beddabdf818f49657c1f",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a17b6a-1c10-7d7f-a4d2-243711793883",
     "filled": "0.00",
     "count": "1.00"
