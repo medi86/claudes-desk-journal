@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "ticker": "KXISRAELTURNOUT-26OCT27-5800000",
+  "event": "KXISRAELTURNOUT-26OCT27",
+  "series": "KXISRAELTURNOUT",
+  "title": "Will at least 5,800,000 ballots be cast in Israel's October 27, 2026 Knesset election?",
+  "rules": "If at least 5,800,000 valid and invalid ballots are cast in the October 27, 2026 Israeli Knesset election, then the market resolves to Yes.",
+  "rules_secondary": "The count is the total of valid and invalid ballots cast in Israel's Knesset election, as reported by the Central Elections Committee. Registered voters and ballots in other contests do not count.\n\nSubject to the contract's Fully-Conducted Elections and Accelerated Resolution Upon Designated Media Source Declarations provisions, the vote count refers to the officially certified results from the relevant election authority. Provisional, absentee, early, mail-in, or electronic ballots are included only if reflected in the official certification.\n\nThe contract resolves based on officially certified results regardless of ongoing appeals. Outside those two contract provisions, preliminary counts, exit polls, projections, or uncertified results do not qualify. If the election is postponed but held within one year of the originally scheduled date, the contract remains valid; if postponed beyond one year or canceled before voting is fully conducted, all contracts resolve to No.",
+  "close_time": "2026-11-03T14:59:00+00:00",
+  "expected_close_time": "2026-11-03T14:59:00+00:00",
+  "forecast_at": "2026-10-28T14:26:14.020148+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.08",
+    "reasoning": "The Central Elections Committee reported 77.7% turnout at poll close, about 5.69-5.70 million ballots out of 7,331,981 eligible voters. Reaching 5.8 million needs about 79.1%, so the final count would have to add about 1.4 points. In past Israeli elections the final count moved only 0.2-0.5 points above the 10 p.m. figure, or fell below it as in 2022. The remaining doubt is whether special ballots counted later were left out of the 10 p.m. figure.",
+    "falsifier": "The certified Central Elections Committee results show 5,800,000 or more total ballots (valid plus invalid), for example because special ballots add well over 100,000 to the 10 p.m. count.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.5500",
+    "best_yes_ask": "0.7500",
+    "p_market": "0.6500"
+  },
+  "final": {
+    "p_yes": "0.22",
+    "action": "buy_no",
+    "reasoning": "The 0.65 midpoint pushes me up from 0.08, since traders may believe special ballots are missing from the 10 p.m. count. But past finals stayed within about half a point of the 10 p.m. figure, and 5.8M needs about 1.4 points more than the reported 77.7% (about 5.69M). The wide 0.55-0.75 spread suggests a thin market, so I still lean well below the midpoint."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.5600",
+    "count": 1,
+    "cost": "0.4400",
+    "clamped_from": "0.27"
+  },
+  "sources": [
+    {
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/.premium/israels-26th-election-by-the-numbers-all-you-need-to-know/000001a1-4f14-da52-a3f1-4f5e09df0000",
+      "title": "Israel's 2026 Election by the Numbers: Everything You Need to Know - Israel Elections 2026"
+    },
+    {
+      "url": "https://www.israelnationalnews.com/news/435200",
+      "title": "Your complete Israel election day guide"
+    },
+    {
+      "url": "https://www.israelnationalnews.com/news/435215",
+      "title": "Israel decides: Polls have closed, vote counting underway"
+    },
+    {
+      "url": "https://www.jns.org/news/israel-news/israel-heads-to-the-polls-to-elect-26th-knesset",
+      "title": "Israel heads to the polls to elect 26th Knesset - Israel & Jewish News - JNS"
+    },
+    {
+      "url": "https://www.theglobalstatistics.com/israel-election-statistics/",
+      "title": "Israel Election Statistics 2026"
+    },
+    {
+      "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508",
+      "title": "Israel Election Guide 2026"
+    },
+    {
+      "url": "https://www.jta.org/2026/10/26/israel/israelis-head-to-the-polls-in-countrys-most-consequential-election-in-decades",
+      "title": "Highest turnout ever recorded as Israelis cast ballots to decide Netanyahu\u2019s fate - Jewish Telegraphic Agency"
+    },
+    {
+      "url": "https://mapthegeneral.com/il/en/results/",
+      "title": "Israel election results 2026 - Knesset Seats - Map the General"
+    },
+    {
+      "url": "https://www.jpost.com/israel-election-2026/article-912517",
+      "title": "Israel Election 2026: How many votes will parties need to cross electoral threshold? - explainer"
+    },
+    {
+      "url": "https://www.ynetnews.com/article/bytladcnzg",
+      "title": "Israel election 2026: What happens after polls close and when will we know who won?"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+      "title": "Decades-high turnout in Israel election with no clear winner : NPR"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues",
+      "title": "Israel election turnout hits 77.7%, highest since 1999"
+    },
+    {
+      "url": "https://www.timesofisrael.com/liveblog-october-27-2026/",
+      "title": "Oct. 27: Netanyahu claims his bloc won \u2018decisive majority\u2019 among Zionist public; Eisenkot had urged him to accept defeat"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+      "title": "Israeli election results: No clear winner as exit polls suggest rebuke for Netanyahu"
+    },
+    {
+      "url": "https://www.ynetnews.com/article/r1vjrv0hme",
+      "title": "Israel election turnout hits 74.3% by 8 p.m., highest since 1988"
+    },
+    {
+      "url": "https://www.ynetnews.com/article/byw6x802ml",
+      "title": "From 97.9% to 13.2%: Where Israelis are turning out to vote"
+    },
+    {
+      "url": "https://www.aa.com.tr/en/middle-east/israel-s-parliamentary-election-turnout-reaches-743-by-8-pm/4103016",
+      "title": "Israel\u2019s parliamentary election turnout reaches 74.3% by 8 pm"
+    },
+    {
+      "url": "https://www.timesofisrael.com/liveblog_entry/turnout-at-74-3-as-of-8-p-m-already-surpassing-total-of-2022-election/",
+      "title": "Turnout at 74.3% as of 8 p.m., already surpassing total of 2022 election"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979",
+      "title": "Exit polls indicate no clear winner in Israeli election"
+    },
+    {
+      "url": "https://aninews.in/news/world/middle-east/voter-turnout-in-israeli-election-crosses-74-per-cent-by-8-pm-local-time20261028013040/",
+      "title": "Voter turnout in Israeli election crosses 74 per cent by 8 pm local time"
+    },
+    {
+      "url": "https://www.ynetnews.com/article/skd97fc2gl",
+      "title": "Netanyahu bloc slips to 55 seats with nearly half the vote counted"
+    },
+    {
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article-live/israelis-ready-to-cast-their-vote-in-an-election-that-could-end-netanyahus-rule/000001a1-7afd-d5cb-a9ab-7ffd495d0000",
+      "title": "Israel Election 2026"
+    },
+    {
+      "url": "https://northeasttimes.com/2026/10/28/israel-election-results-netanyahu-bloc-56-seats-counting-continues/",
+      "title": "Israel Election Count: Netanyahu's Bloc Leads With 56 Seats but Lacks a Majority as Counting Continues - Northeast Times"
+    },
+    {
+      "url": "https://www.ynetnews.com/article/hjnatbkaml",
+      "title": "Israel election results: Netanyahu bloc at 53 seats, Eisenkot bloc at 48 as nearly all votes counted"
+    },
+    {
+      "url": "https://www.i24news.tv/en/news/israel-election-s-2026/artc-israelis-head-to-the-polls-casting-their-votes-in-the-country-s-first-election-since-2022-live-blog",
+      "title": "Israelis head to the polls, casting their votes in the country's first election since 2022"
+    },
+    {
+      "url": "https://www.newsweek.com/netanyahu-sounds-emergency-as-israel-election-turnout-highest-in-50-years-12623301",
+      "title": "Netanyahu Sounds \u2018Emergency\u2019 as Israel Election Turnout Highest in 50 Years - Newsweek"
+    },
+    {
+      "url": "https://www.israelhayom.com/2026/10/27/israel-2026-elections-record-voter-turnout/",
+      "title": "Israel 2026 elections hit record 44.9% turnout"
+    },
+    {
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article/.premium/breaking-down-israels-historic-election-day-turnout/000001a1-7e21-d848-afe1-7f2ba3310000",
+      "title": "Breaking Down Israel's Historic Election Day Turnout - Israel Elections 2026"
+    },
+    {
+      "url": "https://www.voiceofemirates.com/en/politics/2026/10/27/2026-knesset-elections-voter-turnout-reaches-16-68-coalition-struggles-to-determine-the-prime-minister/",
+      "title": "2026 Knesset Elections: Voter Turnout Reaches 16.68%; Coalition Struggles to Determine the Prime Minister"
+    },
+    {
+      "url": "https://time.com/article/2026/10/27/israel-netanyahu-eisenkot-knesset-election-explainer/",
+      "title": "Israeli Exit Polls Indicate No Clear Winner in Pivotal Election"
+    },
+    {
+      "url": "https://www.jpost.com/israel-election-2026/2026-10-28/live-updates-913081",
+      "title": "Israel Election 2026 live updates: Netanyahu bloc leads 53-48"
+    },
+    {
+      "url": "https://www.mako.co.il/finances-news/Article-b141e24aebc71a1026.htm",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05d0\u05d7\u05d5\u05d6\u05d9 \u05d4\u05d4\u05e6\u05d1\u05e2\u05d4 \u05d0\u05e8\u05e6\u05d9\u05d9\u05dd \u05d5\u05d1\u05e2\u05d9\u05e8 \u05e9\u05dc\u05db\u05dd"
+    },
+    {
+      "url": "https://www.mako.co.il/news-israel-elections/2026/liveblog-788cb43830871a1026.htm",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05d4\u05e7\u05dc\u05e4\u05d9\u05d5\u05ea \u05e0\u05e4\u05ea\u05d7\u05d5 - \u05e2\u05d3\u05db\u05d5\u05e0\u05d9\u05dd \u05e9\u05d5\u05d8\u05e4\u05d9\u05dd \u05d5\u05d0\u05d7\u05d5\u05d6 \u05d4\u05d4\u05e6\u05d1\u05e2\u05d4"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1381588",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05d4\u05e7\u05dc\u05e4\u05d9\u05d5\u05ea \u05e0\u05e1\u05d2\u05e8\u05d5 \u05e2\u05dd \u05e0\u05ea\u05d5\u05df \u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9 - \u05db\u05de\u05d4 \u05d4\u05e6\u05d1\u05d9\u05e2\u05d5 \u05d1\u05e2\u05d9\u05e8 \u05e9\u05dc\u05da"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21712775",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05e9\u05d9\u05d0 \u05e9\u05dc \u05db\u05dc \u05d4\u05d6\u05de\u05e0\u05d9\u05dd - \u05e9\u05d9\u05e2\u05d5\u05e8 \u05d4\u05e6\u05d1\u05e2\u05d4 \u05e9\u05dc 44.9%"
+    },
+    {
+      "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article-live/000001a1-786a-dfb9-a5a9-fa6f349b0000",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026"
+    },
+    {
+      "url": "https://www.walla.co.il/news/politics/383958985",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05e9\u05d9\u05d0 \u05d4\u05e6\u05d1\u05e2\u05d4 \u05de\u05d0\u05d6 1977 - 31.5% \u05d4\u05e6\u05d1\u05d9\u05e2\u05d5 \u05e2\u05d3 12:00"
+    },
+    {
+      "url": "https://www.walla.co.il/news/israel/383959104",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05d4\u05dc\u05d9\u05db\u05d5\u05d3 \u05d4\u05de\u05e4\u05dc\u05d2\u05d4 \u05d4\u05d2\u05d3\u05d5\u05dc\u05d4, \u05d2\u05d5\u05e9 \u05d4\u05e9\u05d9\u05e0\u05d5\u05d9 \u05de\u05d5\u05d1\u05d9\u05dc - \u05d0\u05da \u05d0\u05d9\u05df \u05d4\u05db\u05e8\u05e2\u05d4"
+    },
+    {
+      "url": "https://www.ynet.co.il/news/elections2026/article/bj5pk302zg",
+      "title": "\u05e0\u05ea\u05d5\u05e0\u05d9 \u05d4\u05d4\u05e6\u05d1\u05e2\u05d4 \u05de\u05d4\u05e2\u05d9\u05e8 \u05e9\u05dc\u05db\u05dd: \u05ea\u05d5\u05e6\u05d0\u05d5\u05ea \u05d4\u05d0\u05de\u05ea - \u05d5\u05de\u05e4\u05ea \u05d4\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea"
+    },
+    {
+      "url": "https://www.mako.co.il/news-israel-elections/2026/liveblog-c84cc98a6ce71a1027.htm",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05d4\u05e2\u05d3\u05db\u05d5\u05e0\u05d9\u05dd \u05d4\u05e9\u05d5\u05d8\u05e4\u05d9\u05dd \u05de\u05ea\u05d5\u05e6\u05d0\u05d5\u05ea \u05d4\u05d0\u05de\u05ea"
+    },
+    {
+      "url": "https://www.mako.co.il/news-politics/2026_q4/liveblog-f5b5a09693081a1026.htm",
+      "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05ea\u05d5\u05e6\u05d0\u05d5\u05ea \u05d4\u05d0\u05de\u05ea \u05d4\u05de\u05ea\u05e2\u05d3\u05db\u05e0\u05d5\u05ea"
+    }
+  ]
+}

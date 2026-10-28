@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "ticker": "KXTOPSONG-26NOV07-CHO",
+  "event": "KXTOPSONG-26NOV07",
+  "series": "KXTOPSONG",
+  "title": "Will Choosin' Texas be #1 on the Billboard Hot 100 during the week of Nov 7, 2026",
+  "rules": "If Choosin' Texas is #1 on the Billboard Hot 100  chart for the Week of Nov 7, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.",
+  "close_time": "2026-11-02T04:59:00+00:00",
+  "expected_close_time": "2026-11-02T04:59:00+00:00",
+  "forecast_at": "2026-10-28T14:26:14.020148+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.8",
+    "reasoning": "Choosin' Texas just took back #1 on the Oct 31 chart for a record 25th week. It has a huge radio lead (58.6M vs 12.7M impressions over its closest rival, Tate McRae's 'Housewife') and has repeatedly returned to the top this year. 'Housewife' beat it on streams in its debut week, but second-week streams usually fall, and no big release in the Oct 23-29 tracking week looks able to debut at #1. The main risk is that 'Housewife' holds its streams, grows its radio play or gets a sales push and edges ahead in a close race.",
+    "falsifier": "Billboard's Nov 7, 2026 Hot 100 (published around Nov 2) shows 'Housewife' or another song at #1, for example because new versions or variants boosted its sales or its second-week streams held unusually well.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.octagonai.co/markets/entertainment/music-charts/top-10-on-the-billboard-hot-100-chart-for-the-week-of-oct-31-2026/"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6900",
+    "best_yes_ask": "0.8200",
+    "p_market": "0.7550"
+  },
+  "final": {
+    "p_yes": "0.79",
+    "action": "pass",
+    "reasoning": "The market midpoint (0.755) is close to my estimate, and the wide spread means buying YES at the 0.82 ask would cost more than my 0.79 fair value. The leftover edge over the midpoint is too small to justify a trade."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-25th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Rebounds for Record-Extending 25th Week at No. 1 on Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-22nd-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Ties All-Time Hot 100 Record With 22nd Week at No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-15-weeks/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Adds Landmark 15th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-16th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Scores 16th Week at No. 1 on Hot 100, Country Takes Entire Top 5 for First Time"
+    },
+    {
+      "url": "https://www.foxnews.com/entertainment/ella-langley-joins-music-royalty-insane-milestone-choosin-texas",
+      "title": "Ella Langley ties record with 'Choosin' Texas' at No. 1 on Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Hits No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-14th-week/",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Makes More History With 14th Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5977962/choosin-texas-ella-langley-chart-success",
+      "title": "Why 'Choosin' Texas' is the longest-running No. 1 hit in Billboard Hot 100 history : NPR"
+    },
+    {
+      "url": "https://americansongwriter.com/ella-langleys-choosin-texas-returns-to-no-1-extending-its-record-breaking-run/",
+      "title": "Ella Langley's \"Choosin' Texas\" Returns to No. 1, Extending Its Record-Breaking Run - American Songwriter"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/ella-langley-choosin-texas-hot-100-record-analysis-1236345734/",
+      "title": "Ella Langley's 'Choosin' Texas' Sets the Hot 100 Record: Our Thoughts"
+    },
+    {
+      "url": "https://www.eagledayton.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://lifenewsagency.com/ella-langley-retakes-hot-100-no-1-from-taylor-swift-as-tate-mcrae-debuts-at-no-2",
+      "title": "Ella Langley Retakes Hot 100 No. 1 From Taylor Swift as Tate McRae Debuts at No. 2 - Life News Agency"
+    },
+    {
+      "url": "https://hartlineconcrete.com/article/taylor-swift-s-patient-zero-spends-2nd-week-at-no-1-billboard-hot-100",
+      "title": "Taylor Swift\u2019s 'Patient Zero' Spends 2nd Week at No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-three-weeks/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Adds Third Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://boston25news.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Spends Second Week at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-debut/",
+      "title": "Taylor Swift\u2019s \u2018Patient Zero\u2019 Debuts at No. 1 on Billboard Hot 100"
+    },
+    {
+      "url": "https://yahoo.com/entertainment/music/articles/week-big-chart-debuts-tate-200134569.html",
+      "title": "Which of This Week\u2019s Big Chart Debuts \u2014 From Tate McRae, Olivia Rodrigo & Chappell Roan and Zach Bryan & Lana Del Rey \u2014 Will Stick Around Longest?"
+    },
+    {
+      "url": "https://thebamabuzz.com/ella-langley-returns-to-no-1-on-hot-100-extending-all-time-record",
+      "title": "Ella Langley returns to No. 1 on Hot 100, extending all-time record"
+    },
+    {
+      "url": "https://billboard.com/lists/tate-mcrae-olivia-rodrigo-chappell-roan-chart-highlights-oct",
+      "title": "Tate McRae, Olivia Rodrigo, Chappell Roan & More: Highlights of This Week\u2019s Billboard Charts"
+    },
+    {
+      "url": "https://inmusicblog.com/news/ella-langley-choosin-texas-tate-mcrae-housewife-hot-100/",
+      "title": "Ella Langley\u2019s \u201cChoosin\u2019 Texas\u201d Extends Hot 100 Record as Tate McRae Debuts at No. 2"
+    },
+    {
+      "url": "https://lifenewsagency.com/ella-langley-retakes-hot-100-no-1-from-taylor-swift-as-tate-mcrae-debuts-at-no-2/",
+      "title": "Ella Langley Retakes Hot 100 No. 1 From Taylor Swift as Tate McRae Debuts at No. 2 - Life News Agency"
+    },
+    {
+      "url": "https://www.whio.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.newsbeep.com/us/895638/",
+      "title": "Ella Langley Back at No. 1, as Tate McRae and Rodrigo/Roan Bow Big - United States News Beep"
+    },
+    {
+      "url": "https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-31-2026/",
+      "title": "Billboard Hot 100 Top 10 Countdown for October 31, 2026"
+    },
+    {
+      "url": "https://www.wokv.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.k991fm.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.wsbradio.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/ella-langley-retakes-no-1-191312625.html",
+      "title": "Ella Langley Retakes No. 1 on Hot 100 From Taylor Swift; Tate McRae\u2019s \u2018Housewife,\u2019 Rodrigo/Roan \u2018Expectations\u2019 and Zach Bryan/Lana Del Rey \u2018Lies\u2019 All Bow Big"
+    },
+    {
+      "url": "https://www.wdbo.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6012325/new-music-friday-the-best-albums-out-oct-23",
+      "title": "New Music Friday: Anderson .Paak and Cordae and more best albums out Oct. 23 : All Songs Considered : NPR Music : NPR"
+    },
+    {
+      "url": "https://highnoteblog.com/new-music-friday-oct-23-2026/",
+      "title": "New Music Friday, Oct. 23, 2026 - The High Note"
+    },
+    {
+      "url": "https://popgoesthecharts.wordpress.com/2026/10/22/new-music-friday-releases-for-the-week-of-october-23-2026/",
+      "title": "NEW MUSIC FRIDAY: Releases For The Week of October 23, 2026"
+    },
+    {
+      "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "title": "New Music Friday"
+    },
+    {
+      "url": "https://alreadyheard.com/newmusicfriday-october-23rd-2026/",
+      "title": "#NewMusicFriday: October 23rd 2026 - Already Heard"
+    },
+    {
+      "url": "https://hit-channel.com/new-music-friday-playlist/",
+      "title": "New Music Friday"
+    },
+    {
+      "url": "https://2loud2oldmusic.com/2026/10/23/friday-new-releases-october-23-2026/",
+      "title": "New Albums released on October 23, 2026"
+    },
+    {
+      "url": "https://www.threee.com/new-music-friday-october-23-2026/",
+      "title": "New Music Friday: October 23, 2026"
+    },
+    {
+      "url": "https://twitteringmachines.com/newmusicfriday-october-23-2026/",
+      "title": "#NewMusicFriday: October 23, 2026 - Twittering Machines"
+    },
+    {
+      "url": "https://fm96.com/news/12113115/new-music-friday-9-new-releases-for-an-autumn-weekend-23-oct-2026/",
+      "title": "New Music Friday: 9 new releases for an autumn weekend (23 Oct 2026)"
+    },
+    {
+      "url": "https://exclaim.ca/music/article/new-album-releases-masterlist",
+      "title": "New Album Releases for October 23, 2026: Michael Kiwanuka, Claud, Art d'Ecco and More \u2502 Exclaim!"
+    },
+    {
+      "url": "https://vogueadria.com/new-albums-october/",
+      "title": "New albums out on 23 October that will define this autumn"
+    },
+    {
+      "url": "https://www.officialcharts.com/chart-news/new-album-releases-2026/",
+      "title": "New album releases 2026: Dates for Skepta, Kings of Leon and more"
+    },
+    {
+      "url": "https://goodtasterecords.com/blogs/news/new-album-releases-arrivals-october-23-2026",
+      "title": "New Album Releases & Arrivals October 23, 2026"
+    },
+    {
+      "url": "https://www.allmusic.com/newreleases",
+      "title": "Featured New Album Releases"
+    },
+    {
+      "url": "https://www.newreleasesnow.com/album/tony-iommi-from-the-dark",
+      "title": "Tony Iommi, From The Dark New Music, Songs, & Albums, 2026"
+    },
+    {
+      "url": "https://consequence.net/music-albums-released-2026/",
+      "title": "2026 Albums: New and Upcoming Music Releases"
+    },
+    {
+      "url": "https://www.shatterthestandards.com/p/new-music-drops-october-23-2026",
+      "title": "New Music Drops: October 23, 2026"
+    },
+    {
+      "url": "https://www.prestomusic.com/classical/articles/7424--new-release-roundup-new-release-round-up-23rd-october-2026",
+      "title": "New Release Round-Up - 23rd October 2026"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ella-langley-hot-100-tate-mcrae-housewife-rodrigo-roan-1236931455/",
+      "title": "Ella Langley Retakes No. 1 on Hot 100 From Taylor Swift; Tate McRae\u2019s \u2018Housewife,\u2019 Rodrigo/Roan \u2018Expectations\u2019 and Zach Bryan/Lana Del Rey \u2018Lies\u2019 All Bow Big"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/entertainment/music-charts/top-10-on-the-billboard-hot-100-chart-for-the-week-of-oct-31-2026/",
+      "title": "Top 10 on the Billboard Hot 100 chart for the Week of\u2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_top-ten_singles_in_2026",
+      "title": "List of Billboard Hot 100 top-ten singles in 2026"
+    },
+    {
+      "url": "https://www.thenews.com.pk/latest/1421452-taylor-swifts-patient-zero-suffers-major-chart-setback",
+      "title": "Taylor Swift's 'Patient Zero' suffers major chart setback"
+    },
+    {
+      "url": "https://www.wsbtv.com/news/trending/back-top-ella-langleys-choosin-texas-reclaims-no-1-spot-25th-week/2YAATKPR2NCU7M6QWI7BI32ZMY/",
+      "title": "Back on top: Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 reclaims No. 1 spot for 25th week"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/ella-langley-choosin-texas-rebounds-165856955.html",
+      "title": "Ella Langley\u2019s \u2018Choosin\u2019 Texas\u2019 Rebounds for Record-Extending 25th Week at No. 1 on Hot 100"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/predictions-rest-billboard-hot-100-194219246.html",
+      "title": "What Are Our Predictions for the Rest of the Year on the Billboard Hot 100?"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/hot-100-predictions-2026-halloween-christmas-1236363984/",
+      "title": "What Are Our Predictions for the Rest of the Year on the Billboard Hot 100?"
+    },
+    {
+      "url": "https://x.com/talkofthecharts?lang=en",
+      "title": "Talk of the Charts (@talkofthecharts) on X"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/hot-100-number-one-olivia-rodrigo-tate-mcrae-zach-bryan-1236366335/",
+      "title": "Tate McRae, Olivia Rodrigo & Zach Bryan Songs Fight for Hot 100 No. 1"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/tate-mcrae-olivia-rodrigo-chappell-roan-hot-100-debuts-1236369155/",
+      "title": "Which of the Week's Big Hot 100 Debuts Will Stick Around Longest?"
+    },
+    {
+      "url": "https://x.com/talkofthecharts/status/2113319578684346777",
+      "title": "Talk of the Charts on X: \"Ella Langley\u2019s \u201cChoosin\u2019 Texas\u201d is still projected to return #1 on the Billboard Hot 100 per midweek forecasts, currently on pace to rise in points in its 53rd week on the chart.\" / X"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/tate-mcrae-billboard-hot-100-number-two-olivia-rodrigo-1235645932/",
+      "title": "Tate McRae's 'Housewife' Wins Hot 100 Race"
+    },
+    {
+      "url": "https://ohnotheydidnt.livejournal.com/133059494.html",
+      "title": "Midweek Projections are Heating Up For the Hot 100 Between Ella, Tate, Olivia and Chappell: ohnotheydidnt \u2014 LiveJournal"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/tate-mcrae-beats-taylor-swift-184429164.html",
+      "title": "Tate McRae Beats Taylor Swift, Olivia Rodrigo in Billboard Hot 100 Race for \u2026 Number Two"
+    },
+    {
+      "url": "https://ohnotheydidnt.livejournal.com/133036644.html?view=comments",
+      "title": "Early Billboard Hot 100 Projections Are In For Olivia, Chappell, Tate and Taylor - Oh No They Didn't! \u2014 LiveJournal"
+    }
+  ]
+}

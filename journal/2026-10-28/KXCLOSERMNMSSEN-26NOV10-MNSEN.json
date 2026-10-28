@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "ticker": "KXCLOSERMNMSSEN-26NOV10-MNSEN",
+  "event": "KXCLOSERMNMSSEN-26NOV10",
+  "series": "KXCLOSERMNMSSEN",
+  "title": "Will Minnesota US Senate have the smallest margin of victory in the November 3, 2026 general elections for Minnesota US Senate and Mississippi US Senate?",
+  "rules": "If Minnesota US Senate has the smallest margin of victory among all elections in the November 3, 2026 general elections for Minnesota US Senate and Mississippi US Senate as of Nov 10, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The margin of victory is calculated as the absolute difference in vote share (expressed as percentage) between first and second place finishers, using total votes cast as the denominator. If official results aren't available by the deadline, preliminary results from Source Agencies with at least 95% of expected vote are used. If multiple elections have identical margins and relevant options are listed, each tied option resolves to Yes at $1.00 divided by the number of tied options.",
+  "close_time": "2026-11-10T15:00:00+00:00",
+  "expected_close_time": "2026-11-10T15:00:00+00:00",
+  "forecast_at": "2026-10-28T14:26:14.020148+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.56",
+    "reasoning": "Minnesota polling averages show Flanagan up about 4.5 points over Tafoya, while sparse and mostly Democratic-leaning Mississippi polls show Hyde-Smith up about 7, which favors Minnesota having the smaller margin. However, Mississippi Democrats usually hit a vote-share ceiling, and a Democratic-friendly national environment could widen Flanagan's lead past 6-8 points, so the two margins overlap heavily. Net, Minnesota is a modest favorite to be closer.",
+    "falsifier": "Flanagan wins Minnesota by more than Hyde-Smith wins Mississippi, e.g., Flanagan +9 while Colom holds Hyde-Smith to about +5.",
+    "price_seen": true,
+    "price_sources": [
+      "https://showdownwire.com/races/senate-MS"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.5800",
+    "best_yes_ask": "0.6100",
+    "p_market": "0.5950"
+  },
+  "final": {
+    "p_yes": "0.57",
+    "action": "pass",
+    "reasoning": "The market's 0.595 midpoint is only a few points above my estimate, and with thin Mississippi polling and heavy overlap in the likely margins, that gap is too small to be a reliable edge. I'm nudging slightly toward the market and passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.270towin.com/2026-senate-polls/minnesota",
+      "title": "2026 Polls: Minnesota Senate - 270toWin"
+    },
+    {
+      "url": "https://www.pollsmax.com/senate/minnesota/",
+      "title": "2026 Minnesota Senate Polls"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+      "title": "2026 United States Senate election in Minnesota"
+    },
+    {
+      "url": "https://www.realclearpolling.com/elections/senate/2026/minnesota",
+      "title": "2026 Minnesota Senate"
+    },
+    {
+      "url": "https://www.poliwave.com/us/mn/sen-fed",
+      "title": "Minnesota Senate Polls and Forecast 2026: Flanagan vs Tafoya"
+    },
+    {
+      "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/minnesota",
+      "title": "Minnesota Senate Polls 2026: Flanagan vs Tafoya"
+    },
+    {
+      "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_minnesota_senate",
+      "title": "Election 2026: Minnesota Senate - Rasmussen Reports\u00ae"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/minnesota/tafoya-vs-flanagan",
+      "title": "2026 Minnesota Senate - Tafoya vs. Flanagan"
+    },
+    {
+      "url": "https://onpointpolitics.us/polls/mn/senate",
+      "title": "Minnesota Senate polls 2026: Flanagan vs Tafoya polling average"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/epolls/2026/senate/mn/2026_minnesota_senate_democratic_primary-8680.html",
+      "title": "RealClearPolitics - Election 2026 - 2026 Minnesota Senate - Democratic Primary"
+    },
+    {
+      "url": "https://www.poliwave.com/us/ms/sen-fed",
+      "title": "Mississippi Senate Polls and Forecast 2026: Colom vs Hyde-Smith"
+    },
+    {
+      "url": "https://www.pollsmax.com/senate/mississippi/",
+      "title": "2026 Mississippi Senate Polls"
+    },
+    {
+      "url": "https://magnoliatribune.com/2026/10/16/colom-says-u-s-senate-race-with-hyde-smith-is-tied-but-polling-history-tell-another-story-in-mississippi/",
+      "title": "Colom says U.S. Senate race with Hyde-Smith is \"tied\" but polling, history tell another story in Mississippi - Magnolia Tribune"
+    },
+    {
+      "url": "https://poliagg.com/race/us-senate-2026-ms/",
+      "title": "Mississippi Senate 2026 Polls \u2014 Colom vs Hyde-Smith \u2014 PoliAgg"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/6169566-trump-rally-mississippi-senate-race/",
+      "title": "Mississippi Senate race becomes a test of Trump\u2019s turnout machine"
+    },
+    {
+      "url": "https://www.tpsielections.com/polls/ms/senate",
+      "title": "Mississippi Senate polls 2026: Colom vs Hyde-Smith polling average"
+    },
+    {
+      "url": "https://abcnews.com/Politics/progressive-moderate-showdown-senate-seat-tops-minnesota-primaries/story?id=135438391",
+      "title": "Progressive vs. moderate showdown for Senate seat tops Minnesota primaries - ABC News"
+    },
+    {
+      "url": "https://rollcall.com/2026/08/07/what-to-know-about-the-minnesota-senate-election/",
+      "title": "What to know about the Minnesota Senate election"
+    },
+    {
+      "url": "https://www.newsweek.com/minnesota-senate-race-ice-fraud-ilhan-omar-probe-12621341",
+      "title": "Minnesota Senate Race Shaken by ICE, Fraud and Ilhan Omar Probe\u2014What Polls Show - Newsweek"
+    },
+    {
+      "url": "https://www.mprnews.org/story/2026/08/11/heated-contests-settle-nominations-for-dfl-republican-parties-in-us-senate-race",
+      "title": "Heated contests settle nominations for DFL, Republican parties in U.S. Senate race"
+    },
+    {
+      "url": "https://minnesotareformer.com/2026/07/31/state-of-the-race-for-u-s-senate/",
+      "title": "Commentary: State of the race for U.S. Senate \u2022 Minnesota Reformer"
+    },
+    {
+      "url": "https://www.ms.now/elections/2026-primaries/mn/minnesota-midterms-senate-live-results-flanagan-craig-rvgf",
+      "title": "Minnesota Senate primary results 2026: Flanagan vs. Angie Craig"
+    },
+    {
+      "url": "https://minnesotareformer.com/2026/07/28/in-tight-senate-race-peggy-flanagan-cant-escape-the-f-word/",
+      "title": "In tight Senate race, Peggy Flanagan can't escape the f-word \u2022 Minnesota Reformer"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Peggy_Flanagan",
+      "title": "Peggy Flanagan"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+      "title": "2026 United States Senate election in Mississippi"
+    },
+    {
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
+      "title": "United States Senate election in Mississippi, 2026 - Ballotpedia"
+    },
+    {
+      "url": "https://showdownwire.com/races/senate-MS",
+      "title": "2026 Mississippi Senate Race: Ratings & Odds"
+    },
+    {
+      "url": "https://pollingsource.com/senate/MS",
+      "title": "Mississippi Senate Race 2026"
+    },
+    {
+      "url": "https://www.pollsmax.com/senate/mississippi/forecast/",
+      "title": "2026 Mississippi Senate Forecast"
+    },
+    {
+      "url": "https://www.poliwave.com/us/senate/mississippi",
+      "title": "Mississippi Senate Race 2026: Polls and Forecast"
+    },
+    {
+      "url": "https://www.predictionedge.com/elections/us-senate/mississippi-race-winner-by-party/",
+      "title": "2026 Mississippi Senate Election: Polls & Odds"
+    },
+    {
+      "url": "https://www.newsweek.com/peggy-flanagans-chances-of-losing-to-michele-tafoya-in-minnesota-polls-12432045",
+      "title": "Peggy Flanagan\u2019s Chances of Losing to Michele Tafoya in Minnesota: Polls - Newsweek"
+    },
+    {
+      "url": "https://www.newsweek.com/minnesota-senate-race-deadlocked-with-democrat-and-republican-poll-shows-12417519",
+      "title": "New poll shows Michele Tafoya and Peggy Flanagan deadlocked in Minnesota Senate race - Newsweek"
+    },
+    {
+      "url": "https://www.newsweek.com/minnesota-senate-race-polls-midterms-12306628",
+      "title": "Flanagan\u2019s Chances of Losing to Michele Tafoya in Minnesota Senate Race - Newsweek"
+    },
+    {
+      "url": "https://www.newsweek.com/minnesota-midterm-senate-surprise-republican-win-peggy-flanagan-michele-tafoya-12624629",
+      "title": "Flanagan vs Tafoya: 3 Factors That Could Deliver GOP Surprise Senate Win - Newsweek"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6142948-minnesota-senate-poll-flanagan-tafoya/",
+      "title": "New poll shows Flanagan leading Tafoya in competitive Minnesota Senate race"
+    },
+    {
+      "url": "https://www.newsweek.com/republicans-eye-historic-minnesota-senate-upset-as-democrats-struggle-12573791",
+      "title": "Republicans Eye Historic Minnesota Senate Upset as Democrats Slip - Newsweek"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6121317-flanagan-tafoya-minnseota-senate/",
+      "title": "Peggy Flanagan leads Michele Tafoya by 1 point in tight Minnesota Senate race: Poll"
+    },
+    {
+      "url": "https://magnoliatribune.com/2026/10/20/poll-pushed-by-colom-claiming-senate-race-with-hyde-smith-is-tied-was-fake-fabricated/",
+      "title": "Poll pushed by Colom claiming Senate race with Hyde-Smith is \u201ctied\u201d was fake, fabricated - Magnolia Tribune"
+    },
+    {
+      "url": "https://www.gwcommonwealth.com/poll-pushed-colom-claiming-senate-race-hyde-smith-tied-was-fake-fabricated-6adad71a67333",
+      "title": "Poll pushed by Colom claiming Senate race with Hyde-Smith is \u201ctied\u201d was fake, fabricated"
+    },
+    {
+      "url": "https://www.nrsc.org/press-releases/magnolia-tribune-poll-pushed-by-colom-claiming-senate-race-with-hyde-smith-is-tied-was-fake-fabricated-2026-10-21/",
+      "title": "Magnolia Tribune: Poll pushed by Colom claiming Senate race with Hyde-Smith is \u201ctied\u201d was fake, fabricated"
+    },
+    {
+      "url": "https://magnoliatribune.com/feed/",
+      "title": "Magnolia Tribune"
+    },
+    {
+      "url": "https://docklinemagazine.com/politics-government/trump-campaigns-for-hyde-smith-as-democrats-spend-in-mississippi-a-fake-poll-shows-why-only-the-vote-counts",
+      "title": "Trump Campaigns for Hyde-Smith as Mississippi Senate Race Tightens"
+    },
+    {
+      "url": "https://magnoliatribune.com/2026/10/27/pinkins-urged-to-drop-out-of-mississippis-u-s-senate-race-the-independent-says-he-wont-withdraw/",
+      "title": "Pinkins urged to drop out of Mississippi's U.S. Senate race. The Independent says he won't withdraw - Magnolia Tribune"
+    },
+    {
+      "url": "https://www.clarkecountytrib.com/poll-pushed-colom-claiming-senate-race-hyde-smith-tied-was-fake-fabricated-6adad97e4863c",
+      "title": "Poll pushed by Colom claiming Senate race with Hyde-Smith is \u201ctied\u201d was fake, fabricated"
+    },
+    {
+      "url": "https://www.newtoncountyappeal.com/poll-pushed-colom-claiming-senate-race-hyde-smith-tied-was-fake-fabricated-6adae0023bbad",
+      "title": "Poll pushed by Colom claiming Senate race with Hyde-Smith is \u201ctied\u201d was fake, fabricated"
+    },
+    {
+      "url": "https://www.simpsoncounty.ms/poll-pushed-colom-claiming-senate-race-hyde-smith-tied-was-fake-fabricated-6adad97898e8a",
+      "title": "Poll pushed by Colom claiming Senate race with Hyde-Smith is \u201ctied\u201d was fake, fabricated"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/20/cook-political-report-moves-mississippi-south-carolina-senate-races-toward-democrats/",
+      "title": "Cook Political Report moves Mississippi, South Carolina Senate races toward Democrats - The Washington Post"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
+      "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/cook-political-report-shifts-2-184416590.html",
+      "title": "Cook Political Report shifts 2 Senate races toward Democrats, 1 toward GOP"
+    },
+    {
+      "url": "https://cnn.com/2026/10/28/politics/live-news/midterm-election-congress",
+      "title": "Midterm live updates: What early voting numbers show about the Black vote in the South"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/mississippis-senate-race-gets-close-at-the-exact-wrong-moment-for-republicans_n_6adbcf8de4b027da9ae6abdf",
+      "title": "Mississippi's Senate Race Gets Close At The Exact Wrong Moment For Republicans"
+    },
+    {
+      "url": "https://sg.news.yahoo.com/mississippis-senate-race-gets-close-134939881.html",
+      "title": "Mississippi's Senate Race Gets Close At The Exact Wrong Moment For Republicans - Yahoo News Singapore"
+    },
+    {
+      "url": "https://martinlongman.substack.com/p/the-mississippi-senate-race-was-always",
+      "title": "The Mississippi Senate Race Was Always Going to Be Competitive"
+    },
+    {
+      "url": "https://www.archynewsy.com/cook-political-report-shifts-3-senate-races-in-midterm-update/",
+      "title": "Cook Political Report Shifts 3 Senate Races in Midterm Update - Archynewsy"
+    },
+    {
+      "url": "https://cryptobriefing.com/cook-political-report-shifts-sc-ms-senate-races-to-more-competitive-categories/",
+      "title": "Cook Political Report shifts SC, MS Senate races to more competitive categories"
+    }
+  ]
+}

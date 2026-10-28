@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "ticker": "KXMOVKSNESEN-26NOV03-KSSEN",
+  "event": "KXMOVKSNESEN-26NOV03",
+  "series": "KXMOVKSNESEN",
+  "title": "Will Kansas US Senate have the largest margin of victory in the November 3, 2026 general elections for Kansas US Senate and Nebraska US Senate?",
+  "rules": "If Kansas US Senate achieves the largest margin of victory among all elections in the November 3, 2026 general elections for Kansas US Senate and Nebraska US Senate as of Nov 10, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The margin of victory is calculated as the absolute difference in vote share (expressed as percentage) between first and second place finishers, using total votes cast as the denominator. If official results aren't available by the deadline, preliminary results from Source Agencies with at least 95% of expected vote are used. If multiple elections have identical margins and relevant options are listed, each tied option resolves to Yes at $1.00 divided by the number of tied options.",
+  "close_time": "2026-11-10T15:00:00+00:00",
+  "expected_close_time": "2026-11-10T15:00:00+00:00",
+  "forecast_at": "2026-10-28T14:26:14.020148+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.45",
+    "reasoning": "Polls show both the Kansas (Marshall vs. Hamilton) and Nebraska (Ricketts vs. Osborn) Senate races as roughly tied a week out, so it's close to a coin flip which margin ends up wider. Republicans have beaten their polls in both states before, and independent-vs-Republican races like Nebraska's have historically broken wider than polled (Osborn 2024, Orman 2014). Raters also seem to view Kansas as the closer race, which tilts slightly toward Nebraska having the larger margin and this resolving NO.",
+    "falsifier": "Marshall winning Kansas by a clearly larger margin than the Nebraska race, e.g. Marshall +8 while Ricketts vs. Osborn is decided by under 5 points.",
+    "price_seen": true,
+    "price_sources": [
+      "https://predictionmarketspicks.com/midterms-2026/nebraska-senate",
+      "https://www.lines.com/prediction-markets/politics/midterms/osborn-flips-ricketts-for-nebraska-senate-by-november-2",
+      "https://www.latintimes.com/kansas-senate-race-marshall-hamilton-toss-600617"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [
+    "Odds: Ricketts 73%"
+  ],
+  "market": {
+    "best_yes_bid": "0.2600",
+    "best_yes_ask": "0.3300",
+    "p_market": "0.2950"
+  },
+  "final": {
+    "p_yes": "0.38",
+    "action": "buy_yes",
+    "reasoning": "The market at ~0.30 suggests Nebraska's independent-vs-Republican race is expected to break wider, which partly matches my reasoning, so I lowered my estimate from 0.45 to 0.38. With both races polling near-tied and Kansas also showing Republican-favoring polling misses in past cycles, I still see YES as somewhat underpriced versus the 0.33 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.3200",
+    "count": 1,
+    "cost": "0.3200",
+    "clamped_from": "0.33"
+  },
+  "sources": [
+    {
+      "url": "https://www.pollsmax.com/senate/nebraska/",
+      "title": "2026 Nebraska Senate Polls"
+    },
+    {
+      "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/nebraska",
+      "title": "Nebraska Senate Polls 2026: Ricketts vs Osborn"
+    },
+    {
+      "url": "https://www.poliwave.com/us/ne/sen-fed",
+      "title": "Nebraska Senate Polls and Forecast 2026: Osborn vs Ricketts"
+    },
+    {
+      "url": "https://chadronradio.com/new-poll-dan-osborn-is-tied-with-pete-ricketts-in-critical-nebraska-senate-race-2/",
+      "title": "NEW POLL: Dan Osborn Is Tied With Pete Ricketts in Critical Nebraska Senate Race"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/06/osborn-edges-ricketts-in-nebraska-senate-race/",
+      "title": "Osborn Edges Ricketts in Nebraska Senate Race"
+    },
+    {
+      "url": "https://politicalwire.com/2026/10/12/ricketts-leads-osborn-in-nebraska-senate-race/",
+      "title": "Ricketts Leads Osborn in Nebraska Senate Race"
+    },
+    {
+      "url": "https://x.com/PollTracker2024/status/2115108674867736806",
+      "title": "Politics & Poll Tracker \ud83d\udce1 on X: \"Echelon Insights poll"
+    },
+    {
+      "url": "https://www.newsweek.com/republicans-chances-of-losing-to-dan-osborn-in-nebraska-senate-race-12370545",
+      "title": "Republican\u2019s Chances of Losing to Dan Osborn in Nebraska Senate Race - Newsweek"
+    },
+    {
+      "url": "https://yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html",
+      "title": "The 2026 midterms are just 7 days away. Which party has a better chance of winning? Here's what the latest polls say."
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/kansas/marshall-vs-hamilton",
+      "title": "2026 Kansas Senate - Marshall vs. Hamilton"
+    },
+    {
+      "url": "https://www.poliwave.com/us/ks/sen-fed",
+      "title": "Kansas Senate Polls and Forecast 2026: Hamilton vs Marshall"
+    },
+    {
+      "url": "https://onpointpolitics.us/forecast/ks/senate",
+      "title": "Kansas Senate forecast 2026: Adam Hamilton vs Roger Marshall"
+    },
+    {
+      "url": "https://fiftyplusone.news/polls/senate/general/kansas",
+      "title": "FiftyPlusOne - Kansas General Senate Election Polls and Average for the 2026 General Election"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6096719-hamilton-leads-marshall-kansas-senate-poll/",
+      "title": "Democrat Adam Hamilton holds narrow lead over Roger Marshall in Kansas Senate race: Poll"
+    },
+    {
+      "url": "https://www.latintimes.com/kansas-senate-race-marshall-hamilton-toss-600617",
+      "title": "Kansas Senate race shocks forecasters as Democrat Adam Hamilton challenges Republican Roger Marshall in a dead heat"
+    },
+    {
+      "url": "https://www.ksn.com/news/your-local-election-hq/what-polls-say-about-kansas-senate-race-before-marshall-vs-hamilton-debate/",
+      "title": "What polls say about Kansas Senate race before Marshall vs. Hamilton debate"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+      "title": "2026 United States Senate election in Kansas"
+    },
+    {
+      "url": "https://www.cookpolitical.com/senate/race/488581",
+      "title": "KS Senate 2026"
+    },
+    {
+      "url": "https://www.kcur.org/politics-elections-and-government/2026-10-16/marshall-hamilton-everyday-issues",
+      "title": "In Kansas U.S. Senate race, where do Marshall and Hamilton stand on the issues?"
+    },
+    {
+      "url": "https://johnsoncountypost.com/2026/10/23/kansas-u-s-senate-election-meet-the-candidates-299959/",
+      "title": "Meet the candidates running for Kansas U.S. Senate"
+    },
+    {
+      "url": "https://johnsoncountypost.com/2026/10/26/kansas-u-s-senate-election-primer-299980/",
+      "title": "Your Kansas United States Senate seat election primer"
+    },
+    {
+      "url": "https://time.com/article/2026/10/07/why-kansas-has-emerged-as-a-new-battleground-state-and-why-it-matters/",
+      "title": "Kansas Has Emerged as a Senate Battleground State. Here\u2019s Why It Matters"
+    },
+    {
+      "url": "https://www.pollsmax.com/senate/nebraska/forecast/",
+      "title": "2026 Nebraska Senate Forecast"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/midterms-2026/nebraska-senate",
+      "title": "Nebraska Senate Odds: Ricketts 73% vs Osborn \u2014 Kalshi Live"
+    },
+    {
+      "url": "https://midtermresultslive.com/race/nebraska-senate/",
+      "title": "Osborn vs Ricketts Polls: Nebraska Senate Race 2026"
+    },
+    {
+      "url": "https://www.lines.com/prediction-markets/politics/midterms/osborn-flips-ricketts-for-nebraska-senate-by-november-2",
+      "title": "Osborn Flips Ricketts for Nebraska Senate by November 2?"
+    },
+    {
+      "url": "https://www.newsweek.com/pete-ricketts-nebraska-state-trump-won-12567170",
+      "title": "Pete Ricketts at Risk in Nebraska, State Trump Won by 20 Points - Newsweek"
+    },
+    {
+      "url": "https://fiftyplusone.news/polls/senate/general/nebraska",
+      "title": "FiftyPlusOne - Nebraska General Senate Election Polls and Average for the 2026 General Election"
+    },
+    {
+      "url": "https://www.pollsmax.com/senate/kansas/",
+      "title": "2026 Kansas Senate Polls"
+    },
+    {
+      "url": "https://poliagg.com/race/us-senate-2026-ks/",
+      "title": "Kansas Senate 2026 Polls \u2014 Hamilton vs Marshall \u2014 PoliAgg"
+    },
+    {
+      "url": "https://onpointpolitics.us/polls/ks/senate",
+      "title": "Kansas Senate polls 2026: Hamilton vs Marshall polling average"
+    },
+    {
+      "url": "https://emersoncollegepolling.com/kansas-2026/",
+      "title": "Kansas 2026: Hamilton and Marshall in Tight Senate Race; Masterson Leads for Governor\u00a0 - Emerson Polling"
+    },
+    {
+      "url": "https://www.tpsielections.com/polls/ks/senate",
+      "title": "Kansas Senate polls 2026: Hamilton vs Marshall polling average"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/06/kansas-election-senate-marshall-hamilton.html",
+      "title": "Why deep-red Kansas has become an unexpected Senate battleground"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
+      "title": "2026 United States Senate election in Nebraska"
+    },
+    {
+      "url": "https://www.cookpolitical.com/senate/race/488631",
+      "title": "NE Senate 2026"
+    },
+    {
+      "url": "https://www.demlist.com/demdaily-senate-landscape-polling-and-ratings-update/",
+      "title": "DemDaily: Senate Landscape: Polling and Ratings Update! - DemList"
+    },
+    {
+      "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+      "title": "2026 CPR Senate Race ratings"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/governor-races-shift-toward-democrats-040116102.html",
+      "title": "Governor races shift toward Democrats in states Trump won by double digits"
+    },
+    {
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+      "title": "United States Senate election in Nebraska, 2026 - Ballotpedia"
+    },
+    {
+      "url": "https://uspollingdata.com/senate-2026/",
+      "title": "2026 US Senate Elections \u2014 Key Races, Polls & Forecasts"
+    },
+    {
+      "url": "https://thehill.com/homenews/senate/6099197-energy-prices-threaten-gop-majority/",
+      "title": "Senate GOP sees battleground map widen amid voter anger over economy"
+    },
+    {
+      "url": "https://uspollingdata.com/news/cook-political-report-2026/",
+      "title": "Cook Political Report 2026: 18 House Toss-ups, 4 Senate Toss-ups"
+    },
+    {
+      "url": "https://www.theepochtimes.com/us/democrats-possibly-on-track-to-gain-up-to-4-governorships-next-week-forecaster-says-6109441",
+      "title": "Democrats Possibly on Track to Gain up to 4 Governorships Next Week, Forecaster Says"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "ticker": "KXRT-ONL-92",
+  "event": "KXRT-ONL",
+  "series": "KXRT",
+  "title": "The Only Living Pickpocket in New York Rotten Tomatoes score? Above 92",
+  "rules": "If The Only Living Pickpocket in New York has a Tomatometer score of above 92 on Nov 2, 2026 at 10:00 AM ET, then the market resolves to Yes.",
+  "rules_secondary": "The \"Fresh!\" and \"Certified Fresh!\" subtitles are meant for illustrative purposes only. The Tomatometer score must be above the strike value to resolve as YES (for example, a score of 75 would resolve \"Above 75\" as No.) The market will be determined the Monday after wide release at 10:00 AM ET.\n\nThis market and these products have not been endorsed by Rotten Tomatoes. Any references to Rotten Tomatoes or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Rotten Tomatoes and Kalshi.",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-28T14:26:14.020148+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.85",
+    "reasoning": "The film sits at 96% on 77 Rotten Tomatoes reviews (about 3 negative), with resolution on Nov 2, just after a modest Sony Pictures Classics nationwide expansion. To fall to 92% or below it would need roughly 5 or more negative reviews among perhaps 15-30 new ones. Recent reviews are a bit more mixed, but that would mean about a quarter of new reviews coming in negative. A small downward drift is likely, but probably not enough to break 93.",
+    "falsifier": "A wave of negative regional reviews during the wide-release weekend, pushing the count to about 8 or more negative reviews out of about 100 and the Tomatometer to 92% or lower by Nov 2.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8700",
+    "best_yes_ask": "0.9100",
+    "p_market": "0.8900"
+  },
+  "final": {
+    "p_yes": "0.87",
+    "action": "pass",
+    "reasoning": "The market's 0.89 midpoint sits slightly above my estimate, but the cushion at 96% on 77 reviews is real, and the edge on a NO bet at the 0.87 bid is too small given uncertainty about how many and how negative the new reviews will be. I nudged my estimate up slightly and am passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.rottentomatoes.com/m/the_only_living_pickpocket_in_new_york",
+      "title": "The Only Living Pickpocket in New York"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Only_Living_Pickpocket_in_New_York",
+      "title": "The Only Living Pickpocket in New York"
+    },
+    {
+      "url": "https://www.amctheatres.com/movies/the-only-living-pickpocket-in-new-york-84370",
+      "title": "The Only Living Pickpocket In New York movie showtimes at an AMC Theatre near you."
+    },
+    {
+      "url": "https://x.com/malcotheatres/status/2115262524832776368",
+      "title": "Malco Theatres on X: \"Audiences love it. Critics approve. \ud83c\udf45\ud83d\udcaf THE ONLY LIVING PICKPOCKET IN NEW YORK is CERTIFIED FRESH 97% on Rotten Tomatoes! See what everyone's talking about... starts Friday! Get tickets: https://t.co/EEuM3jCfYI\" / X"
+    },
+    {
+      "url": "https://www.aceshowbiz.com/news/view/00262697.html",
+      "title": "The Only Living Pickpocket in New York Earns 98% Critics Score and Certified Fresh Status"
+    },
+    {
+      "url": "https://tv.apple.com/us/movie/the-only-living-pickpocket-in-new-york/umc.cmc.4ngp77rt2jgz90cghwozuvpgi",
+      "title": "The Only Living Pickpocket in New York - Apple TV"
+    },
+    {
+      "url": "https://deadline.com/2026/10/indie-films-opening-only-living-pickpocket-in-new-york-wicker-1237171300/",
+      "title": "Indie Films Opening Oct. 23: New Awards Season Contenders Arrive"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/browse/movies_in_theaters/genres:crime~sort:audience_highest",
+      "title": "Crime Movies Out Now in Theaters (2026)"
+    },
+    {
+      "url": "https://www.metacritic.com/movie/the-only-living-pickpocket-in-new-york/",
+      "title": "The Only Living Pickpocket in New York Reviews - Metacritic"
+    },
+    {
+      "url": "https://www.indiewire.com/criticism/movies/the-only-living-pickpocket-in-new-york-review-john-turturro-1235176157/",
+      "title": "'The Only Living Pickpocket in New York' Review: John Turturro Movie"
+    },
+    {
+      "url": "https://www.boxofficemojo.com/title/tt36482679/",
+      "title": "The Only Living Pickpocket in New York - Box Office Mojo"
+    },
+    {
+      "url": "https://www.the-numbers.com/movie/Only-Living-Pickpocket-in-New-York-The-(2026)",
+      "title": "The Only Living Pickpocket in New York (2026) - Box Office and Financial Information"
+    },
+    {
+      "url": "https://edwarddouglas.substack.com/p/how-to-be-a-nyc-pickpocket-with-john",
+      "title": "How to Be a NYC Pickpocket with John Turturro - The Weekend Warrior Show Interview"
+    },
+    {
+      "url": "https://midwestfilmjournal.com/2026/10/27/the-only-living-pickpocket-in-new-york/",
+      "title": "The Only Living Pickpocket in New York - Midwest Film Journal"
+    },
+    {
+      "url": "https://fberluteau.com/article/the-only-living-pickpocket-in-new-york-behind-the-scenes-with-noah-segan",
+      "title": "The Only Living Pickpocket in New York: Behind the Scenes with Noah Segan (2026)"
+    },
+    {
+      "url": "https://deadline.com/v/box-office/",
+      "title": "Box Office"
+    },
+    {
+      "url": "https://www.indiewire.com/news/trailers/the-only-living-pickpocket-in-new-york-trailer-1235209214/",
+      "title": "'The Only Living Pickpocket in New York' Trailer: John Turturro Steals"
+    }
+  ]
+}
