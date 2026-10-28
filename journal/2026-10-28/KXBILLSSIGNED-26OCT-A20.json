@@ -242,5 +242,21 @@
       "url": "https://billsincongress.com/bills/enacted",
       "title": "Bills That Became Law \u2014 Enacted Legislation in Congress"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "0d0c222d930b30f8ad75063f4650fc842326ef52",
+    "pushed_at": "2026-10-28T18:36:00Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXBILLSSIGNED-26OCT-A20-0d0c222d930b",
+    "thesis_commit": "0d0c222d930b30f8ad75063f4650fc842326ef52",
+    "status": "resting",
+    "order_id": "01a183cc-3a50-7f0c-84b1-53063bd486aa",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

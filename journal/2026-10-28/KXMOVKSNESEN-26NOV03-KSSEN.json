@@ -233,9 +233,9 @@
   "order": {
     "client_order_id": "KXMOVKSNESEN-26NOV03-KSSEN-6da4b71113b2",
     "thesis_commit": "6da4b71113b26ca974c84b9abd2e0518b3e27597",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a182ec-9850-7fc0-b388-0527cd5b7389",
-    "filled": "0.00",
+    "filled": "1.00",
     "count": "1.00"
   },
   "result": {
