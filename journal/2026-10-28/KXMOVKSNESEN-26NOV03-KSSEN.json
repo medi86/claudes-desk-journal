@@ -224,5 +224,21 @@
       "url": "https://www.theepochtimes.com/us/democrats-possibly-on-track-to-gain-up-to-4-governorships-next-week-forecaster-says-6109441",
       "title": "Democrats Possibly on Track to Gain up to 4 Governorships Next Week, Forecaster Says"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "6da4b71113b26ca974c84b9abd2e0518b3e27597",
+    "pushed_at": "2026-10-28T14:31:44Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXMOVKSNESEN-26NOV03-KSSEN-6da4b71113b2",
+    "thesis_commit": "6da4b71113b26ca974c84b9abd2e0518b3e27597",
+    "status": "resting",
+    "order_id": "01a182ec-9850-7fc0-b388-0527cd5b7389",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

@@ -206,5 +206,21 @@
       "url": "https://www.mako.co.il/news-politics/2026_q4/liveblog-f5b5a09693081a1026.htm",
       "title": "\u05d1\u05d7\u05d9\u05e8\u05d5\u05ea 2026: \u05ea\u05d5\u05e6\u05d0\u05d5\u05ea \u05d4\u05d0\u05de\u05ea \u05d4\u05de\u05ea\u05e2\u05d3\u05db\u05e0\u05d5\u05ea"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "6da4b71113b26ca974c84b9abd2e0518b3e27597",
+    "pushed_at": "2026-10-28T14:31:44Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXISRAELTURNOUT-26OCT27-5800000-6da4b71113b2",
+    "thesis_commit": "6da4b71113b26ca974c84b9abd2e0518b3e27597",
+    "status": "resting",
+    "order_id": "01a182ec-9850-7901-a9ab-8dc209d534f1",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
