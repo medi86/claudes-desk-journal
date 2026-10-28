@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "ticker": "KXCLOSERMINHSEN-26NOV10-NHSEN",
+  "event": "KXCLOSERMINHSEN-26NOV10",
+  "series": "KXCLOSERMINHSEN",
+  "title": "Will New Hampshire US Senate have the smallest margin of victory in the November 3, 2026 general elections for Michigan US Senate and New Hampshire US Senate?",
+  "rules": "If New Hampshire US Senate has the smallest margin of victory among all elections in the November 3, 2026 general elections for Michigan US Senate and New Hampshire US Senate as of Nov 10, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The margin of victory is calculated as the absolute difference in vote share (expressed as percentage) between first and second place finishers, using total votes cast as the denominator. If official results aren't available by the deadline, preliminary results from Source Agencies with at least 95% of expected vote are used. If multiple elections have identical margins and relevant options are listed, each tied option resolves to Yes at $1.00 divided by the number of tied options.",
+  "close_time": "2026-11-10T15:00:00+00:00",
+  "expected_close_time": "2026-11-10T15:00:00+00:00",
+  "forecast_at": "2026-10-28T18:31:51.449306+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.25",
+    "reasoning": "Polling averages show Michigan's Senate race at roughly El-Sayed +2.5 to +4.8, while New Hampshire shows Pappas around +7. For New Hampshire to have the smaller margin, its result would need to come in about 4 points tighter than Michigan's, relative to the polls. Simulations with typical, partly correlated Senate polling errors give about a 20-30% chance of that.",
+    "falsifier": "New Hampshire finishing within about 3 points (for example, Sununu closing late or winning narrowly) while Michigan breaks open to a margin of 5 points or more for either candidate.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.realclearpolling.com/elections/senate/2026/michigan"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2000",
+    "best_yes_ask": "0.2400",
+    "p_market": "0.2200"
+  },
+  "final": {
+    "p_yes": "0.25",
+    "action": "pass",
+    "reasoning": "The market's 0.22 midpoint is close to my independent estimate of about 25%. Buying YES at the 0.24 ask leaves roughly a one-point edge, which is smaller than the spread of my simulations, so it isn't worth betting."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://thehill.com/homenews/campaign/6132186-pappas-leads-nh-senate-poll/",
+      "title": "Chris Pappas leads John E. Sununu by 7 points in new New Hampshire Senate poll"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/new-hampshire/pappas-vs-sununu",
+      "title": "2026 New Hampshire Senate - Sununu vs. Pappas"
+    },
+    {
+      "url": "https://onpointpolitics.us/polls/nh/senate",
+      "title": "New Hampshire Senate polls 2026: Pappas vs Sununu polling average"
+    },
+    {
+      "url": "https://wgme.com/news/local/democrat-chris-pappas-appears-to-hold-narrow-lead-over-gop-republican-john-sununu-in-new-hampshire-senate-race",
+      "title": "Dem. Chris Pappas appears to hold narrow lead over GOP's John Sununu in NH Senate race"
+    },
+    {
+      "url": "https://www.newsweek.com/gops-sununu-surges-in-bid-to-flip-democrats-new-hampshire-senate-seat-12526638",
+      "title": "GOP\u2019s Sununu Surges in Bid to Flip Democrat\u2019s New Hampshire Senate Seat - Newsweek"
+    },
+    {
+      "url": "https://time.com/article/2026/10/05/new-hampshire-blue-wave-republicans-sununu-pappas/",
+      "title": "Why Republicans Still Think They Can Flip New Hampshire's Senate Seat"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/pappas-holds-lead-hampshire-senate-021224885.html",
+      "title": "Pappas holds lead in New Hampshire senate race as candidates make final push before Election Day"
+    },
+    {
+      "url": "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/",
+      "title": "Democratic candidate El-Sayed leads Michigan U.S. Senate race, new poll finds"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/el-sayed-leads-rogers-final-142934157.html",
+      "title": "El-Sayed leads Rogers in final days of Michigan Senate race, poll shows"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6006366-michigan-senate-poll-rogers-stevens/",
+      "title": "Rogers beats El-Sayed, loses to Stevens in Michigan Senate poll"
+    },
+    {
+      "url": "https://www.detroitnews.com/story/news/politics/2026/05/12/michigan-senate-poll-mike-rogers-haley-stevens-mallory-mcmorrow-abdul-el-sayed/90042485007/",
+      "title": "Mike Rogers in dead heat with Stevens, McMorrow in Michigan Senate poll"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/whos-winning-senate-race-michigan-161057754.html",
+      "title": "Who's winning the Senate race in Michigan? What October polling shows"
+    },
+    {
+      "url": "https://www.cbsnews.com/detroit/news/michigan-voter-poll-abdul-el-sayed-mike-rogers/",
+      "title": "El-Sayed leads Rogers in Michigan Senate poll, but history says don't call it yet - CBS Detroit"
+    },
+    {
+      "url": "https://realclearpolitics.com/articles/2026/10/27/in_michigan_immigration_is_on_the_ballot_154621.html",
+      "title": "In Michigan, Immigration Is on the Ballot"
+    },
+    {
+      "url": "https://uspollingdata.com/senate-2026/",
+      "title": "2026 US Senate Elections \u2014 Key Races, Polls & Forecasts"
+    },
+    {
+      "url": "https://www.270towin.com/2026-senate-election-predictions/",
+      "title": "2026 Senate Election Forecast Maps - 270toWin"
+    },
+    {
+      "url": "https://www.poliwave.com/us/senate",
+      "title": "2026 Senate Forecast: Every Race, Polls and Map"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/2026-senate-polls/",
+      "title": "2026 Senate Polls: Latest Averages and Battleground Races - Election Central"
+    },
+    {
+      "url": "https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch",
+      "title": "2026 Senate ratings: MS NOW\u2019s races to watch"
+    },
+    {
+      "url": "https://www.realclearpolling.com/latest-polls/senate",
+      "title": "Senate Election Polls 2026"
+    },
+    {
+      "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
+      "title": "2026 Senate Election Predictions: Forecast & Odds"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+      "title": "2026 United States Senate election in Michigan"
+    },
+    {
+      "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+      "title": "2026 Rating Changes - Sabato's Crystal Ball"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed",
+      "title": "2026 Michigan Senate - Rogers vs. El-Sayed"
+    },
+    {
+      "url": "https://www.pollsmax.com/senate/michigan/",
+      "title": "2026 Michigan Senate Polls"
+    },
+    {
+      "url": "https://www.270towin.com/2026-senate-polls/michigan",
+      "title": "2026 Polls: Michigan Senate - 270toWin"
+    },
+    {
+      "url": "https://onpointpolitics.us/polls/mi/senate",
+      "title": "Michigan Senate polls 2026: El-Sayed vs Rogers polling average"
+    },
+    {
+      "url": "https://www.poliwave.com/us/mi/sen-fed",
+      "title": "Michigan Senate Polls and Forecast 2026: El-Sayed vs Rogers"
+    },
+    {
+      "url": "https://fiftyplusone.news/polls/senate/general/michigan",
+      "title": "FiftyPlusOne - Michigan General Senate Election Polls and Average for the 2026 General Election"
+    },
+    {
+      "url": "https://www.latintimes.com/el-sayed-rogers-michigan-senate-race-600589",
+      "title": "Michigan Senate Race: El-Sayed Holds Narrow Lead as Trump Rallies for Rogers"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/epolls/2026/senate/mi/2026_michigan_senate_rogers_vs_elsayed-8802.html",
+      "title": "RealClearPolitics - Election 2026 - 2026 Michigan Senate - Rogers vs. El-Sayed"
+    },
+    {
+      "url": "https://www.realclearpolling.com/elections/senate/2026/michigan",
+      "title": "2026 Michigan Senate"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/articles/2026/10/27/in_michigan_immigration_is_on_the_ballot_154621.html",
+      "title": "In Michigan, Immigration Is on the Ballot"
+    },
+    {
+      "url": "https://www.realclearpolitics.com/articles/2026/10/22/in_michigan_bitter_final_debate_over_trust_and_trump_154605.html",
+      "title": "In Michigan, Bitter Final Debate Over Trust and Trump"
+    },
+    {
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/michigan/multi-candidate",
+      "title": "2026 Michigan Senate - Multi-Candidate"
+    }
+  ]
+}

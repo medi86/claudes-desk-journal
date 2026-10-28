@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT28-DEPO",
+  "event": "KXTRUMPMENTION-26OCT28",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during midterm rally in Chillicothe, Ohio originally scheduled for October 28, 2026? Deport / Deported / Deportation",
+  "rules": "If \n Donald Trump says Deport / Deported / Deportation as part of midterm rally in Chillicothe, Ohio originally scheduled for October 28, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the midterm rally in Chillicothe, Ohio originally scheduled for October 28, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the midterm rally in Chillicothe, Ohio originally scheduled for October 28, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-11T15:00:00+00:00",
+  "expected_close_time": "2026-11-11T15:00:00+00:00",
+  "forecast_at": "2026-10-28T18:31:51.449306+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.72",
+    "reasoning": "Reports from the morning of October 28 confirm the Chillicothe midterm rally was scheduled for that evening, so the event very likely took place. Trump's long rally speeches almost always cover immigration, and in his second term he routinely talks about deporting criminals, so at least one qualifying word ('deport', 'deported', 'deportation(s)') is more likely than not. Lowering the odds: the speech may focus on the local economy and candidates, he may say 'removed' or 'deporting' instead (neither counts), and there is a small chance of cancellation.",
+    "falsifier": "A full transcript or video of the Chillicothe rally showing Trump never said 'deport', 'deported', or 'deportation(s)', for example if he covered immigration only with words like 'removed' or 'deporting', or if the rally was cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2800",
+    "best_yes_ask": "0.3000",
+    "p_market": "0.2900"
+  },
+  "final": {
+    "p_yes": "0.37",
+    "action": "pass",
+    "reasoning": "The market at 0.29 likely reflects better data on how often Trump has used these exact words in recent rallies, so I moved most of the way from 0.72 toward it. The remaining edge is small and rests on my weaker prior, so I'm passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.nbc4i.com/news/your-local-election-hq/trump-visits-ohio-chillicothe-highlights-economic-struggles-in-historically-red-city/",
+      "title": "Trump visits Ohio: Chillicothe highlights economic struggles in historically red city"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/10/27/trump-3rd-visit-chillicothe-ohio",
+      "title": "Trump returns for 3rd Ohio visit as Republicans fight to hold a once-safe state"
+    },
+    {
+      "url": "https://time.news/trump-schedules-chillicothe-rally-ahead-of-midterm-elections/",
+      "title": "Trump Schedules Chillicothe Rally Ahead of Midterm Elections - Time News"
+    },
+    {
+      "url": "https://sciotovalleyguardian.com/2026/10/28/trump-brings-midterm-push-to-chillicothe-as-campaign-enters-final-week/",
+      "title": "Trump brings midterm push to Chillicothe as campaign enters final week"
+    },
+    {
+      "url": "https://www.whio.com/news/local/president-trump-make-3rd-ohio-visit-ahead-midterms-today/36CS53Q37BFJPHW6PRGSYNTJRM/",
+      "title": "President Trump to hold rally in Chillicothe before elections - WHIO TV 7 and WHIO Radio"
+    },
+    {
+      "url": "https://www.10tv.com/article/news/local/president-trump-visits-chillicothe-to-campaign-for-ohio-republican-candidates-ahead-of-midterm-election-jon-husted/530-11e2148a-2480-440b-8171-c9afc17e0718",
+      "title": "President Trump visits Chillicothe to campaign for Ohio Republican candidates ahead of midterm election"
+    },
+    {
+      "url": "https://world-today-journal.com/trump-returns-to-ohio-for-campaign-rally-in-chillicothe/",
+      "title": "Trump Returns to Ohio for Campaign Rally in Chillicothe - World Today Journal"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-donald-trump-appear-chillicothe-193046675.html",
+      "title": "President Donald Trump to appear at Chillicothe election rally"
+    },
+    {
+      "url": "https://www.nbc4i.com/news/local-news/chillicothe/president-donald-trump-to-appear-at-chillicothe-election-rally/",
+      "title": "President Donald Trump to appear at Chillicothe election rally"
+    },
+    {
+      "url": "https://abc6onyourside.com/news/local/president-trump-to-speak-at-chillicothe-midterm-rally-october-28-vivek-ramaswamy-jon-husted",
+      "title": "President Trump to speak at Chillicothe midterm rally October 28"
+    },
+    {
+      "url": "https://www.nbc4i.com/news/your-local-election-hq/which-roads-will-be-closed-in-chillicothe-for-president-trumps-visit/",
+      "title": "Trump visits Ohio: Which roads will be closed in Chillicothe"
+    },
+    {
+      "url": "https://thehill.com/homenews/state-watch/6176665-live-updates-trump-obama-midterm-elections-fed-interest-rate/",
+      "title": "Live updates: Trump, Obama campaign in midterm sprint; Murkowski backs Dem in Alaska governor\u2019s race"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-trump-visits-chillicothe-campaign-130549894.html",
+      "title": "President Trump visits Chillicothe to campaign for Ohio Republican candidates ahead of midterm election"
+    },
+    {
+      "url": "https://www.thetelegramnews.com/articles/president-trump-to-make-campaign-speech-in-chillicothe-next-wednesday/",
+      "title": "President Trump to make campaign speech in Chillicothe next Wednesday - The Telegram News"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-visits-ohio-roads-closed-123000996.html",
+      "title": "Trump visits Ohio: Which roads will be closed in Chillicothe"
+    },
+    {
+      "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/27/trump-3rd-visit-chillicothe-ohio",
+      "title": "Trump returns for 3rd Ohio visit as Republicans fight to hold a once-safe state"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6163687-trump-campaigns-ohio-midterms/",
+      "title": "Donald Trump will campaign in Ohio for third time to bolster GOP candidates"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-visits-ohio-chillicothe-highlights-093000678.html",
+      "title": "Trump visits Ohio: Chillicothe highlights economic struggles in historically red city"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-chillicothe-ohio-with-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Chillicothe, Ohio featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://hoodline.com/2026/10/trump-heads-to-chillicothe-for-third-ohio-rally-before-nov-3-vote/",
+      "title": "Trump Rally in Chillicothe, Ohio Set for October 28"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42807",
+      "title": "Donald J. Trump: \"https://events.gop.com/events/midterm-rally-in-chillicothe-ohio-with-preside... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SqJrfuz4Ak0",
+      "title": "President Trump to hold third Ohio rally this month amid tense Senate race - YouTube"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-ohio-midterms-october-28",
+      "title": "Alaska Senate spoiler scheme under scrutiny; Trump in Ohio for final-week push"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/donald-trump-rally-schedule/",
+      "title": "Trump Rally Schedule: Upcoming Events and Speeches (2026)"
+    },
+    {
+      "url": "https://thehill.com/homenews/state-watch/6176665-live-updates-trump-obama-midterm-elections-fed-interest-rate",
+      "title": "Live updates: Trump, Obama campaign in midterm sprint; Murkowski backs Dem in Alaska governor\u2019s race"
+    }
+  ]
+}
