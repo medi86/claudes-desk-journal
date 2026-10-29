@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPPHOTO-26NOV01-6",
+  "event": "KXTRUMPPHOTO-26NOV01",
+  "series": "KXTRUMPPHOTO",
+  "title": "Will the number of distinct days with a Getty Images editorial photo of Trump be exactly 6 between Oct 26, 2026 and Nov 1, 2026?",
+  "rules": "If the number of distinct days Donald Trump is photographed in a tagged editorial photo on Getty Images between Oct 26, 2026 and Nov 1, 2026 is exactly 6, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nIf a tagged photo does not actually depict Donald Trump, or is materially mis-tagged (for example, with the wrong date), Kalshi reserves the right to disregard that photo when resolving the market.\nConversely, if a photo is correctly tagged as depicting Donald Trump but its metadata date does not reflect the actual date the photo was taken (in local time), Kalshi reserves the right to include that photo based on the actual date.\n\nPast examples with no qualifying photos: April 4, 2026",
+  "close_time": "2026-11-02T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-29T19:56:24.791167+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.1",
+    "reasoning": "Trump has a public rally scheduled or already held on every day from Oct 26 to Nov 1 (MS, TX, OH, SC, FL, KS, IA) ahead of the Nov 3 midterms, and Getty reliably covers these. The most likely count is therefore 7. Exactly 6 needs one cancelled appearance or one day with no Getty-tagged photo, which is fairly unlikely.",
+    "falsifier": "One of the Oct 30 Daytona, Oct 31 Salina, or Nov 1 Dubuque rallies is cancelled and Trump has no other photographed appearance that day, or Getty has no tagged photo of Trump for one of the earlier days.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1700",
+    "best_yes_ask": "0.1800",
+    "p_market": "0.1750"
+  },
+  "final": {
+    "p_yes": "0.12",
+    "action": "buy_no",
+    "reasoning": "The market at 17.5% moved me up slightly from 10%, but all seven days have scheduled or completed rallies that Getty normally covers. Seven days looks most likely, and exactly six needs a cancellation or a coverage gap."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1800",
+    "count": 1,
+    "cost": "0.8200",
+    "clamped_from": "0.17"
+  },
+  "sources": [
+    {
+      "url": "https://www.uspresidentialelectionnews.com/donald-trump-rally-schedule/",
+      "title": "Trump Rally Schedule: Upcoming Events and Speeches (2026)"
+    },
+    {
+      "url": "https://www.wbtv.com/2026/10/29/trump-holding-another-midterm-rally-south-carolina/",
+      "title": "Trump holding another midterm rally in South Carolina"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-south-carolina-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Rock Hill, South Carolina featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.fox35orlando.com/news/president-donald-trump-attend-midterm-election-rally-daytona-beach-gop-says",
+      "title": "President Donald Trump to attend midterm election rally in Daytona Beach, GOP says"
+    },
+    {
+      "url": "https://mynews13.com/fl/orlando/news/2026/10/29/president-donald-trump-to-hold-midterm-rally-in-daytona-beach-on-friday",
+      "title": "President Donald Trump to hold midterm rally in Daytona Beach on Friday"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-corinth-ms-with-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Corinth, Mississippi featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-corpus-christi-tx-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Corpus Christi, Texas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-waco-tx-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Waco, Texas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/trump-weekend-rallies-georgia-michigan-2026-midterm-elections",
+      "title": "Trump in Georgia, Michigan this weekend ahead of 2026 midterm elections"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/27/politics/live-news/midterm-election-congress",
+      "title": "Midterm elections updates: Trump and Talarico campaign two miles apart in Texas rallies"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/live-blog/trump-ohio-vance-north-carolina-2026-election-congress-live-updates-rcna606022",
+      "title": "Trump returns to Ohio to campaign for GOP candidates"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-ohio-midterms-october-28",
+      "title": "Alaska Senate spoiler scheme under scrutiny; Trump in Ohio for final-week push"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-texas-comey-october-27",
+      "title": "Trump takes campaign blitz to Texas with 7 days before Election Day"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-for-ken-paxton-at-rallies-in-texas",
+      "title": "WATCH: Trump campaigns for Ken Paxton at rallies in Texas"
+    },
+    {
+      "url": "https://www.ktnv.com/politics/america-votes/trump-bets-on-his-rallies-to-help-republicans-defy-midterm-history",
+      "title": "Trump bets on his rallies to help Republicans defy midterm history"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/28/us-midterms-six-days-left-who-leads-in-the-polls-as-trump-obama-rally",
+      "title": "US midterms: Six days left"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/topic/calendar/",
+      "title": "Roll Call Factba.se - Donald J. Trump's Public Schedule"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-ks-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Salina, Kansas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/calendar/",
+      "title": "October 2026 - President's Public Schedule"
+    },
+    {
+      "url": "https://hayspost.com/posts/69e08b58-d9b6-4e07-96b0-1c5c090f976e",
+      "title": "New details on President Trump's rally in Salina"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_presidential_trips_made_by_Donald_Trump_(2026)",
+      "title": "List of presidential trips made by Donald Trump (2026)"
+    },
+    {
+      "url": "https://dbqdems.org/blog/trump-dubuque-protest-november-2026",
+      "title": "Trump in Dubuque November 1: Rally & Protest Updates"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-dubuque-iowa-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Dubuque, Iowa featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.kcrg.com/2026/10/22/president-trump-rally-dubuque-november-1/",
+      "title": "President Trump to rally in Dubuque on November 1"
+    },
+    {
+      "url": "https://www.ktiv.com/2026/10/22/president-trump-rally-dubuque-november-1/",
+      "title": "President Trump to rally in Dubuque on November 1"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-daytona-florida-with-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Daytona, Florida featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.kadoa.com/potus/schedule",
+      "title": "Trump Schedule Today - Live Daily Public Schedule"
+    },
+    {
+      "url": "https://www.rsbnetwork.com/news/golden-age-of-rallies-president-trump-continues-midterm-campaign-push/",
+      "title": "Golden Age of Rallies: President Trump continues midterm campaign push"
+    },
+    {
+      "url": "https://www.daytonatimes.com/news/trump-to-hold-campaign-rally-in-daytona-beach-on-friday-oct-30/article_655a4505-3c3e-4c9e-8580-4cd7ebabcd59.html",
+      "title": "Trump to hold campaign rally in Daytona Beach on Friday, Oct. 30"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/republicans-name-venue-president-trumps-002023467.html",
+      "title": "Republicans name venue for President Trump's Daytona Beach rally"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/want-trumps-daytona-rally-heres-192920540.html",
+      "title": "Want to go to Trump's Daytona rally? Here's where to get tickets"
+    },
+    {
+      "url": "https://www.wdbo.com/news/local/volusia-county/president-trump-hold-rally-daytona-beach-days-before-election-day/LQ7DQX3GTVCZXGREJUZIVHONYE/",
+      "title": "President Trump to hold rally in Daytona Beach days before Election Day"
+    },
+    {
+      "url": "https://flvoicenews.com/exclusive-trump-to-hold-second-florida-midterm-rally-in-daytona-beach-on-oct-30/",
+      "title": "EXCLUSIVE: Trump to hold second Florida midterm rally in Daytona Beach on Oct. 30"
+    }
+  ]
+}
