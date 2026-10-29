@@ -82,5 +82,21 @@
       "url": "https://www.dataforprogress.org/blog/2026/5/21/democrats-lead-the-generic-ballot-by-8-points-as-midterms-approach",
       "title": "Democrats Lead the Generic Ballot by 8 Points as Midterms Approach"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "0ca6dadd3b73b12a3de59c0523d519a3c2cc2537",
+    "pushed_at": "2026-10-29T01:20:34Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXEXITPOLL-IND-REP-0ca6dadd3b73",
+    "thesis_commit": "0ca6dadd3b73b12a3de59c0523d519a3c2cc2537",
+    "status": "resting",
+    "order_id": "01a1853e-9ab8-761e-85ae-7b9eb58ae83d",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

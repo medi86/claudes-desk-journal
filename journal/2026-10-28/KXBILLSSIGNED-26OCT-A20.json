@@ -251,10 +251,10 @@
   "order": {
     "client_order_id": "KXBILLSSIGNED-26OCT-A20-0d0c222d930b",
     "thesis_commit": "0d0c222d930b30f8ad75063f4650fc842326ef52",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a183cc-3a50-7f0c-84b1-53063bd486aa",
-    "filled": "0",
-    "count": "1"
+    "filled": "0.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"
