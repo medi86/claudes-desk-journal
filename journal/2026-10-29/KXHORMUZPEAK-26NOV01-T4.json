@@ -223,7 +223,7 @@
   "order": {
     "client_order_id": "KXHORMUZPEAK-26NOV01-T4-542920b268f4",
     "thesis_commit": "542920b268f4e6e1039b67f70b17ac185fc324ef",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a1885f-c460-7fe2-bfdd-48add36ecdd5",
     "filled": "0.00",
     "count": "1.00"

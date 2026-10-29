@@ -174,5 +174,21 @@
       "url": "https://flvoicenews.com/exclusive-trump-to-hold-second-florida-midterm-rally-in-daytona-beach-on-oct-30/",
       "title": "EXCLUSIVE: Trump to hold second Florida midterm rally in Daytona Beach on Oct. 30"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "54cff1ceeed2f5ef23b4980d92871a467427e48d",
+    "pushed_at": "2026-10-29T19:57:29Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPPHOTO-26NOV01-6-54cff1ceeed2",
+    "thesis_commit": "54cff1ceeed2f5ef23b4980d92871a467427e48d",
+    "status": "resting",
+    "order_id": "01a1893d-2ff8-7969-ba73-39584f9f0958",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }

@@ -211,7 +211,7 @@
   "order": {
     "client_order_id": "KXEARNINGSMENTIONAAPL-26OCT29-MANU-542920b268f4",
     "thesis_commit": "542920b268f4e6e1039b67f70b17ac185fc324ef",
-    "status": "resting",
+    "status": "expired",
     "order_id": "01a1885f-c460-7d05-a2a3-9bb8ceade498",
     "filled": "0.00",
     "count": "1.00"
