@@ -91,10 +91,10 @@
   "order": {
     "client_order_id": "KXEXITPOLL-IND-REP-0ca6dadd3b73",
     "thesis_commit": "0ca6dadd3b73b12a3de59c0523d519a3c2cc2537",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1853e-9ab8-761e-85ae-7b9eb58ae83d",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

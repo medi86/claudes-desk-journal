@@ -214,5 +214,21 @@
       "url": "https://thehormuzstrait.com/",
       "title": "Is the Strait of Hormuz Open? Live Ship Tracker & SITREP"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "542920b268f4e6e1039b67f70b17ac185fc324ef",
+    "pushed_at": "2026-10-29T15:55:38Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXHORMUZPEAK-26NOV01-T4-542920b268f4",
+    "thesis_commit": "542920b268f4e6e1039b67f70b17ac185fc324ef",
+    "status": "resting",
+    "order_id": "01a1885f-c460-7fe2-bfdd-48add36ecdd5",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }

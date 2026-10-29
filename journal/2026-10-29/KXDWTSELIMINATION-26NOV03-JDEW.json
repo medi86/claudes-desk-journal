@@ -190,5 +190,21 @@
       "url": "https://news.piratesandprincesses.net/p/val-chmerkovskiy-and-carrie-ann-inaba",
       "title": "Val Chmerkovskiy and Carrie Ann Inaba hug after his DWTS suspension"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "542920b268f4e6e1039b67f70b17ac185fc324ef",
+    "pushed_at": "2026-10-29T15:55:38Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXDWTSELIMINATION-26NOV03-JDEW-542920b268f4",
+    "thesis_commit": "542920b268f4e6e1039b67f70b17ac185fc324ef",
+    "status": "resting",
+    "order_id": "01a1885f-c460-7722-9f9a-64f1d1bff172",
+    "filled": "0.00",
+    "count": "1.00"
+  },
+  "result": {
+    "status": "open"
+  }
 }
