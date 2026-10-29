@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "ticker": "KXTOPALBUM-26NOV07-YOU",
+  "event": "KXTOPALBUM-26NOV07",
+  "series": "KXTOPALBUM",
+  "title": "Will you seem pretty sad for a girl so in love be #1 on the Billboard 200 during the week of Nov 7, 2026",
+  "rules": "If you seem pretty sad for a girl so in love is #1 on the Billboard 200  chart for the Week of Nov 7, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.",
+  "close_time": "2026-11-02T04:59:00+00:00",
+  "expected_close_time": "2026-11-02T04:59:00+00:00",
+  "forecast_at": "2026-10-29T01:16:47.001777+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.05",
+    "reasoning": "Olivia Rodrigo's third album came out June 12, 2026, so the Nov 7 chart (tracking roughly Oct 23-29) would be about its 21st week. Her earlier albums were no longer #1 that late, and late October is usually packed with big new releases that debut at #1. It would most likely need a deluxe edition or vinyl push, or a very quiet release week, to get back to #1.",
+    "falsifier": "A deluxe/expanded edition or major vinyl variant of the album releases in late October 2026 during a week with no big competing debuts, sending it back to #1 on the Nov 7 chart.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3300",
+    "best_yes_ask": "0.3600",
+    "p_market": "0.3450"
+  },
+  "final": {
+    "p_yes": "0.25",
+    "action": "pass",
+    "reasoning": "The 34.5% price suggests traders know the album is still at or near #1, which I couldn't check, so I raised my estimate from 5% to 25%. That is still below the midpoint, but my information is too thin to bet NO against the market."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/1889992111",
+      "title": "\u200eyou seem pretty sad for a girl so in love - Album by Olivia Rodrigo - Apple Music"
+    },
+    {
+      "url": "https://store.oliviarodrigo.com/products/you-seem-pretty-sad-for-a-girl-so-in-love-cd",
+      "title": "you seem pretty sad for a girl so in love - cd - Olivia Rodrigo"
+    },
+    {
+      "url": "https://oliviarodrigo.fandom.com/wiki/You_Seem_Pretty_Sad_for_a_Girl_So_in_Love",
+      "title": "you seem pretty sad for a girl so in love"
+    },
+    {
+      "url": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love-with-a-bonus-track/6779846974",
+      "title": "\u200eyou seem pretty sad for a girl so in love (with a bonus track) - Album by Olivia Rodrigo - Apple Music"
+    },
+    {
+      "url": "https://store.oliviarodrigo.com/products/you-seem-pretty-sad-for-a-girl-so-in-love-exclusive-cd",
+      "title": "you seem pretty sad for a girl so in love - exclusive cd - Olivia Rodrigo"
+    },
+    {
+      "url": "https://store.oliviarodrigo.com/products/you-seem-pretty-sad-for-a-girl-so-in-love-with-a-bonus-track-digital-album",
+      "title": "you seem pretty sad for a girl so in love (with a bonus track) - digit - Olivia Rodrigo"
+    },
+    {
+      "url": "https://www.allmusic.com/album/you-seem-pretty-sad-for-a-girl-so-in-love-mw0004793351",
+      "title": "Olivia Rodrigo: you seem pret... Tracks & Reviews"
+    },
+    {
+      "url": "https://www.thesetonian.com/article/2026/06/olivia-rodrigo-album-review-you-seem-pretty-sad-for-a-girl-so-in-love",
+      "title": "You actually seem really, really sad for a girl in love - The Setonian"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/olivia-rodrigo-you-seem-pretty-sad-number-one-billboard-200-1236277283/",
+      "title": "Olivia Rodrigo's 'You Seem Pretty Sad' Bows at No. 1 on Billboard 200"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/olivia-rodrigo-you-seem-pretty-sad-back-to-no1-billboard200-1236367607/",
+      "title": "Olivia Rodrigo's 'You Seem Pretty Sad\u2026\" Back at No. 1 on Billboard 200"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/olivia-rodrigo-you-seem-pretty-sad-number-one-second-week-1236282794/",
+      "title": "Olivia Rodrigo\u2019s 'You Seem Pretty Sad' No. 1 for Second Week"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/music/articles/olivia-rodrigo-seem-pretty-sad-190104014.html",
+      "title": "Olivia Rodrigo\u2019s \u2018You Seem Pretty Sad for a Girl So in Love\u2019 Returns to No. 1 on Billboard 200"
+    },
+    {
+      "url": "https://www.forbes.com/sites/monicamercuri/2026/10/25/olivia-rodrigo-dethrones-taylor-swift-on-billboard-200-with-help-from-chappell-roan/",
+      "title": "Olivia Rodrigo Dethrones Taylor Swift On Billboard 200 With Help From Chappell Roan"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/olivia-rodrigo-you-seem-pretty-sad-returns-to-no-1-chart-1236930779/",
+      "title": "Olivia Rodrigo's 'You Seem Pretty Sad' Returns to No. 1 on Album Chart"
+    },
+    {
+      "url": "https://readdork.com/news/olivia-rodrigo-you-seem-pretty-sad-number-one-billboard-200-eec173575b",
+      "title": "Olivia Rodrigo\u2019s \u2018you seem pretty sad for a girl so in love\u2019 has returned to Number 1 in the US"
+    },
+    {
+      "url": "https://x.com/PopCrave/status/2114434716526928119",
+      "title": "Pop Crave on X: \"\u2018you seem pretty sad for a girl so in love\u2019 by Olivia Rodrigo returns to #1 on the Billboard 200 with 75K units. It has now spent 3 weeks at #1.\" / X"
+    },
+    {
+      "url": "https://www.hot103.fm/2026/10/27/olivia-rodrigo-scores-third-week-at-no-1-as-zach-bryan-debuts-at-no-2/",
+      "title": "Olivia Rodrigo Scores Third Week at No. 1 as Zach Bryan Debuts at No. 2"
+    },
+    {
+      "url": "https://billboard.com/music/chart-beat/tate-mcrae-housewife-global-charts-number-one-1236368055",
+      "title": "Tate McRae\u2019s \u2018Housewife\u2019 Debuts at No. 1 on Billboard Global Charts"
+    },
+    {
+      "url": "https://www.officialcharts.com/charts/billboard-200/",
+      "title": "Billboard 200"
+    },
+    {
+      "url": "https://www.billboard.com/charts/genre/top-charts/",
+      "title": "Top Charts"
+    },
+    {
+      "url": "https://www.musictimes.com/articles/112999/20261021/chart-watch-billboard-200-this-week.htm",
+      "title": "Chart Watch: The Billboard 200 This Week"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/taylor-swift-100th-week-billboard-200-number-one-beatles-1236908356/",
+      "title": "Taylor Swift Spends Her 100th Week at No. 1 on the Billboard 200, as \u2018Life of a Showgirl\u2019 Stays on Top in Week 2 of \u2018Encore\u2019 Rebound"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/26/top-5-albums-on-the-billboard-200-this-week-10-25-olivia-rodrigo-zach-bryan-morgan-wallen/",
+      "title": "Top 5 Albums on the Billboard 200 This Week (10/25): Olivia Rodrigo, Zach Bryan & Morgan Wallen"
+    },
+    {
+      "url": "https://www.billboard.com/charts/",
+      "title": "Chart Landing Pages"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/taylor-swift-showgirl-14th-week-number-one-billboard-200-1236358728/",
+      "title": "Taylor Swift\u2019s \u2018The Life of a Showgirl\u2019 Spends 14th Week Atop Billboard 200"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Billboard_200",
+      "title": "Billboard 200"
+    },
+    {
+      "url": "https://www.billboard.com/music/chart-beat/taylor-swift-showgirl-number-one-15th-week-billboard-200-1236362449/",
+      "title": "Taylor Swift\u2019s \u2018The Life of a Showgirl\u2019 Rules Billboard 200 for 15th Week"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/billboard-200/2026-10-31",
+      "title": "The Billboard 200"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_2026",
+      "title": "List of Billboard 200 number-one albums of 2026"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-200-17-october-2026/",
+      "title": "Billboard 200"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-200-10-october-2026/",
+      "title": "Billboard 200"
+    },
+    {
+      "url": "https://creativedisc.com/2026/10/billboard-200-03-october-2026/",
+      "title": "Billboard 200"
+    },
+    {
+      "url": "https://www.goldderby.com/lists/billboard-200-chart-topping-albums-of-2026/",
+      "title": "Billboard 200: Chart-topping albums of 2026"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/billboard-200/2026-10-24",
+      "title": "The Billboard 200"
+    },
+    {
+      "url": "https://creativedisc.com/category/charts/billboard-200-albums/",
+      "title": "Billboard 200 Albums - Creative Disc"
+    },
+    {
+      "url": "https://ca.billboard.com/charts/billboard-global-200/2026-10-31",
+      "title": "The Billboard Global 200"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Global_200_number_ones_of_2026",
+      "title": "List of Billboard Global 200 number ones of 2026"
+    },
+    {
+      "url": "https://exclaim.ca/music/article/new-album-releases-masterlist",
+      "title": "New Album Releases for October 23, 2026: Michael Kiwanuka, Claud, Art d'Ecco and More \u2502 Exclaim!"
+    },
+    {
+      "url": "https://vogueadria.com/new-albums-october/",
+      "title": "New albums out on 23 October that will define this autumn"
+    },
+    {
+      "url": "https://www.officialcharts.com/chart-news/new-album-releases-2026/",
+      "title": "New album releases 2026: Dates for Skepta, Kings of Leon and more"
+    },
+    {
+      "url": "https://consequence.net/upcoming-releases/",
+      "title": "Upcoming Album Releases"
+    },
+    {
+      "url": "https://2loud2oldmusic.com/2026/10/23/friday-new-releases-october-23-2026/",
+      "title": "New Albums released on October 23, 2026"
+    },
+    {
+      "url": "https://consequence.net/music-albums-released-2026/",
+      "title": "2026 Albums: New and Upcoming Music Releases"
+    },
+    {
+      "url": "https://www.altpress.com/2026-album-releases/",
+      "title": "The October album releases in alternative, rock, metal, and beyond"
+    },
+    {
+      "url": "https://www.shatterthestandards.com/p/new-music-drops-october-23-2026",
+      "title": "New Music Drops: October 23, 2026"
+    },
+    {
+      "url": "https://theseconddisc.com/2026/10/23/release-round-up-october-23-2026/",
+      "title": "Release Round-Up: Week of October 23 - The Second Disc"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/releases/",
+      "title": "New Album Releases 2026 - Album of the Year"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "ticker": "KXEXITPOLL-IND-REP",
+  "event": "KXEXITPOLL-IND",
+  "series": "KXEXITPOLL",
+  "title": "Will Republicans win independents in the exit poll? Republican party",
+  "rules": "If the Republican Party wins independents in the 2026 United States midterm elections, then the market resolves to Yes.",
+  "rules_secondary": "For purposes of this market, a party \u201cwins\u201d independents if it receives the higher reported share among that group in the national U.S. House exit poll. If the relevant parties are tied, each tied strike will receive 1/N of the Settlement Value, where N is the number of tied strikes.\n\nCNN is the primary resolution source, using the applicable figure displayed at Nov 6, 2026 at 12:00 PM ET. If the figure is unavailable at that time, CNN will remain the primary source for 24 additional hours. After that, CBS and then ABC will be used, in that order, through Nov 7, 2026 at 11:59 PM ET.",
+  "close_time": "2026-11-06T16:59:00+00:00",
+  "expected_close_time": "2026-11-06T16:59:00+00:00",
+  "forecast_at": "2026-10-29T01:16:47.001777+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "In midterms, independents almost always vote against the president's party in exit polls, as in 2006, 2010, 2014 and 2018. In 2026 Trump's approval is about 37%, Democrats lead the generic ballot by 7-8 points, and Marist has Democrats ahead among independents 52-39. For Republicans to win independents, the polls would have to be off by a historically large margin.",
+    "falsifier": "CNN's national House exit poll showing Republicans with a higher share of independents than Democrats, for example a late Republican surge or a big polling miss that leaves the national House vote roughly even or Republican.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1300",
+    "best_yes_ask": "0.2000",
+    "p_market": "0.1650"
+  },
+  "final": {
+    "p_yes": "0.06",
+    "action": "buy_no",
+    "reasoning": "The market's 16.5% midpoint is well above my estimate. Democrats lead independents by double digits in recent polling and lead the generic ballot by 7-8 points. In midterms, the out-party nearly always wins independents in the exit poll. I nudged my estimate up slightly to allow for exit-poll noise, but a NO bet still looks clearly favorable."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1400",
+    "count": 1,
+    "cost": "0.8600",
+    "clamped_from": "0.11"
+  },
+  "sources": [
+    {
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+      "title": "New poll shows Democrats have midterm edge, with caution signs : NPR"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html",
+      "title": "The 2026 midterms are just 6 days away. Which party has a better chance of winning? Here's what the latest polls say."
+    },
+    {
+      "url": "https://uspollingdata.com/polls/2026-midterm-tracker/",
+      "title": "2026 Midterm Tracker: Generic Ballot D+7.4, Trump Approval 37%"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play",
+      "title": "Democrats poised to take House as generic ballot lead widens in 2026"
+    },
+    {
+      "url": "https://maristpoll.marist.edu/polls/u-s-midterm-elections-october-2026/",
+      "title": "U.S. Midterm Elections, October 2026 - Marist Poll"
+    },
+    {
+      "url": "https://time.com/article/2026/10/27/midterm-elections-early-voting-data-democrats-republicans-hispanic-voters",
+      "title": "What Early Voting Data Is Showing About the Midterm Elections"
+    },
+    {
+      "url": "https://emersoncollegepolling.com/september-2026-national-poll-democrats/",
+      "title": "September 2026 National Poll: Democrats with 11-Point Congressional Midterm Ballot Advantage - Emerson Polling"
+    },
+    {
+      "url": "https://maristpoll.marist.edu/polls/a-look-to-the-2026-midterms-november-2025/",
+      "title": "A Look to the 2026 Midterms, November 2025 - Marist Poll"
+    },
+    {
+      "url": "https://news.ssbcrack.com/democrats-eye-potential-wave-victory-in-2026-midterms-as-polls-show-strong-generic-ballot-lead/",
+      "title": "Democrats Eye Potential Wave Victory in 2026 Midterms as Polls Show Strong Generic Ballot Lead - SSBCrack News"
+    },
+    {
+      "url": "https://www.dataforprogress.org/blog/2026/5/21/democrats-lead-the-generic-ballot-by-8-points-as-midterms-approach",
+      "title": "Democrats Lead the Generic Ballot by 8 Points as Midterms Approach"
+    }
+  ]
+}

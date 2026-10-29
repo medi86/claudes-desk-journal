@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-HEAVYCROWN26OCT29-30K",
+  "event": "KXALBUMEQUIV-HEAVYCROWN26OCT29",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Heavy Is The Crown by Anderson .Paak & Cordae have above 30000 Album Equivalent Units during the October 23, 2026 - October 29, 2026 tracking week? Above 30K",
+  "rules": "If Heavy Is The Crown by Anderson .Paak & Cordae has above 30K Album Equivalent Units during the October 23, 2026 - October 29, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 23, 2026 - October 29, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-29T01:16:47.001777+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.64",
+    "reasoning": "The album released Oct 23, 2026, so this is its debut week, which brings promotion and any physical sales. The only first-week projection found (ratingsgamemusic) puts it at 33K\u201338K units, above the 30K line. From memory, unverified: Cordae's and .Paak's past solo debuts landed around 35K, which fits that range. But projections often miss by 15-20%, the source's reliability is unclear, and the margin over 30K is small.",
+    "falsifier": "Luminate/Billboard reporting the album's first-week total at or below 30,000 units, e.g. because streaming is soft and little physical product ships in week one.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.6200",
+    "best_yes_ask": "0.6900",
+    "p_market": "0.6550"
+  },
+  "final": {
+    "p_yes": "0.64",
+    "action": "pass",
+    "reasoning": "The market's 0.655 midpoint is within about 1.5 points of my estimate, and the bid-ask spread is wider than that gap. My evidence rests mainly on one projection of uncertain reliability, so there is no clear edge."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://music.apple.com/us/album/heavy-is-the-crown/6801692287",
+      "title": "\u200eHeavy Is The Crown - Album by Anderson .Paak & Cordae - Apple Music"
+    },
+    {
+      "url": "https://www.hotnewhiphop.com/1014086-heavy-is-the-crown-anderson-paak-cordae",
+      "title": "Heavy Is The Crown - Album by Anderson .Paak & Cordae"
+    },
+    {
+      "url": "https://www.complex.com/music/a/tracewilliamcowen/anderson-paak-cordae-joint-album",
+      "title": "Anderson .Paak and Cordae's Joint Album 'Heavy Is the Crown' Is Here: Listen Now"
+    },
+    {
+      "url": "https://aaabackstage.com/anderson-paak-cordae-heavy-is-the-crown-album/",
+      "title": "Anderson .Paak and Cordae Release New Collaborative Album \u2018Heavy Is the Crown\u2019 |"
+    },
+    {
+      "url": "https://www.rollingstone.com/music/music-news/anderson-paak-cordae-heavy-is-the-crown-collaboration-album-1235611749/",
+      "title": "Anderson .Paak and Cordae Team for 'Heavy Is the Crown' Album"
+    },
+    {
+      "url": "https://rollinghype.com/anderson-paak-cordae-heavy-is-the-crown-joint-album/",
+      "title": "Anderson .Paak and Cordae Give Their Partnership a Full Album With \u2018Heavy Is the Crown\u2019"
+    },
+    {
+      "url": "https://sinusoidalmusic.com/reviews/anderson-paak-cordae-heavy-is-the-crown-album-review/",
+      "title": "Anderson .Paak & Cordae: Heavy is the Crown - Album Review - Sinusoidal Music"
+    },
+    {
+      "url": "https://www.newreleasesnow.com/album/anderson-paak-and-cordae-heavy-is-the-crown",
+      "title": "New Releases Now"
+    },
+    {
+      "url": "https://www.thatlovepodcast.com/post/anderson-paak-cordae-heavy-is-the-crown-review",
+      "title": "Anderson .Paak & Cordae\u2019s Heavy Is the Crown Review"
+    },
+    {
+      "url": "https://newreleases.discogs.com/release/774439-anderson-paak-cordae-anderson-paak-cordae-heavy-is-the-crown",
+      "title": "Anderson Paak, Cordae, Anderson.Paak & Cordae"
+    },
+    {
+      "url": "https://panic39.com/blogs/magazine/anderson-paak-cordae-heavy-is-the-crown",
+      "title": "Heavy Is the Crown: Anderson .Paak and Cordae Finally Go Full-Length"
+    },
+    {
+      "url": "https://www.allmusic.com/album/heavy-is-the-crown-mw0004872940",
+      "title": "Anderson .Paak, Cordae: Heavy... Tracks & Reviews"
+    },
+    {
+      "url": "https://kazimagazine.com/news/heavy-is-the-crown-review-anderson-paak-cordae",
+      "title": "Heavy Is the Crown Review: Anderson .Paak and Cordae"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/28/anderson-paak-cordae-heavy-is-the-crown-first-week-sales/",
+      "title": "Anderson .Paak and Cordae\u2019s \"Heavy Is the Crown\" Targets Strong First-Week Debut"
+    },
+    {
+      "url": "https://thatgrapejuice.net/2026/10/anderson-paak-cordae-drop-heavy-is-the-crown-lp-rock-radar-bbc-radio-1-live-lounge-more-with-performances/",
+      "title": "Anderson.Paak & Cordae Drop 'Heavy Is the Crown' LP / Rock 'Radar,' 'BBC Radio 1 Live Lounge,' & More with Performances - That Grape Juice"
+    },
+    {
+      "url": "https://thehiphopdemocrat.com/2026/10/27/anderson-paak-cordae-go-completely-off-on-very-fire-new-l-a-leakers-freestyle/",
+      "title": "Anderson .Paak & Cordae Go Completely Off On Very Fire New L.A. Leakers Freestyle - The Hip Hop Democrat"
+    },
+    {
+      "url": "https://www.iheart.com/content/2026-10-23-rap-rising-anderson-paak-cordae-drop-new-joint-album-heavy-is-the-crown/",
+      "title": "Rap Rising: Anderson .Paak & Cordae Drop New Joint Album 'Heavy Is The Crown'"
+    },
+    {
+      "url": "https://www.roughtrade.com/en-us/product/anderson-paak-and-cordae/heavy-is-the-crown",
+      "title": "Anderson Paak And Cordae - Anderson .Paak and Cordae - Heavy Is The Crown"
+    },
+    {
+      "url": "https://pop.inquirer.net/385138/anderson-paak-and-cordae-celebrate-brotherhood-in-collaborative-album-heavy-is-the-crown",
+      "title": "Anderson .Paak and Cordae celebrate brotherhood in collaborative album Heavy Is the Crown"
+    },
+    {
+      "url": "https://www.wazzup.ph/anderson-paak-cordae-heavy-is-the-crown-album-release/",
+      "title": "Brotherhood and Beats: Anderson .Paak and Multi-Platinum Rapper Cordae Team Up for \u2018Heavy Is the Crown\u2019 Anderson .Paak & Cordae Drop New Album 'Heavy Is the Crown'"
+    },
+    {
+      "url": "https://www.clashmusic.com/reviews/anderson-paak-cordae-heavy-is-the-crown/",
+      "title": "Anderson .Paak + Cordae - Heavy Is The Crown"
+    },
+    {
+      "url": "https://bcheights.com/233596/arts/anderson-paak-and-cordaes-heavy-is-the-crown-buckles-under-its-own-weight/",
+      "title": "Anderson .Paak and Cordae\u2019s \u2018Heavy Is The Crown\u2019 Buckles Under Its Own Weight"
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLUwRM7cXkOTs",
+      "title": "Anderson .Paak & Cordae 'Heavy is the Crown' Album - YouTube"
+    },
+    {
+      "url": "https://au.rollingstone.com/music/music-news/anderson-paak-cordae-new-album-102602/",
+      "title": "Anderson .Paak and Cordae Join Forces for New Album \u2018Heavy Is the Crown\u2019"
+    },
+    {
+      "url": "https://news.iheart.com/content/2026-10-23-rap-rising-anderson-paak-cordae-drop-new-joint-album-heavy-is-the-crown/",
+      "title": "Rap Rising: Anderson .Paak & Cordae Drop New Joint Album 'Heavy Is The Crown'"
+    },
+    {
+      "url": "https://www.thelineofbestfit.com/news/anderson-paak-and-cordae-team-up-on-upcoming-collaborative-album-heavy-is-the-crown",
+      "title": "Anderson .Paak and Cordae team up on upcoming collaborative album, Heavy Is the Crown"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/album/1985335-anderson-paak-heavy-is-the-crown.php",
+      "title": "Anderson .Paak & Cordae - Heavy Is The Crown - Reviews - Album of The Year"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/22/anderson-paak-cordae-heavy-is-the-crown-album-review/",
+      "title": "Anderson .Paak & Cordae - Heavy Is The Crown (Album Review)"
+    },
+    {
+      "url": "https://ratingsgamemusic.com/2026/10/18/biggest-first-week-billboard-200-debuts-of-2026/",
+      "title": "Biggest First-Week Billboard 200 Debuts of 2026"
+    },
+    {
+      "url": "https://albumoftheyear.org/user/blalock/album/1985335-heavy-is-the-crown",
+      "title": "Anderson .Paak & Cordae - Heavy Is The Crown review by Blalock - Album of The Year"
+    },
+    {
+      "url": "https://albumoftheyear.org/album/1985335-anderson-paak-heavy-is-the-crown/comments",
+      "title": "Discussion - Heavy Is The Crown by Anderson .Paak & Cordae"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/user/whatsthebuzz/album/1985335-heavy-is-the-crown/",
+      "title": "Anderson .Paak & Cordae - Heavy Is The Crown review by whatsthebuzz - Album of The Year"
+    },
+    {
+      "url": "https://www.albumoftheyear.org/user/jeremychronicle/album/1985335-heavy-is-the-crown/",
+      "title": "Anderson .Paak & Cordae - Heavy Is The Crown review by jeremychronicle - Album of The Year"
+    },
+    {
+      "url": "https://www.digitalmusicnews.com/2026/10/18/cordae-lawsuit-anderson-paak-collab/",
+      "title": "Cordae Slapped with $25M Lawsuit After Anderson .Paak Collab"
+    },
+    {
+      "url": "https://www.theculturecrypt.com/posts/anderson-paak-cordae-album-review",
+      "title": "Anderson. Paak and Cordae Share The Throne in 'Heavy Is The Crown' \u2014 Album Review \u2014 The Culture Crypt"
+    },
+    {
+      "url": "https://dailycampus.com/2026/10/28/rappers-anderson-paak-and-cordae-return-as-stepbrothers-on-new-album/",
+      "title": "Rappers Anderson .Paak and Cordae return as stepbrothers on new album"
+    },
+    {
+      "url": "https://theartsdesk.com/new-music/anderson-paak-and-cordae-are-energetic-uneven-heavy-crown",
+      "title": "Anderson .Paak and Cordae are energetic but uneven on 'Heavy is the Crown'"
+    },
+    {
+      "url": "https://www.amazon.com/Heavy-Crown-Amazon-Exclusive-Vinyl/dp/B0HFDCQM3G/ref=sr_1_2?dib=eyJ2IjoiMSJ9.A-a1brQn9ZmjTbUeN7nSFw.8GJcPtIiTZc-1OCR7cK4vaxXkmTVAvN1AHA0hO3z_K4&dib_tag=se&keywords=Heavy%2BIs%2Bthe%2BCrown%2BAnderson%2BPaak&qid=1787175789&s=dmusic&sr=1-2&tag=10e634-20&ascsubtag=srctok-73ab6c957caf039a&btn_type=pt&btn_ref=srctok-73ab6c957caf039a",
+      "title": "Heavy Is the Crown (Amazon Exclusive Vinyl): CDs & Vinyl"
+    },
+    {
+      "url": "https://heavyisthecrown.net/",
+      "title": "HEAVY IS THE CROWN // ANDERSON .PAAK & CORDAE"
+    },
+    {
+      "url": "https://shop.andersonpaak.com/products/heavy-is-the-crown-vinyl-signed-lenticular-edition",
+      "title": "HEAVY IS THE CROWN VINYL (SIGNED LENTICULAR EDITION)"
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0HFCW66WB?lv=shuf&ascsubtag=srctok-01ad374aed64eb55&btn_type=pt&s=dmusic&crid=1PYM714LYB9S2&keywords=heavy+is+the+crown+anderson+paak&sprefix=heavy+is+the+crown%2Cdigital-music%2C220&dib_tag=se&tag=10e634-20&dib=eyJ2IjoiMSJ9.suv7HQo_sLXyJHeguAyKEAmpi89UMm8Co4HDtCXeeWg.h8PAoEz5iQzo6Xc5XAWhkmzK1sHvPb5qZFX8Wk2kcwc&qid=1788047355&sr=1-2&btn_ref=srctok-01ad374aed64eb55&channelId=1&ref_=sr_1_2&plpRedirect=mhFallback",
+      "title": "Heavy Is the Crown: CDs & Vinyl"
+    },
+    {
+      "url": "https://heavyisthecrown.net/collections/all",
+      "title": "Products"
+    },
+    {
+      "url": "https://us.amazon.com/Heavy-Crown-Anderson-Paak/dp/B0HFCW66WB",
+      "title": "Heavy Is the Crown: CDs & Vinyl"
+    },
+    {
+      "url": "https://vertigovinyl.com/products/crown",
+      "title": "VV Exclusive: Heavy Is The Crown- Anderson .Paak & Cordae"
+    },
+    {
+      "url": "https://www.fatbeats.com/products/anderson-paak-cordae-heavy-is-the-crown-lp-pink-grey-vinyl",
+      "title": "Anderson .Paak & Cordae - Heavy Is the Crown (LP - Pink & Grey Vinyl)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Heavy_Is_the_Crown_(Linkin_Park_song)",
+      "title": "Heavy Is the Crown (Linkin Park song)"
+    }
+  ]
+}

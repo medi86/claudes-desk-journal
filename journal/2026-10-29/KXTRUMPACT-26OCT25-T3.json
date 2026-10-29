@@ -1,0 +1,274 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPACT-26OCT25-T3",
+  "event": "KXTRUMPACT-26OCT25",
+  "series": "KXTRUMPACT",
+  "title": "Will there be at least 3 presidential actions in the week of Oct 25, 2026?",
+  "rules": "If Donald Trump has taken at least 3 presidential actions from Oct 25, 2026 through Oct 31, 2026 (as checked on the \u201cPresidential Actions\u201d page at whitehouse.gov at 10:00 AM ET on Nov 1, 2026), then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe market solely resolves to the publication dates visibly displayed on the \"Presidential Actions\" tab at whitehouse.gov at 10:00 AM ET on Nov 1, 2026.\nThe week runs from Oct 25, 2026 through Oct 31, 2026.\n\nPayout criteria\n\nThe actions may include proclamations, executive orders, nominations & appointments, and memoranda.\nAny item listed on the page counts, regardless of its legal effect.\n\nExamples (for Jan 10, 2026):\n\nExecutive Order with a Jan 7 signing date is released with a Jan 10 publication date \u2192 resolves Yes\nProclamation e-mailed to White House Press Pool but not uploaded by 10:00 AM next day \u2192 resolves No\nProclamation is released Jan 10 with a backdated Jan 9 publication date \u2192 resolves No\nBill signed into law and shows up on \"Briefings & Statements\" instead of \"Presidential Actions\" \u2192 resolves No",
+  "close_time": "2026-11-01T15:00:00+00:00",
+  "expected_close_time": "2026-11-01T15:00:00+00:00",
+  "forecast_at": "2026-10-29T01:16:47.001777+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.95",
+    "reasoning": "In 2026 the Trump White House has posted several proclamations and executive orders almost every week, including at least five proclamations and four executive orders in October alone. The last week of October usually brings proclamations for November observances, and a tariff proclamation on robotics and machinery appears to have been signed midweek. With midterms on Nov 3, a week with fewer than 3 listed actions would be unusual.",
+    "falsifier": "The whitehouse.gov Presidential Actions page on the morning of Nov 1, 2026 shows 2 or fewer items with publication dates between Oct 25 and Oct 31, for example because campaign travel slowed postings or November proclamations were posted late or backdated.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4200",
+    "best_yes_ask": "0.4400",
+    "p_market": "0.4300"
+  },
+  "final": {
+    "p_yes": "0.68",
+    "action": "buy_yes",
+    "reasoning": "The low market price hints that few or no items have been posted this week, so I cut my estimate from 0.95 to 0.68. Proclamations for November observances usually come Oct 30\u201331, and a robotics tariff proclamation was apparently signed midweek, so reaching 3 items still looks more likely than not."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.4300",
+    "count": 1,
+    "cost": "0.4300",
+    "clamped_from": "0.63"
+  },
+  "sources": [
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
+      "title": "Proclamations"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/columbus-day-2026/",
+      "title": "Columbus Day, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/",
+      "title": "National Manufacturing Day, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
+      "title": "Executive Orders"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
+      "title": "National Energy Dominance Month, 2026"
+    },
+    {
+      "url": "https://www.whitehouse.gov/news/",
+      "title": "News"
+    },
+    {
+      "url": "https://www.kadoa.com/potus/whitehouse",
+      "title": "White House News Today - Presidential Actions & Executive Orders"
+    },
+    {
+      "url": "https://www.whitehouse.gov/news/page/2/",
+      "title": "News"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/proclamations-washington-1789-present",
+      "title": "8 Proclamations (Washington 1789 - present)"
+    },
+    {
+      "url": "https://www.bia.gov/NNAHM",
+      "title": "National Native American Heritage Month"
+    },
+    {
+      "url": "https://www.westrivereagle.com/articles/celebration-with-or-without-white-house-support/",
+      "title": "Celebration with or without White House support - West River Eagle"
+    },
+    {
+      "url": "https://nativenewsonline.net/currents/instead-of-native-american-heritage-month-proclamation-trump-issues-a-message/",
+      "title": "Instead of Native American Heritage Month Proclamation, Trump Issues A Message - Native News Online"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_American_Indian_Heritage_Month",
+      "title": "National American Indian Heritage Month"
+    },
+    {
+      "url": "https://nativenewsonline.net/sovereignty/the-celebration-they-can-t-cancel-native-heritage-month-lives-on/",
+      "title": "The Celebration They Can\u2019t Cancel: Native Heritage Month Lives On - Native News Online"
+    },
+    {
+      "url": "https://www.census.gov/newsroom/facts-for-features/2025/aian-month.html",
+      "title": "National Native American Heritage Month: November 2025"
+    },
+    {
+      "url": "https://www.senate.gov/artandhistory/history/common/generic/American_Indian_Heritage_Month.htm",
+      "title": "U.S. Senate: Celebrating National Native American Heritage Month"
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/proclamation-10853-national-native-american-heritage-month-2024",
+      "title": "Proclamation 10853\u2014National Native American Heritage Month, 2024"
+    },
+    {
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/presidential-proclamation-national-native-american-heritage-month",
+      "title": "Presidential Proclamation- National Native American Heritage Month"
+    },
+    {
+      "url": "https://www.energy.gov/indianenergy/articles/president-obama-proclaims-november-national-native-american-heritage-month",
+      "title": "President Obama Proclaims November National Native American Heritage Month"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-takes-decisive-action-to-lower-diesel-costs-for-american-truckers-farmers/",
+      "title": "President Trump Takes Decisive Action to Lower Diesel Costs for American Truckers, Farmers"
+    },
+    {
+      "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529",
+      "title": "Trump signs order waiving Graham Act sanctions on Russia, drawing backlash from some lawmakers and Zelenskyy - ABC News"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-signs-executive-order-aimed-at-taming-housing-costs",
+      "title": "Trump Signs Executive Order to Lower Housing Costs Before Midterms - Bloomberg"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/05/business/trump-diesel-prices-executive-order",
+      "title": "Trump signs executive order aimed at lowering diesel prices"
+    },
+    {
+      "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+      "title": "Trump signs executive order waiving new Russia sanctions package"
+    },
+    {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-decreases-housing-costs-for-americans/",
+      "title": "Fact Sheet: President Donald J. Trump Decreases Housing Costs for Americans"
+    },
+    {
+      "url": "https://www.salon.com/2026/10/21/melania-trump-turns-her-back-on-women-with-an-executive-order/",
+      "title": "Melania Trump turns her back on women with an executive order - Salon.com"
+    },
+    {
+      "url": "https://thefederalregister.org/documents/2026-22050/national-seafood-month-2026",
+      "title": "National Seafood Month, 2026"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-07/pdf/2026-20629.pdf",
+      "title": "Presidential Documents 64251 Federal Register Vol. 91, No. 193"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-texas-comey-october-27",
+      "title": "Trump takes campaign blitz to Texas with 7 days before Election Day"
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/trump-delays-robotics-machinery-tariffs-203713019.html",
+      "title": "Trump Delays Robotics, Machinery Tariffs in Favor of More Talks"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-corpus-christi-texas-october-27-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Corpus Christi, Texas - October 27, 2026"
+    },
+    {
+      "url": "https://www.marijuanamoment.net/trump-says-cannabis-is-bad-for-health-at-least-for-bill-maher-newsletter-october-27-2026/",
+      "title": "Trump says cannabis is bad for health\u2014at least for Bill Maher (Newsletter: October 27, 2026) - Marijuana Moment"
+    },
+    {
+      "url": "https://www.trumpstruth.org/statuses/42804",
+      "title": "Donald J. Trump: \"https://events.gop.com/events/midterm-rally-in-chillicothe-ohio-with-preside... - Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-30-25",
+      "title": "October 30, 2025"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/page/21/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.federalregister.gov/presidential-documents/executive-orders/donald-trump/2025",
+      "title": "2025 Donald J. Trump Executive Orders"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-2025CHECKLIST/html/DCPD-2025CHECKLIST.htm",
+      "title": "Checklist of White House Press Releases"
+    },
+    {
+      "url": "https://ballotpedia.org/Donald_Trump's_executive_orders_and_actions,_2025-2026",
+      "title": "Donald Trump's executive orders and actions, 2025-2026 - Ballotpedia"
+    },
+    {
+      "url": "https://www.nafsa.org/executive-and-regulatory-actions-trump2admin",
+      "title": "Executive and Regulatory Actions Under the Second Trump Administration"
+    },
+    {
+      "url": "https://www.hklaw.com/en/general-pages/trumps-2025-executive-orders-chart",
+      "title": "Trump\u2019s Second-Term Executive Orders (2025\u20132026)"
+    },
+    {
+      "url": "https://www.whitehouse.gov/videos/the-2025-season-comes-to-an-end/",
+      "title": "The 2025 Season Comes to an End"
+    },
+    {
+      "url": "https://whitehouse.gov/presidential-actions/2026/10/decreasing-housing-costs-for-the-american-people",
+      "title": "DECREASING HOUSING COSTS FOR THE AMERICAN PEOPLE"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/page/2/",
+      "title": "Presidential Actions"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
+      "title": "Presidential Memoranda"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "title": "Inaugurating The Era Of Super Intelligence"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+      "title": "Ushering in the Next Frontier of Quantum Innovation"
+    },
+    {
+      "url": "https://trumpwhitehouse.archives.gov/presidential-actions/",
+      "title": "Presidential Actions - Trump White House Archives"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/trump-delays-robotics-machinery-tariffs-in-favor-of-more-talks",
+      "title": "Trump Delays Robotics, Machinery Tariffs in Favor of More Talks - Bloomberg"
+    },
+    {
+      "url": "https://phemex.com/news/article/trump-delays-tariffs-on-robots-and-industrial-machinery-orders-180day-trade-negotiations-101623",
+      "title": "Trump Delays Robot & Machinery Tariffs, Orders 180-Day Negot"
+    },
+    {
+      "url": "https://panews.io/articles/01a1844a-878a-74d9-b779-859409c3b18b",
+      "title": "Trump Holds Off on Tariffs on Robots and Industrial Machinery, Directs Negotiations with Trading Partners"
+    },
+    {
+      "url": "https://rallies.ai/news/trump-says-imported-robotics-pose-national-security-risks-no-tariffs-imposed-d57b913808c67699",
+      "title": "Rallies"
+    },
+    {
+      "url": "https://cryptobriefing.com/trump-robotics-imports-national-security-section-232/",
+      "title": "Trump flags imported robotics as a national security risk, holds off on tariffs"
+    },
+    {
+      "url": "https://rallies.ai/news/trump-says-imported-robotics-pose-national-security-risks-but-does-not-impose-tariffs-94c04f48c352d139",
+      "title": "Trump says imported robotics pose national security risks but does not impose tariffs - XLI News"
+    },
+    {
+      "url": "https://biz.heraldcorp.com/article/10918295",
+      "title": "Trump eyes tariffs on robots, industrial machinery over national security concerns - The Herald Business"
+    },
+    {
+      "url": "https://news.leprivatebanker.com/2026/10/27/apple-launches-m6-imac-and-entry-macbook-pro-ahead-of-touch-laptop/",
+      "title": "Apple Launches M6 iMac and Entry MacBook Pro Ahead of Touch Laptop - n:ews"
+    },
+    {
+      "url": "https://www.wiley.law/trump-administration-tariff-tracker",
+      "title": "Trump Administration Tariff Tracker: Wiley"
+    }
+  ]
+}
