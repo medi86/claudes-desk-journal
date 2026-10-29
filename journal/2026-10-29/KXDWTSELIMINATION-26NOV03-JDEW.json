@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "ticker": "KXDWTSELIMINATION-26NOV03-JDEW",
+  "event": "KXDWTSELIMINATION-26NOV03",
+  "series": "KXDWTSELIMINATION",
+  "title": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
+  "rules": "If Jenna Dewan and their partner are officially eliminated from Dancing with the Stars Season 35 before Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nThe declaration must be made through official program broadcast, website, verified social media, or press releases.\nIf the season is canceled without declaring eliminations, the market resolves to No.\n\nPayout criteria\nElimination includes being voted off, evicted, knocked out, removed from further contention, voluntary withdrawal, disqualification, or producer removal.\nMultiple simultaneous eliminations count.\nInitial elimination counts even if the contestant later returns.\n\nDoesn't count for payout\nEliminations immediately reversed in the same episode don't count.\nTemporary suspensions, medical holds, or being runner-up in the finale don't count as elimination. \n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-29T15:51:31.792086+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.05",
+    "reasoning": "Only one episode airs before the deadline: Disney Night on Monday, Nov 2, which ends about 03:00 UTC Nov 3, before the market closes. Eight couples remain, and Jenna Dewan and Val Chmerkovskiy are tied for second on the combined judges' leaderboard (74/80). They were safe in the double elimination that used fan votes from two weeks, so a likely single elimination is very unlikely to hit them. The main risk is backlash from fans over Val's suspension, or a surprise double elimination.",
+    "falsifier": "Jenna Dewan and Val Chmerkovskiy are announced as eliminated (or withdraw) at the end of the Monday, November 2 Disney Night episode.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1000",
+    "best_yes_ask": "0.1100",
+    "p_market": "0.1050"
+  },
+  "final": {
+    "p_yes": "0.06",
+    "action": "buy_no",
+    "reasoning": "The 10.5% midpoint is close to the uniform one-in-eight risk, but Dewan is near the top of the judges' leaderboard and survived the latest vote. Only one episode, on Nov 2, falls before the deadline, so I stay well below the market."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.11",
+    "count": 1,
+    "cost": "0.89",
+    "clamped_from": null
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "title": "Dancing with the Stars (American TV series) season 35"
+    },
+    {
+      "url": "https://dancingwiththestars.fandom.com/wiki/Jenna_Dewan",
+      "title": "Jenna Dewan"
+    },
+    {
+      "url": "https://www.tvinsider.com/1298433/jenna-dewan-dancing-with-the-stars-val-chmerkovskiy-drama-alan-bersten-message/",
+      "title": "Jenna Dewan on 'Dancing With the Stars' and Val Chmerkovskiy Drama: See Her Message to Alan Bersten"
+    },
+    {
+      "url": "https://abc7ny.com/post/dancing-stars-season-35-cast-full-celebrity-lineup-pro-partners/19777056/",
+      "title": "'Dancing with the Stars' Season 35 cast: Full celebrity lineup and pro partners - ABC7 New York"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dancing-with-stars-season-35-scores-who-eliminated-week-5-rcna601966",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Super Bowl Week: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://dancingwiththestars.fandom.com/wiki/Dancing_with_the_Stars_35",
+      "title": "Dancing with the Stars 35"
+    },
+    {
+      "url": "https://www.fubo.tv/news/entertainment/how-to-watch-dancing-with-the-stars-season-35-episode-8/",
+      "title": "How to Watch Dancing With the Stars Season 35, Episode 8 - Fubo News"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dwts-schedule-change-disney-night-143029949.html",
+      "title": "'DWTS' Schedule Change for Disney Night, Explained"
+    },
+    {
+      "url": "https://countryrebel.com/dancing-with-the-stars-schedule-change/",
+      "title": "'Dancing With The Stars' Announces Important Schedule Change For Disney Night Episode"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/tv/dancing_with_the_stars/s35/e08",
+      "title": "Dancing With the Stars: Season 35, Episode 8"
+    },
+    {
+      "url": "https://www.rottentomatoes.com/tv/dancing_with_the_stars/s35/e08/cast-and-crew",
+      "title": "Dancing With the Stars: Season 35, Episode 8"
+    },
+    {
+      "url": "https://www.tvguide.com/tvshows/dancing-with-the-stars/episodes-season-35/1030036270/",
+      "title": "Watch Dancing with the Stars Online"
+    },
+    {
+      "url": "https://www.legit.ng/entertainment/tv-shows/1737781-all-dwts-theme-nights-season-35-air/",
+      "title": "All DWTS theme nights for Season 35 and when they will air - Legit.ng"
+    },
+    {
+      "url": "https://www.justjared.com/2026/10/28/why-dancing-with-the-stars-is-airing-on-monday-november-2-instead-of-tuesday-night/",
+      "title": "Why 'Dancing with the Stars' Is Airing on Monday, November 2 Instead of Tuesday Night"
+    },
+    {
+      "url": "https://www.tvinsider.com/1300281/dancing-with-the-stars-schedule-change-disney-night-2026-election/",
+      "title": "'Dancing With the Stars' Reveals Schedule Change for Disney Night 2026 Amid Election Coverage"
+    },
+    {
+      "url": "https://entertainmentnow.com/dancing-with-the-stars/dwts-schedule-change-disney-night/",
+      "title": "'Dancing With the Stars' Confirms Major Schedule Change Ahead of Disney Night"
+    },
+    {
+      "url": "https://www.directv.com/insider/dancing-with-the-stars-season-35-week-5/",
+      "title": "\u2018Dancing with the Stars\u2019 Season 35, Week 5"
+    },
+    {
+      "url": "https://www.directv.com/insider/dwts-season-35-episode-7/",
+      "title": "\u2018Dancing with the Stars\u2019 Season 35, Week 7"
+    },
+    {
+      "url": "https://www.dancemogul.com/dwts-disney-night-2026-monday-november-2/",
+      "title": "Why Is DWTS on Monday, November 2? Disney Night 2026 Schedule Explained"
+    },
+    {
+      "url": "https://www.tvinsider.com/1300200/dancing-with-the-stars-horror-movie-night-2026-scores-double-elimination-recap/",
+      "title": "'Dancing With the Stars' Horror Movie Night 2026 Recap: Jackson Olson, Tyler Cameron Eliminated"
+    },
+    {
+      "url": "https://abc7news.com/post/dancing-stars-recap-2-eliminations-1-perfect-score-horror-movie-night/19987704/",
+      "title": "'Dancing with the Stars' recap: 2 eliminations, 1 perfect score on 'Horror Movie Night' - ABC7 San Francisco"
+    },
+    {
+      "url": "https://www.thebiglead.com/dancing-with-the-stars-35-results-double-elimination-horror-movie-night/",
+      "title": "Dancing with the Stars 35 results: Heart-breaking double-elimination leaves fans shocked"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/eliminated-dancing-stars-last-night-141856867.html",
+      "title": "Who was eliminated from \u2018Dancing with the Stars\u2019 last night? 2 stars sent home"
+    },
+    {
+      "url": "https://abcnews.com/GMA/Culture/dancing-with-the-stars-season-35-who-is-eliminated/story?id=136377567",
+      "title": "'Dancing with the Stars' season 35: See who is eliminated - ABC News"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-horror-movie-night-020704483.html",
+      "title": "\u2018Dancing With The Stars\u2019 Horror Movie Night Delivers Shocking Double Elimination And Harsh Scores"
+    },
+    {
+      "url": "https://www.deseret.com/entertainment/2026/10/28/dancing-with-the-stars-double-elimination-jackson-tyler/",
+      "title": "Who went home in the \u2018Dancing with the Stars\u2019 double elimination?"
+    },
+    {
+      "url": "https://sundayguardianlive.com/entertainment-news/dancing-with-the-stars-shocker-who-went-home-after-halloween-night-delivered-an-unexpected-elimination-twist-313031/amp/",
+      "title": "Dancing With The Stars Shocker: Who Went Home After Halloween Night Delivered An Unexpected Elimination Twist?"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/article/who-left-dancing-with-the-stars-last-night-two-celebrities-sent-home-in-double-elimination-105620270.html",
+      "title": "Who left 'Dancing With the Stars' last night? Two celebrities sent home in double elimination."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_34",
+      "title": "Dancing with the Stars (American TV series) season 34"
+    },
+    {
+      "url": "https://www.disneyplus.com/browse/entity-7d918be0-4130-4551-aab8-c7dcae85d35f",
+      "title": "Dancing with the Stars"
+    },
+    {
+      "url": "https://abc7.com/post/dancing-stars-recap-2-eliminations-1-perfect-score-horror-movie-night/19987704/",
+      "title": "'Dancing with the Stars' recap: 2 eliminations, 1 perfect score on 'Horror Movie Night' - ABC7 Los Angeles"
+    },
+    {
+      "url": "https://www.today.com/popculture/tv/dwts-scores-elimination-horror-movie-night-2026-rcna604456",
+      "title": "\u2018Dancing With the Stars\u2019 Season 35, Horror Movie Night: Who Was Eliminated and Score Breakdown"
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-horror-movie-week-7-recap-scores-elimination-1236741201/",
+      "title": "DWTS Season 35 Horror Movie Night Week 7 Recap: Scores, Elimination"
+    },
+    {
+      "url": "https://www.yahoo.com/entertainment/tv/articles/dancing-stars-gets-spooky-horror-235800332.html",
+      "title": "\u2018Dancing With the Stars\u2019 Gets Spooky for Horror Movie Night With the First Perfect Score and a Double Celeb Exit: See the Scores, Who Went Home"
+    },
+    {
+      "url": "https://www.forbes.com/sites/monicamercuri/2026/10/27/dancing-with-the-stars-horror-movie-night-delivers-shocking-double-elimination-and-harsh-scores/",
+      "title": "Who Was Eliminated On \u2018Dancing With The Stars\u2019 Horror Movie Night? Double Elimination Sends Two Favorites Home"
+    },
+    {
+      "url": "https://abc13.com/post/dancing-stars-recap-2-eliminations-1-perfect-score-horror-movie-night/19987704/",
+      "title": "'Dancing with the Stars' recap: 2 eliminations, 1 perfect score on 'Horror Movie Night' - ABC13 Houston"
+    },
+    {
+      "url": "https://news.piratesandprincesses.net/p/val-chmerkovskiy-and-carrie-ann-inaba",
+      "title": "Val Chmerkovskiy and Carrie Ann Inaba hug after his DWTS suspension"
+    }
+  ]
+}

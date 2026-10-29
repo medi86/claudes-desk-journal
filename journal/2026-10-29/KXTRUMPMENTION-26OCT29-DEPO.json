@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT29-DEPO",
+  "event": "KXTRUMPMENTION-26OCT29",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during midterm rally in Rock Hill, South Carolina originally scheduled for October 29, 2026? Deport / Deported / Deportation",
+  "rules": "If \n Donald Trump says Deport / Deported / Deportation as part of midterm rally in Rock Hill, South Carolina originally scheduled for October 29, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the midterm rally in Rock Hill, South Carolina originally scheduled for October 29, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the midterm rally in Rock Hill, South Carolina originally scheduled for October 29, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-12T15:00:00+00:00",
+  "expected_close_time": "2026-11-12T15:00:00+00:00",
+  "forecast_at": "2026-10-29T15:51:31.792086+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.8",
+    "reasoning": "The Rock Hill rally is confirmed for Oct 29 and nothing suggests it has been cancelled. Trump's October midterm push is built around immigration, and he said 'deported' at his Lubbock rally on Oct 27. Over a typical hour-plus rally speech he very likely says one of the counted forms. The main risks are wording like 'removed' or 'got them out' instead, or a short midday speech.",
+    "falsifier": "The Rock Hill transcript or video shows Trump talking about immigration only with words like 'removed,' 'got them out' or 'sent back' and never saying deport, deported or deportation, or the rally is cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1700",
+    "best_yes_ask": "0.2000",
+    "p_market": "0.1850"
+  },
+  "final": {
+    "p_yes": "0.35",
+    "action": "pass",
+    "reasoning": "The price is far below my prior, which suggests the rally is underway or done without the word, or that traders know of a recent change in Trump's wording. I lowered my estimate sharply and am passing rather than betting against likely better-informed traders."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-south-carolina-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Rock Hill, South Carolina featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.foxcarolina.com/2026/10/26/pres-trump-make-another-sc-stop-midterm-rally/",
+      "title": "Pres. Trump to make another SC stop for midterm rally"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/location-set-trump-rally-rock-151728013.html",
+      "title": "Location set for Trump rally in Rock Hill for Graham, SC Republicans"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-trump-rally-rock-hill-164500562.html",
+      "title": "President Trump to rally in Rock Hill on Thursday, his second visit to SC in days"
+    },
+    {
+      "url": "https://www.wistv.com/2026/10/26/president-trump-set-hold-another-midterm-rally-south-carolina/",
+      "title": "President Trump to hold another midterm rally in South Carolina"
+    },
+    {
+      "url": "https://www.southcarolinapublicradio.org/sc-news/2026-10-29/in-rock-hill-trump-will-urge-voters-to-back-darline-graham-as-senate-race-polls-tighten",
+      "title": "In Rock Hill, Trump will urge voters to back Darline Graham as Senate race polls tighten"
+    },
+    {
+      "url": "https://wsnwradio.com/president-trump-scheduled-for-rock-hill-rally-following-upstate-south-carolina-campaign-stop/",
+      "title": "President Trump Scheduled for Rock Hill Rally Following Upstate South Carolina Campaign Stop - 94.1 - The Lake / WSNW"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-speak-thursday-rock-130653990.html",
+      "title": "Donald Trump to speak Thursday at Rock Hill election rally. Here\u2019s where and how to go"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-political-rally-rock-hill-south-carolina-february-23-2024",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Political Rally in Rock Hill, South Carolina - February 23, 2024"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/traffic-alert-president-trump-visiting-224129427.html",
+      "title": "Traffic Alert: President Trump visiting Rock Hill Thursday for Graham rally"
+    },
+    {
+      "url": "https://www.wsoctv.com/news/local/president-trump-host-midterm-rally-rock-hill/RRJ6EAYBVFGUHJ6SSYPNPBMWXE/",
+      "title": "President Trump to host midterm rally in Rock Hill"
+    },
+    {
+      "url": "https://scdailygazette.com/2026/10/26/president-trump-to-return-to-sc-days-ahead-of-midterms/",
+      "title": "President Trump to return to SC days ahead of midterms \u2022 SC Daily Gazette"
+    },
+    {
+      "url": "https://www.southcarolinapublicradio.org/sc-news/2026-10-26/president-trump-to-rally-in-rock-hill-in-return-to-south-carolina-before-election-day",
+      "title": "President Trump to rally in Rock Hill in return to South Carolina before Election Day"
+    },
+    {
+      "url": "https://www.wbtv.com/2026/10/26/trump-hold-midterm-rally-york-county-this-week/",
+      "title": "Trump to hold midterm rally in York County this week"
+    },
+    {
+      "url": "https://www.postandcourier.com/york-county/news/president-trump-downtown-rock-hill-sc-rally-sports-center/article_b92010f6-9d36-42ed-9703-cc12985b6c1c.html",
+      "title": "Here\u2019s where President Trump\u2019s rally will be held in Rock Hill"
+    },
+    {
+      "url": "https://www.kktv.com/2026/10/28/pres-trump-returns-south-carolina/",
+      "title": "Pres. Trump returns to South Carolina"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-south-carolina-rally-full-video",
+      "title": "Trump South Carolina Rally - Full Video And Transcript 10-21-2026"
+    },
+    {
+      "url": "https://dailycaller.com/2026/10/21/donald-trump-immigration-midterms-south-carolina-rally/",
+      "title": "Trump Zeroes In On Immigration As Midterms Near"
+    },
+    {
+      "url": "https://www.foxcarolina.com/2026/10/20/how-watch-what-know-pres-trumps-upstate-midterm-rally/",
+      "title": "How to watch, what to know for Pres. Trump\u2019s Upstate midterm rally"
+    },
+    {
+      "url": "https://newrepublic.com/post/216958/donald-trump-spends-rally-making-weird-noises",
+      "title": "Trump Spends Entire Rally Speech Just Making Weird Noises"
+    },
+    {
+      "url": "https://www.snopes.com/fact-check/trump-makes-strange-noise-rally/",
+      "title": "Does video show Trump making strange noise during South Carolina rally?"
+    },
+    {
+      "url": "https://www.postandcourier.com/politics/trump-rally-south-carolina-rock-hill-darline-graham/article_9e1cb903-22cb-4690-b1a5-03a92b657545.html",
+      "title": "President Trump to rally in Rock Hill on Thursday for SC GOP candidates, his second visit in days"
+    },
+    {
+      "url": "https://newsfromthestates.com/article/trump-rallies-support-republicans-pre-election-visit-deeply-red-upstate",
+      "title": "Trump rallies support for Graham in pre-election visit to deeply red Upstate"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-lubbock-texas-october-27-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Lubbock, Texas - October 27, 2026"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-speaks-at-midterm-rally-in-youngstown-ohio",
+      "title": "WATCH: Trump attacks Somali and Haitian immigrants while rallying for Ohio Republican candidates"
+    },
+    {
+      "url": "https://www.usnews.com/news/politics/articles/2026-10-29/how-trumps-immigration-crackdown-sparked-a-backlash-that-could-boomerang-in-the-midterms",
+      "title": "How Trump's Immigration Crackdown Sparked a Backlash That Could Boomerang in the Midterms"
+    },
+    {
+      "url": "https://vimeo.com/1240002624",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Corpus Christi, Texas - October 27, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1236704792",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Dalton, Georgia - October 16, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1237821389",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in North Carolina - October 20, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1233219490",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Grand Island, Nebraska - October 5, 2026"
+    },
+    {
+      "url": "https://vimeo.com/1238230907",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Pendleton, South Carolina - October 21, 2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-gaggles-before-sc-departure",
+      "title": "Trump Gaggles Before SC Departure - Full Video And Transcript 10-21-2026"
+    },
+    {
+      "url": "https://rebcam2000.substack.com/p/trump-rally-south-carolina-october",
+      "title": "Trump Rally, South Carolina, October 21, 2026 - Rebecca"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=m665DRu8Wtk",
+      "title": "FULL SPEECH: Trump Delivers Remarks At A Midterm Rally In South Carolina - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iA3G5ruGLdU",
+      "title": "LIVE REPLAY: President Trump Holds a Rally in Clemson, SC - 10/21/26 - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_2R_Grf1Pn4",
+      "title": "LIVE: U.S. President Donald Trump Speaks At Rally In South Carolina"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pxh6v5rJmhs",
+      "title": "LIVE: President Trump holds South Carolina rally to boost Darline Graham - YouTube"
+    },
+    {
+      "url": "https://www.wbtv.com/2026/10/26/president-trump-hold-another-midterm-rally-south-carolina/",
+      "title": "Trump to hold another midterm rally in South Carolina"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-michigan-rally-full-video-and",
+      "title": "Trump Michigan Rally - Full Video And Transcript 10-25-2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-rally-in-iowa-full-video-and",
+      "title": "Trump Rally In Iowa - Full Video And Transcript 10-22-2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/2-or-more-corinthians-trump-mississippi",
+      "title": "2 Or More Corinthians: Trump Mississippi Rally - Full Video And Transcript 10-26-2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-tells-crowd-his-doctors-will",
+      "title": "Trump Tells Crowd His Doctors Will Let Them Die - Arizona Rally Full Video And Transcript"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-rants-at-empty-seats-full-kentucky",
+      "title": "Trump Rants At Empty Seats - Full Kentucky Raly Video And Transcript"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-dalton-georgia-rally-full-video",
+      "title": "Trump Dalton, Georgia Rally - Full Video And Transcript"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-kansas-rally-full-video-and",
+      "title": "Trump Kansas Rally - Full Video And Transcript 10-19-2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/unhinged-even-for-trump-florida-rally",
+      "title": "Unhinged Even For Trump Florida Rally - Full Video And Transcript 10-23-2026"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trump-gaggles-after-az-rally-full",
+      "title": "Trump Gaggles After AZ Rally - Full Video And Transcript"
+    },
+    {
+      "url": "https://tommyxtopher.substack.com/p/trumps-bizarre-hispanic-heritage",
+      "title": "Trump\u2019s Bizarre Hispanic Heritage Month Rally \u2014 Full Video and Transcript"
+    }
+  ]
+}

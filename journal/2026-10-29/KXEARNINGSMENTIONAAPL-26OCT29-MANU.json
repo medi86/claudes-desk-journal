@@ -1,0 +1,206 @@
+{
+  "schema": 1,
+  "ticker": "KXEARNINGSMENTIONAAPL-26OCT29-MANU",
+  "event": "KXEARNINGSMENTIONAAPL-26OCT29",
+  "series": "KXEARNINGSMENTIONAAPL",
+  "title": "What will Apple say during their next earnings call? Manufacturing",
+  "rules": "If Manufacturing is said by any Apple representative (including the operator of the call) during the next Apple earnings call (including the Q+A), then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the Apple earnings call.\nIf a consensus by Kalshi employees cannot be reached using video, transcripts of the Apple earnings call will be used according to the news publications listed in the contract. \n\nPayout criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word.\n\nDoesn't count for payout\nGrammatical/tense inflections.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the underlying company. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-11-12T15:00:00+00:00",
+  "expected_close_time": "2026-11-12T15:00:00+00:00",
+  "forecast_at": "2026-10-29T15:51:31.792086+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.95",
+    "reasoning": "Apple's next earnings call is November 2, 2026, before the market closes. Apple executives said 'manufacturing' several times in each recent call, mostly about the American Manufacturing Program, the Broadcom deal and the upcoming Houston Advanced Manufacturing Center. An update on that center and the U.S. investment program is very likely, even with a new CEO. The word also comes up often in Q&A about tariffs and supply chains.",
+    "falsifier": "John Ternus's first call on Nov 2 leaves out the U.S. investment/American Manufacturing Program section, and no Apple representative says 'manufacturing' in the Q&A (or the call is pushed past Nov 12).",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8400",
+    "best_yes_ask": "0.8900",
+    "p_market": "0.8650"
+  },
+  "final": {
+    "p_yes": "0.93",
+    "action": "buy_yes",
+    "reasoning": "The market mid of 0.865 likely reflects the risk that the new CEO changes the script, so I've shaded my estimate down slightly. Repeated use of 'American Manufacturing Program', the pending update on the Houston center, and tariff/supply Q&A still put my probability above the 0.89 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.88",
+    "count": 1,
+    "cost": "0.88",
+    "clamped_from": null
+  },
+  "sources": [
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/apple-aapl-q3-2026-earnings-call-transcript/",
+      "title": "Apple (AAPL) Q3 2026 Earnings Call Transcript"
+    },
+    {
+      "url": "https://www.roic.ai/quote/AAPL/transcripts/2026-year/2-quarter",
+      "title": "Apple Inc. (AAPL) Q2 FY2026 Earnings Call Transcript - April 30, 2026"
+    },
+    {
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/1634023/apple-aapl-q2-2026-earnings-call-transcript/",
+      "title": "Apple AAPL Q2 2026 Earnings Call Transcript - The Globe and Mail"
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/30/apple-aapl-q2-2026-earnings-call-transcript/",
+      "title": "Apple AAPL Q2 2026 Earnings Call Transcript"
+    },
+    {
+      "url": "https://sixcolors.com/post/2026/07/one-last-time-this-is-tim-transcript-of-apples-q3-2026-financial-call/",
+      "title": "One last time, this is Tim: Final transcript of Apple\u2019s Q3 2026 earnings call"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/AAPL/earnings/AAPL-Q2-2026-earnings_call-548666.html",
+      "title": "Apple Inc. (AAPL) Q2 FY2026 earnings call transcript"
+    },
+    {
+      "url": "https://www.roic.ai/quote/AAPL.NE/transcripts/2026-year/2-quarter",
+      "title": "Apple Inc. (AAPL.NE) Q2 FY2026 Earnings Call Transcript - April 30, 2026"
+    },
+    {
+      "url": "https://sixcolors.com/post/2026/01/this-is-tim-complete-transcript-of-apples-q1-2026-financial-call/",
+      "title": "This is Tim: Complete transcript of Apple\u2019s Q1 2026 financial call"
+    },
+    {
+      "url": "https://sixcolors.com/post/2026/04/this-is-tim-and-john-and-kevin-transcript-of-apples-q2-2026-financial-call/",
+      "title": "This is Tim (and John and Kevan): Complete transcript of Apple\u2019s Q2 2026 financial call"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/aapl/transcripts/658553-q3-2026/",
+      "title": "Apple (AAPL) Q3 2026 Earnings Call Transcript & Audio"
+    },
+    {
+      "url": "https://news.alphastreet.com/apple-inc-aapl-q3-2026-earnings-call-transcript/?nonamp=1%2F",
+      "title": "Apple Inc. (AAPL) Q3 2026 Earnings Call Transcript - Alphastreet"
+    },
+    {
+      "url": "https://www.roic.ai/quote/AAPL/transcripts",
+      "title": "Apple Inc. (AAPL) Earnings Call Transcripts"
+    },
+    {
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/AAPL/pressreleases/3730749/apple-aapl-q3-2026-earnings-call-transcript/",
+      "title": "Apple (AAPL) Q3 2026 Earnings Call Transcript - The Globe and Mail"
+    },
+    {
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-apple-beats-q3-2026-estimates-shares-fall-after-hours-93CH-4826459",
+      "title": "Earnings call transcript: Apple beats Q3 2026 estimates, shares fall after hours By Investing.com"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/0R2V.L/earnings/0R2V.L-Q3-2026-earnings_call-658553.html",
+      "title": "APPLE INC APPLE ORD (0R2V.L) Q3 FY2026 earnings call transcript"
+    },
+    {
+      "url": "https://www.earningswhispers.com/transcript/AAPL",
+      "title": "Earnings Whispers"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/AAPL/earnings/AAPL-Q3-2026-earnings_call-658553.html",
+      "title": "Apple Inc. (AAPL) Q3 FY2026 earnings call transcript"
+    },
+    {
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/AAPL/pressreleases/1634023/apple-aapl-q2-2026-earnings-call-transcript/",
+      "title": "Apple AAPL Q2 2026 Earnings Call Transcript - The Globe and Mail"
+    },
+    {
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-apple-q2-2026-sees-earnings-beat-stock-rises-93CH-4651679",
+      "title": "Earnings call transcript: Apple Q2 2026 sees earnings beat, stock rises By Investing.com"
+    },
+    {
+      "url": "https://www.alphaspread.com/security/nasdaq/aapl/investor-relations/earnings-call/q2-2026",
+      "title": "AAPL Q2-2026 Earnings Call - Alpha Spread"
+    },
+    {
+      "url": "https://tickertrends.io/transcripts/AAPL/Q2-earnings-transcript-2026",
+      "title": "AAPL Q2 2026 Earnings Call Transcript"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/a8-kex991q1202612272025.htm",
+      "title": "Apple Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000011/a8-kex991q2202603282026.htm",
+      "title": "Apple Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2/",
+      "title": "Apple to Report Q4 2026 Earnings on November 2 - MacRumors"
+    },
+    {
+      "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-apple-inc-stock/",
+      "title": "AAPL Q4 2026 Earnings Report on 10/29/2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
+      "title": "Apple Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000013/aapl-20260328.htm",
+      "title": "Apple Inc. - Form 10-Q - FY2026"
+    },
+    {
+      "url": "https://blumify.io/markets/apple",
+      "title": "Apple Earnings Date: 2 Nov 2026 \u2014 Q4 FY2026 Results and Call"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm",
+      "title": "Apple Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/aapl-20260730.htm",
+      "title": "Apple Inc. - Form 8-K - FY2026"
+    },
+    {
+      "url": "https://www.marketbeat.com/earnings/reports/2026-11-2-apple-inc-stock/",
+      "title": "Apple (AAPL) Q4 2026 Earnings Date, Time & Estimates"
+    },
+    {
+      "url": "https://www.igeeksblog.com/apple-q4-2026-earnings-november-2/",
+      "title": "Apple schedules Q4 2026 earnings report for November 2"
+    },
+    {
+      "url": "https://ground.news/article/apple-sets-q4-2026-earnings-release-for-november-2",
+      "title": "Apple sets Q4 2026 earnings release for November 2"
+    },
+    {
+      "url": "https://gadgets.beebom.com/news/apple-confirms-q4-2026-earnings-call-date",
+      "title": "Apple Confirms Q4 2026 Earnings Call Date and It Will Be John Ternus\u2019 First as CEO"
+    },
+    {
+      "url": "https://www.mexc.com/crypto-pulse/article/apple-q4-2026-earnings-preview-181656",
+      "title": "Apple Q4 2026 Earnings Preview: Can iPhone Revenue Support Holiday Guidance?"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000020/aapl-20260627.htm",
+      "title": "Apple Inc. - Form 10-Q - FY2026"
+    },
+    {
+      "url": "https://9to5mac.com/2026/10/06/apple-sets-q4-2026-earnings-release-for-november-2/",
+      "title": "Apple sets Q4 2026 earnings release for November 2 - 9to5Mac"
+    },
+    {
+      "url": "https://forums.macrumors.com/threads/apple-to-report-q4-2026-earnings-on-november-2.2491225/",
+      "title": "Apple to Report Q4 2026 Earnings on November 2"
+    },
+    {
+      "url": "https://www.macrumors.com/guide/earnings/",
+      "title": "Earnings on MacRumors"
+    },
+    {
+      "url": "https://appleosophy.com/wire/52ouaji/",
+      "title": "Apple to report Q4-26 earnings call on November 2 \u2014 Appleosophy"
+    }
+  ]
+}
