@@ -1,0 +1,252 @@
+{
+  "schema": 1,
+  "ticker": "KXYTVIEWSHIGH-ARI26NOV-18.0M",
+  "event": "KXYTVIEWSHIGH-ARI26NOV",
+  "series": "KXYTVIEWSHIGH",
+  "title": "Will Ariana Grande have above 18M daily views at any point during October 2026?",
+  "rules": "If Ariana Grande has above 18M Global views on YouTube at any point during October 2026, then the market resolves to Yes.",
+  "rules_secondary": "View counts may vary by location. This market will resolve using values displayed from a New York IP address.\n\nGlobal daily views can be accessed through YouTube Charts by searching for the artist and selecting \u201cGlobal\u201d as the location.\n\nThis market and these products have not been endorsed by YouTube. Any references to YouTube charts or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between YouTube and Kalshi.",
+  "close_time": "2026-11-04T15:00:00+00:00",
+  "expected_close_time": "2026-11-02T15:00:00+00:00",
+  "forecast_at": "2026-10-30T13:00:55.995367+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.07",
+    "reasoning": "Ariana Grande's YouTube Charts daily views peaked at roughly 16M during her tour-finale week in early September 2026, which was a high point that still fell short of 18M. After that, the album cycle (Petal, July 31) was months old, the tour was over, and she announced a step back from visibility, so October views most likely kept falling. Reaching 18M would take a surprise new release or viral spike, and I found none confirmed.",
+    "falsifier": "A surprise new Ariana Grande music video, single, or viral moment in October 2026 that pushes her YouTube Charts global daily views above 18M on any day.",
+    "price_seen": true,
+    "price_sources": [
+      "https://www.octagonai.co/markets/entertainment/views/ariana-grande-highest-daily-view-count-august-31-2026-september-6-2026",
+      "https://www.octagonai.co/news/ariana-grande-youtube-views-prediction-market-odds"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.0200",
+    "best_yes_ask": "0.2100",
+    "p_market": "0.1150"
+  },
+  "final": {
+    "p_yes": "0.05",
+    "action": "pass",
+    "reasoning": "My 5% estimate is below the 0.115 midpoint, but the spread is very wide. Taking NO at 0.98 would cost more than my estimated NO value of about 0.95, so there is no positive-value trade."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://kworb.net/youtube/artist/arianagrande.html",
+      "title": "Ariana Grande YouTube Statistics and History"
+    },
+    {
+      "url": "https://socialblade.com/youtube/handle/arianagrande",
+      "title": "Ariana Grande's YouTube Statistics - Social Blade"
+    },
+    {
+      "url": "https://www.octagonai.co/news/ariana-grande-youtube-views-prediction-market-odds",
+      "title": "Grande's Mid-Week YouTube Views Surpass 16M, Pushing\u2026"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/entertainment/views/ariana-grande-highest-daily-view-count-august-31-2026-september-6-2026",
+      "title": "Ariana Grande: Highest daily view count\u2026"
+    },
+    {
+      "url": "https://top.communitrics.com/c/UC9CoOnJkIBMdeijd9qYoT_g",
+      "title": "Ariana Grande \u2022 #78 Most Subscribed YouTube Channel"
+    },
+    {
+      "url": "https://app.chartmetric.com/artist/3963/social-stats",
+      "title": "Ariana Grande, Artist Stats, Streams & Social Analytics"
+    },
+    {
+      "url": "https://vidiq.com/youtube-stats/channel/UC9CoOnJkIBMdeijd9qYoT_g/",
+      "title": "Ariana Grande's Subscriber Count, Stats & Income - vidIQ YouTube Stats"
+    },
+    {
+      "url": "https://socialblade.com/youtube/handle/arianagrandedailyofficial",
+      "title": "Ariana Grande Daily's YouTube Statistics - Social Blade"
+    },
+    {
+      "url": "https://www.popfiltr.com/artist-profile/ariana-grande",
+      "title": "Ariana Grande"
+    },
+    {
+      "url": "https://chartmetric.com/artist/3963",
+      "title": "Ariana Grande, Artist Stats, Streams & Social Analytics"
+    },
+    {
+      "url": "https://vidiq.com/youtube-stats/channel/@arianagrande/",
+      "title": "Ariana Grande's YouTube Stats: Subscribers, Views & Earnings"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Petal_(album)",
+      "title": "Petal (album)"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ariana-grande-new-album-petal-july-1236732211/",
+      "title": "Ariana Grande Announces New Album, Petal,' Coming in July"
+    },
+    {
+      "url": "https://open.spotify.com/album/2k4FmEtXR0WiDW0Ac2QArT",
+      "title": "Listen to petal - Album by Ariana Grande"
+    },
+    {
+      "url": "https://www.complex.com/music/a/dimassanfiorenzo/ariana-grande-petal-album-details",
+      "title": "Ariana Grande's 'petal:' Release Date, Tracklist, Producers, and Everything You Need to Know"
+    },
+    {
+      "url": "https://www.thefader.com/2026/04/28/ariana-grande-new-album-petal-release-date-album-art-details",
+      "title": "Ariana Grande\u2019s new album \u2018petal:\u2019 release date, album art, and details"
+    },
+    {
+      "url": "https://open.spotify.com/prerelease/3USaYgy1Bm30EKK7SVyq3D",
+      "title": "petal - Upcoming Album by Ariana Grande"
+    },
+    {
+      "url": "https://www.refinery29.com/en-us/2026/04/11977758/everything-we-know-about-ariana-grande-album-petal",
+      "title": "Everything We Know About Ariana Grande's New Album, Petal"
+    },
+    {
+      "url": "https://deadline.com/2026/04/ariana-grande-petal-album-release-date-1236875371/",
+      "title": "Ariana Grande Sets 'Petal' Album Release Date For July"
+    },
+    {
+      "url": "https://www.ticketmaster.com/ariana-grande-tickets/artist/1688071",
+      "title": "Ariana Grande Tickets, 2026-2027 Concert Tour Dates"
+    },
+    {
+      "url": "https://ca.style.yahoo.com/ariana-grande-backs-off-hiatus-200000305.html",
+      "title": "Ariana Grande Backs Off 'Hiatus' After Announcing Step Back From Spotlight Amid Health Scrutiny, According to Source - Yahoo Style Canada"
+    },
+    {
+      "url": "https://www.livenation.com/artist/K8vZ9172Qo7/ariana-grande-events",
+      "title": "Ariana Grande - 2026 Tour Dates & Concert Schedule - Live Nation"
+    },
+    {
+      "url": "https://premierguidemiami.com/article/candlelight-tribute-ariana-grande-pinecrest-gardens-october-2026",
+      "title": "Candlelight: Tribute to Ariana Grande at Pinecrest Gardens, October 16, 2026 \u2014 Premier Guide Miami"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/ariana-grande-2026-eternal-sunshine-smaller-tour-1236122356/",
+      "title": "Ariana Grande Reflects on Fame While Confirming Downsized 2026 Tour"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ariana-grande-tears-up-eternal-sunshine-tour-finale-london-1236848730/",
+      "title": "Ariana Grande Tears Up as She Ends 'Eternal Sunshine' Tour"
+    },
+    {
+      "url": "https://www.tmz.com/2026/10/22/ariana-grande-debuts-a-new-short-haircut/",
+      "title": "Ariana Grande Debuts Bob Haircut in New Photos"
+    },
+    {
+      "url": "https://arianagrande.fandom.com/wiki/The_Eternal_Sunshine_Tour",
+      "title": "The Eternal Sunshine Tour"
+    },
+    {
+      "url": "https://www.songkick.com/artists/4971683-ariana-grande",
+      "title": "Ariana Grande Tour Announcements 2026 & 2027, Notifications, Dates, Concerts & Tickets"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hate_That_I_Made_You_Love_Me",
+      "title": "Hate That I Made You Love Me"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=afSgBNwmZrQ",
+      "title": "Ariana Grande - petal - YouTube"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ariana-grande-hate-that-i-made-you-love-me-justin-long-1236763896/",
+      "title": "Ariana Grande Releases 'Hate That I Made You Love Me' Video"
+    },
+    {
+      "url": "https://variety.com/2026/music/news/ariana-grande-releases-single-hate-that-i-made-you-love-me-1236761876/",
+      "title": "Ariana Grande Enters New Era With Mid-Tempo Single \u2018Hate That I Made You Love Me\u2019"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/ariana-grande-hate-that-i-made-you-love-me-video-tease-1236258365/",
+      "title": "Ariana Grande Teases 'Hate That I Made You Love Me' Music Video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Omvbpx7zY7Q",
+      "title": "Ariana Grande - Petal (Music Video) - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=82-jTNka3uc",
+      "title": "Ariana Grande - hate that i made you love me (official music video) - YouTube"
+    },
+    {
+      "url": "https://www.billboard.com/music/music-news/ariana-grande-petal-music-video-cuts-down-critics-1236307006/",
+      "title": "Ariana Grande's 'Petal' Music Video Cuts Down Her Critics"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ariana_Grande",
+      "title": "Ariana Grande"
+    },
+    {
+      "url": "https://speakrj.com/audit/report/UC9CoOnJkIBMdeijd9qYoT_g/youtube",
+      "title": "Ariana Grande YouTube Channel Statistics / Analytics - SPEAKRJ Stats"
+    },
+    {
+      "url": "https://hypeauditor.com/youtube/UC9CoOnJkIBMdeijd9qYoT_g/",
+      "title": "Ariana Grande (@arianagrande) YouTube Stats, Analytics, Net Worth and Earnings"
+    },
+    {
+      "url": "https://chartmasters.org/artist/ariana-grande/",
+      "title": "Ariana Grande - Album Sales, Streaming & Chart Stats"
+    },
+    {
+      "url": "https://arianagrande.fandom.com/wiki/ArianaGrandeVevo",
+      "title": "ArianaGrandeVevo"
+    },
+    {
+      "url": "https://www.billboard.com/music/pop/ariana-grande-thank-u-next-video-breaks-youtube-vevo-record-24-hour-views-8487658/",
+      "title": "Ariana Grande's 'Thank U, Next' Video Smashes YouTube and Vevo 24-Hour Records"
+    },
+    {
+      "url": "https://televisionstats.com/a/ariana-grande",
+      "title": "Ariana Grande: #269 Most Popular Person on TV Today"
+    },
+    {
+      "url": "https://livecounts.nl/tiktok-realtime/?u=arianagrande",
+      "title": "Ariana Grande TikTok Follower Count"
+    },
+    {
+      "url": "https://nikosthoumyre.github.io/ariana-stats/",
+      "title": "Dashboard Ariana Grande"
+    },
+    {
+      "url": "https://x.com/AGDailyStreams/status/2115556028741828690",
+      "title": "Ariana Grande on Spotify \ua564 (@AGDailyStreams) on X"
+    },
+    {
+      "url": "https://x.com/arianagbnewsnet/status/2110859008986739163",
+      "title": "\ua564 ariana grande news network \ua564 on X: \"\u201ctattooed heart\u201d by ariana grande achieves its biggest streaming update of 2026 once again on spotify! \u2661 october 12 \u2014 184,281 october 13 \u2014 182,452 october 14 \u2014 184,765 (+1.27%) total \u2014 192,539,751 streams\" / X"
+    },
+    {
+      "url": "https://kworb.net/spotify/artist/66CXWjxzNUsdJxJ2JdwvnR_songs.html",
+      "title": "Ariana Grande - Spotify Top Songs"
+    },
+    {
+      "url": "https://x.com/arianagbnewsnet/status/2110562052037083316",
+      "title": "\ua564 ariana grande news network \ua564 on X: \"\u201cbest mistake (feat. big sean)\u201d by ariana grande has once again achieved its biggest streaming day of 2026 on spotify! \u2661 october 9 \u2014 142,157 october 10 \u2014 126,908 october 11 \u2014 120,375 october 12 \u2014 137,995 october 13 \u2014 145,534 (+5.46%) \ud83c\udd95 total \u2014 287,622,073 st\u2026 / X"
+    },
+    {
+      "url": "https://x.com/AGDailyStreams",
+      "title": "Ariana Grande on Spotify \ua564 (@AGDailyStreams) on X"
+    },
+    {
+      "url": "https://spotifystats.com/top-artists",
+      "title": "Spotify Top 100 Artists by Monthly Listeners (October 29, 2026): Bruno Mars Is #1"
+    },
+    {
+      "url": "https://chartmasters.org/ariana-grande-albums-and-songs-sales/",
+      "title": "Ariana Grande albums and songs sales - ChartMasters"
+    }
+  ]
+}

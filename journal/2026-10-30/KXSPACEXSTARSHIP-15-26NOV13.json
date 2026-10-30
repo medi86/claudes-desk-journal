@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "ticker": "KXSPACEXSTARSHIP-15-26NOV13",
+  "event": "KXSPACEXSTARSHIP-15",
+  "series": "KXSPACEXSTARSHIP",
+  "title": "Will SpaceX launch another Starship before Nov 13, 2026?",
+  "rules": "If SpaceX launches Starship flight test number 15 After issuance and before Nov 13, 2026, then the market resolves to Yes.",
+  "rules_secondary": "For the purpose of this market, the launch date is the calendar date on which liftoff occurred, measured in the local timezone of the launch site, as publicly confirmed by SpaceX",
+  "close_time": "2026-11-13T04:59:00+00:00",
+  "expected_close_time": "2026-11-13T04:59:00+00:00",
+  "forecast_at": "2026-10-30T13:00:55.995367+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.2",
+    "reasoning": "Flight 15 hardware has completed static fires, but the latest reported target (an FAA slide via SpaceNotices/Starlust, Oct 29-30) is no earlier than Nov 12, 2026, which is the final eligible day under the resolution rules. Starship launches usually slip by days because of scrubs, weather, or approvals (Flights 13 and 14 both did), and this flight attempts a first-ever ship catch that likely needs extra FAA sign-off. A YES therefore needs a launch on the NET date or earlier with no slip at all.",
+    "falsifier": "Starship Flight 15 lifting off from Starbase on or before November 12, 2026 (local time), e.g., if FAA approval arrives quickly and SpaceX pulls the date to ~Nov 8 or launches on the first Nov 12 attempt.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1500",
+    "best_yes_ask": "0.1600",
+    "p_market": "0.1550"
+  },
+  "final": {
+    "p_yes": "0.18",
+    "action": "pass",
+    "reasoning": "The market's 15.5% midpoint sits slightly below my estimate but agrees that a NET Nov 12 target leaves almost no slack. The market may also reflect fresher schedule or approval news I couldn't verify, so I've shaded to 18%. The remaining edge is too small to bet."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://nextspaceflight.com/launches/details/8002/",
+      "title": "Starship Flight 12"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/launch/starship-flight-12/",
+      "title": "SpaceX Flight 12 Starship Rocket Launch"
+    },
+    {
+      "url": "https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12",
+      "title": "Starship Flight Test 12"
+    },
+    {
+      "url": "https://www.rocketlaunch.live/launch/starship-flight-12",
+      "title": "Starship Flight 12 Mission (Starship) - RocketLaunch.Live"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-12-dont-miss-these-stunning-photos-from-the-launch-of-the-most-powerful-starship-yet",
+      "title": "SpaceX Starship Flight 12: Don't miss these stunning photos from the launch of the most powerful Starship yet"
+    },
+    {
+      "url": "https://www.space.com/news/live/spacex-starship-flight-12-launch-updates-may-22-2026",
+      "title": "SpaceX Starship Flight 12 launch updates: Starship V3 Ship makes fiery splashdown in Indian Ocean as planned"
+    },
+    {
+      "url": "https://spaceq.ca/starship-flight-12-validates-v3-reentry-systems-despite-early-booster-termination/",
+      "title": "Starship flight 12 validates V3 reentry systems despite early booster termination - SpaceQ Media Inc."
+    },
+    {
+      "url": "https://www.cnn.com/2026/05/21/science/live-news/spacex-starship-flight-12-version-3-launch",
+      "title": "SpaceX scrubs attempt to launch amped-up Starship V3 on inaugural test flight"
+    },
+    {
+      "url": "https://spacelaunchnow.me/launch/starship-flight-12/",
+      "title": "Starship"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TBu6JFjt0tk",
+      "title": "(SCRUB) SpaceX Starship Flight 12 - LAUNCH STREAM - YouTube"
+    },
+    {
+      "url": "https://nextspaceflight.com/launches/details/8279/",
+      "title": "Starship Flight 13"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/launch/starship-flight-13/",
+      "title": "SpaceX Flight 13 Starship Rocket Launch"
+    },
+    {
+      "url": "https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_13",
+      "title": "Starship Flight Test 13"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/starship-in-space-see-highlights-of-spacex-megarockets-epic-flight-13-test-launch-video",
+      "title": "Starship in space! See highlights of SpaceX megarocket's epic Flight 13 test launch (video)"
+    },
+    {
+      "url": "https://www.whataboutit.space/launches/starship-flight-13",
+      "title": "Starship Flight 13 / WAI Hub"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2TF98WKebD4",
+      "title": "SpaceX launches Starship on 13th flight test, booster splashes down - YouTube"
+    },
+    {
+      "url": "https://spacelaunchlive.com/launches/starship-flight-13/",
+      "title": "Starship"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-starlink-v3-satellites",
+      "title": "SpaceX will now try to launch critical Starship Flight 13 test today after delays. Here's what to expect."
+    },
+    {
+      "url": "https://www.starbaseevents.com/flights/13",
+      "title": "Starship Flight 13: Results, Outcome & What Happened"
+    },
+    {
+      "url": "https://www.benzinga.com/news/space/26/08/61292263/elon-musk-says-starship-flight-13-is-being-recovered-from-the-sea-nearly-24-days-after-landing-in-the-indian-ocean",
+      "title": "Elon Musk Says Starship Flight 13 Is Being Recovered From the Sea Nearly 24 Days After Landing in the Ind - Benzinga"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Starship_flight_14",
+      "title": "Starship flight 14"
+    },
+    {
+      "url": "https://starship-spacex.fandom.com/wiki/Starship_Flight_14",
+      "title": "Starship Flight 14"
+    },
+    {
+      "url": "https://www.npr.org/2026/09/28/nx-s1-5983418/spacex-starship-first-orbital-flight-14-nasa",
+      "title": "SpaceX\u2019s Starship launches on first orbital mission from Texas : NPR"
+    },
+    {
+      "url": "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt",
+      "title": "SpaceX Starship Flight 14 live updates: Mission success!"
+    },
+    {
+      "url": "https://www.spacelaunchschedule.com/launch/starship-starlink-group-31-1-starship-flight-14/",
+      "title": "SpaceX Starlink Group 31-1 (Starship Flight 14) Starship Rocket Launch"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-megarocket-flight-14-orbital-launch-success",
+      "title": "SpaceX launches Starship into orbit for 1st time \u2014 largest rocket ever built notches key milestone on dramatic Flight 14 test"
+    },
+    {
+      "url": "https://zendaruniverse.com/updates/starship-flight-14-result-first-orbit-why-it-ended-early/",
+      "title": "Starship Flight 14 Result: First Orbit & Why It Ended Early"
+    },
+    {
+      "url": "https://www.whataboutit.space/launches/starship-flight-1",
+      "title": "Starship Orbital Flight 1 (Starship Flight 14) / WAI Hub"
+    },
+    {
+      "url": "https://news.ssbcrack.com/spacex-completes-static-fire-tests-for-upcoming-starship-flight-15/",
+      "title": "SpaceX Completes Static-Fire Tests for Upcoming Starship Flight 15 - SSBCrack News"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Starship_flight_15",
+      "title": "Starship flight 15"
+    },
+    {
+      "url": "https://nextspaceflight.com/launches/details/8403/",
+      "title": "Starship Flight 15"
+    },
+    {
+      "url": "https://starship-spacex.fandom.com/wiki/Starship_Flight_15",
+      "title": "Starship Flight 15"
+    },
+    {
+      "url": "https://starlust.org/spacex-starship-flight-15-possible-launch-date-revealed/",
+      "title": "When will Starship Flight 15 launch? Possible date for SpaceX\u2019s most ambitious flight test revealed - Starlust"
+    },
+    {
+      "url": "https://www.nasaspaceflight.com/2026/10/spacex-flight-15-16-milestones/",
+      "title": "SpaceX working through Starship Flight 15 and 16 milestones - NASASpaceFlight.com"
+    },
+    {
+      "url": "https://tech-insider.org/spacex-starship-flight-15-november-dual-catch-2026/",
+      "title": "SpaceX Starship Flight 15: November Dual Catch Plan"
+    },
+    {
+      "url": "https://www.basenor.com/blogs/news/starship-flights-15-16-explained-in-5-points",
+      "title": "Starship Flights 15 & 16, Explained in 5 Points"
+    },
+    {
+      "url": "https://keeptrack.space/x-report/spacex-brief-2026-10-13",
+      "title": "Starship Flight 15 Will Try a Ship Catch - KeepTrack"
+    },
+    {
+      "url": "https://www.whataboutit.space/launches/starship-flight-15",
+      "title": "Starship Flight 15 / WAI Hub"
+    },
+    {
+      "url": "https://shattered.io/starbase-starship-flight-15-16-november-december-targets-2026/",
+      "title": "Starship Flight 15 and 16: Nov. and Dec. Targets [2026]"
+    },
+    {
+      "url": "https://keeptrack.space/deep-dive/starship-launch-tracker",
+      "title": "Next Starship Launch, Flight 15 Date and Every Starship Flight So Far"
+    },
+    {
+      "url": "https://digg.com/science/979gfrxm",
+      "title": "Starship Flight 15 reportedly set for no earlier than Nov. 12, 2026 \u00b7 Digg"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-next-starship-launch-now-on-sept-28-for-1st-orbital-flight",
+      "title": "SpaceX pushes next Starship launch back to Sept. 28, a 6-day delay for megarocket's 1st orbital flight"
+    },
+    {
+      "url": "https://news.google.com/read/CBMiaEFVX3lxTE1XbVh5LVE5VkZnR2VfUlFRd1dtQndkMEROZDh2Sk1OZnNqaU1HRVBqdVlnSXVTeS1hbVZ4M21hQXVWZDF2YXMwQmI1LUdRd1JKUWttOGJPNmN0RmpvNE1oZFE3RnczbUlx?hl=en-US&gl=US&ceid=US%3Aen",
+      "title": "Next Starship Launch, Flight 15 Date and Every Starship Flight So Far"
+    },
+    {
+      "url": "https://thespaceroad.com/launches/next-starship-launch/",
+      "title": "When is the next Starship launch? Flight 15 date and time \u2014 The Space Road"
+    },
+    {
+      "url": "https://findcheapbroadband.com/blog/when-is-spacex-starship-next-launch/",
+      "title": "When Is SpaceX Starship's Next Launch? Flight 15 Date and Latest Update"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-14-1st-orbital-launch-what-time",
+      "title": "What time will SpaceX launch its 1st orbital Starship test on Flight 14 on Sept. 28? (Full mission timeline)"
+    },
+    {
+      "url": "https://ad-hoc-news.de/boerse/news/corporate-news/spacex-stock-advances-starship-flight-15-test-milestone/70434317",
+      "title": "SpaceX stock advances Starship Flight 15 test milestone"
+    },
+    {
+      "url": "https://www.basenor.com/blogs/news/starship-v3-nails-second-flight-deploys-first-starlink-sats",
+      "title": "Starship V3 Nails Second Flight, Deploys First Starlink Sats"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+      "title": "SpaceX Starship"
+    },
+    {
+      "url": "https://spacelaunchnow.me/launch/starship-flight-13/",
+      "title": "Starship"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_EN5Jsl_G0I",
+      "title": "Starship Flight 13 - Where's The Kaboom? - YouTube"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-flight-13-test-launch-aborts-at-last-second-video",
+      "title": "SpaceX's Starship Flight 13 test launch aborts at last second (video)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Starship_flight_test_2",
+      "title": "Starship flight test 2"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-v3-megarocket-after-its-historic-debut-flight",
+      "title": "What's next for SpaceX's Starship V3 megarocket after its historic debut flight?"
+    },
+    {
+      "url": "https://x.com/SpaceNotices/status/2115815059381469690",
+      "title": "SpaceNotices on X: \"Starship Flight 15 is now NET November 12 per a new CADENA high profile missions slide https://t.co/N2x9UVCM0T\" / X"
+    },
+    {
+      "url": "https://en.shiftdelete.net/starship-flight-15/",
+      "title": "Starship Flight 15 Targets November 12 for First Double Catch"
+    },
+    {
+      "url": "https://x.com/NASASpaceflight/status/2115817094960873916",
+      "title": "NSF - NASASpaceflight.com on X: \"Slight move to the right for Flight 15. Vehicle readiness is looking good, so it's likely regulatory approval for the catches is coming into play.\" / X"
+    },
+    {
+      "url": "https://x.com/FelixSchlang/status/2115865117770305801",
+      "title": "What about it!? on X: \"\ud83d\ude80 FAA SLIDE: STARSHIP FLIGHT 15 NOV 12 The FAA's new planning slide lists Flight 15 for November 12. Earlier slides said November 8. It's a planning date, not a SpaceX date, and there's no Flight 15 launch license yet. \ud83c\udfa5 Flight 14 launch, Sep 28 \ud83d\udcf7 @Jordanguidry6 - WAI Med\u2026 / X"
+    },
+    {
+      "url": "https://x.com/XFreeze/status/2115850025360040268",
+      "title": "X Freeze on X: \"SpaceX is gearing up to launch Starship Flight 15 as early as November 12, and this mission is going to be absolutely epic The date has appeared in an FAA air traffic planning presentation, listing November 12 as the preliminary planning date for Starship's next flight And prepar\u2026 / X"
+    }
+  ]
+}

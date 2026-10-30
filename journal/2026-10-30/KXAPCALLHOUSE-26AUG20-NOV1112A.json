@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "ticker": "KXAPCALLHOUSE-26AUG20-NOV1112A",
+  "event": "KXAPCALLHOUSE-26AUG20",
+  "series": "KXAPCALLHOUSE",
+  "title": "Will AP call the 2026 U.S. House majority before 12AM ET on Nov 11, 2026? Before Nov 11",
+  "rules": "If the Associated Press makes its first definitive call of a winner for the 2026 U.S. House majority before 12AM ET on Nov 11, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The call must be an explicit declaration that a candidate, party, or option has won, will win, is projected to win, or equivalent clear language indicating the outlet has determined the winner. The call must appear on one of the outlet's primary platforms (main website, television broadcast, or official social media if that is their primary medium) and not be prefaced with qualifiers suggesting uncertainty such as \"appears to,\" \"likely to,\" \"probably,\" or \"may have.\" The relevant time is when the call first becomes publicly visible on the outlet's platform, not when it may have been written, decided internally, or prepared for publication. If the call is later retracted, the market nonetheless resolves to Yes based on the initial call time. Preliminary exit polls, reporting of other outlets' calls, conditional statements, opinion pieces, and technical glitches do not qualify as definitive calls.",
+  "close_time": "2026-11-11T05:00:00+00:00",
+  "expected_close_time": "2026-11-11T05:00:00+00:00",
+  "forecast_at": "2026-10-30T13:00:55.995367+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.8",
+    "reasoning": "Polls before the Nov. 3, 2026 election showed Democrats about 8-9 points ahead on the generic ballot, and forecasts projected a large Democratic House majority. In past wave years like 2018, AP called the House on election night. Only very close years like 2022 and 2024, when slow Western counts decided control, pushed the call past a week. The window here runs about a week after the election, so a call is likely unless the race is much closer than polls suggested.",
+    "falsifier": "Republicans beat their polls enough that control comes down to a handful of uncalled California/Western seats, and AP has not called the majority by 11:59 PM ET on Nov 10, 2026.",
+    "price_seen": true,
+    "price_sources": [
+      "https://prophecy.social/event/1000040481-when-will-ap-first-project-us-house-majority-in-2026-midterms",
+      "https://www.stokastic.com/articles/prediction-markets/house-control-odds"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [
+    "25% odds per date bucket, and Stokastic quoted Kalshi"
+  ],
+  "market": {
+    "best_yes_bid": "0.8100",
+    "best_yes_ask": "0.8600",
+    "p_market": "0.8350"
+  },
+  "final": {
+    "p_yes": "0.81",
+    "action": "pass",
+    "reasoning": "The market's 0.835 midpoint sits slightly above my estimate. Buying NO at about 0.19 matches my own 0.19 chance of NO, so there is no edge. The market may also reflect late information I couldn't verify, which is reason not to bet against it."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "title": "Generic Congressional Ballot: Latest Polls"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play",
+      "title": "Democrats poised to take House as generic ballot lead widens in 2026"
+    },
+    {
+      "url": "https://uspollingdata.com/elections/2026/",
+      "title": "2026 Midterm Elections Forecast: Trump 38.6% Approval, D+7 Generic Ballot"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html",
+      "title": "The 2026 midterms are just 5 days away. Which party has a better chance of winning? Here's what the latest polls say."
+    },
+    {
+      "url": "https://www.poliwave.com/us/fed/projection",
+      "title": "2026 Midterm Forecast: House and Senate Predictions"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/2026-midterm-tracker/",
+      "title": "2026 Midterm Tracker: Generic Ballot D+7.4, Trump Approval 37%"
+    },
+    {
+      "url": "https://centerforpolitics.org/crystalball/generic-ballot-model-gives-democrats-strong-chance-to-take-back-house-in-2026/",
+      "title": "Generic Ballot Model Gives Democrats Strong Chance to Take Back House in 2026 - Sabato's Crystal Ball"
+    },
+    {
+      "url": "https://www.octagonai.co/markets/elections/us-elections/2026-midterms-house-popular-vote-margin-of-victory-generic-ballot/",
+      "title": "2026 Midterms: House popular vote margin of victory\u2026"
+    },
+    {
+      "url": "https://votes.decisiondeskhq.com/forecast/2026",
+      "title": "2026 Midterm Election Forecast: Live House and Senate Predictions"
+    },
+    {
+      "url": "https://news.northeastern.edu/2026/10/12/november-midterms-political-analysis/",
+      "title": "2026 Midterms: Can the Democrats Retake the House and Senate?"
+    },
+    {
+      "url": "https://prophecy.social/event/1000040481-when-will-ap-first-project-us-house-majority-in-2026-midterms",
+      "title": "When will AP first project US House majority in 2026 midterms?"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6129040-hakeem-jeffries-house-majority-democrats-2026-midterms/",
+      "title": "Hakeem Jeffries says he is confident Democrats can secure House majority"
+    },
+    {
+      "url": "https://www.stokastic.com/articles/prediction-markets/house-control-odds",
+      "title": "House Control Odds 2026: Who Wins, And When It Gets Called"
+    },
+    {
+      "url": "https://www.lanacion.com.ar/usa/ap-decision-notes-what-to-expect-in-new-york-on-election-day-nid30102026/",
+      "title": "AP Decision Notes: What to expect in New York on Election Day - LA NACION"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/house-speaker-mike-johnson-draws-on-faith-as-he-fights-to-hold-the-republican-majority",
+      "title": "House Speaker Mike Johnson draws on faith as he fights to hold the Republican majority"
+    },
+    {
+      "url": "https://usmidterm2026.com/house",
+      "title": "2026 House elections: 435 seats and the competitive districts"
+    },
+    {
+      "url": "https://ballotpedia.org/United_States_Congress_elections,_2026",
+      "title": "United States Congress elections, 2026 - Ballotpedia"
+    },
+    {
+      "url": "https://gking.harvard.edu/electit/",
+      "title": "ElectIt: forecasts for all US House and Senate seats in the 11/3/2026 election"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2020_United_States_House_of_Representatives_elections",
+      "title": "2020 United States House of Representatives elections"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2024/12/4/democrats-win-final-seat-in-us-house-cutting-into-republican-majority",
+      "title": "Democrats win final seat in US House, cutting into Republican majority"
+    },
+    {
+      "url": "https://ballotpedia.org/Election_results,_2020:_Control_of_the_U.S._House",
+      "title": "Election results, 2020: Control of the U.S. House - Ballotpedia"
+    },
+    {
+      "url": "https://ballotpedia.org/Election_results,_2022:_U.S._House",
+      "title": "Election results, 2022: U.S. House - Ballotpedia"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/watch-how-does-the-associated-press-call-2026-midterm-election-winners-4-things-to-know",
+      "title": "WATCH: How does The Associated Press call 2026 midterm election winners? 4 things to know"
+    },
+    {
+      "url": "https://x.com/AP_RaceCalls",
+      "title": "AP Race Calls (@AP_RaceCalls) on X"
+    },
+    {
+      "url": "https://deadline.com/2026/10/associated-press-midterms-results-data-1237165652/",
+      "title": "How Associated Press Will Be At Center Of Election Night Race Calls"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/26/us-midterm-elections-2026-in-maps-and-charts",
+      "title": "US midterms 2026: All you need to know in maps and charts"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6020921/2026-house-map-democrats-flip-republicans-tossup-triage",
+      "title": "These are the House races to watch in the 2026 midterm election on Nov. 3"
+    },
+    {
+      "url": "https://270towin.com/2026-house-election",
+      "title": "2026 House Election Interactive Map - 270toWin"
+    },
+    {
+      "url": "https://www.foxnews.com/elections/2026/midterm-results/house",
+      "title": "2026 House Election Results"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+      "title": "2026 United States House of Representatives elections"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+      "title": "2026 United States elections"
+    },
+    {
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections,_2026",
+      "title": "United States House of Representatives elections, 2026 - Ballotpedia"
+    },
+    {
+      "url": "https://www.bloomberg.com/graphics/2026-us-election-results/house/",
+      "title": "Live Results and Map: 2026 US House Elections"
+    },
+    {
+      "url": "https://www.multistate.us/elections/results/florida-2026",
+      "title": "Florida 2026 Election Results \u2014 MultiState Elections"
+    },
+    {
+      "url": "https://www.multistate.us/elections/results/texas-2026",
+      "title": "Texas 2026 Election Results \u2014 MultiState Elections"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/article/midterms-2026-will-republicans-or-democrats-win-control-of-the-house-these-are-the-key-races-to-watch-170805806.html",
+      "title": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch."
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6148096-fox-news-predicts-democrat-house-win/",
+      "title": "Fox News predicts Democrats will win House in midterms for first time this cycle"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/fox-predicts-democrats-likely-win-182424566.html",
+      "title": "Fox Predicts Democrats Likely to Win House Majority"
+    },
+    {
+      "url": "https://www.newsnationnow.com/politics/2026-midterm-elections/democrats-favored-sweep-house-senate/",
+      "title": "2026 Midterms: Democrats narrowly favored to win both the House and Senate"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6175621-midterm-elections-polls-close-results/",
+      "title": "2026 midterm elections: When polls close, when results are expected"
+    },
+    {
+      "url": "https://www.weforum.org/stories/geographies-in-depth/us-midterm-elections-how-vote-works-why-it-matters",
+      "title": "US midterm elections: How the vote works and why it matters"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-elections/midterms",
+      "title": "Midterms 2026: Congress Polls and More"
+    },
+    {
+      "url": "https://www.britannica.com/event/2026-US-midterm-elections",
+      "title": "2026 U.S. midterm elections"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
+      "title": "How midterms have had big impacts through history : NPR"
+    },
+    {
+      "url": "https://www.270towin.com/2026-house-election/",
+      "title": "2026 House Election Interactive Map - 270toWin"
+    },
+    {
+      "url": "https://www.npr.org/2025/12/11/nx-s1-5615383/what-2026-might-look-like-for-democrats",
+      "title": "What 2026 might look like for Democrats : NPR"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/28/these-seven-races-will-determine-which-party-controls-senate/",
+      "title": "These seven races will determine which party controls the Senate - The Washington Post"
+    },
+    {
+      "url": "https://thehill.com/homenews/house/5598012-jeffries-optimistic-democrat-comeback/",
+      "title": "Hakeem Jeffries says Democrats will 'definitely' retake House in midterms"
+    },
+    {
+      "url": "https://natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+      "title": "2026 Midterm Election Forecast: Senate & House"
+    },
+    {
+      "url": "https://world-today-journal.com/analysts-project-democrats-may-recapture-house-in-2026-midterms/",
+      "title": "Analysts Project Democrats May Recapture House in 2026 Midterms - World Today Journal"
+    },
+    {
+      "url": "https://slate.com/news-and-politics/2026/09/midterms-2026-democrats-republicans-house-control.html",
+      "title": "2026 midterms: Will Democrats win control of the House of Representatives?"
+    },
+    {
+      "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+      "title": "Hottest 2026 Midterm Races\u2014Democrats Ahead In Texas, Maine, Michigan, Kansas, New Hampshire Polls"
+    }
+  ]
+}
