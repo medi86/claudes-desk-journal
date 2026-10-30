@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTION-26OCT30-FRAU",
+  "event": "KXTRUMPMENTION-26OCT30",
+  "series": "KXTRUMPMENTION",
+  "title": "What will Donald Trump say during midterm rally in Daytona Beach, Florida originally scheduled for October 30, 2026? Fraud (3+ times)",
+  "rules": "If \n Donald Trump says Fraud (3+ times) as part of midterm rally in Daytona Beach, Florida originally scheduled for October 30, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the midterm rally in Daytona Beach, Florida originally scheduled for October 30, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the midterm rally in Daytona Beach, Florida originally scheduled for October 30, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-13T15:00:00+00:00",
+  "expected_close_time": "2026-11-13T15:00:00+00:00",
+  "forecast_at": "2026-10-30T17:05:07.297136+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.82",
+    "reasoning": "Trump's late-October 2026 rally speeches lean heavily on election fraud. At Corpus Christi on Oct 27 he said 'voter fraud' four times in one passage, and the new Alaska 'Decoy Dan'/Peltola story has him repeatedly calling it 'voter fraud at the highest level,' including at the South Carolina rally on Oct 29. With the Daytona rally confirmed for Oct 30, four days before Election Day, three or more uses of 'fraud' is likely but not certain.",
+    "falsifier": "A full transcript or video of the Oct 30 Daytona Beach rally shows Trump saying 'fraud' (or 'frauds'/'fraud's') two times or fewer, or the rally is cancelled.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8100",
+    "best_yes_ask": "0.8200",
+    "p_market": "0.8150"
+  },
+  "final": {
+    "p_yes": "0.82",
+    "action": "pass",
+    "reasoning": "The market midpoint of 0.815 is nearly the same as my independent estimate of 0.82, so there is no meaningful edge on either side. The price supports my read that recent rallies and the Alaska story make 3+ uses of 'fraud' likely but not certain."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-daytona-florida-with-president-donald-j-trump-djt47",
+      "title": "Midterm Rally in Daytona, Florida featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://mynews13.com/fl/orlando/news/2026/10/29/president-donald-trump-to-hold-midterm-rally-in-daytona-beach-on-friday",
+      "title": "President Donald Trump to hold midterm rally in Daytona Beach on Friday"
+    },
+    {
+      "url": "https://www.fox35orlando.com/news/president-trump-midterm-election-rally-daytona-beach-schedule-road-closures-what-know",
+      "title": "President Trump midterm election rally in Daytona Beach: Schedule, road closures, what to know"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-trump-midterm-election-rally-232844804.html",
+      "title": "President Trump midterm election rally in Daytona Beach: Schedule, road closures, what to know"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/live-updates-trump-rally-florida-134734174.html",
+      "title": "Live updates: Trump rally in Florida at Daytona Beach Ocean Center"
+    },
+    {
+      "url": "https://www.wftv.com/news/local/volusia-county/president-trump-hold-rally-daytona-beach-days-before-election-day/LQ7DQX3GTVCZXGREJUZIVHONYE/",
+      "title": "President Trump to hold rally in Daytona Beach days before Election Day"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-florida-comey-peltola-2026-congress-live-updates-rcna606478",
+      "title": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push"
+    },
+    {
+      "url": "https://www.fox35orlando.com/news/president-donald-trump-attend-midterm-election-rally-daytona-beach-gop-says",
+      "title": "President Donald Trump to attend midterm election rally in Daytona Beach, GOP says"
+    },
+    {
+      "url": "https://www.factcheck.org/2026/10/factchecking-claims-from-trumps-midterm-rallies/",
+      "title": "FactChecking Claims from Trump's Midterm Rallies - FactCheck.org"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465",
+      "title": "Trump holds rally in North Carolina for midterm GOP candidates"
+    },
+    {
+      "url": "https://politifact.com/article/2026/sep/29/a-cheat-sheet-to-trumps-2026-talking-points/",
+      "title": "Trump\u2019s midterm rallies: A fact-checked guide to talking points, falsehoods"
+    },
+    {
+      "url": "https://newsroomamerica.com/a/7qZw9bkq9iUQUwi940TULWXl1O/factcheck_org_reviews_false_and_misleading_claims_from_president_donald_trump_s_october_midterm_rallies_examines_out_of_context_campaign_ads_and_addresses_unfounded_voting_machine_claims.html",
+      "title": "Media Monitor: FactCheck.org Reviews Trump Rally Claims, Midterm Ads and Voting Machine Posts \u2014 newsroomamerica.com"
+    },
+    {
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-ohio-october-29",
+      "title": "2026 Midterms: Trump Heads to South Carolina as Race Tightens"
+    },
+    {
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-midterm-political-rally-corpus-christi-texas-october-27-2026/",
+      "title": "Roll Call Factba.se - Speech: Donald Trump Holds a Midterm Political Rally in Corpus Christi, Texas - October 27, 2026"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
+      "title": "Trump rallies in Kansas and Iowa are back on after RNC said they were canceled: Source"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-south-carolina-vance-texas-2026-congress-live-updates-rcna606242",
+      "title": "Trump holds one of his last rallies before Election Day"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/show/republicans-seize-on-controversy-in-alaskas-closely-watched-senate-race",
+      "title": "Republicans seize on controversy in Alaska's closely watched Senate race"
+    },
+    {
+      "url": "https://pjmedia.com/catherinesalgado/2026/10/29/trump-calls-for-disqualification-prosecution-of-peltola-and-sullivan-in-alaska-race-n4958824",
+      "title": "Trump Calls for Disqualification and Prosecution of Peltola, \u2018Decoy Dan\u2019 in Alaska Senate Race"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/midterm-updates-trump-rally-floridians-104226831.html",
+      "title": "Midterm Updates: Trump to rally Floridians, Peltola denies \"tricking voters\""
+    },
+    {
+      "url": "https://electionlawblog.org/2026/alaska-governor-orders-criminal-investigation-into-peltola-campaign/",
+      "title": "\"Alaska Governor Orders Criminal Investigation Into Peltola Campaign\" - Election Law Blog"
+    },
+    {
+      "url": "https://www.cbsnews.com/live-updates/2026-elections-midtems-house-senate-trump/",
+      "title": "Peltola denies \"tricking voters,\" Trump visits South Carolina and more from the campaign trail"
+    },
+    {
+      "url": "https://mynews13.com/fl/orlando/news/2026/10/30/daytona-beach-prepares-for-trump-visit-ahead-of-tuesdays-election",
+      "title": "Daytona Beach prepares for President Trump visit ahead of election"
+    },
+    {
+      "url": "https://www.ms.now/news/trump-rallies-midterm-election-kansas-iowa-republicans",
+      "title": "Trump will now hold rallies in Kansas and Iowa, a day after the RNC said they were off"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-donald-trump-attend-midterm-145125001.html",
+      "title": "President Donald Trump to attend midterm election rally in Daytona Beach, GOP says"
+    },
+    {
+      "url": "https://singjupost.com/transcript-president-trump-speaks-at-corpus-christi-rally-one-week-before-election-day/",
+      "title": "Transcript:\u00a0President Trump Speaks at Corpus Christi\u00a0Rally, One Week Before Election Day"
+    },
+    {
+      "url": "https://webflow.rev.com/transcripts/gop-midterm-rally-in-corpus-christie-tx",
+      "title": "GOP Midterm Rally Corpus Christie TX"
+    },
+    {
+      "url": "https://www.ibtimes.co.uk/trump-texas-rally-speech-denture-claim-lacks-evidence-1828588",
+      "title": "Donald Trump's 'Dentures Seemed To Be Falling Out' During His Texas Campaign Rally Speech, Commentator Says"
+    },
+    {
+      "url": "https://www.ibtimes.co.uk/donald-trump-branded-national-embarrassment-after-making-bizarre-i-love-meat-onstage-gesture-1828577",
+      "title": "Donald Trump Branded 'A National Embarrassment' After Making Bizarre 'I Love the Meat' Onstage Gesture"
+    },
+    {
+      "url": "https://vimeo.com/1240002624",
+      "title": "Speech: Donald Trump Holds a Midterm Political Rally in Corpus Christi, Texas - October 27, 2026"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-texas-rally-vance-michigan-senate-congress-2026-live-updates-rcna605788",
+      "title": "Trump returns to Texas for back-to-back rallies"
+    },
+    {
+      "url": "https://www.observerlocalnews.com/news/2026/oct/30/heading-to-the-trump-rally-heres-what-you-need-to-know/",
+      "title": "Heading to the Trump rally? Here's what you need to know"
+    },
+    {
+      "url": "https://www.clickorlando.com/news/local/2026/10/29/president-trump-visit-to-daytona-beach-expected-to-bring-road-closures-heavy-security/",
+      "title": "President Trump visit to Daytona Beach expected to bring road closures, heavy security"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/protest-groups-trumps-daytona-beach-154644193.html",
+      "title": "What protest groups will be at Trump's Daytona Beach rally?"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/daytona-beach-police-announce-road-221034706.html",
+      "title": "Daytona Beach Police announce road closings ahead of Trump's visit"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPRALLIES-26NOV03-A45",
+  "event": "KXTRUMPRALLIES-26NOV03",
+  "series": "KXTRUMPRALLIES",
+  "title": "Will the number of Trump rallies be above 45 from January 1 to November 3, 2026?",
+  "rules": "If the number of Trump rallies is above 45 from January 1 to November 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "A Trump rally is a public, in-person political event organized around a rally-style address by Donald J. Trump, typically preceded by guest speakers, held at a large venue, and open to attendees via free registration. Examples in 2026 include the rallies on 1/27 (Clive, IA), 2/19 (Rome, GA), 2/27 (Corpus Christi, TX), 3/11 (Hebron, KY), 4/17 (Phoenix, AZ), 5/1 (The Villages, FL), and 5/22 (Suffern, NY). \n\nAs of 5/27/26, the count is 7.",
+  "close_time": "2026-11-03T14:59:00+00:00",
+  "expected_close_time": "2026-11-03T14:59:00+00:00",
+  "forecast_at": "2026-10-30T17:05:07.297136+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.56",
+    "reasoning": "Trump held 7 qualifying rallies through May 27, and CNBC reported 25 rallies in October 2026 alone, with Florida, Kansas and Iowa stops still to come before Nov 3. That puts the total near 35-37 before counting June-September. The market resolves YES if those summer and September months added roughly 10 or more rallies, which is plausible but unverified. The market's tracker might also count fewer events than media reports do.",
+    "falsifier": "The market's official count shows fewer than about 10 qualifying rallies from June through September, or it excludes several of CNBC's 25 October events, leaving the final total at 45 or below.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8000",
+    "best_yes_ask": "0.8600",
+    "p_market": "0.8300"
+  },
+  "final": {
+    "p_yes": "0.76",
+    "action": "pass",
+    "reasoning": "The 0.83 price probably reflects a known running count that I couldn't check, and the October pace of 25 rallies points to a busy September. I've updated toward the market, and the remaining gap reflects my uncertainty more than a real edge, so I'm not trading."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.aljazeera.com/news/2026/6/30/a-rally-like-no-other-trump-announces-2026-midterm-convention",
+      "title": "\u2018A rally like none other\u2019: Trump unveils 2026 Republican midterm convention"
+    },
+    {
+      "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/",
+      "title": "2026 elections live updates as Trump reverses course on canceling rallies in Kansas and Iowa"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies",
+      "title": "Trump reverses course, reinstates cancelled campaign rallies"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-florida-comey-peltola-2026-congress-live-updates-rcna606478",
+      "title": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies",
+      "title": "US midterms: 4 days to go"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/30/politics/live-news/midterm-election-congress",
+      "title": "Midterms live updates: Trump revives two red state rallies after earlier cancellations"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-south-carolina-vance-texas-2026-congress-live-updates-rcna606242",
+      "title": "Trump holds one of his last rallies before Election Day"
+    },
+    {
+      "url": "https://www.uspresidentialelectionnews.com/donald-trump-rally-schedule/",
+      "title": "Trump Rally Schedule: Upcoming Events and Speeches (2026)"
+    },
+    {
+      "url": "https://cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before",
+      "title": "2026 elections live updates as Trump reverses course on canceling rallies in Kansas and Iowa"
+    },
+    {
+      "url": "https://nbcnews.com/politics/trump-administration/live-blog/trump-rally-florida-comey-peltola-2026-congress-live-updates-rcna606478",
+      "title": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push"
+    },
+    {
+      "url": "https://www.ms.now/news/trump-rallies-midterm-election-kansas-iowa-republicans",
+      "title": "Trump will now hold rallies in Kansas and Iowa, a day after the RNC said they were off"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
+      "title": "Trump rallies in Kansas and Iowa are back on after RNC said they were canceled: Source"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/29/politics/live-news/midterm-election-congress",
+      "title": "Trump scraps another red-state rally as he shifts strategy ahead of midterms"
+    },
+    {
+      "url": "https://ktla.com/news/ap-top-headlines/ap-trump-will-rally-in-kansas-and-iowa-after-initially-canceling-weekend-trips-before-midterms/",
+      "title": "Trump will rally in Iowa and Kansas after initially canceling weekend trips before midterms"
+    },
+    {
+      "url": "https://www.wichitaliberty.org/politics/trump-suffern-ny-rally-salt-dow-50k-9-11-medal/",
+      "title": "Trump Suffern NY Rally: SALT, Dow 50K & 9/11 Medal"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/05/22/trump-mixes-economic-message-with-culture-war-themes-ny-rally/",
+      "title": "Trump mixes economic message with culture war themes in N.Y. rally - The Washington Post"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7YJzwAnl8wQ",
+      "title": "NEWS ALERT: President Trump Has A Rally Today!! In Suffern, New York - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/live/MGaKaC9Sl70",
+      "title": "LIVE: Trump delivers remarks in a rally in New York ahead of midterms - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8sFfMJG6no8",
+      "title": "FULL EVENT: Trump Holds Massive Rally in Suffern, NY - 05/22/26 - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R2CjUay0k5k",
+      "title": "Trump BRUTALLY BOOED At OWN RALLY As Protests ERUPT INSIDE! - YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=j_XLvXv-x5k",
+      "title": "Trump: We've got to get New York BACK - YouTube"
+    },
+    {
+      "url": "https://scribehawk.com/transcript/-president-trump-holds-maga-rally-in-suffern-new-york-ahead-of-2026-midterm-elec",
+      "title": "\ud83c\uddfa\ud83c\uddf8 President Trump Holds MAGA Rally in Suffern, New York, ahead of 2026 Midterm Election [LIVE] \u2014 Full Transcript (May 22, 2026)"
+    },
+    {
+      "url": "https://www.cnbc.com/amp/2026/10/30/trump-vance-rally-midterm-elections-.html",
+      "title": "Trump, Vance scrap planned appearances in final stretch of midterm campaign"
+    },
+    {
+      "url": "https://abcnews4.com/news/nation-world/president-trump-cancels-kansas-iowa-rallies-shifts-to-72-hour-phone-blitz-telerallies-in-final-midterm-push-election-voting-ballots-republican-national-committee-republican-democrat",
+      "title": "Trump reverses course, restores Kansas and Iowa rallies ahead of midterms"
+    },
+    {
+      "url": "https://wlos.com/news/nation-world/president-trump-cancels-kansas-iowa-rallies-shifts-to-72-hour-phone-blitz-telerallies-in-final-midterm-push-election-voting-ballots-republican-national-committee-republican-democrat",
+      "title": "Trump cancels Kansas, Iowa rallies, shifts to 72-hour phone blitz in final midterm push"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487",
+      "title": "Trump uncancels weekend rallies in Iowa and Kansas with Senate control at stake"
+    },
+    {
+      "url": "https://100percentfedup.com/president-trumpncels-multiple-rallies-days-before-midterm/",
+      "title": "President Trump Cancels Multiple Rallies Days Before Midterm Elections"
+    },
+    {
+      "url": "https://abcnews.com/Politics/live-updates/midterm-elections-2026-1-week-high-stakes-elections/?id=137578278",
+      "title": "Midterm elections live updates: Trump's weekend rallies in Kansas, Iowa are back on, source says - ABC News"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_presidential_trips_made_by_Donald_Trump_(2026)",
+      "title": "List of presidential trips made by Donald Trump (2026)"
+    },
+    {
+      "url": "https://www.wbtv.com/2026/10/29/live-stream-trump-holds-midterm-rally-rock-hill/",
+      "title": "Live stream: Trump holds midterm rally in Rock Hill, South Carolina"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-midterm-rally-north-carolina-2026-election-congress-live-updates-rcna604465",
+      "title": "Trump holds rally in North Carolina for midterm GOP candidates"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/29/trump-cancels-kansas-rally-before-midterm-elections-hold-virtual-events/",
+      "title": "Trump cancels Kansas rally before midterm elections to hold virtual events - The Washington Post"
+    },
+    {
+      "url": "https://deadline.com/2026/06/trump-july-4-rally-america-250-1236956290/",
+      "title": "Trump Plans To Turn D.C.'s Signature 250th Event Into His Own Rally"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/06/15/july-fourth-trump-rally-celebrations-national-mall-fireworks-singers-america-fair",
+      "title": "President announces July Fourth festivities to include 'Trump rally'"
+    },
+    {
+      "url": "https://time.com/article/2026/06/15/trump-rally-america-250-anniversary-celebrations/",
+      "title": "What to Know About Trump\u2019s Rally to \u2018Kick Off\u2019 250th Anniversary Celebrations"
+    },
+    {
+      "url": "https://www.whitehouse.gov/freedom250/",
+      "title": "Freedom 250"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/live-blog/trump-ohio-vance-north-carolina-2026-election-congress-live-updates-rcna606022",
+      "title": "Trump returns to Ohio to campaign for GOP candidates"
+    },
+    {
+      "url": "https://www.c-span.org/event/campaign-2026/trump-speaks-at-gop-midterm-rally-in-port-huron-michigan/448710",
+      "title": "Trump Speaks at GOP Midterm Rally in Port Huron, Michigan"
+    }
+  ]
+}
