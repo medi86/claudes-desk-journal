@@ -183,10 +183,10 @@
   "order": {
     "client_order_id": "KXTRUMPPHOTO-26NOV01-6-54cff1ceeed2",
     "thesis_commit": "54cff1ceeed2f5ef23b4980d92871a467427e48d",
-    "status": "resting",
+    "status": "filled",
     "order_id": "01a1893d-2ff8-7969-ba73-39584f9f0958",
-    "filled": "0",
-    "count": "1"
+    "filled": "1.00",
+    "count": "1.00"
   },
   "result": {
     "status": "open"

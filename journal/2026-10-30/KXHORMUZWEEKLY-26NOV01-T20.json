@@ -216,5 +216,21 @@
       "url": "https://www.ibtimes.com.au/strait-hormuz-ship-attacks-record-oil-traffic-1877334",
       "title": "Strait of Hormuz Status Today: Ship Attacks Hit Record High in October as Tankers Burn and War Fears Mount"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a9eb6f41e5ad2df048c6f42078ebc926ee024d2e",
+    "pushed_at": "2026-10-30T13:05:00Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXHORMUZWEEKLY-26NOV01-T20-a9eb6f41e5ad",
+    "thesis_commit": "a9eb6f41e5ad2df048c6f42078ebc926ee024d2e",
+    "status": "resting",
+    "order_id": "01a18ce9-e830-723b-99f6-f58b615438f4",
+    "filled": "0",
+    "count": "1"
+  },
+  "result": {
+    "status": "open"
+  }
 }
