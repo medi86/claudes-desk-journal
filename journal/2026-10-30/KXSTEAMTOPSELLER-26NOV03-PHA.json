@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "ticker": "KXSTEAMTOPSELLER-26NOV03-PHA",
+  "event": "KXSTEAMTOPSELLER-26NOV03",
+  "series": "KXSTEAMTOPSELLER",
+  "title": "Will Phantom Blade Zero be #1 on Steam's Weekly Top Sellers - Top 100 products by revenue list for Oct 27 - Nov 3, 2026?",
+  "rules": "If Phantom Blade Zero is ranked #1 on Steam's USA Weekly Top Sellers - Top 100 products by revenue list for Oct 27 - Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with STEAM. All trademarks, logos, and brand names are the property of their respective owners.",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-30T21:59:47.521094+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.55",
+    "reasoning": "Phantom Blade Zero launched Oct 28-29, inside the chart week. It hit about 731k concurrent Steam players and had already passed Modern Warfare 4 on the global top sellers chart before launch, so it is the favorite for global #1. The US revenue chart is less certain, because many of its players are likely in China. Modern Warfare 4 (in its second week) and the $1,049 Steam Machine could still beat it in US dollars.",
+    "falsifier": "Steam's US weekly chart for Oct 27 \u2013 Nov 3 shows Call of Duty: Modern Warfare 4 or the Steam Machine/Steam Deck at #1, with Phantom Blade Zero lower.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.2300",
+    "best_yes_ask": "0.2600",
+    "p_market": "0.2450"
+  },
+  "final": {
+    "p_yes": "0.32",
+    "action": "buy_yes",
+    "reasoning": "The low price suggests traders see Modern Warfare 4 or Steam hardware leading the US revenue chart, which I couldn't verify, so I cut my estimate from 0.55 to 0.32. Phantom Blade Zero's 730k-player launch landing inside the chart week, while Modern Warfare 4 is in its second week, still leaves my estimate slightly above the market's 0.26 ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.2500",
+    "count": 1,
+    "cost": "0.2500",
+    "clamped_from": "0.27"
+  },
+  "sources": [
+    {
+      "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-release-date-launch-times/",
+      "title": "Phantom Blade Zero release date and launch times"
+    },
+    {
+      "url": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/",
+      "title": "Phantom Blade Zero on Steam"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Phantom_Blade_Zero",
+      "title": "Phantom Blade Zero"
+    },
+    {
+      "url": "https://www.gamewatcher.com/phantom-blade-zero-release-times-and-editions",
+      "title": "Phantom Blade Zero Release Times and Editions"
+    },
+    {
+      "url": "https://www.lagofast.com/en/blog/phantom-blade-zero-release-date/",
+      "title": "Phantom Blade Zero Release Date & Pre-order: What You Need to Know"
+    },
+    {
+      "url": "https://phantombladezerowiki.org/release.html",
+      "title": "Phantom Blade Zero Release Date \u2014 Oct 29, 2026"
+    },
+    {
+      "url": "https://timesaver.gg/blog/phantom-blade-zero-release-time",
+      "title": "Phantom Blade Zero Release Time, Preload and File Size (All Regions)"
+    },
+    {
+      "url": "https://www.xmodhub.com/info/guides/phantom-blade-zero-launch-time/",
+      "title": "Phantom Blade Zero Launch Time: Release Date & Pre-Launch Details"
+    },
+    {
+      "url": "https://www.vice.com/en/article/phantom-blade-zero-release-date-pre-order-bonuses/",
+      "title": "Phantom Blade Zero Release Date, Launch Times & Pre-Order Bonuses"
+    },
+    {
+      "url": "https://x.com/pbzero_official/status/2061938441185821154?lang=en",
+      "title": "Phantom Blade Zero on X: \"Hello everyone, As many of you just saw in today\u2019s State of Play, pre-orders for Phantom Blade Zero will open this summer! At the same time, I want to share another update: Phantom Blade Zero will now launch on October 29, 2026, moved from its previous date of September\u2026 / X"
+    },
+    {
+      "url": "https://www.pcgamer.com/games/pc-game-release-dates-october-2026/",
+      "title": "There are so many games coming out in October you guys"
+    },
+    {
+      "url": "https://www.pcgamer.com/games/new-pc-games-2026/",
+      "title": "New 2026 games: Our release date calendar"
+    },
+    {
+      "url": "https://gamescomingout.com/games-coming-out-october-2026",
+      "title": "Games Coming Out in October 2026"
+    },
+    {
+      "url": "https://www.gamespot.com/articles/the-biggest-new-game-releases-of-october-2026/",
+      "title": "The Biggest New Game Releases Of October 2026 - GameSpot"
+    },
+    {
+      "url": "https://box.co.uk/blog/october-game-releases",
+      "title": "October 2026 Video Game Releases"
+    },
+    {
+      "url": "https://www.gamingamigos.com/post/october-2026-game-launch-calendar",
+      "title": "All October 2026 Game Releases: Full Launch Calendar and Major Highlights - Gaming Amigos"
+    },
+    {
+      "url": "https://gameinformer.com/2026",
+      "title": "2026 Video Game Release Schedule - Game Informer"
+    },
+    {
+      "url": "https://upcoming-games-releases.com/2026/10/most-anticipated-games",
+      "title": "Upcoming Steam Games in October 2026"
+    },
+    {
+      "url": "https://www.callofduty.com/blog/2026/05/call-of-duty-modern-warfare-4-announcement",
+      "title": "Announcing Call of Duty: Modern Warfare 4"
+    },
+    {
+      "url": "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4-release-date-launch-times-early-access/",
+      "title": "Modern Warfare 4 release times and early access explained"
+    },
+    {
+      "url": "https://www.callofduty.com/blog/2026/09/call-of-duty-modern-warfare-4-pc-trailer-tech-specs-features",
+      "title": "Call of Duty: Modern Warfare 4 PC Trailer, Tech Updates, and More"
+    },
+    {
+      "url": "https://store.steampowered.com/news/group/9869/view/693149194510139438",
+      "title": "IGN - Call of Duty: Modern Warfare 4 Preload and Global Release Times Confirmed for Campaign, DMZ, and the Full Game - Steam News"
+    },
+    {
+      "url": "https://store.steampowered.com/app/4783780/",
+      "title": "Call of Duty\u00ae: Modern Warfare\u00ae 4 - Beta on Steam"
+    },
+    {
+      "url": "https://www.gamingbible.com/news/modern-warfare-4-release-time-preload-download-size-early-access-714895-20261012",
+      "title": "Call of Duty: Modern Warfare 4 release time, preload, size and early access"
+    },
+    {
+      "url": "https://steamdb.info/app/4435490/",
+      "title": "Call of Duty\u00ae: Modern Warfare\u00ae 4 - Campaign Price history \u00b7 SteamDB"
+    },
+    {
+      "url": "https://store.steampowered.com/app/7940/Call_of_Duty_4_Modern_Warfare_2007/",
+      "title": "Call of Duty\u00ae 4: Modern Warfare\u00ae (2007) on Steam"
+    },
+    {
+      "url": "https://www.activision.com/games/call-of-duty/call-of-duty-modern-warfare-4",
+      "title": "Call of Duty\u00ae: Modern Warfare 4\u00ae"
+    },
+    {
+      "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-maps-modes",
+      "title": "Ready for Launch: Multiplayer Maps and Modes Confirmed"
+    },
+    {
+      "url": "https://kotaku.com/phantom-blade-zero-just-rocketed-onto-steam-with-700000-concurrent-players-2000751005",
+      "title": "New Action-RPG Just Had One Of Steam's Biggest Launches Ever"
+    },
+    {
+      "url": "https://www.gamewatcher.com/phantom-blade-zero-reaches-over-723-800-concurrent-steam-players-as-early-reactions-emerge",
+      "title": "Phantom Blade Zero Reaches Over 723,800 Concurrent Steam Players on Launch Day"
+    },
+    {
+      "url": "https://gameworldobserver.com/2026/10/30/phantom-blade-zero-peaks-at-over-731k-concurrent-players-at-launch-marking15th-highest-result-in-steam-history",
+      "title": "Phantom Blade Zero peaks at over 731k concurrent players at launch, marking15th highest result in Steam history"
+    },
+    {
+      "url": "https://www.keengamer.com/articles/news/phantom-blade-zero-hits-723876-peak-players-on-steam-on-launch-day/",
+      "title": "Phantom Blade Zero Hits 723,876 Peak Players on Steam on Launch Day"
+    },
+    {
+      "url": "https://nichegamer.com/phantom-blade-zero-passes-400000-concurrent-steam-players-at-launch/",
+      "title": "Phantom Blade Zero passes 400,000 concurrent Steam players at launch - Niche Gamer"
+    },
+    {
+      "url": "https://egw.news/gaming/news/38117/phantom-blade-zero-launches-with-over-430-000-play-1YJFwJvJh",
+      "title": "Phantom Blade Zero Hits 434K Players on Steam at Launch"
+    },
+    {
+      "url": "https://ground.news/article/phantom-blade-zero-goes-crazy-on-steam-hitting-over-700k-players-on-its-second-day-so-far",
+      "title": "Phantom Blade Zero Goes Crazy On Steam, Hitting Over 700K Players On Its Second Day So Far"
+    },
+    {
+      "url": "https://www.invenglobal.com/articles/27869/phantom-blade-zero-surpasses-400000-concurrent-players-within-1-hour-of-launch",
+      "title": "'Phantom Blade Zero' Surpasses 400,000 Concurrent Players Within 1 Hour of Launch - Inven Global"
+    },
+    {
+      "url": "https://www.gamemeca.com/en/view.php?gid=1782708",
+      "title": "[Today's steam] Succeeding Black Myth: Wukong? Phantom Blade Zero hits 700K concurrent players on day one - Gamemeca"
+    },
+    {
+      "url": "https://samlover.com/2026/10/30/phantom-blade-zero-concurrent-players/amp/",
+      "title": "Phantom Blade Zero Concurrent Players Top 723,000 on Steam"
+    },
+    {
+      "url": "https://store.steampowered.com/charts?snr=1_5_9__global-header",
+      "title": "Steam Charts"
+    },
+    {
+      "url": "https://finance.biggo.com/news/d4e37aec-d16b-48b4-aa55-5f375a6239f2",
+      "title": "Phantom Blade Zero Tops Steam Best-Sellers Immediately After Unlock, Concurrent Players Exceed 430,000 Within Three Hours \u2014 BigGo Finance"
+    },
+    {
+      "url": "https://www.techjuice.pk/phantom-blade-zero-is-already-dominating-steam-top-sellers-list/",
+      "title": "Phantom Blade Zero is Already Dominating Steam Top Sellers List!"
+    },
+    {
+      "url": "https://www.enostech.com/phantom-blade-zero-tops-steam-charts/",
+      "title": "Phantom Blade Zero tops steam charts before launch - EnosTech.com"
+    },
+    {
+      "url": "https://gg.deals/deal/phantom-blade-zero-is-already-steams-1-top-seller-heres-how-to-get-it-up-to-30-cheaper/",
+      "title": "Phantom Blade Zero is already Steam's #1 top seller! Here's how to get it up to 37% cheaper"
+    },
+    {
+      "url": "https://insider-gaming.com/phantom-blade-zero-crosses-mw4-to-become-top-seller-on-steam/",
+      "title": "Phantom Blade Zero Becomes Top Seller on Steam Ahead of Release - Insider Gaming"
+    },
+    {
+      "url": "https://www.globaltimes.cn/page/202610/1373259.shtml",
+      "title": "Chinese \u2018wuxia\u2019 game \u2018Phantom Blade Zero\u2019 tops bestseller list on digital distribution platform Steam - Global Times"
+    },
+    {
+      "url": "https://www.pcgamesn.com/phantom-blade-zero/steam-best-seller-player-count",
+      "title": "Phantom Blade Zero explodes on Steam, and its creator is \"deeply grateful\" to his team"
+    },
+    {
+      "url": "https://www.pcgamesn.com/steam-machine/launch",
+      "title": "Steam Machine release date, specs, and price"
+    },
+    {
+      "url": "https://www.pcguide.com/console/steam-machine-release-date-specs-price/",
+      "title": "Steam Machine release date, specs, and price - PC Guide"
+    },
+    {
+      "url": "https://tech-insider.org/steam-machine-2026/",
+      "title": "Steam Box Release Date: Steam Machine at $1,049, 6x Deck Power [2026]"
+    },
+    {
+      "url": "https://allthings.how/steam-machine-release-date-price-and-full-specs/",
+      "title": "Steam Machine: Release Date, Price, and Full Specs (June 2026)"
+    },
+    {
+      "url": "https://tech-insider.org/steam-machine-pre-orders-2026/",
+      "title": "Steam Machine Pre-Orders 2026: $1,049, Shipped June 29"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam_Machine_(2026)",
+      "title": "Steam Machine"
+    },
+    {
+      "url": "https://vr.org/articles/steam-machine-1049-june-30-launch-price-ceiling-steam-frame",
+      "title": "Steam Machine Lands at $1,049 on June 30, and It Just Set the Price Ceiling for Steam Frame"
+    },
+    {
+      "url": "https://store.steampowered.com/charts/",
+      "title": "Steam Charts"
+    },
+    {
+      "url": "https://tech-insider.org/ca/steam-machine-weekly-sales-2026/",
+      "title": "Steam Machine Sales: 12K-15K Units Weekly [2026]"
+    },
+    {
+      "url": "https://www.pcguide.com/news/valve-is-selling-up-to-15600-steam-machines-per-week-say-latest-estimates-while-it-sits-in-top-sellers-chart/",
+      "title": "Valve is selling up to 15,600 Steam Machines per week, say latest estimates, while it sits in top sellers chart - PC Guide"
+    },
+    {
+      "url": "https://www.statista.com/statistics/1333069/steam-weekly-game-charts/",
+      "title": "Steam: weekly best-selling video games weekly 2026"
+    },
+    {
+      "url": "https://store.steampowered.com/charts/topsellers/US/2026-9-22",
+      "title": "Weekly Top Sellers - For Tue, September 22, 2026 - Tue, September 29, 2026"
+    },
+    {
+      "url": "https://store.steampowered.com/charts/topsellers/US/2026-8-25",
+      "title": "Weekly Top Sellers - For Tue, August 25, 2026 - Tue, September 1, 2026"
+    },
+    {
+      "url": "https://www.xeznaff.com/post/final-fantasy-resonance-hits-8-globally-on-steam-s-weekly-top-sellers-chart-4-among-paid-titles",
+      "title": "Final Fantasy Resonance Hits #8 Globally on Steam\u2019s Weekly Top Sellers Chart, #4 Among Paid Titles"
+    },
+    {
+      "url": "https://www.vgchartz.com/article/469476/call-of-duty-modern-warfare-4-and-final-fantasy-resonance-debut-on-the-steam-charts/",
+      "title": "Call of Duty: Modern Warfare 4 and Final Fantasy Resonance Debut on the Steam Charts"
+    }
+  ]
+}

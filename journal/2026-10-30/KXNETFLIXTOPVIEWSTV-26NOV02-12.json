@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "ticker": "KXNETFLIXTOPVIEWSTV-26NOV02-12",
+  "event": "KXNETFLIXTOPVIEWSTV-26NOV02",
+  "series": "KXNETFLIXTOPVIEWSTV",
+  "title": "Will the #1 Show on Netflix have at least 12 million views?",
+  "rules": "If the #1 Show on Netflix has at least 12 million views on the chart published on Nov 3, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This market specifically encompasses the number of \u201cViews\u201d (not hours viewed) of\nthe top Show ranked on Netflix\u2019s weekly charts for Global \"Shows  | English\"  chart.\n\nThe Netflix charts are updated on Tuesday. Therefore, the market will close at 11:59 PM ET the day before. The chart published on Nov 3, 2026 will be for the week ending the previous Sunday.\n\nThis market and these products have not been endorsed by Netflix. Any references to Netflix, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Netflix and Kalshi.",
+  "close_time": "2026-11-03T04:59:00+00:00",
+  "expected_close_time": "2026-11-03T04:59:00+00:00",
+  "forecast_at": "2026-10-30T21:59:47.521094+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.32",
+    "reasoning": "The current English TV leaders are weak: Below fell to 7.7M in its third week and Nobody Wants This S3 opened with 6.2M. The likely #1 for Oct 26\u2013Nov 1 is the new docuseries 'The One About Matthew Perry', which was #2 on FlixPatrol's daily chart on Oct 29 behind the non-English Lupin. A celebrity docuseries in a partial debut week can reach 12M, but that is above the typical outcome, so YES is less likely than not.",
+    "falsifier": "Netflix's Nov 3 chart shows 'The One About Matthew Perry' (or another new English series) at #1 with 12M+ views.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1100",
+    "best_yes_ask": "0.2800",
+    "p_market": "0.1950"
+  },
+  "final": {
+    "p_yes": "0.27",
+    "action": "pass",
+    "reasoning": "The thin orderbook pulled my estimate down slightly, from 0.32 to 0.27. That sits above the 0.195 midpoint but at or below the 0.28 ask, so buying YES has little edge given my uncertainty about the Matthew Perry docuseries' release timing and format."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.netflix.com/tudum/top10/tv",
+      "title": "Top 10 Shows on Netflix Right Now - Netflix Tudum"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/top-10-october-19-2026",
+      "title": "Top 10 Movies and Shows on Netflix: Week of October 19, 2026 - Netflix Tudum"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/top-10-october-12-2026",
+      "title": "Top 10 Movies and Shows on Netflix: Week of October 12, 2026 - Netflix Tudum"
+    },
+    {
+      "url": "https://flixpatrol.com/hours/",
+      "title": "Hours Viewed Last Week \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/top-10-october-5-2026",
+      "title": "Top 10 Movies and Shows on Netflix: Week of October 5, 2026 - Netflix Tudum"
+    },
+    {
+      "url": "https://screenrant.com/netflix-shows-2026-most-watched/",
+      "title": "Netflix's 10 Most Watched 2026 TV Shows (Updated Through October)"
+    },
+    {
+      "url": "https://variety.com/2026/tv/news/i-will-find-you-netflix-ratings-record-1236822866/",
+      "title": "\u2018I Will Find You\u2019 Becomes Netflix\u2019s No. 10 Most-Popular English-Language TV Series of All Time"
+    },
+    {
+      "url": "https://www.channelcanada.com/streaming-tv/netflix/netflix-top-10-week-of-october-19-below-and-animals-hold-the-no-1-spot-for-a-third-week/",
+      "title": "Netflix Top 10: Week of October 19 - Below and Animals Hold the No. 1 Spot for a Third Week - Channel Canada"
+    },
+    {
+      "url": "http://thefutoncritic.com/ratings/2026/10/20/netflix-top-10-week-of-october-12-get-the-ransom-ready-animals-takes-the-no-1-spot-for-a-second-week-461015/20261020netflix05/",
+      "title": "Ratings - Netflix Top 10: Week of October 12 - Get the Ransom Ready: \"Animals\" Takes the No. 1 Spot for a Second Week"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts/",
+      "title": "Netflix Top 10s: Josh Hartnett's 'Below' and Ben Affleck's 'Animals' Top The Charts"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/new-on-netflix",
+      "title": "New on Netflix in October 2026 - Netflix Tudum"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-october-2026/",
+      "title": "Full List of What\u2019s Coming to Netflix in October 2026"
+    },
+    {
+      "url": "https://www.tvguide.com/news/new-on-netflix-october-2026/",
+      "title": "New Netflix Shows and Movies in October 2026 - TV Guide"
+    },
+    {
+      "url": "https://www.indiewire.com/lists/best-new-netflix-shows-october-2026-full-list/",
+      "title": "Best New Netflix Shows in October 2026 \u2014 Full List + Top Picks"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/what-to-watch-on-netflix-october-16-2026",
+      "title": "What to Watch on Netflix: October 16, 2026"
+    },
+    {
+      "url": "https://www.tomsguide.com/entertainment/netflix/new-on-netflix-october-2026-5-best-movies-and-shows-to-stream-plus-full-release-list",
+      "title": "New on Netflix in October 2026: 5 best movies and shows to stream, plus full release list"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-3-2026/",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 3, 2026"
+    },
+    {
+      "url": "https://screenrant.com/best-new-netflix-shows-to-watch-week-october-26-2026/",
+      "title": "5 Best New Netflix Series To Binge-Watch This Week (October 26\u201330, 2026)"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/what-to-watch/8-best-new-series-on-netflix-in-october-2026/",
+      "title": "8 Best New Series on Netflix in October 2026"
+    },
+    {
+      "url": "https://theviewersperspective.com/2026/09/27/everything-coming-to-netflix-in-october-2026/",
+      "title": "Netflix October 2026: Everything Coming This Month"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-new-on-netflix-this-week-october-5-2026/",
+      "title": "What's Coming to Netflix This Week: October 6th to 11th, 2026"
+    },
+    {
+      "url": "https://www.thebiglead.com/netflix-october-2026-new-releases-full-list-everything-coming/",
+      "title": "Netflix October 2026 new releases, full list of everything coming this month"
+    },
+    {
+      "url": "https://top10-best.com/entertainment/top-10-most-popular-netflix-shows-right-now/",
+      "title": "Top 10 Most Popular Netflix Shows Right Now"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10/tv-non-english",
+      "title": "Top 10 Non-English Shows on Netflix Right Now - Netflix Tudum"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/netflix/",
+      "title": "TOP 10 on Netflix in the World on October 29, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://www.nielsen.com/data-center/top-ten/",
+      "title": "Nielsen Top 10"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/top-10-title-search/",
+      "title": "Search Netflix Global Top 10 Hours / Views"
+    },
+    {
+      "url": "https://qz.com/netflix-most-watched-shows-movies-2026",
+      "title": "Netflix top 10: most-watched shows and movies 2026 - Quartz"
+    },
+    {
+      "url": "https://www.bgr.com/entertainment/netflix-top-10/",
+      "title": "Netflix Top 10: The Most-Watched Series In The World Right Now - BGR"
+    },
+    {
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-26-to-november-1-2026/",
+      "title": "What\u2019s Coming to Netflix This Week: October 26 to November 1, 2026"
+    },
+    {
+      "url": "https://www.howtogeek.com/netflix-movies-to-watch-this-week-october-26/",
+      "title": "4 new Netflix movies to watch this week (October 26-November 1)"
+    },
+    {
+      "url": "https://www.tomsguide.com/entertainment/netflix/5-best-new-to-netflix-movies-and-shows-to-stream-this-week-oct-26-nov-1",
+      "title": "5 best new to Netflix movies and shows to stream this week (Oct. 26-Nov. 1)"
+    },
+    {
+      "url": "https://ottweek.com/new-on-netflix-this-week",
+      "title": "19 new releases on Netflix this week \u2014 Oct 26\u2013Nov 1, 2026 \u00b7 OTTweek"
+    },
+    {
+      "url": "https://www.tvinsider.com/1292723/october-2026-streaming-guide-netflix-hulu-paramount-more/",
+      "title": "October 2026 Streaming Guide: What's New on Netflix, Hulu & More"
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/the-one-about-matthew-perry-release-date-news",
+      "title": "Matthew Perry Documentary: True Story About Friends Chandler Bing Actor Revealed on Netflix - Netflix Tudum"
+    },
+    {
+      "url": "https://variety.com/2026/tv/reviews/the-one-about-matthew-perry-review-netflix-1236931448/",
+      "title": "'The One About Matthew Perry' Review: Netflix Docuseries Is Tragic"
+    },
+    {
+      "url": "https://variety.com/2026/tv/news/the-one-about-matthew-perry-trailer-netflix-1236877519/",
+      "title": "Netflix Matthew Perry Doc Releases Trailer, The One About Matthew Perry"
+    },
+    {
+      "url": "https://www.mensjournal.com/entertainment/3-years-after-his-death-matthew-perrys-netflix-series-is-the-no-1-show-in-america",
+      "title": "The One About Matthew Perry Is Netflix\u2019s No. 1 Show - Men's Journal"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_One_About_Matthew_Perry",
+      "title": "The One About Matthew Perry"
+    },
+    {
+      "url": "https://www.bostonglobe.com/2026/10/28/arts/the-one-about-matthew-perry/",
+      "title": "Netflix docuseries \u2018The One About Matthew Perry\u2019 explores addiction"
+    },
+    {
+      "url": "https://variety.com/2026/tv/news/matthew-perry-documentary-netflix-october-release-date-1236847540/",
+      "title": "Matthew Perry Documentary Set at Netflix With October Release Date"
+    },
+    {
+      "url": "https://www.thewrap.com/creative-content/reviews/the-one-about-matthew-perry-netflix-documentary-review/",
+      "title": "The One About Matthew Perry Review: Netflix\u2019s Touching Doc About Friends Star"
+    },
+    {
+      "url": "https://deadline.com/2026/09/netflix-documentary-the-one-about-matthew-perry-1237063329/",
+      "title": "Netflix Sets New Documentary 'The One About Matthew Perry'"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/",
+      "title": "TOP 10 on Streaming in the World on October 30, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/streaming/united-states/",
+      "title": "TOP 10 on Streaming in the United States on October 30, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://flixpatrol.com/",
+      "title": "TOP 10 on Streaming in the World \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/netflix/united-states/",
+      "title": "TOP 10 on Netflix in the United States on October 28, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://editorial.rottentomatoes.com/guide/best-netflix-shows-and-movies-to-binge-watch-now/",
+      "title": "100 Best Netflix Series To Watch Right Now (October 2026)"
+    },
+    {
+      "url": "https://flixpatrol.com/top10/netflix/serbia/",
+      "title": "TOP 10 on Netflix in Serbia on October 30, 2026 \u2022 FlixPatrol"
+    },
+    {
+      "url": "https://collider.com/netflix-shows-binge-weekend-october-31-2026/",
+      "title": "3 Elite Netflix Series to Binge This Weekend (Oct 31-Nov 1)"
+    }
+  ]
+}
