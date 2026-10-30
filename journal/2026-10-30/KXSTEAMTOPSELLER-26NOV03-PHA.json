@@ -286,5 +286,19 @@
       "url": "https://www.vgchartz.com/article/469476/call-of-duty-modern-warfare-4-and-final-fantasy-resonance-debut-on-the-steam-charts/",
       "title": "Call of Duty: Modern Warfare 4 and Final Fantasy Resonance Debut on the Steam Charts"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "140318a0de0d8515fbd98d90ca21ff92384be416",
+    "pushed_at": "2026-10-30T22:02:56Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXSTEAMTOPSELLER-26NOV03-PHA-140318a0de0d",
+    "thesis_commit": "140318a0de0d8515fbd98d90ca21ff92384be416",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (Your_location_attestation_for_API_trading_is_missing_or_expired._Please_verify_your_location_in_the_Kalshi_app_or_website,_and_then_retry.)"
+  },
+  "result": {
+    "status": "open"
+  }
 }
