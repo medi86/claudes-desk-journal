@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUMPMENTIONB-26NOV01-FARM",
+  "event": "KXTRUMPMENTIONB-26NOV01",
+  "series": "KXTRUMPMENTIONB",
+  "title": "What will Donald Trump say during midterm rally in Salina, Kansas originally scheduled for October 31, 2026 and rescheduled for November 1, 2026? Farm / Farmer",
+  "rules": "If \n Donald Trump says Farm / Farmer as part of midterm rally in Salina, Kansas originally scheduled for October 31, 2026 and rescheduled for November 1, 2026\n, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\nVideo of the midterm rally in Salina, Kansas originally scheduled for October 31, 2026 and rescheduled for November 1, 2026 using the live broadcast or stream.\nIf a consensus by Kalshi employees cannot be reached using video, internal & external (official) transcripts of the midterm rally in Salina, Kansas originally scheduled for October 31, 2026 and rescheduled for November 1, 2026 will be used.\n\nPayout Criteria\nThe exact phrase/word, or a plural or possessive form of the phrase/word. \nPlural nouns occurring within proper nouns and noun phrases (e.g. names, titles, etc).\nDonald Trump speaking in an official capacity.\nFor phrases with slashes like \"Doge/Dogecoin,\" either word satisfies the criterion.\n\nDoesn't count for payout\nGrammatical/tense inflections are otherwise not included. \nPresence alone during a livestream is not sufficient for the market to qualify (e.g., inaudible private conversations on camera, unofficial statements picked up on a hot mic).\nExcept as otherwise specified, previously aired content, archival footage, and recordings captured at times, places, or events wholly separate from the featured address.\n\nPayout for cancellations and delays\nIf an event is definitively cancelled or the event fails to qualify under the Payout Criterion, or any other circumstance prevents normal resolution, then the market for \"Event does not qualify\" resolves to Yes and all other markets will resolve to No.  \nIf the event is postponed, and such a postponement is announced by the end of the following calendar day to be rescheduled to a time within 14 calendar days, the markets shall remain open.",
+  "close_time": "2026-11-14T15:00:00+00:00",
+  "expected_close_time": "2026-11-14T15:00:00+00:00",
+  "forecast_at": "2026-10-31T17:41:06.612778+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.91",
+    "reasoning": "The Salina rally was cancelled, then officially rescheduled for Sunday, Nov. 1 at the Salina airport hangar, and it is listed on the GOP events site. Trump's long rally speeches, especially in farm states like Kansas, almost always praise or discuss farmers, tariffs and agriculture. The main risk is another cancellation or an unusually short appearance.",
+    "falsifier": "The Nov. 1 Salina rally is cancelled again or turned into a tele-rally, or the full transcript or video shows Trump never said 'farm,' 'farmer,' 'farmers' or a possessive form.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.8300",
+    "best_yes_ask": "0.8500",
+    "p_market": "0.8400"
+  },
+  "final": {
+    "p_yes": "0.89",
+    "action": "buy_yes",
+    "reasoning": "The market at 0.84 seems to price in substantial cancellation risk. I shade down slightly for that, but the rally is officially rescheduled and Trump almost always mentions farmers in a farm-state speech, so 0.89 is still above the ask."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.84",
+    "count": 1,
+    "cost": "0.84",
+    "clamped_from": null
+  },
+  "sources": [
+    {
+      "url": "https://www.wibw.com/2026/10/29/president-cancels-salina-rally/",
+      "title": "President cancels Salina rally"
+    },
+    {
+      "url": "https://www.audacy.com/knss/news/local/trump-kansas-2678173426",
+      "title": "Salina is back on Trump's rally schedule, for Sunday afternoon"
+    },
+    {
+      "url": "https://www.ksnt.com/news/politics/president-trump-to-rally-in-salina-on-sunday/",
+      "title": "President Trump to rally in Salina, Kansas on Sunday"
+    },
+    {
+      "url": "https://www.kake.com/home/president-trump-cancels-rally-at-salina-regional-airport-to-host-tele-rally-instead/article_0fd37882-a640-4f47-8d20-7ffcf4da070a.html",
+      "title": "President Trump cancels rally at Salina Regional Airport, to ..."
+    },
+    {
+      "url": "https://www.ksn.com/news/your-local-election-hq/president-trumps-rally-in-salina-is-canceled/",
+      "title": "President Trump\u2019s rally in Salina is canceled"
+    },
+    {
+      "url": "https://www.kake.com/home/control-of-the-senate-hangs-over-kansas-race-as-trump-returns-to-campaign-for-marshall/article_0b47f272-b740-4c9a-ad0d-8fed0495116f.html",
+      "title": "Control of the Senate hangs over Kansas race as Trump returns to campaign for Marshall"
+    },
+    {
+      "url": "https://salinapost.com/posts/d44c1e25-a8a9-4c13-80eb-ea465da6be34",
+      "title": "Trump\u2019s rally in Salina is now back on for Sunday"
+    },
+    {
+      "url": "https://www.fourstateshomepage.com/news/your-local-election-headquarters/president-trump-to-rally-in-salina-kansas-on-sunday/",
+      "title": "President Trump to rally in Salina, Kansas on Sunday"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/president-trump-rally-salina-sunday-142438170.html",
+      "title": "President Trump to rally in Salina on Sunday"
+    },
+    {
+      "url": "https://www.wibw.com/2026/10/30/back-president-reportedly-reschedules-kansas-rally/",
+      "title": "Back on? President reportedly reschedules Kansas rally"
+    },
+    {
+      "url": "https://www.salina311.com/stories/2026-10-30-breaking-reports-say-trumps-salina-visit-is-back-on-for-sunday/",
+      "title": "UPDATE: Trump's Sunday Salina rally to start at 4:30 p.m. - Salina311"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/28/president-hold-saturday-rally-salina-regional-airport-county-adjusts-early-voting-hours/",
+      "title": "\u2018He\u2019s doing very well\u2019: President Trump responds to decision to cancel Salina rally"
+    },
+    {
+      "url": "https://www.newsbytesapp.com/news/world/donald-trump-reinstates-salina-and-dubuque-nov-1-rallies/tldr",
+      "title": "Donald Trump reinstates Salina and Dubuque Nov. 1 rallies"
+    },
+    {
+      "url": "https://www.kwch.com/2026/10/30/kansas-rally-rescheduled-trump-will-be-salina-sunday/",
+      "title": "Kansas rally rescheduled: Trump will be in Salina on Sunday"
+    },
+    {
+      "url": "https://www.ksn.com/news/state-regional/president-trump-to-rally-in-kansas-on-sunday/",
+      "title": "President Trump to rally in Salina, Kansas on Sunday"
+    },
+    {
+      "url": "https://www.kcur.org/2026-10-30/trump-un-cancels-kansas-rally-and-will-now-visit-sunday-to-support-marshalls-tight-senate-race",
+      "title": "Trump uncancels Kansas rally. He'll now visit Sunday to support Marshall's tight Senate race"
+    },
+    {
+      "url": "https://www.kake.com/home/trump-will-rally-in-salina-after-initially-canceling-weekend-trips-before-midterms/article_0795615c-5161-5243-ae60-4104e3f18e34.html",
+      "title": "Salina rally confirmed for Trump ahead of crucial midterms"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487",
+      "title": "Trump uncancels weekend rallies in Iowa and Kansas with Senate control at stake"
+    },
+    {
+      "url": "https://www.kshb.com/news/local-news/trump-rally-back-on-president-will-stump-for-sen-marshall-sunday-in-salina",
+      "title": "Trump rally back on: President will stump for Sen. Marshall Sunday in Salina"
+    },
+    {
+      "url": "https://www.rawstory.com/trump-rally-cancel-cnn-new/",
+      "title": "'My spidey sense is tingling': CNN host suspicious of 'very very odd' Trump move - Raw Story"
+    },
+    {
+      "url": "https://www.whitehouse.gov/videos/president-trump-delivers-remarks-to-farmers-on-the-south-lawn/",
+      "title": "President Trump Delivers Remarks to Farmers on the South Lawn"
+    },
+    {
+      "url": "https://salinapost.com/posts/f8173be9-6efd-4e82-9c4d-a36afc1f8ff8",
+      "title": "President Trump coming to Salina Saturday"
+    },
+    {
+      "url": "https://www.kake.com/home/president-trump-cancels-rally-at-salina-regional-airport/article_0fd37882-a640-4f47-8d20-7ffcf4da070a.html",
+      "title": "President Trump cancels rally at Salina Regional Airport"
+    },
+    {
+      "url": "https://thehill.com/homenews/campaign/6181843-donald-trump-kansas-senate-race-rally-canceled/",
+      "title": "Donald Trump cancels Kansas rally, opts for virtual event as midterms loom"
+    },
+    {
+      "url": "https://www.kake.com/president-trump-cancels-rally-at-salina-regional-airport-to-host-tele-rally-instead/article_0fd37882-a640-4f47-8d20-7ffcf4da070a.html",
+      "title": "President Trump cancels rally at Salina Regional Airport, to host \u2018tele-rally\u2019 instead"
+    },
+    {
+      "url": "https://www.ksal.com/airport-preparing-to-host-up-to-10000-peiple/",
+      "title": "UPDATE: Salina Trump Rally Cancelled"
+    },
+    {
+      "url": "https://nbcnews.com/politics/trump-administration/live-blog/trump-rally-florida-comey-peltola-2026-congress-live-updates-rcna606478",
+      "title": "Trump campaigns in Florida ahead of weekend rallies in final midterm blitz"
+    },
+    {
+      "url": "https://events.gop.com/events/midterm-rally-in-ks-president-donald-j-trump-djt47-salina-ks",
+      "title": "Midterm Rally in Salina, Kansas featuring President Donald J. Trump"
+    },
+    {
+      "url": "https://www.rsbnetwork.com/news/tune-in-president-trump-to-hold-rallies-in-iowa-and-kansas/",
+      "title": "TUNE IN: President Trump to hold rallies in Iowa and Kansas"
+    }
+  ]
+}

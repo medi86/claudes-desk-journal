@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "ticker": "KXVOTEHEGSETHIMPEACH-26OCT-NOV14",
+  "event": "KXVOTEHEGSETHIMPEACH-26OCT",
+  "series": "KXVOTEHEGSETHIMPEACH",
+  "title": "Will the House vote on impeaching Pete Hegseth? Before Nov 14, 2026",
+  "rules": "If the House has conducted any recorded vote on any resolution impeaching Pete Hegseth, any motion to table, refer, or postpone such a resolution, or any special rule that specifically refers to such a resolution after Issuance and before Nov 14, 2026, then the market resolves to Yes.",
+  "rules_secondary": "This includes:\nRoll call votes\nRecorded votes\nYea-and-nay votes\nElectronic votes (in the House)\nDivision/standing votes\n\nThe following do NOT satisfy the Payout Criterion:\nVoice votes where individual member positions are not recorded, including a motion to table, refer, or postpone that is agreed to by voice vote\nUnanimous consent agreements without a recorded vote\nVotes in committee, including any vote of the House Judiciary Committee\nProcedural determinations by the presiding officer, including a ruling on whether a resolution is privileged, and any vote on an appeal of such a ruling\nDeemed passage without an actual vote\nA Member giving notice of intent to offer, reading, or introducing a resolution impeaching Pete Hegseth\nA vote on adjourning or recessing, or on any special rule or other measure that does not specifically refer to a resolution impeaching Pete Hegseth\nA vote on an amendment to a resolution impeaching Pete Hegseth\nA vote on a resolution that only authorizes or directs an impeachment inquiry or investigation of Pete Hegseth\n\nFor clarity, each of the following DOES satisfy the Payout Criterion, whatever the outcome of the vote:\nA vote on adopting a resolution impeaching Pete Hegseth, or on any article of it\nA vote on a motion to table, refer, or postpone a resolution impeaching Pete Hegseth\nA vote on whether the House will consider a resolution impeaching Pete Hegseth, or on ordering the previous question on it\nA vote on a special rule that specifically refers to a resolution impeaching Pete Hegseth, including ordering the previous question on that rule, whether the rule provides for the resolution's consideration, lays it on the table, refers it, or delays or waives the time for its consideration",
+  "close_time": "2026-11-14T04:59:00+00:00",
+  "expected_close_time": "2026-11-14T04:59:00+00:00",
+  "forecast_at": "2026-10-31T17:41:06.612778+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.52",
+    "reasoning": "Rep. Massie has promised to force a privileged vote on impeaching Hegseth in the first week of the lame-duck session, which begins Nov 9. Once he gives notice, the Speaker must schedule a vote within two legislative days, and a recorded motion to table would count. The window before the Nov 13 deadline is only about four days, and Veterans Day falls in it, so any delay in Massie's notice, a light House schedule, leadership stalling, or Hegseth leaving office first could push the vote past the deadline.",
+    "falsifier": "Massie gives notice later than Tuesday Nov 10, the House leaves before the two-legislative-day window closes, or Trump fires Hegseth or he resigns before a vote, so no recorded vote happens by Nov 13.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.4100",
+    "best_yes_ask": "0.4200",
+    "p_market": "0.4150"
+  },
+  "final": {
+    "p_yes": "0.48",
+    "action": "buy_yes",
+    "reasoning": "The market's 0.415 suggests more timing risk than I assumed, so I lowered my estimate to 0.48. That still sits above the 0.42 ask, given Massie's stated 'week one' plan and the two-legislative-day rule forcing a vote soon after his notice."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "bid",
+    "price": "0.4100",
+    "count": 1,
+    "cost": "0.4100",
+    "clamped_from": "0.43"
+  },
+  "sources": [
+    {
+      "url": "https://news.bgov.com/bloomberg-government-news/house-to-vote-on-impeaching-hegseth-under-maneuver-by-massie",
+      "title": "House to Vote on Impeaching Hegseth Under Maneuver by Massie"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/congress/house-leave-early-punting-hegseth-impeachment-vote-november-elections-rcna598147",
+      "title": "House to leave early, punting Hegseth impeachment vote until after November elections"
+    },
+    {
+      "url": "https://www.newsweek.com/pete-hegseth-thomas-massie-impeachment-iran-war-12445811",
+      "title": "Pete Hegseth Impeachment Vote Led by Thomas Massie Delayed - Newsweek"
+    },
+    {
+      "url": "https://thehill.com/homenews/house/6105122-trump-administration-iran-war-controversy/",
+      "title": "Pete Hegseth confronts House with a lame-duck impeachment dilemma"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/why-house-let-out-early-matter-debate-johnson-says-chamber-has-done-its-work",
+      "title": "Rep Thomas Massie claims Johnson dodged Pete Hegseth impeachment vote"
+    },
+    {
+      "url": "https://www.military.com/republican-lawmaker-forces-house-vote-to-impeach-hegseth-over-iran-war",
+      "title": "Republican Rep. Thomas Massie Forces House Vote This Week to Impeach Defense Secretary Pete Hegseth Over Iran War"
+    },
+    {
+      "url": "https://us.headtopics.com/news/could-pete-hegseth-be-impeached-what-a-democratic-midterm-89384900",
+      "title": "Could Pete Hegseth be impeached? What a Democratic midterm win could mean"
+    },
+    {
+      "url": "https://www.thedailynewsonline.com/news/massie-vows-week-one-vote-in-lame-duck-to-impeach-hegseth/article_24d56c55-f426-442f-a13d-4329791d2733.html",
+      "title": "Massie vows \u2018week one\u2019 vote in lame duck to impeach Hegseth"
+    },
+    {
+      "url": "https://thehill.com/homenews/house/6152919-massie-calls-trump-fire-hegseth/",
+      "title": "Thomas Massie urges Donald Trump to fire Pete Hegseth ahead of potential impeachment vote"
+    },
+    {
+      "url": "https://www.wuky.org/wuky-news/2026-10-29/massie-preparing-to-resurrect-hegseth-impeachment-articles-in-lame-duck-session",
+      "title": "Massie preparing to resurrect Hegseth impeachment articles in lame duck session"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/vote-pete-hegseth-impeachment-way-194132322.html",
+      "title": "Vote on Pete Hegseth\u2019s impeachment is on the way \u2014 and it probably won\u2019t be the last"
+    },
+    {
+      "url": "https://www.rawamerica.com/p/breaking-republican-confirms-hell",
+      "title": "Breaking: Republican Confirms He\u2019ll Force Hegseth Impeachment Vote in November"
+    },
+    {
+      "url": "https://cnn.com/2026/10/30/politics/pete-hegseth-impeachment-democrats",
+      "title": "Pete Hegseth\u2019s political future could be on the line if Democrats win the House"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-warns-dems-not-impeach-213159271.html",
+      "title": "Trump Warns Dems to Not Impeach Hegseth If They Win House. A Republican Is Already Planning to After the Midterms"
+    },
+    {
+      "url": "https://thenationaldesk.com/news/americas-news-now/massie-says-he-will-reintroduce-impeachment-articles-against-hegseth-after-midterms-defense-secretary-congress-mike-johnson-hakeem-jeffries-president-trump-rrt",
+      "title": "Massie says he will reintroduce impeachment articles against Hegseth after midterms"
+    },
+    {
+      "url": "https://www.europesays.com/3334162/",
+      "title": "Massie vows 'week one' vote in lame duck to impeach Hegseth - EUROPE SAYS"
+    },
+    {
+      "url": "https://rollcall.com/2026/10/26/massie-vows-week-one-vote-in-lame-duck-to-impeach-hegseth/",
+      "title": "Massie vows 'week one' vote in lame duck to impeach Hegseth - Roll Call"
+    },
+    {
+      "url": "https://massie.house.gov/uploadedfiles/articles_of_impeachment_sec._hegseth.pdf",
+      "title": "impeaching Peter Brian Hegseth, Secretary of Defense, for ..."
+    },
+    {
+      "url": "https://www.foxnews.com/politics/hitchhikers-guide-massie-saying-johnson-sending-house-home-early-prevent-hegseth-impeachment",
+      "title": "The Hitchhiker\u2019s Guide to Massie saying Johnson is sending the House home early to prevent Hegseth impeachment"
+    },
+    {
+      "url": "https://www.thelcn.com/news/massie-vows-week-one-vote-in-lame-duck-to-impeach-hegseth/article_515d8e58-16e4-5630-b8fe-5dea985227d1.html",
+      "title": "Massie vows \u2018week one\u2019 vote in lame duck to impeach Hegseth"
+    },
+    {
+      "url": "https://abcnews.com/Politics/rep-thomas-massie-forcing-vote-pete-hegseths-impeachment/story?id=136470894",
+      "title": "Rep. Thomas Massie forcing vote on Pete Hegseth's impeachment - ABC News"
+    },
+    {
+      "url": "https://canadiansnowmansays.substack.com/p/the-hegseth-files-the-audience-of",
+      "title": "The Hegseth Files: The Audience of One - by Stephen Gordon"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/30/politics/pete-hegseth-impeachment-democrats",
+      "title": "Pete Hegseth\u2019s political future could be on the line if Democrats win the House"
+    },
+    {
+      "url": "https://www.cnn.com/2026/09/16/politics/house-early-recess-hegseth-impeachment",
+      "title": "House to adjourn early, stave off Hegseth impeachment vote"
+    },
+    {
+      "url": "https://foreignpolicy.com/2026/10/22/hegseth-impeachment-democrats-win-november/",
+      "title": "Hegseth Likely to Face Impeachment on War Powers and War Crimes Charges"
+    },
+    {
+      "url": "https://www.nbclosangeles.com/news/national-international/house-recess-early-hegseth-impeachment-vote-after-november-elections/3943159/",
+      "title": "House to leave early, punting Hegseth impeachment vote until after November elections"
+    },
+    {
+      "url": "https://cbs4local.com/news/nation-world/massie-says-he-will-reintroduce-impeachment-articles-against-hegseth-after-midterms-defense-secretary-congress-mike-johnson-hakeem-jeffries-president-trump-rrt",
+      "title": "Massie says he will reintroduce impeachment articles against Hegseth after midterms"
+    },
+    {
+      "url": "https://www.courthousenews.com/house-republicans-send-lawmakers-home-early-ahead-of-hegseth-impeachment-vote/",
+      "title": "House Republicans send lawmakers home early ahead of Hegseth impeachment vote"
+    },
+    {
+      "url": "https://nolabels.org/the-latest/the-2026-lame-duck-session-what-congress-still-has-to-pass-after-the-midterms/",
+      "title": "The 2026 Lame-Duck Session: What Congress Still Has to Pass After the Midterms - No Labels"
+    },
+    {
+      "url": "https://pressgallery.house.gov/schedules/2026-house-calendar",
+      "title": "2026 House Calendar"
+    },
+    {
+      "url": "https://www.asaonline.com/2026/09/30/prospects-for-the-lame-duck-session/",
+      "title": "Prospects for the Lame-Duck Session - American Subcontractors Association - National (ASA)"
+    },
+    {
+      "url": "https://rollcall.com/2025/11/18/house-2026-calendar-midterm-elections/",
+      "title": "House unveils 2026 calendar as election year nears"
+    },
+    {
+      "url": "https://www.thewilliamsgroupdc.com/insights/beyond-november-3-the-2026-elections-governing-calendar-through-january",
+      "title": "Beyond November 3: The 2026 Election's Governing Calendar Through January \u2014 The Williams Group"
+    },
+    {
+      "url": "https://www.congresscountdown.com/info/congressional-calendar",
+      "title": "Congressional Calendar 2026: Congress Back in Session Nov 9"
+    },
+    {
+      "url": "https://rollcall.com/2025/11/19/senate-calendar-2026-midterm-election/",
+      "title": "Senate releases its 2026 calendar - Roll Call"
+    },
+    {
+      "url": "https://ogletree.com/insights-resources/blog-posts/beltway-buzz-october-30-2026/",
+      "title": "Beltway Buzz, October 30, 2026 - Ogletree"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6176148-trump-hegseth-defense-funding-battle/",
+      "title": "Trump, Congress set to clash over Hegseth, Iran war, Ukraine after election"
+    },
+    {
+      "url": "https://www.alternet.org/trump-hegseth-2677966297/",
+      "title": "Trump gearing up to fire top Cabinet official: retired naval officer - Alternet.org"
+    },
+    {
+      "url": "https://www.aol.com/articles/donald-trump-considering-firing-pete-202726000.html",
+      "title": "Donald Trump Considering Firing Pete Hegseth After Midterms in Attempt to Salvage Legacy as 'Anti-War President,' Reporter Says - AOL"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-faces-call-fire-063135325.html",
+      "title": "Donald Trump Faces a New Call to Fire Pete Hegseth From His Own Party"
+    },
+    {
+      "url": "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/",
+      "title": "Thomas Massie says he'll move to impeach Pete Hegseth if he's not gone after midterms"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6181651-trump-blasts-democrats-hegseth-impeachment/",
+      "title": "Trump blasts Democrats over Pete Hegseth impeachment chatter"
+    },
+    {
+      "url": "https://time.com/article/2026/09/15/massie-hegseth-impeachment-iran/",
+      "title": "Republican Congressman Introduces Articles of Impeachment Against Defense Secretary Pete Hegseth"
+    },
+    {
+      "url": "https://www.theepochtimes.com/us/trump-defends-hegseth-amid-talk-of-impeachment-6110516",
+      "title": "Trump Defends Hegseth Amid Talk of Impeachment"
+    },
+    {
+      "url": "https://www.jpost.com/american-politics/article-912723",
+      "title": "Pete Hegseth could face impeachment as Democrats plot post-midterm moves"
+    }
+  ]
+}
