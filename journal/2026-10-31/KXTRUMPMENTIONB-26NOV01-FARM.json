@@ -158,5 +158,19 @@
       "url": "https://www.rsbnetwork.com/news/tune-in-president-trump-to-hold-rallies-in-iowa-and-kansas/",
       "title": "TUNE IN: President Trump to hold rallies in Iowa and Kansas"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "a032312db5c58acfd1529e1fd2fb4d36c2dc04c4",
+    "pushed_at": "2026-10-31T17:44:08Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUMPMENTIONB-26NOV01-FARM-a032312db5c5",
+    "thesis_commit": "a032312db5c58acfd1529e1fd2fb4d36c2dc04c4",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (Your_location_attestation_for_API_trading_is_missing_or_expired._Please_verify_your_location_in_the_Kalshi_app_or_website,_and_then_retry.)"
+  },
+  "result": {
+    "status": "open"
+  }
 }
