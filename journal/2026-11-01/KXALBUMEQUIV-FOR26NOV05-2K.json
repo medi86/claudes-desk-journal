@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "ticker": "KXALBUMEQUIV-FOR26NOV05-2K",
+  "event": "KXALBUMEQUIV-FOR26NOV05",
+  "series": "KXALBUMEQUIV",
+  "title": "Will Forever by The Big Moon have above 2000 Album Equivalent Units during the October 30, 2026 - November 05, 2026 tracking week? Above 2K",
+  "rules": "If Forever by The Big Moon has above 2K Album Equivalent Units during the October 30, 2026 - November 05, 2026, tracking week, then the market resolves to Yes.",
+  "rules_secondary": "IMPORTANT INFORMATION: This event pertains to the U.S. and will resolve based on the value reported by Luminate\u2019s API as of 10:00 AM ET on the Sunday immediately following the October 30, 2026 - November 05, 2026 tracking week.\n\nLuminate Data, LLC is a neutral provider of market metrics which does not endorse, verify or participate in any way in the outcomes of any prediction market.\n\n",
+  "close_time": "2026-11-08T15:00:00+00:00",
+  "expected_close_time": "2026-11-08T15:00:00+00:00",
+  "forecast_at": "2026-11-01T13:46:13.513336+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.04",
+    "reasoning": "Forever is a UK indie band's fourth album, released Oct 30, 2026, so the market covers its first US week. The Big Moon have a small US audience, and their tour and in-store dates are all in the UK. Reaching 2,000 US album-equivalent units would take roughly 2,000 sales or about 2.5 million on-demand streams in one week, which is far above what a band this size usually does in the US.",
+    "falsifier": "Luminate reports more than 2,000 US album-equivalent units for Forever in its debut week, for example because of a large US vinyl or bundle sale or a viral US streaming surge.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.1400",
+    "best_yes_ask": "0.2100",
+    "p_market": "0.1750"
+  },
+  "final": {
+    "p_yes": "0.06",
+    "action": "buy_no",
+    "reasoning": "The 0.175 midpoint hints traders see more US demand than I do, so I moved up slightly. But 2,000 US first-week units for a UK-focused indie band with UK-only promotion still looks unlikely, so the price seems too high."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.1500",
+    "count": 1,
+    "cost": "0.8500",
+    "clamped_from": "0.11"
+  },
+  "sources": [
+    {
+      "url": "https://open.spotify.com/album/2Olo9hqVde8YRHF5KCp0pS",
+      "title": "Listen to Forever - Album by The Big Moon"
+    },
+    {
+      "url": "https://music.apple.com/gb/album/forever/6777988734",
+      "title": "\u200eForever - Album by The Big Moon - Apple Music"
+    },
+    {
+      "url": "https://faroutmagazine.co.uk/the-big-moon-forever-album-review/",
+      "title": "The Big Moon"
+    },
+    {
+      "url": "https://thebigmoon.tmstor.es/product/forever",
+      "title": "Forever"
+    },
+    {
+      "url": "https://www.thelineofbestfit.com/news/the-big-moon-return-with-announcement-of-fourth-album-forever-and-share-lead-single-gravity",
+      "title": "The Big Moon return with announcement of fourth album, Forever, and share lead single \"Gravity\""
+    },
+    {
+      "url": "https://femmusic.com/2026/10/29/the-big-moon-forever/",
+      "title": "The Big Moon"
+    },
+    {
+      "url": "https://www.clashmusic.com/news/the-big-moon-announce-new-album-forever/",
+      "title": "The Big Moon Announce New Album 'Forever'"
+    },
+    {
+      "url": "https://www.indieisnotagenre.com/the-big-moons-forever-finding-shimmer-in-the-cracks",
+      "title": "The Big Moon's Forever: Finding Shimmer In The Cracks - Indie is not a genre"
+    },
+    {
+      "url": "https://www.israbox-music.com/year/2026/3138295682-the-big-moon-forever-2026.html",
+      "title": "The Big Moon - Forever (2026) DOWNLOAD on ISRABOX"
+    },
+    {
+      "url": "https://www.roughtrade.com/product/the-big-moon/forever-18",
+      "title": "The Big Moon - The Big Moon - Forever"
+    },
+    {
+      "url": "https://www.soundofviolence.net/articles/album/6543/the_big_moon_forever.html",
+      "title": "Chronique album : The Big Moon - Forever - Sound Of Violence"
+    },
+    {
+      "url": "https://diymag.com/news/the-big-moon-fourth-album-forever-gravity-2026-uk-headline-tour",
+      "title": "The Big Moon announce fourth album 'Forever'; release lead single 'Gravity' and announce 2026 UK headline tour \u2022 News \u2022 DIY Magazine"
+    },
+    {
+      "url": "https://vinyl.report/fr/explore/chroniques/the-big-moon-forever-501649",
+      "title": "The Big Moon \u2014 Forever : chronique vinyle \u00b7 Vinyl Report"
+    },
+    {
+      "url": "https://www.thelineofbestfit.com/news/the-big-moon-announce-in-store-tour-with-new-single",
+      "title": "The Big Moon announce in-store tour with new single \"F.O.R.E.V.E.R.\""
+    },
+    {
+      "url": "https://rateyourmusic.com/release/album/the-big-moon/forever/",
+      "title": "Forever by The Big Moon (Album): Reviews, Ratings, Credits, Song list - Rate Your Music"
+    },
+    {
+      "url": "https://www.therealding.com/post/the-big-moon-announce-new-album-forever",
+      "title": "The Big Moon announce new album 'Forever'"
+    },
+    {
+      "url": "https://theneedledrop.com/the-big-moon-announce-new-album-forever-with-lead-track-gravity/",
+      "title": "The Big Moon announce new album 'Forever' with lead track \"Gravity\""
+    },
+    {
+      "url": "https://www.musicomh.com/reviews/albums/the-big-moon-forever",
+      "title": "The Big Moon - Forever"
+    },
+    {
+      "url": "https://www.aol.co.uk/articles/big-moon-forever-review-hell-120043000.html",
+      "title": "The Big Moon: Forever review"
+    },
+    {
+      "url": "https://www.silentradio.co.uk/10/30/album-review-the-big-moon-forever/",
+      "title": "ALBUM REVIEW"
+    },
+    {
+      "url": "https://www.indieisnotagenre.com/the-big-moon-forever-review",
+      "title": "The Big Moon's Forever: Finding Shimmer In The Cracks - Indie is not a genre"
+    },
+    {
+      "url": "https://www.godisinthetvzine.co.uk/2026/10/30/the-big-moon-forever-fiction-records/",
+      "title": "The Big Moon"
+    },
+    {
+      "url": "https://www.musicmusingsandsuch.com/musicmusingsandsuch/2026/11/1/feature-modern-day-queens-the-big-moon",
+      "title": "FEATURE: Modern-Day Queens: The Big Moon \u2014 Music Musings & Such"
+    },
+    {
+      "url": "https://readdork.com/features/the-big-moon-interview-nov26",
+      "title": "The Big Moon: Forever"
+    },
+    {
+      "url": "https://www.nme.com/news/music/the-big-moon-announce-new-album-forever-single-gravity-listen-uk-tour-buy-tickets-3954066",
+      "title": "The Big Moon announce new album 'Forever' with propulsive single 'Gravity' and 2026 UK headline tour"
+    },
+    {
+      "url": "https://music.apple.com/us/album/forever/6777988734",
+      "title": "\u200eForever - Album by The Big Moon - Apple Music"
+    },
+    {
+      "url": "https://www.isrbx.me/3138295682-the-big-moon-forever-2026.html",
+      "title": "The Big Moon - Forever (2026)"
+    },
+    {
+      "url": "https://www.indieisnotagenre.com/the-big-moon-announce-new-album-forever-and-detail-november-2026-uk-tour/",
+      "title": "The Big Moon Announce New Album \u2018Forever\u2019 and Detail November 2026 UK Tour - Indie is not a genre"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/the-big-moon/988822145",
+      "title": "The Big Moon on Apple Music"
+    }
+  ]
+}
