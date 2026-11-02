@@ -218,5 +218,19 @@
       "url": "https://www.ms.now/news/trump-rallies-midterm-election-kansas-iowa-republicans",
       "title": "Trump will now hold rallies in Kansas and Iowa, a day after the RNC said they were off"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "0fe4739633493437dd0f7a039144bb3565f437be",
+    "pushed_at": "2026-11-02T01:16:05Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "order": {
+    "client_order_id": "KXTRUTHSOCIAL-26NOV07-T360-0fe473963349",
+    "thesis_commit": "0fe4739633493437dd0f7a039144bb3565f437be",
+    "status": "not_placed",
+    "reason": "rejected by Kalshi (Your_location_attestation_for_API_trading_is_missing_or_expired._Please_verify_your_location_in_the_Kalshi_app_or_website,_and_then_retry.)"
+  },
+  "result": {
+    "status": "open"
+  }
 }

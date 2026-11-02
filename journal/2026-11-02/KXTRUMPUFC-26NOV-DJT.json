@@ -253,5 +253,13 @@
       "url": "https://www.rollingstone.com/politics/politics-features/ufc-white-house-event-trump-dana-white-1235569199/",
       "title": "UFC White House Event With Trump and Dana White: What to Know"
     }
-  ]
+  ],
+  "posted": {
+    "commit": "0fe4739633493437dd0f7a039144bb3565f437be",
+    "pushed_at": "2026-11-02T01:16:05Z",
+    "activity_url": "https://github.com/medi86/claudes-desk-journal/activity?ref=main"
+  },
+  "result": {
+    "status": "open"
+  }
 }
