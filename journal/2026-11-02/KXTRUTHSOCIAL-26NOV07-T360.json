@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "ticker": "KXTRUTHSOCIAL-26NOV07-T360",
+  "event": "KXTRUTHSOCIAL-26NOV07",
+  "series": "KXTRUTHSOCIAL",
+  "title": "Will Donald Trump make at least 360 Truth Social posts the week of Nov 1, 2026? 360+",
+  "rules": "If the number of Truth Social posts by Donald Trump from Nov 1, 2026 to Nov 7, 2026 is at least 360, then the market resolves to Yes.",
+  "rules_secondary": "How this is resolved\n\nThe observation period begins at 12:00:00 AM ET on Nov 1, 2026 and ends at 11:59:59 PM ET on Nov 7, 2026.\nThe primary resolution source for this market is Roll Call.\nIn the event that Roll Call data is unavailable or inaccurate, alternative sources may be used at Kalshi's discretion.\n\nPayout criteria\n\nTruths, ReTruths, and Quote Truths are included in the total count.\nReplies are included if captured by Roll Call.\n\"Between\" is inclusive of the lower and upper bound.\n\nDoesn\u2019t count for payout: Posts deleted as of 12:00 AM ET.",
+  "close_time": "2026-11-08T14:59:00+00:00",
+  "expected_close_time": "2026-11-08T14:59:00+00:00",
+  "forecast_at": "2026-11-02T01:11:43.206328+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.17",
+    "reasoning": "Trump averaged about 18 posts a day in his first year back in office, and his record month (May 2026, 861 posts) works out to only about 190 a week. Hitting 360 in seven days needs about 51 a day, nearly double that record pace. Election week and his history of 150+ post late-night sprees make a spike plausible, but 360 would still be extreme.",
+    "falsifier": "Roll Call's Factba.se tracker shows one or more 100+ post sprees around Election Day (Nov 3) and a running total above about 200 by Nov 4.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.3300",
+    "best_yes_ask": "0.4200",
+    "p_market": "0.3750"
+  },
+  "final": {
+    "p_yes": "0.27",
+    "action": "buy_no",
+    "reasoning": "The market's 0.375 midpoint suggests recent weekly counts may be near 360, data I didn't find, so I moved up from 17% to 27%. That is still below the midpoint because 360 needs about 51 posts a day, nearly double his record monthly pace."
+  },
+  "decision": {
+    "status": "approved",
+    "reason": null,
+    "side": "ask",
+    "price": "0.3400",
+    "count": 1,
+    "cost": "0.6600",
+    "clamped_from": "0.32"
+  },
+  "sources": [
+    {
+      "url": "https://www.huffpost.com/entry/donald-trump-posts-record-white-house-explains_n_6a1fdcdfe4b032392fa751f2",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.forbes.com/sites/siladityaray/2026/10/26/trump-attacks-bill-maher-in-1300-word-post-days-after-white-house-dinner-calls-him-coward-and-pothead/",
+      "title": "Trump Calls Bill Maher \u2018Coward\u2019 And \u2018Pothead\u2019 In Record-Long 1,300-Word Truth Social Rant"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-sets-new-posting-record-on-truth-social-as-mania-spirals-out-of-control/",
+      "title": "Trump Sets Worrying New Record on Truth Social as Mania Spirals Out of Control"
+    },
+    {
+      "url": "https://www.huffingtonpost.co.uk/entry/donald-trump-record-breaking-truth-social_uk_6a1ff4f1e4b08a03cfbd9f5d",
+      "title": "White House Tries To Explain Trump's Record-Breaking Truth Social Posting Spree"
+    },
+    {
+      "url": "https://time.com/7338077/trump-truth-social-posts-addiction/",
+      "title": "Trump Posts More Than 160 Times in Late-Night Blitz. That's Not Even His Record"
+    },
+    {
+      "url": "https://www.westernjournal.com/trump-incensed-bill-maher-unleashes-1300-word-post-ripping-sleazebag/",
+      "title": "Trump Incensed by Bill Maher, Unleashes 1,300-Word Post Ripping 'Sleazebag'"
+    },
+    {
+      "url": "https://www.washingtonpost.com/technology/2025/06/03/trump-truth-social-twitter/",
+      "title": "Tallying Trump\u2019s online posting frenzy: 2,262 \u2018truths\u2019 in 132 days - The Washington Post"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/white-house-explains-why-donald-080940792.html",
+      "title": "White House Explains Why Donald Trump Posts So Much to Truth Social"
+    },
+    {
+      "url": "https://rollcall.com/2024/10/02/trump-averages-more-than-24-truth-social-posts-a-day-and-he-was-even-busier-during-the-vp-debate/",
+      "title": "Trump averages more than 24 Truth Social posts a day and he was even busier during the VP debate"
+    },
+    {
+      "url": "https://www.thedailybeast.com/triggered-trump-unravels-in-truth-social-posting-frenzy/",
+      "title": "Triggered Trump Unravels in Truth Social Posting Frenzy"
+    },
+    {
+      "url": "https://www.poynter.org/commentary/2026/trump-truth-social-posting-spree-lies/",
+      "title": "Trump\u2019s overnight posting frenzy draws swift pushback, fact checks - Poynter"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-80-hits-back-over-his-dwindling-crowd-sizes-in-frantic-posting-frenzy",
+      "title": "Trump, 80, Hits Back Over His Dwindling Crowd Sizes in Frantic Posting Frenzy"
+    },
+    {
+      "url": "https://www.forbes.com/sites/conormurray/2026/10/04/trump-launches-bizarre-sunday-posting-spree-from-crumbling-kennedy-center-to-greenland-memes/",
+      "title": "Trump Fires Off 23 Truth Social Posts In 1 Hour During Wild Sunday Spree"
+    },
+    {
+      "url": "https://littlethings.com/entertainment/donald-trump-truth-social-posting-spree",
+      "title": "Donald Trump Goes on Another Bizarre Truth Social Posting Spree And This Time Nothing Is Off-Limits"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/07/trump-truth-social-ai-images-posting-spree.html",
+      "title": "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-embarks-truth-social-033229766.html",
+      "title": "Donald Trump Embarks on Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.thedailybeast.com/trump-fires-off-46-posts-in-manic-two-hour-spree/",
+      "title": "Trump Fires Off 46 Posts in Manic Two-Hour Spree"
+    },
+    {
+      "url": "https://www.yahoo.com/news/videos/donald-trump-goes-posting-spree-212249035.html",
+      "title": "Donald Trump Goes on Posting Spree as Rally Crowd Questions Mount"
+    },
+    {
+      "url": "https://rollcall.com/2026/01/20/trump-by-the-numbers-first-year/",
+      "title": "What the numbers say: Trump\u2019s 2025 versus his 2017"
+    },
+    {
+      "url": "https://x.com/kirk_bado/status/1929860605617307787",
+      "title": "Kirk A. Bado on X: \"Roll Call has a great tracker of Trump's social media posts https://t.co/uAWrAOaSiT\" / X"
+    },
+    {
+      "url": "https://www.axios.com/2025/12/02/trump-truth-social-december-150-posts-social-media",
+      "title": "What Trump said in a 158-post, late-night Truth Social barrage"
+    },
+    {
+      "url": "https://www.irishstar.com/news/us-news/donald-trump-posts-20-times-37830847",
+      "title": "Donald Trump posts 20 times in 10 minutes in desperate Truth Social push"
+    },
+    {
+      "url": "https://ibtimes.co.uk/trump-truth-social-republican-turnout-midterm-tele-rallies-1829335",
+      "title": "Donald Trump's 'SWAMP' Message to Republicans Tops His Rapid-Fire Truth Social Push Before the Midterms"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/trump-middle-of-the-night-posting-spree_n_6acf1bcbe4b08a0fe8547e78",
+      "title": "Trump Had A Seriously Wild Night On Truth Social"
+    },
+    {
+      "url": "https://www.thedailybeast.com/sleepless-trump-80-unravels-in-deranged-1am-truth-social-posting-spree/",
+      "title": "Sleepless Trump, 80, Unravels in Deranged 1AM Truth Social Posting Spree"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-posts-overnight-truth-social-082532729.html",
+      "title": "Trump Posts Overnight Truth Social Messages About Primary Results"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/trump-80-unravels-1-m-083811721.html",
+      "title": "Trump, 80, Unravels in 1AM Posting Frenzy"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/trump-cant-stop-posting-midnight-235610688.html",
+      "title": "Trump Can't Stop Posting After Midnight. Here's What Could Be Driving It, According To Experts."
+    },
+    {
+      "url": "https://www.kadoa.com/potus/truth",
+      "title": "What Did Trump Post Today? Truth Social Posts Ranked by Impact"
+    },
+    {
+      "url": "https://www.trumpstruth.org/",
+      "title": "Trump\u2019s Truth"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/25/media/trump-bill-maher-truth-social-longest-post-ever",
+      "title": "Trump rails against Bill Maher in his longest Truth Social post ever"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/fact-check-trump-did-not-214716146.html",
+      "title": "Fact Check: Trump Did NOT Post To Truth Social Already Declaring Victory In The Midterms And Saying Counting Ballots Is 'Wasting Time'"
+    },
+    {
+      "url": "https://www.newsweek.com/trump-shares-picture-of-reuters-reporter-after-midterms-travel-question-12645330",
+      "title": "Trump posts photo of Reuters reporter after \"you look like hell\" clash"
+    },
+    {
+      "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-kansas-november-1",
+      "title": "2 days until midterms, Trump campaigns in Iowa and Kansas as both parties make final push"
+    },
+    {
+      "url": "https://www.snopes.com/fact-check/trump-wasting-time-ballots-post/",
+      "title": "Did Trump post 'Why are we wasting time counting ballots'? Don't be fooled"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6175318-trump-midterm-election-interference-honest/",
+      "title": "Donald Trump says he will respect 'honest' midterm results amid election interference concerns"
+    },
+    {
+      "url": "https://www.europesays.com/3345550/",
+      "title": "Trump holds virtual rallies at Mar-a-Lago after streak of legal losses over midterm ballots: Live updates - EUROPE SAYS"
+    },
+    {
+      "url": "https://www.ibtimes.co.uk/trump-truth-social-republican-turnout-midterm-tele-rallies-1829335",
+      "title": "Donald Trump's 'SWAMP' Message to Republicans Tops His Rapid-Fire Truth Social Push Before the Midterms"
+    },
+    {
+      "url": "https://www.inkl.com/news/donald-trumps-swamp-message-to-republicans-tops-his-rapid-fire-truth-social-push-before-the-midterms",
+      "title": "Donald Trump's 'SWAMP' Message to Republicans Tops His Rapid-Fire Truth Social Push Before the Midterms"
+    },
+    {
+      "url": "https://idahopublicpress.com/trump-posts-20-times-in-10-minutes-as-truth-social-traffic-slips/",
+      "title": "Trump Posts 20 Times in 10 Minutes as Truth Social Traffic Slips"
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2026/10/30/trump-adds-weekend-rallies-back-after-canceling-day-earlier/",
+      "title": "Trump adds weekend rallies back after canceling a day earlier - The Washington Post"
+    },
+    {
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6022128/trump-rally-2026-midterms-republicans",
+      "title": "Trump thanks supporters for the memories in final campaign stops for 2026 midterms"
+    },
+    {
+      "url": "https://www.newsnationnow.com/politics/trump-virtual-rallies-midterm-final-stretch/",
+      "title": "Trump pivots to virtual rallies in final midterm push after Kansas, Iowa events canceled"
+    },
+    {
+      "url": "https://www.ms.now/news/trump-rallies-midterm-election-kansas-iowa-republicans",
+      "title": "Trump will now hold rallies in Kansas and Iowa, a day after the RNC said they were off"
+    }
+  ]
+}

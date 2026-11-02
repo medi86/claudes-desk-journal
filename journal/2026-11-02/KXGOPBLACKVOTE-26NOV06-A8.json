@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "ticker": "KXGOPBLACKVOTE-26NOV06-A8",
+  "event": "KXGOPBLACKVOTE-26NOV06",
+  "series": "KXGOPBLACKVOTE",
+  "title": "Will Republicans receive above 8% of the Black vote in the 2026 national U.S. House exit poll?",
+  "rules": "If the Republican share of the Black vote in the 2026 national U.S. House exit poll is above 8%, then the market resolves to Yes.",
+  "rules_secondary": "The value is the percentage shown in the Republican (or Rep.) column of the aggregate Black row in the national U.S. House exit poll table. The primary resolution source is the CNN figure displayed at exactly 12:00 PM ET on November 6, 2026. If unavailable, CNN remains the primary source for 24 hours after that time. If it remains unavailable, use CBS News followed by ABC News through 11:59 PM ET on November 7, 2026.",
+  "close_time": "2026-11-06T16:59:00+00:00",
+  "expected_close_time": "2026-11-06T16:59:00+00:00",
+  "forecast_at": "2026-11-02T01:11:43.206328+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.76",
+    "reasoning": "In every midterm exit poll since 2006, Republicans have taken at least about 9% of the Black House vote, including in the 2018 Democratic wave, and recent cycles were higher (about 12-13% in 2022 and 2024). Pre-election 2026 polls show Republicans at 7-8% of Black voters with many undecided; once undecideds are split, as exit polls effectively do, that works out to roughly 9-11%. The main risk is that a historic anti-Trump wave pushes the figure to exactly 8% or lower, since the line is only one point away.",
+    "falsifier": "CNN's national House exit poll on Nov 6, 2026 shows the Republican share of Black voters at 8% or lower, for example a 90-8 or 91-7 split.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7600",
+    "best_yes_ask": "0.8000",
+    "p_market": "0.7800"
+  },
+  "final": {
+    "p_yes": "0.76",
+    "action": "pass",
+    "reasoning": "The market's 0.78 midpoint is very close to my independent estimate of 0.76. Betting NO would mean selling at the 0.76 bid, which equals my probability, so there's no edge on either side and I'm passing."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-10-30/",
+      "title": "Generic ballot poll, Oct 30, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "title": "Midterm voting preferences by race, age and other demographics"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-10-14/",
+      "title": "Generic ballot poll, Oct 14, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-08-09/",
+      "title": "Generic ballot poll, Aug 9, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-10-03/",
+      "title": "Generic ballot poll, Oct 3, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://www.pewresearch.org/politics/2026/10/08/midterm-vote-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "title": "Midterm Vote Preferences by Race, Age and Other Demographics"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-10-21/",
+      "title": "Generic ballot poll, Oct 21, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://uspollingdata.com/polls/generic-ballot/",
+      "title": "Generic Ballot October 2026: D+7.4 \u2014 House Forecast, Pollster Breakdown & Monthly Trend"
+    },
+    {
+      "url": "https://www.dailykos.com/stories/2026/11/1/800120702/community/2026-us-house-of-representatives-election-prediction-the-south/",
+      "title": "2026 US House of Representatives Election Prediction- The South - Daily Kos"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/2026-09-22/",
+      "title": "Generic ballot poll, Sep 22, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://www.activote.net/polls/generic-ballot/",
+      "title": "Democrats Hold Clear Lead in Our Final Generic Ballot Poll"
+    },
+    {
+      "url": "https://www.cnn.com/interactive/2022/politics/exit-polls-2022-midterm-2018-shift/",
+      "title": "Exit polls show shifts among 2022 midterm voters compared with 2018 - CNN"
+    },
+    {
+      "url": "https://edition.cnn.com/election/2022/exit-polls/texas/governor/0",
+      "title": "Cnn"
+    },
+    {
+      "url": "https://www.dailywire.com/news/gop-grows-support-among-black-hispanic-youth-voting-blocs-exit-polls-find",
+      "title": "GOP Grows Support Among Black, Hispanic, Youth Voting Blocs, Exit Polls Find"
+    },
+    {
+      "url": "https://www.cnn.com/2022/11/08/politics/exit-polls-midterm-election-analysis",
+      "title": "Exit polls: High inflation dominates voters\u2019 views in the midterm elections"
+    },
+    {
+      "url": "https://centerforpolitics.org/crystalball/black-voters-and-the-2024-presidential-election-a-breakthrough-for-trump/",
+      "title": "Black Voters and the 2024 Presidential Election: A Breakthrough for Trump? - Sabato's Crystal Ball"
+    },
+    {
+      "url": "https://www.forbes.com/sites/bowmanmarsico/2022/11/09/the-2022-exit-polls-a-z/",
+      "title": "The 2022 Exit Polls: A-Z"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2022-elections/exit-polls/",
+      "title": "Live exit polls 2022: Election Day exit polls for Democrats vs Republicans"
+    },
+    {
+      "url": "https://www.cnn.com/2022/12/16/politics/black-voter-turnout-2024/index.html",
+      "title": "Black voter turnout was down in 2022. Democratic operatives are panicking about what it could mean for 2024"
+    },
+    {
+      "url": "https://abcnews.com/Elections/exit-polls-2022-us-house-election-results-analysis",
+      "title": "Exit Polls for 2022 US House Election: Results & Analysis - ABC News"
+    },
+    {
+      "url": "https://www.aei.org/op-eds/the-2022-exit-polls-a-z/",
+      "title": "The 2022 Exit Polls: A-Z"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-elections/north-carolina-results",
+      "title": "North Carolina Midterm Elections 2026: Key Races, Candidates and Past Results"
+    },
+    {
+      "url": "https://newsweek.com/abdul-el-sayed-michigan-black-voters-compared-kamala-harris-2024-slotkin-12645983",
+      "title": "Abdul El-Sayed's Black Voter Support Compared to Kamala Harris, Elissa Slotkin in 2024 - Newsweek"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+      "title": "New poll shows Democrats have midterm edge, with caution signs : NPR"
+    },
+    {
+      "url": "https://uspollingdata.com/news/black-voter-turnout-2026/",
+      "title": "Black Voter Turnout in 2026: 90%+ Democratic but the 2024 Harris Gap Lingers"
+    },
+    {
+      "url": "https://www.zerohedge.com/political/will-black-voters-rescue-gop-2026",
+      "title": "Will Black Voters Rescue The GOP In 2026?<!-- -->"
+    },
+    {
+      "url": "https://pjmedia.com/scott-pinsker/2026/10/22/midterm-shocker-the-polls-are-full-of-crap-and-black-voters-just-might-save-america-n4958575",
+      "title": "Midterm Shocker: The Polls Are Full of Crap \u2014 and Black Voters Just Might Save America"
+    },
+    {
+      "url": "https://www.cnn.com/politics/early-voting-2026-us-midterm-election-vis",
+      "title": "Tracking early voting in the 2026 US midterm election"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/21/politics/cnn-poll-trump-democrats-republicans-midterms",
+      "title": "Trump\u2019s approval rating hits a new low as midterms enter final stretch: CNN poll"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+      "title": "Democrats in striking distance: New CNN polls in four states highlight party\u2019s path to Senate majority"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/27/world/video/one-world-talks-with-andrew-mccaskill-about-the-black-vote",
+      "title": "black voters express their concerns going into the 2026 Midterm Election"
+    },
+    {
+      "url": "https://www.newsweek.com/abdul-el-sayed-michigan-black-voters-compared-kamala-harris-2024-slotkin-12645983",
+      "title": "Abdul El-Sayed's Black Voter Support Compared to Kamala Harris, Elissa Slotkin in 2024 - Newsweek"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/articles/abdul-el-sayeds-black-voter-025203532.html",
+      "title": "Abdul El-Sayed's Black voter support compared to Harris and Slotkin in 2024"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/04/politics/midterms-2026-counties-to-watch",
+      "title": "The counties to watch on the massive midterm elections battlefield"
+    },
+    {
+      "url": "https://www.cnn.com/2026/11/01/politics/election-night-midterm-races",
+      "title": "If a blue wave is coming, here are the races where it will start"
+    },
+    {
+      "url": "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/",
+      "title": "As the 2026 Midterms Approach, Economy Is Front and Center"
+    },
+    {
+      "url": "https://www.pewresearch.org/short-reads/2026/10/13/religious-groups-differ-widely-in-their-2026-midterm-preferences/",
+      "title": "Religious Groups Differ Widely in Their 2026 Midterm Preferences"
+    },
+    {
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/10/PP_2026.10.8_midterms_report.pdf",
+      "title": "FOR RELEASE OCTOBER 8, 2026 With Americans in a Sour Mood, Democratic"
+    },
+    {
+      "url": "https://greaterdiversity.com/the-black-vote-isnt-disappearing-the-question-is-whether-it-will-show-up-in-2026/",
+      "title": "The Black Vote Isn\u2019t Disappearing. The Question Is Whether It Will Show Up in 2026 - Greater Diversity News"
+    },
+    {
+      "url": "https://courthousenews.com/economic-issues-are-driving-voter-choice-in-2026-midterms/",
+      "title": "Economic issues are driving voter choice in 2026 midterms"
+    },
+    {
+      "url": "https://capitalbnews.org/black-candidates-governor-races-2026/",
+      "title": "Every Black Candidate Running for Governor in the 2026 Midterms - Capital B News"
+    },
+    {
+      "url": "https://www.afro.com/opinion/black-men-are-not-a-voting-bloc-to-be-managed-the-2026-midterms-should-make-that-clear-dc39a49d",
+      "title": "Black men are not a voting bloc to be managed"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-elections/michigan-results",
+      "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results"
+    },
+    {
+      "url": "https://capitalbnews.org/2026-midterms-black-voters-key-races/",
+      "title": "Midterms 2026: Key Races and What They Mean for Black Voters - Capital B News"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-elections/texas-results",
+      "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-elections/georgia-results",
+      "title": "Georgia Midterm Elections 2026: Key Races, Candidates and Past Results"
+    },
+    {
+      "url": "https://emersoncollegepolling.com/october-2026-national-poll-democrats-hold-10-point-midterm-advantage/",
+      "title": "October 2026 National Poll: Democrats Hold 10-Point Midterm Advantage - Emerson Polling"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
+      "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
+    },
+    {
+      "url": "https://blog.fiftyplusone.news/p/how-different-demographic-groups",
+      "title": "How different demographic groups have shifted this cycle"
+    },
+    {
+      "url": "https://www.cfr.org/articles/ten-poll-numbers-that-explain-the-2026-midterm-elections",
+      "title": "Ten Poll Numbers That Explain the 2026 Midterm Elections"
+    },
+    {
+      "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+      "title": "Hottest 2026 Midterm Races\u2014Democrats Lead Almost All Major Senate Contests"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-elections/arizona-results",
+      "title": "Arizona Midterm Elections 2026: Key Races, Candidates and Past Results"
+    },
+    {
+      "url": "https://www.yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html",
+      "title": "The 2026 midterms are just 3 days away. Which party has a better chance of winning? Here's what the latest polls say."
+    }
+  ]
+}

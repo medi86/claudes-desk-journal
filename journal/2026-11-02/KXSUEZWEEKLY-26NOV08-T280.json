@@ -1,0 +1,237 @@
+{
+  "schema": 1,
+  "ticker": "KXSUEZWEEKLY-26NOV08-T280",
+  "event": "KXSUEZWEEKLY-26NOV08",
+  "series": "KXSUEZWEEKLY",
+  "title": "Will there be more than 280 transit calls through the Suez Canal from Nov 2, 2026 to Nov 8, 2026? Above 280",
+  "rules": "If the number of transit calls through the Suez Canal as reported by the IMF PortWatch is above 280 from Nov 2, 2026 to Nov 8, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The total is calculated by summing daily counts from Nov 2, 2026 to Nov 8, 2026. The market will resolve no earlier than Tuesday at 9 AM following the end of the period, once complete data is available.",
+  "close_time": "2026-11-10T14:00:00+00:00",
+  "expected_close_time": "2026-11-10T14:00:00+00:00",
+  "forecast_at": "2026-11-02T01:11:43.206328+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.6",
+    "reasoning": "IMF PortWatch-based data showed about 43 Suez transits a day (about 300 a week) in the week ending Oct 4, 2026, up from about 272 a week in mid-August, so traffic was running slightly above the 280 threshold (about 40 a day). Container lines returning and tankers rerouting because Hormuz is closed support traffic, while a stepped-up Houthi offensive near Bab el-Mandeb is a downside risk. Normal weekly noise is large compared with the gap, so this is only a modest lean toward Yes.",
+    "falsifier": "PortWatch's daily Suez counts for Nov 2\u20138, 2026 add up to 280 or fewer, for example because a new Houthi attack on Red Sea shipping makes carriers re-divert, or traffic slips back to its long-run level of about 38\u201340 a day.",
+    "price_seen": false,
+    "price_sources": []
+  },
+  "contaminated": false,
+  "leak_matches": [],
+  "market": {
+    "best_yes_bid": "0.7800",
+    "best_yes_ask": "0.7900",
+    "p_market": "0.7850"
+  },
+  "final": {
+    "p_yes": "0.72",
+    "action": "pass",
+    "reasoning": "The market at 0.785 probably reflects PortWatch weekly counts from late October that I couldn't access; my newest data (about 43 transits a day in early October) already sat above the 280 threshold. I'm moving toward the market, and the small remaining gap comes from staleness and Houthi risk rather than real information, so I pass."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://predictionscout.com/research/shipping-chokepoint-prediction-markets-imf-portwatch/",
+      "title": "Hormuz & Suez Shipping Prediction Markets vs IMF PortWatch"
+    },
+    {
+      "url": "https://content.ballastmarkets.com/chokepoints/suez-canal/",
+      "title": "Suez Canal: Trade Signals & Routing Strategies"
+    },
+    {
+      "url": "https://www.elestrechodigital.com/en/indicators/ship-traffic-through-the-suez-canal",
+      "title": "Ship traffic through the Suez Canal"
+    },
+    {
+      "url": "https://jasperbernaers.com/strait-watch/",
+      "title": "Strait of Hormuz, Suez & Red Sea Ship Traffic Today \u2014 10 Chokepoints Live"
+    },
+    {
+      "url": "https://github.com/4MaxR/suez-portwatch",
+      "title": "GitHub - 4MaxR/suez-portwatch: Suez Canal & Red Sea disruption 2019-2026 from IMF PortWatch AIS data: Python + DuckDB bronze/silver/gold pipeline, SQL analyses, data-quality tests and an interactive dashboard. \u00b7 GitHub"
+    },
+    {
+      "url": "https://strategicenergymap.org/chokepoints/suez-canal/",
+      "title": "Suez Canal: is it open? Status, ship traffic and oil flows"
+    },
+    {
+      "url": "https://porteconomicsmanagement.org/pemp/contents/part1/interoceanic-passages/daily-transits-selected-strategic-maritime-passages/",
+      "title": "Daily Transits at Selected Strategic Maritime Passages"
+    },
+    {
+      "url": "https://portwatch.imf.org/pages/port2026",
+      "title": "port2026 - IMF PortWatch - International Monetary Fund"
+    },
+    {
+      "url": "https://learnorbis.com/world/chokepoints/suez-canal",
+      "title": "Suez Canal: Map, Traffic and Revenue in 2026 \u00b7 Orbis"
+    },
+    {
+      "url": "https://www.gjopen.com/questions/5240-what-will-be-the-7-day-moving-average-of-daily-transit-calls-for-the-suez-canal-as-of-27-july-2026-according-to-the-imf",
+      "title": "Good Judgment\u00ae Open"
+    },
+    {
+      "url": "https://www.mid-trans.com/blog/suez-canal-traffic-revenue-rebound-august-2026/",
+      "title": "Suez Canal traffic and revenue rebounded in August 2026"
+    },
+    {
+      "url": "https://english.ahram.org.eg/NewsContent/1/1235/578885/Egypt/Urban--Transport/Suez-Canal-container-ship-transits-surge-to--in-Q-.aspx",
+      "title": "Suez Canal container ship transits surge to 166 in Q3 2026 - Urban & Transport - Egypt - Ahram Online"
+    },
+    {
+      "url": "https://www.mid-trans.com/blog/egypt-suez-canal-recovery-2026/",
+      "title": "Suez Is Back Above 1,300 Ships a Month"
+    },
+    {
+      "url": "https://www.ces-intelligence.com/analysis/suez-canal-2026-geopolitical-risk-assessment",
+      "title": "Suez Canal 2026 Geopolitical Risk Assessment"
+    },
+    {
+      "url": "https://www.mid-trans.com/blog/suez-transit-recovery-2026/",
+      "title": "Suez Transits Are Recovering"
+    },
+    {
+      "url": "https://windward.ai/blog/suez-transits-are-up-59-percent-and-rates-are-about-to-fall/",
+      "title": "Suez Transits Are Up 59%, and Rates Are About to Fall"
+    },
+    {
+      "url": "https://www.worldcargonews.com/news/2026/10/suez-canal-container-ship-transits-exceed-50-of-pre-disruption-levels/",
+      "title": "Suez Canal container ship transits exceed 50% of pre-disruption levels"
+    },
+    {
+      "url": "https://globalmaritimehub.com/suez-canal-traffic-declines-for-another-month-amid-red-sea-disruption/",
+      "title": "Suez Canal traffic declines for another month amid Red Sea disruption"
+    },
+    {
+      "url": "https://www.europesays.com/france/99305/",
+      "title": "Suez Canal large container transits jump to 166 in Q3 as CMA CGM returns"
+    },
+    {
+      "url": "https://lexcouncil.com/en/insights/suez-canal-transit-2026-what-foreign-shipping-companies-need-to-know",
+      "title": "Suez Canal Transit 2026 for Foreign Shipping Companies"
+    },
+    {
+      "url": "https://www.bertling.com/news-pool/blog/suez-canal/",
+      "title": "Suez Canal Set for a Comeback in 2026"
+    },
+    {
+      "url": "https://slstist.com/en/suez-canal-red-sea-return-2026/",
+      "title": "Suez Canal Return 2026: Container Lines"
+    },
+    {
+      "url": "https://maritime-executive.com/article/suez-canal-highlights-continued-return-of-containerships",
+      "title": "Suez Canal Highlights Continued Return of Containerships"
+    },
+    {
+      "url": "https://www.gosships.com/p/container-lines-still-refuse-to-sail",
+      "title": "Container Lines Still Refuse to Sail the Red Sea. Oil Tankers Just Surged Back Through Suez, Up 28% Year on Year. Why Are They Sailing Into the Danger Everyone Else Fled?"
+    },
+    {
+      "url": "https://www.aircargonews.net/supply-chains/2026/03/box-lines-unlikely-to-return-to-suez-canal-in-2026-following-middle-east-strikes/",
+      "title": "Box lines unlikely to return to Suez Canal in 2026 following Middle East strikes - Air Cargo News"
+    },
+    {
+      "url": "https://www.metro.global/2026/10/27/suez-canal-return-gathers-pace/",
+      "title": "Suez Canal return gathers pace"
+    },
+    {
+      "url": "https://blog.conquerornetwork.com/2026/07/15/suez-canal-return-what-forwarders-need-to-know-before-booking-their-next-asia-europe-shipment/",
+      "title": "Suez Canal Return 2026: What Freight Forwarders Need to Know"
+    },
+    {
+      "url": "https://shippingarabia.com/suez-canal-container-shipping-recovery/",
+      "title": "Suez Canal Container Shipping Exceeds 50% of 2023 Levels"
+    },
+    {
+      "url": "https://financialports.com/suez-canal-transits-hits-166-boxship-surge-as/",
+      "title": "Suez Canal hits 166-boxship surge as carriers defy Red Sea risks - Financial Ports"
+    },
+    {
+      "url": "https://carraglobe.com/red-sea-carrier-return-2026/",
+      "title": "Red Sea Shipping 2026: Carriers Return as the Risk Rises - Carra Globe"
+    },
+    {
+      "url": "https://www.alupetra.com/insights/houthi-red-sea-attacks-2026-bab-el-mandeb-shipping.html",
+      "title": "Houthi Attacks in the Red Sea, 2026 \u2014 Bab el-Mandeb, Suez and Tanker Traffic"
+    },
+    {
+      "url": "https://redanalysis.org/2026/10/08/houthis-bab-el-mandeb-maritime-transport/",
+      "title": "The Houthis, Bab el-Mandeb, and Maritime Transport \u2022 The Red Team Analysis Society"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-6-august-2026",
+      "title": "Red Sea Brief: 6 August 2026"
+    },
+    {
+      "url": "https://www.fr8-logistik.de/en/fr8-blog-posts/das-rote-meer-2026-wie-die-huthi-angriffe-die-seefracht-nach-deutschland-noch-immer-beeinflussen",
+      "title": "The Red Sea 2026: How Houthi Attacks Still Affect Your Freight"
+    },
+    {
+      "url": "https://www.worldatlas.com/economics/how-the-red-sea-shipping-crisis-affects-global-trade.html",
+      "title": "How The Red Sea Shipping Crisis Affects Global Trade"
+    },
+    {
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/02/red-sea-shipping-reopens",
+      "title": "Red Sea shipping reopens, but renewed Houthi threats keep route uncertainty high"
+    },
+    {
+      "url": "https://www.riotimesonline.com/houthis-red-sea-explained-2026/",
+      "title": "The Houthis and the Red Sea Explained in 2026"
+    },
+    {
+      "url": "https://hub.oceanfreight.jp/en/news/shipping-weekly-2026-10-01/",
+      "title": "Shipping Weekly"
+    },
+    {
+      "url": "https://continuityofoperations.substack.com/p/suez-traffic-sharply-increases",
+      "title": "Suez traffic sharply increases - by Rick Christ"
+    },
+    {
+      "url": "https://worldtradepro.com/trade-lanes/red-sea-suez-canal/",
+      "title": "Red Sea & Suez Canal Shipping Tracker: Disruptions & Risk 2026"
+    },
+    {
+      "url": "https://www.bimco.org/news-insights/market-analysis/shipping-number-of-the-week/2026/1014-snow/",
+      "title": "Suez Canal container ship transits exceed 50% of pre-disruption levels"
+    },
+    {
+      "url": "https://www.riotimesonline.com/egypt-suez-canal-hapag-lloyd-transits-2026",
+      "title": "Suez Canal Courts Hapag-Lloyd Ships After Talks"
+    },
+    {
+      "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-1-october-2026",
+      "title": "Red Sea Brief - 1 October 2026"
+    },
+    {
+      "url": "https://tankermap.com/analytics/straits/suez",
+      "title": "Suez Canal - Tanker Traffic - Daily Transits & Tonnage"
+    },
+    {
+      "url": "https://wwd.com/sourcing-journal/logistics/red-sea-return-suez-canal-container-shipping-comeback-risk-houthis-1239347017/",
+      "title": "Red Sea Comeback: Container Ships Return to Suez Canal Despite Risks"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Red_Sea_crisis",
+      "title": "Red Sea crisis"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/04/middleeast/yemen-offensive-houthis-intl",
+      "title": "Saudi-backed Yemeni forces attack Houthis near key global trade route"
+    },
+    {
+      "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/yemen-91.php",
+      "title": "Yemen, October 2026 Monthly Forecast : Security Council Report"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship",
+      "title": "Yemen\u2019s Houthis report attack on Saudi oil tanker in Red Sea"
+    }
+  ]
+}

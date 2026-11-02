@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "ticker": "KXCLOSERFLSCSEN-26NOV10-SCSEN",
+  "event": "KXCLOSERFLSCSEN-26NOV10",
+  "series": "KXCLOSERFLSCSEN",
+  "title": "Will South Carolina US Senate have the smallest margin of victory in the November 3, 2026 general elections for Florida US Senate (special election) and South Carolina US Senate?",
+  "rules": "If South Carolina US Senate has the smallest margin of victory among all elections in the November 3, 2026 general elections for Florida US Senate (special election) and South Carolina US Senate as of Nov 10, 2026, then the market resolves to Yes.",
+  "rules_secondary": "The margin of victory is calculated as the absolute difference in vote share (expressed as percentage) between first and second place finishers, using total votes cast as the denominator. If official results aren't available by the deadline, preliminary results from Source Agencies with at least 95% of expected vote are used. If multiple elections have identical margins and relevant options are listed, each tied option resolves to Yes at $1.00 divided by the number of tied options.",
+  "close_time": "2026-11-10T15:00:00+00:00",
+  "expected_close_time": "2026-11-10T15:00:00+00:00",
+  "forecast_at": "2026-11-02T01:11:43.206328+00:00",
+  "models": {
+    "blind": "claude-opus-5-5",
+    "anchored": "claude-opus-5-5"
+  },
+  "blind": {
+    "p_yes": "0.7",
+    "reasoning": "Late-October poll averages show South Carolina's Senate race (Graham vs. Andrews) at roughly Graham +0.1 to +2.7, a toss-up, while Florida's special (Moody vs. Nixon) averages about Moody +6. Polling errors in the two states tend to move together, so I simulated both races with a shared error. South Carolina ended up with the smaller margin about 68-70% of the time. The main way it fails is a Democratic overperformance that lets Andrews win clearly while Florida tightens.",
+    "falsifier": "Andrews wins South Carolina by more than Moody's margin in Florida, for example Andrews +5 while Moody wins by only 2-3, or a South Carolina blowout from an unexpected polling miss.",
+    "price_seen": true,
+    "price_sources": [
+      "https://poliagg.com/race/us-senate-2026-sc/"
+    ]
+  },
+  "contaminated": true,
+  "leak_matches": [
+    "odds and displayed a 6%/94%"
+  ],
+  "market": {
+    "best_yes_bid": "0.7000",
+    "best_yes_ask": "0.7200",
+    "p_market": "0.7100"
+  },
+  "final": {
+    "p_yes": "0.7",
+    "action": "pass",
+    "reasoning": "The market's 0.71 midpoint is almost exactly my 0.70 estimate. The spread leaves no edge on either side, so I don't change my view and I don't trade."
+  },
+  "decision": {
+    "status": "passed",
+    "reason": "passed"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+      "title": "2026 United States Senate special election in Florida"
+    },
+    {
+      "url": "https://www.activote.net/polls/2026/fl-u-s-senate/",
+      "title": "Moody Holds Lead Over Nixon in Florida Senate Race"
+    },
+    {
+      "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/florida-special",
+      "title": "Florida Senate Polls 2026: Moody 49.4% vs Nixon 43.1%"
+    },
+    {
+      "url": "https://www.poliwave.com/us/fl/sen-fed",
+      "title": "Florida Senate Polls and Forecast 2026: Nixon vs Moody"
+    },
+    {
+      "url": "https://www.activote.net/polls/2026/fl-u-s-senate/2026-10-15/",
+      "title": "Moody Leads Nixon in Florida Senate Race \u00b7 Oct 15, 2026"
+    },
+    {
+      "url": "https://onpointpolitics.us/polls/fl/senate",
+      "title": "Florida Senate polls 2026: Nixon vs Moody polling average"
+    },
+    {
+      "url": "https://sri.siena.edu/2026/10/28/nytimes-siena-poll-of-likely-voters-florida-minnesota-and-south-carolina/",
+      "title": "NYTimes/Siena Poll of Likely Voters"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-election/florida-poll-republicans-lead-races-governor-senate-rcna601342",
+      "title": "Florida poll: Republicans lead governor and Senate midterm election races"
+    },
+    {
+      "url": "https://uspollingdata.com/races/senate/florida/",
+      "title": "Florida Senate Race 2026 Polls: Ashley Moody leads"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
+      "title": "2026 United States Senate election in South Carolina"
+    },
+    {
+      "url": "https://www.270towin.com/2026-senate-polls/south-carolina",
+      "title": "2026 Polls: South Carolina Senate - 270toWin"
+    },
+    {
+      "url": "https://www.foxcarolina.com/2026/10/26/new-poll-shows-neck-and-neck-senate-race-double-digit-lead-governor-sc-midterms/",
+      "title": "New poll shows neck-and-neck Senate race, double-digit lead for governor in SC midterms"
+    },
+    {
+      "url": "https://poliagg.com/race/us-senate-2026-sc/",
+      "title": "South Carolina Senate 2026 Polls \u2014 Andrews vs Graham \u2014 PoliAgg"
+    },
+    {
+      "url": "https://poll.citadel.edu/2026/10/27/sc-voters-look-to-pass-the-torch-in-the-midterms/",
+      "title": "SC Voters Look to Pass the Torch in the Midterms"
+    },
+    {
+      "url": "https://www.predictionedge.com/elections/us-senate/south-carolina-race-winner-by-party/",
+      "title": "2026 South Carolina Senate Election: Polls & Odds"
+    },
+    {
+      "url": "https://votes.decisiondeskhq.com/races/2026-11-03/south-carolina-us-senate-general-election/forecast",
+      "title": "2026 SC US Senate General Election Forecast - DDHQ Votes"
+    },
+    {
+      "url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-finds-graham-leading-andrews-by-four-points",
+      "title": "ECU Center for Survey Research - ECU Poll Finds Graham Leading Andrews by Four Points"
+    },
+    {
+      "url": "https://abcnews4.com/news/local/new-nytsiena-poll-shows-sc-senate-race-tied-as-andrews-graham-deadlocked-at-48",
+      "title": "New NYT/Siena poll shows SC Senate race tied as Andrews, Graham deadlocked at 48%"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/fox-news-power-rankings-south-carolina-moves-toss-up",
+      "title": "Fox News Power Rankings shift Ohio and South Carolina Senate races"
+    },
+    {
+      "url": "https://www.activote.net/polls/2026/fl-u-s-senate/2026-10-27/",
+      "title": "FL U.S. Senate poll, Oct 27, 2026 \u00b7 ActiVote"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-primary-special-elections/florida-senate-results",
+      "title": "Florida Senate Primary Special Election 2026 Live Results: Moody, Nixon, Vindman and More"
+    },
+    {
+      "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
+      "title": "Florida Election Watch - US Senator"
+    },
+    {
+      "url": "https://www2.stetson.edu/today/2026/10/stetson-poll-donalds-moody-lead-in-final-pre-election-survey-as-races-tighten/",
+      "title": "Stetson Poll: Donalds, Moody Lead in Final Pre-Election Survey as Races Tighten - Stetson Today"
+    },
+    {
+      "url": "https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-senate-special-election-general",
+      "title": "2026 FL US Senate Special General Election Results"
+    },
+    {
+      "url": "https://www2.stetson.edu/today/2026/10/stetson-poll-donalds-moody-maintain-double-digit-leads/",
+      "title": "Stetson Poll: Donalds, Moody Maintain Double-Digit Leads in 2026 Elections - Stetson Today"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-primary-special-elections/south-carolina-senate-runoff-results",
+      "title": "South Carolina Senate Primary Special Runoff Election 2026 Live Results: Darline Graham vs. Ralph Norman"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/south-carolina-senate-results",
+      "title": "South Carolina Senate Primary Election 2026 Live Results"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/2026-primary-special-elections/south-carolina-senate-results",
+      "title": "South Carolina Senate Primary Special Election 2026 Live Results: Graham, Norman, Fry and More"
+    }
+  ]
+}
